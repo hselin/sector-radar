@@ -1,0 +1,51 @@
+# OS generated files
+**/.DS_Store
+**/Thumbs.db
+ehthumbs.db
+
+# Node dependencies (if using npm/yarn for tooling)
+node_modules/
+
+# Build output
+dist/
+build/
+_site/
+
+# Log files
+*.log
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+
+# Environment files
+.env
+.env.local
+
+# Compiled files
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packaged files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Database files
+*.sql
+*.sqlite
+
+# Bower components (if used)
+bower_components/
+
+# Vendor directory (for PHP/Composer projects)
+vendor/
+
