@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sector Rotation Radar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #10B981, #3B82F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Remove cursor pointer from non-interactive list */
+        .sector-row {
+            cursor: default;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    <main class="container mx-auto px-4 sm:px-6 py-8">
+        <section id="header" class="pb-8">
+            <h1 class="text-3xl sm:text-4xl font-bold text-white">
+                U.S. Market Sectors
+            </h1>
+            <p class="mt-2 text-base sm:text-lg text-gray-400">
+                Performance overview of S&P 500 sectors. Hover over a chart segment for more details.
+            </p>
+        </section>
+
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+
+            <div id="sector-list-container" class="lg:col-span-1 bg-gray-800 p-4 rounded-lg shadow-lg">
+                <h2 class="text-xl font-bold text-white mb-4 border-b border-gray-700 pb-2">Sector Performance</h2>
+                <div id="sector-list" class="space-y-1">
+                    </div>
+            </div>
+
+            <div id="right-column-container" class="lg:col-span-2 bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col justify-center items-center">
+                <div class="relative w-full h-full min-h-[50vh] lg:min-h-0">
+                    <canvas id="sector-polar-chart"></canvas>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 border-t border-gray-700 mt-8">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <a href="https://KaChing-Labs.com" class="text-lg font-semibold text-white">KaChing <span class="text-emerald-400">Labs</span></a>
+            <p class="mt-2 text-sm">Intelligent tools for your financial journey.</p>
+            <p id="copyright" class="mt-4 text-xs">&copy; 2025 KaChing Labs. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- Page Generation ---
+
+        // Mock Data - This simulates the data.json file that your backend will generate.
+        const marketData = {
+            "sectors": [
+                { "sector": "Information Technology", "market_weight": 0.28, "change_pct": 1.25, "insights": "<b>Positive Momentum:</b> The tech sector's gain of 1.25% reflects ongoing investor confidence. This could be tied to strong earnings forecasts and breakthroughs in AI technology.<br><br><b>Key Companies:</b> Apple (AAPL), Microsoft (MSFT), Nvidia (NVDA).<br><br><b>Outlook:</b> Bullish." },
+                { "sector": "Health Care", "market_weight": 0.14, "change_pct": 0.40, "insights": "<b>Steady Gains:</b> Health Care saw a modest gain. This defensive sector often performs well in uncertain markets. Positive clinical trial news from a major pharmaceutical company may have contributed.<br><br><b>Key Companies:</b> Johnson & Johnson (JNJ), UnitedHealth Group (UNH), Pfizer (PFE).<br><br><b>Outlook:</b> Neutral to Bullish." },
+                { "sector": "Financials", "market_weight": 0.12, "change_pct": -0.20, "insights": "<b>Slight Downturn:</b> Financials experienced a minor dip. This could be due to uncertainty regarding future interest rate decisions by the Federal Reserve.<br><br><b>Key Companies:</b> JPMorgan Chase (JPM), Berkshire Hathaway (BRK.B), Bank of America (BAC).<br><br><b>Outlook:</b> Neutral." },
+                { "sector": "Consumer Discretionary", "market_weight": 0.10, "change_pct": -1.75, "insights": "<b>Significant Drop:</b> This sector's sharp decline of 1.75% suggests worries about consumer spending power, possibly linked to recent inflation data or a drop in consumer confidence.<br><br><b>Key Companies:</b> Amazon (AMZN), Tesla (TSLA), Home Depot (HD).<br><br><b>Outlook:</b> Bearish." },
+                { "sector": "Communication Services", "market_weight": 0.09, "change_pct": 0.95, "insights": "<b>Strong Performance:</b> A solid gain for Communication Services, likely driven by strong performance from major streaming and social media platforms.<br><br><b>Key Companies:</b> Alphabet (GOOGL), Meta Platforms (META), Netflix (NFLX).<br><br><b>Outlook:</b> Bullish." },
+                { "sector": "Industrials", "market_weight": 0.08, "change_pct": 0.15, "insights": "<b>Modest Gains:</b> The Industrials sector saw a slight uptick, possibly due to positive manufacturing data or government infrastructure spending announcements.<br><br><b>Key Companies:</b> Caterpillar (CAT), Boeing (BA), Union Pacific (UNP).<br><br><b>Outlook:</b> Neutral." },
+                { "sector": "Consumer Staples", "market_weight": 0.06, "change_pct": -0.50, "insights": "<b>Defensive Dip:</b> A slight loss for this defensive sector. Investors may be rotating into higher-growth areas like Tech and Energy.<br><br><b>Key Companies:</b> Procter & Gamble (PG), Coca-Cola (KO), Walmart (WMT).<br><br><b>Outlook:</b> Neutral to Bearish." },
+                { "sector": "Energy", "market_weight": 0.05, "change_pct": 2.10, "insights": "<b>Top Performer:</b> The Energy sector led the market with a strong 2.10% gain. This is almost certainly tied to a recent surge in global oil prices and geopolitical tensions.<br><br><b>Key Companies:</b> Exxon Mobil (XOM), Chevron (CVX), ConocoPhillips (COP).<br><br><b>Outlook:</b> Bullish." },
+                { "sector": "Utilities", "market_weight": 0.03, "change_pct": -0.90, "insights": "<b>Underperforming:</b> Utilities, a typically stable sector, saw a notable decline. This can happen when interest rates are expected to rise, making their dividends less attractive.<br><br><b>Key Companies:</b> NextEra Energy (NEE), Duke Energy (DUK), Southern Company (SO).<br><br><b>Outlook:</b> Bearish." },
+                { "sector": "Real Estate", "market_weight": 0.03, "change_pct": -1.10, "insights": "<b>Interest Rate Sensitivity:</b> The decline in Real Estate is likely a direct response to fears of rising interest rates, which increases borrowing costs and can cool the housing market.<br><br><b>Key Companies:</b> American Tower (AMT), Prologis (PLD), Crown Castle (CCI).<br><br><b>Outlook:</b> Bearish." },
+                { "sector": "Materials", "market_weight": 0.02, "change_pct": 0.05, "insights": "<b>Flat Performance:</b> The Materials sector was nearly unchanged. This suggests a balance between demand from construction and industrial activity and concerns about a potential economic slowdown.<br><br><b>Key Companies:</b> Linde (LIN), Sherwin-Williams (SHW), DuPont (DD).<br><br><b>Outlook:</b> Neutral." }
+            ]
+        };
+
+        function generatePage() {
+            try {
+                const sectorData = marketData.sectors;
+
+                // --- Generate Sector List (Left Column) ---
+                const sectorList = document.getElementById('sector-list');
+                let listHtml = '';
+
+                // Sort by market weight for consistent display
+                sectorData.sort((a, b) => b.market_weight - a.market_weight);
+
+                sectorData.forEach(item => {
+                    const sectorId = item.sector.toLowerCase().replace(/ /g, '-');
+                    const isPositive = item.change_pct >= 0;
+                    const colorClass = isPositive ? 'text-green-400' : 'text-red-400';
+                    const sign = isPositive ? '+' : '';
+                    const formattedChange = `${sign}${item.change_pct.toFixed(2)}%`;
+
+                    listHtml += `
+                        <div class="sector-row flex justify-between items-center p-2 rounded-md">
+                            <span class="font-medium text-sm sm:text-base text-gray-300">${item.sector}</span>
+                            <span id="perf-${sectorId}" class="font-bold text-base sm:text-lg ${colorClass}">${formattedChange}</span>
+                        </div>
+                    `;
+                });
+                sectorList.innerHTML = listHtml;
+
+                // --- Generate Polar Area Chart (Right Column) ---
+                const chartCtx = document.getElementById('sector-polar-chart').getContext('2d');
+
+                const labels = sectorData.map(s => s.sector);
+                const chartData = sectorData.map(s => s.market_weight);
+                const backgroundColors = sectorData.map(s => {
+                    if (s.change_pct > 0) {
+                        return `rgba(16, 185, 129, 0.7)`; // Green-500 with opacity
+                    } else if (s.change_pct < 0) {
+                        return `rgba(239, 68, 68, 0.7)`; // Red-500 with opacity
+                    }
+                    return `rgba(107, 114, 128, 0.7)`; // Gray-500 with opacity
+                });
+
+                const polarAreaChart = new Chart(chartCtx, {
+                    type: 'polarArea',
+                    data: {
+                        labels: labels,
+                        datasets: [{
+                            label: 'Market Weight',
+                            data: chartData,
+                            backgroundColor: backgroundColors,
+                            borderColor: '#374151', // border-gray-700
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        responsive: true,
+                        maintainAspectRatio: false,
+                        scales: {
+                            r: { // Radial axis
+                                grid: {
+                                    color: 'rgba(75, 85, 99, 0.5)' // border-gray-600 with opacity
+                                },
+                                pointLabels: {
+                                    display: true,
+                                    centerPointLabels: true,
+                                    font: {
+                                        size: 12,
+                                        family: 'Inter, sans-serif'
+                                    },
+                                    color: '#d1d5db' // text-gray-300
+                                },
+                                ticks: {
+                                    color: '#d1d5db', // text-gray-300
+                                    backdropColor: 'transparent',
+                                    z: 10 // Ensure ticks are above chart segments
+                                }
+                            }
+                        },
+                        plugins: {
+                            legend: {
+                                display: false
+                            },
+                            tooltip: {
+                                backgroundColor: '#1f2937', // bg-gray-800
+                                titleColor: '#f3f4f6',    // text-gray-100
+                                bodyColor: '#d1d5db',     // text-gray-300
+                                borderColor: '#4b5563',   // border-gray-600
+                                borderWidth: 1,
+                                padding: 10,
+                                callbacks: {
+                                    label: function(context) {
+                                        const index = context.dataIndex;
+                                        const sector = sectorData[index];
+                                        const weight = (sector.market_weight * 100).toFixed(2);
+                                        const change = sector.change_pct.toFixed(2);
+                                        const sign = sector.change_pct >= 0 ? '+' : '';
+
+                                        return [
+                                            `Market Weight: ${weight}%`,
+                                            `Change: ${sign}${change}%`
+                                        ];
+                                    }
+                                }
+                            }
+                        }
+                    }
+                });
+
+            } catch (error) {
+                console.error("Failed to generate page:", error);
+                document.body.innerHTML = `<div class="flex items-center justify-center h-screen text-red-400 p-4 text-center"><p>Error: Could not load page content. Please check the console.</p></div>`;
+            }
+        }
+
+        // --- Initial Page Load ---
+        document.addEventListener('DOMContentLoaded', generatePage);
+
+        // Set dynamic copyright year
+        document.getElementById('copyright').innerHTML = `&copy; ${new Date().getFullYear()} KaChing Labs. All Rights Reserved.`;
+
+    </script>
+</body>
+</html>

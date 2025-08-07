@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sector Horizon Map</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the page and chart */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #10B981, #3B82F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .sector-row {
+            cursor: default;
+        }
+
+        /* Styles for the custom Hybrid Horizon Chart */
+        #horizon-chart-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            min-height: 50vh; /* Ensure it has a good height */
+            padding: 2rem 0;
+        }
+        .chart-area {
+            display: flex;
+            width: 100%;
+            align-items: flex-end; /* Align bars at the bottom for positive */
+        }
+        .chart-area.negative {
+            align-items: flex-start; /* Align bars at the top for negative */
+        }
+        #horizon-line {
+            width: 100%;
+            height: 2px;
+            background-color: #4b5563; /* border-gray-600 */
+            position: relative;
+        }
+        #horizon-line::before {
+            content: '0%';
+            position: absolute;
+            left: -35px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #9ca3af; /* text-gray-400 */
+            font-size: 0.875rem;
+        }
+        .sector-bar-wrapper {
+            position: relative;
+            display: flex;
+            justify-content: center;
+            height: 100%;
+        }
+        .sector-bar {
+            position: relative;
+            transition: all 0.3s ease-in-out;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+        }
+        .chart-area.negative .sector-bar {
+             border-top-left-radius: 0;
+             border-top-right-radius: 0;
+             border-bottom-left-radius: 4px;
+             border-bottom-right-radius: 4px;
+        }
+
+        .sector-bar:hover {
+            transform: scale(1.05);
+            z-index: 10;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+        }
+        .sector-label {
+            color: white;
+            font-size: 12px;
+            font-weight: 500;
+            text-align: center;
+            padding: 4px;
+            writing-mode: vertical-rl;
+            text-orientation: mixed;
+            white-space: nowrap;
+            transform: rotate(180deg);
+        }
+        /* Custom Tooltip */
+        .chart-tooltip {
+            position: absolute;
+            background-color: #1f2937; /* bg-gray-800 */
+            color: #d1d5db; /* text-gray-300 */
+            border: 1px solid #4b5563; /* border-gray-600 */
+            border-radius: 0.5rem;
+            padding: 0.75rem;
+            font-size: 0.875rem;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            z-index: 20;
+            min-width: 200px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    <main class="container mx-auto px-4 sm:px-6 py-8">
+        <!-- Header Section -->
+        <section id="header" class="pb-8">
+            <h1 class="text-3xl sm:text-4xl font-bold text-white">
+                U.S. Market Horizon Map
+            </h1>
+            <p class="mt-2 text-base sm:text-lg text-gray-400">
+                A hybrid view showing sector size (width), performance (height), and direction (above/below 0%).
+            </p>
+        </section>
+
+        <!-- Main Content: Two-column layout -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+
+            <!-- Left Column: Sector List -->
+            <div id="sector-list-container" class="lg:col-span-1 bg-gray-800 p-4 rounded-lg shadow-lg">
+                <h2 class="text-xl font-bold text-white mb-4 border-b border-gray-700 pb-2">Sector Performance</h2>
+                <div id="sector-list" class="space-y-1">
+                    <!-- Sector list will be dynamically generated here -->
+                </div>
+            </div>
+
+            <!-- Right Column: Hybrid Horizon Chart -->
+            <div id="right-column-container" class="lg:col-span-2 p-4 rounded-lg shadow-lg flex flex-col justify-center items-center">
+                <div id="horizon-chart-container">
+                    <!-- Chart will be generated here -->
+                </div>
+                <div id="chart-tooltip" class="chart-tooltip"></div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 border-t border-gray-700 mt-8">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <a href="https://KaChing-Labs.com" class="text-lg font-semibold text-white">KaChing <span class="text-emerald-400">Labs</span></a>
+            <p class="mt-2 text-sm">Intelligent tools for your financial journey.</p>
+            <p id="copyright" class="mt-4 text-xs">&copy; 2025 KaChing Labs. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- Mock Data ---
+        const marketData = {
+            "sectors": [
+                { "sector": "Information Technology", "market_weight": 0.28, "change_pct": 1.25 },
+                { "sector": "Health Care", "market_weight": 0.14, "change_pct": 0.40 },
+                { "sector": "Financials", "market_weight": 0.12, "change_pct": -0.20 },
+                { "sector": "Consumer Discretionary", "market_weight": 0.10, "change_pct": -1.75 },
+                { "sector": "Communication Services", "market_weight": 0.09, "change_pct": 0.95 },
+                { "sector": "Industrials", "market_weight": 0.08, "change_pct": 0.15 },
+                { "sector": "Consumer Staples", "market_weight": 0.06, "change_pct": -0.50 },
+                { "sector": "Energy", "market_weight": 0.05, "change_pct": 2.10 },
+                { "sector": "Utilities", "market_weight": 0.03, "change_pct": -0.90 },
+                { "sector": "Real Estate", "market_weight": 0.03, "change_pct": -1.10 },
+                { "sector": "Materials", "market_weight": 0.02, "change_pct": 0.05 }
+            ]
+        };
+
+        function generatePage() {
+            try {
+                const sectorData = marketData.sectors;
+
+                // --- Generate Sector List (Left Column) ---
+                const sectorList = document.getElementById('sector-list');
+                let listHtml = '';
+                // Sort by market weight for consistent display
+                sectorData.sort((a, b) => b.market_weight - a.market_weight);
+                sectorData.forEach(item => {
+                    const isPositive = item.change_pct >= 0;
+                    const colorClass = isPositive ? 'text-green-400' : 'text-red-400';
+                    const sign = isPositive ? '+' : '';
+                    const formattedChange = `${sign}${item.change_pct.toFixed(2)}%`;
+                    listHtml += `
+                        <div class="sector-row flex justify-between items-center p-2 rounded-md">
+                            <span class="font-medium text-sm sm:text-base text-gray-300">${item.sector}</span>
+                            <span class="font-bold text-base sm:text-lg ${colorClass}">${formattedChange}</span>
+                        </div>
+                    `;
+                });
+                sectorList.innerHTML = listHtml;
+
+                // --- Generate Hybrid Horizon Chart ---
+                generateHorizonChart(sectorData);
+
+            } catch (error) {
+                console.error("Failed to generate page:", error);
+                document.body.innerHTML = `<div class="flex items-center justify-center h-screen text-red-400 p-4 text-center"><p>Error: Could not load page content. Please check the console.</p></div>`;
+            }
+        }
+
+        function generateHorizonChart(data) {
+            const container = document.getElementById('horizon-chart-container');
+            container.innerHTML = ''; // Clear previous content
+
+            const positiveArea = document.createElement('div');
+            positiveArea.className = 'chart-area positive';
+            positiveArea.style.height = '50%';
+
+            const negativeArea = document.createElement('div');
+            negativeArea.className = 'chart-area negative';
+            negativeArea.style.height = '50%';
+
+            const horizonLine = document.createElement('div');
+            horizonLine.id = 'horizon-line';
+
+            // Find max absolute change to scale heights
+            const maxChange = Math.max(...data.map(s => Math.abs(s.change_pct)));
+            const heightScale = 100 / maxChange; // Scale factor for height
+
+            data.forEach(sector => {
+                const isPositive = sector.change_pct >= 0;
+
+                const barWrapper = document.createElement('div');
+                barWrapper.className = 'sector-bar-wrapper';
+                barWrapper.style.width = `${sector.market_weight * 100}%`;
+
+                const bar = document.createElement('div');
+                bar.className = 'sector-bar';
+                bar.style.height = `${Math.abs(sector.change_pct) * heightScale}%`;
+
+                // Set color based on performance magnitude
+                const absChange = Math.abs(sector.change_pct);
+                let color;
+                if (isPositive) {
+                    color = absChange > 1.0 ? 'rgba(16, 185, 129, 1)' : 'rgba(74, 222, 128, 0.8)';
+                } else {
+                    color = absChange > 1.0 ? 'rgba(239, 68, 68, 1)' : 'rgba(248, 113, 113, 0.8)';
+                }
+                bar.style.backgroundColor = color;
+
+                // Add label inside the bar
+                const label = document.createElement('div');
+                label.className = 'sector-label';
+                label.textContent = sector.sector;
+                bar.appendChild(label);
+
+                // Append bar to wrapper, and wrapper to the correct area
+                barWrapper.appendChild(bar);
+                if (isPositive) {
+                    positiveArea.appendChild(barWrapper);
+                } else {
+                    negativeArea.appendChild(barWrapper);
+                }
+
+                // --- Tooltip Logic ---
+                const tooltip = document.getElementById('chart-tooltip');
+                bar.addEventListener('mousemove', (e) => {
+                    tooltip.style.opacity = '1';
+                    tooltip.style.left = `${e.pageX + 15}px`;
+                    tooltip.style.top = `${e.pageY + 15}px`;
+                    const sign = isPositive ? '+' : '';
+                    tooltip.innerHTML = `
+                        <div class="font-bold text-white mb-2">${sector.sector}</div>
+                        <div><strong>Market Weight:</strong> ${(sector.market_weight * 100).toFixed(2)}%</div>
+                        <div><strong>Change:</strong> <span class="${isPositive ? 'text-green-400' : 'text-red-400'}">${sign}${sector.change_pct.toFixed(2)}%</span></div>
+                    `;
+                });
+                bar.addEventListener('mouseleave', () => {
+                    tooltip.style.opacity = '0';
+                });
+            });
+
+            container.appendChild(positiveArea);
+            container.appendChild(horizonLine);
+            container.appendChild(negativeArea);
+        }
+
+        // --- Initial Page Load ---
+        document.addEventListener('DOMContentLoaded', generatePage);
+
+        // Set dynamic copyright year
+        document.getElementById('copyright').innerHTML = `&copy; ${new Date().getFullYear()} KaChing Labs. All Rights Reserved.`;
+    </script>
+</body>
+</html>

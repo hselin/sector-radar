@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sector Treemap</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Chart.js Core Library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <!-- Chart.js Treemap Plugin -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-treemap@2.3.0/dist/chartjs-chart-treemap.min.js"></script>
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the page */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #10B981, #3B82F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .sector-row {
+            cursor: default;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    <main class="container mx-auto px-4 sm:px-6 py-8">
+        <!-- Header Section -->
+        <section id="header" class="pb-8">
+            <h1 class="text-3xl sm:text-4xl font-bold text-white">
+                U.S. Market Sector Treemap
+            </h1>
+            <p class="mt-2 text-base sm:text-lg text-gray-400">
+                Sector size is represented by area, and performance by color. Hover for details.
+            </p>
+        </section>
+
+        <!-- Main Content: Two-column layout -->
+        <!-- FIX: Use items-stretch to make columns equal height -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+
+            <!-- Left Column: Sector List -->
+            <div id="sector-list-container" class="lg:col-span-1 bg-gray-800 p-4 rounded-lg shadow-lg">
+                <h2 class="text-xl font-bold text-white mb-4 border-b border-gray-700 pb-2">Sector Performance</h2>
+                <div id="sector-list" class="space-y-1">
+                    <!-- Sector list will be dynamically generated here -->
+                </div>
+            </div>
+
+            <!-- Right Column: Treemap Chart -->
+            <div id="right-column-container" class="lg:col-span-2 bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col justify-center items-center">
+                <!-- FIX: Removed lg:min-h-0 to allow chart to fill vertical space -->
+                <div class="relative w-full h-full min-h-[50vh]">
+                    <canvas id="treemap-chart"></canvas>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 border-t border-gray-700 mt-8">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <a href="https://KaChing-Labs.com" class="text-lg font-semibold text-white">KaChing <span class="text-emerald-400">Labs</span></a>
+            <p class="mt-2 text-sm">Intelligent tools for your financial journey.</p>
+            <p id="copyright" class="mt-4 text-xs">&copy; 2025 KaChing Labs. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- Mock Data ---
+        const marketData = {
+            "sectors": [
+                { "sector": "Information Technology", "market_weight": 0.28, "change_pct": 1.25 },
+                { "sector": "Health Care", "market_weight": 0.14, "change_pct": 0.40 },
+                { "sector": "Financials", "market_weight": 0.12, "change_pct": -0.20 },
+                { "sector": "Consumer Discretionary", "market_weight": 0.10, "change_pct": -1.75 },
+                { "sector": "Communication Services", "market_weight": 0.09, "change_pct": 0.95 },
+                { "sector": "Industrials", "market_weight": 0.08, "change_pct": 0.15 },
+                { "sector": "Consumer Staples", "market_weight": 0.06, "change_pct": -0.50 },
+                { "sector": "Energy", "market_weight": 0.05, "change_pct": 2.10 },
+                { "sector": "Utilities", "market_weight": 0.03, "change_pct": -0.90 },
+                { "sector": "Real Estate", "market_weight": 0.03, "change_pct": -1.10 },
+                { "sector": "Materials", "market_weight": 0.02, "change_pct": 0.05 }
+            ]
+        };
+
+        function generatePage() {
+            try {
+                const sectorData = marketData.sectors;
+
+                // --- Generate Sector List (Left Column) ---
+                const sectorList = document.getElementById('sector-list');
+                let listHtml = '';
+                // Sort by market weight for consistent display
+                sectorData.sort((a, b) => b.market_weight - a.market_weight);
+                sectorData.forEach(item => {
+                    const isPositive = item.change_pct >= 0;
+                    const colorClass = isPositive ? 'text-green-400' : 'text-red-400';
+                    const sign = isPositive ? '+' : '';
+                    const formattedChange = `${sign}${item.change_pct.toFixed(2)}%`;
+                    listHtml += `
+                        <div class="sector-row flex justify-between items-center p-2 rounded-md">
+                            <span class="font-medium text-sm sm:text-base text-gray-300">${item.sector}</span>
+                            <span class="font-bold text-base sm:text-lg ${colorClass}">${formattedChange}</span>
+                        </div>
+                    `;
+                });
+                sectorList.innerHTML = listHtml;
+
+                // --- Generate Chart.js Treemap ---
+                generateTreemap(sectorData);
+
+            } catch (error) {
+                console.error("Failed to generate page:", error);
+                document.body.innerHTML = `<div class="flex items-center justify-center h-screen text-red-400 p-4 text-center"><p>Error: Could not load page content. Please check the console.</p></div>`;
+            }
+        }
+
+        function generateTreemap(data) {
+            const ctx = document.getElementById('treemap-chart').getContext('2d');
+
+            // Prepare data for the treemap plugin
+            const treemapData = data.map(sector => ({
+                ...sector, // Carry over original data for tooltips
+                value: sector.market_weight // Plugin uses 'value' for sizing
+            }));
+
+            new Chart(ctx, {
+                type: 'treemap',
+                data: {
+                    datasets: [{
+                        label: 'S&P 500 Sectors',
+                        data: treemapData,
+                        backgroundColor: (context) => {
+                            if (context.type !== 'data') return 'transparent';
+                            const sectorData = treemapData[context.dataIndex];
+                            if (!sectorData) return 'rgba(107, 114, 128, 0.8)'; // Default grey
+
+                            const change = sectorData.change_pct;
+                            const opacity = 0.8;
+                            if (change > 1.0) return `rgba(16, 185, 129, ${opacity})`;
+                            if (change > 0) return `rgba(74, 222, 128, ${opacity})`;
+                            if (change < -1.0) return `rgba(239, 68, 68, ${opacity})`;
+                            if (change < 0) return `rgba(248, 113, 113, ${opacity})`;
+                            return `rgba(107, 114, 128, ${opacity})`;
+                        },
+                        borderColor: '#1f2937',
+                        borderWidth: 2,
+                        spacing: 1,
+                        key: 'value',
+                        labels: {
+                            display: true,
+                            color: 'white',
+                            align: 'center',
+                            position: 'middle',
+                            font: function(context) {
+                                if (context.type !== 'data') return {};
+                                const sectorData = treemapData[context.dataIndex];
+                                let size = 12; // Default size
+                                let lh = 1.2;
+                                if (sectorData) {
+                                    const weight = sectorData.market_weight;
+                                    if (weight < 0.05) {
+                                        size = 9;
+                                        lh = 1.1;
+                                    } else if (weight < 0.10) {
+                                        size = 10;
+                                    }
+                                }
+                                return {
+                                    family: 'Inter, sans-serif',
+                                    size: size,
+                                    weight: '500',
+                                    lineHeight: lh
+                                };
+                            },
+                            // FIX: Return array of characters for vertical text, which Chart.js will stack.
+                            formatter: (context) => {
+                                if (context.type !== 'data') return null;
+                                const sectorData = treemapData[context.dataIndex];
+                                if (!sectorData || !sectorData.sector) return null;
+
+                                const rect = context.v;
+                                // When a box is tall and narrow, split the word into an array of characters.
+                                // Chart.js will render each character on a new line, creating vertical text.
+                                if (rect && rect.h > rect.w * 1.2 && rect.w < 50) {
+                                    return sectorData.sector.split('');
+                                }
+
+                                // Otherwise, split into words for normal wrapping.
+                                return sectorData.sector.split(' ');
+                            }
+                        }
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            display: false
+                        },
+                        tooltip: {
+                            backgroundColor: '#1f2937',
+                            titleColor: '#f3f4f6',
+                            bodyColor: '#d1d5db',
+                            borderColor: '#4b5563',
+                            borderWidth: 1,
+                            padding: 10,
+                            callbacks: {
+                                title: (tooltipItems) => {
+                                    if (tooltipItems.length > 0) {
+                                        const sectorData = treemapData[tooltipItems[0].dataIndex];
+                                        if (sectorData && sectorData.sector) {
+                                            return sectorData.sector;
+                                        }
+                                    }
+                                    return null;
+                                },
+                                label: (context) => {
+                                    const sectorData = treemapData[context.dataIndex];
+                                    if (!sectorData || sectorData.market_weight == null || sectorData.change_pct == null) {
+                                        return null;
+                                    }
+                                    const weight = (sectorData.market_weight * 100).toFixed(2);
+                                    const change = sectorData.change_pct.toFixed(2);
+                                    const sign = sectorData.change_pct >= 0 ? '+' : '';
+                                    return [
+                                        `Market Weight: ${weight}%`,
+                                        `Change: ${sign}${change}%`
+                                    ];
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        // --- Initial Page Load ---
+        document.addEventListener('DOMContentLoaded', generatePage);
+
+        // Set dynamic copyright year
+        document.getElementById('copyright').innerHTML = `&copy; ${new Date().getFullYear()} KaChing Labs. All Rights Reserved.`;
+    </script>
+</body>
+</html>

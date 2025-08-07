@@ -1,0 +1,1008 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sector Radar | Find Your Edge</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-treemap@2.3.0/dist/chartjs-chart-treemap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome CDN for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        /* Custom styles for the page */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #10B981, #3B82F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        /* Visual cue for heatmap filter */
+        .flash-border {
+            transition: box-shadow 0.2s ease-in-out;
+            box-shadow: 0 0 0 3px #10B981; /* emerald-500 */
+        }
+        /* Tooltip styles */
+        .info-tooltip-content {
+            display: none;
+            position: absolute;
+            bottom: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            margin-bottom: 8px;
+            width: 250px;
+            background-color: #111827; /* gray-900 */
+            color: #D1D5DB; /* gray-300 */
+            border: 1px solid #374151; /* gray-700 */
+            border-radius: 0.5rem;
+            padding: 0.75rem;
+            font-size: 0.75rem;
+            z-index: 10;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+            pointer-events: none; /* Allow clicks to pass through */
+        }
+        .info-icon:hover + .info-tooltip-content,
+        .info-icon:focus + .info-tooltip-content {
+            display: block;
+        }
+        /* Styles for collapsible cards */
+        .collapsible-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.5s ease-in-out;
+        }
+        .chevron-icon {
+            transition: transform 0.3s ease-in-out;
+        }
+        .rotate-180 {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    <!-- HERO SECTION -->
+    <header class="pt-16 pb-20 md:pt-20 md:pb-28 text-center">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">
+                Find Your <span class="gradient-text">Edge</span>
+            </h1>
+            <p class="max-w-3xl mx-auto text-lg md:text-xl text-gray-400 leading-relaxed">
+                Track momentum. Follow the capital. Decode the market. Make your move.
+            </p>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <section class="relative z-10 -mt-12 md:-mt-20 pb-12 md:pb-16">
+        <main class="container mx-auto px-4 sm:px-6">
+
+            <div class="mb-8 border-b border-gray-700 pb-3">
+                 <h2 class="text-xl md:text-2xl font-bold text-white">
+                    Today's Sector Snapshot
+                </h2>
+            </div>
+
+            <!-- Treemap Section -->
+            <div id="treemap-skeleton" class="animate-pulse w-full h-[50vh] bg-gray-800/50 rounded-lg"></div>
+            <div id="treemap-container" class="hidden grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                <div class="lg:col-span-3 flex flex-col justify-center items-center relative">
+                    <div class="relative w-full h-full min-h-[50vh]">
+                        <canvas id="treemap-chart"></canvas>
+                    </div>
+                    <!-- Treemap Legend -->
+                    <div class="w-full mt-4 px-2">
+                        <div class="h-2.5 w-full rounded-full" style="background: linear-gradient(to right, #ef4444, #f87171, #6b7280, #34d399, #10b981);"></div>
+                        <div class="flex justify-between text-xs text-gray-400 mt-1.5">
+                            <span class="text-left">Loss</span>
+                            <span class="text-center">Neutral</span>
+                            <span class="text-right">Gain</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Market & Sector Analysis Section -->
+            <section id="commentary" class="mt-12">
+                <h2 class="text-xl md:text-2xl font-bold text-white mb-6 border-b border-gray-700 pb-3">
+                    Market Intelligence
+                </h2>
+                <div id="commentary-content" class="space-y-8">
+                    <!-- Skeletons for cards -->
+                    <div class="bg-gray-800 rounded-lg border border-gray-700 animate-pulse">
+                        <div class="p-4 bg-gray-700 h-16"></div>
+                        <div class="p-4">
+                            <div class="h-4 bg-gray-700 rounded w-3/4 mb-2"></div>
+                            <div class="h-4 bg-gray-700 rounded w-1/2"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Heatmap Section -->
+            <section id="history" class="mt-12">
+                <div id="heatmap-skeleton" class="animate-pulse">
+                     <div class="h-10 bg-gray-700/60 rounded-md mb-6"></div>
+                     <div class="h-[500px] bg-gray-800/50 rounded-lg"></div>
+                </div>
+
+                <div id="heatmap-content" class="hidden">
+                    <div class="flex flex-col md:flex-row justify-between md:items-center mb-6 border-b border-gray-700 pb-3">
+                         <h2 class="text-xl md:text-2xl font-bold text-white mb-4 md:mb-0">
+                            Historical Sector Strength
+                        </h2>
+                        <div class="relative inline-block text-left">
+                            <div>
+                                <button type="button" class="inline-flex justify-center w-full rounded-md border border-gray-700 shadow-sm px-4 py-2 bg-gray-800 text-sm font-medium text-gray-300 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-emerald-500" id="filter-button" aria-haspopup="true" aria-expanded="false">
+                                    Filter Sectors
+                                    <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                        <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div id="filter-dropdown" class="origin-top-left md:origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5 focus:outline-none z-50 transition-all ease-out duration-200 transform opacity-0 scale-95 invisible" role="menu" aria-orientation="vertical" aria-labelledby="filter-button">
+                                <div id="filter-checkboxes" class="py-1" role="none">
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="relative border border-transparent rounded-lg" id="heatmap-container">
+                        <div id="heatmap-chart" style="width: 100%; height: 500px;"></div>
+                        <div id="heatmap-labels-container"></div>
+                    </div>
+                </div>
+                <div class="text-center mt-4">
+                    <button id="exportCsvBtn" disabled class="inline-flex items-center gap-2 bg-gray-600 text-white font-bold py-2 px-4 rounded-lg transition-colors cursor-not-allowed opacity-50">
+                        <i class="fas fa-download mr-2"></i>
+                        <span>Export Chart Data as CSV</span>
+                    </button>
+                </div>
+            </section>
+
+            <!-- Data Timestamp -->
+            <div id="data-info-container" class="mt-6 text-center md:text-right">
+                <p id="data-timestamp" class="text-xs text-gray-500"></p>
+            </div>
+
+            <!-- Learn More Section -->
+            <section id="learn-more" class="mt-16">
+                <h2 class="text-xl md:text-2xl font-bold text-white mb-6 border-b border-gray-700 pb-3">
+                    Learn More
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <!-- Article 1 -->
+                    <div class="bg-gray-800 rounded-lg border border-gray-700 p-6 flex flex-col">
+                        <h3 class="font-bold text-white text-lg mb-2">Sector Rotation: The Ultimate Guide</h3>
+                        <p class="text-gray-400 text-sm flex-grow"><b>Explore</b> how investors rotate between market sectors based on economic cycles.</p>
+                        <a href="https://www.forbes.com/advisor/investing/sector-rotation/" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold mt-4 self-start">Read More &rarr;</a>
+                    </div>
+                    <!-- Article 2 -->
+                    <div class="bg-gray-800 rounded-lg border border-gray-700 p-6 flex flex-col">
+                        <h3 class="font-bold text-white text-lg mb-2">Relative Strength Index (RSI)</h3>
+                        <p class="text-gray-400 text-sm flex-grow"><b>Understand</b> how the RSI indicator works and how traders use it to identify market momentum.</p>
+                        <a href="https://www.investopedia.com/terms/r/rsi.asp" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold mt-4 self-start">Read More &rarr;</a>
+                    </div>
+                    <!-- Article 3 -->
+                    <div class="bg-gray-800 rounded-lg border border-gray-700 p-6 flex flex-col">
+                        <h3 class="font-bold text-white text-lg mb-2">Money Flow Index (MFI)</h3>
+                        <p class="text-gray-400 text-sm flex-grow">Learn how the MFI uses both price and volume to measure buying and selling pressure in a market.</p>
+                        <a href="https://www.investopedia.com/terms/m/mfi.asp" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold mt-4 self-start">Read More &rarr;</a>
+                    </div>
+                    <!-- Article 4 -->
+                    <div class="bg-gray-800 rounded-lg border border-gray-700 p-6 flex flex-col">
+                        <h3 class="font-bold text-white text-lg mb-2">On-Balance Volume (OBV)</h3>
+                        <p class="text-gray-400 text-sm flex-grow"><b>Discover</b> how OBV uses trading volume to predict potential price movements.</p>
+                        <a href="https://www.fidelity.com/learning-center/trading-investing/technical-analysis/technical-indicator-guide/on-balance-volume" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold mt-4 self-start">Read More &rarr;</a>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </section>
+
+    <!-- FOOTER from index.html -->
+    <footer class="bg-gray-800 border-t border-gray-700">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <a href="https://KaChing-Labs.com" class="text-base md:text-lg font-semibold text-white">KaChing <span class="text-emerald-400">Labs</span></a>
+            <p class="mt-2 text-sm">Intelligent tools for your financial journey.</p>
+            <p class="mt-4 text-xs">
+                &copy; 2025 KaChing Labs. All Rights Reserved.
+                <span class="mx-2 text-gray-600">|</span>
+                <a href="https://kaching-labs.com/legal.html" class="hover:text-emerald-400 underline">Legal Information</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        let heatmapChart = null;
+        let heatmapDataForExport = [];
+        let indicatorCharts = {}; // Changed to an object
+        let fullSectorsData = [];
+
+        // --- CONFIGURATION ---
+        const DATA_DIRECTORY = '/output';
+        const USE_MOCK_DATA = true;
+        const HEATMAP_EMPTY_VALUE = -999;
+
+        const colorConfig = {
+            treemap: {
+                strongPositive: (opacity = 0.8) => `rgba(16, 185, 129, ${opacity})`, // emerald-600
+                lightPositive: (opacity = 0.8) => `rgba(52, 211, 153, ${opacity})`, // emerald-400
+                strongNegative: (opacity = 0.8) => `rgba(239, 68, 68, ${opacity})`, // red-500
+                lightNegative: (opacity = 0.8) => `rgba(248, 113, 113, ${opacity})`, // red-400
+                neutral: (opacity = 0.8) => `rgba(107, 114, 128, ${opacity})`, // gray-500
+                border: '#1F2937',
+                hoverBorder: '#FFFFFF',
+                tooltip: {
+                    background: '#1F2937',
+                    title: '#FFFFFF',
+                    body: '#D1D5DB',
+                    border: '#374151'
+                }
+            },
+            heatmap: {
+                strongPositive: '#10B981',
+                lightPositive: '#34D399',
+                strongNegative: '#EF4444',
+                lightNegative: '#F87171',
+                neutral: '#D1D5DB',
+                empty: '#374151',
+                border: '#111827',
+                splitArea: ['rgba(17, 24, 39, 0)', 'rgba(31, 41, 55, 0.6)']
+            },
+            indicatorChart: {
+                line: '#34D399',
+                axisLabel: '#9CA3AF',
+                splitLine: 'rgba(75, 85, 99, 0.4)',
+                markLine: '#9CA3AF'
+            }
+        };
+
+        const indicatorFullNames = {
+            'RSI': 'Relative Strength Index (RSI)',
+            'MFI': 'Money Flow Index (MFI)',
+            'OBV': 'On-Balance Volume (OBV)'
+        };
+
+        const indicatorExplanations = {
+            'RSI': "RSI is a momentum indicator that measures the speed and change of price movements. It oscillates between 0 and 100 and is typically used to identify overbought (above 70) or oversold (below 30) conditions.",
+            'MFI': "MFI is a momentum indicator that uses both price and volume to measure buying and selling pressure. It is also used to identify overbought (above 80) or oversold (below 20) conditions.",
+            'OBV': "OBV is a momentum indicator that uses volume flow to predict changes in stock price. A rising OBV reflects positive volume pressure that can lead to higher prices."
+        };
+
+        const sectorToTicker = {
+            "Information Technology": "XLK",
+            "Health Care": "XLV",
+            "Financials": "XLF",
+            "Consumer Discretionary": "XLY",
+            "Communication Services": "XLC",
+            "Industrials": "XLI",
+            "Consumer Staples": "XLP",
+            "Energy": "XLE",
+            "Utilities": "XLU",
+            "Real Estate": "XLRE",
+            "Materials": "XLB"
+        };
+
+
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        function generateIndicatorData(days = 180) {
+            const data = [];
+            let value = 50 + (Math.random() - 0.5) * 10;
+            const now = new Date();
+            for (let i = days; i > 0; i--) {
+                const date = new Date(now);
+                date.setDate(now.getDate() - i);
+                if (date.getDay() === 0 || date.getDay() === 6) {
+                    data.push([date.getTime(), null]);
+                    continue;
+                }
+                value += (Math.random() - 0.5) * 2;
+                if (value > 90) value = 90;
+                if (value < 10) value = 10;
+                data.push([date.getTime(), value]);
+            }
+            return data;
+        }
+
+        // --- MOCK DATA AND FETCH SIMULATION ---
+        const mockFiles = {};
+
+        function setupMockData() {
+            const fullMarketData = {
+                "lastUpdated": "2025-07-17T16:00:00Z",
+                "overallMarket": {
+                    "commentary": "The market saw mixed performance today...",
+                    "change_pct": 0.32,
+                    "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }
+                },
+                "sectors": [
+                    { "sector": "Information Technology", "market_weight": 0.28, "change_pct": 1.25, "insights": "The tech sector's gain...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [1.2, -0.5, 2.1, 0.1, -1.8, null, null, 1.5, 0.9, -0.2] },
+                    { "sector": "Health Care", "market_weight": 0.14, "change_pct": 0.40, "insights": "Health Care saw steady gains...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [0.8, 0.2, 1.5, 0.3, -0.5, null, null, 0.7, 0.4, 0.1] },
+                    { "sector": "Financials", "market_weight": 0.12, "change_pct": -0.20, "insights": "Financials experienced a minor dip...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [-0.2, -1.1, 0.5, -0.1, 0.9, null, null, -0.4, -0.8, 0.3] },
+                    { "sector": "Consumer Discretionary", "market_weight": 0.10, "change_pct": -1.75, "insights": "This sector's sharp decline...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [-1.5, -2.5, -0.5, 1.2, 0.3, null, null, -1.1, -1.9, -0.8] },
+                    { "sector": "Communication Services", "market_weight": 0.09, "change_pct": 0.95, "insights": "A solid gain for Communication Services...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [1.1, 0.8, 1.2, 0.9, -0.1, null, null, 1.3, 0.6, 0.2] },
+                    { "sector": "Industrials", "market_weight": 0.08, "change_pct": 0.15, "insights": "The Industrials sector saw a slight uptick...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [0.3, 0.1, 0.6, 0.2, -0.3, null, null, 0.4, 0.0, 0.1] },
+                    { "sector": "Consumer Staples", "market_weight": 0.06, "change_pct": -0.50, "insights": "A slight loss for this defensive sector...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [-0.4, -0.1, 0.2, -0.3, 0.1, null, null, -0.6, -0.2, -0.1] },
+                    { "sector": "Energy", "market_weight": 0.05, "change_pct": 2.10, "insights": "The Energy sector led the market...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [2.5, 3.1, 1.8, 2.2, -1.0, null, null, 2.8, 1.9, 1.5] },
+                    { "sector": "Utilities", "market_weight": 0.03, "change_pct": -0.90, "insights": "Utilities, a typically stable sector...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [-0.8, -0.5, -1.2, 0.1, 0.4, null, null, -1.0, -0.7, -0.3] },
+                    { "sector": "Real Estate", "market_weight": 0.03, "change_pct": -1.10, "insights": "The decline in Real Estate is likely...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [-1.2, -1.8, -0.9, -0.2, 0.8, null, null, -1.5, -1.1, -0.6] },
+                    { "sector": "Materials", "market_weight": 0.02, "change_pct": 0.05, "insights": "The Materials sector was nearly unchanged...", "technicalIndicators": { "rsi": generateIndicatorData(), "mfi": generateIndicatorData(), "obv": generateIndicatorData().map(d => d[1] === null ? d : [d[0], d[1] * 100000]) }, "weeklyPerformance": [0.1, 0.0, 0.3, -0.1, 0.2, null, null, 0.0, 0.1, 0.0] }
+                ]
+            };
+
+            mockFiles[`${DATA_DIRECTORY}/manifest.json`] = JSON.stringify({
+                lastUpdated: fullMarketData.lastUpdated,
+                overallMarket: fullMarketData.overallMarket,
+                sectors: fullMarketData.sectors.map(s => s.sector)
+            });
+
+            fullMarketData.sectors.forEach(sector => {
+                const ticker = sectorToTicker[sector.sector];
+                if (ticker) {
+                    mockFiles[`${DATA_DIRECTORY}/sectors/${ticker}.json`] = JSON.stringify(sector);
+                }
+            });
+        }
+
+        function mockFetch(url) {
+            console.log(`Fetching Mock Data: ${url}`);
+            return new Promise((resolve, reject) => {
+                setTimeout(() => {
+                    if (mockFiles[url]) {
+                        resolve(new Response(new Blob([mockFiles[url]], { type: 'application/json' })));
+                    } else {
+                        reject(new Error(`Mock file not found: ${url}`));
+                    }
+                }, 200 + Math.random() * 500);
+            });
+        }
+
+        function fetchData(url) {
+            if (USE_MOCK_DATA) {
+                return mockFetch(url);
+            } else {
+                return fetch(url);
+            }
+        }
+        // --- END MOCK DATA ---
+
+
+        function generateIndicatorChart(containerId, title, data, type) {
+            const chartDom = document.getElementById(containerId);
+            if (!chartDom) return;
+            const myChart = echarts.init(chartDom);
+            indicatorCharts[containerId] = myChart; // Store chart instance
+
+            const filteredData = data.filter(d => d[1] !== null);
+            const dateLabels = filteredData.map(d => new Date(d[0]).toLocaleDateString());
+            const chartValues = filteredData.map(d => d[1]);
+
+            const seriesOptions = {
+                data: chartValues,
+                type: 'line',
+                smooth: true,
+                showSymbol: false,
+                lineStyle: { color: colorConfig.indicatorChart.line, width: 2 }
+            };
+
+            if (type === 'RSI') {
+                seriesOptions.markLine = {
+                    silent: true,
+                    symbol: 'none',
+                    label: { show: false },
+                    lineStyle: {
+                        type: 'dashed',
+                        color: colorConfig.indicatorChart.markLine
+                    },
+                    data: [ { yAxis: 70 }, { yAxis: 30 } ]
+                };
+            } else if (type === 'MFI') {
+                 seriesOptions.markLine = {
+                    silent: true,
+                    symbol: 'none',
+                    label: { show: false },
+                    lineStyle: {
+                        type: 'dashed',
+                        color: colorConfig.indicatorChart.markLine
+                    },
+                    data: [ { yAxis: 80 }, { yAxis: 20 } ]
+                };
+            }
+
+            const yAxisOptions = {
+                type: 'value',
+                axisLabel: { color: colorConfig.indicatorChart.axisLabel, fontSize: 10,
+                    formatter: function (value) {
+                       if (value >= 1000000) return (value / 1000000).toFixed(1) + 'M';
+                       if (value >= 1000) return (value / 1000).toFixed(1) + 'K';
+                       return value;
+                    }
+                },
+                splitLine: { lineStyle: { color: colorConfig.indicatorChart.splitLine, type: 'dashed' } }
+            };
+
+            if (type === 'RSI' || type === 'MFI') {
+                yAxisOptions.min = 0;
+                yAxisOptions.max = 100;
+            }
+
+            const option = {
+                grid: { top: '10%', bottom: '15%', left: '5%', right: '5%', containLabel: true },
+                tooltip: {
+                    trigger: 'axis',
+                    formatter: function (params) {
+                        const date = params[0].name;
+                        const value = params[0].value;
+                        if (value === null) return null;
+                        return `${date}<br/>${title}: ${value.toFixed(2)}`;
+                    }
+                },
+                xAxis: {
+                    type: 'category',
+                    data: dateLabels,
+                    axisLabel: {
+                        color: colorConfig.indicatorChart.axisLabel,
+                        fontSize: 10,
+                        interval: Math.floor(dateLabels.length / 5)
+                    },
+                    splitLine: { show: false }
+                },
+                yAxis: yAxisOptions,
+                series: [seriesOptions]
+            };
+            myChart.setOption(option);
+        }
+
+        function generateCommentary(overallMarketData, sectorsData) {
+            const container = document.getElementById('commentary-content');
+            indicatorCharts = {}; // Reset charts object
+
+            const overallMarketId = 'Overall-Market';
+            const overallChange = overallMarketData.change_pct;
+            const isPositiveOverall = overallChange >= 0;
+            const colorClassOverall = isPositiveOverall ? 'text-emerald-400' : 'text-red-400';
+            const signOverall = isPositiveOverall ? '+' : '';
+            const formattedChangeOverall = `${signOverall}${overallChange.toFixed(2)}%`;
+
+            let html = `<div class="bg-gray-800 rounded-lg border border-gray-700 overflow-hidden">
+                    <div class="collapsible-header p-4 bg-gray-700 border-l-4 border-emerald-500 flex justify-between items-center cursor-pointer" data-target="#content-${overallMarketId}">
+                        <h3 class="text-lg sm:text-xl font-bold text-white uppercase tracking-wide">
+                            Overall Market
+                        </h3>
+                        <div class="flex items-center">
+                            <span class="text-lg font-semibold ${colorClassOverall} ml-2 tabular-nums w-20 text-right">${formattedChangeOverall}</span>
+                            <i class="fas fa-chevron-down chevron-icon text-gray-400 ml-4"></i>
+                        </div>
+                    </div>
+                    <div id="content-${overallMarketId}" class="collapsible-content">
+                        <div class="p-4">
+                            <p class="text-gray-400 leading-relaxed mb-4">${overallMarketData.commentary}</p>
+                            <div class="grid grid-cols-1 gap-4">
+                                <div>
+                                    <div class="text-center text-sm text-gray-300 mb-2 relative">
+                                        <span>${indicatorFullNames['RSI']}</span>
+                                        <span class="info-icon text-gray-500 cursor-pointer ml-1" tabindex="0"><i class="fas fa-info-circle"></i></span>
+                                        <div class="info-tooltip-content text-left">${indicatorExplanations['RSI']}</div>
+                                    </div>
+                                    <div id="rsi-chart-${overallMarketId}" style="width: 100%; height: 200px;"></div>
+                                </div>
+                                <div>
+                                    <div class="text-center text-sm text-gray-300 mb-2 relative">
+                                        <span>${indicatorFullNames['MFI']}</span>
+                                        <span class="info-icon text-gray-500 cursor-pointer ml-1" tabindex="0"><i class="fas fa-info-circle"></i></span>
+                                        <div class="info-tooltip-content text-left">${indicatorExplanations['MFI']}</div>
+                                    </div>
+                                    <div id="mfi-chart-${overallMarketId}" style="width: 100%; height: 200px;"></div>
+                                </div>
+                                <div>
+                                    <div class="text-center text-sm text-gray-300 mb-2 relative">
+                                        <span>${indicatorFullNames['OBV']}</span>
+                                        <span class="info-icon text-gray-500 cursor-pointer ml-1" tabindex="0"><i class="fas fa-info-circle"></i></span>
+                                        <div class="info-tooltip-content text-left">${indicatorExplanations['OBV']}</div>
+                                    </div>
+                                    <div id="obv-chart-${overallMarketId}" style="width: 100%; height: 200px;"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>`;
+
+            sectorsData.forEach(sector => {
+                const sectorId = sector.sector.replace(/\s+/g, '-');
+                const isPositive = sector.change_pct >= 0;
+                const colorClass = isPositive ? 'text-emerald-400' : 'text-red-400';
+                const sign = isPositive ? '+' : '';
+                const formattedChange = `${sign}${sector.change_pct.toFixed(2)}%`;
+                const borderColorClass = isPositive ? 'border-emerald-500' : 'border-red-500';
+
+                html += `<div class="bg-gray-800 rounded-lg border border-gray-700 overflow-hidden">
+                        <div class="collapsible-header p-4 bg-gray-700 border-l-4 ${borderColorClass} flex justify-between items-center cursor-pointer" data-target="#content-${sectorId}">
+                           <h3 class="text-lg sm:text-xl font-bold text-white uppercase tracking-wide">
+                                ${sector.sector}
+                           </h3>
+                           <div class="flex items-center">
+                               <span class="text-lg font-semibold ${colorClass} ml-2 tabular-nums w-20 text-right">${formattedChange}</span>
+                               <i class="fas fa-chevron-down chevron-icon text-gray-400 ml-4"></i>
+                           </div>
+                        </div>
+                        <div id="content-${sectorId}" class="collapsible-content">
+                            <div class="p-4">
+                                <p class="text-gray-400 leading-relaxed mb-4">${sector.insights}</p>
+                                <div class="grid grid-cols-1 gap-4">
+                                    <div>
+                                        <div class="text-center text-sm text-gray-300 mb-2 relative">
+                                            <span>${indicatorFullNames['RSI']}</span>
+                                            <span class="info-icon text-gray-500 cursor-pointer ml-1" tabindex="0"><i class="fas fa-info-circle"></i></span>
+                                            <div class="info-tooltip-content text-left">${indicatorExplanations['RSI']}</div>
+                                        </div>
+                                        <div id="rsi-chart-${sectorId}" style="width: 100%; height: 200px;"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-center text-sm text-gray-300 mb-2 relative">
+                                            <span>${indicatorFullNames['MFI']}</span>
+                                            <span class="info-icon text-gray-500 cursor-pointer ml-1" tabindex="0"><i class="fas fa-info-circle"></i></span>
+                                            <div class="info-tooltip-content text-left">${indicatorExplanations['MFI']}</div>
+                                        </div>
+                                        <div id="mfi-chart-${sectorId}" style="width: 100%; height: 200px;"></div>
+                                    </div>
+                                    <div>
+                                        <div class="text-center text-sm text-gray-300 mb-2 relative">
+                                            <span>${indicatorFullNames['OBV']}</span>
+                                            <span class="info-icon text-gray-500 cursor-pointer ml-1" tabindex="0"><i class="fas fa-info-circle"></i></span>
+                                            <div class="info-tooltip-content text-left">${indicatorExplanations['OBV']}</div>
+                                        </div>
+                                        <div id="obv-chart-${sectorId}" style="width: 100%; height: 200px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>`;
+            });
+            container.innerHTML = html;
+
+            // Generate charts after HTML is in the DOM, but they will be resized on expand
+            generateIndicatorChart(`rsi-chart-${overallMarketId}`, indicatorFullNames['RSI'], overallMarketData.technicalIndicators.rsi, 'RSI');
+            generateIndicatorChart(`mfi-chart-${overallMarketId}`, indicatorFullNames['MFI'], overallMarketData.technicalIndicators.mfi, 'MFI');
+            generateIndicatorChart(`obv-chart-${overallMarketId}`, indicatorFullNames['OBV'], overallMarketData.technicalIndicators.obv, 'OBV');
+
+            sectorsData.forEach(sector => {
+                const sectorId = sector.sector.replace(/\s+/g, '-');
+                generateIndicatorChart(`rsi-chart-${sectorId}`, indicatorFullNames['RSI'], sector.technicalIndicators.rsi, 'RSI');
+                generateIndicatorChart(`mfi-chart-${sectorId}`, indicatorFullNames['MFI'], sector.technicalIndicators.mfi, 'MFI');
+                generateIndicatorChart(`obv-chart-${sectorId}`, indicatorFullNames['OBV'], sector.technicalIndicators.obv, 'OBV');
+            });
+        }
+
+        function setupCollapsibleListeners() {
+            const commentaryContainer = document.getElementById('commentary-content');
+            commentaryContainer.addEventListener('click', function(event) {
+                const header = event.target.closest('.collapsible-header');
+                if (!header) return;
+
+                const targetId = header.dataset.target;
+                const content = document.querySelector(targetId);
+                const chevron = header.querySelector('.chevron-icon');
+
+                if (content.style.maxHeight) {
+                    // Collapse
+                    content.style.maxHeight = null;
+                    chevron.classList.remove('rotate-180');
+                } else {
+                    // Expand
+                    content.style.maxHeight = content.scrollHeight + "px";
+                    chevron.classList.add('rotate-180');
+
+                    // Resize charts inside the expanded content
+                    setTimeout(() => {
+                        const chartDivs = content.querySelectorAll('div[id^="rsi-chart-"], div[id^="mfi-chart-"], div[id^="obv-chart-"]');
+                        chartDivs.forEach(div => {
+                            const chartInstance = indicatorCharts[div.id];
+                            if (chartInstance) {
+                                chartInstance.resize();
+                            }
+                        });
+                    }, 300); // Wait for transition to start
+                }
+            });
+        }
+
+
+        function generateStaticHeatmapData(sectorsData) {
+            const data = [];
+            for (let j = 0; j < sectorsData.length; j++) {
+                const weeklyPerf = sectorsData[j].weeklyPerformance || [];
+                for (let i = 0; i < 52; i++) {
+                    let performance = weeklyPerf[i];
+                    if (performance === null || performance === undefined) {
+                        performance = HEATMAP_EMPTY_VALUE;
+                    }
+                    data.push([i, j, performance]);
+                }
+            }
+            staticHeatmapData = data;
+        }
+
+        async function initializePage() {
+            try {
+                const response = await fetchData(`${DATA_DIRECTORY}/manifest.json`);
+                const manifest = await response.json();
+
+                if (manifest.lastUpdated) {
+                    const date = new Date(manifest.lastUpdated);
+                    const formattedDate = `Data last modified: ${date.toLocaleString('en-US', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })}`;
+                    document.getElementById('data-timestamp').textContent = formattedDate;
+                }
+
+                const sectorPromises = manifest.sectors.map(sectorName => {
+                    const ticker = sectorToTicker[sectorName];
+                    return fetchData(`${DATA_DIRECTORY}/sectors/${ticker}.json`).then(res => res.json());
+                });
+
+                const results = await Promise.allSettled(sectorPromises);
+                const sectorsData = results
+                    .filter(result => result.status === 'fulfilled')
+                    .map(result => result.value);
+
+                fullSectorsData = sectorsData;
+
+                generateCommentary(manifest.overallMarket, fullSectorsData);
+                setupCollapsibleListeners();
+
+                document.getElementById('treemap-skeleton').classList.add('hidden');
+                document.getElementById('treemap-container').classList.remove('hidden');
+                generateTreemap(fullSectorsData);
+
+                generateFilterControls(fullSectorsData);
+                generateStaticHeatmapData(fullSectorsData);
+
+                document.getElementById('heatmap-skeleton').classList.add('hidden');
+                document.getElementById('heatmap-content').classList.remove('hidden');
+                generateHeatmap(fullSectorsData);
+
+                const exportBtn = document.getElementById('exportCsvBtn');
+                exportBtn.disabled = false;
+                exportBtn.classList.remove('bg-gray-600', 'cursor-not-allowed', 'opacity-50');
+                exportBtn.classList.add('bg-emerald-600', 'hover:bg-emerald-700');
+
+            } catch (error) {
+                console.error("Failed to initialize page:", error);
+                document.body.innerHTML = `<div class="flex items-center justify-center h-screen text-red-400 p-4 text-center"><p>Error: Could not load page content. Please check the console.</p></div>`;
+            }
+        }
+
+        function generateTreemap(data) {
+            const ctx = document.getElementById('treemap-chart').getContext('2d');
+            const treemapData = data.map(sector => ({ ...sector, value: sector.market_weight }));
+            new Chart(ctx, {
+                type: 'treemap',
+                data: {
+                    datasets: [{
+                        label: 'S&P 500 Sectors',
+                        data: treemapData,
+                        backgroundColor: (context) => {
+                            if (context.type !== 'data') return 'transparent';
+                            const sectorData = treemapData[context.dataIndex];
+                            if (!sectorData) return colorConfig.treemap.neutral();
+                            const change = sectorData.change_pct;
+                            if (change > 1.0) return colorConfig.treemap.strongPositive();
+                            if (change > 0) return colorConfig.treemap.lightPositive();
+                            if (change < -1.0) return colorConfig.treemap.strongNegative();
+                            if (change < 0) return colorConfig.treemap.lightNegative();
+                            return colorConfig.treemap.neutral();
+                        },
+                        borderColor: colorConfig.treemap.border,
+                        borderWidth: 1,
+                        hoverBorderColor: colorConfig.treemap.hoverBorder,
+                        hoverBorderWidth: 3,
+                        spacing: 1,
+                        key: 'value',
+                        labels: {
+                            display: true,
+                            color: 'white',
+                            align: 'center',
+                            position: 'middle',
+                            font: function(context) {
+                                if (context.type !== 'data') return {};
+                                const chartWidth = context.chart.width;
+                                const baseSize = 8 + (chartWidth / 100);
+                                const sectorData = treemapData[context.dataIndex];
+                                let finalSize = baseSize;
+                                let lh = 1.2;
+                                if (sectorData) {
+                                    const weight = sectorData.market_weight;
+                                    if (weight < 0.05) {
+                                        finalSize *= 0.75;
+                                        lh = 1.1;
+                                    } else if (weight < 0.10) {
+                                        finalSize *= 0.9;
+                                    }
+                                }
+                                return { family: 'Inter, sans-serif', size: Math.round(Math.max(7, finalSize)), weight: '500', lineHeight: lh };
+                            },
+                            formatter: (context) => {
+                                if (context.type !== 'data') return null;
+                                const sectorData = treemapData[context.dataIndex];
+                                if (!sectorData || !sectorData.sector) return null;
+                                const text = sectorData.sector;
+                                const words = text.split(' ');
+                                const weight = sectorData.market_weight;
+                                const isMobile = window.innerWidth <= 768;
+                                if (isMobile && weight <= 0.025) {
+                                    if (words.length === 1 && text.length > 8) {
+                                        const mid = Math.round(text.length / 2);
+                                        return [text.slice(0, mid), text.slice(mid)];
+                                    }
+                                    return words;
+                                } else {
+                                    return words;
+                                }
+                            }
+                        }
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: colorConfig.treemap.tooltip.background,
+                            titleColor: colorConfig.treemap.tooltip.title,
+                            bodyColor: colorConfig.treemap.tooltip.body,
+                            borderColor: colorConfig.treemap.tooltip.border,
+                            borderWidth: 1,
+                            padding: 10,
+                            callbacks: {
+                                title: (items) => items.length > 0 ? treemapData[items[0].dataIndex].sector : null,
+                                label: (context) => {
+                                    const data = treemapData[context.dataIndex];
+                                    if (!data) return null;
+                                    const weight = (data.market_weight * 100).toFixed(2);
+                                    const change = data.change_pct.toFixed(2);
+                                    const sign = data.change_pct >= 0 ? '+' : '';
+                                    return [`Market Weight: ${weight}%`, `Change: ${sign}${change}%`];
+                                }
+                            }
+                        }
+                    },
+                    layout: {
+                        padding: {
+                            top: 0,
+                            bottom: 0,
+                            left: 0,
+                            right: 0
+                        }
+                    }
+                }
+            });
+        }
+        function generateFilterControls(allSectorsData) {
+            const button = document.getElementById('filter-button');
+            const dropdown = document.getElementById('filter-dropdown');
+            const checkboxContainer = document.getElementById('filter-checkboxes');
+            let checkboxHTML = '';
+            allSectorsData.forEach(sector => {
+                checkboxHTML += `
+                    <label class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 cursor-pointer">
+                        <input type="checkbox" name="sector-filter" value="${sector.sector}" checked class="h-4 w-4 bg-gray-900 border-gray-600 text-emerald-600 rounded focus:ring-emerald-500">
+                        <span class="ml-3">${sector.sector}</span>
+                    </label>`;
+            });
+            checkboxContainer.innerHTML = checkboxHTML;
+            button.addEventListener('click', () => {
+                const isHidden = dropdown.classList.contains('invisible');
+                dropdown.classList.toggle('invisible');
+                dropdown.classList.toggle('opacity-0');
+                dropdown.classList.toggle('scale-95');
+                button.setAttribute('aria-expanded', isHidden.toString());
+            });
+            document.addEventListener('click', (event) => {
+                if (!button.contains(event.target) && !dropdown.contains(event.target)) {
+                    dropdown.classList.add('invisible', 'opacity-0', 'scale-95');
+                    button.setAttribute('aria-expanded', 'false');
+                }
+            });
+            checkboxContainer.addEventListener('change', () => {
+                const selectedSectors = Array.from(checkboxContainer.querySelectorAll('input[type="checkbox"]:checked'))
+                                             .map(cb => cb.value);
+                const filteredData = fullSectorsData.filter(sector => selectedSectors.includes(sector.sector));
+                generateHeatmap(filteredData);
+                const heatmapContainer = document.getElementById('heatmap-container');
+                heatmapContainer.classList.add('flash-border');
+                setTimeout(() => {
+                    heatmapContainer.classList.remove('flash-border');
+                }, 500);
+            });
+        }
+
+        function getHeatmapOption(sectorData) {
+            const isMobile = window.innerWidth < 768;
+            const weeks = Array.from({ length: 52 }, (_, i) => `${i + 1}`);
+            const sectors = sectorData.map(s => s.sector).reverse();
+
+            const data = [];
+             for (let j = 0; j < sectors.length; j++) {
+                const sectorName = sectors[j];
+                const originalSector = sectorData.find(s => s.sector === sectorName);
+                if (originalSector) {
+                    const weeklyPerf = originalSector.weeklyPerformance || [];
+                     for (let i = 0; i < 52; i++) {
+                        let performance = weeklyPerf[i];
+                        if (performance === null || performance === undefined) {
+                            performance = HEATMAP_EMPTY_VALUE;
+                        }
+                        data.push([i, j, performance]);
+                    }
+                }
+            }
+
+            heatmapDataForExport = { sectors, weeks, data };
+            return {
+                tooltip: {
+                    position: 'top',
+                    formatter: function (params) {
+                        if (params.value[2] === HEATMAP_EMPTY_VALUE) return;
+                        if (sectors.length === 0) return '';
+                        const week = weeks[params.data[0]];
+                        const sector = sectors[params.data[1]];
+                        const perf = params.data[2];
+                        const sign = perf >= 0 ? '+' : '';
+                        return `Week ${week}: ${sector}<br/>Perf: ${sign}${perf.toFixed(2)}%`;
+                    }
+                },
+                grid: {
+                    left: '15%',
+                    right: '4%',
+                    top: '10',
+                    bottom: 60
+                },
+                xAxis: {
+                    type: 'category',
+                    data: weeks,
+                    splitArea: { show: true, areaStyle: { color: colorConfig.heatmap.splitArea } },
+                    axisLine: { show: false },
+                    axisTick: { show: false },
+                    axisLabel: {
+                        show: !isMobile,
+                    }
+                },
+                yAxis: {
+                    type: 'category',
+                    data: sectors,
+                    splitArea: { show: true, areaStyle: { color: colorConfig.heatmap.splitArea } },
+                    axisLine: { show: false },
+                    axisTick: { show: false },
+                    axisLabel: {
+                        fontSize: isMobile ? 10 : 12,
+                        formatter: function (value) {
+                            if (isMobile) {
+                                const parts = value.split(' ');
+                                if (parts.length > 1) {
+                                    return parts.join('\n');
+                                }
+                            }
+                            return value;
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Weekly Performance',
+                    type: 'heatmap',
+                    data: data,
+                    label: { show: false },
+                    itemStyle: {
+                        color: (params) => {
+                            const value = params.value[2];
+                            if (value === HEATMAP_EMPTY_VALUE) {
+                                return colorConfig.heatmap.empty;
+                            }
+                            const performance = parseFloat(value);
+                            if (performance > 1.5) return colorConfig.heatmap.strongPositive;
+                            if (performance > 0) return colorConfig.heatmap.lightPositive;
+                            if (performance < -1.5) return colorConfig.heatmap.strongNegative;
+                            if (performance < 0) return colorConfig.heatmap.lightNegative;
+                            return colorConfig.heatmap.neutral;
+                        },
+                        borderWidth: 1,
+                        borderColor: colorConfig.heatmap.border
+                    },
+                    emphasis: {
+                        itemStyle: {
+                            shadowBlur: 10,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }]
+            };
+        }
+        function generateHeatmap(sectorData) {
+            const dom = document.getElementById('heatmap-chart');
+            if (!heatmapChart) {
+                heatmapChart = echarts.init(dom, null, { renderer: 'canvas' });
+                window.addEventListener('resize', () => {
+                    if (heatmapChart && !heatmapChart.isDisposed()) {
+                        const checkboxContainer = document.getElementById('filter-checkboxes');
+                        const selectedSectors = Array.from(checkboxContainer.querySelectorAll('input[type="checkbox"]:checked'))
+                                                     .map(cb => cb.value);
+                        const currentFilteredData = fullSectorsData.filter(sector => selectedSectors.includes(sector.sector));
+                        heatmapChart.setOption(getHeatmapOption(currentFilteredData), true);
+                        heatmapChart.resize();
+                    }
+                });
+            }
+            heatmapChart.setOption(getHeatmapOption(sectorData), true);
+        }
+        function exportToCsv(filename) {
+            const { sectors, weeks, data } = heatmapDataForExport;
+            if (!sectors || !weeks || !data) return;
+            let csvContent = "data:text/csv;charset=utf-8,";
+            csvContent += "Sector," + weeks.map(w => `Week ${w}`).join(",") + "\r\n";
+            const dataMatrix = sectors.map(() => Array(weeks.length).fill(''));
+            data.forEach(([weekIndex, sectorIndex, value]) => {
+                if (value !== HEATMAP_EMPTY_VALUE) {
+                    dataMatrix[sectorIndex][weekIndex] = `${value.toFixed(2)}%`;
+                }
+            });
+            sectors.forEach((sector, i) => {
+                const row = [sector, ...dataMatrix[i]];
+                csvContent += row.join(",") + "\r\n";
+            });
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement("a");
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", filename);
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+        document.addEventListener('DOMContentLoaded', () => {
+            if (USE_MOCK_DATA) {
+                setupMockData();
+            }
+            initializePage();
+
+            document.getElementById('exportCsvBtn').addEventListener('click', () => {
+                exportToCsv('historical_sector_performance.csv');
+            });
+            const copyrightP = document.querySelector('footer p.text-xs');
+            if (copyrightP) {
+                 copyrightP.innerHTML = `&copy; ${new Date().getFullYear()} KaChing Labs. All Rights Reserved. <span class="mx-2 text-gray-600">|</span> <a href="https://kaching-labs.com/legal.html" class="hover:text-emerald-400 underline">Legal Information</a>`;
+            }
+
+            const handleResize = debounce(() => {
+                // Resize indicator charts if they are visible
+                Object.values(indicatorCharts).forEach(chart => {
+                    if (chart && !chart.isDisposed()) {
+                       const container = chart.getDom();
+                       // Check if the container is visible before resizing
+                       if (container.offsetParent !== null) {
+                           chart.resize();
+                       }
+                    }
+                });
+            }, 150);
+
+            window.addEventListener('resize', handleResize);
+        });
+    </script>
+</body>
+</html>

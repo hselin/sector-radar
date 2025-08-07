@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sector Treemap</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-treemap@2.3.0/dist/chartjs-chart-treemap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the page */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #10B981, #3B82F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .sector-row {
+            cursor: default;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    <header class="pt-16 pb-12 md:pt-20 md:pb-16 text-center">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">
+                Your Cash, <span class="gradient-text">Amplified</span>
+            </h1>
+            <p class="max-w-3xl mx-auto text-lg md:text-xl text-gray-400 leading-relaxed">
+                Maximum yield. Minimum effort.
+            </p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 sm:px-6 py-8">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+            <div id="right-column-container" class="lg:col-span-3 bg-gray-800 p-4 rounded-lg shadow-lg flex flex-col justify-center items-center">
+                <div class="relative w-full h-full min-h-[50vh]">
+                    <canvas id="treemap-chart"></canvas>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Commentary Section -->
+        <section id="commentary" class="mt-12">
+            <h2 class="text-2xl sm:text-3xl font-bold text-white mb-6 border-b border-gray-700 pb-3">
+                AI-Generated Market Commentary
+            </h2>
+            <div id="commentary-content" class="space-y-8">
+                <!-- Commentary will be dynamically inserted here -->
+            </div>
+        </section>
+
+        <!-- Historical Performance Heatmap Section -->
+        <section id="history" class="mt-12">
+            <div class="flex justify-between items-center mb-6 border-b border-gray-700 pb-3">
+                 <h2 class="text-2xl sm:text-3xl font-bold text-white">
+                    Historical Sector Performance (YTD)
+                </h2>
+                <!-- Filter Dropdown -->
+                <div class="relative inline-block text-left">
+                    <div>
+                        <button type="button" class="inline-flex justify-center w-full rounded-md border border-gray-600 shadow-sm px-4 py-2 bg-gray-700 text-sm font-medium text-gray-300 hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-indigo-500" id="filter-button" aria-haspopup="true" aria-expanded="false">
+                            Filter Sectors
+                            <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="filter-dropdown" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5 focus:outline-none hidden z-10" role="menu" aria-orientation="vertical" aria-labelledby="filter-button">
+                        <div id="filter-checkboxes" class="py-1" role="none">
+                            <!-- Checkboxes will be programmatically inserted here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-gray-800 p-4 rounded-lg shadow-lg">
+                <div id="heatmap-chart" style="width: 100%; height: 500px;"></div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-800 border-t border-gray-700 mt-8">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <a href="https://KaChing-Labs.com" class="text-lg font-semibold text-white">KaChing <span class="text-emerald-400">Labs</span></a>
+            <p class="mt-2 text-sm">Intelligent tools for your financial journey.</p>
+            <p id="copyright" class="mt-4 text-xs">&copy; 2025 KaChing Labs. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        let heatmapChart = null; // To hold the ECharts instance for reuse
+
+        // --- Mock Data ---
+        const marketData = {
+            "overall_commentary": "The market saw mixed performance today, with significant divergence between growth-oriented sectors like Technology and Energy, and defensive or interest-rate-sensitive sectors like Utilities and Real Estate. This suggests a rotational environment where investors are actively reallocating capital based on shifting economic outlooks and commodity prices.",
+            "sectors": [
+                { "sector": "Information Technology", "market_weight": 0.28, "change_pct": 1.25, "insights": "The tech sector's gain of 1.25% reflects ongoing investor confidence, likely tied to strong earnings forecasts and breakthroughs in AI technology. Leadership from semiconductor and software companies propelled the sector higher." },
+                { "sector": "Health Care", "market_weight": 0.14, "change_pct": 0.40, "insights": "Health Care saw steady gains. This defensive sector often performs well in uncertain markets. Positive clinical trial news from a major pharmaceutical company may have contributed to the day's modest advance." },
+                { "sector": "Financials", "market_weight": 0.12, "change_pct": -0.20, "insights": "Financials experienced a minor dip, possibly due to uncertainty regarding future interest rate decisions by the Federal Reserve. Regional bank stocks slightly underperformed their larger counterparts." },
+                { "sector": "Consumer Discretionary", "market_weight": 0.10, "change_pct": -1.75, "insights": "This sector's sharp decline suggests worries about consumer spending power, possibly linked to recent inflation data or a drop in consumer confidence. Luxury goods and automotive stocks were among the hardest hit." },
+                { "sector": "Communication Services", "market_weight": 0.09, "change_pct": 0.95, "insights": "A solid gain for Communication Services was driven by strong performance from major streaming and social media platforms, which benefited from positive user growth reports." },
+                { "sector": "Industrials", "market_weight": 0.08, "change_pct": 0.15, "insights": "The Industrials sector saw a slight uptick, possibly due to positive manufacturing data or government infrastructure spending announcements. Aerospace and defense firms showed notable strength." },
+                { "sector": "Consumer Staples", "market_weight": 0.06, "change_pct": -0.50, "insights": "A slight loss for this defensive sector. Investors may be rotating into higher-growth areas, leading to modest outflows from household product and food and beverage companies." },
+                { "sector": "Energy", "market_weight": 0.05, "change_pct": 2.10, "insights": "The Energy sector led the market with a strong 2.10% gain. This is almost certainly tied to a recent surge in global oil prices and geopolitical tensions, boosting exploration and production companies." },
+                { "sector": "Utilities", "market_weight": 0.03, "change_pct": -0.90, "insights": "Utilities, a typically stable sector, saw a notable decline. This can happen when interest rates are expected to rise, making their dividends less attractive compared to government bonds." },
+                { "sector": "Real Estate", "market_weight": 0.03, "change_pct": -1.10, "insights": "The decline in Real Estate is likely a direct response to fears of rising interest rates, which increases borrowing costs and can cool the housing and commercial property markets." },
+                { "sector": "Materials", "market_weight": 0.02, "change_pct": 0.05, "insights": "The Materials sector was nearly unchanged, suggesting a balance between demand from construction and industrial activity and concerns about a potential economic slowdown impacting commodity prices." }
+            ]
+        };
+
+        function generatePage() {
+            try {
+                const sectorData = marketData.sectors;
+
+                generateTreemap(sectorData);
+                generateCommentary();
+                generateFilterControls(sectorData); // Setup filter controls
+                generateHeatmap(sectorData); // Initial heatmap render
+
+            } catch (error) {
+                console.error("Failed to generate page:", error);
+                document.body.innerHTML = `<div class="flex items-center justify-center h-screen text-red-400 p-4 text-center"><p>Error: Could not load page content. Please check the console.</p></div>`;
+            }
+        }
+
+        function generateTreemap(data) {
+            const ctx = document.getElementById('treemap-chart').getContext('2d');
+            const treemapData = data.map(sector => ({ ...sector, value: sector.market_weight }));
+
+            new Chart(ctx, {
+                type: 'treemap',
+                data: {
+                    datasets: [{
+                        label: 'S&P 500 Sectors',
+                        data: treemapData,
+                        backgroundColor: (context) => {
+                            if (context.type !== 'data') return 'transparent';
+                            const sectorData = treemapData[context.dataIndex];
+                            if (!sectorData) return 'rgba(107, 114, 128, 0.8)';
+                            const change = sectorData.change_pct;
+                            const opacity = 0.8;
+                            if (change > 1.0) return `rgba(16, 185, 129, ${opacity})`;
+                            if (change > 0) return `rgba(74, 222, 128, ${opacity})`;
+                            if (change < -1.0) return `rgba(239, 68, 68, ${opacity})`;
+                            if (change < 0) return `rgba(248, 113, 113, ${opacity})`;
+                            return `rgba(107, 114, 128, ${opacity})`;
+                        },
+                        borderColor: '#1f2937',
+                        borderWidth: 2,
+                        spacing: 1,
+                        key: 'value',
+                        labels: {
+                            display: true,
+                            color: 'white',
+                            align: 'center',
+                            position: 'middle',
+                            font: function(context) {
+                                if (context.type !== 'data') return {};
+                                const sectorData = treemapData[context.dataIndex];
+                                let size = 12, lh = 1.2;
+                                if (sectorData) {
+                                    const weight = sectorData.market_weight;
+                                    if (weight < 0.05) { size = 9; lh = 1.1; }
+                                    else if (weight < 0.10) { size = 10; }
+                                }
+                                return { family: 'Inter, sans-serif', size: size, weight: '500', lineHeight: lh };
+                            },
+                            formatter: (context) => {
+                                if (context.type !== 'data') return null;
+                                const sectorData = treemapData[context.dataIndex];
+                                if (!sectorData || !sectorData.sector) return null;
+                                return sectorData.sector.split(' ');
+                            }
+                        }
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: '#1f2937', titleColor: '#f3f4f6', bodyColor: '#d1d5db',
+                            borderColor: '#4b5563', borderWidth: 1, padding: 10,
+                            callbacks: {
+                                title: (items) => items.length > 0 ? treemapData[items[0].dataIndex].sector : null,
+                                label: (context) => {
+                                    const data = treemapData[context.dataIndex];
+                                    if (!data) return null;
+                                    const weight = (data.market_weight * 100).toFixed(2);
+                                    const change = data.change_pct.toFixed(2);
+                                    const sign = data.change_pct >= 0 ? '+' : '';
+                                    return [`Market Weight: ${weight}%`, `Change: ${sign}${change}%`];
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function generateCommentary() {
+            const container = document.getElementById('commentary-content');
+            let html = `<div class="bg-gray-800 p-4 rounded-lg">
+                    <h3 class="text-xl font-bold text-white mb-2">Overall Market</h3>
+                    <p class="text-gray-400 leading-relaxed">${marketData.overall_commentary}</p>
+                </div>`;
+            marketData.sectors.forEach(sector => {
+                const isPositive = sector.change_pct >= 0;
+                const colorClass = isPositive ? 'text-green-400' : 'text-red-400';
+                const sign = isPositive ? '+' : '';
+                const formattedChange = `${sign}${sector.change_pct.toFixed(2)}%`;
+                html += `<div class="bg-gray-800 p-4 rounded-lg">
+                        <div class="flex justify-between items-baseline mb-2">
+                            <h3 class="text-xl font-bold text-white">${sector.sector}</h3>
+                            <span class="font-semibold ${colorClass}">${formattedChange}</span>
+                        </div>
+                        <p class="text-gray-400 leading-relaxed">${sector.insights}</p>
+                    </div>`;
+            });
+            container.innerHTML = html;
+        }
+
+        // --- Function to generate and manage filter controls ---
+        function generateFilterControls(allSectors) {
+            const button = document.getElementById('filter-button');
+            const dropdown = document.getElementById('filter-dropdown');
+            const checkboxContainer = document.getElementById('filter-checkboxes');
+
+            // Populate checkboxes
+            let checkboxHTML = '';
+            allSectors.forEach(sector => {
+                checkboxHTML += `
+                    <label class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-gray-600 cursor-pointer">
+                        <input type="checkbox" name="sector-filter" value="${sector.sector}" checked class="h-4 w-4 bg-gray-900 border-gray-600 text-indigo-600 rounded focus:ring-indigo-500">
+                        <span class="ml-3">${sector.sector}</span>
+                    </label>`;
+            });
+            checkboxContainer.innerHTML = checkboxHTML;
+
+            // Toggle dropdown visibility
+            button.addEventListener('click', () => {
+                dropdown.classList.toggle('hidden');
+                const isExpanded = dropdown.classList.contains('hidden') ? 'false' : 'true';
+                button.setAttribute('aria-expanded', isExpanded);
+            });
+
+            // Close dropdown if clicking outside
+            document.addEventListener('click', (event) => {
+                if (!button.contains(event.target) && !dropdown.contains(event.target)) {
+                    dropdown.classList.add('hidden');
+                    button.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            // Listen for changes on checkboxes to update the heatmap
+            checkboxContainer.addEventListener('change', () => {
+                const selectedSectors = Array.from(checkboxContainer.querySelectorAll('input[type="checkbox"]:checked'))
+                                             .map(cb => cb.value);
+                const filteredData = marketData.sectors.filter(sector => selectedSectors.includes(sector.sector));
+                generateHeatmap(filteredData);
+            });
+        }
+
+        // --- Heatmap function now accepts data and re-renders ---
+        function generateHeatmap(sectorData) {
+            const dom = document.getElementById('heatmap-chart');
+            // Initialize chart only once and store the instance
+            if (!heatmapChart) {
+                heatmapChart = echarts.init(dom, 'dark', { renderer: 'canvas' });
+                window.addEventListener('resize', () => heatmapChart.resize());
+            }
+
+            const weeks = Array.from({ length: 52 }, (_, i) => `${i + 1}`);
+            const sectors = sectorData.map(s => s.sector).reverse();
+
+            const data = [];
+            // Only generate data if there are sectors to display
+            if (sectors.length > 0) {
+                for (let i = 0; i < weeks.length; i++) {
+                    for (let j = 0; j < sectors.length; j++) {
+                        // This is mock data generation. In a real app, you'd use actual historical data.
+                        const performance = (Math.random() * 8 - 4).toFixed(2);
+                        data.push([i, j, performance]);
+                    }
+                }
+            }
+
+            const option = {
+                tooltip: {
+                    position: 'top',
+                    formatter: function (params) {
+                        if (sectors.length === 0) return ''; // Prevent error if no data
+                        const week = weeks[params.data[0]];
+                        const sector = sectors[params.data[1]];
+                        const perf = params.data[2];
+                        const sign = perf >= 0 ? '+' : '';
+                        return `Week ${week}: ${sector}<br/>Perf: ${sign}${perf}%`;
+                    }
+                },
+                grid: {
+                    left: '15%',
+                    right: '4%',
+                    top: '10',
+                    bottom: '140'
+                },
+                xAxis: {
+                    type: 'category',
+                    data: weeks,
+                    splitArea: { show: true, areaStyle: { color: ['#1f293700', '#1f293755'] } },
+                    axisLine: { show: false },
+                    axisTick: { show: false }
+                },
+                yAxis: {
+                    type: 'category',
+                    data: sectors, // Use filtered list of sectors
+                    splitArea: { show: true, areaStyle: { color: ['#1f293700', '#1f293755'] } },
+                    axisLine: { show: false },
+                    axisTick: { show: false }
+                },
+                // --- MODIFIED: Swapped visualMap and dataZoom positions ---
+                visualMap: {
+                    min: -4,
+                    max: 4,
+                    calculable: false, // Set to false to make it a static legend
+                    orient: 'horizontal',
+                    left: '15%',
+                    right: '4%',
+                    bottom: '20px', // Moved down
+                    inRange: {
+                        color: ['#ef4444', '#f87171', '#d1d5db', '#86efac', '#22c55e']
+                    },
+                    textStyle: {
+                        color: '#d1d5db'
+                    }
+                },
+                dataZoom: [
+                    {
+                        type: 'slider',
+                        show: true,
+                        xAxisIndex: [0],
+                        startValue: 0,
+                        endValue: 12,
+                        bottom: '80px', // Moved up
+                        height: 20,
+                        borderColor: '#4b5563',
+                        backgroundColor: '#1f2937',
+                        dataBackground: {
+                            lineStyle: { color: '#4b5563' },
+                            areaStyle: { color: '#374151' }
+                        },
+                        fillerColor: 'rgba(59, 130, 246, 0.3)',
+                        handleStyle: {
+                            color: '#d1d5db',
+                            shadowBlur: 3,
+                            shadowColor: 'rgba(0, 0, 0, 0.6)',
+                            shadowOffsetX: 2,
+                            shadowOffsetY: 2
+                        },
+                        textStyle: {
+                            color: '#d1d5db'
+                        }
+                    }
+                ],
+                series: [{
+                    name: 'Weekly Performance',
+                    type: 'heatmap',
+                    data: data, // Use filtered data
+                    label: { show: false },
+                    emphasis: {
+                        itemStyle: {
+                            shadowBlur: 10,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }]
+            };
+
+            // Re-render the chart with new options, replacing old ones to ensure the y-axis updates correctly.
+            heatmapChart.setOption(option, { notMerge: true });
+        }
+
+        document.addEventListener('DOMContentLoaded', generatePage);
+        document.getElementById('copyright').innerHTML = `&copy; ${new Date().getFullYear()} KaChing Labs. All Rights Reserved.`;
+    </script>
+</body>
+</html>

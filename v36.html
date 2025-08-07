@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sector Radar</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.2/dist/chart.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-treemap@2.3.0/dist/chartjs-chart-treemap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/echarts@5.5.0/dist/echarts.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Custom styles for the page */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #10B981, #3B82F6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-300">
+
+    <!-- HERO SECTION -->
+    <header class="pt-16 pb-20 md:pt-20 md:pb-28 text-center">
+        <div class="container mx-auto px-6">
+            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">
+                Sector <span class="gradient-text">Radar</span>
+            </h1>
+            <p class="max-w-3xl mx-auto text-lg md:text-xl text-gray-400 leading-relaxed">
+                Scan the market for momentum. This tool visualizes daily performance and historical trends to help you spot capital rotation and identify which sectors are heating up.
+            </p>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <section class="relative z-10 -mt-12 md:-mt-20 pb-12 md:pb-16">
+        <main class="container mx-auto px-4 sm:px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-stretch">
+                <div id="right-column-container" class="lg:col-span-3 flex flex-col justify-center items-center">
+                    <div class="relative w-full h-full min-h-[50vh]">
+                        <canvas id="treemap-chart"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <section id="commentary" class="mt-12">
+                <h2 class="text-2xl sm:text-3xl font-bold text-white mb-6 border-b border-gray-700 pb-3">
+                    AI-Generated Market Commentary
+                </h2>
+                <div id="commentary-content" class="space-y-8">
+                    </div>
+            </section>
+
+            <section id="history" class="mt-12">
+                <div class="flex flex-col md:flex-row justify-between md:items-center mb-6 border-b border-gray-700 pb-3">
+                     <h2 class="text-2xl sm:text-3xl font-bold text-white mb-4 md:mb-0">
+                        Historical Sector Performance (YTD)
+                    </h2>
+                    <div class="relative inline-block text-left">
+                        <div>
+                            <button type="button" class="inline-flex justify-center w-full rounded-md border border-gray-700 shadow-sm px-4 py-2 bg-gray-800 text-sm font-medium text-gray-300 hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-900 focus:ring-emerald-500" id="filter-button" aria-haspopup="true" aria-expanded="false">
+                                Filter Sectors
+                                <svg class="-mr-1 ml-2 h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                                    <path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                        </div>
+                        <div id="filter-dropdown" class="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-gray-800 ring-1 ring-black ring-opacity-5 focus:outline-none z-50 transition-all ease-out duration-200 transform opacity-0 scale-95 invisible" role="menu" aria-orientation="vertical" aria-labelledby="filter-button">
+                            <div id="filter-checkboxes" class="py-1" role="none">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative">
+                    <div id="heatmap-chart" style="width: 100%; height: 500px;"></div>
+                    <div id="heatmap-labels-container"></div>
+                </div>
+            </section>
+        </main>
+    </section>
+
+    <!-- FOOTER from index.html -->
+    <footer class="bg-gray-800 border-t border-gray-700">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-400">
+            <a href="https://KaChing-Labs.com" class="text-base md:text-lg font-semibold text-white">KaChing <span class="text-emerald-400">Labs</span></a>
+            <p class="mt-2 text-sm">Intelligent tools for your financial journey.</p>
+            <p class="mt-4 text-xs">
+                &copy; 2025 KaChing Labs. All Rights Reserved.
+                <span class="mx-2 text-gray-600">|</span>
+                <a href="https://kaching-labs.com/legal.html" class="hover:text-emerald-400 underline">Legal Information</a>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        let heatmapChart = null;
+
+        // Centralized color configuration object for all charts, aligned with brand guidelines
+        const colorConfig = {
+            treemap: {
+                // Using emerald-500 for strong positive
+                strongPositive: (opacity = 0.8) => `rgba(16, 185, 129, ${opacity})`,
+                // Using emerald-400 for light positive
+                lightPositive: (opacity = 0.8) => `rgba(52, 211, 153, ${opacity})`,
+                 // Using red-500 for strong negative
+                strongNegative: (opacity = 0.8) => `rgba(239, 68, 68, ${opacity})`,
+                // Using red-400 for light negative
+                lightNegative: (opacity = 0.8) => `rgba(248, 113, 113, ${opacity})`,
+                // Using gray-500 for neutral
+                neutral: (opacity = 0.8) => `rgba(107, 114, 128, ${opacity})`,
+                // Border to match card background
+                border: '#1F2937', // bg-gray-800
+                tooltip: {
+                    background: '#1F2937', // bg-gray-800
+                    title: '#FFFFFF', // text-white
+                    body: '#D1D5DB', // text-gray-300
+                    border: '#374151' // border-gray-700
+                }
+            },
+            heatmap: {
+                strongPositive: '#10B981', // emerald-500
+                lightPositive: '#34D399',  // emerald-400
+                strongNegative: '#EF4444', // red-500
+                lightNegative: '#F87171',  // red-400
+                neutral: '#6B7280',       // gray-500
+                empty: '#374151',         // gray-700
+                border: '#1F2937',        // gray-800
+                // transparent bg-gray-900 and semi-transparent bg-gray-800 for stripes
+                splitArea: ['rgba(17, 24, 39, 0)', 'rgba(31, 41, 55, 0.6)']
+            }
+        };
+
+        const marketData = {
+            "overall_commentary": "The market saw mixed performance today, with significant divergence between growth-oriented sectors like Technology and Energy, and defensive or interest-rate-sensitive sectors like Utilities and Real Estate. This suggests a rotational environment where investors are actively reallocating capital based on shifting economic outlooks and commodity prices.",
+            "sectors": [
+                { "sector": "Information Technology", "market_weight": 0.28, "change_pct": 1.25, "insights": "The tech sector's gain of 1.25% reflects ongoing investor confidence, likely tied to strong earnings forecasts and breakthroughs in AI technology. Leadership from semiconductor and software companies propelled the sector higher." },
+                { "sector": "Health Care", "market_weight": 0.14, "change_pct": 0.40, "insights": "Health Care saw steady gains. This defensive sector often performs well in uncertain markets. Positive clinical trial news from a major pharmaceutical company may have contributed to the day's modest advance." },
+                { "sector": "Financials", "market_weight": 0.12, "change_pct": -0.20, "insights": "Financials experienced a minor dip, possibly due to uncertainty regarding future interest rate decisions by the Federal Reserve. Regional bank stocks slightly underperformed their larger counterparts." },
+                { "sector": "Consumer Discretionary", "market_weight": 0.10, "change_pct": -1.75, "insights": "This sector's sharp decline suggests worries about consumer spending power, possibly linked to recent inflation data or a drop in consumer confidence. Luxury goods and automotive stocks were among the hardest hit." },
+                { "sector": "Communication Services", "market_weight": 0.09, "change_pct": 0.95, "insights": "A solid gain for Communication Services was driven by strong performance from major streaming and social media platforms, which benefited from positive user growth reports." },
+                { "sector": "Industrials", "market_weight": 0.08, "change_pct": 0.15, "insights": "The Industrials sector saw a slight uptick, possibly due to positive manufacturing data or government infrastructure spending announcements. Aerospace and defense firms showed notable strength." },
+                { "sector": "Consumer Staples", "market_weight": 0.06, "change_pct": -0.50, "insights": "A slight loss for this defensive sector. Investors may be rotating into higher-growth areas, leading to modest outflows from household product and food and beverage companies." },
+                { "sector": "Energy", "market_weight": 0.05, "change_pct": 2.10, "insights": "The Energy sector led the market with a strong 2.10% gain. This is almost certainly tied to a recent surge in global oil prices and geopolitical tensions, boosting exploration and production companies." },
+                { "sector": "Utilities", "market_weight": 0.03, "change_pct": -0.90, "insights": "Utilities, a typically stable sector, saw a notable decline. This can happen when interest rates are expected to rise, making their dividends less attractive compared to government bonds." },
+                { "sector": "Real Estate", "market_weight": 0.03, "change_pct": -1.10, "insights": "The decline in Real Estate is likely a direct response to fears of rising interest rates, which increases borrowing costs and can cool the housing and commercial property markets." },
+                { "sector": "Materials", "market_weight": 0.02, "change_pct": 0.05, "insights": "The Materials sector was nearly unchanged, suggesting a balance between demand from construction and industrial activity and concerns about a potential economic slowdown impacting commodity prices." }
+            ]
+        };
+
+        function generatePage() {
+            try {
+                const sectorData = marketData.sectors;
+
+                generateTreemap(sectorData);
+                generateCommentary(marketData);
+                generateFilterControls(sectorData);
+                generateHeatmap(sectorData);
+                renderHeatmapLabels();
+
+            } catch (error) {
+                console.error("Failed to generate page:", error);
+                document.body.innerHTML = `<div class="flex items-center justify-center h-screen text-red-400 p-4 text-center"><p>Error: Could not load page content. Please check the console.</p></div>`;
+            }
+        }
+
+        function generateTreemap(data) {
+            const ctx = document.getElementById('treemap-chart').getContext('2d');
+            const treemapData = data.map(sector => ({ ...sector, value: sector.market_weight }));
+
+            new Chart(ctx, {
+                type: 'treemap',
+                data: {
+                    datasets: [{
+                        label: 'S&P 500 Sectors',
+                        data: treemapData,
+                        backgroundColor: (context) => {
+                            if (context.type !== 'data') return 'transparent';
+                            const sectorData = treemapData[context.dataIndex];
+                            if (!sectorData) return colorConfig.treemap.neutral();
+                            const change = sectorData.change_pct;
+                            if (change > 1.0) return colorConfig.treemap.strongPositive();
+                            if (change > 0) return colorConfig.treemap.lightPositive();
+                            if (change < -1.0) return colorConfig.treemap.strongNegative();
+                            if (change < 0) return colorConfig.treemap.lightNegative();
+                            return colorConfig.treemap.neutral();
+                        },
+                        borderColor: colorConfig.treemap.border,
+                        borderWidth: 0,
+                        spacing: 1,
+                        key: 'value',
+                        labels: {
+                            display: true,
+                            color: 'white',
+                            align: 'center',
+                            position: 'middle',
+                            font: function(context) {
+                                if (context.type !== 'data') return {};
+                                const chartWidth = context.chart.width;
+                                const baseSize = 8 + (chartWidth / 100);
+                                const sectorData = treemapData[context.dataIndex];
+                                let finalSize = baseSize;
+                                let lh = 1.2;
+                                if (sectorData) {
+                                    const weight = sectorData.market_weight;
+                                    if (weight < 0.05) {
+                                        finalSize *= 0.75;
+                                        lh = 1.1;
+                                    } else if (weight < 0.10) {
+                                        finalSize *= 0.9;
+                                    }
+                                }
+                                return { family: 'Inter, sans-serif', size: Math.round(Math.max(7, finalSize)), weight: '500', lineHeight: lh };
+                            },
+                            formatter: (context) => {
+                                if (context.type !== 'data') return null;
+                                const sectorData = treemapData[context.dataIndex];
+                                if (!sectorData || !sectorData.sector) return null;
+                                const text = sectorData.sector;
+                                const words = text.split(' ');
+                                const weight = sectorData.market_weight;
+                                const isMobile = window.innerWidth <= 768;
+                                if (isMobile && weight <= 0.025) {
+                                    if (words.length === 1 && text.length > 8) {
+                                        const mid = Math.round(text.length / 2);
+                                        return [text.slice(0, mid), text.slice(mid)];
+                                    }
+                                    return words;
+                                } else {
+                                    return words;
+                                }
+                            }
+                        }
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: { display: false },
+                        tooltip: {
+                            backgroundColor: colorConfig.treemap.tooltip.background,
+                            titleColor: colorConfig.treemap.tooltip.title,
+                            bodyColor: colorConfig.treemap.tooltip.body,
+                            borderColor: colorConfig.treemap.tooltip.border,
+                            borderWidth: 1,
+                            padding: 10,
+                            callbacks: {
+                                title: (items) => items.length > 0 ? treemapData[items[0].dataIndex].sector : null,
+                                label: (context) => {
+                                    const data = treemapData[context.dataIndex];
+                                    if (!data) return null;
+                                    const weight = (data.market_weight * 100).toFixed(2);
+                                    const change = data.change_pct.toFixed(2);
+                                    const sign = data.change_pct >= 0 ? '+' : '';
+                                    return [`Market Weight: ${weight}%`, `Change: ${sign}${change}%`];
+                                }
+                            }
+                        }
+                    },
+                    layout: {
+                        padding: {
+                            top: 0,
+                            bottom: 0,
+                            left: 0,
+                            right: 0
+                        }
+                    }
+                }
+            });
+        }
+
+        function generateCommentary(data) {
+            const container = document.getElementById('commentary-content');
+            let html = `<div class="bg-gray-800 p-4 rounded-lg">
+                    <h3 class="text-xl font-bold text-white mb-2">Overall Market</h3>
+                    <p class="text-gray-400 leading-relaxed">${data.overall_commentary}</p>
+                </div>`;
+            data.sectors.forEach(sector => {
+                const isPositive = sector.change_pct >= 0;
+                const colorClass = isPositive ? 'text-emerald-400' : 'text-red-400';
+                const sign = isPositive ? '+' : '';
+                const formattedChange = `${sign}${sector.change_pct.toFixed(2)}%`;
+                html += `<div class="bg-gray-800 p-4 rounded-lg">
+                        <div class="flex justify-between items-center mb-2">
+                            <h3 class="text-xl font-bold text-white">${sector.sector}</h3>
+                            <span class="text-xl font-semibold ${colorClass}">${formattedChange}</span>
+                        </div>
+                        <p class="text-gray-400 leading-relaxed">${sector.insights}</p>
+                    </div>`;
+            });
+            container.innerHTML = html;
+        }
+
+        function generateFilterControls(allSectors) {
+            const button = document.getElementById('filter-button');
+            const dropdown = document.getElementById('filter-dropdown');
+            const checkboxContainer = document.getElementById('filter-checkboxes');
+
+            let checkboxHTML = '';
+            allSectors.forEach(sector => {
+                checkboxHTML += `
+                    <label class="flex items-center px-4 py-2 text-sm text-gray-300 hover:bg-gray-700 cursor-pointer">
+                        <input type="checkbox" name="sector-filter" value="${sector.sector}" checked class="h-4 w-4 bg-gray-900 border-gray-600 text-emerald-600 rounded focus:ring-emerald-500">
+                        <span class="ml-3">${sector.sector}</span>
+                    </label>`;
+            });
+            checkboxContainer.innerHTML = checkboxHTML;
+
+            button.addEventListener('click', () => {
+                const isHidden = dropdown.classList.contains('invisible');
+                dropdown.classList.toggle('invisible');
+                dropdown.classList.toggle('opacity-0');
+                dropdown.classList.toggle('scale-95');
+                button.setAttribute('aria-expanded', isHidden.toString());
+            });
+
+            document.addEventListener('click', (event) => {
+                if (!button.contains(event.target) && !dropdown.contains(event.target)) {
+                    dropdown.classList.add('invisible', 'opacity-0', 'scale-95');
+                    button.setAttribute('aria-expanded', 'false');
+                }
+            });
+
+            checkboxContainer.addEventListener('change', () => {
+                const selectedSectors = Array.from(checkboxContainer.querySelectorAll('input[type="checkbox"]:checked'))
+                                             .map(cb => cb.value);
+                const filteredData = marketData.sectors.filter(sector => selectedSectors.includes(sector.sector));
+                generateHeatmap(filteredData);
+            });
+        }
+
+        function renderHeatmapLabels() {
+            // This function is now empty as the labels have been removed.
+            const container = document.getElementById('heatmap-labels-container');
+            container.innerHTML = '';
+        }
+
+        function getHeatmapOption(sectorData) {
+            const isMobile = window.innerWidth < 768;
+            const weeks = Array.from({ length: 52 }, (_, i) => `${i + 1}`);
+            const sectors = sectorData.map(s => s.sector).reverse();
+
+            const currentWeek = 5;
+            const data = [];
+            if (sectors.length > 0) {
+                for (let i = 0; i < weeks.length; i++) {
+                    for (let j = 0; j < sectors.length; j++) {
+                        if (i < currentWeek) {
+                            const performance = (Math.random() * 8 - 4).toFixed(2);
+                            data.push([i, j, performance]);
+                        } else {
+                            data.push([i, j, '-']);
+                        }
+                    }
+                }
+            }
+
+            return {
+                tooltip: {
+                    position: 'top',
+                    formatter: function (params) {
+                        if (params.value[2] === '-') return;
+                        if (sectors.length === 0) return '';
+                        const week = weeks[params.data[0]];
+                        const sector = sectors[params.data[1]];
+                        const perf = params.data[2];
+                        const sign = perf >= 0 ? '+' : '';
+                        return `Week ${week}: ${sector}<br/>Perf: ${sign}${perf}%`;
+                    }
+                },
+                grid: {
+                    left: isMobile ? '25%' : '15%',
+                    right: '4%',
+                    top: '10',
+                    bottom: 60 // Reduced bottom margin
+                },
+                xAxis: {
+                    type: 'category',
+                    data: weeks,
+                    splitArea: { show: true, areaStyle: { color: colorConfig.heatmap.splitArea } },
+                    axisLine: { show: false },
+                    axisTick: { show: false },
+                    axisLabel: {
+                        showMaxLabel: true
+                    }
+                },
+                yAxis: {
+                    type: 'category',
+                    data: sectors,
+                    splitArea: { show: true, areaStyle: { color: colorConfig.heatmap.splitArea } },
+                    axisLine: { show: false },
+                    axisTick: { show: false },
+                    axisLabel: {
+                        fontSize: isMobile ? 10 : 12,
+                        formatter: function (value) {
+                            if (isMobile) {
+                                const parts = value.split(' ');
+                                if (parts.length > 1) {
+                                    return parts.join('\n');
+                                }
+                            }
+                            return value;
+                        }
+                    }
+                },
+                series: [{
+                    name: 'Weekly Performance',
+                    type: 'heatmap',
+                    data: data,
+                    label: { show: false },
+                    itemStyle: {
+                        color: (params) => {
+                            const value = params.value[2];
+                            if (value === '-') {
+                                return colorConfig.heatmap.empty;
+                            }
+                            const performance = parseFloat(value);
+                            if (performance > 1.5) return colorConfig.heatmap.strongPositive;
+                            if (performance > 0) return colorConfig.heatmap.lightPositive;
+                            if (performance < -1.5) return colorConfig.heatmap.strongNegative;
+                            if (performance < 0) return colorConfig.heatmap.lightNegative;
+                            return colorConfig.heatmap.neutral;
+                        },
+                        borderWidth: 1,
+                        borderColor: colorConfig.heatmap.border
+                    },
+                    emphasis: {
+                        itemStyle: {
+                            shadowBlur: 10,
+                            shadowColor: 'rgba(0, 0, 0, 0.5)'
+                        }
+                    }
+                }]
+            };
+        }
+
+        function generateHeatmap(sectorData) {
+            const dom = document.getElementById('heatmap-chart');
+            if (!heatmapChart) {
+                heatmapChart = echarts.init(dom, null, { renderer: 'canvas' });
+                window.addEventListener('resize', () => {
+                    if (heatmapChart && !heatmapChart.isDisposed()) {
+                        renderHeatmapLabels();
+                        const checkboxContainer = document.getElementById('filter-checkboxes');
+                        const selectedSectors = Array.from(checkboxContainer.querySelectorAll('input[type="checkbox"]:checked'))
+                                                     .map(cb => cb.value);
+                        const currentFilteredData = marketData.sectors.filter(sector => selectedSectors.includes(sector.sector));
+                        heatmapChart.setOption(getHeatmapOption(currentFilteredData), true);
+                        heatmapChart.resize();
+                    }
+                });
+            }
+            heatmapChart.setOption(getHeatmapOption(sectorData), true);
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            generatePage();
+            const copyrightP = document.querySelector('footer p.text-xs');
+            if (copyrightP) {
+                 copyrightP.innerHTML = `&copy; ${new Date().getFullYear()} KaChing Labs. All Rights Reserved. <span class="mx-2 text-gray-600">|</span> <a href="https://kaching-labs.com/legal.html" class="hover:text-emerald-400 underline">Legal Information</a>`;
+            }
+        });
+    </script>
+</body>
+</html>
