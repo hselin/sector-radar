@@ -1,10 +1,14 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector encompasses companies that develop, manufacture, and market pharmaceuticals, biotechnology products, and medical devices, as well as provide healthcare services and facilities.",
-    "marketSizeUSD": "7.4T",
-    "constituentCount": 65,
+    "description": "The Health Care GICS sector comprises companies involved in providing medical services, manufacturing medical products, and developing pharmaceuticals and biotechnology, including managed healthcare, equipment, and life sciences tools.",
+    "marketSizeUSD": "4.2T",
+    "constituentCount": 66,
     "topHoldings": [
+      {
+        "name": "UnitedHealth Group Incorporated",
+        "symbol": "UNH"
+      },
       {
         "name": "Eli Lilly and Company",
         "symbol": "LLY"
@@ -12,70 +16,14 @@
       {
         "name": "Johnson & Johnson",
         "symbol": "JNJ"
-      },
-      {
-        "name": "UnitedHealth Group Inc.",
-        "symbol": "UNH"
       }
     ]
   },
-  "market_weight": 0.1556,
-  "change_pct": -0.37,
-  "insights": "The Health Care sector experienced a slight decline of -0.37% today, indicating a marginal pullback in performance. The key technical indicators largely reflect a neutral to mildly cautious sentiment: the Relative Strength Index (RSI) at 54.89 and the Money Flow Index (MFI) at 53.85 both hover near the neutral 50-mark, suggesting the sector is neither overbought nor oversold, and money flow is relatively balanced. However, the significantly negative On-Balance Volume (OBV) of -94,481,200, despite the small price drop, indicates that selling volume modestly outweighed buying volume, reflecting some underlying selling pressure during today's trading session.",
+  "market_weight": 0.0857,
+  "change_pct": -1.5,
+  "insights": "The Health Care sector experienced a notable decline of -1.50% today, indicating a challenging session. Technical indicators largely corroborate this weakness: the RSI at 40.74 and MFI at 45.95 suggest bearish momentum and net money outflow, respectively, without yet reaching oversold levels. Crucially, the significantly negative On-Balance Volume (OBV) of -144,360,900 points to substantial selling pressure accompanying the price drop, underscoring that today's decline was backed by significant volume distribution.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        70.07
-      ],
-      [
-        1738022400000,
-        65.38
-      ],
-      [
-        1738108800000,
-        61.68
-      ],
-      [
-        1738195200000,
-        65.76
-      ],
-      [
-        1738281600000,
-        63.71
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        65.13
-      ],
-      [
-        1738627200000,
-        63.26
-      ],
-      [
-        1738713600000,
-        66.87
-      ],
-      [
-        1738800000000,
-        60.81
-      ],
-      [
-        1738886400000,
-        57.88
-      ],
       [
         1738972800000,
         null
@@ -746,62 +694,62 @@
       ],
       [
         1753401600000,
+        56.92
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        52.69
+      ],
+      [
+        1753747200000,
+        49.82
+      ],
+      [
+        1753833600000,
+        49.01
+      ],
+      [
+        1753920000000,
+        38.53
+      ],
+      [
+        1754006400000,
+        41.05
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        47.32
+      ],
+      [
+        1754352000000,
+        45.9
+      ],
+      [
+        1754438400000,
+        40.74
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "mfi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        80.45
-      ],
-      [
-        1738022400000,
-        80.68
-      ],
-      [
-        1738108800000,
-        73.5
-      ],
-      [
-        1738195200000,
-        79.58
-      ],
-      [
-        1738281600000,
-        79.48
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        69.87
-      ],
-      [
-        1738627200000,
-        68.82
-      ],
-      [
-        1738713600000,
-        68.63
-      ],
-      [
-        1738800000000,
-        60.24
-      ],
-      [
-        1738886400000,
-        58.53
-      ],
       [
         1738972800000,
         null
@@ -1472,62 +1420,62 @@
       ],
       [
         1753401600000,
+        59.87
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        52.64
+      ],
+      [
+        1753747200000,
+        45.05
+      ],
+      [
+        1753833600000,
+        43.18
+      ],
+      [
+        1753920000000,
+        40.65
+      ],
+      [
+        1754006400000,
+        38.86
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        45.58
+      ],
+      [
+        1754352000000,
+        45.59
+      ],
+      [
+        1754438400000,
+        45.95
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "obv": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        -16758200.0
-      ],
-      [
-        1738022400000,
-        -26444600.0
-      ],
-      [
-        1738108800000,
-        -34603700.0
-      ],
-      [
-        1738195200000,
-        -26898500.0
-      ],
-      [
-        1738281600000,
-        -36110300.0
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        -23108800.0
-      ],
-      [
-        1738627200000,
-        -34870800.0
-      ],
-      [
-        1738713600000,
-        -24828500.0
-      ],
-      [
-        1738800000000,
-        -37250600.0
-      ],
-      [
-        1738886400000,
-        -48450300.0
-      ],
       [
         1738972800000,
         null
@@ -2194,10 +2142,62 @@
       ],
       [
         1753315200000,
-        -94481200.0
+        -94483400.0
       ],
       [
         1753401600000,
+        -84943500.0
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        -94723800.0
+      ],
+      [
+        1753747200000,
+        -109691400.0
+      ],
+      [
+        1753833600000,
+        -121326000.0
+      ],
+      [
+        1753920000000,
+        -147767600.0
+      ],
+      [
+        1754006400000,
+        -127031400.0
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        -115700400.0
+      ],
+      [
+        1754352000000,
+        -130019600.0
+      ],
+      [
+        1754438400000,
+        -144360900.0
+      ],
+      [
+        1754524800000,
         null
       ]
     ]
@@ -2232,9 +2232,9 @@
     1.17,
     -0.23,
     -2.48,
-    2.97,
-    null,
-    null,
+    3.52,
+    -3.92,
+    -0.47,
     null,
     null,
     null,

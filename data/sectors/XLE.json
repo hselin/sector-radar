@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, storage, transportation, and marketing of oil, gas, coal, and other consumable fuels.",
-    "marketSizeUSD": "2.3T",
+    "description": "The GICS Energy sector encompasses companies primarily engaged in the exploration, production, refining, and marketing of oil and gas, as well as those involved in coal, alternative fuels, and energy equipment and services.",
+    "marketSizeUSD": "3.5T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,63 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0484,
-  "change_pct": 0.71,
-  "insights": "The Energy sector recorded a modest gain of 0.71% today, signaling a steady, positive session. This upward movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 54.82 and the Money Flow Index (MFI) at 57.95 both reside in neutral territory but lean towards sustained buying interest without indicating overbought conditions. The On-Balance Volume (OBV) of 404,765,000, while a cumulative figure, aligns with the positive price action, suggesting that today's gains were supported by underlying volume and a net positive flow of money into the sector.",
+  "market_weight": 0.0714,
+  "change_pct": -0.92,
+  "insights": "The Energy sector experienced a modest decline of -0.92% today. The Relative Strength Index (RSI) at 41.76 places it in a neutral-to-slightly-bearish zone, well above oversold levels, suggesting room for further movement in either direction. Conversely, the Money Flow Index (MFI) at 58.19, still above the neutral 50 mark, suggests persistent money flow into the sector, indicating underlying buying interest despite the price depreciation. The substantial On-Balance Volume (OBV) figure of 355,232,700, when viewed with the MFI, could imply that today's modest pullback was not accompanied by significant negative volume conviction, but rather a slight cooling off within a broader accumulation trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        51.33
-      ],
-      [
-        1738022400000,
-        47.48
-      ],
-      [
-        1738108800000,
-        48.44
-      ],
-      [
-        1738195200000,
-        50.7
-      ],
-      [
-        1738281600000,
-        40.3
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        43.05
-      ],
-      [
-        1738627200000,
-        51.18
-      ],
-      [
-        1738713600000,
-        51.94
-      ],
-      [
-        1738800000000,
-        45.31
-      ],
-      [
-        1738886400000,
-        45.27
-      ],
       [
         1738972800000,
         null
@@ -746,62 +694,62 @@
       ],
       [
         1753401600000,
+        53.25
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        57.22
+      ],
+      [
+        1753747200000,
+        60.37
+      ],
+      [
+        1753833600000,
+        54.04
+      ],
+      [
+        1753920000000,
+        51.87
+      ],
+      [
+        1754006400000,
+        45.15
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        44.42
+      ],
+      [
+        1754352000000,
+        44.97
+      ],
+      [
+        1754438400000,
+        41.76
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "mfi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        54.33
-      ],
-      [
-        1738022400000,
-        47.86
-      ],
-      [
-        1738108800000,
-        43.0
-      ],
-      [
-        1738195200000,
-        50.18
-      ],
-      [
-        1738281600000,
-        42.24
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        32.89
-      ],
-      [
-        1738627200000,
-        34.07
-      ],
-      [
-        1738713600000,
-        32.15
-      ],
-      [
-        1738800000000,
-        25.82
-      ],
-      [
-        1738886400000,
-        20.82
-      ],
       [
         1738972800000,
         null
@@ -1472,62 +1420,62 @@
       ],
       [
         1753401600000,
+        64.11
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        62.18
+      ],
+      [
+        1753747200000,
+        61.84
+      ],
+      [
+        1753833600000,
+        55.54
+      ],
+      [
+        1753920000000,
+        49.17
+      ],
+      [
+        1754006400000,
+        48.29
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        49.18
+      ],
+      [
+        1754352000000,
+        49.69
+      ],
+      [
+        1754438400000,
+        58.19
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "obv": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        293682400.0
-      ],
-      [
-        1738022400000,
-        274981500.0
-      ],
-      [
-        1738108800000,
-        285322400.0
-      ],
-      [
-        1738195200000,
-        304868700.0
-      ],
-      [
-        1738281600000,
-        282600000.0
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        302508200.0
-      ],
-      [
-        1738627200000,
-        322648100.0
-      ],
-      [
-        1738713600000,
-        333534100.0
-      ],
-      [
-        1738800000000,
-        312879300.0
-      ],
-      [
-        1738886400000,
-        301595100.0
-      ],
       [
         1738972800000,
         null
@@ -2194,10 +2142,62 @@
       ],
       [
         1753315200000,
-        404765000.0
+        404766900.0
       ],
       [
         1753401600000,
+        394695300.0
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        406547900.0
+      ],
+      [
+        1753747200000,
+        418823900.0
+      ],
+      [
+        1753833600000,
+        405547700.0
+      ],
+      [
+        1753920000000,
+        393067300.0
+      ],
+      [
+        1754006400000,
+        371902600.0
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        358647800.0
+      ],
+      [
+        1754352000000,
+        374354600.0
+      ],
+      [
+        1754438400000,
+        355232700.0
+      ],
+      [
+        1754524800000,
         null
       ]
     ]
@@ -2232,9 +2232,9 @@
     2.03,
     2.41,
     -3.56,
-    1.71,
-    null,
-    null,
+    1.33,
+    -1.73,
+    -1.02,
     null,
     null,
     null,

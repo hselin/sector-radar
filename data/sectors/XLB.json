@@ -1,16 +1,16 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, and paper and forest products.",
-    "marketSizeUSD": "1.8T",
-    "constituentCount": 29,
+    "description": "The Materials GICS sector includes companies that extract, process, and produce raw materials, including chemicals, construction materials, containers and packaging, metals and mining, and paper and forest products.",
+    "marketSizeUSD": "1.0T",
+    "constituentCount": 28,
     "topHoldings": [
       {
         "name": "Linde plc",
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Company",
+        "name": "Sherwin-Williams Co",
         "symbol": "SHW"
       },
       {
@@ -19,63 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0379,
-  "change_pct": -1.03,
-  "insights": "The Materials sector experienced a modest decline of 1.03% today. Despite this daily pullback, key technical indicators suggest a nuanced outlook: the Relative Strength Index (RSI) at 57.79 and Money Flow Index (MFI) at 56.57 both remain in neutral-to-bullish territory, indicating that underlying momentum and money flow have not significantly weakened. This suggests today's dip may be more of a temporary consolidation or profit-taking rather than a strong bearish reversal. The On-Balance Volume (OBV) at 11,560,400 represents the cumulative volume balance; while its specific daily change would offer more context, the overall positive figure implies that over a broader timeframe, buying pressure has generally outweighed selling pressure.",
+  "market_weight": 0.0204,
+  "change_pct": -1.08,
+  "insights": "The Materials sector registered a decline of -1.08% today, a movement broadly reinforced by its technical indicators. The Relative Strength Index (RSI) at 42.04 and Money Flow Index (MFI) at 42.56 both signal a bearish momentum and net capital outflow, respectively, indicating increased selling pressure within the sector. Furthermore, the On-Balance Volume (OBV) at -23,693,000 underscores that today's price depreciation was accompanied by substantial selling volume, confirming the strength of the bearish sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        58.97
-      ],
-      [
-        1738022400000,
-        57.0
-      ],
-      [
-        1738108800000,
-        55.9
-      ],
-      [
-        1738195200000,
-        60.26
-      ],
-      [
-        1738281600000,
-        55.67
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        56.17
-      ],
-      [
-        1738627200000,
-        57.65
-      ],
-      [
-        1738713600000,
-        57.09
-      ],
-      [
-        1738800000000,
-        58.98
-      ],
-      [
-        1738886400000,
-        50.53
-      ],
       [
         1738972800000,
         null
@@ -746,62 +694,62 @@
       ],
       [
         1753401600000,
+        62.23
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        54.56
+      ],
+      [
+        1753747200000,
+        52.73
+      ],
+      [
+        1753833600000,
+        44.37
+      ],
+      [
+        1753920000000,
+        40.17
+      ],
+      [
+        1754006400000,
+        36.78
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        42.7
+      ],
+      [
+        1754352000000,
+        45.65
+      ],
+      [
+        1754438400000,
+        42.04
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "mfi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        53.17
-      ],
-      [
-        1738022400000,
-        51.51
-      ],
-      [
-        1738108800000,
-        55.44
-      ],
-      [
-        1738195200000,
-        63.77
-      ],
-      [
-        1738281600000,
-        65.16
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        52.71
-      ],
-      [
-        1738627200000,
-        54.68
-      ],
-      [
-        1738713600000,
-        46.95
-      ],
-      [
-        1738800000000,
-        48.15
-      ],
-      [
-        1738886400000,
-        41.17
-      ],
       [
         1738972800000,
         null
@@ -1472,62 +1420,62 @@
       ],
       [
         1753401600000,
+        63.63
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        55.47
+      ],
+      [
+        1753747200000,
+        48.22
+      ],
+      [
+        1753833600000,
+        39.32
+      ],
+      [
+        1753920000000,
+        37.3
+      ],
+      [
+        1754006400000,
+        34.95
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        41.46
+      ],
+      [
+        1754352000000,
+        47.85
+      ],
+      [
+        1754438400000,
+        42.56
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "obv": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        15680200.0
-      ],
-      [
-        1738022400000,
-        11036400.0
-      ],
-      [
-        1738108800000,
-        6526300.0
-      ],
-      [
-        1738195200000,
-        12725400.0
-      ],
-      [
-        1738281600000,
-        5774000.0
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        16398800.0
-      ],
-      [
-        1738627200000,
-        26258000.0
-      ],
-      [
-        1738713600000,
-        19160900.0
-      ],
-      [
-        1738800000000,
-        26812400.0
-      ],
-      [
-        1738886400000,
-        20039600.0
-      ],
       [
         1738972800000,
         null
@@ -2198,6 +2146,58 @@
       ],
       [
         1753401600000,
+        19436800.0
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        11929300.0
+      ],
+      [
+        1753747200000,
+        4826400.0
+      ],
+      [
+        1753833600000,
+        -6988300.0
+      ],
+      [
+        1753920000000,
+        -18603600.0
+      ],
+      [
+        1754006400000,
+        -32894500.0
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        -25146000.0
+      ],
+      [
+        1754352000000,
+        -17122500.0
+      ],
+      [
+        1754438400000,
+        -23693000.0
+      ],
+      [
+        1754524800000,
         null
       ]
     ]
@@ -2232,9 +2232,9 @@
     3.96,
     0.16,
     -1.42,
-    1.19,
-    null,
-    null,
+    2.38,
+    -6.12,
+    0.93,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector encompasses companies engaged in real estate development and operations, and Equity Real Estate Investment Trusts (REITs) that own and manage income-producing properties.",
-    "marketSizeUSD": "1.15T",
+    "description": "The Real Estate GICS sector primarily comprises Equity REITs and companies involved in real estate management and development, owning and operating income-producing properties.",
+    "marketSizeUSD": "1.4T",
     "constituentCount": 32,
     "topHoldings": [
       {
@@ -19,63 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0242,
-  "change_pct": -0.14,
-  "insights": "The Real Estate sector registered a marginal decline of -0.14% today, suggesting a largely flat session with a slight downward bias. Despite this minor dip, technical indicators point to underlying strength and sustained interest. The Relative Strength Index (RSI) at 65.13 and Money Flow Index (MFI) at 67.18 both indicate the sector is experiencing significant buying pressure and positive money flow, approaching overbought levels from recent activity. The On-Balance Volume (OBV) at 101,211,300 further supports a pattern of net accumulation, suggesting today's minimal negative movement is likely a brief consolidation rather than a significant shift in trend.",
+  "market_weight": 0.0286,
+  "change_pct": -0.84,
+  "insights": "The Real Estate sector experienced a modest decline of -0.84% today, signaling a slight pullback in performance. Its key technical indicators suggest a degree of balance with underlying weakness: The Relative Strength Index (RSI) at 44.71 indicates that the sector is in a neutral-to-slightly-bearish momentum zone, well above oversold levels, suggesting room for further movement in either direction without being extended. The Money Flow Index (MFI) at 52.70, being near the 50-mark, points to relatively balanced money flow between buying and selling pressure despite the daily price dip, not indicating strong capital outflows. Lastly, the On-Balance Volume (OBV) at 81,331,100 reflects the cumulative volume dynamics; without a prior period's comparison, its current value serves as a snapshot of the ongoing buying and selling pressure accompanying the sector's daily price action, consistent with a slight downward drift rather than a sharp sell-off.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        56.64
-      ],
-      [
-        1738022400000,
-        51.73
-      ],
-      [
-        1738108800000,
-        47.55
-      ],
-      [
-        1738195200000,
-        52.23
-      ],
-      [
-        1738281600000,
-        51.4
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        50.74
-      ],
-      [
-        1738627200000,
-        50.74
-      ],
-      [
-        1738713600000,
-        56.79
-      ],
-      [
-        1738800000000,
-        57.82
-      ],
-      [
-        1738886400000,
-        56.02
-      ],
       [
         1738972800000,
         null
@@ -746,62 +694,62 @@
       ],
       [
         1753401600000,
+        65.13
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        51.52
+      ],
+      [
+        1753747200000,
+        60.03
+      ],
+      [
+        1753833600000,
+        51.66
+      ],
+      [
+        1753920000000,
+        43.59
+      ],
+      [
+        1754006400000,
+        42.43
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        46.87
+      ],
+      [
+        1754352000000,
+        48.57
+      ],
+      [
+        1754438400000,
+        44.71
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "mfi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        55.97
-      ],
-      [
-        1738022400000,
-        56.93
-      ],
-      [
-        1738108800000,
-        60.24
-      ],
-      [
-        1738195200000,
-        67.15
-      ],
-      [
-        1738281600000,
-        76.23
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        67.28
-      ],
-      [
-        1738627200000,
-        67.16
-      ],
-      [
-        1738713600000,
-        66.3
-      ],
-      [
-        1738800000000,
-        65.49
-      ],
-      [
-        1738886400000,
-        58.44
-      ],
       [
         1738972800000,
         null
@@ -1472,62 +1420,62 @@
       ],
       [
         1753401600000,
+        68.41
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        69.12
+      ],
+      [
+        1753747200000,
+        76.05
+      ],
+      [
+        1753833600000,
+        66.5
+      ],
+      [
+        1753920000000,
+        63.47
+      ],
+      [
+        1754006400000,
+        54.92
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        61.26
+      ],
+      [
+        1754352000000,
+        60.41
+      ],
+      [
+        1754438400000,
+        52.7
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "obv": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        88283400.0
-      ],
-      [
-        1738022400000,
-        83917100.0
-      ],
-      [
-        1738108800000,
-        79971500.0
-      ],
-      [
-        1738195200000,
-        84453000.0
-      ],
-      [
-        1738281600000,
-        79722700.0
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        72283100.0
-      ],
-      [
-        1738627200000,
-        72283100.0
-      ],
-      [
-        1738713600000,
-        76640000.0
-      ],
-      [
-        1738800000000,
-        80320600.0
-      ],
-      [
-        1738886400000,
-        74983500.0
-      ],
       [
         1738972800000,
         null
@@ -2198,6 +2146,58 @@
       ],
       [
         1753401600000,
+        101211300.0
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        96434700.0
+      ],
+      [
+        1753747200000,
+        105881800.0
+      ],
+      [
+        1753833600000,
+        95973600.0
+      ],
+      [
+        1753920000000,
+        85652900.0
+      ],
+      [
+        1754006400000,
+        76050300.0
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        82634800.0
+      ],
+      [
+        1754352000000,
+        88900100.0
+      ],
+      [
+        1754438400000,
+        81331100.0
+      ],
+      [
+        1754524800000,
         null
       ]
     ]
@@ -2233,8 +2233,8 @@
     -0.55,
     0.65,
     2.27,
-    null,
-    null,
+    -3.51,
+    0.34,
     null,
     null,
     null,

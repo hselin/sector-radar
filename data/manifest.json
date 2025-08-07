@@ -1,81 +1,29 @@
 {
-  "lastUpdated": "2025-07-25T02:22:15.260847Z",
+  "lastUpdated": "2025-08-07T07:44:50.505521Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "45.5T",
+      "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, widely regarded as one of the best gauges of large-cap U.S. equities and the overall health of the U.S. stock market.",
+      "marketSizeUSD": "49T",
       "constituentCount": 503,
       "topHoldings": [
-        {
-          "name": "Microsoft Corporation",
-          "symbol": "MSFT"
-        },
         {
           "name": "Apple Inc.",
           "symbol": "AAPL"
         },
         {
-          "name": "NVIDIA Corporation",
+          "name": "Microsoft Corp.",
+          "symbol": "MSFT"
+        },
+        {
+          "name": "NVIDIA Corp.",
           "symbol": "NVDA"
         }
       ]
     },
-    "commentary": "The stock market experienced a very modest daily gain of 0.03%, indicating a relatively flat session. However, key technical indicators offer a more detailed perspective. The Relative Strength Index (RSI) at 73.60 suggests the market is firmly in overbought territory, pointing to potentially stretched buying pressure. This is somewhat supported by the Money Flow Index (MFI) at 63.16, which indicates a continued inflow of money into the market, while the On-Balance Volume (OBV) at 1,953,212,800 reflects persistent accumulation. Collectively, these figures suggest that despite the minimal daily change, market sentiment remains broadly positive with strong underlying momentum, but the elevated RSI cautions that a period of consolidation or a pullback may be warranted given the extended rally.",
-    "change_pct": 0.03,
+    "commentary": "The stock market concluded the day with a solid 0.77% gain, reflecting a generally positive session. Key technical indicators largely support this constructive view: the Relative Strength Index (RSI) at 58.87 suggests healthy bullish momentum without being in overbought territory, indicating potential for continued upward movement. The Money Flow Index (MFI) at 50.45, while showing a slight net inflow, suggests volume-weighted buying pressure is near neutral, indicating moderate conviction. Meanwhile, the large positive On-Balance Volume (OBV) of 1640050400 generally implies a historical accumulation phase where buying volume has outweighed selling volume, thus lending underlying support to current prices. Collectively, these figures point to positive market sentiment and building momentum, though robust confirmation from sustained strong money flow would further solidify the uptrend.",
+    "change_pct": 0.77,
     "technicalIndicators": {
       "rsi": [
-        [
-          1737849600000,
-          null
-        ],
-        [
-          1737936000000,
-          52.96
-        ],
-        [
-          1738022400000,
-          56.95
-        ],
-        [
-          1738108800000,
-          54.34
-        ],
-        [
-          1738195200000,
-          56.87
-        ],
-        [
-          1738281600000,
-          53.67
-        ],
-        [
-          1738368000000,
-          null
-        ],
-        [
-          1738454400000,
-          null
-        ],
-        [
-          1738540800000,
-          49.87
-        ],
-        [
-          1738627200000,
-          53.39
-        ],
-        [
-          1738713600000,
-          55.44
-        ],
-        [
-          1738800000000,
-          57.19
-        ],
-        [
-          1738886400000,
-          51.45
-        ],
         [
           1738972800000,
           null
@@ -746,62 +694,62 @@
         ],
         [
           1753401600000,
+          75.54
+        ],
+        [
+          1753488000000,
+          null
+        ],
+        [
+          1753574400000,
+          null
+        ],
+        [
+          1753660800000,
+          75.19
+        ],
+        [
+          1753747200000,
+          71.39
+        ],
+        [
+          1753833600000,
+          69.58
+        ],
+        [
+          1753920000000,
+          64.37
+        ],
+        [
+          1754006400000,
+          47.65
+        ],
+        [
+          1754092800000,
+          null
+        ],
+        [
+          1754179200000,
+          null
+        ],
+        [
+          1754265600000,
+          58.29
+        ],
+        [
+          1754352000000,
+          54.27
+        ],
+        [
+          1754438400000,
+          58.87
+        ],
+        [
+          1754524800000,
           null
         ]
       ],
       "mfi": [
-        [
-          1737849600000,
-          null
-        ],
-        [
-          1737936000000,
-          58.85
-        ],
-        [
-          1738022400000,
-          58.69
-        ],
-        [
-          1738108800000,
-          60.59
-        ],
-        [
-          1738195200000,
-          67.01
-        ],
-        [
-          1738281600000,
-          77.29
-        ],
-        [
-          1738368000000,
-          null
-        ],
-        [
-          1738454400000,
-          null
-        ],
-        [
-          1738540800000,
-          75.16
-        ],
-        [
-          1738627200000,
-          74.67
-        ],
-        [
-          1738713600000,
-          73.7
-        ],
-        [
-          1738800000000,
-          73.43
-        ],
-        [
-          1738886400000,
-          65.21
-        ],
         [
           1738972800000,
           null
@@ -1472,62 +1420,62 @@
         ],
         [
           1753401600000,
+          70.57
+        ],
+        [
+          1753488000000,
+          null
+        ],
+        [
+          1753574400000,
+          null
+        ],
+        [
+          1753660800000,
+          76.87
+        ],
+        [
+          1753747200000,
+          70.02
+        ],
+        [
+          1753833600000,
+          62.09
+        ],
+        [
+          1753920000000,
+          59.46
+        ],
+        [
+          1754006400000,
+          49.72
+        ],
+        [
+          1754092800000,
+          null
+        ],
+        [
+          1754179200000,
+          null
+        ],
+        [
+          1754265600000,
+          49.7
+        ],
+        [
+          1754352000000,
+          50.65
+        ],
+        [
+          1754438400000,
+          50.45
+        ],
+        [
+          1754524800000,
           null
         ]
       ],
       "obv": [
-        [
-          1737849600000,
-          null
-        ],
-        [
-          1737936000000,
-          1378407800.0
-        ],
-        [
-          1738022400000,
-          1422841100.0
-        ],
-        [
-          1738108800000,
-          1385663700.0
-        ],
-        [
-          1738195200000,
-          1424945000.0
-        ],
-        [
-          1738281600000,
-          1358378100.0
-        ],
-        [
-          1738368000000,
-          null
-        ],
-        [
-          1738454400000,
-          null
-        ],
-        [
-          1738540800000,
-          1292520900.0
-        ],
-        [
-          1738627200000,
-          1325978700.0
-        ],
-        [
-          1738713600000,
-          1356631800.0
-        ],
-        [
-          1738800000000,
-          1392403300.0
-        ],
-        [
-          1738886400000,
-          1341614800.0
-        ],
         [
           1738972800000,
           null
@@ -2194,10 +2142,62 @@
         ],
         [
           1753315200000,
-          1953212800.0
+          1953282400.0
         ],
         [
           1753401600000,
+          2010147800.0
+        ],
+        [
+          1753488000000,
+          null
+        ],
+        [
+          1753574400000,
+          null
+        ],
+        [
+          1753660800000,
+          1955230700.0
+        ],
+        [
+          1753747200000,
+          1894674400.0
+        ],
+        [
+          1753833600000,
+          1814255500.0
+        ],
+        [
+          1753920000000,
+          1710870300.0
+        ],
+        [
+          1754006400000,
+          1570766700.0
+        ],
+        [
+          1754092800000,
+          null
+        ],
+        [
+          1754179200000,
+          null
+        ],
+        [
+          1754265600000,
+          1643984700.0
+        ],
+        [
+          1754352000000,
+          1575933300.0
+        ],
+        [
+          1754438400000,
+          1640050400.0
+        ],
+        [
+          1754524800000,
           null
         ]
       ]
@@ -2232,9 +2232,9 @@
       1.7,
       -0.28,
       0.64,
-      1.09,
-      null,
-      null,
+      1.52,
+      -2.41,
+      1.78,
       null,
       null,
       null,

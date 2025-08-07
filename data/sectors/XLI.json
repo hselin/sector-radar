@@ -1,81 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials GICS sector includes companies that manufacture capital goods, provide commercial and professional services, and offer various transportation services.",
-    "marketSizeUSD": "3.7T",
+    "description": "The Industrials sector includes companies that produce capital goods, provide commercial and professional services, and offer transportation services.",
+    "marketSizeUSD": "4.0T",
     "constituentCount": 75,
     "topHoldings": [
+      {
+        "name": "GE Aerospace",
+        "symbol": "GE"
+      },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "General Electric Company",
-        "symbol": "GE"
-      },
-      {
-        "name": "Union Pacific Corporation",
-        "symbol": "UNP"
+        "name": "RTX Corporation",
+        "symbol": "RTX"
       }
     ]
   },
-  "market_weight": 0.0778,
-  "change_pct": -0.17,
-  "insights": "The Industrials sector concluded the day with a marginal -0.17% decline, indicating minor profit-taking rather than significant bearish pressure. Key technical indicators offer a nuanced view: the Relative Strength Index (RSI) at 71.12 places the sector firmly in overbought territory, suggesting it may be due for consolidation following recent upward momentum. The Money Flow Index (MFI) at 52.73, however, sits near its neutral midpoint, indicating balanced money flow without extreme enthusiasm or capitulation. The robust On-Balance Volume (OBV) of 62,481,200, despite the day's slight dip, suggests that underlying accumulation trends remain largely intact, with no significant distribution evident.",
+  "market_weight": 0.0816,
+  "change_pct": 0.08,
+  "insights": "The Industrials sector showed a largely flat performance today, registering a marginal gain of 0.08%. This minimal price movement is consistent with its key technical indicators, which suggest a balanced market. The Relative Strength Index (RSI) at 53.06 indicates the sector is in neutral territory, showing no signs of being overbought or oversold and little strong momentum. Similarly, the Money Flow Index (MFI) at 46.92 points to a fairly even distribution of money flow, albeit with a very slight lean towards outflow on a volume-weighted basis, reinforcing the lack of strong directional conviction. The On-Balance Volume (OBV) of 41,997,500 reflects the cumulative buying and selling pressure for the day, and in the context of a nearly flat price change, suggests that overall volume activity supported a period of consolidation rather than a decisive directional shift.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        58.47
-      ],
-      [
-        1738022400000,
-        54.95
-      ],
-      [
-        1738108800000,
-        53.19
-      ],
-      [
-        1738195200000,
-        57.95
-      ],
-      [
-        1738281600000,
-        54.17
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        49.34
-      ],
-      [
-        1738627200000,
-        49.48
-      ],
-      [
-        1738713600000,
-        49.86
-      ],
-      [
-        1738800000000,
-        52.24
-      ],
-      [
-        1738886400000,
-        50.53
-      ],
       [
         1738972800000,
         null
@@ -746,62 +694,62 @@
       ],
       [
         1753401600000,
+        74.54
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        71.65
+      ],
+      [
+        1753747200000,
+        62.15
+      ],
+      [
+        1753833600000,
+        58.59
+      ],
+      [
+        1753920000000,
+        58.62
+      ],
+      [
+        1754006400000,
+        48.8
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        53.86
+      ],
+      [
+        1754352000000,
+        52.61
+      ],
+      [
+        1754438400000,
+        53.06
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "mfi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        62.97
-      ],
-      [
-        1738022400000,
-        55.92
-      ],
-      [
-        1738108800000,
-        54.71
-      ],
-      [
-        1738195200000,
-        61.57
-      ],
-      [
-        1738281600000,
-        61.22
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        51.91
-      ],
-      [
-        1738627200000,
-        52.29
-      ],
-      [
-        1738713600000,
-        45.39
-      ],
-      [
-        1738800000000,
-        45.77
-      ],
-      [
-        1738886400000,
-        47.25
-      ],
       [
         1738972800000,
         null
@@ -1472,62 +1420,62 @@
       ],
       [
         1753401600000,
+        59.26
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        65.89
+      ],
+      [
+        1753747200000,
+        57.94
+      ],
+      [
+        1753833600000,
+        49.58
+      ],
+      [
+        1753920000000,
+        56.64
+      ],
+      [
+        1754006400000,
+        48.4
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        54.43
+      ],
+      [
+        1754352000000,
+        53.6
+      ],
+      [
+        1754438400000,
+        46.92
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "obv": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        61598200.0
-      ],
-      [
-        1738022400000,
-        52698200.0
-      ],
-      [
-        1738108800000,
-        43597300.0
-      ],
-      [
-        1738195200000,
-        51766900.0
-      ],
-      [
-        1738281600000,
-        41622200.0
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        27715500.0
-      ],
-      [
-        1738627200000,
-        35292700.0
-      ],
-      [
-        1738713600000,
-        43471900.0
-      ],
-      [
-        1738800000000,
-        50840200.0
-      ],
-      [
-        1738886400000,
-        40431300.0
-      ],
       [
         1738972800000,
         null
@@ -2198,6 +2146,58 @@
       ],
       [
         1753401600000,
+        71857800.0
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        62643100.0
+      ],
+      [
+        1753747200000,
+        49096600.0
+      ],
+      [
+        1753833600000,
+        35301300.0
+      ],
+      [
+        1753920000000,
+        51821700.0
+      ],
+      [
+        1754006400000,
+        32630000.0
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        43985600.0
+      ],
+      [
+        1754352000000,
+        31260800.0
+      ],
+      [
+        1754438400000,
+        41997500.0
+      ],
+      [
+        1754524800000,
         null
       ]
     ]
@@ -2232,9 +2232,9 @@
     1.79,
     0.52,
     0.84,
-    1.33,
-    null,
-    null,
+    2.33,
+    -3.39,
+    0.79,
     null,
     null,
     null,

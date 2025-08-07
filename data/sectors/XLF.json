@@ -1,9 +1,9 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials GICS sector encompasses a broad range of companies involved in banking, insurance, capital markets, real estate, and diversified financial services.",
-    "marketSizeUSD": "5.6T",
-    "constituentCount": 67,
+    "description": "The Financials sector encompasses a broad range of institutions providing financial services, including banks, diversified financial services, insurance companies, and capital markets firms.",
+    "marketSizeUSD": "5.4T",
+    "constituentCount": 68,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
@@ -19,63 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1178,
-  "change_pct": -0.06,
-  "insights": "The Financials sector concluded the day with a negligible decline of -0.06%, indicating a largely flat performance. Despite this minor price dip, key technical indicators suggest underlying stability and positive momentum. The Relative Strength Index (RSI) at 61.27 and Money Flow Index (MFI) at 59.04 both reside in bullish-neutral territory, signifying ongoing buying interest and money inflow into the sector, rather than significant selling pressure. The On-Balance Volume (OBV) at 1,187,813,300, a high cumulative value, further supports a pattern of long-term accumulation, implying that today's slight price movement was not driven by strong bearish conviction and the broader positive trend remains largely intact.",
+  "market_weight": 0.1102,
+  "change_pct": 0.48,
+  "insights": "The Financials sector posted a modest gain of 0.48% today, reflecting a slight positive sentiment. This gentle upward movement is largely consistent with its key technical indicators. The Relative Strength Index (RSI) at 47.59 and the Money Flow Index (MFI) at 52.03 both reside in neutral territory, suggesting no strong directional conviction, but with the MFI subtly indicating a minor net inflow of funds. The substantial On-Balance Volume (OBV) of 1,043,931,900, while cumulative, generally confirms that the day's positive price action was backed by underlying buying interest, reinforcing the sector's slight advance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        68.83
-      ],
-      [
-        1738022400000,
-        67.65
-      ],
-      [
-        1738108800000,
-        67.09
-      ],
-      [
-        1738195200000,
-        70.3
-      ],
-      [
-        1738281600000,
-        66.05
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        63.18
-      ],
-      [
-        1738627200000,
-        61.53
-      ],
-      [
-        1738713600000,
-        65.85
-      ],
-      [
-        1738800000000,
-        68.85
-      ],
-      [
-        1738886400000,
-        64.72
-      ],
       [
         1738972800000,
         null
@@ -746,62 +694,62 @@
       ],
       [
         1753401600000,
+        64.29
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        59.31
+      ],
+      [
+        1753747200000,
+        55.9
+      ],
+      [
+        1753833600000,
+        54.65
+      ],
+      [
+        1753920000000,
+        50.62
+      ],
+      [
+        1754006400000,
+        41.04
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        46.74
+      ],
+      [
+        1754352000000,
+        44.82
+      ],
+      [
+        1754438400000,
+        47.59
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "mfi": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        65.07
-      ],
-      [
-        1738022400000,
-        64.38
-      ],
-      [
-        1738108800000,
-        73.22
-      ],
-      [
-        1738195200000,
-        80.26
-      ],
-      [
-        1738281600000,
-        81.41
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        75.84
-      ],
-      [
-        1738627200000,
-        76.02
-      ],
-      [
-        1738713600000,
-        75.09
-      ],
-      [
-        1738800000000,
-        75.17
-      ],
-      [
-        1738886400000,
-        68.48
-      ],
       [
         1738972800000,
         null
@@ -1472,62 +1420,62 @@
       ],
       [
         1753401600000,
+        65.36
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        68.59
+      ],
+      [
+        1753747200000,
+        60.88
+      ],
+      [
+        1753833600000,
+        54.1
+      ],
+      [
+        1753920000000,
+        52.4
+      ],
+      [
+        1754006400000,
+        44.1
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        52.04
+      ],
+      [
+        1754352000000,
+        53.33
+      ],
+      [
+        1754438400000,
+        52.03
+      ],
+      [
+        1754524800000,
         null
       ]
     ],
     "obv": [
-      [
-        1737849600000,
-        null
-      ],
-      [
-        1737936000000,
-        1368464300.0
-      ],
-      [
-        1738022400000,
-        1328579000.0
-      ],
-      [
-        1738108800000,
-        1284966800.0
-      ],
-      [
-        1738195200000,
-        1349217300.0
-      ],
-      [
-        1738281600000,
-        1308793100.0
-      ],
-      [
-        1738368000000,
-        null
-      ],
-      [
-        1738454400000,
-        null
-      ],
-      [
-        1738540800000,
-        1231376900.0
-      ],
-      [
-        1738627200000,
-        1189634200.0
-      ],
-      [
-        1738713600000,
-        1224392800.0
-      ],
-      [
-        1738800000000,
-        1258748700.0
-      ],
-      [
-        1738886400000,
-        1218147300.0
-      ],
       [
         1738972800000,
         null
@@ -2194,10 +2142,62 @@
       ],
       [
         1753315200000,
-        1187813300.0
+        1187810800.0
       ],
       [
         1753401600000,
+        1216775500.0
+      ],
+      [
+        1753488000000,
+        null
+      ],
+      [
+        1753574400000,
+        null
+      ],
+      [
+        1753660800000,
+        1187656200.0
+      ],
+      [
+        1753747200000,
+        1149773000.0
+      ],
+      [
+        1753833600000,
+        1112512900.0
+      ],
+      [
+        1753920000000,
+        1066333500.0
+      ],
+      [
+        1754006400000,
+        1003272700.0
+      ],
+      [
+        1754092800000,
+        null
+      ],
+      [
+        1754179200000,
+        null
+      ],
+      [
+        1754265600000,
+        1043325800.0
+      ],
+      [
+        1754352000000,
+        1009774800.0
+      ],
+      [
+        1754438400000,
+        1043931900.0
+      ],
+      [
+        1754524800000,
         null
       ]
     ]
@@ -2232,9 +2232,9 @@
     2.41,
     -1.94,
     0.73,
-    1.01,
-    null,
-    null,
+    1.71,
+    -3.82,
+    1.07,
     null,
     null,
     null,
