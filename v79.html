@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome CDN for icons -->
-    <!-- FIX: Corrected typo 'xintegrity' to 'integrity' -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -52,7 +51,6 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.3);
             pointer-events: none; /* Allow clicks to pass through */
         }
-        /* FIX: Added rule to show tooltip on focus for keyboard accessibility. */
         .info-icon:hover + .info-tooltip-content,
         .info-icon:focus + .info-tooltip-content {
             display: block;
@@ -255,9 +253,8 @@
         let fullSectorsData = [];
 
         // --- CONFIGURATION ---
-        // FIX: Changed DATA_DIRECTORY to a relative path to prevent fetch errors.
-        const DATA_DIRECTORY = 'data';
-        const USE_MOCK_DATA = false; // User requested to keep this for testing.
+        const DATA_DIRECTORY = '/data';
+        const USE_MOCK_DATA = false;
         const HEATMAP_EMPTY_VALUE = -999;
 
         const colorConfig = {
@@ -658,7 +655,7 @@
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div>
                                     ${overallMarketProfileHtml}
-                                    <h4 class="text-md font-bold text-gray-50 mb-2">Today's Insights</h4>
+                                    <h4 class="text-md font-bold text-gray-50 mb-2">Today's Commentary</h4>
                                     <p class="text-gray-400 leading-relaxed text-sm">${overallMarketData.commentary}</p>
                                 </div>
                                 <div class="space-y-4">
@@ -837,7 +834,21 @@
             });
         }
 
-        // FIX: Removed the unused and redundant generateStaticHeatmapData function.
+
+        function generateStaticHeatmapData(sectorsData) {
+            const data = [];
+            for (let j = 0; j < sectorsData.length; j++) {
+                const weeklyPerf = sectorsData[j].weeklyPerformance || [];
+                for (let i = 0; i < 52; i++) {
+                    let performance = weeklyPerf[i];
+                    if (performance === null || performance === undefined) {
+                        performance = HEATMAP_EMPTY_VALUE;
+                    }
+                    data.push([i, j, performance]);
+                }
+            }
+            staticHeatmapData = data;
+        }
 
         function applyCentralizedStyles() {
             const legendBar = document.getElementById('treemap-legend-bar');
@@ -878,14 +889,12 @@
                 generateTreemap(fullSectorsData);
 
                 generateFilterControls(fullSectorsData);
-                // FIX: Removed call to the redundant generateStaticHeatmapData function.
+                generateStaticHeatmapData(fullSectorsData);
 
                 document.getElementById('heatmap-skeleton').classList.add('hidden');
                 document.getElementById('heatmap-content').classList.remove('hidden');
                 generateHeatmap(fullSectorsData);
 
-                // FIX: Moved the button enabling logic here to prevent a race condition.
-                // This ensures the button is only clickable after heatmapDataForExport is populated.
                 const exportBtn = document.getElementById('exportCsvBtn');
                 exportBtn.disabled = false;
                 exportBtn.classList.remove('bg-gray-600', 'cursor-not-allowed', 'opacity-50');
@@ -893,7 +902,7 @@
 
             } catch (error) {
                 console.error("Failed to initialize page:", error);
-                document.body.innerHTML = `<div class="flex items-center justify-center h-screen text-red-400 p-4 text-center"><p>Error: Could not load page content. Please check the console for details.</p></div>`;
+                document.body.innerHTML = `<div class="flex items-center justify-center h-screen text-red-400 p-4 text-center"><p>Error: Could not load page content. Please check the console.</p></div>`;
             }
         }
 
@@ -1052,33 +1061,35 @@
         function getHeatmapOption(sectorData) {
             const isMobile = window.innerWidth < 768;
             const weeks = Array.from({ length: 52 }, (_, i) => `${i + 1}`);
-
-            // FIX: Refactored this section for improved efficiency and clarity.
-            // It now avoids finding items in a loop.
             const sectors = sectorData.map(s => s.sector).reverse();
-            const data = [];
-            sectorData.forEach((sector) => {
-                const yAxisIndex = sectors.indexOf(sector.sector);
-                const weeklyPerf = sector.weeklyPerformance || [];
-                for (let i = 0; i < 52; i++) { // i is the week (x-axis)
-                    let performance = weeklyPerf[i];
-                    if (performance === null || performance === undefined) {
-                        performance = HEATMAP_EMPTY_VALUE;
-                    }
 
-                    if (performance === HEATMAP_EMPTY_VALUE) {
-                        data.push({
-                            value: [i, yAxisIndex, performance],
-                            itemStyle: { color: colorConfig.heatmap.empty }
-                        });
-                    } else {
-                        data.push([i, yAxisIndex, performance]);
+            const data = [];
+             for (let j = 0; j < sectors.length; j++) {
+                const sectorName = sectors[j];
+                const originalSector = sectorData.find(s => s.sector === sectorName);
+                if (originalSector) {
+                    const weeklyPerf = originalSector.weeklyPerformance || [];
+                     for (let i = 0; i < 52; i++) {
+                        let performance = weeklyPerf[i];
+                        if (performance === null || performance === undefined) {
+                            performance = HEATMAP_EMPTY_VALUE;
+                        }
+
+                        if (performance === HEATMAP_EMPTY_VALUE) {
+                            data.push({
+                                value: [i, j, performance],
+                                itemStyle: {
+                                    color: colorConfig.heatmap.empty
+                                }
+                            });
+                        } else {
+                            data.push([i, j, performance]);
+                        }
                     }
                 }
-            });
+            }
 
             heatmapDataForExport = { sectors, weeks, data };
-
             return {
                 tooltip: {
                     position: 'top',

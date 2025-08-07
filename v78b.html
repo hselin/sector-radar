@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome CDN for icons -->
-    <!-- FIX: Corrected typo 'xintegrity' to 'integrity' -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -52,7 +51,6 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.3);
             pointer-events: none; /* Allow clicks to pass through */
         }
-        /* FIX: Added rule to show tooltip on focus for keyboard accessibility. */
         .info-icon:hover + .info-tooltip-content,
         .info-icon:focus + .info-tooltip-content {
             display: block;
@@ -76,7 +74,7 @@
     <!-- HERO SECTION -->
     <header class="pt-16 pb-20 md:pt-20 md:pb-28 text-center">
         <div class="container mx-auto px-6">
-            <h1 class="text-4xl md:text-6xl font-bold text-gray-50 leading-tight mb-4">
+            <h1 class="text-4xl md:text-6xl font-bold text-white leading-tight mb-4">
                 Find Your <span class="gradient-text">Edge</span>
             </h1>
             <p class="max-w-3xl mx-auto text-lg md:text-xl text-gray-400 leading-relaxed">
@@ -90,7 +88,7 @@
         <main class="container mx-auto px-4 sm:px-6">
 
             <div class="mb-8 border-b border-gray-700 pb-3">
-                 <h2 class="text-xl md:text-2xl font-bold text-gray-50">
+                 <h2 class="text-xl md:text-2xl font-bold text-white">
                     Today's Sector Snapshot
                 </h2>
             </div>
@@ -104,7 +102,7 @@
                     </div>
                     <!-- Treemap Legend -->
                     <div class="w-full mt-4 px-2">
-                        <div id="treemap-legend-bar" class="h-2.5 w-full rounded-full"></div>
+                        <div class="h-2.5 w-full rounded-full" style="background: linear-gradient(to right, #ef4444, #f87171, #6b7280, #34d399, #10b981);"></div>
                         <div class="flex justify-between text-xs text-gray-400 mt-1.5">
                             <span class="text-left">Loss</span>
                             <span class="text-center">Neutral</span>
@@ -116,7 +114,7 @@
 
             <!-- Market & Sector Analysis Section -->
             <section id="commentary" class="mt-12">
-                <h2 class="text-xl md:text-2xl font-bold text-gray-50 mb-6 border-b border-gray-700 pb-3">
+                <h2 class="text-xl md:text-2xl font-bold text-white mb-6 border-b border-gray-700 pb-3">
                     Market Intelligence
                 </h2>
                 <div id="commentary-content" class="space-y-8">
@@ -140,7 +138,7 @@
 
                 <div id="heatmap-content" class="hidden">
                     <div class="flex flex-col md:flex-row justify-between md:items-center mb-6 border-b border-gray-700 pb-3">
-                         <h2 class="text-xl md:text-2xl font-bold text-gray-50 mb-4 md:mb-0">
+                         <h2 class="text-xl md:text-2xl font-bold text-white mb-4 md:mb-0">
                             Historical Sector Strength
                         </h2>
                         <div class="relative inline-block text-left">
@@ -184,7 +182,7 @@
 
             <!-- Key Assumptions & Notes Section -->
             <section id="assumptions" class="mt-8">
-                <h2 class="text-xl md:text-2xl font-bold text-gray-50 mb-6 border-b border-gray-700 pb-3">
+                <h2 class="text-xl md:text-2xl font-bold text-white mb-6 border-b border-gray-700 pb-3">
                     Key Assumptions & Notes
                 </h2>
                 <div class="text-gray-400 space-y-4 text-sm">
@@ -201,31 +199,31 @@
 
             <!-- Learn More Section -->
             <section id="learn-more" class="mt-16">
-                <h2 class="text-xl md:text-2xl font-bold text-gray-50 mb-6 border-b border-gray-700 pb-3">
+                <h2 class="text-xl md:text-2xl font-bold text-white mb-6 border-b border-gray-700 pb-3">
                     Learn More
                 </h2>
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                     <!-- Article 1 -->
                     <div class="bg-gray-800 rounded-lg border border-gray-700 p-6 flex flex-col">
-                        <h3 class="font-bold text-gray-50 text-lg mb-2">How Sector Rotation Can Enhance Your Investment Strategy</h3>
+                        <h3 class="font-bold text-white text-lg mb-2">How Sector Rotation Can Enhance Your Investment Strategy</h3>
                         <p class="text-gray-400 text-sm flex-grow"><b>Explore</b> how investors rotate between market sectors based on economic cycles.</p>
                         <a href="https://www.investopedia.com/articles/trading/05/020305.asp" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold mt-4 self-start">Read More &rarr;</a>
                     </div>
                     <!-- Article 2 -->
                     <div class="bg-gray-800 rounded-lg border border-gray-700 p-6 flex flex-col">
-                        <h3 class="font-bold text-gray-50 text-lg mb-2">Relative Strength Index (RSI)</h3>
+                        <h3 class="font-bold text-white text-lg mb-2">Relative Strength Index (RSI)</h3>
                         <p class="text-gray-400 text-sm flex-grow"><b>Understand</b> how the RSI indicator works and how traders use it to identify market momentum.</p>
                         <a href="https://www.investopedia.com/terms/r/rsi.asp" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold mt-4 self-start">Read More &rarr;</a>
                     </div>
                     <!-- Article 3 -->
                     <div class="bg-gray-800 rounded-lg border border-gray-700 p-6 flex flex-col">
-                        <h3 class="font-bold text-gray-50 text-lg mb-2">Money Flow Index (MFI)</h3>
+                        <h3 class="font-bold text-white text-lg mb-2">Money Flow Index (MFI)</h3>
                         <p class="text-gray-400 text-sm flex-grow">Learn how the MFI uses both price and volume to measure buying and selling pressure in a market.</p>
                         <a href="https://www.investopedia.com/terms/m/mfi.asp" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold mt-4 self-start">Read More &rarr;</a>
                     </div>
                     <!-- Article 4 -->
                     <div class="bg-gray-800 rounded-lg border border-gray-700 p-6 flex flex-col">
-                        <h3 class="font-bold text-gray-50 text-lg mb-2">On-Balance Volume (OBV)</h3>
+                        <h3 class="font-bold text-white text-lg mb-2">On-Balance Volume (OBV)</h3>
                         <p class="text-gray-400 text-sm flex-grow"><b>Discover</b> how OBV uses trading volume to predict potential price movements.</p>
                         <a href="https://www.investopedia.com/terms/o/onbalancevolume.asp" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 font-semibold mt-4 self-start">Read More &rarr;</a>
                     </div>
@@ -255,9 +253,8 @@
         let fullSectorsData = [];
 
         // --- CONFIGURATION ---
-        // FIX: Changed DATA_DIRECTORY to a relative path to prevent fetch errors.
-        const DATA_DIRECTORY = 'data';
-        const USE_MOCK_DATA = false; // User requested to keep this for testing.
+        const DATA_DIRECTORY = '/data';
+        const USE_MOCK_DATA = false;
         const HEATMAP_EMPTY_VALUE = -999;
 
         const colorConfig = {
@@ -266,11 +263,11 @@
                 lightPositive: '#34D399',
                 strongNegative: '#EF4444',
                 lightNegative: '#F87171',
-                neutral: '#6B7280' // gray-500
+                neutral: '#D1D5DB'
             },
             treemap: {
                 border: '#1F2937',
-                hoverBorder: '#FBBF24',
+                hoverBorder: '#FFFFFF',
                 tooltip: {
                     background: '#1F2937',
                     title: '#FFFFFF',
@@ -624,7 +621,7 @@
                 const topHoldingsText = (overallMarketData.profile.topHoldings || []).map(h => `${h.name} (${h.symbol})`).join(', ') || 'N/A';
                 overallMarketProfileHtml = `
                     <div class="mb-6">
-                        <h4 class="text-md font-bold text-gray-50 mb-2">Market Profile</h4>
+                        <h4 class="text-md font-bold text-white mb-2">Market Profile</h4>
                         <p class="text-sm text-gray-400 mb-3">${overallMarketData.profile.description || 'N/A'}</p>
                         <dl class="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
                             <div>
@@ -646,7 +643,7 @@
 
             let html = `<div class="bg-gray-800 rounded-lg border border-gray-700">
                     <div class="collapsible-header p-4 bg-gray-800 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer relative" data-target="#content-${overallMarketId}">
-                        <h3 class="text-lg sm:text-xl font-bold text-gray-50 uppercase tracking-wide mb-2 sm:mb-0 sm:mr-2">Overall Market (S&P 500)</h3>
+                        <h3 class="text-lg sm:text-xl font-bold text-white uppercase tracking-wide mb-2 sm:mb-0 sm:mr-2">Overall Market (S&P 500)</h3>
                         <div class="flex items-center self-start sm:self-center">
                             <span class="text-base font-semibold ${colorClassOverall} tabular-nums">${formattedChangeOverall}</span>
                             <div id="sparkline-${overallMarketId}" class="w-32 md:w-48 h-12 ml-4"></div>
@@ -658,7 +655,7 @@
                             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div>
                                     ${overallMarketProfileHtml}
-                                    <h4 class="text-md font-bold text-gray-50 mb-2">Today's Insights</h4>
+                                    <h4 class="text-md font-bold text-white mb-2">Today's Commentary</h4>
                                     <p class="text-gray-400 leading-relaxed text-sm">${overallMarketData.commentary}</p>
                                 </div>
                                 <div class="space-y-4">
@@ -704,7 +701,7 @@
                     const topHoldingsText = (sector.profile.topHoldings || []).map(h => `${h.name} (${h.symbol})`).join(', ') || 'N/A';
                     sectorProfileHtml = `
                         <div class="mb-6">
-                            <h4 class="text-md font-bold text-gray-50 mb-2">Sector Snapshot</h4>
+                            <h4 class="text-md font-bold text-white mb-2">Sector Snapshot</h4>
                             <p class="text-sm text-gray-400 mb-3">${sector.profile.description || 'N/A'}</p>
                             <dl class="grid grid-cols-2 gap-x-4 gap-y-2 text-sm">
                                 <div>
@@ -726,7 +723,7 @@
 
                 html += `<div class="bg-gray-800 rounded-lg border border-gray-700">
                         <div class="collapsible-header p-4 bg-gray-800 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer relative" data-target="#content-${sectorId}">
-                           <h3 class="text-lg sm:text-xl font-bold text-gray-50 uppercase tracking-wide mb-2 sm:mb-0 sm:mr-2">${sector.sector}</h3>
+                           <h3 class="text-lg sm:text-xl font-bold text-white uppercase tracking-wide mb-2 sm:mb-0 sm:mr-2">${sector.sector}</h3>
                            <div class="flex items-center self-start sm:self-center">
                                 <span class="text-base font-semibold ${colorClass} tabular-nums">${formattedChange}</span>
                                 <div id="sparkline-${sectorId}" class="w-32 md:w-48 h-12 ml-4"></div>
@@ -738,7 +735,7 @@
                                 <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                                     <div>
                                         ${sectorProfileHtml}
-                                        <h4 class="text-md font-bold text-gray-50 mb-2">Today's Insights</h4>
+                                        <h4 class="text-md font-bold text-white mb-2">Today's Insights</h4>
                                         <p class="text-gray-400 leading-relaxed text-sm">${sector.insights}</p>
                                     </div>
                                     <div class="space-y-4">
@@ -837,18 +834,24 @@
             });
         }
 
-        // FIX: Removed the unused and redundant generateStaticHeatmapData function.
 
-        function applyCentralizedStyles() {
-            const legendBar = document.getElementById('treemap-legend-bar');
-            const palette = colorConfig.palette;
-            const gradient = `linear-gradient(to right, ${palette.strongNegative}, ${palette.lightNegative}, ${palette.neutral}, ${palette.lightPositive}, ${palette.strongPositive})`;
-            legendBar.style.background = gradient;
+        function generateStaticHeatmapData(sectorsData) {
+            const data = [];
+            for (let j = 0; j < sectorsData.length; j++) {
+                const weeklyPerf = sectorsData[j].weeklyPerformance || [];
+                for (let i = 0; i < 52; i++) {
+                    let performance = weeklyPerf[i];
+                    if (performance === null || performance === undefined) {
+                        performance = HEATMAP_EMPTY_VALUE;
+                    }
+                    data.push([i, j, performance]);
+                }
+            }
+            staticHeatmapData = data;
         }
 
         async function initializePage() {
             try {
-                applyCentralizedStyles();
                 const response = await fetchData(`${DATA_DIRECTORY}/manifest.json`);
                 const manifest = await response.json();
 
@@ -878,14 +881,12 @@
                 generateTreemap(fullSectorsData);
 
                 generateFilterControls(fullSectorsData);
-                // FIX: Removed call to the redundant generateStaticHeatmapData function.
+                generateStaticHeatmapData(fullSectorsData);
 
                 document.getElementById('heatmap-skeleton').classList.add('hidden');
                 document.getElementById('heatmap-content').classList.remove('hidden');
                 generateHeatmap(fullSectorsData);
 
-                // FIX: Moved the button enabling logic here to prevent a race condition.
-                // This ensures the button is only clickable after heatmapDataForExport is populated.
                 const exportBtn = document.getElementById('exportCsvBtn');
                 exportBtn.disabled = false;
                 exportBtn.classList.remove('bg-gray-600', 'cursor-not-allowed', 'opacity-50');
@@ -893,7 +894,7 @@
 
             } catch (error) {
                 console.error("Failed to initialize page:", error);
-                document.body.innerHTML = `<div class="flex items-center justify-center h-screen text-red-400 p-4 text-center"><p>Error: Could not load page content. Please check the console for details.</p></div>`;
+                document.body.innerHTML = `<div class="flex items-center justify-center h-screen text-red-400 p-4 text-center"><p>Error: Could not load page content. Please check the console.</p></div>`;
             }
         }
 
@@ -927,7 +928,7 @@
                         borderColor: colorConfig.treemap.border,
                         borderWidth: 1,
                         hoverBorderColor: colorConfig.treemap.hoverBorder,
-                        hoverBorderWidth: 2,
+                        hoverBorderWidth: 3,
                         spacing: 1,
                         key: 'value',
                         labels: {
@@ -1052,33 +1053,35 @@
         function getHeatmapOption(sectorData) {
             const isMobile = window.innerWidth < 768;
             const weeks = Array.from({ length: 52 }, (_, i) => `${i + 1}`);
-
-            // FIX: Refactored this section for improved efficiency and clarity.
-            // It now avoids finding items in a loop.
             const sectors = sectorData.map(s => s.sector).reverse();
-            const data = [];
-            sectorData.forEach((sector) => {
-                const yAxisIndex = sectors.indexOf(sector.sector);
-                const weeklyPerf = sector.weeklyPerformance || [];
-                for (let i = 0; i < 52; i++) { // i is the week (x-axis)
-                    let performance = weeklyPerf[i];
-                    if (performance === null || performance === undefined) {
-                        performance = HEATMAP_EMPTY_VALUE;
-                    }
 
-                    if (performance === HEATMAP_EMPTY_VALUE) {
-                        data.push({
-                            value: [i, yAxisIndex, performance],
-                            itemStyle: { color: colorConfig.heatmap.empty }
-                        });
-                    } else {
-                        data.push([i, yAxisIndex, performance]);
+            const data = [];
+             for (let j = 0; j < sectors.length; j++) {
+                const sectorName = sectors[j];
+                const originalSector = sectorData.find(s => s.sector === sectorName);
+                if (originalSector) {
+                    const weeklyPerf = originalSector.weeklyPerformance || [];
+                     for (let i = 0; i < 52; i++) {
+                        let performance = weeklyPerf[i];
+                        if (performance === null || performance === undefined) {
+                            performance = HEATMAP_EMPTY_VALUE;
+                        }
+
+                        if (performance === HEATMAP_EMPTY_VALUE) {
+                            data.push({
+                                value: [i, j, performance],
+                                itemStyle: {
+                                    color: colorConfig.heatmap.empty
+                                }
+                            });
+                        } else {
+                            data.push([i, j, performance]);
+                        }
                     }
                 }
-            });
+            }
 
             heatmapDataForExport = { sectors, weeks, data };
-
             return {
                 tooltip: {
                     position: 'top',
