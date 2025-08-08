@@ -1,27 +1,27 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that produce capital goods, provide commercial and professional services, and offer transportation services.",
-    "marketSizeUSD": "4.0T",
+    "description": "The Industrials sector comprises companies involved in manufacturing capital goods, providing commercial and professional services, and delivering transportation services.",
+    "marketSizeUSD": "4.2T",
     "constituentCount": 75,
     "topHoldings": [
-      {
-        "name": "GE Aerospace",
-        "symbol": "GE"
-      },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "RTX Corporation",
-        "symbol": "RTX"
+        "name": "Honeywell International Inc.",
+        "symbol": "HON"
+      },
+      {
+        "name": "General Electric Company",
+        "symbol": "GE"
       }
     ]
   },
-  "market_weight": 0.0816,
-  "change_pct": 0.08,
-  "insights": "The Industrials sector showed a largely flat performance today, registering a marginal gain of 0.08%. This minimal price movement is consistent with its key technical indicators, which suggest a balanced market. The Relative Strength Index (RSI) at 53.06 indicates the sector is in neutral territory, showing no signs of being overbought or oversold and little strong momentum. Similarly, the Money Flow Index (MFI) at 46.92 points to a fairly even distribution of money flow, albeit with a very slight lean towards outflow on a volume-weighted basis, reinforcing the lack of strong directional conviction. The On-Balance Volume (OBV) of 41,997,500 reflects the cumulative buying and selling pressure for the day, and in the context of a nearly flat price change, suggests that overall volume activity supported a period of consolidation rather than a decisive directional shift.",
+  "market_weight": 0.0681,
+  "change_pct": -0.15,
+  "insights": "The Industrials sector exhibited a marginal decline of -0.15% today, reflecting largely indecisive trading. Technical indicators corroborate this indecisiveness: The Relative Strength Index (RSI) at 52.07 and Money Flow Index (MFI) at 47.17 both indicate neutral momentum and money flow, suggesting balanced buying and selling pressure. The On-Balance Volume (OBV) at 30,902,400, when viewed alongside the minimal price change, further suggests a lack of strong, volume-backed conviction from market participants during today's session.",
   "technicalIndicators": {
     "rsi": [
       [
@@ -746,7 +746,7 @@
       ],
       [
         1754524800000,
-        null
+        52.07
       ]
     ],
     "mfi": [
@@ -1472,7 +1472,7 @@
       ],
       [
         1754524800000,
-        null
+        47.17
       ]
     ],
     "obv": [
@@ -2198,7 +2198,7 @@
       ],
       [
         1754524800000,
-        null
+        30902400.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     0.84,
     2.33,
     -3.39,
-    0.79,
+    0.65,
     null,
     null,
     null,

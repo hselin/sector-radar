@@ -1,27 +1,27 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses a broad range of institutions providing financial services, including banks, diversified financial services, insurance companies, and capital markets firms.",
-    "marketSizeUSD": "5.4T",
-    "constituentCount": 68,
+    "description": "The Financials sector includes banks, insurance companies, capital markets firms, diversified financial services, and real estate entities.",
+    "marketSizeUSD": "14.5T",
+    "constituentCount": 73,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
         "symbol": "BRK.B"
       },
       {
-        "name": "JPMorgan Chase & Co.",
-        "symbol": "JPM"
-      },
-      {
         "name": "Visa Inc.",
         "symbol": "V"
+      },
+      {
+        "name": "JPMorgan Chase & Co.",
+        "symbol": "JPM"
       }
     ]
   },
-  "market_weight": 0.1102,
-  "change_pct": 0.48,
-  "insights": "The Financials sector posted a modest gain of 0.48% today, reflecting a slight positive sentiment. This gentle upward movement is largely consistent with its key technical indicators. The Relative Strength Index (RSI) at 47.59 and the Money Flow Index (MFI) at 52.03 both reside in neutral territory, suggesting no strong directional conviction, but with the MFI subtly indicating a minor net inflow of funds. The substantial On-Balance Volume (OBV) of 1,043,931,900, while cumulative, generally confirms that the day's positive price action was backed by underlying buying interest, reinforcing the sector's slight advance.",
+  "market_weight": 0.235,
+  "change_pct": -1.12,
+  "insights": "The Financials sector experienced a notable pullback today, declining by -1.12%. This daily weakness is corroborated by key technical indicators: the Relative Strength Index (RSI) at 42.29 and the Money Flow Index (MFI) at 45.12, both reading below 50, suggest weakening momentum and a net outflow of capital from the sector. While the On-Balance Volume (OBV) stands at 1,000,870,300, its current level in conjunction with the price decline indicates that selling volume likely outpaced buying volume during the session, reinforcing the bearish sentiment for the day.",
   "technicalIndicators": {
     "rsi": [
       [
@@ -746,7 +746,7 @@
       ],
       [
         1754524800000,
-        null
+        42.29
       ]
     ],
     "mfi": [
@@ -1472,7 +1472,7 @@
       ],
       [
         1754524800000,
-        null
+        45.12
       ]
     ],
     "obv": [
@@ -2194,11 +2194,11 @@
       ],
       [
         1754438400000,
-        1043931900.0
+        1043973500.0
       ],
       [
         1754524800000,
-        null
+        1000870300.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     0.73,
     1.71,
     -3.82,
-    1.07,
+    -0.06,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The GICS Energy sector encompasses companies primarily engaged in the exploration, production, refining, and marketing of oil and gas, as well as those involved in coal, alternative fuels, and energy equipment and services.",
-    "marketSizeUSD": "3.5T",
+    "description": "The Energy GICS sector encompasses companies primarily engaged in the exploration, production, refining, marketing, storage, and transportation of oil, gas, and consumable fuels, along with integrated energy services.",
+    "marketSizeUSD": "3.8T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,9 +19,9 @@
       }
     ]
   },
-  "market_weight": 0.0714,
-  "change_pct": -0.92,
-  "insights": "The Energy sector experienced a modest decline of -0.92% today. The Relative Strength Index (RSI) at 41.76 places it in a neutral-to-slightly-bearish zone, well above oversold levels, suggesting room for further movement in either direction. Conversely, the Money Flow Index (MFI) at 58.19, still above the neutral 50 mark, suggests persistent money flow into the sector, indicating underlying buying interest despite the price depreciation. The substantial On-Balance Volume (OBV) figure of 355,232,700, when viewed with the MFI, could imply that today's modest pullback was not accompanied by significant negative volume conviction, but rather a slight cooling off within a broader accumulation trend.",
+  "market_weight": 0.0616,
+  "change_pct": -0.39,
+  "insights": "The Energy sector experienced a marginal decline today, registering a -0.39% change. This slight downward movement is corroborated by its key technical indicators: the Relative Strength Index (RSI) at 40.46, which is below the neutral 50-mark, suggests weakening bullish momentum but is not yet in oversold territory. Similarly, the Money Flow Index (MFI) at 47.02 indicates a net outflow of capital from the sector, reinforcing the mild selling pressure. While On-Balance Volume (OBV) is a cumulative measure, the day's negative price action implies a slight decrease from its current level of 337,709,500, reflecting that selling volume marginally outweighed buying volume during today's trading.",
   "technicalIndicators": {
     "rsi": [
       [
@@ -746,7 +746,7 @@
       ],
       [
         1754524800000,
-        null
+        40.46
       ]
     ],
     "mfi": [
@@ -1472,7 +1472,7 @@
       ],
       [
         1754524800000,
-        null
+        47.02
       ]
     ],
     "obv": [
@@ -2194,11 +2194,11 @@
       ],
       [
         1754438400000,
-        355232700.0
+        355229900.0
       ],
       [
         1754524800000,
-        null
+        337709500.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     -3.56,
     1.33,
     -1.73,
-    -1.02,
+    -1.4,
     null,
     null,
     null,

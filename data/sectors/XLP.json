@@ -1,27 +1,27 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies involved in the production and sale of essential goods and services, such as food, beverages, tobacco, household and personal care products, and retail relevant to these goods.",
-    "marketSizeUSD": "2.8T",
-    "constituentCount": 33,
+    "description": "The Consumer Staples sector includes companies that manufacture and sell essential products and services, such as food, beverages, household goods, and personal care items, which are generally non-cyclical and in constant demand.",
+    "marketSizeUSD": "3.9T",
+    "constituentCount": 37,
     "topHoldings": [
       {
-        "name": "Procter & Gamble Company",
+        "name": "Walmart Inc.",
+        "symbol": "WMT"
+      },
+      {
+        "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
-        "name": "Coca-Cola Company",
-        "symbol": "KO"
-      },
-      {
-        "name": "PepsiCo, Inc.",
-        "symbol": "PEP"
+        "name": "Costco Wholesale Corp.",
+        "symbol": "COST"
       }
     ]
   },
-  "market_weight": 0.0571,
-  "change_pct": 1.43,
-  "insights": "The Consumer Staples sector experienced a robust session today, posting a gain of 1.43%. This positive movement is supported by key technical indicators: the Relative Strength Index (RSI) at 55.46 suggests healthy, non-overbought momentum, while the Money Flow Index (MFI) at 63.33 indicates strong buying pressure and significant capital flowing into the sector. Furthermore, the positive On-Balance Volume (OBV) of 23,866,200 confirms that buying volume substantially outweighed selling volume, reinforcing the sector's solid daily performance.",
+  "market_weight": 0.0632,
+  "change_pct": 0.76,
+  "insights": "The Consumer Staples sector posted a modest gain of 0.76% today, indicating a positive session. This upward movement is supported by its key technical indicators: the Relative Strength Index (RSI) at 59.57 suggests healthy bullish momentum without being in overbought territory, while the Money Flow Index (MFI) at 63.89 indicates robust money inflow into the sector. Furthermore, the positive On-Balance Volume (OBV) of 39850300 confirms underlying buying pressure, collectively signaling that today's gains are backed by solid investor interest and accumulation.",
   "technicalIndicators": {
     "rsi": [
       [
@@ -746,7 +746,7 @@
       ],
       [
         1754524800000,
-        null
+        59.57
       ]
     ],
     "mfi": [
@@ -1472,7 +1472,7 @@
       ],
       [
         1754524800000,
-        null
+        63.89
       ]
     ],
     "obv": [
@@ -2198,7 +2198,7 @@
       ],
       [
         1754524800000,
-        null
+        39850300.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     0.1,
     0.75,
     -1.64,
-    1.82,
+    2.59,
     null,
     null,
     null,

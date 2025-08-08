@@ -1,27 +1,27 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "This sector comprises companies that produce software, provide IT services, manufacture semiconductors and related equipment, and produce technology hardware.",
-    "marketSizeUSD": "15.8T",
+    "description": "The Information Technology sector comprises companies primarily involved in software, IT services, and technology hardware & equipment, including semiconductors.",
+    "marketSizeUSD": "15.5T",
     "constituentCount": 67,
     "topHoldings": [
-      {
-        "name": "Microsoft Corp.",
-        "symbol": "MSFT"
-      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
       },
       {
-        "name": "NVIDIA Corp.",
+        "name": "Microsoft Corporation",
+        "symbol": "MSFT"
+      },
+      {
+        "name": "NVIDIA Corporation",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.3224,
-  "change_pct": 1.13,
-  "insights": "The Information Technology sector demonstrated solid performance today, gaining 1.13%. This upward movement is supported by constructive technical indicators. The Relative Strength Index (RSI) at 60.37 and Money Flow Index (MFI) at 56.82 both indicate positive buying momentum and strong money flow into the sector, respectively, without signaling an immediate overbought condition. Furthermore, the On-Balance Volume (OBV) at 233,715,800, which would have increased with today's positive price action, confirms that the sector's gains were accompanied by supportive volume, reinforcing the validity of the daily move.",
+  "market_weight": 0.2512,
+  "change_pct": 0.09,
+  "insights": "The Information Technology sector recorded a marginal gain of 0.09% today, indicating a largely stable trading session. Technical indicators support a cautiously positive outlook: the Relative Strength Index (RSI) at 60.72 suggests the sector is experiencing positive momentum but is not yet overbought, while the Money Flow Index (MFI) at 56.86 indicates a moderate inflow of capital. The On-Balance Volume (OBV) of 238,884,200, alongside the slight price increase, implies that this modest upward movement was accompanied by underlying buying pressure, reinforcing the mild positive sentiment.",
   "technicalIndicators": {
     "rsi": [
       [
@@ -746,7 +746,7 @@
       ],
       [
         1754524800000,
-        null
+        60.72
       ]
     ],
     "mfi": [
@@ -1468,11 +1468,11 @@
       ],
       [
         1754438400000,
-        56.82
+        56.83
       ],
       [
         1754524800000,
-        null
+        56.86
       ]
     ],
     "obv": [
@@ -2194,11 +2194,11 @@
       ],
       [
         1754438400000,
-        233715800.0
+        233725700.0
       ],
       [
         1754524800000,
-        null
+        238884200.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     1.97,
     0.42,
     -1.88,
-    2.33,
+    2.42,
     null,
     null,
     null,
