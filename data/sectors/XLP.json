@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and sell essential goods and services, such as food, beverages, tobacco, household products, and personal care items, which are generally non-cyclical.",
-    "marketSizeUSD": "3.5T",
-    "constituentCount": 33,
+    "description": "The Consumer Staples sector comprises companies that produce and sell essential goods and services, such as food, beverages, household products, and personal care items, which consumers purchase regardless of economic conditions.",
+    "marketSizeUSD": "3.3T",
+    "constituentCount": 37,
     "topHoldings": [
       {
         "name": "Procter & Gamble Co.",
@@ -14,20 +14,16 @@
         "symbol": "KO"
       },
       {
-        "name": "PepsiCo, Inc.",
+        "name": "PepsiCo Inc.",
         "symbol": "PEP"
       }
     ]
   },
-  "market_weight": 0.0676,
+  "market_weight": 0.0623,
   "change_pct": 0.76,
-  "insights": "The Consumer Staples sector experienced a positive trading day, advancing 0.76%. This upward movement is supported by key technical indicators: the Relative Strength Index (RSI) at 59.57 indicates strong buying momentum without being overbought, suggesting potential for further gains. Concurrently, the Money Flow Index (MFI) at 63.89 reinforces this positive sentiment, reflecting significant capital inflow into the sector. The On-Balance Volume (OBV) value, aligned with the price increase, implies that buying volume outweighed selling volume today, confirming accumulation and reinforcing the sector's gains.",
+  "insights": "The Consumer Staples sector showed a positive performance today, gaining 0.76%. Technical indicators largely support this upward movement: the Relative Strength Index (RSI) at 59.57 indicates healthy bullish momentum, suggesting the sector is strong but not yet overbought. Further confirming this is the Money Flow Index (MFI) at 63.89, which points to significant money flowing into the sector. The On-Balance Volume (OBV) of 39850300, while an absolute figure, supports the price increase as rising volume typically confirms price advances. Overall, these indicators suggest a well-supported daily gain with continued underlying buying interest.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         59.57
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         63.89
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         39850300.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },

@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, and marketing of oil, gas, and other consumable fuels, including those involved in the provision of related equipment and services.",
-    "marketSizeUSD": "2.1T",
+    "description": "The Energy sector encompasses companies primarily engaged in the exploration, production, refining, and marketing of oil and gas, as well as the provision of drilling and other energy-related services.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0405,
+  "market_weight": 0.034,
   "change_pct": -0.39,
-  "insights": "The Energy sector experienced a marginal decline of -0.39% today, reflecting slight bearish pressure. Key technical indicators generally support this muted downward movement: The Relative Strength Index (RSI) at 40.46 and Money Flow Index (MFI) at 47.02 both reside in the lower half of their neutral ranges, suggesting a lack of strong buying interest and mild selling momentum rather than an oversold condition. The On-Balance Volume (OBV) at 337,709,500, if having decreased from the previous day's close, would further confirm that this slight price dip was accompanied by a corresponding absence of significant buying volume.",
+  "insights": "The Energy sector experienced a modest decline of -0.39% today, indicating slight bearish pressure. Technical indicators largely corroborate this sentiment: both the Relative Strength Index (RSI) at 40.46 and Money Flow Index (MFI) at 47.02 sit below the 50-mark, signaling weakening momentum and a neutral-to-bearish stance, though not yet reaching oversold extremes. The On-Balance Volume (OBV) at 337,709,500 reflects substantial cumulative trading activity, suggesting that while today's dip saw some selling, it likely wasn't accompanied by capitulative volume, aligning with the relatively minor price movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         40.46
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         47.02
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         337709500.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },

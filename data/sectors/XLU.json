@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector provides essential services such as electricity, natural gas, water, and sewage directly to consumers and businesses.",
-    "marketSizeUSD": "1.3T",
-    "constituentCount": 31,
+    "description": "The Utilities sector comprises companies providing essential services such as electricity, natural gas, water, and wastewater management, often characterized by stable demand and regulatory oversight.",
+    "marketSizeUSD": "1.4T",
+    "constituentCount": 29,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0251,
+  "market_weight": 0.0264,
   "change_pct": 1.09,
-  "insights": "The Utilities sector exhibited strong performance today, gaining 1.09%. This upward movement is well-supported by key technical indicators. The Relative Strength Index (RSI) at 63.95 indicates robust buying momentum, approaching but not yet in overbought territory, suggesting sustained interest. Further reinforcing this, the Money Flow Index (MFI) at 74.75 points to significant capital inflow into the sector, corroborating the price appreciation. The On-Balance Volume (OBV) at 315,717,700, given the daily gain, implies accumulation and confirms that the price rise is accompanied by healthy buying volume.",
+  "insights": "The Utilities sector demonstrated a robust performance today, climbing 1.09%. This upward movement is strongly supported by key technical indicators: the Relative Strength Index (RSI) at 63.95 suggests significant buying momentum, approaching overbought levels but with some room remaining. Further reinforcing this strength, the Money Flow Index (MFI) at 74.75 indicates substantial capital inflow, nearing its overbought threshold and confirming volume-backed buying. Concurrently, the On-Balance Volume (OBV) at 315,717,700, while a cumulative figure, would have increased today, corroborating the positive price action with strong buying pressure. Collectively, these metrics point to a sector experiencing solid demand and strong upward momentum on the day.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         63.95
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         74.75
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         315717700.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },

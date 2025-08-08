@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials GICS sector comprises companies involved in manufacturing a wide range of products including chemicals, construction materials, containers and packaging, metals, mining, and forest products.",
-    "marketSizeUSD": "1.8T",
+    "description": "The Materials sector includes companies that discover, develop, and process raw materials, such as chemicals, construction materials, metals, mining, paper, and packaging.",
+    "marketSizeUSD": "1.1T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co.",
+        "name": "The Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc.",
-        "symbol": "ECL"
+        "name": "Air Products and Chemicals, Inc.",
+        "symbol": "APD"
       }
     ]
   },
-  "market_weight": 0.0347,
+  "market_weight": 0.0208,
   "change_pct": 0.43,
-  "insights": "The Materials sector registered a modest gain of 0.43% today, yet key technical indicators suggest underlying caution. The Relative Strength Index (RSI) at 43.93 and the Money Flow Index (MFI) at 42.88 both indicate a lack of strong buying momentum and limited net money inflow, remaining below the neutral 50-mark. Furthermore, the On-Balance Volume (OBV) at -16,056,700 points to a dominant selling volume trend over buying volume, suggesting that today's slight price increase was not supported by significant accumulation and that the overall demand for the sector's constituents remains weak.",
+  "insights": "The Materials sector registered a modest gain of 0.43% today, however, technical indicators suggest underlying caution. The Relative Strength Index (RSI) at 43.93 and Money Flow Index (MFI) at 42.88 both sit below the neutral 50-mark, indicating a lack of strong buying momentum or a shift towards weakening sentiment despite the positive daily close. Crucially, the On-Balance Volume (OBV) at -16,056,700 presents a bearish divergence, implying that while the price edged up, volume associated with downward price movements outpaced upward volume, suggesting selling pressure might be accumulating beneath the surface, and the day's gain lacks strong conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         43.93
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         42.88
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         -16056700.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },

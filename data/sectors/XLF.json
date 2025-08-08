@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses a broad range of companies including banks, diversified financial services, insurance providers, capital markets firms, and real estate entities.",
-    "marketSizeUSD": "5.9T",
+    "description": "The Financials sector comprises companies engaged in financial services including banks, insurance firms, diversified financial services, and capital markets businesses.",
+    "marketSizeUSD": "7.5T",
     "constituentCount": 68,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1139,
+  "market_weight": 0.1415,
   "change_pct": -1.12,
-  "insights": "The Financials sector experienced a notable daily decline of -1.12%, indicating broad-based selling pressure. This downward movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 42.29 and the Money Flow Index (MFI) at 45.12. Both metrics, being below their respective midpoints of 50, signal weakening bullish momentum and a net outflow of money from the sector, suggesting a bearish bias, though not yet oversold. The On-Balance Volume (OBV) at 1,000,870,300, a cumulative measure of buying and selling pressure, would typically reflect a decrease on a day of such decline, further confirming the bearish sentiment and volume behind the move.",
+  "insights": "The Financials sector experienced a notable downturn today, declining by 1.12%. Its key technical indicators largely reflect this negative sentiment: the Relative Strength Index (RSI) at 42.29 suggests weakening momentum, moving closer to oversold territory but not yet there, while the Money Flow Index (MFI) at 45.12 further indicates a net outflow of capital from the sector. The On-Balance Volume (OBV), at 1,000,870,300, likely confirms the day's selling pressure, as a declining OBV reading on a down day reinforces the validity of the price drop through volume. Collectively, these indicators point to a day dominated by selling activity and diminishing bullish conviction within the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         42.29
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         45.12
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         1000870300.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },

@@ -1,9 +1,9 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "This sector encompasses companies involved in telecommunications, media, entertainment, and interactive media services, connecting people and delivering content.",
-    "marketSizeUSD": "5.5T",
-    "constituentCount": 23,
+    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment, and interactive media services, facilitating global connectivity and digital content consumption.",
+    "marketSizeUSD": "6.8T",
+    "constituentCount": 22,
     "topHoldings": [
       {
         "name": "Alphabet Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1062,
+  "market_weight": 0.1283,
   "change_pct": -0.43,
-  "insights": "The Communication Services sector experienced a modest decline today, falling by -0.43%. Technical indicators suggest a largely neutral market sentiment; the Relative Strength Index (RSI) at 52.92 and Money Flow Index (MFI) at 55.41 both reside comfortably in their mid-ranges, indicating neither overbought nor oversold conditions and a lack of strong underlying buying or selling pressure from a momentum perspective, despite the fractional loss. The On-Balance Volume (OBV) at 262,656,900 reflects the cumulative buying and selling pressure; for a comprehensive daily interpretation, its change from the prior period would indicate if the slight price dip was accompanied by significant volume or merely minor profit-taking.",
+  "insights": "The Communication Services sector experienced a modest decline of -0.43% today. Despite this slight pullback, key technical indicators suggest a largely neutral underlying momentum: the Relative Strength Index (RSI) at 52.92 and Money Flow Index (MFI) at 55.41 both hover near the midline, indicating balanced buying and selling pressure and no significant capital exodus. While the On-Balance Volume (OBV) stands at 262,656,900, its specific daily interpretation is more insightful when analyzing its trend; however, its current large value reflects significant cumulative trading activity. Overall, today's dip appears to be more of a minor correction within a broader balanced trading environment rather than a strong directional shift.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         52.92
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         55.41
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         262656900.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },

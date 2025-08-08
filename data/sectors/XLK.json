@@ -1,33 +1,29 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises companies primarily involved in the development and production of software, hardware, semiconductors, and the provision of IT services.",
-    "marketSizeUSD": "$15T",
-    "constituentCount": 67,
+    "description": "The Information Technology sector encompasses companies primarily involved in the creation of software, the provision of IT services, and the manufacturing of hardware, including semiconductors and computer equipment.",
+    "marketSizeUSD": "14T",
+    "constituentCount": 66,
     "topHoldings": [
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
       },
       {
-        "name": "Microsoft Corporation",
+        "name": "Microsoft Corp.",
         "symbol": "MSFT"
       },
       {
-        "name": "NVIDIA Corporation",
+        "name": "NVIDIA Corp.",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.2896,
+  "market_weight": 0.2642,
   "change_pct": 0.09,
-  "insights": "The Information Technology sector posted a marginal gain of 0.09% today, reflecting a quiet session with a slight positive bias. Technical indicators support this measured movement: the RSI at 60.72 indicates healthy bullish momentum without approaching overbought conditions, while the MFI at 56.86 suggests positive, but not excessive, money flow into the sector. The substantial OBV of 238,884,200 further underscores a sustained accumulation trend, confirming underlying buying interest even on a day of minimal price change.",
+  "insights": "The Information Technology sector registered a modest gain of 0.09% today, indicating a slight positive close. Despite this subdued daily movement, key technical indicators suggest underlying strength and positive momentum. The Relative Strength Index (RSI) at 60.72 and Money Flow Index (MFI) at 56.86 both reside in bullish territory above 50, signaling healthy buying interest and positive money flow into the sector without being overbought. Furthermore, the robust On-Balance Volume (OBV) of 238,884,200 points to significant accumulation and strong buying pressure, reinforcing the sector's potential for continued upward trajectory beyond today's minor increment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         60.72
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         56.86
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         238884200.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },

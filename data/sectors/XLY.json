@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector includes companies that provide non-essential goods and services, such as durable goods, apparel, hotels, restaurants, entertainment, and automotive, which are sensitive to economic cycles and consumer spending power.",
-    "marketSizeUSD": "6.0T",
-    "constituentCount": 52,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, such as retail, automotive, hotels, and leisure, which are highly sensitive to economic cycles and consumer spending trends.",
+    "marketSizeUSD": "5.5T",
+    "constituentCount": 58,
     "topHoldings": [
       {
         "name": "Amazon.com Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1158,
+  "market_weight": 0.1038,
   "change_pct": -0.03,
-  "insights": "The Consumer Discretionary sector experienced a nearly flat performance today, registering a marginal decline of -0.03%. Both the Relative Strength Index (RSI) at 55.55 and the Money Flow Index (MFI) at 57.40 indicate neutral momentum, well within typical ranges and not signaling significant overbought or oversold conditions. The On-Balance Volume (OBV) figure of 32,317,600, while specific context for its daily change is needed, broadly reflects the cumulative buying and selling pressure. Collectively, these indicators suggest a period of consolidation, with a largely balanced interplay between buying and selling pressure contributing to the day's negligible price change.",
+  "insights": "The Consumer Discretionary sector experienced a largely flat performance today, registering a marginal decline of -0.03%. Key technical indicators suggest underlying stability rather than a strong directional shift; the Relative Strength Index (RSI) at 55.55 and the Money Flow Index (MFI) at 57.40 both reside in the neutral-to-slightly-bullish range, indicating balanced momentum and some sustained capital interest despite the fractional price dip. The On-Balance Volume (OBV) of 32,317,600, while a robust figure, further implies that the day's minimal price movement was not driven by significant bearish volume, reinforcing the perception of a largely indecisive trading session.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         55.55
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         57.4
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         32317600.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },

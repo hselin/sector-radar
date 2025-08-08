@@ -1,33 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector includes Equity REITs and other companies that own, develop, and manage real estate properties.",
+    "description": "The Real Estate GICS sector primarily includes Equity Real Estate Investment Trusts (REITs) that own and operate income-producing real estate, as well as companies engaged in real estate management and development.",
     "marketSizeUSD": "1.4T",
-    "constituentCount": 32,
+    "constituentCount": 31,
     "topHoldings": [
       {
-        "name": "Prologis Inc.",
+        "name": "Prologis, Inc.",
         "symbol": "PLD"
       },
       {
-        "name": "American Tower Corp.",
+        "name": "American Tower Corporation",
         "symbol": "AMT"
       },
       {
-        "name": "Equinix Inc.",
+        "name": "Equinix, Inc.",
         "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.027,
+  "market_weight": 0.0264,
   "change_pct": 0.39,
-  "insights": "The Real Estate sector posted a modest gain of 0.39% today, reflecting a slight positive close. However, key technical indicators suggest underlying caution: the Relative Strength Index (RSI) at 46.79 and Money Flow Index (MFI) at 46.68 both hover below 50, indicating slightly bearish momentum and a minor net outflow of funds, respectively, despite the sector's uptick. While the On-Balance Volume (OBV) at 87,760,200 reflects significant cumulative buying pressure, its daily change, which would confirm today's specific volume conviction behind the small gain, is not provided. Overall, the sector saw a fractional improvement, but momentum metrics suggest current investor interest remains subdued.",
+  "insights": "The Real Estate sector posted a modest gain of 0.39% today, indicating a slight positive movement. However, key technical indicators suggest a lack of strong buying conviction behind this advance. The Relative Strength Index (RSI) at 46.79 and the Money Flow Index (MFI) at 46.68, both hovering below the 50-mark, indicate a neutral-to-slightly-weak momentum, suggesting that while prices edged higher, the sector did not experience significant upward pressure from buyers or a strong inflow of capital. The On-Balance Volume (OBV) at 87,760,200 reflects the cumulative volume flow, and in conjunction with the momentum indicators, implies that today's modest positive movement occurred without a definitive surge in demand.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         46.79
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         46.68
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         87760200.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },

@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector comprises companies involved in providing medical services, manufacturing pharmaceutical products and medical equipment, and offering other health-related services.",
-    "marketSizeUSD": "5.3T",
+    "description": "The Health Care sector encompasses companies involved in providing medical services, manufacturing pharmaceutical and biotechnology products, and producing healthcare equipment and supplies.",
+    "marketSizeUSD": "6.2T",
     "constituentCount": 65,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Inc.",
+        "name": "UnitedHealth Group Incorporated",
         "symbol": "UNH"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1023,
+  "market_weight": 0.117,
   "change_pct": -1.15,
-  "insights": "Today, the Health Care sector underperformed, posting a decline of -1.15%. This downward movement is consistent with its key technical indicators, which reflect significant selling pressure. The Relative Strength Index (RSI) at 37.33 is trending towards oversold conditions, while the Money Flow Index (MFI) at 43.66 indicates a net outflow of capital from the sector. Furthermore, the On-Balance Volume (OBV) of -168,782,500 reinforces this bearish sentiment, clearly showing that selling volume substantially outweighed buying volume, contributing to the sector's notable daily decrease.",
+  "insights": "The Health Care sector experienced a notable decline today, dropping by 1.15%. This weakness is corroborated by its key technical indicators. The Relative Strength Index (RSI) at 37.33 suggests growing bearish momentum, nearing oversold conditions, while the Money Flow Index (MFI) of 43.66 indicates a net outflow of capital from the sector. Further underscoring the selling pressure, the highly negative On-Balance Volume (OBV) of -168.78 million confirms that today's price decline occurred on significant volume. Collectively, these metrics point to a sector under considerable selling pressure, validating today's negative price action.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         37.33
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         43.66
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         -168782500.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },

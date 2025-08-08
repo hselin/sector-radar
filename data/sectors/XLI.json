@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that manufacture and distribute capital goods, provide commercial and professional services, and offer transportation services.",
+    "description": "The Industrials sector comprises companies engaged in the production of capital goods, provision of commercial services, and delivery of transportation services, including aerospace, defense, construction, machinery, and logistics.",
     "marketSizeUSD": "4.0T",
-    "constituentCount": 76,
+    "constituentCount": 72,
     "topHoldings": [
       {
-        "name": "GE Aerospace",
+        "name": "General Electric",
         "symbol": "GE"
       },
       {
@@ -14,20 +14,16 @@
         "symbol": "CAT"
       },
       {
-        "name": "Union Pacific Corp",
-        "symbol": "UNP"
+        "name": "RTX Corporation",
+        "symbol": "RTX"
       }
     ]
   },
-  "market_weight": 0.0772,
+  "market_weight": 0.0755,
   "change_pct": -0.15,
-  "insights": "The Industrials sector saw a modest decline of -0.15% today, reflecting minor selling pressure. Examining key technical indicators, the Relative Strength Index (RSI) at 52.07 suggests neutral momentum, indicating the sector is neither overbought nor oversold. The Money Flow Index (MFI) at 47.17 points to a slight net outflow of funds, which aligns with the day's negative performance. The On-Balance Volume (OBV) at 30902400, a cumulative measure, indicates the volume supporting current price levels, with today's slight dip suggesting that selling volume marginally surpassed buying volume.",
+  "insights": "The Industrials sector experienced a marginal decline of -0.15% today, reflecting a largely flat trading session. This subdued movement is consistent with the provided technical indicators: the Relative Strength Index (RSI) at 52.07 sits in neutral territory, indicating balanced momentum without overbought or oversold conditions. The Money Flow Index (MFI) at 47.17 suggests a slight net outflow of funds, aligning with the minor price dip but not signaling significant selling pressure. The On-Balance Volume (OBV) of 30,902,400, while a cumulative figure, in context of the minimal price change, implies that the slight dip was not accompanied by strong volume-driven selling, reinforcing the sector's largely uneventful day.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -747,13 +743,13 @@
       [
         1754524800000,
         52.07
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1754524800000,
         47.17
+      ],
+      [
+        1754611200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1738972800000,
-        null
-      ],
       [
         1739059200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1754524800000,
         30902400.0
+      ],
+      [
+        1754611200000,
+        null
       ]
     ]
   },
