@@ -12,7 +12,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!-- Font Awesome CDN for icons -->
-    <!-- FIX: Corrected typo 'xintegrity' to 'integrity' -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" xintegrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
@@ -52,7 +51,6 @@
             box-shadow: 0 4px 6px rgba(0,0,0,0.3);
             pointer-events: none; /* Allow clicks to pass through */
         }
-        /* FIX: Added rule to show tooltip on focus for keyboard accessibility. */
         .info-icon:hover + .info-tooltip-content,
         .info-icon:focus + .info-tooltip-content {
             display: block;
@@ -255,9 +253,8 @@
         let fullSectorsData = [];
 
         // --- CONFIGURATION ---
-        // FIX: Changed DATA_DIRECTORY to a relative path to prevent fetch errors.
         const DATA_DIRECTORY = 'data';
-        const USE_MOCK_DATA = false; // User requested to keep this for testing.
+        const USE_MOCK_DATA = false;
         const HEATMAP_EMPTY_VALUE = -999;
 
         const colorConfig = {
@@ -645,12 +642,14 @@
             }
 
             let html = `<div class="bg-gray-800 rounded-lg border border-gray-700">
-                    <div class="collapsible-header p-4 bg-gray-800 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer relative" data-target="#content-${overallMarketId}">
-                        <h3 class="text-lg sm:text-xl font-bold text-gray-50 uppercase tracking-wide mb-2 sm:mb-0 sm:mr-2">Overall Market (S&P 500)</h3>
-                        <div class="flex items-center self-start sm:self-center">
-                            <span class="text-base font-semibold ${colorClassOverall} tabular-nums">${formattedChangeOverall}</span>
-                            <div id="sparkline-${overallMarketId}" class="w-32 md:w-48 h-12 ml-4"></div>
-                            <i class="fas fa-chevron-down chevron-icon text-gray-400 ml-4"></i>
+                    <div class="collapsible-header p-4 bg-gray-800 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer" data-target="#content-${overallMarketId}">
+                        <h3 class="text-lg sm:text-xl font-bold text-gray-50 uppercase tracking-wide mb-2 sm:mb-0">Overall Market (S&P 500)</h3>
+                        <div class="w-full sm:w-auto flex items-center justify-between">
+                            <div class="flex items-center">
+                                <span class="text-base font-semibold ${colorClassOverall} tabular-nums">${formattedChangeOverall}</span>
+                                <div id="sparkline-${overallMarketId}" class="w-32 md:w-48 h-12 ml-4"></div>
+                            </div>
+                            <i class="fas fa-chevron-down chevron-icon text-gray-400 sm:ml-4"></i>
                         </div>
                     </div>
                     <div id="content-${overallMarketId}" class="collapsible-content">
@@ -725,13 +724,15 @@
                 }
 
                 html += `<div class="bg-gray-800 rounded-lg border border-gray-700">
-                        <div class="collapsible-header p-4 bg-gray-800 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer relative" data-target="#content-${sectorId}">
-                           <h3 class="text-lg sm:text-xl font-bold text-gray-50 uppercase tracking-wide mb-2 sm:mb-0 sm:mr-2">${sector.sector}</h3>
-                           <div class="flex items-center self-start sm:self-center">
-                                <span class="text-base font-semibold ${colorClass} tabular-nums">${formattedChange}</span>
-                                <div id="sparkline-${sectorId}" class="w-32 md:w-48 h-12 ml-4"></div>
-                                <i class="fas fa-chevron-down chevron-icon text-gray-400 ml-4"></i>
-                           </div>
+                        <div class="collapsible-header p-4 bg-gray-800 flex flex-col sm:flex-row sm:justify-between sm:items-center cursor-pointer" data-target="#content-${sectorId}">
+                            <h3 class="text-lg sm:text-xl font-bold text-gray-50 uppercase tracking-wide mb-2 sm:mb-0">${sector.sector}</h3>
+                            <div class="w-full sm:w-auto flex items-center justify-between">
+                                <div class="flex items-center">
+                                    <span class="text-base font-semibold ${colorClass} tabular-nums">${formattedChange}</span>
+                                    <div id="sparkline-${sectorId}" class="w-32 md:w-48 h-12 ml-4"></div>
+                                </div>
+                                <i class="fas fa-chevron-down chevron-icon text-gray-400 sm:ml-4"></i>
+                            </div>
                         </div>
                         <div id="content-${sectorId}" class="collapsible-content">
                             <div class="p-4 border-t border-gray-700">
@@ -837,8 +838,6 @@
             });
         }
 
-        // FIX: Removed the unused and redundant generateStaticHeatmapData function.
-
         function applyCentralizedStyles() {
             const legendBar = document.getElementById('treemap-legend-bar');
             const palette = colorConfig.palette;
@@ -878,14 +877,11 @@
                 generateTreemap(fullSectorsData);
 
                 generateFilterControls(fullSectorsData);
-                // FIX: Removed call to the redundant generateStaticHeatmapData function.
 
                 document.getElementById('heatmap-skeleton').classList.add('hidden');
                 document.getElementById('heatmap-content').classList.remove('hidden');
                 generateHeatmap(fullSectorsData);
 
-                // FIX: Moved the button enabling logic here to prevent a race condition.
-                // This ensures the button is only clickable after heatmapDataForExport is populated.
                 const exportBtn = document.getElementById('exportCsvBtn');
                 exportBtn.disabled = false;
                 exportBtn.classList.remove('bg-gray-600', 'cursor-not-allowed', 'opacity-50');
@@ -1053,8 +1049,6 @@
             const isMobile = window.innerWidth < 768;
             const weeks = Array.from({ length: 52 }, (_, i) => `${i + 1}`);
 
-            // FIX: Refactored this section for improved efficiency and clarity.
-            // It now avoids finding items in a loop.
             const sectors = sectorData.map(s => s.sector).reverse();
             const data = [];
             sectorData.forEach((sector) => {
@@ -1096,7 +1090,7 @@
                     left: isMobile ? '25%' : '15%',
                     right: '4%',
                     top: '10',
-                    bottom: 60
+                    bottom: 80
                 },
                 xAxis: {
                     type: 'category',
@@ -1106,6 +1100,14 @@
                     axisTick: { show: false },
                     axisLabel: {
                         show: !isMobile,
+                    },
+                    name: 'Week',
+                    nameLocation: 'center',
+                    nameGap: isMobile ? 25 : 40,
+                    nameTextStyle: {
+                        color: '#D1D5DB', // gray-300
+                        fontSize: 12,
+                        fontWeight: 'normal'
                     }
                 },
                 yAxis: {
@@ -1115,6 +1117,7 @@
                     axisLine: { show: false },
                     axisTick: { show: false },
                     axisLabel: {
+                        color: '#D1D5DB', // gray-300
                         fontSize: isMobile ? 10 : 12,
                         formatter: function (value) {
                             if (isMobile) {
