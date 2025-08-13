@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-12T21:13:01.474473Z",
+  "lastUpdated": "2025-08-13T21:12:52.427234Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices based on criteria like market size, liquidity, and sector representation.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a solid **1.06% gain**, reflecting broadly positive investor sentiment. Key technical indicators largely corroborate this bullish momentum: the **Relative Strength Index (RSI) at 66.32** indicates strong buying pressure and accelerating momentum, approaching the overbought threshold but not yet signaling an immediate reversal. Concurrently, the **Money Flow Index (MFI) at 56.07** suggests a healthy net inflow of capital into the market, validating the upward price movement with volume. While the absolute **On-Balance Volume (OBV) of 1,634,851,907** signifies a historical trend of accumulation, its positive contribution today reinforces that current price advances are being supported by active buying, pointing to robust underlying momentum and continued investor confidence.",
-    "change_pct": 1.06,
+    "commentary": "The stock market concluded the day with a modest gain of 0.34%, signaling continued positive sentiment. Technical indicators largely reinforce this bullish tilt and strong momentum. The Relative Strength Index (RSI) at 67.90, nearing the 70-mark, suggests significant recent buying pressure and robust upward momentum, approaching overbought conditions that could signal a need for consolidation. This is further supported by the Money Flow Index (MFI) at 55.61, indicating net capital inflow, and a high On-Balance Volume (OBV), which confirms that the price appreciation is accompanied by strong buying interest. Collectively, these figures point to a market with strong positive momentum and confident sentiment, albeit one that is showing signs of becoming somewhat extended.",
+    "change_pct": 0.34,
     "technicalIndicators": {
       "rsi": [
-        [
-          1739404800000,
-          58.89
-        ],
         [
           1739491200000,
           58.85
@@ -747,13 +743,13 @@
         [
           1754956800000,
           66.32
+        ],
+        [
+          1755043200000,
+          67.9
         ]
       ],
       "mfi": [
-        [
-          1739404800000,
-          56.5
-        ],
         [
           1739491200000,
           65.44
@@ -1473,13 +1469,13 @@
         [
           1754956800000,
           56.07
+        ],
+        [
+          1755043200000,
+          55.61
         ]
       ],
       "obv": [
-        [
-          1739404800000,
-          1393565400.0
-        ],
         [
           1739491200000,
           1366655000.0
@@ -2199,6 +2195,10 @@
         [
           1754956800000,
           1634851907.0
+        ],
+        [
+          1755043200000,
+          1694653127.0
         ]
       ]
     },
@@ -2235,7 +2235,7 @@
       1.52,
       -2.41,
       2.49,
-      0.86,
+      1.21,
       null,
       null,
       null,

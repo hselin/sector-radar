@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0208,
-  "change_pct": 1.3,
-  "insights": "The Materials sector posted a positive 1.30% gain today. Its RSI at 50.96 indicates neutral momentum, suggesting the rally isn't overextended. However, the MFI at 36.64 points to relatively subdued money flow into the sector, and the significant negative cumulative OBV of -10750816 highlights that selling volume has largely outweighed buying volume over the broader period. This combination suggests that despite today's positive price action, underlying conviction in the uptrend, particularly from a volume perspective, remains muted.",
+  "change_pct": 1.88,
+  "insights": "The Materials sector demonstrated a strong performance today, rising by 1.88%. This positive daily movement is supported by an RSI of 57.87, indicating solid bullish momentum without being overbought. However, the MFI at 44.17 suggests that while prices advanced, the volume-weighted money flow was not exceptionally strong on the buying side. Furthermore, the significantly negative OBV of -2,317,603 implies that despite today's rally, selling volume has historically outweighed buying volume, suggesting today's gains occurred against a backdrop of previous outflows or underlying cautious sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739404800000,
-        60.55
-      ],
       [
         1739491200000,
         58.29
@@ -747,13 +743,13 @@
       [
         1754956800000,
         50.96
+      ],
+      [
+        1755043200000,
+        57.87
       ]
     ],
     "mfi": [
-      [
-        1739404800000,
-        47.29
-      ],
       [
         1739491200000,
         53.61
@@ -1473,13 +1469,13 @@
       [
         1754956800000,
         36.64
+      ],
+      [
+        1755043200000,
+        44.17
       ]
     ],
     "obv": [
-      [
-        1739404800000,
-        28937400.0
-      ],
       [
         1739491200000,
         24121700.0
@@ -2199,6 +2195,10 @@
       [
         1754956800000,
         -10750816.0
+      ],
+      [
+        1755043200000,
+        -2317603.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     2.38,
     -6.12,
     1.88,
-    1.08,
+    2.98,
     null,
     null,
     null,
