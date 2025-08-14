@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-13T21:12:52.427234Z",
+  "lastUpdated": "2025-08-14T21:13:06.461739Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices based on criteria like market size, liquidity, and sector representation.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a modest gain of 0.34%, signaling continued positive sentiment. Technical indicators largely reinforce this bullish tilt and strong momentum. The Relative Strength Index (RSI) at 67.90, nearing the 70-mark, suggests significant recent buying pressure and robust upward momentum, approaching overbought conditions that could signal a need for consolidation. This is further supported by the Money Flow Index (MFI) at 55.61, indicating net capital inflow, and a high On-Balance Volume (OBV), which confirms that the price appreciation is accompanied by strong buying interest. Collectively, these figures point to a market with strong positive momentum and confident sentiment, albeit one that is showing signs of becoming somewhat extended.",
-    "change_pct": 0.34,
+    "commentary": "The stock market concluded the day with a virtually flat performance, recording a marginal 0.01% gain, indicative of a session lacking strong directional conviction. Key technical indicators, however, provide more nuanced insights into underlying sentiment and momentum. The Relative Strength Index (RSI) at 67.95 suggests the market is approaching overbought territory, reflecting strong recent upward momentum and bullish sentiment that could prelude consolidation or a minor pullback. In contrast, the Money Flow Index (MFI) sits precisely at a neutral 50.11, indicating a balanced flow of capital and a lack of significant conviction from money flows despite the high RSI. The On-Balance Volume (OBV), at 1,748,184,548, tracks the cumulative buying/selling pressure, and its stability today aligns with the indecisive price action, suggesting that while the market has strong underlying momentum, today's trading saw balanced participation rather than aggressive directional movement.",
+    "change_pct": 0.01,
     "technicalIndicators": {
       "rsi": [
-        [
-          1739491200000,
-          58.85
-        ],
         [
           1739577600000,
           null
@@ -747,13 +743,13 @@
         [
           1755043200000,
           67.9
+        ],
+        [
+          1755129600000,
+          67.95
         ]
       ],
       "mfi": [
-        [
-          1739491200000,
-          65.44
-        ],
         [
           1739577600000,
           null
@@ -1473,13 +1469,13 @@
         [
           1755043200000,
           55.61
+        ],
+        [
+          1755129600000,
+          50.11
         ]
       ],
       "obv": [
-        [
-          1739491200000,
-          1366655000.0
-        ],
         [
           1739577600000,
           null
@@ -2199,6 +2195,10 @@
         [
           1755043200000,
           1694653127.0
+        ],
+        [
+          1755129600000,
+          1748184548.0
         ]
       ]
     },
@@ -2235,7 +2235,7 @@
       1.52,
       -2.41,
       2.49,
-      1.21,
+      1.22,
       null,
       null,
       null,
