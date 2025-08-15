@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2025-08-14T21:13:06.461739Z",
+  "lastUpdated": "2025-08-15T21:18:02.565668Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices based on criteria like market size, liquidity, and sector representation.",
-      "marketSizeUSD": "46.5T",
+      "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, widely regarded as one of the best gauges of large-cap U.S. equities and the overall stock market.",
+      "marketSizeUSD": "48.5T",
       "constituentCount": 503,
       "topHoldings": [
         {
-          "name": "Microsoft Corp",
+          "name": "Microsoft Corporation",
           "symbol": "MSFT"
         },
         {
@@ -15,19 +15,15 @@
           "symbol": "AAPL"
         },
         {
-          "name": "NVIDIA Corp",
+          "name": "NVIDIA Corporation",
           "symbol": "NVDA"
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a virtually flat performance, recording a marginal 0.01% gain, indicative of a session lacking strong directional conviction. Key technical indicators, however, provide more nuanced insights into underlying sentiment and momentum. The Relative Strength Index (RSI) at 67.95 suggests the market is approaching overbought territory, reflecting strong recent upward momentum and bullish sentiment that could prelude consolidation or a minor pullback. In contrast, the Money Flow Index (MFI) sits precisely at a neutral 50.11, indicating a balanced flow of capital and a lack of significant conviction from money flows despite the high RSI. The On-Balance Volume (OBV), at 1,748,184,548, tracks the cumulative buying/selling pressure, and its stability today aligns with the indecisive price action, suggesting that while the market has strong underlying momentum, today's trading saw balanced participation rather than aggressive directional movement.",
-    "change_pct": 0.01,
+    "commentary": "The stock market concluded the day with a slight decline of 0.23%, indicating a relatively flat session with minor profit-taking or cautious sentiment. Examining key technical indicators, the Relative Strength Index (RSI) at 65.51 suggests that despite today's minor dip, underlying momentum remains strong, nearing overbought territory from a recent rally. However, the Money Flow Index (MFI) at 44.06 paints a more nuanced picture, indicating weaker money flow and a potential lack of robust buying conviction to sustain upward movement, leaning towards a more neutral or even slightly bearish short-term outlook in terms of volume-backed price action. The On-Balance Volume (OBV) at 1,680,639,684 reflects significant accumulated volume, though its immediate directional signal from a single snapshot is limited, it generally confirms active trading. Collectively, these figures suggest a market with recent price strength that may be entering a phase of consolidation or a slight pullback as volume-backed buying interest wanes, despite the underlying positive momentum.",
+    "change_pct": -0.23,
     "technicalIndicators": {
       "rsi": [
-        [
-          1739577600000,
-          null
-        ],
         [
           1739664000000,
           null
@@ -747,13 +743,13 @@
         [
           1755129600000,
           67.95
+        ],
+        [
+          1755216000000,
+          65.51
         ]
       ],
       "mfi": [
-        [
-          1739577600000,
-          null
-        ],
         [
           1739664000000,
           null
@@ -1473,13 +1469,13 @@
         [
           1755129600000,
           50.11
+        ],
+        [
+          1755216000000,
+          44.06
         ]
       ],
       "obv": [
-        [
-          1739577600000,
-          null
-        ],
         [
           1739664000000,
           null
@@ -2199,6 +2195,10 @@
         [
           1755129600000,
           1748184548.0
+        ],
+        [
+          1755216000000,
+          1680639684.0
         ]
       ]
     },
@@ -2235,7 +2235,7 @@
       1.52,
       -2.41,
       2.49,
-      1.22,
+      0.98,
       null,
       null,
       null,

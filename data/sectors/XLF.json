@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector comprises companies engaged in financial services including banks, insurance firms, diversified financial services, and capital markets businesses.",
-    "marketSizeUSD": "7.5T",
+    "description": "This sector includes companies involved in banking, insurance, capital markets, diversified financial services, and consumer finance.",
+    "marketSizeUSD": "6.8T",
     "constituentCount": 68,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1415,
-  "change_pct": 0.47,
-  "insights": "The Financials sector posted a modest gain today, rising 0.47%. Its Relative Strength Index (RSI) at 58.51 indicates positive, though not overextended, buying momentum, supporting the daily advance. However, the Money Flow Index (MFI) at 46.86, slightly below the neutral 50 mark, suggests the positive price movement was not strongly supported by significant net capital inflow, indicating a potential lack of broad participation. The substantial On-Balance Volume (OBV) of 1,124,141,131 reflects persistent buying pressure over time, consistent with the sector's long-term performance, but its daily change (not provided) would offer more insight into today's volume dynamics. In essence, while the sector gained, the MFI suggests caution regarding the underlying strength of today's move.",
+  "market_weight": 0.1187,
+  "change_pct": -1.04,
+  "insights": "The Financials sector experienced a moderate downturn today, closing down -1.04%. Analyzing its technical indicators, the Relative Strength Index (RSI) at 52.36 suggests the sector remains in a neutral momentum zone, neither overbought nor oversold. However, the Money Flow Index (MFI) at 45.46 indicates that there was some recent net outflow of funds, pointing to selling pressure outweighing buying interest during the period. The large On-Balance Volume (OBV) of 1,078,084,471, while representing significant cumulative volume over time, would have registered a decrease today, aligning with the negative price action and confirming that net selling volume was dominant during the session.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -747,13 +743,13 @@
       [
         1755129600000,
         58.51
+      ],
+      [
+        1755216000000,
+        52.36
       ]
     ],
     "mfi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755129600000,
         46.86
+      ],
+      [
+        1755216000000,
+        45.46
       ]
     ],
     "obv": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755129600000,
         1124141131.0
+      ],
+      [
+        1755216000000,
+        1078084471.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     1.71,
     -3.82,
     0.88,
-    2.24,
+    1.18,
     null,
     null,
     null,

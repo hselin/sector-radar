@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, such as retail, automotive, hotels, and leisure, which are highly sensitive to economic cycles and consumer spending trends.",
-    "marketSizeUSD": "5.5T",
-    "constituentCount": 58,
+    "description": "The Consumer Discretionary sector comprises industries that produce non-essential goods and services, which are typically sensitive to economic cycles and consumer spending power, including retail, automotive, hotels, and leisure.",
+    "marketSizeUSD": "9T",
+    "constituentCount": 55,
     "topHoldings": [
       {
         "name": "Amazon.com Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1038,
-  "change_pct": -0.11,
-  "insights": "The Consumer Discretionary sector experienced a marginal dip of -0.11% today. Despite this minor decline, key technical indicators suggest underlying strength: the RSI at 65.17 and MFI at 65.05 both indicate robust buying momentum and positive money flow into the sector, albeit nearing overbought conditions. The high On-Balance Volume (OBV) of 47,805,833 further points to significant cumulative buying interest, suggesting that today's slight pullback might represent a brief consolidation rather than a reversal of recent positive sentiment.",
+  "market_weight": 0.1571,
+  "change_pct": -0.24,
+  "insights": "The Consumer Discretionary sector posted a modest decline of -0.24% today. Despite this slight daily pullback, key technical indicators suggest underlying positive momentum: the Relative Strength Index (RSI) at 63.65 indicates strong buying interest without being overbought, while the Money Flow Index (MFI) at 64.66 corroborates healthy cash inflow. Furthermore, the high On-Balance Volume (OBV) at 43,142,785 suggests that today's minor dip was not accompanied by significant distributive selling, implying overall volume trends remain supportive. In essence, today's performance appears to be more of a minor pause than a sustained reversal of recent positive sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -747,13 +743,13 @@
       [
         1755129600000,
         65.17
+      ],
+      [
+        1755216000000,
+        63.65
       ]
     ],
     "mfi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755129600000,
         65.05
+      ],
+      [
+        1755216000000,
+        64.66
       ]
     ],
     "obv": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755129600000,
         47805833.0
+      ],
+      [
+        1755216000000,
+        43142785.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     1.22,
     -3.9,
     3.56,
-    2.6,
+    2.35,
     null,
     null,
     null,

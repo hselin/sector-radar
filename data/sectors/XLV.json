@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in providing medical services, manufacturing pharmaceutical and biotechnology products, and producing healthcare equipment and supplies.",
-    "marketSizeUSD": "6.2T",
+    "description": "The Health Care GICS sector encompasses companies primarily involved in providing medical goods and services, including pharmaceuticals, biotechnology, medical equipment, healthcare providers, and managed care services.",
+    "marketSizeUSD": "5.0T",
     "constituentCount": 65,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Incorporated",
+        "name": "UnitedHealth Group Inc.",
         "symbol": "UNH"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.117,
-  "change_pct": 0.5,
-  "insights": "The Health Care sector recorded a modest 0.50% gain today, indicating a slight positive momentum. Key technical indicators suggest a largely neutral stance: the Relative Strength Index (RSI) at 53.63 and the Money Flow Index (MFI) at 50.65 both reside near their respective midpoints, signaling neither overbought nor oversold conditions and reflecting balanced buying and selling pressure with fairly even money flow. However, the significant negative On-Balance Volume (OBV) reading of -92995533, despite today's slight price increase, points to a broader lack of sustained buying conviction or accumulation over time, suggesting that the day's modest advance may not be fully supported by robust underlying volume trends.",
+  "market_weight": 0.0873,
+  "change_pct": 1.68,
+  "insights": "The Healthcare sector demonstrated robust performance today, gaining a notable 1.68%. Key technical indicators provide a nuanced view: The Relative Strength Index (RSI) at 59.50 and Money Flow Index (MFI) at 55.99 both indicate healthy buying momentum and positive money flow without being overbought, suggesting room for continued appreciation. However, the On-Balance Volume (OBV) reading of -79,072,287 presents a cautionary note; despite today's strong price increase, the deeply negative OBV suggests that cumulative buying volume has not yet overcome historical selling pressure, implying that the conviction behind this upward move warrants close monitoring for sustainability.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -747,13 +743,13 @@
       [
         1755129600000,
         53.63
+      ],
+      [
+        1755216000000,
+        59.5
       ]
     ],
     "mfi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755129600000,
         50.65
+      ],
+      [
+        1755216000000,
+        55.99
       ]
     ],
     "obv": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755129600000,
         -92995533.0
+      ],
+      [
+        1755216000000,
+        -79072287.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     3.52,
     -3.92,
     -0.74,
-    2.92,
+    4.65,
     null,
     null,
     null,

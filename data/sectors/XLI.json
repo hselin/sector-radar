@@ -1,33 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector comprises companies engaged in the production of capital goods, provision of commercial services, and delivery of transportation services, including aerospace, defense, construction, machinery, and logistics.",
-    "marketSizeUSD": "4.0T",
-    "constituentCount": 72,
+    "description": "The Industrials sector includes companies that produce capital goods, provide commercial and professional services, and engage in transportation services.",
+    "marketSizeUSD": "3.9T",
+    "constituentCount": 74,
     "topHoldings": [
-      {
-        "name": "General Electric",
-        "symbol": "GE"
-      },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "RTX Corporation",
-        "symbol": "RTX"
+        "name": "General Electric Company",
+        "symbol": "GE"
+      },
+      {
+        "name": "Union Pacific Corporation",
+        "symbol": "UNP"
       }
     ]
   },
-  "market_weight": 0.0755,
-  "change_pct": -0.89,
-  "insights": "The Industrials sector experienced a modest decline of -0.89% today, suggesting some selling pressure. Its key technical indicators point to a largely balanced momentum profile, with the Relative Strength Index (RSI) at 52.39 remaining near the neutral 50-mark, not indicating extreme overbought or oversold conditions despite the dip. The Money Flow Index (MFI) at 47.25 indicates slightly weakening money flow, consistent with the day's negative price action, suggesting more capital exiting than entering. The On-Balance Volume (OBV) of 42,997,317 reflects the cumulative buying and selling pressure, and its daily change would further confirm the volume behind today's price movement. Overall, the sector's daily dip appears to be a minor pullback within an otherwise neutral to slightly weakening momentum profile.",
+  "market_weight": 0.0681,
+  "change_pct": -0.46,
+  "insights": "The Industrials sector closed down a modest -0.46% today, indicating a slight daily pullback. Technical indicators align with this minor negative movement: the Relative Strength Index (RSI) at 49.30 hovers just below the neutral 50-mark, suggesting balanced momentum with a slight leaning towards sellers given the daily dip. The Money Flow Index (MFI) at 41.83 further supports this sentiment, indicating a net outflow of money from the sector, consistent with the price decline. While the On-Balance Volume (OBV) stands at a significant 34,206,005, reflecting substantial cumulative volume, today's negative price action implies that selling volume likely outpaced buying volume for the session, contributing to the sector's slight decline.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -747,13 +743,13 @@
       [
         1755129600000,
         52.39
+      ],
+      [
+        1755216000000,
+        49.3
       ]
     ],
     "mfi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755129600000,
         47.25
+      ],
+      [
+        1755216000000,
+        41.83
       ]
     ],
     "obv": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755129600000,
         42997317.0
+      ],
+      [
+        1755216000000,
+        34206005.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     2.33,
     -3.39,
     0.73,
-    0.2,
+    -0.26,
     null,
     null,
     null,

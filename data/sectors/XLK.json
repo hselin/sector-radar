@@ -1,8 +1,8 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies primarily involved in the creation of software, the provision of IT services, and the manufacturing of hardware, including semiconductors and computer equipment.",
-    "marketSizeUSD": "14T",
+    "description": "The Information Technology sector encompasses companies involved in software, hardware, semiconductors, and IT services, providing the backbone for digital operations and innovation across industries.",
+    "marketSizeUSD": "16.0T",
     "constituentCount": 66,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2642,
-  "change_pct": -0.22,
-  "insights": "The Information Technology sector experienced a modest decline today, down -0.22%, indicating a largely flat session with minor profit-taking. Despite this slight dip, the Relative Strength Index (RSI) at 64.38 suggests the sector retains strong underlying momentum, residing in bullish territory though approaching an overbought condition. The Money Flow Index (MFI) at 52.46 indicates a largely balanced inflow and outflow of capital, neither strongly confirming nor contradicting today's marginal price movement. While the On-Balance Volume (OBV) stands at a significant cumulative level of 244,454,328, its daily change would be more insightful for a definitive short-term volume trend; however, combined with the other indicators, the overall picture suggests a sector undergoing a brief consolidation after a period of strength, rather than signaling a significant reversal.",
+  "market_weight": 0.2792,
+  "change_pct": -0.76,
+  "insights": "The Information Technology sector experienced a modest decline today, shedding -0.76% of its value. Despite this pullback, the Relative Strength Index (RSI) at 59.44 suggests that underlying momentum remains relatively strong and is not yet in overbought territory, implying the dip could be a minor consolidation. Conversely, the Money Flow Index (MFI) at 45.58 indicates a slight net outflow of funds, aligning with today's negative price action and suggesting some selling pressure. While the On-Balance Volume (OBV) at 237,773,900 reflects significant cumulative trading interest, its specific daily change would confirm the conviction behind today's price movement, though the MFI already points to a shift in money flow consistent with the daily loss.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -747,13 +743,13 @@
       [
         1755129600000,
         64.38
+      ],
+      [
+        1755216000000,
+        59.44
       ]
     ],
     "mfi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755129600000,
         52.46
+      ],
+      [
+        1755216000000,
+        45.58
       ]
     ],
     "obv": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755129600000,
         244454328.0
+      ],
+      [
+        1755216000000,
+        237773900.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     0.42,
     -1.88,
     3.44,
-    0.68,
+    -0.08,
     null,
     null,
     null,

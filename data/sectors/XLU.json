@@ -1,8 +1,8 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector comprises companies providing essential services such as electricity, natural gas, water, and wastewater management, often characterized by stable demand and regulatory oversight.",
-    "marketSizeUSD": "1.4T",
+    "description": "The Utilities GICS sector comprises companies primarily engaged in the generation, transmission, and distribution of electricity, gas, and water, as well as independent power producers and renewable energy firms.",
+    "marketSizeUSD": "1.0T",
     "constituentCount": 29,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "NEE"
       },
       {
-        "name": "Duke Energy Corporation",
-        "symbol": "DUK"
+        "name": "Southern Company",
+        "symbol": "SO"
       },
       {
-        "name": "The Southern Company",
-        "symbol": "SO"
+        "name": "Duke Energy Corporation",
+        "symbol": "DUK"
       }
     ]
   },
-  "market_weight": 0.0264,
-  "change_pct": -0.69,
-  "insights": "The Utilities sector experienced a modest decline of -0.69% today. Despite this slight daily pullback, key technical indicators suggest underlying strength. The Relative Strength Index (RSI) at 57.44 indicates the sector is in a neutral to slightly bullish momentum range, far from oversold conditions. The Money Flow Index (MFI) at 68.17, nearing the overbought threshold, points to significant money inflow into the sector, suggesting that today's price dip may have occurred on relatively lower volume compared to recent buying interest. Furthermore, the substantial On-Balance Volume (OBV) at 308,882,244 supports an ongoing pattern of cumulative accumulation, reinforcing that today's negative price action appears to be a minor blip rather than a significant shift in the broader positive trend for the sector.",
+  "market_weight": 0.0175,
+  "change_pct": -0.29,
+  "insights": "The Utilities sector experienced a modest decline of -0.29% today. Despite this marginal price pullback, key technical indicators suggest a degree of underlying resilience and sustained interest. The Relative Strength Index (RSI) at 55.56 indicates neutral momentum, albeit slightly favoring buyers. More notably, the Money Flow Index (MFI) at 66.63 points to relatively strong money inflow into the sector, suggesting buying interest on dips. The On-Balance Volume (OBV) at 294,094,747 further reflects significant cumulative buying pressure over time, consistent with the MFI's signal, even on a day with a slight negative price movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -747,13 +743,13 @@
       [
         1755129600000,
         57.44
+      ],
+      [
+        1755216000000,
+        55.56
       ]
     ],
     "mfi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755129600000,
         68.17
+      ],
+      [
+        1755216000000,
+        66.63
       ]
     ],
     "obv": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755129600000,
         308882244.0
+      ],
+      [
+        1755216000000,
+        294094747.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     0.92,
     1.51,
     0.44,
-    -0.36,
+    -0.65,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector primarily includes Equity Real Estate Investment Trusts (REITs) that own and operate income-producing real estate, as well as companies engaged in real estate management and development.",
+    "description": "The Real Estate GICS sector primarily comprises companies that own, develop, and manage various types of properties, with Real Estate Investment Trusts (REITs) forming a significant part.",
     "marketSizeUSD": "1.4T",
-    "constituentCount": 31,
+    "constituentCount": 32,
     "topHoldings": [
       {
         "name": "Prologis, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0264,
-  "change_pct": -0.7,
-  "insights": "The Real Estate sector saw a modest decline of -0.70% today, reflecting a subdued trading session. This downward movement is supported by its key technical indicators: the Relative Strength Index (RSI) at 42.31 suggests a prevailing bearish momentum, while the Money Flow Index (MFI) at 26.16 is notably low, approaching oversold levels and indicating significant capital outflow from the sector. The On-Balance Volume (OBV) level further corroborates that selling pressure, validated by volume, outweighed buying interest, contributing to the day's negative performance.",
+  "market_weight": 0.0244,
+  "change_pct": 0.66,
+  "insights": "The Real Estate sector recorded a modest gain of 0.66% today, with its key technical indicators offering a mixed perspective. The Relative Strength Index (RSI) at 46.24 indicates a neutral momentum, suggesting no immediate overbought or oversold conditions. However, the Money Flow Index (MFI) at 31.30 is notable, as it hovers near oversold territory, suggesting that despite today's price uptick, there might be underlying weakness in money flow entering the sector. The On-Balance Volume (OBV) at 85,460,621, assuming it reflects the day's positive price action, indicates that volume generally supported the price move, though the MFI warrants closer observation for sustained upward momentum. Overall, today's positive price action in Real Estate is met with technical indicators pointing to a lack of strong buying conviction, particularly concerning money flow.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -747,13 +743,13 @@
       [
         1755129600000,
         42.31
+      ],
+      [
+        1755216000000,
+        46.24
       ]
     ],
     "mfi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755129600000,
         26.16
+      ],
+      [
+        1755216000000,
+        31.3
       ]
     ],
     "obv": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755129600000,
         79775722.0
+      ],
+      [
+        1755216000000,
+        85460621.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     2.27,
     -3.51,
     -0.1,
-    -0.46,
+    0.19,
     null,
     null,
     null,

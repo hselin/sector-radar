@@ -1,33 +1,29 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector includes companies that discover, develop, and process raw materials, such as chemicals, construction materials, metals, mining, paper, and packaging.",
-    "marketSizeUSD": "1.1T",
+    "description": "The Materials sector encompasses companies involved in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals and mining, paper, and packaging.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 28,
     "topHoldings": [
       {
-        "name": "Linde plc",
+        "name": "Linde PLC",
         "symbol": "LIN"
       },
       {
-        "name": "The Sherwin-Williams Company",
+        "name": "Sherwin-Williams Co.",
         "symbol": "SHW"
       },
       {
-        "name": "Air Products and Chemicals, Inc.",
-        "symbol": "APD"
+        "name": "Ecolab Inc.",
+        "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0208,
-  "change_pct": -1.04,
-  "insights": "The Materials sector closed down 1.04% today, reflecting net selling pressure. This daily decline is consistent with the Money Flow Index (MFI) at 37.16, indicating a significant outflow of capital, and a negative On-Balance Volume (OBV) figure, which confirms that volume on down days is outweighing volume on up days. While these indicators point to current weakness and selling momentum, the Relative Strength Index (RSI) at 53.30 suggests the sector is not yet in oversold territory, indicating that despite today's dip, its short-term momentum hasn't entirely collapsed.",
+  "market_weight": 0.0297,
+  "change_pct": -0.0,
+  "insights": "The Materials sector concluded the day with a flat performance at -0.00%, indicating a notable lack of directional conviction. This indecision is largely corroborated by its key technical indicators. The Relative Strength Index (RSI) at 53.30 is near the neutral 50-level, suggesting no significant overbought or oversold conditions and little momentum. Similarly, the Money Flow Index (MFI) at 44.04 hovers near its midline, implying balanced money flow without strong buying or selling pressure, though slightly skewed towards net outflow. The On-Balance Volume (OBV), currently at -18,289,641, reflects cumulative volume dynamics but offers limited insight into today's specific action given the zero price change, as it typically remains static on flat trading days. Collectively, these metrics paint a picture of a sector in a holding pattern, awaiting a clearer catalyst for its next move.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -747,13 +743,13 @@
       [
         1755129600000,
         53.3
+      ],
+      [
+        1755216000000,
+        53.3
       ]
     ],
     "mfi": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755129600000,
         37.16
+      ],
+      [
+        1755216000000,
+        44.04
       ]
     ],
     "obv": [
-      [
-        1739577600000,
-        null
-      ],
       [
         1739664000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755129600000,
         -10262897.0
+      ],
+      [
+        1755216000000,
+        -18289641.0
       ]
     ]
   },
