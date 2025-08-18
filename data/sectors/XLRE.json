@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.0244,
-  "change_pct": 0.66,
-  "insights": "The Real Estate sector recorded a modest gain of 0.66% today, with its key technical indicators offering a mixed perspective. The Relative Strength Index (RSI) at 46.24 indicates a neutral momentum, suggesting no immediate overbought or oversold conditions. However, the Money Flow Index (MFI) at 31.30 is notable, as it hovers near oversold territory, suggesting that despite today's price uptick, there might be underlying weakness in money flow entering the sector. The On-Balance Volume (OBV) at 85,460,621, assuming it reflects the day's positive price action, indicates that volume generally supported the price move, though the MFI warrants closer observation for sustained upward momentum. Overall, today's positive price action in Real Estate is met with technical indicators pointing to a lack of strong buying conviction, particularly concerning money flow.",
+  "change_pct": -0.94,
+  "insights": "The Real Estate sector experienced a notable decline today, dropping by 0.94%. This negative performance is corroborated by key technical indicators: the Relative Strength Index (RSI) at 41.81 indicates weakening momentum, while the Money Flow Index (MFI) at a low 23.31 points to significant capital outflow and strong selling pressure, nearing oversold conditions. Although the On-Balance Volume (OBV) stands at 80,963,793, its current value, in conjunction with the price decline and depressed MFI, suggests that buying interest is subdued and distribution is the prevailing trend for the day.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739664000000,
-        null
-      ],
-      [
-        1739750400000,
-        null
-      ],
-      [
-        1739836800000,
-        56.85
-      ],
       [
         1739923200000,
         57.72
@@ -747,21 +735,21 @@
       [
         1755216000000,
         46.24
+      ],
+      [
+        1755302400000,
+        null
+      ],
+      [
+        1755388800000,
+        null
+      ],
+      [
+        1755475200000,
+        41.81
       ]
     ],
     "mfi": [
-      [
-        1739664000000,
-        null
-      ],
-      [
-        1739750400000,
-        null
-      ],
-      [
-        1739836800000,
-        52.65
-      ],
       [
         1739923200000,
         58.56
@@ -1473,21 +1461,21 @@
       [
         1755216000000,
         31.3
+      ],
+      [
+        1755302400000,
+        null
+      ],
+      [
+        1755388800000,
+        null
+      ],
+      [
+        1755475200000,
+        23.31
       ]
     ],
     "obv": [
-      [
-        1739664000000,
-        null
-      ],
-      [
-        1739750400000,
-        null
-      ],
-      [
-        1739836800000,
-        83496300.0
-      ],
       [
         1739923200000,
         87901700.0
@@ -2199,6 +2187,18 @@
       [
         1755216000000,
         85460621.0
+      ],
+      [
+        1755302400000,
+        null
+      ],
+      [
+        1755388800000,
+        null
+      ],
+      [
+        1755475200000,
+        80963793.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -3.51,
     -0.1,
     0.19,
-    null,
+    -0.94,
     null,
     null,
     null,

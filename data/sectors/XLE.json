@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.0419,
-  "change_pct": -0.0,
-  "insights": "The Energy sector experienced a notably flat session today, registering a 0.00% change. This lack of directional movement is reflected in its key technical indicators. The Relative Strength Index (RSI) at 48.15 and the Money Flow Index (MFI) at 49.80 both hover near the neutral 50-mark, indicating a balanced sentiment with neither strong buying nor selling momentum currently dominating. Concurrently, the On-Balance Volume (OBV) at 347,418,804, in conjunction with the unchanged price, suggests that while trading activity occurred, there was no significant net accumulation or distribution, reinforcing the overall indecisive nature of the sector's performance today.",
+  "change_pct": -0.6,
+  "insights": "The Energy sector experienced a modest decline today, closing down 0.60%. This slight bearish sentiment is largely reflected in its key technical indicators: the Relative Strength Index (RSI) at 45.36 and the Money Flow Index (MFI) at 44.00 both sit below the neutral 50-mark, indicating that selling pressure slightly outweighed buying interest and that money flowed out of the sector. While the On-Balance Volume (OBV) at 348,519,878 reflects the cumulative buying and selling pressure, its current level, alongside the sub-50 RSI and MFI readings, suggests a prevailing cautious to slightly bearish tone impacting the sector's daily performance, without indicating strong momentum in either direction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739664000000,
-        null
-      ],
-      [
-        1739750400000,
-        null
-      ],
-      [
-        1739836800000,
-        55.67
-      ],
       [
         1739923200000,
         58.07
@@ -747,21 +735,21 @@
       [
         1755216000000,
         48.15
+      ],
+      [
+        1755302400000,
+        null
+      ],
+      [
+        1755388800000,
+        null
+      ],
+      [
+        1755475200000,
+        45.36
       ]
     ],
     "mfi": [
-      [
-        1739664000000,
-        null
-      ],
-      [
-        1739750400000,
-        null
-      ],
-      [
-        1739836800000,
-        46.97
-      ],
       [
         1739923200000,
         52.07
@@ -1473,21 +1461,21 @@
       [
         1755216000000,
         49.8
+      ],
+      [
+        1755302400000,
+        null
+      ],
+      [
+        1755388800000,
+        null
+      ],
+      [
+        1755475200000,
+        44.0
       ]
     ],
     "obv": [
-      [
-        1739664000000,
-        null
-      ],
-      [
-        1739750400000,
-        null
-      ],
-      [
-        1739836800000,
-        351750300.0
-      ],
       [
         1739923200000,
         364015900.0
@@ -2198,7 +2186,19 @@
       ],
       [
         1755216000000,
-        347418804.0
+        360825935.0
+      ],
+      [
+        1755302400000,
+        null
+      ],
+      [
+        1755388800000,
+        null
+      ],
+      [
+        1755475200000,
+        348519878.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -1.73,
     -0.77,
     0.74,
-    null,
+    -0.6,
     null,
     null,
     null,
