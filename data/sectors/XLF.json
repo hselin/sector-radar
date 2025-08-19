@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.1187,
-  "change_pct": 0.08,
-  "insights": "The Financials sector experienced an exceptionally quiet trading day, registering a marginal 0.08% gain. Key technical indicators reflect this indecision: the Relative Strength Index (RSI) at 52.75 signals neutral price momentum, well within typical ranges. The Money Flow Index (MFI) at 46.54 suggests a slight absence of strong buying conviction, with money flow leaning slightly bearish despite the minor uptick. The On-Balance Volume (OBV) at 1,103,411,030 indicates the cumulative buying and selling pressure, and its static nature in the context of such a small price movement further confirms a lack of strong directional conviction today.",
+  "change_pct": 0.19,
+  "insights": "The Financials sector saw a modest 0.19% gain today, indicating a relatively quiet positive session. Technical indicators reflect this measured performance: The Relative Strength Index (RSI) at 53.76 and Money Flow Index (MFI) at 52.25 both sit just above their neutral 50 levels, suggesting a slight preponderance of buying pressure and positive money flow without pushing the sector into overbought territory. The On-Balance Volume (OBV) at 1,127,843,158 represents the cumulative volume pressure, aligning with the day's muted, yet positive, price action by indicating ongoing, though not aggressive, accumulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1739923200000,
-        65.45
-      ],
       [
         1740009600000,
         54.05
@@ -747,13 +743,13 @@
       [
         1755475200000,
         52.75
+      ],
+      [
+        1755561600000,
+        53.76
       ]
     ],
     "mfi": [
-      [
-        1739923200000,
-        51.79
-      ],
       [
         1740009600000,
         42.16
@@ -1473,13 +1469,13 @@
       [
         1755475200000,
         46.54
+      ],
+      [
+        1755561600000,
+        52.25
       ]
     ],
     "obv": [
-      [
-        1739923200000,
-        1311107400.0
-      ],
       [
         1740009600000,
         1264028500.0
@@ -2199,6 +2195,10 @@
       [
         1755475200000,
         1103411030.0
+      ],
+      [
+        1755561600000,
+        1127843158.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -3.82,
     0.88,
     1.18,
-    0.08,
+    0.27,
     null,
     null,
     null,

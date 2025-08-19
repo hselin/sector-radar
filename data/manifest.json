@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-18T21:12:38.307221Z",
+  "lastUpdated": "2025-08-19T21:13:16.129842Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, widely regarded as one of the best gauges of large-cap U.S. equities and the overall stock market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a largely subdued day, finishing with a marginal decline of -0.02%, indicating a lack of strong directional conviction. Beneath this flat surface, technical indicators offer a nuanced view of market sentiment and momentum. The Relative Strength Index (RSI) at 65.27 suggests the market is leaning towards overbought conditions, implying recent upside momentum has been considerable and may be nearing a pause. Conversely, the Money Flow Index (MFI) at 44.79, being below the neutral 50 mark, indicates a slight net outflow of funds or at least a lack of strong buying conviction in terms of volume-backed price movement. The On-Balance Volume (OBV) standing at 1,637,129,952, while reflecting historical cumulative buying pressure, when viewed alongside the MFI's weakness, suggests that despite the market holding near recent highs (per RSI), the underlying volume support for continued significant upside might be waning, pointing to a cautious or consolidating sentiment rather than robust bullish momentum.",
-    "change_pct": -0.02,
+    "commentary": "The stock market experienced a slight pullback today, closing down 0.54%. Technical indicators suggest a nuanced market sentiment. The Relative Strength Index (RSI) at 59.56 indicates that while the market saw a modest dip, underlying momentum remains on the stronger side of neutral, far from oversold conditions and suggesting some resilience from recent strength. However, the Money Flow Index (MFI) at 45.58, falling below the 50-mark, points to a net outflow of money or weakening buying interest, aligning with the day's negative performance. On-Balance Volume (OBV), at 1,574,740,849, would have registered a decrease for the day in conjunction with the price drop, confirming the daily selling pressure. In summary, today's retreat suggests a minor consolidation, with some technicals indicating a weakening of immediate buying conviction while broader momentum retains some underlying strength.",
+    "change_pct": -0.54,
     "technicalIndicators": {
       "rsi": [
-        [
-          1739923200000,
-          61.66
-        ],
         [
           1740009600000,
           58.15
@@ -747,13 +743,13 @@
         [
           1755475200000,
           65.27
+        ],
+        [
+          1755561600000,
+          59.56
         ]
       ],
       "mfi": [
-        [
-          1739923200000,
-          70.75
-        ],
         [
           1740009600000,
           63.87
@@ -1473,13 +1469,13 @@
         [
           1755475200000,
           44.79
+        ],
+        [
+          1755561600000,
+          45.58
         ]
       ],
       "obv": [
-        [
-          1739923200000,
-          1424415100.0
-        ],
         [
           1740009600000,
           1387861100.0
@@ -2199,6 +2195,10 @@
         [
           1755475200000,
           1637129952.0
+        ],
+        [
+          1755561600000,
+          1574740849.0
         ]
       ]
     },
@@ -2236,7 +2236,7 @@
       -2.41,
       2.49,
       0.98,
-      -0.02,
+      -0.56,
       null,
       null,
       null,
