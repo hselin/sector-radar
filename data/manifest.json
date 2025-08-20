@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-19T21:13:16.129842Z",
+  "lastUpdated": "2025-08-20T21:13:14.301690Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, widely regarded as one of the best gauges of large-cap U.S. equities and the overall stock market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a slight pullback today, closing down 0.54%. Technical indicators suggest a nuanced market sentiment. The Relative Strength Index (RSI) at 59.56 indicates that while the market saw a modest dip, underlying momentum remains on the stronger side of neutral, far from oversold conditions and suggesting some resilience from recent strength. However, the Money Flow Index (MFI) at 45.58, falling below the 50-mark, points to a net outflow of money or weakening buying interest, aligning with the day's negative performance. On-Balance Volume (OBV), at 1,574,740,849, would have registered a decrease for the day in conjunction with the price drop, confirming the daily selling pressure. In summary, today's retreat suggests a minor consolidation, with some technicals indicating a weakening of immediate buying conviction while broader momentum retains some underlying strength.",
-    "change_pct": -0.54,
+    "commentary": "The stock market experienced a marginal decline today, down 0.27%, indicating a relatively quiet session with limited directional conviction. Technical indicators provide a nuanced view: the Relative Strength Index (RSI) at 56.95 remains in neutral territory, slightly favoring positive momentum without suggesting overbought or oversold conditions. However, the Money Flow Index (MFI) at 46.29, which incorporates volume, hints at a mild negative money flow, suggesting some underlying caution or a lack of strong buying conviction as volume may be skewed slightly towards selling pressure. The On-Balance Volume (OBV) at 1,486,977,826, as a cumulative indicator, reflects a substantial historical accumulation of buying volume, implying a strong long-term base, though today's slight decline would subtract from this total. Overall, the market appears to be in a consolidative phase, with price momentum holding steady while volume-based indicators suggest subtle caution beneath the surface.",
+    "change_pct": -0.27,
     "technicalIndicators": {
       "rsi": [
-        [
-          1740009600000,
-          58.15
-        ],
         [
           1740096000000,
           46.49
@@ -747,13 +743,13 @@
         [
           1755561600000,
           59.56
+        ],
+        [
+          1755648000000,
+          56.95
         ]
       ],
       "mfi": [
-        [
-          1740009600000,
-          63.87
-        ],
         [
           1740096000000,
           50.78
@@ -1473,13 +1469,13 @@
         [
           1755561600000,
           45.58
+        ],
+        [
+          1755648000000,
+          46.29
         ]
       ],
       "obv": [
-        [
-          1740009600000,
-          1387861100.0
-        ],
         [
           1740096000000,
           1311341300.0
@@ -2199,6 +2195,10 @@
         [
           1755561600000,
           1574740849.0
+        ],
+        [
+          1755648000000,
+          1486977826.0
         ]
       ]
     },
@@ -2236,7 +2236,7 @@
       -2.41,
       2.49,
       0.98,
-      -0.56,
+      -0.83,
       null,
       null,
       null,
