@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0873,
-  "change_pct": 0.54,
-  "insights": "The Health Care sector experienced a modest gain of 0.54% today, reflecting positive daily momentum. Its Relative Strength Index (RSI) at 62.38 indicates strong buying pressure for the session, without yet reaching overbought conditions. Complementing this, the Money Flow Index (MFI) at 72.90 suggests significant capital inflow into the sector, strongly supporting today's price appreciation. However, the On-Balance Volume (OBV) at -63,504,750 signals that despite today's positive movement, the cumulative volume trend has been predominantly negative over a broader period, indicating a lack of sustained buying conviction that warrants cautious monitoring going forward.",
+  "change_pct": -0.33,
+  "insights": "The Health Care sector experienced a marginal decline of -0.33% today. While its Relative Strength Index (RSI) at 60.51 suggests sustained positive momentum without being overbought, the Money Flow Index (MFI) at 75.26 indicates the sector is experiencing strong money inflows, pushing it into overbought territory. This contrasts with the significant negative On-Balance Volume (OBV) of -76,717,050, which points to net selling pressure and distribution throughout the session. The combination suggests a market battling underlying buying interest against active profit-taking, resulting in the day's slight negative movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740096000000,
-        55.4
-      ],
       [
         1740182400000,
         null
@@ -747,13 +743,13 @@
       [
         1755648000000,
         62.38
+      ],
+      [
+        1755734400000,
+        60.51
       ]
     ],
     "mfi": [
-      [
-        1740096000000,
-        29.41
-      ],
       [
         1740182400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755648000000,
         72.9
+      ],
+      [
+        1755734400000,
+        75.26
       ]
     ],
     "obv": [
-      [
-        1740096000000,
-        -76490900.0
-      ],
       [
         1740182400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755648000000,
         -63504750.0
+      ],
+      [
+        1755734400000,
+        -76717050.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -3.92,
     -0.74,
     4.65,
-    0.95,
+    0.61,
     null,
     null,
     null,
