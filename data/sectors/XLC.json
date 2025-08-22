@@ -1,12 +1,12 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector encompasses companies involved in telecommunications, media, entertainment, and interactive services, connecting and informing consumers.",
-    "marketSizeUSD": "7.0T",
-    "constituentCount": 21,
+    "description": "The Communication Services sector encompasses companies that provide telecommunication services, entertainment content, interactive media, and other communication-related platforms and services.",
+    "marketSizeUSD": "4.8T",
+    "constituentCount": 23,
     "topHoldings": [
       {
-        "name": "Alphabet Inc.",
+        "name": "Alphabet Inc. (Class A)",
         "symbol": "GOOGL"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1222,
-  "change_pct": -0.11,
-  "insights": "The Communication Services sector posted a marginal decline of -0.11% today, indicating a relatively flat performance. Despite this slight pullback, technical indicators suggest underlying resilience: an RSI of 57.29 and MFI of 63.39 both sit in neutral-to-slightly-bullish territory, suggesting healthy momentum and sustained money flow into the sector rather than excessive selling pressure. The high OBV reading of 277,276,275 further indicates that today's minor price dip was not accompanied by significant distribution, implying consolidation rather than a notable shift in investor sentiment.",
+  "market_weight": 0.0982,
+  "change_pct": 1.44,
+  "insights": "Commentary could not be generated due to an API response error.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -747,13 +743,13 @@
       [
         1755734400000,
         57.29
+      ],
+      [
+        1755820800000,
+        63.98
       ]
     ],
     "mfi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755734400000,
         63.39
+      ],
+      [
+        1755820800000,
+        64.07
       ]
     ],
     "obv": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755734400000,
         277276275.0
+      ],
+      [
+        1755820800000,
+        283502442.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -1.39,
     1.42,
     3.58,
-    -1.57,
+    -0.15,
     null,
     null,
     null,

@@ -1,12 +1,12 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies involved in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals and mining, paper, and packaging.",
-    "marketSizeUSD": "1.7T",
+    "description": "The Materials sector encompasses companies engaged in manufacturing chemicals, construction materials, containers and packaging, metals and mining, and paper and forest products.",
+    "marketSizeUSD": "1.1T",
     "constituentCount": 28,
     "topHoldings": [
       {
-        "name": "Linde PLC",
+        "name": "Linde plc",
         "symbol": "LIN"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0297,
-  "change_pct": 0.3,
-  "insights": "The Materials sector posted a modest advance of 0.30% today. Its Relative Strength Index (RSI) at 54.89 indicates healthy, moderately bullish momentum, staying within a neutral, non-overbought range. However, the Money Flow Index (MFI) at 73.66 points to significant capital inflow, nearing the overbought threshold and suggesting strong buying pressure today that outpaced the modest price gain. The On-Balance Volume (OBV) reading of 4051822, alongside the positive price movement, further confirms that buying volume outpaced selling volume for the day, providing conviction to the sector's positive, albeit slight, performance.",
+  "market_weight": 0.0225,
+  "change_pct": 1.98,
+  "insights": "The Materials sector demonstrated strong performance today, rising by 1.98%. This significant daily gain is well-supported by key technical indicators: the Relative Strength Index (RSI) at 62.49 points to healthy bullish momentum, while the Money Flow Index (MFI) at 73.17 indicates substantial capital inflow and strong buying pressure, nearing overbought conditions. The On-Balance Volume (OBV) of 9741942, in conjunction with these metrics, suggests that the sector's positive movement was reinforced by considerable buying volume, underlining the strength of today's upward trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -747,13 +743,13 @@
       [
         1755734400000,
         54.89
+      ],
+      [
+        1755820800000,
+        62.49
       ]
     ],
     "mfi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755734400000,
         73.66
+      ],
+      [
+        1755820800000,
+        73.17
       ]
     ],
     "obv": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755734400000,
         4051822.0
+      ],
+      [
+        1755820800000,
+        9741942.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -6.12,
     1.88,
     1.9,
-    0.4,
+    2.39,
     null,
     null,
     null,

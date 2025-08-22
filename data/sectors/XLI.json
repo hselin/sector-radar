@@ -1,33 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that produce capital goods, provide commercial and professional services, and engage in transportation services.",
-    "marketSizeUSD": "3.9T",
-    "constituentCount": 74,
+    "description": "The Industrials sector includes companies involved in the production and distribution of capital goods, provision of commercial services, and transportation services across aerospace, defense, construction, machinery, logistics, and professional services.",
+    "marketSizeUSD": "4.5T",
+    "constituentCount": 75,
     "topHoldings": [
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "General Electric Company",
-        "symbol": "GE"
+        "name": "Honeywell International Inc.",
+        "symbol": "HON"
       },
       {
-        "name": "Union Pacific Corporation",
-        "symbol": "UNP"
+        "name": "RTX Corporation",
+        "symbol": "RTX"
       }
     ]
   },
-  "market_weight": 0.0681,
-  "change_pct": -0.36,
-  "insights": "The Industrials sector experienced a modest decline of -0.36% today, signaling a minor pullback. Technical indicators suggest a largely neutral market sentiment; the Relative Strength Index (RSI) at 49.83 is near the midpoint, reflecting balanced momentum without strong overbought or oversold conditions. Similarly, the Money Flow Index (MFI) at 50.57 hovers around its neutral equilibrium, suggesting that while prices dipped, there wasn't significant capital outflow. The On-Balance Volume (OBV) at 33309275, a cumulative measure of buying and selling pressure, does not imply significant distribution on this particular day, reinforcing that the slight price decline was not accompanied by overwhelming selling volume. Overall, today's movement appears to be a minor consolidation within a stable technical framework.",
+  "market_weight": 0.092,
+  "change_pct": 1.63,
+  "insights": "The Industrials sector demonstrated strong performance today, climbing by an impressive 1.63%. This robust daily gain is supported by a Relative Strength Index (RSI) of 60.24, which reflects healthy buying momentum and suggests the sector is not yet overbought, indicating potential for continued upside. While the Money Flow Index (MFI) is near neutral at 49.88, suggesting that today's price appreciation was not driven by overwhelmingly strong net money inflows, the high On-Balance Volume (OBV) of 42,601,847, when viewed in context of its daily trend, confirms that buying pressure largely outpaced selling pressure, validating the sector's positive price action for the day.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -747,13 +743,13 @@
       [
         1755734400000,
         49.83
+      ],
+      [
+        1755820800000,
+        60.24
       ]
     ],
     "mfi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755734400000,
         50.57
+      ],
+      [
+        1755820800000,
+        49.88
       ]
     ],
     "obv": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755734400000,
         33309275.0
+      ],
+      [
+        1755820800000,
+        42601847.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -3.39,
     0.73,
     -0.26,
-    0.16,
+    1.79,
     null,
     null,
     null,

@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector encompasses companies primarily involved in providing medical goods and services, including pharmaceuticals, biotechnology, medical equipment, healthcare providers, and managed care services.",
-    "marketSizeUSD": "5.0T",
+    "description": "The Health Care GICS sector includes companies primarily involved in providing medical services, manufacturing medical equipment, or developing and producing pharmaceuticals and biotechnology products.",
+    "marketSizeUSD": "5.5T",
     "constituentCount": 65,
     "topHoldings": [
       {
-        "name": "Eli Lilly and Company",
+        "name": "Eli Lilly and Co",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Inc.",
+        "name": "UnitedHealth Group Inc",
         "symbol": "UNH"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0873,
-  "change_pct": -0.33,
-  "insights": "The Health Care sector experienced a marginal decline of -0.33% today. While its Relative Strength Index (RSI) at 60.51 suggests sustained positive momentum without being overbought, the Money Flow Index (MFI) at 75.26 indicates the sector is experiencing strong money inflows, pushing it into overbought territory. This contrasts with the significant negative On-Balance Volume (OBV) of -76,717,050, which points to net selling pressure and distribution throughout the session. The combination suggests a market battling underlying buying interest against active profit-taking, resulting in the day's slight negative movement.",
+  "market_weight": 0.1125,
+  "change_pct": 0.82,
+  "insights": "The Health Care sector demonstrated a solid performance today with a +0.82% gain, supported by strong technical signals. The Relative Strength Index (RSI) at 63.41 indicates robust bullish momentum, while the Money Flow Index (MFI) at 75.39 points to significant capital inflow into the sector, nearing overbought levels and reinforcing the positive price action. However, the cumulative On-Balance Volume (OBV) of -64,826,805 suggests that despite today's strength, the sector has experienced considerable selling pressure over a longer period, implying that while the short-term sentiment is bullish, it operates within a broader, historically weaker volume profile that bears watching for sustained recovery.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -747,13 +743,13 @@
       [
         1755734400000,
         60.51
+      ],
+      [
+        1755820800000,
+        63.41
       ]
     ],
     "mfi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755734400000,
         75.26
+      ],
+      [
+        1755820800000,
+        75.39
       ]
     ],
     "obv": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755734400000,
         -76717050.0
+      ],
+      [
+        1755820800000,
+        -64826805.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -3.92,
     -0.74,
     4.65,
-    0.61,
+    1.44,
     null,
     null,
     null,

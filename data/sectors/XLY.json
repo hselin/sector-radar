@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises industries that produce non-essential goods and services, which are typically sensitive to economic cycles and consumer spending power, including retail, automotive, hotels, and leisure.",
-    "marketSizeUSD": "9T",
-    "constituentCount": 55,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, including retail, automotive, apparel, hotels, restaurants, and leisure, whose demand tends to be sensitive to economic cycles and consumer spending power.",
+    "marketSizeUSD": "5.1T",
+    "constituentCount": 60,
     "topHoldings": [
       {
         "name": "Amazon.com Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1571,
-  "change_pct": -0.59,
-  "insights": "The Consumer Discretionary sector experienced a modest decline of -0.59% today. Despite this slight pullback, key technical indicators reveal underlying dynamics. The Money Flow Index (MFI) at 83.64 indicates the sector is significantly overbought, suggesting strong money inflow and accumulation in the recent past which overshadows today's minor price drop. The Relative Strength Index (RSI) at 54.51 remains in neutral territory, not signaling extreme momentum, while the high On-Balance Volume (OBV) of 29,175,727 further supports a historical trend of buying pressure, implying today's decline could be a short-term consolidation rather than a reversal of the broader positive trend.",
+  "market_weight": 0.1043,
+  "change_pct": 3.04,
+  "insights": "The Consumer Discretionary sector saw a robust 3.04% gain today, reflecting strong investor confidence and buying interest. This upward momentum is clearly supported by the technical indicators: the Relative Strength Index (RSI) at 66.03 indicates significant buying pressure, nearing but not yet fully in overbought territory, while the Money Flow Index (MFI) at 83.95 is firmly in overbought conditions, suggesting a substantial inflow of capital but also potentially signaling a near-term peak or consolidation phase. The On-Balance Volume (OBV) of 36,640,380 further corroborates that today's price appreciation was backed by considerable buying volume, validating the move; however, the elevated MFI warrants close monitoring for potential short-term pullbacks.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -747,13 +743,13 @@
       [
         1755734400000,
         54.51
+      ],
+      [
+        1755820800000,
+        66.03
       ]
     ],
     "mfi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755734400000,
         83.64
+      ],
+      [
+        1755820800000,
+        83.95
       ]
     ],
     "obv": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755734400000,
         29175727.0
+      ],
+      [
+        1755820800000,
+        36640380.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -3.9,
     3.56,
     2.35,
-    -1.23,
+    1.77,
     null,
     null,
     null,

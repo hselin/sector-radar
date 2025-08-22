@@ -1,33 +1,29 @@
 {
-  "lastUpdated": "2025-08-21T21:12:38.370470Z",
+  "lastUpdated": "2025-08-22T21:17:27.387197Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, widely regarded as one of the best gauges of large-cap U.S. equities and the overall stock market.",
+      "description": "The S&P 500 is a market-capitalization-weighted index representing 500 of the largest publicly traded companies in the United States, widely regarded as a benchmark for the U.S. stock market and economy.",
       "marketSizeUSD": "48.5T",
       "constituentCount": 503,
       "topHoldings": [
         {
-          "name": "Microsoft Corporation",
+          "name": "Microsoft Corp",
           "symbol": "MSFT"
         },
         {
-          "name": "Apple Inc.",
+          "name": "Apple Inc",
           "symbol": "AAPL"
         },
         {
-          "name": "NVIDIA Corporation",
+          "name": "NVIDIA Corp",
           "symbol": "NVDA"
         }
       ]
     },
-    "commentary": "The overall stock market experienced a modest retreat today, closing down 0.40%. Despite this slight pullback, key technical indicators suggest a largely neutral to balanced market sentiment rather than a strong directional conviction. The Relative Strength Index (RSI) at 53.16 remains in healthy territory, slightly above the neutral 50-mark, indicating no immediate overbought or oversold conditions. Similarly, the Money Flow Index (MFI) at 50.89 reinforces this balance, showing relatively even money flow in and out of the market. The On-Balance Volume (OBV) at 1,437,559,144, while representing the cumulative volume flow, requires its trend over multiple periods to effectively confirm underlying momentum or divergences. Together, these figures suggest that while sellers had a slight edge today, there's no strong, conviction-driven selling pressure, and overall market momentum remains somewhat indecisive.",
-    "change_pct": -0.4,
+    "commentary": "The overall stock market experienced a robust day, climbing 1.54% and signaling strong bullish sentiment. Technical indicators largely support this positive momentum: the Relative Strength Index (RSI) at 63.20 is firmly in bullish territory, suggesting sustained buying interest without yet reaching overbought extremes. The Money Flow Index (MFI) at 51.56, while positive, indicates a moderate inflow of capital supporting the upward move. Concurrently, a high On-Balance Volume (OBV) value, likely increasing significantly with today's price surge, confirms that this rally is being driven by substantial volume and broad participation, reinforcing the current positive trend and underlying market strength.",
+    "change_pct": 1.54,
     "technicalIndicators": {
       "rsi": [
-        [
-          1740182400000,
-          null
-        ],
         [
           1740268800000,
           null
@@ -747,13 +743,13 @@
         [
           1755734400000,
           53.16
+        ],
+        [
+          1755820800000,
+          63.2
         ]
       ],
       "mfi": [
-        [
-          1740182400000,
-          null
-        ],
         [
           1740268800000,
           null
@@ -1473,13 +1469,13 @@
         [
           1755734400000,
           50.89
+        ],
+        [
+          1755820800000,
+          51.56
         ]
       ],
       "obv": [
-        [
-          1740182400000,
-          null
-        ],
         [
           1740268800000,
           null
@@ -2199,6 +2195,10 @@
         [
           1755734400000,
           1437559144.0
+        ],
+        [
+          1755820800000,
+          1521345451.0
         ]
       ]
     },
@@ -2236,7 +2236,7 @@
       -2.41,
       2.49,
       0.98,
-      -1.23,
+      0.29,
       null,
       null,
       null,

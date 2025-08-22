@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, and marketing of oil and gas, alongside those providing energy equipment and services.",
-    "marketSizeUSD": "2.4T",
+    "description": "The Energy sector comprises companies involved in the exploration, production, refining, marketing, storage, and transportation of oil and gas, along with firms providing related equipment and services.",
+    "marketSizeUSD": "2.1T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0419,
-  "change_pct": 0.69,
-  "insights": "Today, the Energy sector posted a modest gain of 0.69%, a healthy if unspectacular daily performance. Technical indicators largely support this positive movement: the Relative Strength Index (RSI) at 53.74 resides in neutral territory, indicating the sector is neither overbought nor oversold and has room to run. More importantly, the Money Flow Index (MFI) at 64.54 suggests positive money flow into the sector, signaling accumulating interest from investors. While the On-Balance Volume (OBV) at 386,301,827 is an absolute figure, its likely daily increase alongside the MFI reinforces that buying volume is confirming the sector's marginal advance, suggesting underlying strength rather than a fleeting move.",
+  "market_weight": 0.0429,
+  "change_pct": 2.04,
+  "insights": "The Energy sector demonstrated robust performance today, posting a significant gain of 2.04%. This strong upward movement is well-supported by key technical indicators: the Relative Strength Index (RSI) at 62.32 indicates healthy bullish momentum, though not yet in overbought territory. The Money Flow Index (MFI) at 71.35 highlights substantial money flowing into the sector, suggesting strong investor interest and buying pressure, nearing overbought conditions. Furthermore, the high On-Balance Volume (OBV) of 401,732,576 confirms that today's price appreciation is backed by significant buying volume, lending credibility to the rally.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -747,13 +743,13 @@
       [
         1755734400000,
         53.74
+      ],
+      [
+        1755820800000,
+        62.32
       ]
     ],
     "mfi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755734400000,
         64.54
+      ],
+      [
+        1755820800000,
+        71.35
       ]
     ],
     "obv": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755734400000,
         386301827.0
+      ],
+      [
+        1755820800000,
+        401732576.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -1.73,
     -0.77,
     0.74,
-    0.96,
+    3.02,
     null,
     null,
     null,

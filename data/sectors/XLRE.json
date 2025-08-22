@@ -1,9 +1,9 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector primarily comprises companies that own, develop, and manage various types of properties, with Real Estate Investment Trusts (REITs) forming a significant part.",
-    "marketSizeUSD": "1.4T",
-    "constituentCount": 32,
+    "description": "The Real Estate GICS sector includes companies that own, develop, and manage real estate, primarily through equity Real Estate Investment Trusts (REITs), across various property types.",
+    "marketSizeUSD": "1.3T",
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "Prologis, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0244,
-  "change_pct": -0.36,
-  "insights": "The Real Estate sector saw a marginal decline of 0.36% today, indicating a slight consolidation or minor selling pressure. Technical indicators largely align with this modest movement: the Relative Strength Index (RSI) at 51.12 hovers near its neutral midpoint, suggesting no significant overbought or oversold conditions. However, the Money Flow Index (MFI) at 41.35 points to a net outflow of money, which is consistent with the day's negative performance. The On-Balance Volume (OBV) at 89,017,137 reflects a substantial history of accumulation, implying underlying buying interest over time, yet today's slight retreat suggests investors are exercising caution.",
+  "market_weight": 0.0266,
+  "change_pct": 1.58,
+  "insights": "The Real Estate sector demonstrated robust performance today, advancing by 1.58%. Technical indicators present a nuanced picture: the Relative Strength Index (RSI) at 58.22 suggests building bullish momentum, remaining comfortably below overbought levels and supporting the day's gain. However, the Money Flow Index (MFI) at 41.36 indicates relatively weaker money flow despite the price appreciation, suggesting the daily gain might lack strong conviction from a volume-weighted perspective. The On-Balance Volume (OBV) of 95,504,646, a cumulative measure, would have seen a positive contribution today, reinforcing the underlying demand that supported the sector's upward movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -747,13 +743,13 @@
       [
         1755734400000,
         51.12
+      ],
+      [
+        1755820800000,
+        58.22
       ]
     ],
     "mfi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755734400000,
         41.35
+      ],
+      [
+        1755820800000,
+        41.36
       ]
     ],
     "obv": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755734400000,
         89017137.0
+      ],
+      [
+        1755820800000,
+        95504646.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -3.51,
     -0.1,
     0.19,
-    0.85,
+    2.44,
     null,
     null,
     null,

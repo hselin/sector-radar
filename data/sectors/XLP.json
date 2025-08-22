@@ -1,16 +1,16 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that produce and market essential household goods, food, beverages, and tobacco, characterized by consistent demand and generally stable performance across economic cycles.",
-    "marketSizeUSD": "3.1T",
-    "constituentCount": 33,
+    "description": "The Consumer Staples sector includes companies that manufacture and distribute essential products and services that consumers are unwilling or unable to cut from their budgets, regardless of economic conditions.",
+    "marketSizeUSD": "3.7T",
+    "constituentCount": 37,
     "topHoldings": [
       {
         "name": "Walmart Inc.",
         "symbol": "WMT"
       },
       {
-        "name": "The Procter & Gamble Company",
+        "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0541,
-  "change_pct": -0.9,
-  "insights": "The Consumer Staples sector experienced a moderate decline of -0.90% today. Despite this daily dip, key technical indicators suggest the sector is not signaling immediate overbought or oversold conditions. The RSI at 56.04 indicates a relatively neutral momentum, staying well clear of extreme levels. Concurrently, the MFI at 65.49 suggests persistent underlying money flow and buying interest within the sector on a cumulative basis. While the OBV at 63,117,833 reflects the current cumulative balance of buying and selling volume, its singular value doesn't confirm today's specific selling pressure as a significant trend shift, implying the daily movement may be a temporary retracement rather than the onset of a sustained downturn based on these broader technical gauges.",
+  "market_weight": 0.0757,
+  "change_pct": 0.0,
+  "insights": "The Consumer Staples sector concluded the day unchanged at 0.00%, indicating a neutral price movement. However, underlying technicals suggest a more dynamic picture. The Relative Strength Index (RSI) at 56.04 points to moderate upward momentum from recent trading, while the Money Flow Index (MFI) at 65.88 indicates significant capital inflow into the sector. This combination, alongside a substantial cumulative On-Balance Volume (OBV) of 79,607,876, suggests that despite the flat daily close, there was active buying interest absorbing selling pressure, potentially signifying a phase of accumulation or consolidation with underlying demand.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -747,13 +743,13 @@
       [
         1755734400000,
         56.04
+      ],
+      [
+        1755820800000,
+        56.04
       ]
     ],
     "mfi": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1755734400000,
         65.49
+      ],
+      [
+        1755820800000,
+        65.88
       ]
     ],
     "obv": [
-      [
-        1740182400000,
-        null
-      ],
       [
         1740268800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1755734400000,
         63117833.0
+      ],
+      [
+        1755820800000,
+        79607876.0
       ]
     ]
   },
