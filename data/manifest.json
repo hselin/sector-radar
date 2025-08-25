@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-08-24T21:07:12.234524Z",
+  "lastUpdated": "2025-08-25T21:12:53.149445Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index representing 500 of the largest publicly traded companies in the United States, widely regarded as a benchmark for the U.S. stock market and economy.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market delivered a strong performance today, closing up 1.54%, signaling robust positive sentiment. Key technical indicators reinforce this bullish outlook: the Relative Strength Index (RSI) at 63.20 and the Money Flow Index (MFI) at 51.56 both suggest sustained buying momentum and positive money flow into the market. While indicating strength, neither indicator is yet in extreme overbought territory, implying there may still be room for further upward movement before a potential correction. The elevated On-Balance Volume (OBV) further supports the price action, confirming that this upward trend is backed by significant buying pressure and overall confident market participation.",
-    "change_pct": 1.54,
+    "commentary": "Today, the overall stock market registered a modest decline of 0.44%. Despite this slight dip, key technical indicators suggest a resilient underlying sentiment. The Relative Strength Index (RSI) at 59.22 and Money Flow Index (MFI) at 58.32 both remain in the bullish, non-overbought territory, indicating that while there was some selling pressure, the market's momentum is still predominantly positive and money continues to flow into the market rather than aggressively out. The high On-Balance Volume (OBV) figure further suggests a significant level of historical buying interest and accumulation. Combined, these figures imply that today's pullback was more likely profit-taking or minor consolidation, rather than a significant shift towards bearish sentiment or a loss of underlying bullish momentum.",
+    "change_pct": -0.44,
     "technicalIndicators": {
       "rsi": [
-        [
-          1740268800000,
-          null
-        ],
-        [
-          1740355200000,
-          44.0
-        ],
-        [
-          1740441600000,
-          41.41
-        ],
         [
           1740528000000,
           41.78
@@ -747,21 +735,21 @@
         [
           1755820800000,
           63.2
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1740268800000,
+          1755907200000,
           null
         ],
         [
-          1740355200000,
-          52.15
+          1755993600000,
+          null
         ],
         [
-          1740441600000,
-          44.06
-        ],
+          1756080000000,
+          59.22
+        ]
+      ],
+      "mfi": [
         [
           1740528000000,
           45.24
@@ -1473,21 +1461,21 @@
         [
           1755820800000,
           51.56
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1740268800000,
+          1755907200000,
           null
         ],
         [
-          1740355200000,
-          1260604100.0
+          1755993600000,
+          null
         ],
         [
-          1740441600000,
-          1202337600.0
-        ],
+          1756080000000,
+          58.32
+        ]
+      ],
+      "obv": [
         [
           1740528000000,
           1245659200.0
@@ -2199,6 +2187,18 @@
         [
           1755820800000,
           1521345451.0
+        ],
+        [
+          1755907200000,
+          null
+        ],
+        [
+          1755993600000,
+          null
+        ],
+        [
+          1756080000000,
+          1470782504.0
         ]
       ]
     },
@@ -2237,7 +2237,7 @@
       2.49,
       0.98,
       0.29,
-      null,
+      -0.44,
       null,
       null,
       null,
