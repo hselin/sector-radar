@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies involved in the exploration, production, refining, marketing, storage, and transportation of oil and gas, along with firms providing related equipment and services.",
-    "marketSizeUSD": "2.1T",
+    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, and marketing of oil and gas products, as well as those providing equipment and services to the energy industry.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0429,
-  "change_pct": 0.76,
-  "insights": "The Energy sector experienced a modest gain of 0.76% today, signaling continued positive sentiment. Its Relative Strength Index (RSI) at 68.99 indicates strong buying momentum, nearing overbought conditions, while the Money Flow Index (MFI) at 79.46 further confirms significant capital inflow and robust buying pressure. The On-Balance Volume (OBV) at 427,518,377, a cumulative measure, reinforces that this price appreciation is supported by consistent accumulation. Collectively, these indicators suggest the sector is currently experiencing strong upward momentum and investor interest, though the high RSI and MFI readings might warrant caution for potential short-term consolidation.",
+  "market_weight": 0.0311,
+  "change_pct": 0.55,
+  "insights": "The Energy sector experienced a modest gain of 0.55% today, signaling continued, albeit cautious, positive momentum. However, key technical indicators suggest a sector that is increasingly overextended. The Relative Strength Index (RSI) at 70.71 and the Money Flow Index (MFI) at 87.01 both indicate the sector is firmly in overbought territory, reflecting strong buying pressure and significant capital inflow. While this confirms the strength behind today's positive movement, it also suggests an increased risk of a short-term pullback or consolidation. The On-Balance Volume (OBV) at 439,382,183 further corroborates the strong accumulation that has accompanied the recent price advances.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -747,13 +743,13 @@
       [
         1756339200000,
         68.99
+      ],
+      [
+        1756425600000,
+        70.71
       ]
     ],
     "mfi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756339200000,
         79.46
+      ],
+      [
+        1756425600000,
+        87.01
       ]
     ],
     "obv": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756339200000,
         427518377.0
+      ],
+      [
+        1756425600000,
+        439382183.0
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     -0.77,
     0.74,
     3.02,
-    2.0,
+    2.55,
     null,
     null,
     null,

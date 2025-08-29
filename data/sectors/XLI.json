@@ -1,33 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies involved in the production and distribution of capital goods, provision of commercial services, and transportation services across aerospace, defense, construction, machinery, logistics, and professional services.",
-    "marketSizeUSD": "4.5T",
-    "constituentCount": 75,
+    "description": "The Industrials sector includes companies that produce capital goods, provide commercial services, and offer transportation services.",
+    "marketSizeUSD": "5.2T",
+    "constituentCount": 74,
     "topHoldings": [
-      {
-        "name": "Caterpillar Inc.",
-        "symbol": "CAT"
-      },
       {
         "name": "Honeywell International Inc.",
         "symbol": "HON"
       },
       {
-        "name": "RTX Corporation",
-        "symbol": "RTX"
+        "name": "Union Pacific Corporation",
+        "symbol": "UNP"
+      },
+      {
+        "name": "Caterpillar Inc.",
+        "symbol": "CAT"
       }
     ]
   },
-  "market_weight": 0.092,
-  "change_pct": 0.18,
-  "insights": "The Industrials sector posted a modest gain of 0.18% today, with technical indicators largely supporting this slight positive movement. The Relative Strength Index (RSI) at 59.32 and Money Flow Index (MFI) at 56.72 both sit in bullish territory, yet remain below overbought levels, suggesting healthy underlying buying interest without being extended. The On-Balance Volume (OBV), having increased with the positive close, further confirms that this price appreciation was accompanied by positive money flow, indicating a stable, moderately bullish sentiment for the sector on the day.",
+  "market_weight": 0.0951,
+  "change_pct": -0.92,
+  "insights": "The Industrials sector experienced a modest decline today, falling -0.92%. Despite this slight pullback, key technical indicators suggest the underlying sentiment remains relatively balanced rather than deeply bearish. The Relative Strength Index (RSI) at 52.49 and Money Flow Index (MFI) at 57.07 are both above the neutral 50-mark, indicating the sector is not oversold and still reflects a degree of positive money flow over recent periods, suggesting today's dip might be a minor correction. The robust On-Balance Volume (OBV) at 35108570, while needing historical context for trend analysis, generally points to significant cumulative buying pressure, implying today's sell-off may not signal a major reversal in the sector's longer-term accumulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -747,13 +743,13 @@
       [
         1756339200000,
         59.32
+      ],
+      [
+        1756425600000,
+        52.49
       ]
     ],
     "mfi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756339200000,
         56.72
+      ],
+      [
+        1756425600000,
+        57.07
       ]
     ],
     "obv": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756339200000,
         43910470.0
+      ],
+      [
+        1756425600000,
+        35108570.0
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     0.73,
     -0.26,
     1.79,
-    0.18,
+    -0.74,
     null,
     null,
     null,

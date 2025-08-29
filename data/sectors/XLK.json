@@ -1,12 +1,12 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises companies that produce software, hardware, and equipment for data processing, as well as those that provide IT consulting and services.",
-    "marketSizeUSD": "13.5T",
+    "description": "The Information Technology sector encompasses companies primarily engaged in the production of software, hardware, and semiconductor equipment, alongside the provision of IT services and internet services.",
+    "marketSizeUSD": "14.5T",
     "constituentCount": 66,
     "topHoldings": [
       {
-        "name": "Microsoft Corporation",
+        "name": "Microsoft Corp.",
         "symbol": "MSFT"
       },
       {
@@ -14,20 +14,16 @@
         "symbol": "AAPL"
       },
       {
-        "name": "NVIDIA Corporation",
+        "name": "NVIDIA Corp.",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.2761,
-  "change_pct": 0.79,
-  "insights": "Today, the Information Technology sector exhibited a robust performance, advancing by 0.79%. This positive movement is underpinned by constructive technical signals: the Relative Strength Index (RSI) at 59.45 suggests healthy bullish momentum without approaching overbought conditions, while the Money Flow Index (MFI) at 58.74 confirms a net inflow of capital into the sector. Concurrently, the On-Balance Volume (OBV) at 235,178,406, when considered with the price increase, indicates that the day's gains were well-supported by significant buying volume, reinforcing the sector's current strength.",
+  "market_weight": 0.2651,
+  "change_pct": -1.53,
+  "insights": "The Information Technology sector experienced a moderate decline today, closing down -1.53%. Despite this pullback, key technical indicators suggest the selling pressure was not extreme. The Relative Strength Index (RSI) remains neutral at 50.83, well above oversold levels, indicating that while the sector saw profit-taking, it wasn't a panic-driven sell-off. Similarly, the Money Flow Index (MFI) at 56.39 suggests a slightly positive money flow, implying that even with the price drop, there wasn't a significant net outflow of capital, potentially indicating some dip-buying interest. The On-Balance Volume (OBV) at 226,459,878 reflects a historical accumulation of buying pressure; without its daily change, its current positive level broadly supports a longer-term bullish sentiment. Overall, today's movement appears to be a controlled correction rather than a strong bearish reversal, with underlying momentum still exhibiting resilience.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -747,13 +743,13 @@
       [
         1756339200000,
         59.45
+      ],
+      [
+        1756425600000,
+        50.83
       ]
     ],
     "mfi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756339200000,
         58.74
+      ],
+      [
+        1756425600000,
+        56.39
       ]
     ],
     "obv": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756339200000,
         235178406.0
+      ],
+      [
+        1756425600000,
+        226459878.0
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     3.44,
     -0.08,
     -1.23,
-    1.57,
+    0.01,
     null,
     null,
     null,

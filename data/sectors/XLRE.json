@@ -1,33 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector includes companies that own, develop, and manage real estate, primarily through equity Real Estate Investment Trusts (REITs), across various property types.",
+    "description": "The Real Estate GICS sector comprises companies primarily engaged in the ownership, development, and management of income-generating real estate, including REITs and real estate management and development companies.",
     "marketSizeUSD": "1.3T",
     "constituentCount": 31,
     "topHoldings": [
       {
-        "name": "Prologis, Inc.",
+        "name": "Prologis Inc",
         "symbol": "PLD"
       },
       {
-        "name": "American Tower Corporation",
+        "name": "American Tower Corp",
         "symbol": "AMT"
       },
       {
-        "name": "Equinix, Inc.",
+        "name": "Equinix Inc",
         "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.0266,
-  "change_pct": -0.26,
-  "insights": "The Real Estate sector experienced a marginal decline of -0.26% today, indicating a relatively quiet session with a slight bearish tilt. Technical indicators provide a nuanced view of this movement. The Relative Strength Index (RSI) at 54.34 sits near the neutral 50-mark, suggesting balanced buying and selling momentum without signaling overbought or oversold conditions. However, the Money Flow Index (MFI) at 43.64 is below 50, indicating a net outflow of money from the sector, which aligns with today's slight price dip. The On-Balance Volume (OBV) at 85941207 represents the cumulative volume flow; without its daily change, it primarily serves as a gauge for long-term demand trends rather than providing immediate, granular insight into today's marginal price action.",
+  "market_weight": 0.0238,
+  "change_pct": 0.55,
+  "insights": "The Real Estate sector concluded the day with a modest 0.55% gain. Technically, the Relative Strength Index (RSI) at 57.05 indicates healthy positive momentum, positioned above neutral without approaching overbought conditions, suggesting potential for further upside. However, the Money Flow Index (MFI) at 50.17, being near the neutral midpoint, implies that while prices advanced, the overall money flow into the sector was relatively balanced, rather than showing strong conviction from large capital inflows today. Concurrently, the robust On-Balance Volume (OBV) at 90,746,733, alongside the positive price movement, suggests that cumulative buying volume has generally underpinned the sector's upward trajectory.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -747,13 +743,13 @@
       [
         1756339200000,
         54.34
+      ],
+      [
+        1756425600000,
+        57.05
       ]
     ],
     "mfi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756339200000,
         43.64
+      ],
+      [
+        1756425600000,
+        50.17
       ]
     ],
     "obv": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756339200000,
         85941207.0
+      ],
+      [
+        1756425600000,
+        90746733.0
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     -0.1,
     0.19,
     2.44,
-    -0.61,
+    -0.07,
     null,
     null,
     null,

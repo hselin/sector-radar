@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector includes companies primarily involved in providing medical services, manufacturing medical equipment, or developing and producing pharmaceuticals and biotechnology products.",
-    "marketSizeUSD": "5.5T",
-    "constituentCount": 65,
+    "description": "The Health Care sector comprises companies that provide medical services, manufacture medical equipment or drugs, or provide other health care-related services.",
+    "marketSizeUSD": "6.8T",
+    "constituentCount": 64,
     "topHoldings": [
       {
-        "name": "Eli Lilly and Co",
+        "name": "Eli Lilly and Company",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Inc",
+        "name": "UnitedHealth Group",
         "symbol": "UNH"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1125,
-  "change_pct": -0.39,
-  "insights": "The Health Care sector experienced a minor dip of -0.39% today, closing slightly in the red. This daily movement is supported by the negative On-Balance Volume (OBV) of -81,583,937, indicating that selling pressure outweighed buying pressure on volume for the session. However, the Relative Strength Index (RSI) at 55.61 suggests that momentum remains moderately bullish and the sector is not yet overbought or oversold, indicating some underlying resilience. More notably, the Money Flow Index (MFI) is significantly high at 81.54, suggesting strong capital inflow and sustained investor interest, bordering on overbought conditions. This combination implies that today's minor decline could be a slight correction within a broader context of strong buying interest and positive money flow into the sector.",
+  "market_weight": 0.1243,
+  "change_pct": 0.73,
+  "insights": "The Health Care sector posted a modest gain of 0.73% today, reflecting positive sentiment. While the Relative Strength Index (RSI) at 58.70 indicates bullish momentum without being overbought, suggesting room for further appreciation, the Money Flow Index (MFI) at 81.10 signals strong money inflow, potentially pushing the sector into overbought territory in the short term. The significantly negative On-Balance Volume (OBV) of -71,941,316, however, presents a divergence, implying that despite today's price increase, the overall volume trend points to greater distribution on down days than accumulation on up days, which could suggest underlying weakness or a lack of strong conviction behind recent moves.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -747,13 +743,13 @@
       [
         1756339200000,
         55.61
+      ],
+      [
+        1756425600000,
+        58.7
       ]
     ],
     "mfi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756339200000,
         81.54
+      ],
+      [
+        1756425600000,
+        81.1
       ]
     ],
     "obv": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756339200000,
         -81583937.0
+      ],
+      [
+        1756425600000,
+        -71941316.0
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     -0.74,
     4.65,
     1.44,
-    -1.26,
+    -0.54,
     null,
     null,
     null,

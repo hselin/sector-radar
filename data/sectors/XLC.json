@@ -1,8 +1,8 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector encompasses companies that provide telecommunication services, entertainment content, interactive media, and other communication-related platforms and services.",
-    "marketSizeUSD": "4.8T",
+    "description": "The Communication Services sector encompasses companies that provide telecommunications services, entertainment, and interactive media services.",
+    "marketSizeUSD": "7.0T",
     "constituentCount": 23,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0982,
-  "change_pct": 0.38,
-  "insights": "The Communication Services sector posted a modest gain of 0.38% today, indicating slight positive movement. Technical indicators suggest this advance is supported by underlying strength: the Relative Strength Index (RSI) at 63.94 shows solid bullish momentum, still within healthy territory but approaching overbought levels. Concurrently, the Money Flow Index (MFI) at 70.53 confirms robust capital inflow, nearing a cautionary overbought signal, suggesting significant buying interest has accompanied recent price movements. This positive price action is further corroborated by the On-Balance Volume (OBV) at 292,749,987, which, given the daily gain, implies accumulation and reinforces the current uptrend, indicating the sector is experiencing sustained buying pressure.",
+  "market_weight": 0.128,
+  "change_pct": -0.2,
+  "insights": "The Communication Services sector experienced a modest decline of -0.20% today. Despite this slight dip, key technical indicators suggest underlying strength and continued investor interest. The Relative Strength Index (RSI) at 62.24 and the Money Flow Index (MFI) at 64.83 both indicate bullish momentum and positive money flow into the sector, suggesting that today's small downturn was likely a minor consolidation rather than a significant shift in sentiment. The On-Balance Volume (OBV) of 288,443,520, while an absolute value, reflects substantial historical accumulation, further reinforcing that the sector maintains a generally positive volume-backed trend despite the day's fractional loss.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -747,13 +743,13 @@
       [
         1756339200000,
         63.94
+      ],
+      [
+        1756425600000,
+        62.24
       ]
     ],
     "mfi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756339200000,
         70.53
+      ],
+      [
+        1756425600000,
+        64.83
       ]
     ],
     "obv": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756339200000,
         292749987.0
+      ],
+      [
+        1756425600000,
+        288443520.0
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     1.42,
     3.58,
     -0.15,
-    0.27,
+    0.07,
     null,
     null,
     null,

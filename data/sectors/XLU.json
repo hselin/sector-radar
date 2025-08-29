@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector includes companies involved in the generation, transmission, and distribution of electricity, natural gas, and water, alongside multi-utility operations and waste management services.",
-    "marketSizeUSD": "1.8T",
-    "constituentCount": 29,
+    "description": "The Utilities sector comprises companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, including multi-utility providers and independent power producers.",
+    "marketSizeUSD": "1.6T",
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -14,20 +14,16 @@
         "symbol": "DUK"
       },
       {
-        "name": "Southern Company",
+        "name": "The Southern Company",
         "symbol": "SO"
       }
     ]
   },
-  "market_weight": 0.0368,
-  "change_pct": -0.76,
-  "insights": "The Utilities sector experienced a slight pullback today, declining by -0.76%, indicating some minor profit-taking or selling pressure. This downward movement is generally supported by its key technical indicators: the Relative Strength Index (RSI) at 46.27 and the Money Flow Index (MFI) at 43.59. Both are below the 50-level, suggesting weakening upward momentum and a net outflow of capital from the sector, respectively, though neither indicates an oversold condition yet. While the On-Balance Volume (OBV) at 306,389,004 requires historical comparison for a complete trend analysis, its current level, alongside the negative price action, typically reflects a lack of strong buying conviction during today's session.",
+  "market_weight": 0.0293,
+  "change_pct": -0.37,
+  "insights": "The Utilities sector experienced a marginal decline of -0.37% today, reflecting a day of limited directional conviction. Both the Relative Strength Index (RSI) at 44.18 and the Money Flow Index (MFI) at 43.67 reside firmly in neutral territory, indicating the sector is neither overbought nor oversold, nor was there a significant influx or outflow of capital despite the slight price dip. The On-Balance Volume (OBV) at 296,671,739, while indicating cumulative volume, does not suggest aggressive selling pressure accompanying this modest daily decline. Overall, the sector saw a slight negative close without strong technical indicators pointing to a significant shift in underlying momentum or sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -747,13 +743,13 @@
       [
         1756339200000,
         46.27
+      ],
+      [
+        1756425600000,
+        44.18
       ]
     ],
     "mfi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756339200000,
         43.59
+      ],
+      [
+        1756425600000,
+        43.67
       ]
     ],
     "obv": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756339200000,
         306389004.0
+      ],
+      [
+        1756425600000,
+        296671739.0
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     0.44,
     -0.65,
     0.49,
-    -1.64,
+    -2.0,
     null,
     null,
     null,

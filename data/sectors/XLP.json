@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that manufacture and distribute essential products and services that consumers are unwilling or unable to cut from their budgets, regardless of economic conditions.",
-    "marketSizeUSD": "3.7T",
-    "constituentCount": 37,
+    "description": "The Consumer Staples sector comprises companies that produce and distribute essential products and services, such as food, beverages, household goods, and tobacco, which are generally non-cyclical and in constant demand.",
+    "marketSizeUSD": "3.0T",
+    "constituentCount": 34,
     "topHoldings": [
       {
         "name": "Walmart Inc.",
@@ -14,20 +14,16 @@
         "symbol": "PG"
       },
       {
-        "name": "Costco Wholesale Corporation",
-        "symbol": "COST"
+        "name": "The Coca-Cola Company",
+        "symbol": "KO"
       }
     ]
   },
-  "market_weight": 0.0757,
-  "change_pct": -0.63,
-  "insights": "Today, the Consumer Staples sector concluded trading with a modest decline of -0.63%. This daily movement is corroborated by technical indicators showing weakening momentum: the Relative Strength Index (RSI) at 39.56 and Money Flow Index (MFI) at 42.56 both sit below the neutral 50-mark, suggesting increasing selling pressure and money outflow. While the On-Balance Volume (OBV) stands at 22261132, the overall technical picture, dominated by these sub-50 momentum readings, confirms the daily decline and suggests that selling pressure is outweighing buying interest, indicating a lack of immediate buying conviction for the sector.",
+  "market_weight": 0.0548,
+  "change_pct": 0.65,
+  "insights": "The Consumer Staples sector posted a modest 0.65% gain today, indicating a stable yet not significantly strong positive performance. Key technical indicators suggest a balanced market sentiment rather than a strong momentum shift. The Relative Strength Index (RSI) at 44.33 and Money Flow Index (MFI) at 49.08 both reside in neutral territory below the 50-mark, suggesting the sector is neither overbought nor oversold, and money flow is relatively balanced, leaning slightly bearish, despite today's price uptick. The On-Balance Volume (OBV) at 37,935,708, a cumulative measure, confirms that today's positive price action was supported by accompanying volume, reinforcing the observed daily movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -747,13 +743,13 @@
       [
         1756339200000,
         39.56
+      ],
+      [
+        1756425600000,
+        44.33
       ]
     ],
     "mfi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756339200000,
         42.56
+      ],
+      [
+        1756425600000,
+        49.08
       ]
     ],
     "obv": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756339200000,
         22261132.0
+      ],
+      [
+        1756425600000,
+        37935708.0
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     2.89,
     -0.56,
     0.55,
-    -2.68,
+    -2.05,
     null,
     null,
     null,

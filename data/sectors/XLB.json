@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies engaged in manufacturing chemicals, construction materials, containers and packaging, metals and mining, and paper and forest products.",
-    "marketSizeUSD": "1.1T",
+    "description": "The Materials sector comprises companies engaged in the manufacturing, processing, and distribution of raw materials, including chemicals, construction materials, metals, mining, paper, and forest products.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0225,
-  "change_pct": -0.0,
-  "insights": "The Materials sector remained remarkably flat today, registering a -0.00% change. Despite this static daily price movement, key technical indicators suggest a degree of underlying positive sentiment and accumulation. The Relative Strength Index (RSI) at 61.41 and Money Flow Index (MFI) at 65.92 both reside in bullish territory, indicating healthy momentum and sustained money inflow, respectively, without signaling immediate overbought conditions. The On-Balance Volume (OBV) at 7,807,340, while a cumulative measure, generally confirms that buyers have been accumulating shares over time. Taken together, today's neutral price action likely represents a period of consolidation or a temporary pause, as the sector maintains a generally favorable technical backdrop.",
+  "market_weight": 0.0329,
+  "change_pct": 0.14,
+  "insights": "The Materials sector posted a marginal gain of 0.14% today. Despite this modest daily increase, key technical indicators suggest building bullish sentiment. The Relative Strength Index (RSI) at 62.02 indicates increasing positive momentum, still below overbought levels but moving in that direction. More notably, the Money Flow Index (MFI) at 72.22 points to significant capital inflow and strong buying interest, approaching the overbought threshold more closely than RSI. The On-Balance Volume (OBV) at 16,219,572 further corroborates this accumulation, suggesting that today's slight price appreciation was supported by underlying buying pressure, indicating a potentially sustained uptrend despite the day's limited price movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -747,13 +743,13 @@
       [
         1756339200000,
         61.41
+      ],
+      [
+        1756425600000,
+        62.02
       ]
     ],
     "mfi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756339200000,
         65.92
+      ],
+      [
+        1756425600000,
+        72.22
       ]
     ],
     "obv": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -2198,7 +2194,11 @@
       ],
       [
         1756339200000,
-        7807340.0
+        12077320.0
+      ],
+      [
+        1756425600000,
+        16219572.0
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     1.88,
     1.9,
     2.39,
-    -0.03,
+    0.11,
     null,
     null,
     null,

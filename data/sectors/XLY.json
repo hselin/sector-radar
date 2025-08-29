@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, including retail, automotive, apparel, hotels, restaurants, and leisure, whose demand tends to be sensitive to economic cycles and consumer spending power.",
-    "marketSizeUSD": "5.1T",
-    "constituentCount": 60,
+    "description": "The Consumer Discretionary sector comprises industries most sensitive to economic cycles, offering non-essential goods and services such as retail (excluding food), automotive, hotels, restaurants, and leisure.",
+    "marketSizeUSD": "6.8T",
+    "constituentCount": 57,
     "topHoldings": [
       {
         "name": "Amazon.com Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1043,
-  "change_pct": 0.17,
-  "insights": "The Consumer Discretionary sector posted a modest gain of 0.17% today, with technical indicators suggesting strong underlying momentum. The Relative Strength Index (RSI) at 67.02 and Money Flow Index (MFI) at 77.87 both signal significant buying pressure and that the sector is nearing overbought conditions, particularly the MFI which indicates substantial capital flowing in. This positive price action, despite its small magnitude, is reinforced by the On-Balance Volume (OBV) at 45605490, implying that buying volume is currently outweighing selling volume and supporting the sector's appreciation, although the proximity to overbought levels warrants attention.",
+  "market_weight": 0.1243,
+  "change_pct": -1.03,
+  "insights": "The Consumer Discretionary sector experienced a -1.03% decline today, suggesting a session of profit-taking or decelerating momentum. However, technical indicators present a more nuanced view. The Relative Strength Index (RSI) at 59.92, while not in overbought territory, indicates the sector still maintains moderate underlying strength, comfortably above neutral. More notably, the Money Flow Index (MFI) at 70.49 is quite elevated, nearing overbought levels. This suggests that despite today's price dip, there has been significant recent capital inflow, potentially framing the decline as a healthy pullback or profit-taking within a still-supported trend. The On-Balance Volume (OBV) at 39,731,709 reflects cumulative buying/selling pressure, which would need its daily change for a more precise short-term interpretation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -747,13 +743,13 @@
       [
         1756339200000,
         67.02
+      ],
+      [
+        1756425600000,
+        59.92
       ]
     ],
     "mfi": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756339200000,
         77.87
+      ],
+      [
+        1756425600000,
+        70.49
       ]
     ],
     "obv": [
-      [
-        1740787200000,
-        null
-      ],
       [
         1740873600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756339200000,
         45605490.0
+      ],
+      [
+        1756425600000,
+        39731709.0
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     3.56,
     2.35,
     1.77,
-    0.45,
+    -0.58,
     null,
     null,
     null,
