@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-01T21:06:59.688656Z",
+  "lastUpdated": "2025-09-02T21:12:35.145817Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,26 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a modest decline of 0.60%, signaling a slight pullback in investor confidence. Analyzing key technical indicators, the Relative Strength Index (RSI) at 59.15 suggests that underlying bullish momentum remains largely intact, as it stays firmly in the healthy range above 50 without indicating an overbought condition. However, the Money Flow Index (MFI) at 48.90, dipping just below the 50-mark, indicates a slight weakening in buying pressure and a potential minor outflow of capital from the market. The On-Balance Volume (OBV) stands at 1,560,513,688, reflecting significant cumulative buying and selling pressure over time; while its trend is crucial for definitive interpretation, its current high value indicates substantial historical trading engagement. Overall, market sentiment appears to be in a phase of slight consolidation, with a resilient bullish undercurrent (RSI) being counterbalanced by a marginal cooling in immediate money flow (MFI).",
-    "change_pct": -0.6,
+    "commentary": "The stock market concluded the day with a modest decline of 0.74%, signaling a cautious sentiment among investors. Technical indicators present a mixed picture: The Relative Strength Index (RSI) at 52.82 suggests largely neutral momentum, sitting just above the 50-mark without signaling significant overbought or oversold conditions. However, the Money Flow Index (MFI) at 41.29 points to a slight bearish money flow, indicating more capital exiting the market than entering. Furthermore, the substantial On-Balance Volume (OBV) figure of 1,489,934,991, in conjunction with the day's decline, implies that the selling pressure was accompanied by significant conviction rather than just low-volume profit-taking. Collectively, these figures suggest underlying cautiousness and a potential weakening in near-term buying momentum, despite the relatively neutral RSI.",
+    "change_pct": -0.74,
     "technicalIndicators": {
       "rsi": [
-        [
-          1740873600000,
-          null
-        ],
-        [
-          1740960000000,
-          37.41
-        ],
-        [
-          1741046400000,
-          33.55
-        ],
-        [
-          1741132800000,
-          39.57
-        ],
         [
           1741219200000,
           34.03
@@ -747,25 +731,25 @@
         [
           1756425600000,
           59.15
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1740873600000,
+          1756512000000,
           null
         ],
         [
-          1740960000000,
-          41.1
+          1756598400000,
+          null
         ],
         [
-          1741046400000,
-          33.21
+          1756684800000,
+          null
         ],
         [
-          1741132800000,
-          40.84
-        ],
+          1756771200000,
+          52.82
+        ]
+      ],
+      "mfi": [
         [
           1741219200000,
           34.15
@@ -1473,25 +1457,25 @@
         [
           1756425600000,
           48.9
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1740873600000,
+          1756512000000,
           null
         ],
         [
-          1740960000000,
-          1185957400.0
+          1756598400000,
+          null
         ],
         [
-          1741046400000,
-          1076309200.0
+          1756684800000,
+          null
         ],
         [
-          1741132800000,
-          1147539700.0
-        ],
+          1756771200000,
+          41.29
+        ]
+      ],
+      "obv": [
         [
           1741219200000,
           1067444800.0
@@ -2199,6 +2183,22 @@
         [
           1756425600000,
           1560513688.0
+        ],
+        [
+          1756512000000,
+          null
+        ],
+        [
+          1756598400000,
+          null
+        ],
+        [
+          1756684800000,
+          null
+        ],
+        [
+          1756771200000,
+          1489934991.0
         ]
       ]
     },
@@ -2238,7 +2238,7 @@
       0.98,
       0.29,
       -0.04,
-      null,
+      -0.74,
       null,
       null,
       null,
