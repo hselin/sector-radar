@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0293,
-  "change_pct": -0.33,
-  "insights": "The Utilities sector saw a modest decline today, falling by -0.33%. This slight negative movement is corroborated by key technical indicators. The Relative Strength Index (RSI) at 42.31 suggests a lack of strong buying pressure, while the Money Flow Index (MFI) at 35.91, well below the neutral 50-mark, indicates money is flowing out of the sector. While the On-Balance Volume (OBV) reflects cumulative volume pressure, its current level, alongside the subdued RSI and MFI readings, points to weakening momentum and a prevailing bearish sentiment accompanying today's small price contraction.",
+  "change_pct": -0.25,
+  "insights": "The Utilities sector experienced a slight decline today with a -0.25% change, indicating mild weakness. Technical indicators largely corroborate this subdued performance: the Relative Strength Index (RSI) at 40.92 suggests bearish momentum but is not yet oversold, while the Money Flow Index (MFI) at 28.04 more significantly signals a pronounced outflow of capital, nearing oversold territory and pointing to sustained selling interest. While the On-Balance Volume (OBV) of 277,720,347 provides a cumulative view of volume flow, the combination of a negative price movement and weak momentum and money flow suggests the sector currently lacks immediate buying conviction and remains under mild, persistent pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741219200000,
-        35.29
-      ],
       [
         1741305600000,
         44.01
@@ -747,13 +743,13 @@
       [
         1756771200000,
         42.31
+      ],
+      [
+        1756857600000,
+        40.92
       ]
     ],
     "mfi": [
-      [
-        1741219200000,
-        43.89
-      ],
       [
         1741305600000,
         45.67
@@ -1473,13 +1469,13 @@
       [
         1756771200000,
         35.91
+      ],
+      [
+        1756857600000,
+        28.04
       ]
     ],
     "obv": [
-      [
-        1741219200000,
-        120290900.0
-      ],
       [
         1741305600000,
         131908100.0
@@ -2199,6 +2195,10 @@
       [
         1756771200000,
         286348051.0
+      ],
+      [
+        1756857600000,
+        277720347.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     -0.65,
     0.49,
     -2.0,
-    -0.33,
+    -0.58,
     null,
     null,
     null,

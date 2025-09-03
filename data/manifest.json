@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-09-02T21:12:35.145817Z",
+  "lastUpdated": "2025-09-03T21:12:20.718829Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a modest decline of 0.74%, signaling a cautious sentiment among investors. Technical indicators present a mixed picture: The Relative Strength Index (RSI) at 52.82 suggests largely neutral momentum, sitting just above the 50-mark without signaling significant overbought or oversold conditions. However, the Money Flow Index (MFI) at 41.29 points to a slight bearish money flow, indicating more capital exiting the market than entering. Furthermore, the substantial On-Balance Volume (OBV) figure of 1,489,934,991, in conjunction with the day's decline, implies that the selling pressure was accompanied by significant conviction rather than just low-volume profit-taking. Collectively, these figures suggest underlying cautiousness and a potential weakening in near-term buying momentum, despite the relatively neutral RSI.",
-    "change_pct": -0.74,
+    "commentary": "The overall stock market registered a modest gain of 0.54% today, reflecting a generally positive sentiment. Technical indicators, however, offer a more nuanced perspective. The Relative Strength Index (RSI) at 56.47 suggests healthy bullish momentum without being overbought, indicating that the market has room to run higher while maintaining strength. Conversely, the Money Flow Index (MFI) at 41.93, sitting below the 50-mark, suggests that despite the price increase, buying pressure weighted by volume was not particularly robust, potentially hinting at underlying distribution or a lack of strong conviction behind the day's rally. The On-Balance Volume (OBV) at 1,559,363,182 represents a substantial cumulative buying volume that typically supports an uptrend; however, the MFI's current position suggests investors should monitor for potential weakness in the immediate strength of the rally, even with positive price action.",
+    "change_pct": 0.54,
     "technicalIndicators": {
       "rsi": [
-        [
-          1741219200000,
-          34.03
-        ],
         [
           1741305600000,
           36.98
@@ -747,13 +743,13 @@
         [
           1756771200000,
           52.82
+        ],
+        [
+          1756857600000,
+          56.47
         ]
       ],
       "mfi": [
-        [
-          1741219200000,
-          34.15
-        ],
         [
           1741305600000,
           29.13
@@ -1473,13 +1469,13 @@
         [
           1756771200000,
           41.29
+        ],
+        [
+          1756857600000,
+          41.93
         ]
       ],
       "obv": [
-        [
-          1741219200000,
-          1067444800.0
-        ],
         [
           1741305600000,
           1148603600.0
@@ -2199,6 +2195,10 @@
         [
           1756771200000,
           1489934991.0
+        ],
+        [
+          1756857600000,
+          1559363182.0
         ]
       ]
     },
@@ -2238,7 +2238,7 @@
       0.98,
       0.29,
       -0.04,
-      -0.74,
+      -0.2,
       null,
       null,
       null,
