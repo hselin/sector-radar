@@ -1,12 +1,12 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies primarily engaged in the production of software, hardware, and semiconductor equipment, alongside the provision of IT services and internet services.",
+    "description": "The Information Technology sector includes companies involved in the production of software, hardware, semiconductors, and the provision of IT services, encompassing diverse technologies from enterprise software to data processing.",
     "marketSizeUSD": "14.5T",
-    "constituentCount": 66,
+    "constituentCount": 67,
     "topHoldings": [
       {
-        "name": "Microsoft Corp.",
+        "name": "Microsoft Corporation",
         "symbol": "MSFT"
       },
       {
@@ -14,20 +14,16 @@
         "symbol": "AAPL"
       },
       {
-        "name": "NVIDIA Corp.",
+        "name": "NVIDIA Corporation",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.2651,
-  "change_pct": 0.49,
-  "insights": "The Information Technology sector posted a modest gain of 0.49% today. Technical indicators suggest this upward movement was supported but not overheated: the RSI at 51.48 indicates neutral momentum, well within healthy bounds and not signaling overbought conditions. Concurrently, the MFI at 58.66 points to positive money flow into the sector, suggesting buying interest, while the robust OBV reading further confirms that today's price appreciation was backed by healthy volume, lending credibility to the day's positive close.",
+  "market_weight": 0.295,
+  "change_pct": 0.08,
+  "insights": "The Information Technology sector posted a marginal gain of 0.08% today, suggesting a largely neutral price movement. However, underlying technical indicators point to some accumulation interest. The Relative Strength Index (RSI) at 51.90 is in neutral territory, slightly favoring buyers, while the Money Flow Index (MFI) at 68.58 indicates notable capital inflow and buying pressure, suggesting investors are putting money into the sector despite the modest daily price change. The On-Balance Volume (OBV) level further corroborates this, reflecting a cumulative buying interest that could precede more significant moves.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -747,13 +743,13 @@
       [
         1756944000000,
         51.48
+      ],
+      [
+        1757030400000,
+        51.9
       ]
     ],
     "mfi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756944000000,
         58.66
+      ],
+      [
+        1757030400000,
+        68.58
       ]
     ],
     "obv": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756944000000,
         237268883.0
+      ],
+      [
+        1757030400000,
+        256523331.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     -0.08,
     -1.23,
     0.01,
-    0.07,
+    0.16,
     null,
     null,
     null,

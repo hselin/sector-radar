@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and distribute essential products and services, such as food, beverages, household goods, and tobacco, which are generally non-cyclical and in constant demand.",
-    "marketSizeUSD": "3.0T",
+    "description": "The Consumer Staples sector comprises companies that manufacture and sell essential products and services, such as food, beverages, tobacco, and household and personal products, which consumers purchase regardless of economic conditions.",
+    "marketSizeUSD": "4.4T",
     "constituentCount": 34,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0548,
-  "change_pct": 0.06,
-  "insights": "The Consumer Staples sector posted a largely flat performance today with a minimal 0.06% gain. Key technical indicators offer a nuanced view: The Relative Strength Index (RSI) at 43.48 suggests that underlying momentum remains somewhat subdued, residing below the neutral 50-mark. However, the Money Flow Index (MFI) at 55.83 indicates a net inflow of capital, possibly reflecting continued allocation to defensive assets despite the lack of strong upward price pressure. The On-Balance Volume (OBV) at 19,516,400, when considered with the negligible price change, implies that while some volume was present, it wasn't indicative of a strong directional conviction, aligning with the sector's typical lower volatility.",
+  "market_weight": 0.0895,
+  "change_pct": 0.29,
+  "insights": "The Consumer Staples sector saw a modest 0.29% gain today. While its Relative Strength Index (RSI) at 45.92 indicates neutral momentum, leaning slightly bearish, the Money Flow Index (MFI) at 62.82 points to a healthy inflow of capital. This, coupled with the rising On-Balance Volume (OBV) (implied by the positive price action), confirms underlying buying interest. This suggests a defensive yet steady accumulation within the sector, despite the day's restrained overall price movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -747,13 +743,13 @@
       [
         1756944000000,
         43.48
+      ],
+      [
+        1757030400000,
+        45.92
       ]
     ],
     "mfi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756944000000,
         55.83
+      ],
+      [
+        1757030400000,
+        62.82
       ]
     ],
     "obv": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756944000000,
         19516400.0
+      ],
+      [
+        1757030400000,
+        40168027.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     -0.56,
     0.55,
     -2.05,
-    -0.17,
+    0.11,
     null,
     null,
     null,

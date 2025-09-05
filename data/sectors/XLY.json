@@ -1,33 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises industries most sensitive to economic cycles, offering non-essential goods and services such as retail (excluding food), automotive, hotels, restaurants, and leisure.",
-    "marketSizeUSD": "6.8T",
-    "constituentCount": 57,
+    "description": "The Consumer Discretionary sector includes companies that sell non-essential goods and services, whose demand is sensitive to economic cycles and consumer spending power, encompassing retail, automotive, hotels, restaurants, and leisure.",
+    "marketSizeUSD": "5.2T",
+    "constituentCount": 55,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc.",
+        "name": "Amazon.com, Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc.",
+        "name": "Tesla, Inc.",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot Inc.",
+        "name": "The Home Depot, Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1243,
-  "change_pct": 1.83,
-  "insights": "The Consumer Discretionary sector demonstrated strong performance today, gaining a notable 1.83%. This robust daily movement is supported by its key technical indicators: The Relative Strength Index (RSI) at 64.54 indicates significant buying momentum without yet entering overbought territory, suggesting room for further upside. Concurrently, the Money Flow Index (MFI) at 65.55 confirms this strength, showing substantial capital inflow into the sector. Finally, the On-Balance Volume (OBV) of 51615827, in context of the price rise, signals that this upward movement was accompanied by strong buying volume. Overall, the sector closed with decidedly bullish sentiment, underpinned by strong momentum and confirmed volume.",
+  "market_weight": 0.1058,
+  "change_pct": -0.02,
+  "insights": "The Consumer Discretionary sector experienced a largely flat day, recording a negligible decline of -0.02%. Despite this minor pullback, key technical indicators suggest underlying strength and recent bullish momentum. The Relative Strength Index (RSI) at 64.40 indicates robust buying interest, not yet in overbought territory but well above the neutral 50-mark. Concurrently, the Money Flow Index (MFI) at 69.49 points to significant capital inflow into the sector, approaching an overbought condition. The On-Balance Volume (OBV) at 36,132,215, while specific interpretation requires historical comparison, generally aligns with the positive momentum suggested by the other indicators, suggesting accumulation persists despite today's negligible movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -747,13 +743,13 @@
       [
         1756944000000,
         64.54
+      ],
+      [
+        1757030400000,
+        64.4
       ]
     ],
     "mfi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756944000000,
         65.55
+      ],
+      [
+        1757030400000,
+        69.49
       ]
     ],
     "obv": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756944000000,
         51615827.0
+      ],
+      [
+        1757030400000,
+        36132215.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     2.35,
     1.77,
     -0.58,
-    1.48,
+    1.45,
     null,
     null,
     null,

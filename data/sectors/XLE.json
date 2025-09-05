@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, and marketing of oil and gas products, as well as those providing equipment and services to the energy industry.",
-    "marketSizeUSD": "1.7T",
+    "description": "The Energy sector encompasses companies primarily involved in the exploration, production, refining, marketing, storage, and transportation of oil and gas, as well as those engaged in coal, biofuels, and renewable energy sources.",
+    "marketSizeUSD": "1.9T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0311,
-  "change_pct": 0.67,
-  "insights": "The Energy sector recorded a positive daily performance, rising 0.67%. This modest gain is supported by its key technical indicators: the Relative Strength Index (RSI) at 59.01 and Money Flow Index (MFI) at 62.90 both indicate healthy buying momentum and positive money flow into the sector, without reaching overbought levels. The On-Balance Volume (OBV) at 447,229,543, reflecting cumulative buying pressure, likely saw an increase today, further reinforcing the presence of demand accompanying the sector's upward movement.",
+  "market_weight": 0.0387,
+  "change_pct": -1.93,
+  "insights": "The Energy sector experienced a notable decline today, posting a -1.93% drop that signifies significant daily selling pressure. Key technical indicators offer a nuanced perspective on this movement: The Relative Strength Index (RSI) at 49.50, positioned neutrally just below the 50-mark, suggests that while today's drop was substantial, the sector is not yet in an oversold condition, indicating potential for further movement in either direction without immediate strong reversal signals. The Money Flow Index (MFI) at 52.60, remaining slightly above 50, implies that despite the price depreciation, the volume-weighted money flow has not turned decisively bearish on a broader timeframe, or that today's selling wasn't accompanied by overwhelming volume relative to recent trends. Finally, the On-Balance Volume (OBV) would have decreased today due to the price decline, affirming the selling momentum observed in the sector for this specific trading session.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -747,13 +743,13 @@
       [
         1756944000000,
         59.01
+      ],
+      [
+        1757030400000,
+        49.5
       ]
     ],
     "mfi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756944000000,
         62.9
+      ],
+      [
+        1757030400000,
+        52.6
       ]
     ],
     "obv": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756944000000,
         447229543.0
+      ],
+      [
+        1757030400000,
+        423146183.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     0.74,
     3.02,
     2.55,
-    -1.45,
+    -3.35,
     null,
     null,
     null,

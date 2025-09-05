@@ -1,17 +1,17 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector comprises companies that provide medical services, manufacture medical equipment or drugs, or provide other health care-related services.",
-    "marketSizeUSD": "6.8T",
-    "constituentCount": 64,
+    "description": "The Health Care GICS sector includes companies involved in the provision of healthcare services, the manufacture of pharmaceuticals, biotechnology products, and medical equipment, as well as the operation of healthcare facilities.",
+    "marketSizeUSD": "4.7T",
+    "constituentCount": 68,
     "topHoldings": [
+      {
+        "name": "UnitedHealth Group Incorporated",
+        "symbol": "UNH"
+      },
       {
         "name": "Eli Lilly and Company",
         "symbol": "LLY"
-      },
-      {
-        "name": "UnitedHealth Group",
-        "symbol": "UNH"
       },
       {
         "name": "Johnson & Johnson",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1243,
-  "change_pct": 0.38,
-  "insights": "Today, the Health Care sector experienced a modest gain of 0.38%. Technical indicators present a mixed outlook: The Relative Strength Index (RSI) at 57.97 indicates positive momentum and sustained buying interest, with room for further appreciation before reaching overbought territory. However, the Money Flow Index (MFI) at 72.52 suggests a strong inflow of capital, nearing overbought conditions and potentially signaling short-term overextension. Concurrently, the On-Balance Volume (OBV) at -60,028,548 points to a cumulative prevalence of selling volume over its tracking period, indicating underlying selling pressure despite today's positive price movement. This combination suggests the sector is benefiting from strong recent buying interest, but faces potential short-term exhaustion and a longer-term trend of net selling volume.",
+  "market_weight": 0.0956,
+  "change_pct": 0.34,
+  "insights": "The Health Care sector recorded a modest gain of 0.34% today, reflecting a generally positive session. Technical indicators present a nuanced view: the Relative Strength Index (RSI) at 59.58 suggests healthy momentum without being overbought, indicating there may still be room for upward movement. The Money Flow Index (MFI) at 72.67, however, points to strong buying interest and significant capital inflow, nearing overbought conditions which could precede a consolidation. Conversely, the notably negative On-Balance Volume (OBV) of -45,367,053, despite today's price increase, suggests that cumulative buying volume has not overcome recent selling pressure, potentially indicating that the current upward movement lacks robust, broad-based volume support.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -747,13 +743,13 @@
       [
         1756944000000,
         57.97
+      ],
+      [
+        1757030400000,
+        59.58
       ]
     ],
     "mfi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756944000000,
         72.52
+      ],
+      [
+        1757030400000,
+        72.67
       ]
     ],
     "obv": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756944000000,
         -60028548.0
+      ],
+      [
+        1757030400000,
+        -45367053.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     4.65,
     1.44,
     -0.54,
-    -0.0,
+    0.34,
     null,
     null,
     null,

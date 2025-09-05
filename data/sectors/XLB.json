@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector comprises companies engaged in the manufacturing, processing, and distribution of raw materials, including chemicals, construction materials, metals, mining, paper, and forest products.",
-    "marketSizeUSD": "1.8T",
+    "description": "The Materials sector encompasses companies involved in discovering, developing, and processing raw materials, including those in chemicals, construction materials, metals & mining, paper & forest products, and packaging.",
+    "marketSizeUSD": "0.75T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0329,
-  "change_pct": 0.38,
-  "insights": "The Materials sector posted a modest gain of 0.38% today, indicating slight positive momentum. Technical indicators largely support this upward movement: the Relative Strength Index (RSI) at 54.72 and Money Flow Index (MFI) at 57.99 both reside above the neutral 50-mark, suggesting a healthy, albeit moderate, level of buying pressure and capital inflow into the sector. Neither indicator signals overbought conditions, leaving room for potential continued upside without immediate reversal concerns. Furthermore, the On-Balance Volume (OBV) reading of 10979303, with today's positive price action, confirms that buying volume is supporting the price increase. In summary, the sector experienced a controlled upward movement, supported by positive momentum and healthy, non-extreme money flow.",
+  "market_weight": 0.0153,
+  "change_pct": 0.7,
+  "insights": "The Materials sector posted a modest gain of 0.70% today, reflecting positive underlying momentum. Technical indicators corroborate this positive movement: with the RSI at 58.26 and MFI at 57.80, both indicators are firmly in bullish territory above 50, signaling positive money flow and underlying buying interest. The significant OBV of 18,505,465, likely boosted by today's positive volume, suggests that the price appreciation is being supported by sustained accumulation. Collectively, these metrics suggest healthy, sustained momentum without yet indicating an overbought condition.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -747,13 +743,13 @@
       [
         1756944000000,
         54.72
+      ],
+      [
+        1757030400000,
+        58.26
       ]
     ],
     "mfi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756944000000,
         57.99
+      ],
+      [
+        1757030400000,
+        57.8
       ]
     ],
     "obv": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756944000000,
         10979303.0
+      ],
+      [
+        1757030400000,
+        18505465.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     1.9,
     2.39,
     0.11,
-    -1.04,
+    -0.35,
     null,
     null,
     null,

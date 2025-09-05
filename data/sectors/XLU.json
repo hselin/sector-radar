@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector comprises companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, including multi-utility providers and independent power producers.",
-    "marketSizeUSD": "1.6T",
-    "constituentCount": 31,
+    "description": "The Utilities sector comprises companies providing essential services such as electricity, natural gas, water, and wastewater management.",
+    "marketSizeUSD": "1.3T",
+    "constituentCount": 30,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0293,
-  "change_pct": -0.12,
-  "insights": "The Utilities sector concluded the day with a marginal decline of 0.12%, reflecting largely flat performance. Technical indicators suggest a lack of strong conviction: the Relative Strength Index (RSI) at 40.24 and Money Flow Index (MFI) at 36.04 are both in the lower end of their neutral ranges, indicating slight downward momentum and a modest net outflow of capital without nearing oversold conditions. While the On-Balance Volume (OBV) at 266,542,750 reflects historical accumulation, its current level in conjunction with today's slight price dip and the momentum indicators suggests that buying pressure was insufficient to drive gains, reinforcing the sector's current sideways to slightly negative trend.",
+  "market_weight": 0.0264,
+  "change_pct": -0.31,
+  "insights": "The Utilities sector saw a modest decline today, posting a -0.31% change. This slight downturn aligns with bearish signals from its key technical indicators. The Relative Strength Index (RSI) at 38.45 and the Money Flow Index (MFI) at 36.49 both sit below the neutral 50-mark, suggesting a lack of strong buying momentum and an increasing tendency towards oversold conditions, with money flowing out of the sector. While On-Balance Volume (OBV) at 253,042,937 reflects cumulative volume activity, the subdued momentum indicated by RSI and MFI, alongside the day's price dip, collectively point to selling pressure marginally outweighing buying interest, reinforcing the negative daily performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -747,13 +743,13 @@
       [
         1756944000000,
         40.24
+      ],
+      [
+        1757030400000,
+        38.45
       ]
     ],
     "mfi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756944000000,
         36.04
+      ],
+      [
+        1757030400000,
+        36.49
       ]
     ],
     "obv": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756944000000,
         266542750.0
+      ],
+      [
+        1757030400000,
+        253042937.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     -0.65,
     0.49,
     -2.0,
-    -0.7,
+    -1.01,
     null,
     null,
     null,

@@ -1,33 +1,29 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector encompasses companies that provide telecommunications services, entertainment, and interactive media services.",
-    "marketSizeUSD": "7.0T",
+    "description": "The Communication Services sector includes companies that provide wired and wireless telecommunication services, as well as companies involved in media, entertainment, and interactive media and services.",
+    "marketSizeUSD": "4.7T",
     "constituentCount": 23,
     "topHoldings": [
       {
-        "name": "Alphabet Inc. (Class A)",
+        "name": "Alphabet Inc. Class A",
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms, Inc.",
-        "symbol": "META"
+        "name": "Alphabet Inc. Class C",
+        "symbol": "GOOG"
       },
       {
-        "name": "Netflix, Inc.",
-        "symbol": "NFLX"
+        "name": "Meta Platforms Inc.",
+        "symbol": "META"
       }
     ]
   },
-  "market_weight": 0.128,
-  "change_pct": 0.9,
-  "insights": "The Communication Services sector advanced a solid 0.90% today, reflecting robust positive momentum. This daily surge propelled its Relative Strength Index (RSI) to 72.06, indicating the sector is now in short-term overbought territory. While this confirms significant buying pressure, it also suggests potential for a near-term consolidation or pullback. The Money Flow Index (MFI) at 55.28 supports this positive price action with healthy, though not extreme, money inflow. Finally, the substantial On-Balance Volume (OBV) of 294,011,958 further validates today's gains by confirming continued accumulation on rising prices.",
+  "market_weight": 0.0956,
+  "change_pct": 0.53,
+  "insights": "The Communication Services sector posted a modest gain of 0.53% today, indicating positive sentiment. However, its Relative Strength Index (RSI) at 73.86 suggests the sector is in overbought territory, signaling strong recent buying pressure that could imply a potential for near-term consolidation or pullback. Complementing this, the Money Flow Index (MFI) at 55.24 confirms a net inflow of capital into the sector, supporting the price increase without reaching extreme overbought levels. Finally, the significant On-Balance Volume (OBV) of 299,334,695, likely seeing an increase with today's positive price action, generally confirms that the upward movement was supported by genuine buying volume, albeit with an elevated RSI warranting caution.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -747,13 +743,13 @@
       [
         1756944000000,
         72.06
+      ],
+      [
+        1757030400000,
+        73.86
       ]
     ],
     "mfi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756944000000,
         55.28
+      ],
+      [
+        1757030400000,
+        55.24
       ]
     ],
     "obv": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756944000000,
         294011958.0
+      ],
+      [
+        1757030400000,
+        299334695.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     3.58,
     -0.15,
     0.07,
-    2.41,
+    2.96,
     null,
     null,
     null,

@@ -1,33 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector comprises companies primarily engaged in the ownership, development, and management of income-generating real estate, including REITs and real estate management and development companies.",
-    "marketSizeUSD": "1.3T",
+    "description": "The Real Estate sector comprises companies primarily engaged in the ownership, development, and management of income-generating real estate, including equity Real Estate Investment Trusts (REITs) and real estate management & development firms, but excluding mortgage REITs.",
+    "marketSizeUSD": "1.0T",
     "constituentCount": 31,
     "topHoldings": [
       {
-        "name": "Prologis Inc",
+        "name": "Prologis, Inc.",
         "symbol": "PLD"
       },
       {
-        "name": "American Tower Corp",
-        "symbol": "AMT"
+        "name": "Equinix, Inc.",
+        "symbol": "EQIX"
       },
       {
-        "name": "Equinix Inc",
-        "symbol": "EQIX"
+        "name": "American Tower Corporation",
+        "symbol": "AMT"
       }
     ]
   },
-  "market_weight": 0.0238,
-  "change_pct": 0.68,
-  "insights": "The Real Estate sector concluded the day with a modest gain of 0.68%, reflecting a tentative positive movement. Underlying this, key technical indicators suggest a largely neutral market sentiment. The Relative Strength Index (RSI) at 49.94 and the Money Flow Index (MFI) at 52.01 both hover around their respective midpoints (50). This indicates a balanced state, with neither significant overbought/oversold conditions nor strong money inflow/outflow supporting a pronounced trend, suggesting the upward movement lacked strong conviction. The On-Balance Volume (OBV) at 82,925,673 represents cumulative buying/selling pressure; while its absolute value is noted, its daily change and trend over time are crucial for validating price movements, and given the neutral momentum, it suggests no overwhelming volume support behind today's incremental rise.",
+  "market_weight": 0.0203,
+  "change_pct": 1.01,
+  "insights": "The Real Estate sector demonstrated a positive performance today, advancing by 1.01%. Technical indicators suggest a cautiously optimistic outlook. The Relative Strength Index (RSI) at 54.90 and the Money Flow Index (MFI) at 51.85 both reside slightly above their neutral 50 levels, indicating a mild but present buying momentum and positive money flow into the sector without showing signs of being overbought. Concurrently, the On-Balance Volume (OBV) at 88,223,471, in conjunction with the day's price increase, points to underlying accumulation and supportive buying pressure driving the positive movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -747,13 +743,13 @@
       [
         1756944000000,
         49.94
+      ],
+      [
+        1757030400000,
+        54.9
       ]
     ],
     "mfi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756944000000,
         52.01
+      ],
+      [
+        1757030400000,
+        51.85
       ]
     ],
     "obv": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756944000000,
         82925673.0
+      ],
+      [
+        1757030400000,
+        88223471.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     0.19,
     2.44,
     -0.07,
-    -1.3,
+    -0.31,
     null,
     null,
     null,

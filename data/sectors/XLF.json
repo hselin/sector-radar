@@ -1,12 +1,12 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector comprises companies engaged in a wide range of financial activities, including banking, insurance, diversified financial services, and capital markets.",
-    "marketSizeUSD": "5.0T",
-    "constituentCount": 68,
+    "description": "The Financials sector encompasses companies engaged in banking, diversified financial services, insurance, and capital markets, providing a wide array of monetary, investment, and risk management services.",
+    "marketSizeUSD": "6.5T",
+    "constituentCount": 73,
     "topHoldings": [
       {
-        "name": "Berkshire Hathaway Inc. Class B",
+        "name": "Berkshire Hathaway Inc.",
         "symbol": "BRK.B"
       },
       {
@@ -14,20 +14,16 @@
         "symbol": "JPM"
       },
       {
-        "name": "Visa Inc. Class A",
+        "name": "Visa Inc.",
         "symbol": "V"
       }
     ]
   },
-  "market_weight": 0.0914,
-  "change_pct": 1.05,
-  "insights": "The Financials sector demonstrated solid performance today, posting a notable gain of 1.05%. This upward movement is supported by key technical indicators, with the Relative Strength Index (RSI) at 62.72 and the Money Flow Index (MFI) at 58.14. Both indicators suggest positive buying momentum is present, yet neither has reached overbought territory, indicating potential for further upside without immediate reversal concerns. The On-Balance Volume (OBV) at 1,249,890,697 further confirms that this price appreciation was accompanied by healthy volume, reinforcing the day's positive action.",
+  "market_weight": 0.1322,
+  "change_pct": -1.83,
+  "insights": "The Financials sector experienced a notable decline today, dropping 1.83%, signaling a bearish session. Despite this significant daily retreat, key technical indicators suggest the selling pressure, while present, hasn't yet reached extreme levels that would indicate panic or oversold conditions. The Relative Strength Index (RSI) at 50.55 and the Money Flow Index (MFI) at 56.60 both reside in the neutral, mid-range territory, implying that the sector is neither significantly overbought nor oversold. This suggests there might be further room for movement in either direction, and the day's selling wasn't exhaustive. While On-Balance Volume (OBV) at 1,191,545,754 indicates the cumulative volume over time, on a down day, a decline in OBV from the previous close would typically confirm selling pressure by showing that volume was predominantly associated with downward price movements.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -747,13 +743,13 @@
       [
         1756944000000,
         62.72
+      ],
+      [
+        1757030400000,
+        50.55
       ]
     ],
     "mfi": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1756944000000,
         58.14
+      ],
+      [
+        1757030400000,
+        56.6
       ]
     ],
     "obv": [
-      [
-        1741392000000,
-        null
-      ],
       [
         1741478400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1756944000000,
         1249890697.0
+      ],
+      [
+        1757030400000,
+        1191545754.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     1.18,
     2.12,
     0.78,
-    0.13,
+    -1.7,
     null,
     null,
     null,
