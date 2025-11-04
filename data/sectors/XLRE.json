@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0289,
-  "change_pct": -0.2,
-  "insights": "The Real Estate sector experienced a marginal decline today, closing down -0.20%. This modest daily dip is corroborated by key technical indicators: the Relative Strength Index (RSI) at 38.66 and the Money Flow Index (MFI) at 40.04. Both values, sitting below the 50-level, indicate weakening buying momentum and a net outflow of capital for the day, respectively, reinforcing the prevailing bearish sentiment. While not yet signaling an oversold condition, these readings suggest that buying interest was subdued. The On-Balance Volume (OBV) stands at 40978584, and given the negative price movement and weak momentum indicators, it implies that volume was insufficient to support any upward price action.",
+  "change_pct": 0.31,
+  "insights": "The Real Estate sector posted a modest gain of 0.31% today, indicating a slight positive daily movement. However, underlying technical indicators suggest caution: the Relative Strength Index (RSI) at 40.61 and the Money Flow Index (MFI) at 40.36 both remain below the neutral 50-mark. This indicates that despite today's slight price increase, the sector is not experiencing strong buying momentum or significant money inflow, pointing to underlying weakness or a lack of conviction from investors. While the On-Balance Volume (OBV) at 49,287,255 would have increased with the positive price action, supporting the day's modest advance, the momentum indicators suggest this gain might lack robust, volume-backed conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1746576000000,
-        56.76
-      ],
       [
         1746662400000,
         54.54
@@ -747,13 +743,13 @@
       [
         1762128000000,
         38.66
+      ],
+      [
+        1762214400000,
+        40.61
       ]
     ],
     "mfi": [
-      [
-        1746576000000,
-        70.18
-      ],
       [
         1746662400000,
         63.74
@@ -1473,13 +1469,13 @@
       [
         1762128000000,
         40.04
+      ],
+      [
+        1762214400000,
+        40.36
       ]
     ],
     "obv": [
-      [
-        1746576000000,
-        71577100.0
-      ],
       [
         1746662400000,
         67736100.0
@@ -2199,6 +2195,10 @@
       [
         1762128000000,
         40978584.0
+      ],
+      [
+        1762214400000,
+        49287255.0
       ]
     ]
   },
@@ -2247,7 +2247,7 @@
     3.34,
     1.45,
     -4.1,
-    -0.2,
+    0.11,
     null,
     null,
     null,

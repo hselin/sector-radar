@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-03T21:13:22.007542Z",
+  "lastUpdated": "2025-11-04T21:13:56.886728Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index comprising 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Today, the stock market posted a modest gain of 0.19%, indicating a positive but measured session. Technical indicators suggest underlying strength and healthy momentum: the Relative Strength Index (RSI) at 62.26 and the Money Flow Index (MFI) at 66.46 are both well above the neutral 50-mark, signaling strong buying pressure and significant capital inflows into the market without yet entering overbought territory. The On-Balance Volume (OBV) at 2,163,570,410 further corroborates this, implying that the day's positive movement was supported by substantial volume, confirming broad participation and conviction behind the gains. Collectively, these figures point to a market sentiment that is firmly bullish, with momentum driven by genuine demand rather than speculative exuberance.",
-    "change_pct": 0.19,
+    "commentary": "The stock market experienced a notable downturn today, closing down 1.17%, reflecting broad selling pressure across the board. However, key technical indicators suggest a more nuanced picture of underlying sentiment and momentum. The Relative Strength Index (RSI) at 53.37 remains in neutral territory, not indicating deeply oversold conditions despite the daily dip, which suggests that the broader trend may not be severely broken by this single session. Furthermore, the Money Flow Index (MFI) at 59.40 signals that there is still a moderate level of money flowing into the market, implying some resilient buying interest or a lack of aggressive capitulation by longer-term investors. The substantial On-Balance Volume (OBV) figure underscores significant cumulative trading engagement. Overall, while today's price action was clearly negative, these indicators collectively hint at potentially underlying support and a lack of panic-driven selling, suggesting a degree of resilience beneath the surface.",
+    "change_pct": -1.17,
     "technicalIndicators": {
       "rsi": [
-        [
-          1746576000000,
-          55.91
-        ],
         [
           1746662400000,
           57.72
@@ -747,13 +743,13 @@
         [
           1762128000000,
           62.26
+        ],
+        [
+          1762214400000,
+          53.37
         ]
       ],
       "mfi": [
-        [
-          1746576000000,
-          63.57
-        ],
         [
           1746662400000,
           71.89
@@ -1473,13 +1469,13 @@
         [
           1762128000000,
           66.46
+        ],
+        [
+          1762214400000,
+          59.4
         ]
       ],
       "obv": [
-        [
-          1746576000000,
-          1001592000.0
-        ],
         [
           1746662400000,
           1066722800.0
@@ -2199,6 +2195,10 @@
         [
           1762128000000,
           2163570410.0
+        ],
+        [
+          1762214400000,
+          2093909696.0
         ]
       ]
     },
@@ -2247,7 +2247,7 @@
       1.74,
       1.94,
       0.71,
-      0.19,
+      -0.98,
       null,
       null,
       null,
