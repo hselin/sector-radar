@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-05T21:12:53.700772Z",
+  "lastUpdated": "2025-11-06T21:13:00.284038Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index comprising 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market registered a modest gain today, closing up 0.32%, reflecting cautious optimism among investors. Technical indicators paint a picture of building positive momentum: the Relative Strength Index (RSI) at 55.24 suggests a balanced market without immediate overbought or oversold concerns, allowing for potential continued upward movement. More notably, the Money Flow Index (MFI) at 68.47 is notably strong, nearing the overbought threshold and indicating robust money flow into equities, signaling heightened buying interest. While On-Balance Volume (OBV) is an absolute number, its positive reading in conjunction with the price increase confirms that today's gains were supported by volume, lending credibility to the upward move. Combined, these metrics suggest an increasingly positive market sentiment with underlying momentum building, yet remaining largely within healthy technical bounds for now.",
-    "change_pct": 0.32,
+    "commentary": "The overall stock market experienced a moderate pullback today, closing down 1.08%. Technical indicators suggest a mixed picture regarding market sentiment and momentum. The Relative Strength Index (RSI) at 48.22 indicates that while selling pressure has pushed momentum below the neutral 50-mark, the market is not yet in deeply oversold territory, suggesting potential for further price adjustments or consolidation. Conversely, the Money Flow Index (MFI) at 60.15, which incorporates volume, suggests that despite today's dip, there remains a relatively healthy influx of capital on a volume-weighted basis over its measurement period, potentially reflecting underlying buying interest or a lack of aggressive capitulation. The On-Balance Volume (OBV) at 2,082,091,087 reflects substantial cumulative buying pressure historically; its trend relative to today's price action would be crucial to determine if current selling is backed by strong conviction or simply short-term profit-taking.",
+    "change_pct": -1.08,
     "technicalIndicators": {
       "rsi": [
-        [
-          1746748800000,
-          57.25
-        ],
         [
           1746835200000,
           null
@@ -747,13 +743,13 @@
         [
           1762300800000,
           55.24
+        ],
+        [
+          1762387200000,
+          48.22
         ]
       ],
       "mfi": [
-        [
-          1746748800000,
-          74.11
-        ],
         [
           1746835200000,
           null
@@ -1473,13 +1469,13 @@
         [
           1762300800000,
           68.47
+        ],
+        [
+          1762387200000,
+          60.15
         ]
       ],
       "obv": [
-        [
-          1746748800000,
-          1029119400.0
-        ],
         [
           1746835200000,
           null
@@ -2199,6 +2195,10 @@
         [
           1762300800000,
           2157313572.0
+        ],
+        [
+          1762387200000,
+          2082091087.0
         ]
       ]
     },
@@ -2247,7 +2247,7 @@
       1.74,
       1.94,
       0.71,
-      -0.66,
+      -1.73,
       null,
       null,
       null,
