@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy GICS sector includes companies primarily engaged in the exploration, production, refining, marketing, storage, and transportation of oil and gas, as well as coal and other consumable fuels.",
-    "marketSizeUSD": "2.1T",
+    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, coal, and consumable fuels, as well as those providing energy equipment and services.",
+    "marketSizeUSD": "2.0T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0419,
-  "change_pct": 1.45,
-  "insights": "The Energy sector exhibited a strong performance today, increasing by 1.45%, indicating a positive sentiment and buying interest. Key technical indicators support this upward movement: the Relative Strength Index (RSI) at 58.39 suggests healthy bullish momentum without being overbought, implying potential for continued upside. Concurrently, the Money Flow Index (MFI) at 65.07 indicates significant capital is flowing into the sector, validating the price appreciation with robust volume. The On-Balance Volume (OBV) at 502,246,028 further confirms that buying volume largely outweighed selling volume, aligning with and reinforcing the sector's positive daily gain.",
+  "market_weight": 0.0383,
+  "change_pct": 0.94,
+  "insights": "The Energy sector posted a solid performance today, gaining 0.94%, indicating positive momentum. This upward movement is corroborated by its key technical indicators: the Relative Strength Index (RSI) at 61.76 and the Money Flow Index (MFI) at 65.62. Both suggest strong buying pressure and significant money flowing into the sector, indicating increasing bullish sentiment without yet reaching overbought conditions. The high On-Balance Volume (OBV) of 517,700,106, likely having increased today, further validates the price appreciation with corresponding volume, lending conviction to the sector's daily gains.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1746921600000,
-        null
-      ],
-      [
-        1747008000000,
-        55.78
-      ],
-      [
-        1747094400000,
-        58.83
-      ],
       [
         1747180800000,
         56.98
@@ -747,21 +735,21 @@
       [
         1762473600000,
         58.39
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        67.0
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        65.86
-      ],
+        1762732800000,
+        61.76
+      ]
+    ],
+    "mfi": [
       [
         1747180800000,
         59.94
@@ -1473,21 +1461,21 @@
       [
         1762473600000,
         65.07
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        404429200.0
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        418945000.0
-      ],
+        1762732800000,
+        65.62
+      ]
+    ],
+    "obv": [
       [
         1747180800000,
         408278700.0
@@ -2199,6 +2187,18 @@
       [
         1762473600000,
         502246028.0
+      ],
+      [
+        1762560000000,
+        null
+      ],
+      [
+        1762646400000,
+        null
+      ],
+      [
+        1762732800000,
+        517700106.0
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     2.43,
     0.07,
     1.59,
-    null,
+    0.94,
     null,
     null,
     null,

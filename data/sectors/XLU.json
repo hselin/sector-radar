@@ -1,41 +1,29 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector includes companies that generate, transmit, and distribute electricity, natural gas, and water, along with multi-utility companies and independent power producers.",
-    "marketSizeUSD": "1.6T",
-    "constituentCount": 30,
+    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, along with multi-utilities and independent power producers.",
+    "marketSizeUSD": "1.5T",
+    "constituentCount": 29,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
         "symbol": "NEE"
       },
       {
-        "name": "Duke Energy Corporation",
-        "symbol": "DUK"
-      },
-      {
         "name": "The Southern Company",
         "symbol": "SO"
+      },
+      {
+        "name": "Duke Energy Corporation",
+        "symbol": "DUK"
       }
     ]
   },
-  "market_weight": 0.0319,
-  "change_pct": 1.37,
-  "insights": "The Utilities sector posted a strong performance today with a 1.37% gain. Examining key technical indicators, the Relative Strength Index (RSI) at 52.14 suggests healthy momentum that is not yet overbought, indicating room for potential further appreciation. However, the Money Flow Index (MFI) at a notably low 22.12 indicates that despite the price increase, the *underlying money flow* into the sector remains subdued, bordering on oversold conditions, suggesting that the rally might not yet be backed by strong institutional buying conviction. The On-Balance Volume (OBV) registered a positive contribution, generally confirming the upward price movement with accompanying volume, but the low MFI warrants close observation to confirm sustained bullish momentum.",
+  "market_weight": 0.0287,
+  "change_pct": -0.03,
+  "insights": "The Utilities sector experienced a largely flat trading session today, registering a negligible decline of -0.03%. Technical indicators offer a nuanced view: the Relative Strength Index (RSI) at 51.91 places the sector in neutral territory, indicating no strong overbought or oversold conditions. However, the Money Flow Index (MFI) at a notably low 28.99 suggests that money is flowing out of the sector, signaling a lack of buying interest or increasing selling pressure despite the minimal price change. While On-Balance Volume (OBV) shows a substantial cumulative volume, implying historical buying pressure, its combination with today's slight dip and the low MFI suggests that current demand for Utilities was subdued during the session.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1746921600000,
-        null
-      ],
-      [
-        1747008000000,
-        56.06
-      ],
-      [
-        1747094400000,
-        55.32
-      ],
       [
         1747180800000,
         52.94
@@ -747,21 +735,21 @@
       [
         1762473600000,
         52.14
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        49.08
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        38.9
-      ],
+        1762732800000,
+        51.91
+      ]
+    ],
+    "mfi": [
       [
         1747180800000,
         37.98
@@ -1473,21 +1461,21 @@
       [
         1762473600000,
         22.12
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        123443400.0
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        111411400.0
-      ],
+        1762732800000,
+        28.99
+      ]
+    ],
+    "obv": [
       [
         1747180800000,
         99955100.0
@@ -2199,6 +2187,18 @@
       [
         1762473600000,
         348554156.0
+      ],
+      [
+        1762560000000,
+        null
+      ],
+      [
+        1762646400000,
+        null
+      ],
+      [
+        1762732800000,
+        339619885.0
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     -0.2,
     -2.51,
     0.66,
-    null,
+    -0.03,
     null,
     null,
     null,

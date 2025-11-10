@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-09T21:12:28.832788Z",
+  "lastUpdated": "2025-11-10T21:17:44.510701Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader stock market experienced a marginally positive day, ending up 0.11%, which suggests a period of consolidation rather than a strong directional move. Key technical indicators reinforce this sentiment of equilibrium: The Relative Strength Index (RSI) at 48.88 sits squarely in neutral territory, indicating neither overbought nor oversold conditions and a lack of strong momentum. Similarly, the Money Flow Index (MFI) at 52.36 also points to balanced buying and selling pressure, as money is flowing into and out of the market without a clear net bias. While the On-Balance Volume (OBV) figure is substantial, without its prior trend, its current absolute value mainly signifies active trading; however, combined with the neutral RSI and MFI, it suggests this activity is largely without strong directional conviction. Collectively, these metrics paint a picture of a market lacking strong directional conviction, with sentiment appearing largely neutral and momentum stalled, implying investors are in a holding pattern.",
-    "change_pct": 0.11,
+    "commentary": "Today, the stock market demonstrated a robust performance, closing up 1.57%, indicating significant buying interest and a positive market outlook. Key technical indicators largely support this bullish sentiment; the Relative Strength Index (RSI) at 57.72 suggests healthy upward momentum without the market being excessively overbought, leaving room for further gains. Similarly, the Money Flow Index (MFI) at 53.18 indicates that capital is actively flowing into the market, reinforcing the presence of strong buying pressure. While the On-Balance Volume (OBV) at 2,246,526,603 represents an absolute cumulative value, in conjunction with the positive price action, it generally implies that volume is supporting the upward trend, confirming investor conviction. Collectively, these figures suggest a market with strong positive momentum and a generally optimistic sentiment, though it's prudent to monitor for any shifts as these indicators approach overbought territory.",
+    "change_pct": 1.57,
     "technicalIndicators": {
       "rsi": [
-        [
-          1746921600000,
-          null
-        ],
-        [
-          1747008000000,
-          65.12
-        ],
-        [
-          1747094400000,
-          66.49
-        ],
         [
           1747180800000,
           66.77
@@ -747,21 +735,21 @@
         [
           1762473600000,
           48.88
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1746921600000,
+          1762560000000,
           null
         ],
         [
-          1747008000000,
-          74.44
+          1762646400000,
+          null
         ],
         [
-          1747094400000,
-          73.95
-        ],
+          1762732800000,
+          57.72
+        ]
+      ],
+      "mfi": [
         [
           1747180800000,
           74.17
@@ -1473,21 +1461,21 @@
         [
           1762473600000,
           52.36
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1746921600000,
+          1762560000000,
           null
         ],
         [
-          1747008000000,
-          1108113000.0
+          1762646400000,
+          null
         ],
         [
-          1747094400000,
-          1176060200.0
-        ],
+          1762732800000,
+          53.18
+        ]
+      ],
+      "obv": [
         [
           1747180800000,
           1242343700.0
@@ -2199,6 +2187,18 @@
         [
           1762473600000,
           2173495279.0
+        ],
+        [
+          1762560000000,
+          null
+        ],
+        [
+          1762646400000,
+          null
+        ],
+        [
+          1762732800000,
+          2246526603.0
         ]
       ]
     },
@@ -2248,7 +2248,7 @@
       1.94,
       0.71,
       -1.63,
-      null,
+      1.57,
       null,
       null,
       null,

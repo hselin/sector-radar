@@ -1,41 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, including retail, media, automotive, apparel, hotels, restaurants, and leisure activities.",
-    "marketSizeUSD": "5.5T",
+    "description": "The Consumer Discretionary sector includes companies that provide non-essential goods and services, such as durable goods, apparel, hotels, restaurants, and leisure activities, whose demand is sensitive to the economic cycle.",
+    "marketSizeUSD": "4.7T",
     "constituentCount": 55,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc.",
+        "name": "Amazon.com, Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc.",
+        "name": "Tesla, Inc.",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot Inc.",
+        "name": "The Home Depot, Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1098,
-  "change_pct": 0.18,
-  "insights": "The Consumer Discretionary sector saw a modest 0.18% gain today, indicating a slight positive close. However, key technical indicators suggest this movement lacked strong conviction: the RSI at 47.72 and MFI at 45.30 are both below the neutral 50-mark, signaling a slight lack of relative strength and a net outflow of money, respectively. While the OBV at 49512673 reflects underlying volume activity, the combined picture from RSI and MFI implies that despite the slight price appreciation, overall buying momentum and investor sentiment for the sector remain somewhat subdued, not indicating a strong catalyst for sustained upward movement from today's trading.",
+  "market_weight": 0.09,
+  "change_pct": 1.29,
+  "insights": "The Consumer Discretionary sector posted a robust 1.29% gain today, indicating strong positive sentiment for the session. The Relative Strength Index (RSI) at 52.00 suggests healthy momentum without being overbought, leaving room for potential further appreciation. However, the Money Flow Index (MFI) at 45.88 indicates that money flow momentum might be lagging the price increase somewhat, suggesting that while buying interest is present, it might not be overwhelmingly broad. The On-Balance Volume (OBV) at 54,646,991 reflects the cumulative volume supporting this upward price movement, confirming transactional activity behind the day's positive performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1746921600000,
-        null
-      ],
-      [
-        1747008000000,
-        66.91
-      ],
-      [
-        1747094400000,
-        68.91
-      ],
       [
         1747180800000,
         69.5
@@ -747,21 +735,21 @@
       [
         1762473600000,
         47.72
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        82.64
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        83.34
-      ],
+        1762732800000,
+        52.0
+      ]
+    ],
+    "mfi": [
       [
         1747180800000,
         83.79
@@ -1473,21 +1461,21 @@
       [
         1762473600000,
         45.3
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        -15631000.0
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        -9915500.0
-      ],
+        1762732800000,
+        45.88
+      ]
+    ],
+    "obv": [
       [
         1747180800000,
         -6357000.0
@@ -2199,6 +2187,18 @@
       [
         1762473600000,
         49512673.0
+      ],
+      [
+        1762560000000,
+        null
+      ],
+      [
+        1762646400000,
+        null
+      ],
+      [
+        1762732800000,
+        54646991.0
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     1.38,
     0.96,
     -1.68,
-    null,
+    1.29,
     null,
     null,
     null,

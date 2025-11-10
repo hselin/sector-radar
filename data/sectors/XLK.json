@@ -1,41 +1,29 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies engaged in the development and production of software, hardware, semiconductors, and the provision of IT services.",
-    "marketSizeUSD": "14.5T",
-    "constituentCount": 68,
+    "description": "The Information Technology sector encompasses companies primarily involved in software, hardware, semiconductors, IT services, and technology equipment.",
+    "marketSizeUSD": "14.0T",
+    "constituentCount": 67,
     "topHoldings": [
-      {
-        "name": "Microsoft Corp.",
-        "symbol": "MSFT"
-      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
       },
       {
-        "name": "NVIDIA Corp.",
+        "name": "Microsoft Corp.",
+        "symbol": "MSFT"
+      },
+      {
+        "name": "NVIDIA Corporation",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.2894,
-  "change_pct": -0.34,
-  "insights": "The Information Technology sector experienced a modest decline today, posting a -0.34% change. Key technical indicators reflect this subdued performance: the Relative Strength Index (RSI) at 47.54 and the Money Flow Index (MFI) at 44.02 both sit below the neutral 50-mark, suggesting a slight bearish bias in momentum and a modest outflow of capital from the sector, though neither indicates extreme overbought or oversold conditions. The On-Balance Volume (OBV) of 352,866,866 represents the cumulative buying and selling pressure, aligning with the day's minor price depreciation as volume supported the slight move lower.",
+  "market_weight": 0.2682,
+  "change_pct": 2.58,
+  "insights": "The Information Technology sector demonstrated robust performance today, posting a significant gain of 2.58%. Its Relative Strength Index (RSI) at 56.01 indicates healthy upward momentum, suggesting buying interest remains strong without yet signaling overbought conditions. However, the Money Flow Index (MFI) at 45.20 is in a more neutral zone, implying that while prices advanced, the volume-weighted money flow was less aggressively positive than the price action alone might suggest, indicating a need for broader conviction in future rallies. The On-Balance Volume (OBV) at 361,565,105 confirms that today's positive price movement was accompanied by buying volume, reinforcing the day's bullish sentiment and contributing to its long-term accumulation trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1746921600000,
-        null
-      ],
-      [
-        1747008000000,
-        68.41
-      ],
-      [
-        1747094400000,
-        71.34
-      ],
       [
         1747180800000,
         72.2
@@ -747,21 +735,21 @@
       [
         1762473600000,
         47.54
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        74.34
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        74.6
-      ],
+        1762732800000,
+        56.01
+      ]
+    ],
+    "mfi": [
       [
         1747180800000,
         75.06
@@ -1473,21 +1461,21 @@
       [
         1762473600000,
         44.02
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        152979700.0
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        159358300.0
-      ],
+        1762732800000,
+        45.2
+      ]
+    ],
+    "obv": [
       [
         1747180800000,
         164482300.0
@@ -2199,6 +2187,18 @@
       [
         1762473600000,
         352866866.0
+      ],
+      [
+        1762560000000,
+        null
+      ],
+      [
+        1762646400000,
+        null
+      ],
+      [
+        1762732800000,
+        361565105.0
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     3.01,
     2.42,
     -4.17,
-    null,
+    2.58,
     null,
     null,
     null,

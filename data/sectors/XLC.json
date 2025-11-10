@@ -1,41 +1,29 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector comprises companies involved in providing telecommunication services, entertainment, interactive media, and other communication-related services and products.",
-    "marketSizeUSD": "4.8T",
-    "constituentCount": 24,
+    "description": "The Communication Services sector includes companies involved in telecommunication services, media and entertainment content creation, and interactive media and services.",
+    "marketSizeUSD": "5.7T",
+    "constituentCount": 23,
     "topHoldings": [
       {
-        "name": "Alphabet Inc. (Class A)",
+        "name": "Alphabet Inc.",
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms Inc. (Class A)",
+        "name": "Meta Platforms, Inc.",
         "symbol": "META"
       },
       {
-        "name": "Netflix Inc.",
+        "name": "Netflix, Inc.",
         "symbol": "NFLX"
       }
     ]
   },
-  "market_weight": 0.0958,
-  "change_pct": -0.29,
-  "insights": "The Communication Services sector saw a slight decline of -0.29% today, indicating mild selling pressure. This downward movement is technically supported by weakening momentum; the Relative Strength Index (RSI) at 37.33 indicates a bearish bias, nearing the oversold threshold. Further confirming this, the Money Flow Index (MFI) at 28.32 is firmly in oversold territory, signaling significant capital outflow and a lack of buying interest. While the On-Balance Volume (OBV) at 294,145,874 reflects substantial cumulative trading activity, the overall technical picture suggests that this volume is currently associated with a cautious to bearish sentiment, as money continues to exit the sector.",
+  "market_weight": 0.1092,
+  "change_pct": 1.05,
+  "insights": "The Communication Services sector experienced a positive day, advancing by 1.05%. However, a closer examination of its technical indicators suggests this gain may warrant caution. The Relative Strength Index (RSI) at 43.72, while not oversold, remains below the neutral 50-level, indicating a lack of strong overbought conditions and potentially underlying weakness over a broader period. More significantly, the Money Flow Index (MFI) at 26.13 is quite low, bordering on oversold territory, which suggests money is flowing out of the sector despite today's price appreciation, casting doubt on the conviction behind the daily move. The On-Balance Volume (OBV) at 298,704,613 reflects cumulative volume, and while today's positive price movement would contribute to this figure, the bearish signal from the MFI suggests the upward trend might lack sustained institutional support.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1746921600000,
-        null
-      ],
-      [
-        1747008000000,
-        63.66
-      ],
-      [
-        1747094400000,
-        66.06
-      ],
       [
         1747180800000,
         67.3
@@ -747,21 +735,21 @@
       [
         1762473600000,
         37.33
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        85.0
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        85.23
-      ],
+        1762732800000,
+        43.72
+      ]
+    ],
+    "mfi": [
       [
         1747180800000,
         85.69
@@ -1473,21 +1461,21 @@
       [
         1762473600000,
         28.32
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        236914000.0
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        242298300.0
-      ],
+        1762732800000,
+        26.13
+      ]
+    ],
+    "obv": [
       [
         1747180800000,
         246704300.0
@@ -2199,6 +2187,18 @@
       [
         1762473600000,
         294145874.0
+      ],
+      [
+        1762560000000,
+        null
+      ],
+      [
+        1762646400000,
+        null
+      ],
+      [
+        1762732800000,
+        298704613.0
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     0.53,
     -0.64,
     -2.36,
-    null,
+    1.05,
     null,
     null,
     null,

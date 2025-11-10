@@ -1,41 +1,29 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that produce and distribute essential, non-discretionary goods and services such as food, beverages, tobacco, and household products, which are typically in demand regardless of economic conditions.",
-    "marketSizeUSD": "2.8T",
+    "description": "The Consumer Staples sector comprises companies that produce and distribute essential goods and services that people consistently need, such as food, beverages, household products, and personal care items, making it generally resilient across economic cycles.",
+    "marketSizeUSD": "$2.8T",
     "constituentCount": 33,
     "topHoldings": [
+      {
+        "name": "Walmart Inc.",
+        "symbol": "WMT"
+      },
       {
         "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
-        "name": "PepsiCo, Inc.",
-        "symbol": "PEP"
-      },
-      {
-        "name": "The Coca-Cola Company",
+        "name": "The Coca-Cola Co.",
         "symbol": "KO"
       }
     ]
   },
-  "market_weight": 0.0559,
-  "change_pct": 1.45,
-  "insights": "The Consumer Staples sector posted a solid 1.45% gain today, a positive daily move. However, key technical indicators suggest this rally occurs within a broader context of underlying weakness. The Relative Strength Index (RSI) at 41.72, while not oversold, remains below the neutral 50-mark, indicating that short-term buying momentum has not fully established. More critically, the Money Flow Index (MFI) at 22.48 is nearing oversold levels, pointing to significant recent capital outflow. Furthermore, a substantially negative On-Balance Volume (OBV) of -42,298,989 confirms persistent selling pressure over time, with down-volume dominating up-volume cumulatively. Therefore, while today's performance was strong, these indicators suggest the sector is currently experiencing a bounce rather than a robust reversal, requiring further confirmation of sustained buying interest and improved money flow.",
+  "market_weight": 0.0536,
+  "change_pct": -0.37,
+  "insights": "The Consumer Staples sector experienced a slight decline of -0.37% today. While modest, the technical indicators suggest underlying weakness. The Relative Strength Index (RSI) at 39.89 indicates bearish momentum approaching oversold territory, further reinforced by the Money Flow Index (MFI) at 22.69, which points to significant capital outflow and an oversold market. Finally, the On-Balance Volume (OBV) of -58,528,131 confirms that selling volume has predominantly outweighed buying volume, validating the observed price depreciation. This collective signal suggests that the minor daily dip is underpinned by a more substantial shift in sentiment and investor disengagement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1746921600000,
-        null
-      ],
-      [
-        1747008000000,
-        50.28
-      ],
-      [
-        1747094400000,
-        43.74
-      ],
       [
         1747180800000,
         41.45
@@ -747,21 +735,21 @@
       [
         1762473600000,
         41.72
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        26.21
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        26.95
-      ],
+        1762732800000,
+        39.89
+      ]
+    ],
+    "mfi": [
       [
         1747180800000,
         27.32
@@ -1473,21 +1461,21 @@
       [
         1762473600000,
         22.48
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        -33002000.0
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        -46150500.0
-      ],
+        1762732800000,
+        22.69
+      ]
+    ],
+    "obv": [
       [
         1747180800000,
         -56502500.0
@@ -2199,6 +2187,18 @@
       [
         1762473600000,
         -42298989.0
+      ],
+      [
+        1762560000000,
+        null
+      ],
+      [
+        1762646400000,
+        null
+      ],
+      [
+        1762732800000,
+        -58528131.0
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     -0.8,
     -3.55,
     0.56,
-    null,
+    -0.37,
     null,
     null,
     null,

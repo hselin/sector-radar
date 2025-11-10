@@ -1,9 +1,9 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector comprises companies that own, develop, and manage real estate, including Equity Real Estate Investment Trusts (REITs) and Real Estate Management & Development companies.",
-    "marketSizeUSD": "$2.3T",
-    "constituentCount": 31,
+    "description": "The Real Estate GICS sector primarily includes Equity Real Estate Investment Trusts (REITs) and real estate management and development companies that own, develop, and manage income-producing real estate properties.",
+    "marketSizeUSD": "1.7T",
+    "constituentCount": 32,
     "topHoldings": [
       {
         "name": "Prologis, Inc.",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0459,
-  "change_pct": 1.38,
-  "insights": "The Real Estate sector showed positive momentum today, advancing by 1.38%. The Relative Strength Index (RSI) at 46.90 places the sector in neutral territory, not signaling overbought conditions despite today's gain, suggesting there might be room for continued movement. However, the Money Flow Index (MFI) at 33.60 indicates relatively weak money inflow, implying that today's price appreciation wasn't fully backed by strong, volume-driven buying pressure. The On-Balance Volume (OBV) at 41,768,665 reflects cumulative buying interest, and its current level, alongside the price increase, suggests that overall buying volume has generally outpaced selling volume, albeit with MFI indicating that this accumulation isn't overwhelmingly strong.",
+  "market_weight": 0.0326,
+  "change_pct": -0.08,
+  "insights": "The Real Estate sector experienced a largely flat day, recording a marginal decline of -0.08%. Technical indicators reflect this subdued activity: The Relative Strength Index (RSI) at 46.45 sits in neutral territory, suggesting neither overbought nor oversold conditions. The Money Flow Index (MFI) at 33.47 indicates a slight outflow of money from the sector, aligning with the minor price dip, yet it does not signal strong selling pressure. Finally, the On-Balance Volume (OBV) at 34,959,630, in conjunction with the near-flat price movement, suggests that the minimal daily change was not driven by significant directional volume accumulation, reinforcing the lack of strong conviction from either buyers or sellers today.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1746921600000,
-        null
-      ],
-      [
-        1747008000000,
-        57.18
-      ],
-      [
-        1747094400000,
-        50.67
-      ],
       [
         1747180800000,
         47.06
@@ -747,21 +735,21 @@
       [
         1762473600000,
         46.9
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        70.24
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        59.1
-      ],
+        1762732800000,
+        46.45
+      ]
+    ],
+    "mfi": [
       [
         1747180800000,
         59.72
@@ -1473,21 +1461,21 @@
       [
         1762473600000,
         33.6
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1746921600000,
+        1762560000000,
         null
       ],
       [
-        1747008000000,
-        75802100.0
+        1762646400000,
+        null
       ],
       [
-        1747094400000,
-        69300300.0
-      ],
+        1762732800000,
+        33.47
+      ]
+    ],
+    "obv": [
       [
         1747180800000,
         64884000.0
@@ -2199,6 +2187,18 @@
       [
         1762473600000,
         41768665.0
+      ],
+      [
+        1762560000000,
+        null
+      ],
+      [
+        1762646400000,
+        null
+      ],
+      [
+        1762732800000,
+        34959630.0
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     1.45,
     -4.1,
     0.92,
-    null,
+    -0.08,
     null,
     null,
     null,
