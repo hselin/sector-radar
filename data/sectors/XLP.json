@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0536,
-  "change_pct": -0.37,
-  "insights": "The Consumer Staples sector experienced a slight decline of -0.37% today. While modest, the technical indicators suggest underlying weakness. The Relative Strength Index (RSI) at 39.89 indicates bearish momentum approaching oversold territory, further reinforced by the Money Flow Index (MFI) at 22.69, which points to significant capital outflow and an oversold market. Finally, the On-Balance Volume (OBV) of -58,528,131 confirms that selling volume has predominantly outweighed buying volume, validating the observed price depreciation. This collective signal suggests that the minor daily dip is underpinned by a more substantial shift in sentiment and investor disengagement.",
+  "change_pct": 1.29,
+  "insights": "The Consumer Staples sector posted a positive day, advancing 1.29%. Technically, the RSI at 48.32 suggests neutral momentum, neither overbought nor oversold, despite today's gain. However, the MFI at 24.58 indicates relatively weak money flow, nearing oversold territory, which could imply today's buying interest may not be broad-based or sustained. Furthermore, the significantly negative OBV of -39,600,686, despite today's price increase, points to a historical prevalence of volume on down days, suggesting underlying selling pressure or a lack of strong, sustained accumulation that outweighs current positive movements.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747180800000,
-        41.45
-      ],
       [
         1747267200000,
         51.76
@@ -747,13 +743,13 @@
       [
         1762732800000,
         39.89
+      ],
+      [
+        1762819200000,
+        48.32
       ]
     ],
     "mfi": [
-      [
-        1747180800000,
-        27.32
-      ],
       [
         1747267200000,
         35.41
@@ -1473,13 +1469,13 @@
       [
         1762732800000,
         22.69
+      ],
+      [
+        1762819200000,
+        24.58
       ]
     ],
     "obv": [
-      [
-        1747180800000,
-        -56502500.0
-      ],
       [
         1747267200000,
         -43132500.0
@@ -2199,6 +2195,10 @@
       [
         1762732800000,
         -58528131.0
+      ],
+      [
+        1762819200000,
+        -39600686.0
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     -0.8,
     -3.55,
     0.56,
-    -0.37,
+    0.91,
     null,
     null,
     null,

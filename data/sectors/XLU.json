@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0287,
-  "change_pct": -0.03,
-  "insights": "The Utilities sector experienced a largely flat trading session today, registering a negligible decline of -0.03%. Technical indicators offer a nuanced view: the Relative Strength Index (RSI) at 51.91 places the sector in neutral territory, indicating no strong overbought or oversold conditions. However, the Money Flow Index (MFI) at a notably low 28.99 suggests that money is flowing out of the sector, signaling a lack of buying interest or increasing selling pressure despite the minimal price change. While On-Balance Volume (OBV) shows a substantial cumulative volume, implying historical buying pressure, its combination with today's slight dip and the low MFI suggests that current demand for Utilities was subdued during the session.",
+  "change_pct": 0.06,
+  "insights": "The Utilities sector concluded today with a marginal gain of 0.06%, indicating an essentially flat performance. Technical indicators present a nuanced view: the Relative Strength Index (RSI) at 52.29 suggests neutral momentum, leaning slightly bullish but not in overbought territory. However, the Money Flow Index (MFI) at 34.77 points towards weakening money flow, implying that despite the slight price increase, there may be more capital exiting the sector than entering, suggesting a lack of strong buying conviction. The On-Balance Volume (OBV) at 346,644,291 represents the cumulative volume flow, and while its absolute value is substantial, its daily change relative to the minimal price movement would be critical to confirm whether this modest gain was supported by significant buying pressure, which the MFI's reading casts doubt upon.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747180800000,
-        52.94
-      ],
       [
         1747267200000,
         61.54
@@ -747,13 +743,13 @@
       [
         1762732800000,
         51.91
+      ],
+      [
+        1762819200000,
+        52.29
       ]
     ],
     "mfi": [
-      [
-        1747180800000,
-        37.98
-      ],
       [
         1747267200000,
         46.03
@@ -1473,13 +1469,13 @@
       [
         1762732800000,
         28.99
+      ],
+      [
+        1762819200000,
+        34.77
       ]
     ],
     "obv": [
-      [
-        1747180800000,
-        99955100.0
-      ],
       [
         1747267200000,
         113269700.0
@@ -2199,6 +2195,10 @@
       [
         1762732800000,
         339619885.0
+      ],
+      [
+        1762819200000,
+        346644291.0
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     -0.2,
     -2.51,
     0.66,
-    -0.03,
+    0.02,
     null,
     null,
     null,

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-10T21:17:44.510701Z",
+  "lastUpdated": "2025-11-11T21:12:55.122348Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Today, the stock market demonstrated a robust performance, closing up 1.57%, indicating significant buying interest and a positive market outlook. Key technical indicators largely support this bullish sentiment; the Relative Strength Index (RSI) at 57.72 suggests healthy upward momentum without the market being excessively overbought, leaving room for further gains. Similarly, the Money Flow Index (MFI) at 53.18 indicates that capital is actively flowing into the market, reinforcing the presence of strong buying pressure. While the On-Balance Volume (OBV) at 2,246,526,603 represents an absolute cumulative value, in conjunction with the positive price action, it generally implies that volume is supporting the upward trend, confirming investor conviction. Collectively, these figures suggest a market with strong positive momentum and a generally optimistic sentiment, though it's prudent to monitor for any shifts as these indicators approach overbought territory.",
-    "change_pct": 1.57,
+    "commentary": "The overall stock market experienced a modest gain today, advancing by 0.22%. Key technical indicators suggest a market with building positive momentum and healthy sentiment. The Relative Strength Index (RSI) at 58.80 and Money Flow Index (MFI) at 59.87 both sit above the neutral 50-mark, indicating increasing buying pressure and net money inflow without yet reaching overbought territory. The On-Balance Volume (OBV) figure further suggests that this upward movement was supported by substantial trading activity, confirming the day's positive price action. This combination implies a market where buyers are currently in control, reflecting constructive sentiment that is gaining traction but not yet exhibiting signs of exuberance.",
+    "change_pct": 0.22,
     "technicalIndicators": {
       "rsi": [
-        [
-          1747180800000,
-          66.77
-        ],
         [
           1747267200000,
           67.85
@@ -747,13 +743,13 @@
         [
           1762732800000,
           57.72
+        ],
+        [
+          1762819200000,
+          58.8
         ]
       ],
       "mfi": [
-        [
-          1747180800000,
-          74.17
-        ],
         [
           1747267200000,
           74.63
@@ -1473,13 +1469,13 @@
         [
           1762732800000,
           53.18
+        ],
+        [
+          1762819200000,
+          59.87
         ]
       ],
       "obv": [
-        [
-          1747180800000,
-          1242343700.0
-        ],
         [
           1747267200000,
           1313611800.0
@@ -2199,6 +2195,10 @@
         [
           1762732800000,
           2246526603.0
+        ],
+        [
+          1762819200000,
+          2297829226.0
         ]
       ]
     },
@@ -2248,7 +2248,7 @@
       1.94,
       0.71,
       -1.63,
-      1.57,
+      1.79,
       null,
       null,
       null,
