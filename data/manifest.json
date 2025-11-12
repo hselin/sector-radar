@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-11T21:12:55.122348Z",
+  "lastUpdated": "2025-11-12T21:14:23.103139Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a modest gain today, advancing by 0.22%. Key technical indicators suggest a market with building positive momentum and healthy sentiment. The Relative Strength Index (RSI) at 58.80 and Money Flow Index (MFI) at 59.87 both sit above the neutral 50-mark, indicating increasing buying pressure and net money inflow without yet reaching overbought territory. The On-Balance Volume (OBV) figure further suggests that this upward movement was supported by substantial trading activity, confirming the day's positive price action. This combination implies a market where buyers are currently in control, reflecting constructive sentiment that is gaining traction but not yet exhibiting signs of exuberance.",
-    "change_pct": 0.22,
+    "commentary": "The overall stock market experienced a largely flat day, registering a marginal gain of 0.06%, indicating a quiet session with minimal directional conviction. However, key technical indicators suggest a underlying, albeit not excessive, positive momentum. The Relative Strength Index (RSI) at 59.11 and the Money Flow Index (MFI) at 59.48 are both comfortably above their respective midpoints, implying that buying pressure is present and money continues to flow into the market without yet reaching overbought conditions. The high On-Balance Volume (OBV) further reinforces this, indicating a general accumulation where demand is outweighing supply. Collectively, these figures suggest market sentiment remains cautiously optimistic with a steady, underlying buying interest, rather than any significant shifts in either direction.",
+    "change_pct": 0.06,
     "technicalIndicators": {
       "rsi": [
-        [
-          1747267200000,
-          67.85
-        ],
         [
           1747353600000,
           69.26
@@ -747,13 +743,13 @@
         [
           1762819200000,
           58.8
+        ],
+        [
+          1762905600000,
+          59.11
         ]
       ],
       "mfi": [
-        [
-          1747267200000,
-          74.63
-        ],
         [
           1747353600000,
           75.59
@@ -1473,13 +1469,13 @@
         [
           1762819200000,
           59.87
+        ],
+        [
+          1762905600000,
+          59.48
         ]
       ],
       "obv": [
-        [
-          1747267200000,
-          1313611800.0
-        ],
         [
           1747353600000,
           1389663900.0
@@ -2199,6 +2195,10 @@
         [
           1762819200000,
           2297829226.0
+        ],
+        [
+          1762905600000,
+          2352546809.0
         ]
       ]
     },
@@ -2248,7 +2248,7 @@
       1.94,
       0.71,
       -1.63,
-      1.79,
+      1.85,
       null,
       null,
       null,
