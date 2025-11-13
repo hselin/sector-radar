@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-12T21:14:23.103139Z",
+  "lastUpdated": "2025-11-13T21:13:17.982196Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a largely flat day, registering a marginal gain of 0.06%, indicating a quiet session with minimal directional conviction. However, key technical indicators suggest a underlying, albeit not excessive, positive momentum. The Relative Strength Index (RSI) at 59.11 and the Money Flow Index (MFI) at 59.48 are both comfortably above their respective midpoints, implying that buying pressure is present and money continues to flow into the market without yet reaching overbought conditions. The high On-Balance Volume (OBV) further reinforces this, indicating a general accumulation where demand is outweighing supply. Collectively, these figures suggest market sentiment remains cautiously optimistic with a steady, underlying buying interest, rather than any significant shifts in either direction.",
-    "change_pct": 0.06,
+    "commentary": "The stock market experienced a notable decline today, dropping by -1.64%, indicating a clear negative shift in daily sentiment. Despite this significant sell-off, key technical indicators like the Relative Strength Index (RSI) at 48.31 and Money Flow Index (MFI) at 51.21 remain near neutral levels. This suggests that while momentum is clearly bearish, the market is not yet in an oversold condition, implying there might still be room for further downside before capitulation or a significant rebound is likely based purely on extreme technical readings. The robust On-Balance Volume (OBV) reading of 2,264,478,685 indicates significant cumulative volume participation over time, and today's price action likely saw a corresponding reduction, confirming strong selling pressure accompanied the decline. Overall, sentiment leans bearish with strong downward momentum, but without reaching extreme oversold levels that often precede a bounce.",
+    "change_pct": -1.64,
     "technicalIndicators": {
       "rsi": [
-        [
-          1747353600000,
-          69.26
-        ],
         [
           1747440000000,
           null
@@ -747,13 +743,13 @@
         [
           1762905600000,
           59.11
+        ],
+        [
+          1762992000000,
+          48.31
         ]
       ],
       "mfi": [
-        [
-          1747353600000,
-          75.59
-        ],
         [
           1747440000000,
           null
@@ -1473,13 +1469,13 @@
         [
           1762905600000,
           59.48
+        ],
+        [
+          1762992000000,
+          51.21
         ]
       ],
       "obv": [
-        [
-          1747353600000,
-          1389663900.0
-        ],
         [
           1747440000000,
           null
@@ -2199,6 +2195,10 @@
         [
           1762905600000,
           2352546809.0
+        ],
+        [
+          1762992000000,
+          2264478685.0
         ]
       ]
     },
@@ -2248,7 +2248,7 @@
       1.94,
       0.71,
       -1.63,
-      1.85,
+      0.17,
       null,
       null,
       null,
