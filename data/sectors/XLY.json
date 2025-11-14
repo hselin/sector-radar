@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.09,
-  "change_pct": -2.46,
-  "insights": "The Consumer Discretionary sector experienced a notable decline of -2.46% today, indicating significant selling pressure. The Relative Strength Index (RSI) at 42.49 confirms prevailing bearish momentum, though not yet signaling an oversold condition. Concurrently, the Money Flow Index (MFI) at 47.96 indicates a net outflow of capital, validating the price drop with volume. The substantial daily downturn suggests a corresponding decrease in On-Balance Volume (OBV), reinforcing that today's sell-off was backed by considerable trading activity.",
+  "change_pct": -0.48,
+  "insights": "The Consumer Discretionary sector experienced a modest decline of -0.48% today, reflecting slight selling pressure. This downward movement is consistent with key technical indicators: the Relative Strength Index (RSI) at 41.19 and the Money Flow Index (MFI) at 41.45 both sit below the neutral 50-level, suggesting weakening buying momentum and a net outflow of capital from the sector. While not yet in oversold territory, these readings collectively indicate a lack of strong bullish conviction, with the On-Balance Volume (OBV) reflecting the cumulative impact of this recent selling pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747440000000,
-        null
-      ],
       [
         1747526400000,
         null
@@ -747,13 +743,13 @@
       [
         1762992000000,
         42.49
+      ],
+      [
+        1763078400000,
+        41.19
       ]
     ],
     "mfi": [
-      [
-        1747440000000,
-        null
-      ],
       [
         1747526400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1762992000000,
         47.96
+      ],
+      [
+        1763078400000,
+        41.45
       ]
     ],
     "obv": [
-      [
-        1747440000000,
-        null
-      ],
       [
         1747526400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1762992000000,
         48776943.0
+      ],
+      [
+        1763078400000,
+        41493500.0
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     1.38,
     0.96,
     -1.68,
-    -1.63,
+    -2.1,
     null,
     null,
     null,

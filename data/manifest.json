@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-13T21:13:17.982196Z",
+  "lastUpdated": "2025-11-14T21:12:36.564884Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a notable decline today, dropping by -1.64%, indicating a clear negative shift in daily sentiment. Despite this significant sell-off, key technical indicators like the Relative Strength Index (RSI) at 48.31 and Money Flow Index (MFI) at 51.21 remain near neutral levels. This suggests that while momentum is clearly bearish, the market is not yet in an oversold condition, implying there might still be room for further downside before capitulation or a significant rebound is likely based purely on extreme technical readings. The robust On-Balance Volume (OBV) reading of 2,264,478,685 indicates significant cumulative volume participation over time, and today's price action likely saw a corresponding reduction, confirming strong selling pressure accompanied the decline. Overall, sentiment leans bearish with strong downward momentum, but without reaching extreme oversold levels that often precede a bounce.",
-    "change_pct": -1.64,
+    "commentary": "The overall stock market experienced an exceptionally quiet trading day, concluding with a marginal decline of -0.02%, indicating virtually flat performance. Key technical indicators reinforce this sentiment of indecision: the Relative Strength Index (RSI) at 48.17 and the Money Flow Index (MFI) at 43.63 both sit firmly in neutral territory, well between overbought and oversold levels, suggesting neither strong buying nor selling pressure. The On-Balance Volume (OBV) at 2,173,161,753, while a large absolute figure, would need comparison to prior days for specific trend analysis; however, its consistency with other indicators points to a lack of conviction. This constellation of data points suggests a market characterized by investor indecision and a distinct lack of strong directional momentum, with neither bulls nor bears asserting significant control for the day.",
+    "change_pct": -0.02,
     "technicalIndicators": {
       "rsi": [
-        [
-          1747440000000,
-          null
-        ],
         [
           1747526400000,
           null
@@ -747,13 +743,13 @@
         [
           1762992000000,
           48.31
+        ],
+        [
+          1763078400000,
+          48.17
         ]
       ],
       "mfi": [
-        [
-          1747440000000,
-          null
-        ],
         [
           1747526400000,
           null
@@ -1473,13 +1469,13 @@
         [
           1762992000000,
           51.21
+        ],
+        [
+          1763078400000,
+          43.63
         ]
       ],
       "obv": [
-        [
-          1747440000000,
-          null
-        ],
         [
           1747526400000,
           null
@@ -2199,6 +2195,10 @@
         [
           1762992000000,
           2264478685.0
+        ],
+        [
+          1763078400000,
+          2173161753.0
         ]
       ]
     },
@@ -2248,7 +2248,7 @@
       1.94,
       0.71,
       -1.63,
-      0.17,
+      0.15,
       null,
       null,
       null,
