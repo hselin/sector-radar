@@ -1,41 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that manufacture capital goods, provide commercial services, and offer transportation services.",
-    "marketSizeUSD": "4.6T",
-    "constituentCount": 73,
+    "description": "The Industrials sector includes companies that provide commercial services, transportation services, and manufacture capital goods such as aerospace & defense, electrical equipment, machinery, and construction products.",
+    "marketSizeUSD": "4.2T",
+    "constituentCount": 74,
     "topHoldings": [
+      {
+        "name": "General Electric Company",
+        "symbol": "GE"
+      },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "GE Aerospace",
-        "symbol": "GE"
-      },
-      {
-        "name": "Honeywell International Inc.",
-        "symbol": "HON"
+        "name": "Union Pacific Corporation",
+        "symbol": "UNP"
       }
     ]
   },
-  "market_weight": 0.0881,
-  "change_pct": 0.03,
-  "insights": "The Industrials sector experienced a remarkably subdued session today, closing with a marginal gain of just 0.03%, indicating a virtually flat performance. This lack of decisive movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 43.82 and the Money Flow Index (MFI) at 42.14 are both firmly in neutral territory, suggesting neither significant overbought nor oversold conditions, and an absence of strong buying or selling pressure driving capital into or out of the sector. The On-Balance Volume (OBV) at 91,231,080, while representing a substantial accumulation over time, likely saw only a very slight increase today, consistent with the minimal price appreciation and reinforcing the picture of a quiet trading day devoid of strong directional conviction.",
+  "market_weight": 0.0742,
+  "change_pct": -1.0,
+  "insights": "The Industrials sector experienced a notable downturn today, closing down 1.00%, reflecting broad selling pressure. This negative movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 38.63 signals weakening momentum and increasing bearish sentiment, although not yet in oversold territory. Concurrently, the Money Flow Index (MFI) at 40.88 confirms capital is flowing out of the sector, aligning with the price decline. The On-Balance Volume (OBV) at 76,850,710, when viewed alongside the price drop, suggests distribution dominated accumulation, reinforcing the day's underperformance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747526400000,
-        null
-      ],
-      [
-        1747612800000,
-        74.47
-      ],
-      [
-        1747699200000,
-        72.51
-      ],
       [
         1747785600000,
         64.03
@@ -747,21 +735,21 @@
       [
         1763078400000,
         43.82
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        82.32
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        82.32
-      ],
+        1763337600000,
+        38.63
+      ]
+    ],
+    "mfi": [
       [
         1747785600000,
         71.92
@@ -1473,21 +1461,21 @@
       [
         1763078400000,
         42.14
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        3590700.0
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        -3235000.0
-      ],
+        1763337600000,
+        40.88
+      ]
+    ],
+    "obv": [
       [
         1747785600000,
         -12835200.0
@@ -2199,6 +2187,18 @@
       [
         1763078400000,
         91231080.0
+      ],
+      [
+        1763164800000,
+        null
+      ],
+      [
+        1763251200000,
+        null
+      ],
+      [
+        1763337600000,
+        76850710.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     0.1,
     -1.12,
     -0.82,
-    null,
+    -1.0,
     null,
     null,
     null,

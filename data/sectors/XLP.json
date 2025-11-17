@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and distribute essential goods and services that people consistently need, such as food, beverages, household products, and personal care items, making it generally resilient across economic cycles.",
-    "marketSizeUSD": "$2.8T",
+    "description": "The Consumer Staples sector includes companies that produce and sell essential goods and services, such as food, beverages, tobacco, household products, and personal care items, which are consistently in demand regardless of economic cycles.",
+    "marketSizeUSD": "2.0T",
     "constituentCount": 33,
     "topHoldings": [
       {
@@ -14,28 +14,16 @@
         "symbol": "PG"
       },
       {
-        "name": "The Coca-Cola Co.",
-        "symbol": "KO"
+        "name": "Costco Wholesale Corp.",
+        "symbol": "COST"
       }
     ]
   },
-  "market_weight": 0.0536,
-  "change_pct": -0.09,
-  "insights": "Today, the Consumer Staples sector registered a marginal decline of -0.09%, indicating largely stable price action for the day. While the Relative Strength Index (RSI) at 47.19 suggests neutral momentum, the Money Flow Index (MFI) at 29.69, nearing oversold territory, indicates a notable outflow of capital from the sector. This is further corroborated by the significantly negative On-Balance Volume (OBV) of -49,076,038, signaling sustained selling pressure outweighing buying volume. In context, despite the minimal price change, these volume and flow indicators collectively point to underlying bearish sentiment and a lack of conviction from buyers.",
+  "market_weight": 0.0353,
+  "change_pct": -0.62,
+  "insights": "The Consumer Staples sector experienced a modest decline of -0.62% today, reflecting underlying bearish sentiment. Key technical indicators reinforce this weakness: the RSI at 43.32 suggests weakening momentum below the neutral 50-mark, while the MFI at 29.19 indicates the sector is entering oversold conditions, pointing to significant money outflow. The negative OBV of -61,825,351 further confirms that selling pressure predominated during the day, highlighting investor capital withdrawal from this traditionally defensive sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747526400000,
-        null
-      ],
-      [
-        1747612800000,
-        57.62
-      ],
-      [
-        1747699200000,
-        59.03
-      ],
       [
         1747785600000,
         52.78
@@ -747,21 +735,21 @@
       [
         1763078400000,
         47.19
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        43.84
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        44.59
-      ],
+        1763337600000,
+        43.32
+      ]
+    ],
+    "mfi": [
       [
         1747785600000,
         45.15
@@ -1473,21 +1461,21 @@
       [
         1763078400000,
         29.69
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        -17557800.0
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        -4838500.0
-      ],
+        1763337600000,
+        29.19
+      ]
+    ],
+    "obv": [
       [
         1747785600000,
         -15827600.0
@@ -2199,6 +2187,18 @@
       [
         1763078400000,
         -49076038.0
+      ],
+      [
+        1763164800000,
+        null
+      ],
+      [
+        1763251200000,
+        null
+      ],
+      [
+        1763337600000,
+        -61825351.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     -3.55,
     0.56,
     0.72,
-    null,
+    -0.62,
     null,
     null,
     null,

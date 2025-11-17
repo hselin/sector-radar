@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in providing medical services, manufacturing pharmaceuticals and medical equipment, and operating healthcare facilities.",
-    "marketSizeUSD": "7.8T",
-    "constituentCount": 68,
+    "description": "The Health Care GICS sector encompasses companies engaged in providing medical services, manufacturing medical equipment, biotechnology, pharmaceuticals, and other health-related products and services.",
+    "marketSizeUSD": "5.6T",
+    "constituentCount": 65,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group",
+        "name": "UnitedHealth Group Incorporated",
         "symbol": "UNH"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1494,
-  "change_pct": -0.59,
-  "insights": "The Health Care sector experienced a modest decline of -0.59% today, a movement that aligns with its current technical posture. Both the Relative Strength Index (RSI) at 75.56 and the Money Flow Index (MFI) at 74.85 indicate the sector is firmly in overbought territory, suggesting it was ripe for a slight pullback or consolidation after recent upward momentum. While the elevated On-Balance Volume (OBV) of 64.68 million still reflects strong underlying accumulation from prior periods, the present overbought conditions hint at potential short-term profit-taking or a cooling off period, despite that underlying buying interest.",
+  "market_weight": 0.0989,
+  "change_pct": -0.09,
+  "insights": "The Health Care sector saw a negligible decline of -0.09% today, indicating a relatively flat session. Despite this marginal daily movement, key technical indicators suggest the sector remains in an overbought condition; the Relative Strength Index (RSI) at 74.64 and Money Flow Index (MFI) at 80.43 both significantly exceed their typical thresholds, implying sustained buying pressure leading up to today. The On-Balance Volume (OBV) of 47,635,508 further supports a history of strong accumulation. This combination suggests that while today was quiet, the sector may be due for some consolidation or a pullback given its extended technical positioning.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747526400000,
-        null
-      ],
-      [
-        1747612800000,
-        47.17
-      ],
-      [
-        1747699200000,
-        47.84
-      ],
       [
         1747785600000,
         42.4
@@ -747,21 +735,21 @@
       [
         1763078400000,
         75.56
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        38.58
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        40.24
-      ],
+        1763337600000,
+        74.64
+      ]
+    ],
+    "mfi": [
       [
         1747785600000,
         38.9
@@ -1473,21 +1461,21 @@
       [
         1763078400000,
         74.85
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        -108586700.0
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        -96942200.0
-      ],
+        1763337600000,
+        80.43
+      ]
+    ],
+    "obv": [
       [
         1747785600000,
         -113578100.0
@@ -2199,6 +2187,18 @@
       [
         1763078400000,
         64682082.0
+      ],
+      [
+        1763164800000,
+        null
+      ],
+      [
+        1763251200000,
+        null
+      ],
+      [
+        1763337600000,
+        47635508.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     -1.22,
     1.3,
     3.94,
-    null,
+    -0.09,
     null,
     null,
     null,

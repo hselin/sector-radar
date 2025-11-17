@@ -1,41 +1,29 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, along with multi-utilities and independent power producers.",
-    "marketSizeUSD": "1.5T",
-    "constituentCount": 29,
+    "description": "The Utilities GICS sector comprises companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, water, and other essential public services.",
+    "marketSizeUSD": "3.8T",
+    "constituentCount": 30,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
         "symbol": "NEE"
       },
       {
-        "name": "The Southern Company",
-        "symbol": "SO"
-      },
-      {
         "name": "Duke Energy Corporation",
         "symbol": "DUK"
+      },
+      {
+        "name": "The Southern Company",
+        "symbol": "SO"
       }
     ]
   },
-  "market_weight": 0.0287,
-  "change_pct": 0.1,
-  "insights": "The Utilities sector exhibited a largely flat performance today, eking out a modest 0.10% gain. Its Relative Strength Index (RSI) at 45.17 indicates a neutral momentum posture, suggesting neither strong overbought nor oversold conditions. However, the Money Flow Index (MFI) at 31.96 is notably low, signaling subdued buying interest and potential capital outflows, nearing oversold territory despite the fractional price uptick. While the On-Balance Volume (OBV) at 353,526,997 tracks cumulative volume, the weak MFI implies that today's marginal price increase lacks significant supportive buying conviction, suggesting the sector remains in a period of consolidation with underlying bearish money flow signals.",
+  "market_weight": 0.0671,
+  "change_pct": 0.88,
+  "insights": "The Utilities sector saw a modest positive day, advancing 0.88%. Technical indicators present a balanced, albeit not strongly convicted, picture: The Relative Strength Index (RSI) at 51.38 suggests momentum is largely neutral, slightly favoring buyers but well below overbought levels. However, the Money Flow Index (MFI) at 40.47, despite the price gain, indicates that buying volume may not be particularly robust, or that prior selling pressure is still being absorbed. While the On-Balance Volume (OBV) is at 365,586,004, its daily change, crucial for interpreting today's net volume flow, cannot be determined without prior data. Overall, today's slight gain appears to be a measured move within a neutral technical landscape, lacking strong volume conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747526400000,
-        null
-      ],
-      [
-        1747612800000,
-        67.47
-      ],
-      [
-        1747699200000,
-        68.34
-      ],
       [
         1747785600000,
         57.88
@@ -747,21 +735,21 @@
       [
         1763078400000,
         45.17
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        48.57
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        54.94
-      ],
+        1763337600000,
+        51.38
+      ]
+    ],
+    "mfi": [
       [
         1747785600000,
         47.81
@@ -1473,21 +1461,21 @@
       [
         1763078400000,
         31.96
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        131461300.0
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        140498900.0
-      ],
+        1763337600000,
+        40.47
+      ]
+    ],
+    "obv": [
       [
         1747785600000,
         129146900.0
@@ -2199,6 +2187,18 @@
       [
         1763078400000,
         353526997.0
+      ],
+      [
+        1763164800000,
+        null
+      ],
+      [
+        1763251200000,
+        null
+      ],
+      [
+        1763337600000,
+        365586004.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     -2.51,
     0.66,
     -1.01,
-    null,
+    0.88,
     null,
     null,
     null,

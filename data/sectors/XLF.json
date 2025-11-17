@@ -1,9 +1,9 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses a broad range of companies providing financial services such as banking, insurance, diversified financial services, and real estate.",
+    "description": "The Financials sector comprises companies engaged in banking, diversified financial services, insurance, real estate, and capital markets.",
     "marketSizeUSD": "6.0T",
-    "constituentCount": 68,
+    "constituentCount": 70,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1149,
-  "change_pct": -0.94,
-  "insights": "The Financials sector experienced a modest decline today, closing down 0.94%. This movement is supported by its key technical indicators: the Relative Strength Index (RSI) at 45.95 and the Money Flow Index (MFI) at 48.41 both indicate a slight bearish bias and net money outflow for the day, suggesting waning short-term buying interest without signaling deeply oversold conditions. The On-Balance Volume (OBV) at 1,242,257,606, when viewed in conjunction with the sector's negative performance, suggests that selling volume likely outpaced buying volume, confirming the observed price weakness.",
+  "market_weight": 0.106,
+  "change_pct": -1.92,
+  "insights": "The Financials sector experienced a notable downturn today, declining by 1.92%, signaling significant bearish sentiment. Key technical indicators largely corroborate this movement. The Relative Strength Index (RSI) at 37.82 indicates strong downward momentum, positioning it below the neutral 50-level but not yet in deeply oversold territory, suggesting continued selling pressure without an immediate bounce signal. Concurrently, the Money Flow Index (MFI) at 45.92 suggests money is actively flowing out of the sector, reinforcing the price depreciation without reaching extreme 'buy' signals. While On-Balance Volume (OBV) at 1,174,878,299 represents cumulative volume, today's substantial price drop likely contributed negatively to its trend, further confirming the pervasive selling pressure for the day.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747526400000,
-        null
-      ],
-      [
-        1747612800000,
-        68.29
-      ],
-      [
-        1747699200000,
-        65.12
-      ],
       [
         1747785600000,
         54.83
@@ -747,21 +735,21 @@
       [
         1763078400000,
         45.95
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        69.04
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        69.78
-      ],
+        1763337600000,
+        37.82
+      ]
+    ],
+    "mfi": [
       [
         1747785600000,
         61.71
@@ -1473,21 +1461,21 @@
       [
         1763078400000,
         48.41
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        1066755400.0
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        1039852400.0
-      ],
+        1763337600000,
+        45.92
+      ]
+    ],
+    "obv": [
       [
         1747785600000,
         999830400.0
@@ -2199,6 +2187,18 @@
       [
         1763078400000,
         1242257606.0
+      ],
+      [
+        1763164800000,
+        null
+      ],
+      [
+        1763251200000,
+        null
+      ],
+      [
+        1763337600000,
+        1174878299.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     -1.39,
     0.79,
     -0.6,
-    null,
+    -1.92,
     null,
     null,
     null,

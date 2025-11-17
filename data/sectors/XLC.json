@@ -1,8 +1,8 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies involved in telecommunication services, media and entertainment content creation, and interactive media and services.",
-    "marketSizeUSD": "5.7T",
+    "description": "The Communication Services sector encompasses companies offering telecommunication services, media and entertainment, and interactive media and services, connecting people and providing content.",
+    "marketSizeUSD": "5.8T",
     "constituentCount": 23,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1092,
-  "change_pct": -0.51,
-  "insights": "The Communication Services sector experienced a modest decline of -0.51% today, reflecting a prevailing cautious sentiment. Technical indicators reinforce this downtrend: the Relative Strength Index (RSI) at 37.51 signals weakening momentum, while the Money Flow Index (MFI) at 18.12 points to significant money outflow and deeply oversold conditions. The On-Balance Volume (OBV) of 287,491,873 suggests that today's trading volume largely supported this negative price action, confirming the presence of selling pressure.",
+  "market_weight": 0.1025,
+  "change_pct": -0.13,
+  "insights": "The Communication Services sector experienced a marginal decline of -0.13% today, reflecting a largely flat but slightly negative trading session. Key technical indicators reinforce this underlying weakness: the Relative Strength Index (RSI) at 37.03 and Money Flow Index (MFI) at 23.93 both signal increasing selling pressure and significant money outflow, nearing or entering oversold conditions, which often precedes potential reversals but currently indicates bearish momentum. While the On-Balance Volume (OBV) at 282,983,321 represents cumulative buying and selling pressure, its level in conjunction with the declining price and bearish momentum indicators suggests that today's slight dip was likely accompanied by stronger selling volume rather than accumulation, indicating sustained investor disinterest or cautious sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747526400000,
-        null
-      ],
-      [
-        1747612800000,
-        70.16
-      ],
-      [
-        1747699200000,
-        68.67
-      ],
       [
         1747785600000,
         64.21
@@ -747,21 +735,21 @@
       [
         1763078400000,
         37.51
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        86.65
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        92.04
-      ],
+        1763337600000,
+        37.03
+      ]
+    ],
+    "mfi": [
       [
         1747785600000,
         81.84
@@ -1473,21 +1461,21 @@
       [
         1763078400000,
         18.12
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        258068000.0
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        255464900.0
-      ],
+        1763337600000,
+        23.93
+      ]
+    ],
+    "obv": [
       [
         1747785600000,
         249600600.0
@@ -2199,6 +2187,18 @@
       [
         1763078400000,
         287491873.0
+      ],
+      [
+        1763164800000,
+        null
+      ],
+      [
+        1763251200000,
+        null
+      ],
+      [
+        1763337600000,
+        282983321.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     -0.64,
     -2.36,
     -0.68,
-    null,
+    -0.13,
     null,
     null,
     null,

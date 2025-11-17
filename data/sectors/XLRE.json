@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector primarily includes Equity Real Estate Investment Trusts (REITs) and real estate management and development companies that own, develop, and manage income-producing real estate properties.",
-    "marketSizeUSD": "1.7T",
+    "description": "The Real Estate GICS sector comprises companies that own, operate, or develop real estate, including Equity Real Estate Investment Trusts (REITs) and Real Estate Management & Development companies.",
+    "marketSizeUSD": "2.5T",
     "constituentCount": 32,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0326,
-  "change_pct": 0.28,
-  "insights": "The Real Estate sector posted a modest 0.28% gain today, suggesting a slight positive drift. However, technical indicators present a more nuanced picture: the Relative Strength Index (RSI) at 43.83 indicates momentum is slightly below neutral, while the Money Flow Index (MFI) at 27.27 points to notable money outflows, nearing oversold territory despite the price uptick. The On-Balance Volume (OBV) of 33,450,919, a cumulative measure of buying and selling pressure, would ideally show robust growth to confirm strong demand behind the price increase. This suggests today's positive movement may lack strong underlying conviction and is not fully supported by significant capital inflows, hinting at potential underlying weakness despite the daily close.",
+  "market_weight": 0.0442,
+  "change_pct": -0.66,
+  "insights": "The Real Estate sector experienced a moderate decline today, falling -0.66%, with technical indicators largely supporting this negative momentum. The RSI at 40.85 suggests a slight bearish bias, indicating selling pressure currently outweighs buying interest, yet it remains above oversold levels. More significantly, the MFI at 30.12 points to considerable money outflow from the sector, approaching oversold conditions and reinforcing the price decline with strong volume-based selling. While the OBV figure of 27730842 itself is a cumulative value, the low MFI implies that daily OBV likely confirmed this selling pressure, reflecting continued distribution rather than accumulation, suggesting potential for further weakness before reaching deeply oversold territory.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747526400000,
-        null
-      ],
-      [
-        1747612800000,
-        59.58
-      ],
-      [
-        1747699200000,
-        56.97
-      ],
       [
         1747785600000,
         45.99
@@ -747,21 +735,21 @@
       [
         1763078400000,
         43.83
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        66.05
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        60.32
-      ],
+        1763337600000,
+        40.85
+      ]
+    ],
+    "mfi": [
       [
         1747785600000,
         51.01
@@ -1473,21 +1461,21 @@
       [
         1763078400000,
         27.27
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        76032400.0
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        73720600.0
-      ],
+        1763337600000,
+        30.12
+      ]
+    ],
+    "obv": [
       [
         1747785600000,
         70011900.0
@@ -2199,6 +2187,18 @@
       [
         1763078400000,
         33450919.0
+      ],
+      [
+        1763164800000,
+        null
+      ],
+      [
+        1763251200000,
+        null
+      ],
+      [
+        1763337600000,
+        27730842.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     -4.1,
     0.92,
     -0.79,
-    null,
+    -0.66,
     null,
     null,
     null,

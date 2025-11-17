@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials GICS sector includes companies engaged in the discovery, development, and processing of raw materials, encompassing industries like chemicals, construction materials, metals & mining, paper & forest products, and containers & packaging.",
-    "marketSizeUSD": "1.4T",
+    "description": "The Materials sector comprises companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, paper, forest products, and containers.",
+    "marketSizeUSD": "1.5T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0268,
-  "change_pct": -0.97,
-  "insights": "The Materials sector experienced a modest decline today, closing down 0.97%, with technical indicators suggesting underlying weakness. The Relative Strength Index (RSI) at 46.11 is below the neutral 50-mark, indicating a lack of significant buying momentum, while the Money Flow Index (MFI) at 36.28 further points to capital flowing out of the sector. Crucially, a significantly negative On-Balance Volume (OBV) reading underscores strong selling pressure accompanying today's price movement, confirming a bearish sentiment as volume primarily occurred on down days.",
+  "market_weight": 0.0265,
+  "change_pct": -1.53,
+  "insights": "The Materials sector experienced a notable decline of -1.53% today, signaling broad selling pressure. Its RSI at 40.10 indicates weakening price momentum, leaning towards the bearish side without being oversold. Further reinforcing this downtrend, the MFI at 30.54 suggests significant capital outflow and intensifying selling pressure, nearing oversold conditions. The substantially negative OBV of -71,075,611 provides strong volumetric confirmation, highlighting that today's price decline was accompanied by significant distribution and heavy selling volume, confirming the bearish sentiment reflected in the sector's performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747526400000,
-        null
-      ],
-      [
-        1747612800000,
-        62.03
-      ],
-      [
-        1747699200000,
-        61.26
-      ],
       [
         1747785600000,
         55.52
@@ -747,21 +735,21 @@
       [
         1763078400000,
         46.11
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        68.59
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        67.29
-      ],
+        1763337600000,
+        40.1
+      ]
+    ],
+    "mfi": [
       [
         1747785600000,
         57.71
@@ -1473,21 +1461,21 @@
       [
         1763078400000,
         36.28
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        -41139100.0
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        -43703400.0
-      ],
+        1763337600000,
+        30.54
+      ]
+    ],
+    "obv": [
       [
         1747785600000,
         -48509600.0
@@ -2199,6 +2187,18 @@
       [
         1763078400000,
         -64106249.0
+      ],
+      [
+        1763164800000,
+        null
+      ],
+      [
+        1763251200000,
+        null
+      ],
+      [
+        1763337600000,
+        -71075611.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     -3.75,
     0.2,
     1.1,
-    null,
+    -1.53,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, coal, and consumable fuels, as well as those providing energy equipment and services.",
-    "marketSizeUSD": "2.0T",
-    "constituentCount": 21,
+    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil and gas, as well as those involved in coal, other consumable fuels, and energy equipment and services.",
+    "marketSizeUSD": "1.9T",
+    "constituentCount": 22,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0383,
-  "change_pct": 1.68,
-  "insights": "The Energy sector experienced a robust day, posting a significant gain of 1.68%. This positive movement is strongly supported by its key technical indicators: the Relative Strength Index (RSI) at 64.68 indicates solid bullish momentum without yet being overbought, suggesting continued upside potential. Concurrently, the Money Flow Index (MFI) at 69.53 confirms strong money inflow into the sector, reinforcing the price appreciation with volume. The high On-Balance Volume (OBV) of 554,124,509 further corroborates sustained buying pressure, indicating that buyers are in control and validating today's strong performance.",
+  "market_weight": 0.0336,
+  "change_pct": -1.83,
+  "insights": "The Energy sector experienced a notable 1.83% decline today, indicating a pullback from recent movements. Despite this daily drop, key technical indicators present a nuanced view. The Relative Strength Index (RSI) at 55.90 suggests the sector is not yet oversold, implying the decline could be a consolidation or profit-taking rather than a significant shift in momentum. Interestingly, the Money Flow Index (MFI) at 67.12 remains relatively high, indicating sustained money inflow into the sector despite the price depreciation, potentially signaling that dips are being bought. The On-Balance Volume (OBV) at 536,242,144 reflects substantial cumulative buying pressure, suggesting that today's selling pressure might be a short-term correction within an overarching trend of accumulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747526400000,
-        null
-      ],
-      [
-        1747612800000,
-        53.14
-      ],
-      [
-        1747699200000,
-        50.28
-      ],
       [
         1747785600000,
         45.13
@@ -747,21 +735,21 @@
       [
         1763078400000,
         64.68
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        57.72
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        59.81
-      ],
+        1763337600000,
+        55.9
+      ]
+    ],
+    "mfi": [
       [
         1747785600000,
         51.76
@@ -1473,21 +1461,21 @@
       [
         1763078400000,
         69.53
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1747526400000,
+        1763164800000,
         null
       ],
       [
-        1747612800000,
-        399883100.0
+        1763251200000,
+        null
       ],
       [
-        1747699200000,
-        388492000.0
-      ],
+        1763337600000,
+        67.12
+      ]
+    ],
+    "obv": [
       [
         1747785600000,
         375642800.0
@@ -2199,6 +2187,18 @@
       [
         1763078400000,
         554124509.0
+      ],
+      [
+        1763164800000,
+        null
+      ],
+      [
+        1763251200000,
+        null
+      ],
+      [
+        1763337600000,
+        536242144.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     0.07,
     1.59,
     2.77,
-    null,
+    -1.83,
     null,
     null,
     null,
