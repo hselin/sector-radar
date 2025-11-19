@@ -20,18 +20,10 @@
     ]
   },
   "market_weight": 0.0442,
-  "change_pct": -0.66,
-  "insights": "The Real Estate sector experienced a moderate decline today, falling -0.66%, with technical indicators largely supporting this negative momentum. The RSI at 40.85 suggests a slight bearish bias, indicating selling pressure currently outweighs buying interest, yet it remains above oversold levels. More significantly, the MFI at 30.12 points to considerable money outflow from the sector, approaching oversold conditions and reinforcing the price decline with strong volume-based selling. While the OBV figure of 27730842 itself is a cumulative value, the low MFI implies that daily OBV likely confirmed this selling pressure, reflecting continued distribution rather than accumulation, suggesting potential for further weakness before reaching deeply oversold territory.",
+  "change_pct": -0.76,
+  "insights": "The Real Estate sector experienced a modest decline today, closing down 0.76%, a movement supported by bearish technical indicators. The Relative Strength Index (RSI) at 39.71, while not yet deeply oversold, signals weakening buying momentum and increasing bearish sentiment. This is further corroborated by the Money Flow Index (MFI) at 34.23, indicating that capital continues to flow out of the sector. The On-Balance Volume (OBV) at 27,460,655, in conjunction with the negative price action and declining momentum, suggests that the selling pressure is backed by significant transaction volume, reinforcing the current bearish trend rather than indicating a low-volume pullback.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747785600000,
-        45.99
-      ],
-      [
-        1747872000000,
-        44.81
-      ],
       [
         1747958400000,
         44.92
@@ -747,17 +739,17 @@
       [
         1763337600000,
         40.85
+      ],
+      [
+        1763424000000,
+        43.16
+      ],
+      [
+        1763510400000,
+        39.71
       ]
     ],
     "mfi": [
-      [
-        1747785600000,
-        51.01
-      ],
-      [
-        1747872000000,
-        43.81
-      ],
       [
         1747958400000,
         43.3
@@ -1473,17 +1465,17 @@
       [
         1763337600000,
         30.12
+      ],
+      [
+        1763424000000,
+        31.91
+      ],
+      [
+        1763510400000,
+        34.23
       ]
     ],
     "obv": [
-      [
-        1747785600000,
-        70011900.0
-      ],
-      [
-        1747872000000,
-        66412600.0
-      ],
       [
         1747958400000,
         70164000.0
@@ -2199,6 +2191,14 @@
       [
         1763337600000,
         27730842.0
+      ],
+      [
+        1763424000000,
+        34365042.0
+      ],
+      [
+        1763510400000,
+        27460655.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     -4.1,
     0.92,
     -0.79,
-    -0.66,
+    -1.05,
     null,
     null,
     null,
