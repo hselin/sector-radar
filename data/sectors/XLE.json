@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0336,
-  "change_pct": -1.3,
-  "insights": "The Energy sector saw a decline of 1.30% today, indicating a negative daily performance. Despite this price drop, key technical indicators suggest underlying momentum remains relatively neutral. The Relative Strength Index (RSI) at 53.02 and Money Flow Index (MFI) at 56.84 are both situated in mid-range territory, indicating that while selling pressure was present, the sector is not yet signaling oversold conditions or strong, conviction-driven outflows. The On-Balance Volume (OBV) stands at 534,086,601; while this cumulative measure doesn't definitively detail today's specific volume pressure without a trend, its context alongside the neutral RSI and MFI readings suggests the day's decline was more of a moderate correction rather than a significant, deeply entrenched bearish shift.",
+  "change_pct": -1.15,
+  "insights": "The Energy sector recorded a modest -1.15% decline today. The Relative Strength Index (RSI) at 48.71 indicates a neutral trading zone, leaning slightly towards bearish momentum for the day but suggesting no extreme overbought or oversold conditions. Intriguingly, the Money Flow Index (MFI) at 58.04 suggests that capital is still flowing into the sector despite the price dip, potentially indicating underlying accumulation on weakness. The substantial On-Balance Volume (OBV) of 514,575,571 further signifies a history of significant accumulated buying pressure, suggesting today's downturn might be a short-term pullback within a generally supported trend, rather than a strong reversal in sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1747958400000,
-        45.19
-      ],
       [
         1748044800000,
         null
@@ -747,13 +743,13 @@
       [
         1763510400000,
         53.02
+      ],
+      [
+        1763596800000,
+        48.71
       ]
     ],
     "mfi": [
-      [
-        1747958400000,
-        51.4
-      ],
       [
         1748044800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1763510400000,
         56.84
+      ],
+      [
+        1763596800000,
+        58.04
       ]
     ],
     "obv": [
-      [
-        1747958400000,
-        375532200.0
-      ],
       [
         1748044800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1763510400000,
         534086601.0
+      ],
+      [
+        1763596800000,
+        514575571.0
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     0.07,
     1.59,
     2.77,
-    -2.31,
+    -3.43,
     null,
     null,
     null,
