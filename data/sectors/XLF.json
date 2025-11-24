@@ -1,41 +1,29 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector comprises companies engaged in banking, diversified financial services, insurance, real estate, and capital markets.",
-    "marketSizeUSD": "6.0T",
-    "constituentCount": 70,
+    "description": "The Financials sector comprises institutions such as banks, diversified financial services, insurance companies, and capital markets firms, excluding companies primarily focused on real estate operations.",
+    "marketSizeUSD": "4.5T",
+    "constituentCount": 68,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
         "symbol": "BRK.B"
       },
       {
-        "name": "JPMorgan Chase & Co.",
-        "symbol": "JPM"
-      },
-      {
         "name": "Visa Inc.",
         "symbol": "V"
+      },
+      {
+        "name": "JPMorgan Chase & Co.",
+        "symbol": "JPM"
       }
     ]
   },
-  "market_weight": 0.106,
-  "change_pct": 1.08,
-  "insights": "The Financials sector posted a solid performance today, rising 1.08%. Despite this positive daily gain, the Relative Strength Index (RSI) at 42.73 indicates the sector remains in neutral territory, well below overbought levels, suggesting the rally isn't overextended. This upward price action is further supported by the Money Flow Index (MFI) at 61.15, confirming a healthy inflow of capital and buying interest. The robust On-Balance Volume (OBV) of 1151235451, in conjunction with the price rise, suggests that today's gains were accompanied by strong trading volume, lending credence to the move's underlying strength.",
+  "market_weight": 0.0895,
+  "change_pct": 0.44,
+  "insights": "The Financials sector posted a modest gain of 0.44% today, indicating slight positive sentiment. Technical indicators present a nuanced view of this daily movement: the Relative Strength Index (RSI) at 45.17 suggests a neutral momentum, leaning slightly towards underlying consolidation rather than strong bullish conviction despite the daily uptick. However, the Money Flow Index (MFI) at 61.03 indicates a healthy influx of capital, confirming that today's price increase was accompanied by meaningful buying volume. The On-Balance Volume (OBV), standing at 1,193,439,964, reflects significant accumulated volume supporting the sector over time, with the positive MFI further solidifying the premise of continued money flow into Financials for today's session.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        59.15
-      ],
       [
         1748390400000,
         55.96
@@ -747,21 +735,21 @@
       [
         1763683200000,
         42.73
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        45.17
       ]
     ],
     "mfi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        60.17
-      ],
       [
         1748390400000,
         53.89
@@ -1473,21 +1461,21 @@
       [
         1763683200000,
         61.15
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        61.03
       ]
     ],
     "obv": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        971158400.0
-      ],
       [
         1748390400000,
         939428200.0
@@ -2199,6 +2187,18 @@
       [
         1763683200000,
         1151235451.0
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        1193439964.0
       ]
     ]
   },
@@ -2250,7 +2250,7 @@
     0.79,
     -0.6,
     -1.51,
-    null,
+    0.44,
     null,
     null,
     null,

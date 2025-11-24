@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector comprises companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, paper, forest products, and containers.",
-    "marketSizeUSD": "1.5T",
+    "description": "The Materials sector encompasses companies that discover, develop, and process raw materials, including chemicals, construction materials, metals & mining, paper & forest products, and containers & packaging.",
+    "marketSizeUSD": "1.2T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co.",
+        "name": "The Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0265,
-  "change_pct": 2.27,
-  "insights": "The Materials sector demonstrated robust performance today, climbing 2.27%. Despite this solid gain, its key technical indicators present a mixed picture: the Relative Strength Index (RSI) at 47.60 remains neutral, suggesting the sector is neither overbought nor oversold and has room for continued momentum. However, the Money Flow Index (MFI) at 45.82, slightly below the neutral 50-mark, indicates that buying conviction, despite today's rally, is not overwhelmingly strong. More significantly, the On-Balance Volume (OBV) stands at a substantial negative value, implying that cumulative selling pressure has outweighed buying pressure over a longer period, which suggests today's strong move may lack broader volume-based support from sustained accumulation.",
+  "market_weight": 0.0239,
+  "change_pct": 0.16,
+  "insights": "The Materials sector closed with a modest 0.16% gain today, reflecting a largely neutral trading session. Technical indicators support this sentiment: the Relative Strength Index (RSI) at 48.31 and Money Flow Index (MFI) at 53.16 both sit near the midpoint, suggesting a lack of strong momentum or significant money flow in either direction. While the sector saw a slight positive move, the deeply negative On-Balance Volume (OBV) of -47,651,761 indicates that, on a cumulative basis, selling pressure has historically outweighed buying volume, implying that today's minor uptick does little to shift the underlying long-term lack of sustained buying conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        60.13
-      ],
       [
         1748390400000,
         54.17
@@ -747,21 +735,21 @@
       [
         1763683200000,
         47.6
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        48.31
       ]
     ],
     "mfi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        55.29
-      ],
       [
         1748390400000,
         54.19
@@ -1473,21 +1461,21 @@
       [
         1763683200000,
         45.82
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        53.16
       ]
     ],
     "obv": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        -52557400.0
-      ],
       [
         1748390400000,
         -57855900.0
@@ -2199,6 +2187,18 @@
       [
         1763683200000,
         -54546073.0
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        -47651761.0
       ]
     ]
   },
@@ -2250,7 +2250,7 @@
     0.2,
     1.1,
     -0.46,
-    null,
+    0.16,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector encompasses companies engaged in providing medical services, manufacturing medical equipment, biotechnology, pharmaceuticals, and other health-related products and services.",
-    "marketSizeUSD": "5.6T",
+    "description": "The Health Care sector encompasses companies involved in pharmaceuticals, biotechnology, life sciences tools & services, healthcare equipment & supplies, healthcare providers & services, and healthcare technology.",
+    "marketSizeUSD": "6.5T",
     "constituentCount": 65,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0989,
-  "change_pct": 2.17,
-  "insights": "The Health Care sector posted a strong performance today, rising 2.17%. This robust daily gain is reflected in key technical indicators: the Relative Strength Index (RSI) at 75.99 and the Money Flow Index (MFI) at 75.98 are both well into overbought territory, signaling significant buying momentum and strong capital inflow into the sector. Concurrently, the On-Balance Volume (OBV) of 55080026 further supports this bullish sentiment, indicating substantial buying pressure accompanying the price increase. While today's movement underscores strong investor interest and upward momentum, these overbought conditions suggest the rally may be extended, potentially setting the stage for consolidation or a slight pullback in the near term.",
+  "market_weight": 0.1292,
+  "change_pct": 0.37,
+  "insights": "The Health Care sector posted a modest gain today, rising by 0.37%. However, its key technical indicators signal significant underlying momentum and potential short-term exhaustion. Both the Relative Strength Index (RSI) at 77.04 and the Money Flow Index (MFI) at 76.38 are firmly in overbought territory, suggesting strong buying pressure and capital inflow have propelled the recent upward movement, potentially indicating the sector is becoming extended in the near term. The On-Balance Volume (OBV) registering at 72,090,661 further confirms that today's positive price action was accompanied by sustained volume, reinforcing the current bullish trend but also supporting the notion of high accumulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        44.77
-      ],
       [
         1748390400000,
         43.49
@@ -747,21 +735,21 @@
       [
         1763683200000,
         75.99
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        77.04
       ]
     ],
     "mfi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        38.75
-      ],
       [
         1748390400000,
         34.32
@@ -1473,21 +1461,21 @@
       [
         1763683200000,
         75.98
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        76.38
       ]
     ],
     "obv": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        -123123800.0
-      ],
       [
         1748390400000,
         -134211300.0
@@ -2199,6 +2187,18 @@
       [
         1763683200000,
         55080026.0
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        72090661.0
       ]
     ]
   },
@@ -2250,7 +2250,7 @@
     1.3,
     3.94,
     1.84,
-    null,
+    0.37,
     null,
     null,
     null,

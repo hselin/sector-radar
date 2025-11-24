@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-23T21:07:57.100991Z",
+  "lastUpdated": "2025-11-24T21:17:49.829713Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, weighted by market capitalization.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a solid gain of 0.99%, indicating positive sentiment in daily price action. However, a deeper look at key technical indicators reveals a more nuanced picture regarding underlying market momentum and conviction. The Relative Strength Index (RSI) at 41.58, while not oversold, suggests that buying momentum is not particularly strong and remains in a neutral-to-weak territory. More notably, the Money Flow Index (MFI) is at a low 27.33, indicating significant capital outflow or a lack of strong buying interest, which presents a potential bearish divergence given the day's positive price movement. On-Balance Volume (OBV) stands at 2,024,280,265, an indicator of cumulative buying and selling pressure; its absolute value requires context from previous days to determine its trend, but its role is to confirm price movements. Overall, despite today's market ascent, the subdued RSI and particularly the weak MFI suggest that the gains might lack robust underlying money flow and conviction, pointing to potential cautiousness or a lack of sustained buying pressure.",
-    "change_pct": 0.99,
+    "commentary": "The overall stock market experienced a robust day, logging a significant gain of 1.46%. While the Relative Strength Index (RSI) at 49.44 indicates neutral short-term momentum despite the strong uptick, the Money Flow Index (MFI) at a notably low 32.95 suggests that the buying pressure might not be broad-based or supported by strong institutional inflow. Combined with the high On-Balance Volume (OBV) figure, this juxtaposition implies that while volume was present, the quality and sustainability of the money flow behind this rally remain questionable. Overall market sentiment appears cautiously optimistic following the price action, yet underlying momentum signals hint at a potential lack of strong conviction for a sustained upward trend, warranting a watchful approach.",
+    "change_pct": 1.46,
     "technicalIndicators": {
       "rsi": [
-        [
-          1748131200000,
-          null
-        ],
-        [
-          1748217600000,
-          null
-        ],
-        [
-          1748304000000,
-          62.77
-        ],
         [
           1748390400000,
           60.03
@@ -747,21 +735,21 @@
         [
           1763683200000,
           41.58
+        ],
+        [
+          1763769600000,
+          null
+        ],
+        [
+          1763856000000,
+          null
+        ],
+        [
+          1763942400000,
+          49.44
         ]
       ],
       "mfi": [
-        [
-          1748131200000,
-          null
-        ],
-        [
-          1748217600000,
-          null
-        ],
-        [
-          1748304000000,
-          64.66
-        ],
         [
           1748390400000,
           65.23
@@ -1473,21 +1461,21 @@
         [
           1763683200000,
           27.33
+        ],
+        [
+          1763769600000,
+          null
+        ],
+        [
+          1763856000000,
+          null
+        ],
+        [
+          1763942400000,
+          32.95
         ]
       ],
       "obv": [
-        [
-          1748131200000,
-          null
-        ],
-        [
-          1748217600000,
-          null
-        ],
-        [
-          1748304000000,
-          1369440100.0
-        ],
         [
           1748390400000,
           1300994600.0
@@ -2199,6 +2187,18 @@
         [
           1763683200000,
           2024280265.0
+        ],
+        [
+          1763769600000,
+          null
+        ],
+        [
+          1763856000000,
+          null
+        ],
+        [
+          1763942400000,
+          2090825437.0
         ]
       ]
     },
@@ -2250,7 +2250,7 @@
       -1.63,
       0.15,
       -1.92,
-      null,
+      1.46,
       null,
       null,
       null,

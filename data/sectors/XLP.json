@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that produce and sell essential goods and services, such as food, beverages, tobacco, household products, and personal care items, which are consistently in demand regardless of economic cycles.",
-    "marketSizeUSD": "2.0T",
+    "description": "The Consumer Staples sector includes companies that manufacture and market essential products and services that consumers are unable or unwilling to cut from their budgets, such as food, beverages, household goods, and tobacco.",
+    "marketSizeUSD": "2.6T",
     "constituentCount": 33,
     "topHoldings": [
       {
@@ -14,28 +14,16 @@
         "symbol": "PG"
       },
       {
-        "name": "Costco Wholesale Corp.",
-        "symbol": "COST"
+        "name": "The Coca-Cola Company",
+        "symbol": "KO"
       }
     ]
   },
-  "market_weight": 0.0353,
-  "change_pct": 1.1,
-  "insights": "The Consumer Staples sector showed positive momentum today, climbing 1.10%. Its key technical indicators suggest this short-term rise is reasonably supported: the Relative Strength Index (RSI) at 54.13 indicates neutral to slightly bullish momentum without being overbought, while the Money Flow Index (MFI) at 55.06 signals positive money flow into the sector. However, the On-Balance Volume (OBV) at -17,460,024, despite today's price appreciation, implies a longer-term lack of sustained buying volume accumulation, which could indicate underlying weakness that merits monitoring.",
+  "market_weight": 0.0517,
+  "change_pct": -1.19,
+  "insights": "Today, the Consumer Staples sector experienced a -1.19% decline. The key technical indicators largely corroborate this downward movement. The RSI, at 46.92, indicates momentum is slightly weakening but remains in neutral territory, not yet signaling oversold conditions. Similarly, the MFI at 47.35 suggests a slight outflow of funds from the sector. The significantly negative OBV of -34,132,378 further reinforces that today's decline was accompanied by considerable selling volume, indicating distribution rather than just a shallow correction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        56.58
-      ],
       [
         1748390400000,
         52.86
@@ -747,21 +735,21 @@
       [
         1763683200000,
         54.13
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        46.92
       ]
     ],
     "mfi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        50.76
-      ],
       [
         1748390400000,
         44.8
@@ -1473,21 +1461,21 @@
       [
         1763683200000,
         55.06
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        47.35
       ]
     ],
     "obv": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        -2572500.0
-      ],
       [
         1748390400000,
         -12536300.0
@@ -2199,6 +2187,18 @@
       [
         1763683200000,
         -17460024.0
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        -34132378.0
       ]
     ]
   },
@@ -2250,7 +2250,7 @@
     0.56,
     0.72,
     0.85,
-    null,
+    -1.19,
     null,
     null,
     null,

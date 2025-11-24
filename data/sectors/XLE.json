@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil and gas, as well as those involved in coal, other consumable fuels, and energy equipment and services.",
-    "marketSizeUSD": "1.9T",
-    "constituentCount": 22,
+    "description": "The Energy sector encompasses companies involved in the exploration, development, production, refining, and marketing of oil, natural gas, and other consumable fuels.",
+    "marketSizeUSD": "2.1T",
+    "constituentCount": 21,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0336,
-  "change_pct": 0.63,
-  "insights": "The Energy sector recorded a modest gain of 0.63% today, reflecting slight positive momentum. This upward movement is supported by technical indicators that suggest a balanced, yet slightly bullish, market dynamic. The Relative Strength Index (RSI) at 51.04 sits just above the neutral 50-mark, indicating a marginal increase in buying pressure without entering overbought territory. Complementing this, the Money Flow Index (MFI) at 56.08 confirms that money is flowing into the sector, lending support to the price appreciation. While the On-Balance Volume (OBV) of 533,146,332 is a static snapshot, the positive price action, coupled with the MFI, suggests that buying volume likely outweighed selling volume today, validating the sector's modest upward trend.",
+  "market_weight": 0.0417,
+  "change_pct": -0.29,
+  "insights": "The Energy sector experienced a marginal decline of -0.29% today, indicating a day of relatively subdued trading. Technical indicators support this movement, with the Relative Strength Index (RSI) at 49.91 suggesting a neutral momentum profile, neither overbought nor oversold. The Money Flow Index (MFI) at 55.54 points to slightly positive money flow into the sector despite the minor price dip, potentially signaling some underlying buying interest on small pullbacks. The On-Balance Volume (OBV) at 517,045,651 confirms sustained trading interest, though without a previous value, its daily directional insight is limited; however, in conjunction with MFI, it suggests a lack of aggressive selling pressure despite the small price decrease. Overall, the sector's performance today reflects a period of consolidation with no strong directional conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        48.13
-      ],
       [
         1748390400000,
         44.34
@@ -747,21 +735,21 @@
       [
         1763683200000,
         51.04
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        49.91
       ]
     ],
     "mfi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        50.92
-      ],
       [
         1748390400000,
         49.85
@@ -1473,21 +1461,21 @@
       [
         1763683200000,
         56.08
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        55.54
       ]
     ],
     "obv": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        385046200.0
-      ],
       [
         1748390400000,
         370269900.0
@@ -2199,6 +2187,18 @@
       [
         1763683200000,
         533146332.0
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        517045651.0
       ]
     ]
   },
@@ -2250,7 +2250,7 @@
     1.59,
     2.77,
     -2.83,
-    null,
+    -0.29,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector comprises companies that own, operate, or develop real estate, including Equity Real Estate Investment Trusts (REITs) and Real Estate Management & Development companies.",
-    "marketSizeUSD": "2.5T",
-    "constituentCount": 32,
+    "description": "The Real Estate GICS sector includes companies that own, develop, and manage real estate, predominantly through Equity Real Estate Investment Trusts (REITs).",
+    "marketSizeUSD": "2.3T",
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "Prologis, Inc.",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0442,
-  "change_pct": 1.3,
-  "insights": "The Real Estate sector advanced 1.30% today, signaling a positive daily performance. However, key technical indicators suggest a degree of underlying neutrality. The Relative Strength Index (RSI) at 46.23 and Money Flow Index (MFI) at 44.06 both hover near their respective midpoints, indicating neither significant overbought/oversold conditions nor an overwhelming surge in money flow supporting the rally. The On-Balance Volume (OBV) at 27,858,882 reflects cumulative buying/selling pressure; while its specific daily change isn't provided, its current level, combined with the neutral RSI and MFI, suggests that today's price appreciation might not be accompanied by exceptionally strong momentum or aggressive buying volume, warranting a cautious outlook on its immediate sustained strength.",
+  "market_weight": 0.0457,
+  "change_pct": 0.16,
+  "insights": "The Real Estate sector experienced a marginal positive change of 0.16% today, indicating a relatively flat trading session with limited upward momentum. Technical indicators reinforce this assessment: the Relative Strength Index (RSI) at 47.15 and the Money Flow Index (MFI) at 42.98 are both below the neutral 50-level, suggesting mild bearish momentum and a slight net outflow of funds, respectively. While On-Balance Volume (OBV) at 34316727 tracks buying and selling pressure, the combined signals from RSI and MFI imply that today's slight price increase occurred without strong conviction or significant accumulation from buyers.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        51.74
-      ],
       [
         1748390400000,
         51.74
@@ -747,21 +735,21 @@
       [
         1763683200000,
         46.23
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        47.15
       ]
     ],
     "mfi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        49.05
-      ],
       [
         1748390400000,
         48.63
@@ -1473,21 +1461,21 @@
       [
         1763683200000,
         44.06
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        42.98
       ]
     ],
     "obv": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        73790800.0
-      ],
       [
         1748390400000,
         73790800.0
@@ -2199,6 +2187,18 @@
       [
         1763683200000,
         27858882.0
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        34316727.0
       ]
     ]
   },
@@ -2250,7 +2250,7 @@
     0.92,
     -0.79,
     -0.13,
-    null,
+    0.16,
     null,
     null,
     null,

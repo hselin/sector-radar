@@ -1,16 +1,16 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that produce goods and services sensitive to economic cycles and are generally considered non-essential purchases.",
-    "marketSizeUSD": "8.8T",
+    "description": "The Consumer Discretionary GICS sector includes companies that provide non-essential goods and services, whose demand is sensitive to economic cycles and consumer discretionary income.",
+    "marketSizeUSD": "7.8T",
     "constituentCount": 56,
     "topHoldings": [
       {
-        "name": "Amazon.com, Inc.",
+        "name": "Amazon.com Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla, Inc.",
+        "name": "Tesla Inc.",
         "symbol": "TSLA"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1555,
-  "change_pct": 1.99,
-  "insights": "The Consumer Discretionary sector experienced a notable 1.99% gain today, signaling strong buying interest in the session. While this daily move is positive, the key technical indicators offer a nuanced perspective: the RSI at 39.12 suggests the sector is not yet overbought and still reflects a period of recent weaker momentum, indicating potential room for further upside. However, the very low MFI of 24.99 points to significant money outflows or a general lack of strong buying interest preceding today's rally, suggesting this could be a tactical bounce from an oversold condition rather than a robust, sustained shift in broader accumulation. The OBV value would have increased today, confirming the price rise was supported by buying volume, yet the MFI cautions that the underlying money flow trend has been predominantly weak.",
+  "market_weight": 0.1551,
+  "change_pct": 1.31,
+  "insights": "The Consumer Discretionary sector posted a strong 1.31% gain today, indicating renewed investor interest. However, a look at key technical indicators suggests a nuanced picture: the Relative Strength Index (RSI) at 43.89 remains below the neutral 50-mark, implying that despite today's positive movement, underlying momentum might still lean bearish or be in a consolidation phase. More strikingly, the Money Flow Index (MFI) at 29.63 signals oversold conditions, suggesting that while the sector saw a price bounce, there has been significant recent money outflow, potentially indicating undervaluation or a short-term rebound rather than a sustained shift in broader investor conviction. The On-Balance Volume (OBV) at 27858435 would need to show a continued upward trend to confirm that today's price appreciation is backed by robust buying pressure for a sustainable rally.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        64.0
-      ],
       [
         1748390400000,
         60.7
@@ -747,21 +735,21 @@
       [
         1763683200000,
         39.12
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        43.89
       ]
     ],
     "mfi": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        60.84
-      ],
       [
         1748390400000,
         54.86
@@ -1473,21 +1461,21 @@
       [
         1763683200000,
         24.99
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        29.63
       ]
     ],
     "obv": [
-      [
-        1748131200000,
-        null
-      ],
-      [
-        1748217600000,
-        null
-      ],
-      [
-        1748304000000,
-        -15029500.0
-      ],
       [
         1748390400000,
         -18800700.0
@@ -2199,6 +2187,18 @@
       [
         1763683200000,
         22738630.0
+      ],
+      [
+        1763769600000,
+        null
+      ],
+      [
+        1763856000000,
+        null
+      ],
+      [
+        1763942400000,
+        27858435.0
       ]
     ]
   },
@@ -2250,7 +2250,7 @@
     -1.68,
     -2.1,
     -2.34,
-    null,
+    1.31,
     null,
     null,
     null,
