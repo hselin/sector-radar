@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-24T21:17:49.829713Z",
+  "lastUpdated": "2025-11-25T21:13:07.909032Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, weighted by market capitalization.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a robust day, logging a significant gain of 1.46%. While the Relative Strength Index (RSI) at 49.44 indicates neutral short-term momentum despite the strong uptick, the Money Flow Index (MFI) at a notably low 32.95 suggests that the buying pressure might not be broad-based or supported by strong institutional inflow. Combined with the high On-Balance Volume (OBV) figure, this juxtaposition implies that while volume was present, the quality and sustainability of the money flow behind this rally remain questionable. Overall market sentiment appears cautiously optimistic following the price action, yet underlying momentum signals hint at a potential lack of strong conviction for a sustained upward trend, warranting a watchful approach.",
-    "change_pct": 1.46,
+    "commentary": "The stock market concluded the day with a solid performance, registering a gain of 0.94%. Examining key technical indicators provides a deeper insight into current market dynamics. The Relative Strength Index (RSI) at 53.82 suggests a healthy, yet not overextended, buying interest, indicating a slightly bullish but balanced sentiment. However, the Money Flow Index (MFI) at 33.42, which incorporates volume into its calculation, points to relatively weak underlying money flow supporting the price action, potentially raising a flag about the conviction behind the rally. Conversely, the On-Balance Volume (OBV) at 2163320550, a cumulative volume indicator, implies consistent volume participation aligning with the general trend, likely confirming today's upward movement. In summary, while price action was distinctly positive, the mixed signals, particularly from volume-based indicators, suggest that investors should monitor for sustained buying momentum.",
+    "change_pct": 0.94,
     "technicalIndicators": {
       "rsi": [
-        [
-          1748390400000,
-          60.03
-        ],
         [
           1748476800000,
           61.27
@@ -747,13 +743,13 @@
         [
           1763942400000,
           49.44
+        ],
+        [
+          1764028800000,
+          53.82
         ]
       ],
       "mfi": [
-        [
-          1748390400000,
-          65.23
-        ],
         [
           1748476800000,
           65.49
@@ -1473,13 +1469,13 @@
         [
           1763942400000,
           32.95
+        ],
+        [
+          1764028800000,
+          33.42
         ]
       ],
       "obv": [
-        [
-          1748390400000,
-          1300994600.0
-        ],
         [
           1748476800000,
           1370967900.0
@@ -2199,6 +2195,10 @@
         [
           1763942400000,
           2090825437.0
+        ],
+        [
+          1764028800000,
+          2163320550.0
         ]
       ]
     },
@@ -2250,7 +2250,7 @@
       -1.63,
       0.15,
       -1.92,
-      1.46,
+      2.42,
       null,
       null,
       null,
