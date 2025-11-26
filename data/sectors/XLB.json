@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0239,
-  "change_pct": 1.49,
-  "insights": "The Materials sector demonstrated a strong performance today, gaining 1.49%. Technical indicators reveal building momentum, with the Relative Strength Index (RSI) at 54.44 and the Money Flow Index (MFI) at 52.19, both suggesting healthy upward price action and positive capital inflow without being overbought. However, the On-Balance Volume (OBV) registering a significant negative value of -41,522,084 presents a notable divergence, indicating that today's price gain may not be fully supported by strong buying volume, or that previous selling pressure remains dominant on a cumulative basis, potentially signaling a lack of conviction behind the daily rally despite the positive price movement.",
+  "change_pct": 1.21,
+  "insights": "The Materials sector posted a robust gain of 1.21% today, signaling positive momentum. This upward movement is supported by technical indicators like the RSI at 58.80 and MFI at 59.41, both suggesting healthy buying interest and positive money flow into the sector, without yet entering overbought territory. However, the negative OBV reading of -36,791,384 indicates that today's price appreciation was not fully corroborated by strong net buying volume, potentially implying some underlying selling pressure or a lack of broad conviction behind the rally, which warrants closer monitoring for sustained upward trends.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748476800000,
-        55.44
-      ],
       [
         1748563200000,
         55.49
@@ -747,13 +743,13 @@
       [
         1764028800000,
         54.44
+      ],
+      [
+        1764115200000,
+        58.8
       ]
     ],
     "mfi": [
-      [
-        1748476800000,
-        46.09
-      ],
       [
         1748563200000,
         38.43
@@ -1473,13 +1469,13 @@
       [
         1764028800000,
         52.19
+      ],
+      [
+        1764115200000,
+        59.41
       ]
     ],
     "obv": [
-      [
-        1748476800000,
-        -52921100.0
-      ],
       [
         1748563200000,
         -46864000.0
@@ -2199,6 +2195,10 @@
       [
         1764028800000,
         -41522084.0
+      ],
+      [
+        1764115200000,
+        -36791384.0
       ]
     ]
   },
@@ -2250,7 +2250,7 @@
     0.2,
     1.1,
     -0.46,
-    1.65,
+    2.88,
     null,
     null,
     null,
