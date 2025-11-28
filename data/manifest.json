@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-27T21:07:47.601264Z",
+  "lastUpdated": "2025-11-28T21:12:38.614506Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, weighted by market capitalization.",
@@ -20,18 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a positive day, climbing 0.70%, which suggests a prevailing bullish sentiment among investors for the session. From a technical perspective, the Relative Strength Index (RSI) at 56.83 indicates healthy, non-overbought momentum, leaning towards the bullish side without showing signs of overheating. However, the Money Flow Index (MFI) at 39.21, being below the 50-level, suggests that despite the price increase, there might be a lack of strong, broad money inflow into the market, potentially signaling cautious buying or sector-specific movements rather than widespread conviction. The On-Balance Volume (OBV) at 2,228,612,101, while significant in magnitude, primarily reflects cumulative buying pressure supporting price over time; without its daily change, it broadly reinforces the underlying volume-price relationship. Overall, while the price action and RSI point to sustained positive momentum, the MFI hints at a more measured or discerning market sentiment behind the daily gains.",
-    "change_pct": 0.7,
+    "commentary": "The overall stock market advanced modestly today, gaining 0.54%. Key technical indicators present a somewhat mixed picture regarding sentiment and momentum: the Relative Strength Index (RSI) at 59.07 suggests positive momentum, comfortably above neutral but below overbought levels. However, the Money Flow Index (MFI) at 44.50, sitting just below the 50-mark, indicates that despite rising prices, the broader money flow isn't strongly confirming the rally, hinting at some underlying caution. The On-Balance Volume (OBV) at 2,268,985,473, given the positive price action, implies accumulation, ideally confirming the upward trend. In sum, while the market experienced positive price momentum, the nuanced MFI suggests that conviction might be somewhat restrained, reflecting cautious optimism rather than aggressive buying.",
+    "change_pct": 0.54,
     "technicalIndicators": {
       "rsi": [
-        [
-          1748563200000,
-          60.69
-        ],
-        [
-          1748649600000,
-          null
-        ],
         [
           1748736000000,
           null
@@ -747,17 +739,17 @@
         [
           1764115200000,
           56.83
+        ],
+        [
+          1764201600000,
+          null
+        ],
+        [
+          1764288000000,
+          59.07
         ]
       ],
       "mfi": [
-        [
-          1748563200000,
-          62.04
-        ],
-        [
-          1748649600000,
-          null
-        ],
         [
           1748736000000,
           null
@@ -1473,17 +1465,17 @@
         [
           1764115200000,
           39.21
+        ],
+        [
+          1764201600000,
+          null
+        ],
+        [
+          1764288000000,
+          44.5
         ]
       ],
       "obv": [
-        [
-          1748563200000,
-          1280366700.0
-        ],
-        [
-          1748649600000,
-          null
-        ],
         [
           1748736000000,
           null
@@ -2199,6 +2191,14 @@
         [
           1764115200000,
           2228612101.0
+        ],
+        [
+          1764201600000,
+          null
+        ],
+        [
+          1764288000000,
+          2268985473.0
         ]
       ]
     },
@@ -2250,7 +2250,7 @@
       -1.63,
       0.15,
       -1.92,
-      3.14,
+      3.7,
       null,
       null,
       null,
