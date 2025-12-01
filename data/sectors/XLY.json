@@ -1,41 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary GICS sector includes companies that provide non-essential goods and services, whose demand is sensitive to economic cycles and consumer discretionary income.",
-    "marketSizeUSD": "7.8T",
-    "constituentCount": 56,
+    "description": "The Consumer Discretionary sector comprises companies that sell non-essential goods and services, whose demand is sensitive to the business cycle and consumer income.",
+    "marketSizeUSD": "5.7T",
+    "constituentCount": 55,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc.",
+        "name": "Amazon.com Inc",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc.",
+        "name": "Tesla Inc",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot, Inc.",
+        "name": "The Home Depot Inc",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1551,
-  "change_pct": 0.63,
-  "insights": "The Consumer Discretionary sector posted a positive daily performance, rising 0.63%. Its Relative Strength Index (RSI) at 54.65 suggests moderate buying interest without approaching overbought conditions, indicating a relatively healthy upward move. However, the Money Flow Index (MFI) at 37.55, which is below 50, implies that despite the price gain, money flow into the sector was relatively subdued, potentially suggesting a lack of strong conviction or broader participation behind today's increase. Meanwhile, the On-Balance Volume (OBV) registered at 39355715, with its positive contribution today indicating that volume generally supported the upward price movement. Overall, while the sector closed higher, the mixed signals from MFI suggest caution, warranting further observation of underlying money flow.",
+  "market_weight": 0.0933,
+  "change_pct": 0.06,
+  "insights": "The Consumer Discretionary sector posted a largely flat performance today with a minimal 0.06% gain, indicating a day of little directional conviction. Technical indicators paint a picture of subdued activity: the Relative Strength Index (RSI) at 54.84 remains in neutral territory, suggesting neither strong overbought nor oversold conditions and limited bullish momentum. However, the Money Flow Index (MFI) at 37.43 indicates some underlying selling pressure or a lack of robust money inflow, even with the slight price uptick. On-Balance Volume (OBV) reflects the day's modest trading activity consistent with the minor price movement, not signaling any significant divergence or hidden accumulation. Collectively, these metrics point to a day of indecision and consolidation within the sector, with muted enthusiasm despite the positive close.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748736000000,
-        null
-      ],
-      [
-        1748822400000,
-        59.37
-      ],
-      [
-        1748908800000,
-        60.85
-      ],
       [
         1748995200000,
         59.68
@@ -747,21 +735,21 @@
       [
         1764288000000,
         54.65
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        34.18
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        32.1
-      ],
+        1764547200000,
+        54.84
+      ]
+    ],
+    "mfi": [
       [
         1748995200000,
         25.64
@@ -1473,21 +1461,21 @@
       [
         1764288000000,
         37.55
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        -15509600.0
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        -11581900.0
-      ],
+        1764547200000,
+        37.43
+      ]
+    ],
+    "obv": [
       [
         1748995200000,
         -15372400.0
@@ -2199,6 +2187,18 @@
       [
         1764288000000,
         39355715.0
+      ],
+      [
+        1764374400000,
+        null
+      ],
+      [
+        1764460800000,
+        null
+      ],
+      [
+        1764547200000,
+        44354545.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     -2.1,
     -2.34,
     4.85,
-    null,
+    0.06,
     null,
     null,
     null

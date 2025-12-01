@@ -1,16 +1,16 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services GICS sector encompasses companies primarily engaged in telecommunication services, media and entertainment content, and interactive media and services.",
-    "marketSizeUSD": "4.5T",
-    "constituentCount": 23,
+    "description": "The Communication Services sector encompasses companies offering telecommunication services, interactive media, entertainment, and traditional media content and products.",
+    "marketSizeUSD": "8.1T",
+    "constituentCount": 22,
     "topHoldings": [
       {
         "name": "Alphabet Inc.",
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms Inc.",
+        "name": "Meta Platforms, Inc.",
         "symbol": "META"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0895,
-  "change_pct": 0.8,
-  "insights": "The Communication Services sector demonstrated a positive daily performance, rising by 0.80%, indicating a healthy bullish sentiment. This upward movement is supported by an RSI of 58.23, suggesting solid momentum without being overextended. More significantly, the Money Flow Index (MFI) at 72.10 points to substantial capital inflow into the sector, nearing overbought conditions and underscoring strong investor interest and buying pressure behind today's gains. The robust On-Balance Volume (OBV) of 310,870,535, which would have increased with today's positive price action, further confirms that this advance is backed by significant volume and conviction among buyers.",
+  "market_weight": 0.1326,
+  "change_pct": -0.43,
+  "insights": "The Communication Services sector experienced a modest decline of -0.43% today. Despite this slight daily pullback, key technical indicators suggest underlying resilience and demand. The Relative Strength Index (RSI) at 55.80 indicates the sector is in a healthy, neutral momentum zone, neither overbought nor oversold. More notably, the Money Flow Index (MFI) at 66.67 points to significant buying pressure and money flowing into the sector, implying that investors are actively accumulating or finding value even with the day's minor dip. The substantial On-Balance Volume (OBV) of 306,836,860 further corroborates significant cumulative buying interest over time, suggesting that the day's negative movement might be a short-term fluctuation rather than a deeper concern about the sector's overall strength.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748736000000,
-        null
-      ],
-      [
-        1748822400000,
-        64.15
-      ],
-      [
-        1748908800000,
-        62.25
-      ],
       [
         1748995200000,
         64.77
@@ -747,21 +735,21 @@
       [
         1764288000000,
         58.23
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        58.1
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        57.3
-      ],
+        1764547200000,
+        55.8
+      ]
+    ],
+    "mfi": [
       [
         1748995200000,
         57.34
@@ -1473,21 +1461,21 @@
       [
         1764288000000,
         72.1
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        252129600.0
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        248027500.0
-      ],
+        1764547200000,
+        66.67
+      ]
+    ],
+    "obv": [
       [
         1748995200000,
         252415700.0
@@ -2199,6 +2187,18 @@
       [
         1764288000000,
         310870535.0
+      ],
+      [
+        1764374400000,
+        null
+      ],
+      [
+        1764460800000,
+        null
+      ],
+      [
+        1764547200000,
+        306836860.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     -0.68,
     0.51,
     3.12,
-    null,
+    -0.43,
     null,
     null,
     null

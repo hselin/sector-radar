@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies that discover, develop, and process raw materials, including chemicals, construction materials, metals & mining, paper & forest products, and containers & packaging.",
-    "marketSizeUSD": "1.2T",
+    "description": "The Materials sector encompasses companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, and paper products.",
+    "marketSizeUSD": "1.6T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LIN"
       },
       {
-        "name": "The Sherwin-Williams Company",
+        "name": "Sherwin-Williams Co.",
         "symbol": "SHW"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0239,
-  "change_pct": 0.6,
-  "insights": "The Materials sector posted a modest gain of 0.60% today, with its key technical indicators offering a mixed but generally positive near-term outlook. The RSI at 60.81 and MFI at 56.98 both reflect healthy buying momentum and capital inflow, indicating that today's upward movement is supported by increasing interest without being overextended into overbought territory. However, the significantly negative On-Balance Volume (OBV) of -34,405,963 suggests that despite the daily gain, the cumulative volume trend over a broader period has favored distribution, potentially hinting at underlying weakness that could limit sustained upward moves unless robust accumulation volume emerges.",
+  "market_weight": 0.0262,
+  "change_pct": -0.25,
+  "insights": "The Materials sector registered a slight decline today, down -0.25%. Despite this modest dip, key technical indicators present a mixed outlook: the Relative Strength Index (RSI) at 59.51 and Money Flow Index (MFI) at 56.68 both remain in neutral-to-slightly bullish territory, indicating that underlying momentum and money flow haven't significantly deteriorated and the sector is not oversold. However, the significantly negative On-Balance Volume (OBV) of -40,677,790 suggests that selling volume has broadly outweighed buying volume over a recent period, implying an underlying accumulation weakness that today's minor price decline reinforces, reflecting persistent selling pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748736000000,
-        null
-      ],
-      [
-        1748822400000,
-        57.67
-      ],
-      [
-        1748908800000,
-        61.24
-      ],
       [
         1748995200000,
         62.5
@@ -747,21 +735,21 @@
       [
         1764288000000,
         60.81
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        41.94
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        50.12
-      ],
+        1764547200000,
+        59.51
+      ]
+    ],
+    "mfi": [
       [
         1748995200000,
         57.97
@@ -1473,21 +1461,21 @@
       [
         1764288000000,
         56.98
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        -38958500.0
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        -32349400.0
-      ],
+        1764547200000,
+        56.68
+      ]
+    ],
+    "obv": [
       [
         1748995200000,
         -25715400.0
@@ -2199,6 +2187,18 @@
       [
         1764288000000,
         -34405963.0
+      ],
+      [
+        1764374400000,
+        null
+      ],
+      [
+        1764460800000,
+        null
+      ],
+      [
+        1764547200000,
+        -40677790.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     1.1,
     -0.46,
     3.5,
-    null,
+    -0.25,
     null,
     null,
     null

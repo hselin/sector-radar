@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-11-30T21:07:49.262795Z",
+  "lastUpdated": "2025-12-01T21:17:42.869895Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market posted a modest gain today, closing up 0.54%. Technical indicators present a mixed but generally supportive picture for market sentiment and momentum: The Relative Strength Index (RSI) at 59.07 signals positive momentum is building, remaining below overbought territory (70), which suggests room for further upside without immediate overheating. Conversely, the Money Flow Index (MFI) at 44.50, slightly below the neutral 50-mark, suggests that while prices rose, the underlying volume-weighted buying pressure was not exceptionally strong. However, On-Balance Volume (OBV) at 2,268,985,473, reflecting significant cumulative volume, typically confirms price trends; given today's gain, a robust OBV reading suggests that participation is supporting the upward move and indicates underlying accumulation. Overall, market sentiment appears cautiously optimistic, with price momentum confirmed by volume, though the MFI introduces a slight note of moderated buying intensity.",
-    "change_pct": 0.54,
+    "commentary": "The broader market experienced a modest retreat today, closing down 0.46%, reflecting a slight cooling in investor enthusiasm. The Relative Strength Index (RSI) at 56.40 suggests underlying momentum remains somewhat resilient, staying above the neutral 50-mark without entering overbought territory. However, the Money Flow Index (MFI) at 38.67 indicates a discernible outflow of capital, signaling that selling pressure, weighted by volume, had the upper hand during the session. The significant On-Balance Volume (OBV) confirms substantial participation, and when viewed with the negative price action and MFI, points to a cautious market where sellers were more active, even if not in a panic, contributing to the day's slight contraction.",
+    "change_pct": -0.46,
     "technicalIndicators": {
       "rsi": [
-        [
-          1748736000000,
-          null
-        ],
-        [
-          1748822400000,
-          62.59
-        ],
-        [
-          1748908800000,
-          64.48
-        ],
         [
           1748995200000,
           64.31
@@ -747,21 +735,21 @@
         [
           1764288000000,
           59.07
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1748736000000,
+          1764374400000,
           null
         ],
         [
-          1748822400000,
-          61.43
+          1764460800000,
+          null
         ],
         [
-          1748908800000,
-          61.3
-        ],
+          1764547200000,
+          56.4
+        ]
+      ],
+      "mfi": [
         [
           1748995200000,
           60.99
@@ -1473,21 +1461,21 @@
         [
           1764288000000,
           44.5
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1748736000000,
+          1764374400000,
           null
         ],
         [
-          1748822400000,
-          1341997200.0
+          1764460800000,
+          null
         ],
         [
-          1748908800000,
-          1405603400.0
-        ],
+          1764547200000,
+          38.67
+        ]
+      ],
+      "obv": [
         [
           1748995200000,
           1348289200.0
@@ -2199,6 +2187,18 @@
         [
           1764288000000,
           2268985473.0
+        ],
+        [
+          1764374400000,
+          null
+        ],
+        [
+          1764460800000,
+          null
+        ],
+        [
+          1764547200000,
+          2214288906.0
         ]
       ]
     },
@@ -2251,7 +2251,7 @@
       0.15,
       -1.92,
       3.7,
-      null,
+      -0.46,
       null,
       null,
       null

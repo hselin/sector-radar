@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector includes companies that own, develop, and manage real estate, predominantly through Equity Real Estate Investment Trusts (REITs).",
-    "marketSizeUSD": "2.3T",
+    "description": "The Real Estate GICS sector comprises equity real estate investment trusts (REITs) and other companies engaged in real estate management and development, excluding mortgage REITs and real estate services.",
+    "marketSizeUSD": "3.5T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -10,32 +10,20 @@
         "symbol": "PLD"
       },
       {
-        "name": "American Tower Corporation",
-        "symbol": "AMT"
-      },
-      {
         "name": "Equinix, Inc.",
         "symbol": "EQIX"
+      },
+      {
+        "name": "Public Storage",
+        "symbol": "PSA"
       }
     ]
   },
-  "market_weight": 0.0457,
-  "change_pct": 0.47,
-  "insights": "The Real Estate sector posted a modest gain today, advancing by 0.47%. Technically, the Relative Strength Index (RSI) at 56.50 indicates neutral momentum, leaning slightly bullish without being overbought, aligning with the positive close. However, the Money Flow Index (MFI) at 47.05, slightly below the 50-mark, suggests a mild net outflow of funds, indicating that while the price gained, buying pressure wasn't overwhelmingly strong. The On-Balance Volume (OBV) value of 48,631,759 generally supports the day's modest price increase, implying that the upward movement had some corresponding volume backing it.",
+  "market_weight": 0.0573,
+  "change_pct": -1.39,
+  "insights": "The Real Estate sector experienced a notable decline today, dropping by 1.39%. This downturn is reflected in its technical indicators: the Relative Strength Index (RSI) at 48.31 is in neutral territory but shows weakening momentum below the 50-mark. More concerning, the Money Flow Index (MFI) at 39.59 indicates significant capital outflow, nearing oversold conditions and confirming the negative sentiment. The On-Balance Volume (OBV) of 42642489 further suggests that today's price depreciation was accompanied by notable selling pressure, reinforcing the observed downward movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748736000000,
-        null
-      ],
-      [
-        1748822400000,
-        56.35
-      ],
-      [
-        1748908800000,
-        54.38
-      ],
       [
         1748995200000,
         55.82
@@ -747,21 +735,21 @@
       [
         1764288000000,
         56.5
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        51.04
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        61.93
-      ],
+        1764547200000,
+        48.31
+      ]
+    ],
+    "mfi": [
       [
         1748995200000,
         68.61
@@ -1473,21 +1461,21 @@
       [
         1764288000000,
         47.05
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        90241800.0
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        83964900.0
-      ],
+        1764547200000,
+        39.59
+      ]
+    ],
+    "obv": [
       [
         1748995200000,
         86934600.0
@@ -2199,6 +2187,18 @@
       [
         1764288000000,
         48631759.0
+      ],
+      [
+        1764374400000,
+        null
+      ],
+      [
+        1764460800000,
+        null
+      ],
+      [
+        1764547200000,
+        42642489.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     -0.79,
     -0.13,
     1.9,
-    null,
+    -1.39,
     null,
     null,
     null

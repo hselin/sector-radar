@@ -1,41 +1,29 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that manufacture and market essential products and services that consumers are unable or unwilling to cut from their budgets, such as food, beverages, household goods, and tobacco.",
-    "marketSizeUSD": "2.6T",
+    "description": "The Consumer Staples sector includes companies that produce essential goods and services such as food, beverages, household products, and tobacco, which are generally non-cyclical and in constant demand.",
+    "marketSizeUSD": "2.8T",
     "constituentCount": 33,
     "topHoldings": [
       {
-        "name": "Walmart Inc.",
-        "symbol": "WMT"
-      },
-      {
-        "name": "Procter & Gamble Co.",
+        "name": "Procter & Gamble Company",
         "symbol": "PG"
       },
       {
-        "name": "The Coca-Cola Company",
+        "name": "PepsiCo, Inc.",
+        "symbol": "PEP"
+      },
+      {
+        "name": "Coca-Cola Company",
         "symbol": "KO"
       }
     ]
   },
-  "market_weight": 0.0517,
-  "change_pct": 0.6,
-  "insights": "The Consumer Staples sector posted a solid performance today, gaining 0.60%, supported by positive underlying technicals. The Relative Strength Index (RSI) at 61.81 and Money Flow Index (MFI) at 59.31 both indicate healthy bullish momentum and sustained buying interest, remaining below overbought thresholds and suggesting continued strength without excessive exuberance. Furthermore, the positive On-Balance Volume (OBV) at 3,200,637 reinforces net accumulation in the sector, signaling that today's price increase is backed by consistent volume flow and genuine demand.",
+  "market_weight": 0.0458,
+  "change_pct": -0.13,
+  "insights": "The Consumer Staples sector posted a marginal decline of -0.13% today, indicating a near-flat session. Despite this slight pullback, the Relative Strength Index (RSI) at 60.96 and Money Flow Index (MFI) at 66.94 both sit in the upper-neutral range, nearing overbought levels. This suggests sustained underlying buying interest and significant money flow into the sector recently, implying accumulation prior to today. However, the On-Balance Volume (OBV) at -12938576 indicates that today's minor price dip was accompanied by a net negative volume flow, suggesting some profit-taking or a lack of strong buying conviction during the session itself, despite the broader positive momentum signaled by RSI and MFI.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748736000000,
-        null
-      ],
-      [
-        1748822400000,
-        58.91
-      ],
-      [
-        1748908800000,
-        58.27
-      ],
       [
         1748995200000,
         53.7
@@ -747,21 +735,21 @@
       [
         1764288000000,
         61.81
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        52.68
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        59.97
-      ],
+        1764547200000,
+        60.96
+      ]
+    ],
+    "mfi": [
       [
         1748995200000,
         59.7
@@ -1473,21 +1461,21 @@
       [
         1764288000000,
         59.31
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        34391800.0
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        21126200.0
-      ],
+        1764547200000,
+        66.94
+      ]
+    ],
+    "obv": [
       [
         1748995200000,
         10322100.0
@@ -2199,6 +2187,18 @@
       [
         1764288000000,
         3200637.0
+      ],
+      [
+        1764374400000,
+        null
+      ],
+      [
+        1764460800000,
+        null
+      ],
+      [
+        1764547200000,
+        -12938576.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     0.72,
     0.85,
     1.86,
-    null,
+    -0.13,
     null,
     null,
     null

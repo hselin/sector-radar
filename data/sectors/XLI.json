@@ -1,41 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that manufacture capital goods, provide commercial services and supplies, and offer transportation services.",
-    "marketSizeUSD": "2.9T",
-    "constituentCount": 74,
+    "description": "The Industrials sector comprises companies involved in the production of capital goods, provision of commercial services, and various forms of transportation.",
+    "marketSizeUSD": "5.0T",
+    "constituentCount": 72,
     "topHoldings": [
-      {
-        "name": "Caterpillar Inc.",
-        "symbol": "CAT"
-      },
       {
         "name": "General Electric Company",
         "symbol": "GE"
       },
       {
-        "name": "Union Pacific Corporation",
-        "symbol": "UNP"
+        "name": "Caterpillar Inc.",
+        "symbol": "CAT"
+      },
+      {
+        "name": "RTX Corporation",
+        "symbol": "RTX"
       }
     ]
   },
-  "market_weight": 0.0577,
-  "change_pct": 0.6,
-  "insights": "The Industrials sector posted a constructive performance today, rising 0.60%. This modest gain is reflected in an RSI of 55.32, indicating healthy, non-overbought bullish momentum within a neutral range. However, the MFI at 41.95 suggests a net outflow of money or subdued buying interest despite the price appreciation, which could be a cautious signal regarding the sustainability of the upward trend. The OBV of 100,957,383, as a cumulative indicator, shows that today's positive movement was generally supported by net buying volume, contributing to the sector's accumulated buying pressure.",
+  "market_weight": 0.0818,
+  "change_pct": -1.43,
+  "insights": "The Industrials sector experienced a notable pullback today, closing down -1.43%. This decline is largely corroborated by its key technical indicators. The Relative Strength Index (RSI) at 47.59 indicates weakening momentum, sitting below the neutral 50-mark and suggesting a bearish bias. More significantly, the Money Flow Index (MFI) at 36.22 signals a clear outflow of capital from the sector, reinforcing the selling pressure observed. While the On-Balance Volume (OBV) stands at 90,556,161, its context alongside the price decline and MFI outflow implies that volume largely supported today's downward movement, confirming the prevailing negative sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748736000000,
-        null
-      ],
-      [
-        1748822400000,
-        64.28
-      ],
-      [
-        1748908800000,
-        66.82
-      ],
       [
         1748995200000,
         67.0
@@ -747,21 +735,21 @@
       [
         1764288000000,
         55.32
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        42.95
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        43.51
-      ],
+        1764547200000,
+        47.59
+      ]
+    ],
+    "mfi": [
       [
         1748995200000,
         49.21
@@ -1473,21 +1461,21 @@
       [
         1764288000000,
         41.95
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        -13537700.0
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        -2640900.0
-      ],
+        1764547200000,
+        36.22
+      ]
+    ],
+    "obv": [
       [
         1748995200000,
         5334900.0
@@ -2199,6 +2187,18 @@
       [
         1764288000000,
         100957383.0
+      ],
+      [
+        1764374400000,
+        null
+      ],
+      [
+        1764460800000,
+        null
+      ],
+      [
+        1764547200000,
+        90556161.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     -0.82,
     -1.59,
     2.7,
-    null,
+    -1.43,
     null,
     null,
     null

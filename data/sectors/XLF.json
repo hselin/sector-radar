@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector comprises institutions such as banks, diversified financial services, insurance companies, and capital markets firms, excluding companies primarily focused on real estate operations.",
-    "marketSizeUSD": "4.5T",
+    "description": "The Financials sector encompasses companies involved in banking, diversified financial services, insurance, and capital markets, providing essential capital and risk management solutions across the economy.",
+    "marketSizeUSD": "6.2T",
     "constituentCount": 68,
     "topHoldings": [
       {
@@ -10,32 +10,20 @@
         "symbol": "BRK.B"
       },
       {
-        "name": "Visa Inc.",
-        "symbol": "V"
-      },
-      {
         "name": "JPMorgan Chase & Co.",
         "symbol": "JPM"
+      },
+      {
+        "name": "Bank of America Corporation",
+        "symbol": "BAC"
       }
     ]
   },
-  "market_weight": 0.0895,
-  "change_pct": 0.74,
-  "insights": "The Financials sector experienced a positive day, gaining 0.74%. This upward momentum is well-supported by key technical indicators. The Relative Strength Index (RSI) at 58.13 suggests healthy positive momentum without venturing into overbought territory, indicating room for continued appreciation. The Money Flow Index (MFI) at 65.73 strongly confirms significant buying pressure and capital inflow into the sector, validating the price advance with robust volume. While the On-Balance Volume (OBV) at 1,287,865,876 represents a substantial cumulative level, its likely increase today in tandem with the price rise further solidifies the positive sentiment and demand for financial stocks.",
+  "market_weight": 0.1015,
+  "change_pct": -0.83,
+  "insights": "The Financials sector experienced a modest decline today, closing down 0.83%. Despite this daily dip, key technical indicators suggest the move is likely a minor retracement rather than a strong bearish shift. The Relative Strength Index (RSI) at 53.55 indicates the sector remains in neutral territory, avoiding overbought or oversold conditions. Concurrently, the Money Flow Index (MFI) at 60.57 points to continued moderate money inflow, suggesting underlying buying interest persists even with the price drop. The substantial On-Balance Volume (OBV) at 1,259,543,007, when viewed in conjunction with these metrics, implies that today's decline did not occur with overwhelming selling pressure, reinforcing the perspective of a temporary pullback.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748736000000,
-        null
-      ],
-      [
-        1748822400000,
-        58.79
-      ],
-      [
-        1748908800000,
-        59.6
-      ],
       [
         1748995200000,
         56.16
@@ -747,21 +735,21 @@
       [
         1764288000000,
         58.13
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        45.8
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        45.75
-      ],
+        1764547200000,
+        53.55
+      ]
+    ],
+    "mfi": [
       [
         1748995200000,
         52.25
@@ -1473,21 +1461,21 @@
       [
         1764288000000,
         65.73
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        1041622100.0
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        1075327500.0
-      ],
+        1764547200000,
+        60.57
+      ]
+    ],
+    "obv": [
       [
         1748995200000,
         1050727000.0
@@ -2199,6 +2187,18 @@
       [
         1764288000000,
         1287865876.0
+      ],
+      [
+        1764374400000,
+        null
+      ],
+      [
+        1764460800000,
+        null
+      ],
+      [
+        1764547200000,
+        1259543007.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     -0.6,
     -1.51,
     3.19,
-    null,
+    -0.83,
     null,
     null,
     null

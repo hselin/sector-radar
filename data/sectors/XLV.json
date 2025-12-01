@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in pharmaceuticals, biotechnology, life sciences tools & services, healthcare equipment & supplies, healthcare providers & services, and healthcare technology.",
-    "marketSizeUSD": "6.5T",
+    "description": "The Health Care sector comprises companies that provide medical services, manufacture medical equipment or drugs, or provide other health-related services.",
+    "marketSizeUSD": "6.8T",
     "constituentCount": 65,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1292,
-  "change_pct": -0.45,
-  "insights": "The Healthcare sector saw a minor decline of -0.45% today, a modest pullback following a period of strong performance. This slight dip comes as key momentum indicators, the Relative Strength Index (RSI) at 76.10 and the Money Flow Index (MFI) at 72.79, both signal the sector is deep in overbought territory, suggesting it may be technically extended and due for profit-taking or consolidation. The strong On-Balance Volume (OBV) reading of 68,231,740 reinforces the significant cumulative buying pressure that has previously driven the sector's rally, indicating that while today saw a slight correction, underlying interest has been substantial.",
+  "market_weight": 0.1113,
+  "change_pct": -1.48,
+  "insights": "The Health Care sector registered a notable decline of -1.48% today, indicating a negative trading session. Despite this daily pullback, key technical indicators suggest the sector still retains underlying positive momentum. The Relative Strength Index (RSI) at 64.99 and Money Flow Index (MFI) at 66.81 both remain in relatively strong territory, nearing overbought conditions, which could imply that today's selling pressure was either profit-taking or a corrective move within an otherwise robust uptrend. The substantial On-Balance Volume (OBV) of 52,782,254 further reinforces the presence of significant cumulative buying interest over time, suggesting that while the sector experienced a downtick today, the broader technical picture still reflects considerable prior accumulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748736000000,
-        null
-      ],
-      [
-        1748822400000,
-        46.57
-      ],
-      [
-        1748908800000,
-        47.44
-      ],
       [
         1748995200000,
         48.21
@@ -747,21 +735,21 @@
       [
         1764288000000,
         76.1
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        37.89
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        46.4
-      ],
+        1764547200000,
+        64.99
+      ]
+    ],
+    "mfi": [
       [
         1748995200000,
         54.6
@@ -1473,21 +1461,21 @@
       [
         1764288000000,
         72.79
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        -100044700.0
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        -85740400.0
-      ],
+        1764547200000,
+        66.81
+      ]
+    ],
+    "obv": [
       [
         1748995200000,
         -75754300.0
@@ -2199,6 +2187,18 @@
       [
         1764288000000,
         68231740.0
+      ],
+      [
+        1764374400000,
+        null
+      ],
+      [
+        1764460800000,
+        null
+      ],
+      [
+        1764547200000,
+        52782254.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     3.94,
     1.84,
     1.93,
-    null,
+    -1.48,
     null,
     null,
     null

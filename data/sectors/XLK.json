@@ -1,9 +1,9 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector includes companies primarily involved in software, hardware, IT services, and semiconductors.",
-    "marketSizeUSD": "14.5T",
-    "constituentCount": 68,
+    "description": "The Information Technology sector encompasses companies primarily engaged in the development and production of software, hardware, and semiconductor products, alongside the provision of IT services and internet-related services.",
+    "marketSizeUSD": "17.5T",
+    "constituentCount": 69,
     "topHoldings": [
       {
         "name": "Microsoft Corporation",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2883,
-  "change_pct": 0.88,
-  "insights": "The Information Technology sector concluded today with a modest gain of 0.88%, indicating positive daily performance. However, the accompanying technical indicators present a nuanced picture. The Relative Strength Index (RSI) at 50.86 suggests neutral momentum, without strong overbought or oversold signals, positioning it squarely in the middle. More notably, the Money Flow Index (MFI) at 28.11 is relatively low, nearing oversold territory, which could imply that despite the price uptick, the underlying volume-weighted buying pressure was not particularly robust, potentially hinting at a lack of strong conviction from new capital inflows. The On-Balance Volume (OBV) standing at 368,649,124 reflects overall long-term accumulation, and its likely increase today (given the positive price action) confirms that buying volume surpassed selling volume for the session. In summary, while the IT sector saw a positive move today, the MFI suggests some underlying caution regarding the strength of current capital inflows supporting this upward momentum.",
+  "market_weight": 0.2864,
+  "change_pct": 0.1,
+  "insights": "The Information Technology sector registered a marginal 0.10% increase today, reflecting a relatively quiet trading session. Technically, the Relative Strength Index (RSI) at 51.18 sits just above the neutral 50 mark, suggesting a slight preponderance of buying pressure but no significant momentum. Conversely, the Money Flow Index (MFI) at 26.82, nearing oversold conditions, indicates that money is predominantly flowing out of the sector, implying a lack of strong buying conviction supporting the day's price uptick. The On-Balance Volume (OBV) stands at 374,674,769, representing substantial cumulative trading activity, though its daily change would be needed for a precise assessment of today's specific volume dynamics. In summary, despite the slight positive movement, the underlying technicals, particularly the weak money flow, suggest a cautious daily performance for the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1748736000000,
-        null
-      ],
-      [
-        1748822400000,
-        64.04
-      ],
-      [
-        1748908800000,
-        67.62
-      ],
       [
         1748995200000,
         67.97
@@ -747,21 +735,21 @@
       [
         1764288000000,
         50.86
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        54.58
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        55.05
-      ],
+        1764547200000,
+        51.18
+      ]
+    ],
+    "mfi": [
       [
         1748995200000,
         55.26
@@ -1473,21 +1461,21 @@
       [
         1764288000000,
         28.11
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1748736000000,
+        1764374400000,
         null
       ],
       [
-        1748822400000,
-        161008300.0
+        1764460800000,
+        null
       ],
       [
-        1748908800000,
-        168164500.0
-      ],
+        1764547200000,
+        26.82
+      ]
+    ],
+    "obv": [
       [
         1748995200000,
         173614100.0
@@ -2199,6 +2187,18 @@
       [
         1764288000000,
         368649124.0
+      ],
+      [
+        1764374400000,
+        null
+      ],
+      [
+        1764460800000,
+        null
+      ],
+      [
+        1764547200000,
+        374674769.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     0.01,
     -5.18,
     4.74,
-    null,
+    0.1,
     null,
     null,
     null
