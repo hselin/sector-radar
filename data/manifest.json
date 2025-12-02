@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-01T21:17:42.869895Z",
+  "lastUpdated": "2025-12-02T21:13:23.089854Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader market experienced a modest retreat today, closing down 0.46%, reflecting a slight cooling in investor enthusiasm. The Relative Strength Index (RSI) at 56.40 suggests underlying momentum remains somewhat resilient, staying above the neutral 50-mark without entering overbought territory. However, the Money Flow Index (MFI) at 38.67 indicates a discernible outflow of capital, signaling that selling pressure, weighted by volume, had the upper hand during the session. The significant On-Balance Volume (OBV) confirms substantial participation, and when viewed with the negative price action and MFI, points to a cautious market where sellers were more active, even if not in a panic, contributing to the day's slight contraction.",
-    "change_pct": -0.46,
+    "commentary": "The overall stock market concluded the day with a marginal gain, advancing 0.17%, indicating a session characterized by modest activity and limited strong directional conviction. Examining key technical indicators, the Relative Strength Index (RSI) at 57.18 suggests a healthy, mid-range bullish momentum, comfortably away from overbought conditions and implying underlying price strength. However, the Money Flow Index (MFI) at 38.94 presents a cautious signal, as its position below the 50-mark indicates that money is flowing out of the market despite the slight price appreciation, potentially suggesting underlying selling pressure or weak buying conviction. While On-Balance Volume (OBV) registers a substantial cumulative figure of 2.27 billion, the divergence between the positive RSI and the weaker MFI implies that while price has edged higher, the quality of that movement, as measured by volume-weighted money flow, is somewhat lacking, pointing to a cautious market sentiment with potential for underlying distribution.",
+    "change_pct": 0.17,
     "technicalIndicators": {
       "rsi": [
-        [
-          1748995200000,
-          64.31
-        ],
         [
           1749081600000,
           61.27
@@ -747,13 +743,13 @@
         [
           1764547200000,
           56.4
+        ],
+        [
+          1764633600000,
+          57.18
         ]
       ],
       "mfi": [
-        [
-          1748995200000,
-          60.99
-        ],
         [
           1749081600000,
           52.73
@@ -1473,13 +1469,13 @@
         [
           1764547200000,
           38.67
+        ],
+        [
+          1764633600000,
+          38.94
         ]
       ],
       "obv": [
-        [
-          1748995200000,
-          1348289200.0
-        ],
         [
           1749081600000,
           1256010500.0
@@ -2199,6 +2195,10 @@
         [
           1764547200000,
           2214288906.0
+        ],
+        [
+          1764633600000,
+          2270582217.0
         ]
       ]
     },
@@ -2251,7 +2251,7 @@
       0.15,
       -1.92,
       3.7,
-      -0.46,
+      -0.29,
       null,
       null,
       null
