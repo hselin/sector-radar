@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0818,
-  "change_pct": 0.51,
-  "insights": "The Industrials sector closed today with a modest gain of 0.51%, indicating slight positive momentum. The Relative Strength Index (RSI) at 58.29 suggests healthy, but not overbought, buying interest, supporting the upward price movement. However, the Money Flow Index (MFI) at 42.47 indicates that while the sector saw gains, the underlying money flow was not overwhelmingly strong, hinting at some caution or a lack of aggressive conviction behind the daily move. The On-Balance Volume (OBV) at 117,656,848, a measure of cumulative volume, would ideally confirm this positive price action, but the MFI's reading warrants attention for future price sustainability.",
+  "change_pct": -0.28,
+  "insights": "The Industrials sector experienced a modest decline of -0.28% today, indicating a slight pullback. Despite this, the Relative Strength Index (RSI) at 56.59 suggests the sector remains in a neutral to mildly bullish posture, well below overbought levels and implying underlying strength persists. However, the Money Flow Index (MFI) at 43.74 points to a slight outflow of capital, which aligns with the day's price dip. The substantial On-Balance Volume (OBV) of 109,710,304 reflects significant cumulative buying interest over time, suggesting that today's marginal decline was likely a modest consolidation rather than a strong bearish reversal on heavy volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749254400000,
-        null
-      ],
       [
         1749340800000,
         null
@@ -747,13 +743,13 @@
       [
         1764806400000,
         58.29
+      ],
+      [
+        1764892800000,
+        56.59
       ]
     ],
     "mfi": [
-      [
-        1749254400000,
-        null
-      ],
       [
         1749340800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1764806400000,
         42.47
+      ],
+      [
+        1764892800000,
+        43.74
       ]
     ],
     "obv": [
-      [
-        1749254400000,
-        null
-      ],
       [
         1749340800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1764806400000,
         117656848.0
+      ],
+      [
+        1764892800000,
+        109710304.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     -0.82,
     -1.59,
     2.7,
-    0.85,
+    0.57,
     null,
     null,
     null

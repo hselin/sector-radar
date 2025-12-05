@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0573,
-  "change_pct": -0.19,
-  "insights": "The Real Estate sector experienced a marginal decline of -0.19% today, reflecting a largely subdued trading session. Technical indicators align with this minor movement, as the RSI at 47.29 and MFI at 47.81 both hover near the neutral 50-mark, indicating a lack of strong buying or selling pressure and balanced money flow within the sector. Despite a significant cumulative OBV of 34302036, this trading activity did not translate into a definitive price trend, reinforcing the indecisive and slightly downward daily performance.",
+  "change_pct": -0.02,
+  "insights": "The Real Estate sector saw a virtually flat performance today, registering a negligible decline of -0.02%. This muted movement is supported by its key technical indicators: the RSI at 47.15 and MFI at 48.89 both reside in the neutral zone, indicating neither overbought/oversold conditions nor a strong directional bias in price momentum or money flow. While the OBV stands at 29815048, its absolute value primarily reflects that trading volume occurred; in the context of a minimal price change and neutral momentum/money flow indicators, it suggests a balanced day without significant accumulation or distribution pressure, reinforcing the sector's non-committal daily movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749254400000,
-        null
-      ],
       [
         1749340800000,
         null
@@ -747,13 +743,13 @@
       [
         1764806400000,
         47.29
+      ],
+      [
+        1764892800000,
+        47.15
       ]
     ],
     "mfi": [
-      [
-        1749254400000,
-        null
-      ],
       [
         1749340800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1764806400000,
         47.81
+      ],
+      [
+        1764892800000,
+        48.89
       ]
     ],
     "obv": [
-      [
-        1749254400000,
-        null
-      ],
       [
         1749340800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1764806400000,
         34302036.0
+      ],
+      [
+        1764892800000,
+        29815048.0
       ]
     ]
   },
@@ -2251,7 +2251,7 @@
     -0.79,
     -0.13,
     1.9,
-    -1.6,
+    -1.62,
     null,
     null,
     null

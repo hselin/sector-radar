@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-04T21:13:37.625727Z",
+  "lastUpdated": "2025-12-05T21:13:09.946611Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a marginal gain of 0.09%, indicating a largely quiet session with little decisive movement. Key technical indicators present a mixed picture regarding underlying sentiment and momentum. The Relative Strength Index (RSI) at 59.24 suggests mild underlying bullish momentum, positioning the market on the stronger side without being overbought. However, the Money Flow Index (MFI) at 45.15, being below the 50-mark, implies that capital is slightly flowing out, hinting at a lack of strong buying conviction despite the positive close. The On-Balance Volume (OBV) figure of 2,379,613,740, representing cumulative buying and selling pressure, generally confirms price trends; assuming it increased with today's positive close, it would indicate that buying volume outpaced selling volume for the day, supporting the modest uptick. Collectively, these metrics suggest a market exhibiting cautious optimism but lacking robust conviction, with subtle underlying selling interest tempering potential advances.",
-    "change_pct": 0.09,
+    "commentary": "The overall stock market posted a modest gain of 0.17% today, indicating a relatively quiet session with a slight upward drift. Key technical indicators suggest a cautiously optimistic underlying sentiment. The Relative Strength Index (RSI) at 60.11 points to positive momentum building, yet remains well below overbought thresholds, suggesting room for further appreciation. Meanwhile, the Money Flow Index (MFI) at 51.95 indicates a largely balanced money flow, slightly favoring accumulation but lacking strong directional conviction. The substantial On-Balance Volume (OBV) figure of 2.44 billion confirms significant trading activity, and its stability or growth would support the observed modest price gains. In summary, the market exhibits mild positive momentum driven by underlying buying interest, but without aggressive participation or strong conviction from money flow.",
+    "change_pct": 0.17,
     "technicalIndicators": {
       "rsi": [
-        [
-          1749254400000,
-          null
-        ],
         [
           1749340800000,
           null
@@ -747,13 +743,13 @@
         [
           1764806400000,
           59.24
+        ],
+        [
+          1764892800000,
+          60.11
         ]
       ],
       "mfi": [
-        [
-          1749254400000,
-          null
-        ],
         [
           1749340800000,
           null
@@ -1473,13 +1469,13 @@
         [
           1764806400000,
           45.15
+        ],
+        [
+          1764892800000,
+          51.95
         ]
       ],
       "obv": [
-        [
-          1749254400000,
-          null
-        ],
         [
           1749340800000,
           null
@@ -2199,6 +2195,10 @@
         [
           1764806400000,
           2379613740.0
+        ],
+        [
+          1764892800000,
+          2435380567.0
         ]
       ]
     },
@@ -2251,7 +2251,7 @@
       0.15,
       -1.92,
       3.7,
-      0.16,
+      0.33,
       null,
       null,
       null
