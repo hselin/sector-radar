@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector comprises companies that provide medical services, manufacture medical equipment or drugs, or provide other health-related services.",
-    "marketSizeUSD": "6.8T",
-    "constituentCount": 65,
+    "description": "The Health Care GICS sector encompasses companies involved in the research, development, production, and distribution of pharmaceuticals, biotechnology products, medical devices, and provides healthcare services and facilities.",
+    "marketSizeUSD": "6.5T",
+    "constituentCount": 63,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1113,
-  "change_pct": -0.44,
-  "insights": "The Health Care sector experienced a modest decline of -0.44% today, suggesting a slight short-term pullback. Key technical indicators point to a largely neutral market sentiment despite this dip; the Relative Strength Index (RSI) at 55.59 and Money Flow Index (MFI) at 54.95 both hover slightly above their respective mid-points of 50, indicating balanced momentum and money flow without significant overbought or oversold conditions. While the On-Balance Volume (OBV) stands at a substantial 28,623,572, its daily trend would be critical to determine if today's selling was accompanied by strong volume; however, in conjunction with the neutral RSI and MFI, the modest price drop appears to be a minor correction rather than a high-conviction bearish move.",
+  "market_weight": 0.1195,
+  "change_pct": -1.19,
+  "insights": "The Healthcare sector saw a moderate decline of -1.19% today. Key technical indicators suggest a market without strong directional conviction: the Relative Strength Index (RSI) at 49.19 and Money Flow Index (MFI) at 48.90 are both hovering around the neutral 50-mark, indicating a slightly bearish bias consistent with today's drop, but not reaching oversold levels that would signal an imminent bounce. The On-Balance Volume (OBV) figure, while cumulative, implies that today's price depreciation was accompanied by net selling volume, lending support to the downward movement without indicating an extreme shift.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749340800000,
-        null
-      ],
-      [
-        1749427200000,
-        50.88
-      ],
-      [
-        1749513600000,
-        55.5
-      ],
       [
         1749600000000,
         55.7
@@ -747,21 +735,21 @@
       [
         1764892800000,
         55.59
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        48.54
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        48.51
-      ],
+        1765152000000,
+        49.19
+      ]
+    ],
+    "mfi": [
       [
         1749600000000,
         57.93
@@ -1473,21 +1461,21 @@
       [
         1764892800000,
         54.95
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        -90282400.0
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        -78794400.0
-      ],
+        1765152000000,
+        48.9
+      ]
+    ],
+    "obv": [
       [
         1749600000000,
         -65150400.0
@@ -2199,6 +2187,18 @@
       [
         1764892800000,
         28623572.0
+      ],
+      [
+        1764979200000,
+        null
+      ],
+      [
+        1765065600000,
+        null
+      ],
+      [
+        1765152000000,
+        18052375.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     1.84,
     1.93,
     -2.78,
-    null,
+    -1.19,
     null,
     null
   ]

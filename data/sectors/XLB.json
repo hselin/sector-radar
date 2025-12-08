@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, and paper products.",
-    "marketSizeUSD": "1.6T",
+    "description": "The Materials sector comprises companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, paper, and packaging.",
+    "marketSizeUSD": "$1.7T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,32 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co.",
+        "name": "Sherwin-Williams Co",
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc.",
+        "name": "Ecolab Inc",
         "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0262,
-  "change_pct": -50.16,
-  "insights": "The Materials sector experienced an exceptionally severe decline today, plummeting by -50.16%. This dramatic sell-off is strongly corroborated by the Relative Strength Index (RSI) at an extremely oversold 9.51, indicating immense selling pressure and a highly depressed valuation in the short term. Further confirming the high-volume liquidation, the On-Balance Volume (OBV) posted a significant negative reading of -52,868,546, reflecting substantial capital outflow alongside the price drop. Interestingly, the Money Flow Index (MFI) sits at 53.84, which, while typically suggesting neutral to slightly positive money flow, appears as a potential divergence or an anomaly given the sector's unprecedented daily loss; this could suggest that despite the aggressive selling, some capital was still flowing into the sector at specific points, or it may reflect a lagging response to such a rapid collapse. Overall, the sector is in a state of extreme short-term bearishness, with the MFI offering a slight counterpoint that warrants closer examination.",
+  "market_weight": 0.0312,
+  "change_pct": -1.39,
+  "insights": "The Materials sector experienced a notable downturn today, declining by -1.39%. This sharp price depreciation is clearly reflected in its technical indicators: the Relative Strength Index (RSI) plummeted to an extremely oversold level of 9.39, signaling intense selling pressure and potentially indicating a short-term bottom or exhaustion of sellers. Further confirming this heavy distribution, On-Balance Volume (OBV) registered a substantial negative figure of -64,250,412, reflecting significant net selling activity on high volume. Interestingly, the Money Flow Index (MFI) at 54.52, while not robust, remains slightly above neutral, suggesting that despite the aggressive price depreciation and high selling volume, underlying money flow isn't showing extreme capitulation, perhaps hinting at some counter-buying interest within the daily movement. Overall, the sector is under considerable short-term pressure, with the extreme RSI suggesting it may be ripe for a bounce if selling momentum wanes.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749340800000,
-        null
-      ],
-      [
-        1749427200000,
-        62.73
-      ],
-      [
-        1749513600000,
-        64.94
-      ],
       [
         1749600000000,
         58.91
@@ -747,21 +735,21 @@
       [
         1764892800000,
         9.51
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        51.65
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        52.58
-      ],
+        1765152000000,
+        9.39
+      ]
+    ],
+    "mfi": [
       [
         1749600000000,
         52.26
@@ -1473,21 +1461,21 @@
       [
         1764892800000,
         53.84
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        -22325100.0
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        -18387500.0
-      ],
+        1765152000000,
+        54.52
+      ]
+    ],
+    "obv": [
       [
         1749600000000,
         -23541400.0
@@ -2199,6 +2187,18 @@
       [
         1764892800000,
         -52868546.0
+      ],
+      [
+        1764979200000,
+        null
+      ],
+      [
+        1765065600000,
+        null
+      ],
+      [
+        1765152000000,
+        -64250412.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     -0.46,
     3.5,
     -50.68,
-    null,
+    -1.39,
     null,
     null
   ]

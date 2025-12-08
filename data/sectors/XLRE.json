@@ -1,41 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector comprises equity real estate investment trusts (REITs) and other companies engaged in real estate management and development, excluding mortgage REITs and real estate services.",
-    "marketSizeUSD": "3.5T",
-    "constituentCount": 31,
+    "description": "The Real Estate GICS sector encompasses companies that own, operate, develop, and manage real estate, including diversified and specialized REITs.",
+    "marketSizeUSD": "2.8T",
+    "constituentCount": 32,
     "topHoldings": [
       {
-        "name": "Prologis, Inc.",
+        "name": "Prologis Inc.",
         "symbol": "PLD"
       },
       {
-        "name": "Equinix, Inc.",
-        "symbol": "EQIX"
+        "name": "American Tower Corp",
+        "symbol": "AMT"
       },
       {
-        "name": "Public Storage",
-        "symbol": "PSA"
+        "name": "Equinix Inc.",
+        "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.0573,
-  "change_pct": -0.02,
-  "insights": "The Real Estate sector saw a virtually flat performance today, registering a negligible decline of -0.02%. This muted movement is supported by its key technical indicators: the RSI at 47.15 and MFI at 48.89 both reside in the neutral zone, indicating neither overbought/oversold conditions nor a strong directional bias in price momentum or money flow. While the OBV stands at 29815048, its absolute value primarily reflects that trading volume occurred; in the context of a minimal price change and neutral momentum/money flow indicators, it suggests a balanced day without significant accumulation or distribution pressure, reinforcing the sector's non-committal daily movement.",
+  "market_weight": 0.0515,
+  "change_pct": -0.62,
+  "insights": "The Real Estate sector experienced a modest contraction today, falling -0.62%. Key technical indicators suggest a nuanced picture: the RSI at 43.43 and MFI at 48.70 both hover just below their neutral 50 levels, signaling mild bearish momentum and a slight money outflow without indicating oversold conditions. The OBV, currently at 23,774,482, while cumulative, implies that today's decline was not driven by overwhelming selling volume, aligning with the relatively minor daily price movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749340800000,
-        null
-      ],
-      [
-        1749427200000,
-        56.79
-      ],
-      [
-        1749513600000,
-        61.29
-      ],
       [
         1749600000000,
         57.3
@@ -747,21 +735,21 @@
       [
         1764892800000,
         47.15
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        62.15
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        67.47
-      ],
+        1765152000000,
+        43.43
+      ]
+    ],
+    "mfi": [
       [
         1749600000000,
         66.19
@@ -1473,21 +1461,21 @@
       [
         1764892800000,
         48.89
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        80475200.0
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        85308000.0
-      ],
+        1765152000000,
+        48.7
+      ]
+    ],
+    "obv": [
       [
         1749600000000,
         80498700.0
@@ -2199,6 +2187,18 @@
       [
         1764892800000,
         29815048.0
+      ],
+      [
+        1764979200000,
+        null
+      ],
+      [
+        1765065600000,
+        null
+      ],
+      [
+        1765152000000,
+        23774482.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     -0.13,
     1.9,
     -1.62,
-    null,
+    -0.62,
     null,
     null
   ]

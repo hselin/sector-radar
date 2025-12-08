@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies providing essential services such as electricity, natural gas, water, and multi-utilities, often operating as regulated monopolies.",
-    "marketSizeUSD": "1.2T",
-    "constituentCount": 31,
+    "description": "The Utilities GICS sector comprises companies that provide essential services such as electricity, natural gas, water, and often waste management, characterized by stable demand and high barriers to entry.",
+    "marketSizeUSD": "1.4T",
+    "constituentCount": 30,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0196,
-  "change_pct": -50.45,
-  "insights": "The Utilities sector experienced an extraordinary downturn today, plummeting by an unprecedented -50.45%. This extreme price action is strongly corroborated by its key technical indicators: the Relative Strength Index (RSI) at 6.03 signals severely oversold conditions, reflecting widespread panic selling and a profound loss of bullish momentum. While the Money Flow Index (MFI) at 40.96 is in a weak-neutral zone, indicating some capital outflow but not as extreme as the price drop alone might suggest, the On-Balance Volume (OBV) at 302,136,184 would undoubtedly imply that today's significant sell-side volume caused a sharp decline in its cumulative trend, reinforcing the dominant bearish sentiment. Overall, today's performance points to an acute and potentially market-altering bearish event within the sector.",
+  "market_weight": 0.0257,
+  "change_pct": -1.32,
+  "insights": "The Utilities sector experienced a notable decline of -1.32% today, with key technical indicators signaling significant selling pressure. The Relative Strength Index (RSI) at an extremely low 5.96 suggests the sector is deeply oversold, indicating a rapid and sustained price decline. Concurrently, the Money Flow Index (MFI) at 32.78, while not as extreme as RSI, still reflects a lack of significant buying interest and continued money outflow. The On-Balance Volume (OBV) of 280,905,637, when viewed in context of the price drop, implies substantial selling volume accompanied today's downturn. Collectively, these metrics point to strong bearish momentum and a technically depressed state for the Utilities sector following today's trading.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749340800000,
-        null
-      ],
-      [
-        1749427200000,
-        50.13
-      ],
-      [
-        1749513600000,
-        51.2
-      ],
       [
         1749600000000,
         51.5
@@ -747,21 +735,21 @@
       [
         1764892800000,
         6.03
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        53.72
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        46.8
-      ],
+        1765152000000,
+        5.96
+      ]
+    ],
+    "mfi": [
       [
         1749600000000,
         53.31
@@ -1473,21 +1461,21 @@
       [
         1764892800000,
         40.96
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        143022400.0
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        157048800.0
-      ],
+        1765152000000,
+        32.78
+      ]
+    ],
+    "obv": [
       [
         1749600000000,
         167746200.0
@@ -2199,6 +2187,18 @@
       [
         1764892800000,
         302136184.0
+      ],
+      [
+        1764979200000,
+        null
+      ],
+      [
+        1765065600000,
+        null
+      ],
+      [
+        1765152000000,
+        280905637.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     -0.75,
     2.85,
     -52.23,
-    null,
+    -1.32,
     null,
     null
   ]

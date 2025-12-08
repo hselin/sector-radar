@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector includes companies primarily involved in the exploration, production, refining, and marketing of oil and gas, alongside those dealing with coal and other consumable fuels.",
-    "marketSizeUSD": "2.7T",
+    "description": "The Energy sector comprises companies that explore, develop, produce, refine, market, store, and transport oil and gas products, along with those providing energy-related equipment and services.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0442,
-  "change_pct": -50.23,
-  "insights": "The Energy sector experienced an unprecedented collapse today, plummeting by a staggering -50.23%. This precipitous decline is strongly reflected in its technical indicators, with the Relative Strength Index (RSI) at an extremely low 12.08, signaling profoundly oversold conditions and extreme bearish momentum. The Money Flow Index (MFI) at 38.43 further indicates significant net money outflow and selling pressure, aligning with the negative price action. While On-Balance Volume (OBV) at 527,437,656 is an absolute figure, such a substantial daily price decline would typically be accompanied by significant selling volume, suggesting broad distribution and confirming the severe market conviction behind today's downward move.",
+  "market_weight": 0.0331,
+  "change_pct": -1.07,
+  "insights": "The Energy sector experienced a notable decline of -1.07% today, indicating prevalent selling pressure. Key technical indicators reinforce this sentiment: the Relative Strength Index (RSI) at an extremely low 11.97 places the sector deep into oversold territory, suggesting strong downward momentum that may be nearing exhaustion. The Money Flow Index (MFI) at 39.19 further indicates net money outflow, corroborating the bearish sentiment, though not yet at its own extreme oversold levels. The On-Balance Volume (OBV) at 499,912,542, while a cumulative measure, would have seen daily volume subtracted due to the price decline, aligning with the overall negative sentiment observed today.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749340800000,
-        null
-      ],
-      [
-        1749427200000,
-        52.94
-      ],
-      [
-        1749513600000,
-        58.24
-      ],
       [
         1749600000000,
         62.04
@@ -747,21 +735,21 @@
       [
         1764892800000,
         12.08
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        41.61
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        50.6
-      ],
+        1765152000000,
+        11.97
+      ]
+    ],
+    "mfi": [
       [
         1749600000000,
         59.26
@@ -1473,21 +1461,21 @@
       [
         1764892800000,
         38.43
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        390160300.0
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        413206400.0
-      ],
+        1765152000000,
+        39.19
+      ]
+    ],
+    "obv": [
       [
         1749600000000,
         437704700.0
@@ -2199,6 +2187,18 @@
       [
         1764892800000,
         527437656.0
+      ],
+      [
+        1764979200000,
+        null
+      ],
+      [
+        1765065600000,
+        null
+      ],
+      [
+        1765152000000,
+        499912542.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     -2.83,
     1.16,
     -49.23,
-    null,
+    -1.07,
     null,
     null
   ]

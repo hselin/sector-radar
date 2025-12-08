@@ -1,41 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector comprises companies involved in the production of capital goods, provision of commercial services, and various forms of transportation.",
+    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing commercial and professional services, and offering various transportation services.",
     "marketSizeUSD": "5.0T",
     "constituentCount": 72,
     "topHoldings": [
       {
-        "name": "General Electric Company",
-        "symbol": "GE"
+        "name": "Honeywell International Inc.",
+        "symbol": "HON"
+      },
+      {
+        "name": "Union Pacific Corp.",
+        "symbol": "UNP"
       },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
-      },
-      {
-        "name": "RTX Corporation",
-        "symbol": "RTX"
       }
     ]
   },
-  "market_weight": 0.0818,
-  "change_pct": -0.28,
-  "insights": "The Industrials sector experienced a modest decline of -0.28% today, indicating a slight pullback. Despite this, the Relative Strength Index (RSI) at 56.59 suggests the sector remains in a neutral to mildly bullish posture, well below overbought levels and implying underlying strength persists. However, the Money Flow Index (MFI) at 43.74 points to a slight outflow of capital, which aligns with the day's price dip. The substantial On-Balance Volume (OBV) of 109,710,304 reflects significant cumulative buying interest over time, suggesting that today's marginal decline was likely a modest consolidation rather than a strong bearish reversal on heavy volume.",
+  "market_weight": 0.0919,
+  "change_pct": -0.1,
+  "insights": "The Industrials sector saw a marginal decline of -0.10% today, indicating a relatively flat or slightly negative session. Technical indicators present a mixed picture: the RSI at 55.96 suggests underlying bullish momentum remains intact, keeping the sector out of overbought territory. However, the Money Flow Index (MFI) at 45.73 points to a slight outflow of money, indicating that buying volume was not dominant, which aligns with the modest price dip. The On-Balance Volume (OBV) at 103,192,075, viewed in context of the slight daily decrease, implies that selling pressure, though not severe, slightly outpaced buying volume for the day, contributing to the minor price depreciation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749340800000,
-        null
-      ],
-      [
-        1749427200000,
-        68.75
-      ],
-      [
-        1749513600000,
-        65.32
-      ],
       [
         1749600000000,
         65.53
@@ -747,21 +735,21 @@
       [
         1764892800000,
         56.59
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        39.65
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        32.98
-      ],
+        1765152000000,
+        55.96
+      ]
+    ],
+    "mfi": [
       [
         1749600000000,
         31.67
@@ -1473,21 +1461,21 @@
       [
         1764892800000,
         43.74
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        -6353000.0
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        -21978600.0
-      ],
+        1765152000000,
+        45.73
+      ]
+    ],
+    "obv": [
       [
         1749600000000,
         -6141600.0
@@ -2199,6 +2187,18 @@
       [
         1764892800000,
         109710304.0
+      ],
+      [
+        1764979200000,
+        null
+      ],
+      [
+        1765065600000,
+        null
+      ],
+      [
+        1765152000000,
+        103192075.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     -1.59,
     2.7,
     0.57,
-    null,
+    -0.1,
     null,
     null
   ]

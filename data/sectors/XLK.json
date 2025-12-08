@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies primarily engaged in the development and production of software, hardware, and semiconductor products, alongside the provision of IT services and internet-related services.",
-    "marketSizeUSD": "17.5T",
-    "constituentCount": 69,
+    "description": "The Information Technology GICS sector encompasses companies primarily involved in software, IT services, and technology hardware and equipment, including semiconductors, and communications equipment.",
+    "marketSizeUSD": "16.5T",
+    "constituentCount": 68,
     "topHoldings": [
-      {
-        "name": "Microsoft Corporation",
-        "symbol": "MSFT"
-      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
+      },
+      {
+        "name": "Microsoft Corporation",
+        "symbol": "MSFT"
       },
       {
         "name": "NVIDIA Corporation",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2864,
-  "change_pct": -49.64,
-  "insights": "The Information Technology sector experienced a catastrophic decline of -49.64% today, signaling extreme bearish sentiment and what appears to be a capitulation event. Technical indicators firmly reinforce this picture: the Relative Strength Index (RSI) at 11.54 is deeply in oversold territory, suggesting the selling pressure has been intense and potentially unsustainable in the very short term. The Money Flow Index (MFI) at 33.73, while not as extreme as the RSI, indicates significant money outflow from the sector. Although On-Balance Volume (OBV) stands at a substantial positive figure of 385,803,724, in the context of such a massive daily price drop, it implies that today's overwhelming selling pressure was likely accompanied by immense volume, aggressively challenging any prior accumulated buying interest and signaling widespread liquidation.",
+  "market_weight": 0.3033,
+  "change_pct": 0.72,
+  "insights": "The Information Technology sector posted a modest gain of 0.72% today, indicating a slight positive momentum. However, a deeper look at the technical indicators provides a more comprehensive view: the extremely low RSI of 12.08 suggests the sector is deeply oversold, potentially setting the stage for a rebound, although it also reflects significant recent selling pressure. The MFI at 38.58, being below 50, indicates that more money is still flowing out of the sector than into it, suggesting that today's positive price action may not be supported by strong buying conviction. The OBV of 393,442,515 confirms that today's trading volume contributed positively to the cumulative volume metric, consistent with the sector's upward movement. In summary, while the sector saw a slight uptick, underlying indicators point to a heavily oversold condition with persistent capital outflows, suggesting potential fragility in the current upward move unless stronger buying interest emerges.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749340800000,
-        null
-      ],
-      [
-        1749427200000,
-        70.1
-      ],
-      [
-        1749513600000,
-        71.46
-      ],
       [
         1749600000000,
         70.1
@@ -747,21 +735,21 @@
       [
         1764892800000,
         11.54
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        63.7
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        69.42
-      ],
+        1765152000000,
+        12.08
+      ]
+    ],
+    "mfi": [
       [
         1749600000000,
         78.73
@@ -1473,21 +1461,21 @@
       [
         1764892800000,
         33.73
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        175734800.0
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        180650600.0
-      ],
+        1765152000000,
+        38.58
+      ]
+    ],
+    "obv": [
       [
         1749600000000,
         175850800.0
@@ -2199,6 +2187,18 @@
       [
         1764892800000,
         385803724.0
+      ],
+      [
+        1764979200000,
+        null
+      ],
+      [
+        1765065600000,
+        null
+      ],
+      [
+        1765152000000,
+        393442515.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     -5.18,
     4.74,
     -48.78,
-    null,
+    0.72,
     null,
     null
   ]

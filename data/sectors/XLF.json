@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies involved in banking, diversified financial services, insurance, and capital markets, providing essential capital and risk management solutions across the economy.",
-    "marketSizeUSD": "6.2T",
+    "description": "The Financials sector includes companies engaged in banking, diversified financial services, insurance, and real estate, providing a wide array of financial products and services.",
+    "marketSizeUSD": "5.3T",
     "constituentCount": 68,
     "topHoldings": [
       {
@@ -14,28 +14,16 @@
         "symbol": "JPM"
       },
       {
-        "name": "Bank of America Corporation",
+        "name": "Bank of America Corp",
         "symbol": "BAC"
       }
     ]
   },
-  "market_weight": 0.1015,
-  "change_pct": 0.03,
-  "insights": "The Financials sector experienced a nearly flat trading day with a minimal 0.03% gain. Despite this negligible price movement, key technical indicators suggest underlying strength: the Relative Strength Index (RSI) at 60.03 and the Money Flow Index (MFI) at 68.51 both indicate bullish momentum and a continued net inflow of money into the sector, albeit not yet in overbought territory. The substantial On-Balance Volume (OBV) further supports a long-term pattern of accumulation, suggesting that even on a quiet trading day, buying interest and investor confidence persist below the surface, positioning the sector for potential future appreciation.",
+  "market_weight": 0.0974,
+  "change_pct": -0.35,
+  "insights": "The Financials sector registered a modest decline of 0.35% today; however, key technical indicators suggest underlying resilience. The Relative Strength Index (RSI) at 57.63 indicates the sector remains in a healthy, neutral-to-bullish zone, not signalling an overbought or oversold condition despite the daily dip. More notably, the Money Flow Index (MFI) at 72.85 is relatively high, indicating significant capital inflow and strong buying interest even on a down day, suggesting the negative price movement might be a short-term consolidation rather than a significant reversal. The substantial On-Balance Volume (OBV) further reinforces the presence of accumulated buying pressure, indicating sustained liquidity within the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749340800000,
-        null
-      ],
-      [
-        1749427200000,
-        56.79
-      ],
-      [
-        1749513600000,
-        57.34
-      ],
       [
         1749600000000,
         56.56
@@ -747,21 +735,21 @@
       [
         1764892800000,
         60.03
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        36.24
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        36.19
-      ],
+        1765152000000,
+        57.63
+      ]
+    ],
+    "mfi": [
       [
         1749600000000,
         44.62
@@ -1473,21 +1461,21 @@
       [
         1764892800000,
         68.51
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        1015373300.0
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        1043101900.0
-      ],
+        1765152000000,
+        72.85
+      ]
+    ],
+    "obv": [
       [
         1749600000000,
         1003733500.0
@@ -2199,6 +2187,18 @@
       [
         1764892800000,
         1324209860.0
+      ],
+      [
+        1764979200000,
+        null
+      ],
+      [
+        1765065600000,
+        null
+      ],
+      [
+        1765152000000,
+        1293832240.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     -1.51,
     3.19,
     0.65,
-    null,
+    -0.35,
     null,
     null
   ]

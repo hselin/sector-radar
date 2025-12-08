@@ -1,41 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that sell non-essential goods and services, whose demand is sensitive to the business cycle and consumer income.",
-    "marketSizeUSD": "5.7T",
-    "constituentCount": 55,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose demand is sensitive to economic cycles and consumer disposable income.",
+    "marketSizeUSD": "6.0T",
+    "constituentCount": 57,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc",
+        "name": "Amazon.com, Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc",
+        "name": "Tesla, Inc.",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot Inc",
+        "name": "The Home Depot, Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.0933,
-  "change_pct": -49.73,
-  "insights": "The Consumer Discretionary sector experienced an extraordinary decline of -49.73% today, signaling a severe market event and widespread panic selling. The Relative Strength Index (RSI) at 11.16 confirms the sector is extremely oversold, indicating profound bearish sentiment and a potential capitulation event. While the Money Flow Index (MFI) at 38.93 also points to significant capital outflow, it suggests the selling, though substantial, may not yet reflect the absolute climax of volume-driven panic compared to the sheer price collapse. The On-Balance Volume (OBV) at 34,310,460, presumably having declined sharply today, further underscores the heavy selling pressure and reinforces the cumulative negative sentiment building in the sector. In sum, these indicators paint a picture of extreme distress, where the sector is deeply out of favor, potentially poised for a technical bounce from oversold levels, but only after enduring immense value destruction.",
+  "market_weight": 0.1103,
+  "change_pct": -1.46,
+  "insights": "The Consumer Discretionary sector experienced a notable downturn today, falling by -1.46%. Key technical indicators confirm this negative momentum: the Relative Strength Index (RSI) at an extremely low 11.02 signals the sector is deeply oversold, indicating significant short-term selling pressure that pushed prices down intensely. The Money Flow Index (MFI) at 42.08 further suggests a net outflow of capital from the sector, consistent with the price decline. While the On-Balance Volume (OBV) stands at 28,044,315, its likely decline in tandem with the price would reinforce the bearish sentiment, confirming that volume supported today's downward price action.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749340800000,
-        null
-      ],
-      [
-        1749427200000,
-        56.35
-      ],
-      [
-        1749513600000,
-        59.75
-      ],
       [
         1749600000000,
         56.58
@@ -747,21 +735,21 @@
       [
         1764892800000,
         11.16
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        34.96
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        35.76
-      ],
+        1765152000000,
+        11.02
+      ]
+    ],
+    "mfi": [
       [
         1749600000000,
         36.73
@@ -1473,21 +1461,21 @@
       [
         1764892800000,
         38.93
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        -11148100.0
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        -6850700.0
-      ],
+        1765152000000,
+        42.08
+      ]
+    ],
+    "obv": [
       [
         1749600000000,
         -10295000.0
@@ -2199,6 +2187,18 @@
       [
         1764892800000,
         34310460.0
+      ],
+      [
+        1764979200000,
+        null
+      ],
+      [
+        1765065600000,
+        null
+      ],
+      [
+        1765152000000,
+        28044315.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     -2.34,
     4.85,
     -49.36,
-    null,
+    -1.46,
     null,
     null
   ]

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-07T21:07:36.439997Z",
+  "lastUpdated": "2025-12-08T21:18:27.094383Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States, representing a significant portion of the total U.S. equity market.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market concluded the day with a modest gain of 0.18%, reflecting a relatively flat to slightly positive session. Technical indicators suggest a market in equilibrium with a mild bullish bias. The Relative Strength Index (RSI) at 60.11 indicates healthy momentum, still within a non-overbought range but showing underlying strength. Similarly, the Money Flow Index (MFI) at 51.95 points to a slight net inflow of funds, supporting the upward price movement without significant exuberance. The robust On-Balance Volume (OBV) of 2,435,380,567, assuming it increased with today's positive close, further suggests that buying volume accompanied the price movement, reinforcing current sentiment as cautiously optimistic with sustained, albeit moderate, momentum.",
-    "change_pct": 0.18,
+    "commentary": "Today, the broader stock market experienced a marginal decline, closing down 0.29%. Despite this slight dip, key technical indicators suggest a relatively balanced market sentiment. The Relative Strength Index (RSI) at 57.87 and the Money Flow Index (MFI) at 53.47 both reside in neutral-to-mildly-bullish territory, well above oversold levels and not yet signaling overbought conditions. This implies that while the market saw a minor pullback, buying interest remains present, preventing a stronger negative momentum from taking hold. The On-Balance Volume (OBV) at 2,386,346,783 tracks cumulative volume and, in the context of today's small price movement, suggests no dramatic underlying divergence or capitulation. Overall, the market appears to be in a consolidation phase, characterized by subdued selling pressure rather than a significant shift in prevailing trend or strong directional conviction.",
+    "change_pct": -0.29,
     "technicalIndicators": {
       "rsi": [
-        [
-          1749340800000,
-          null
-        ],
-        [
-          1749427200000,
-          65.36
-        ],
-        [
-          1749513600000,
-          67.39
-        ],
         [
           1749600000000,
           65.3
@@ -747,21 +735,21 @@
         [
           1764892800000,
           60.11
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1749340800000,
+          1764979200000,
           null
         ],
         [
-          1749427200000,
-          51.62
+          1765065600000,
+          null
         ],
         [
-          1749513600000,
-          58.0
-        ],
+          1765152000000,
+          57.87
+        ]
+      ],
+      "mfi": [
         [
           1749600000000,
           66.75
@@ -1473,21 +1461,21 @@
         [
           1764892800000,
           51.95
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1749340800000,
+          1764979200000,
           null
         ],
         [
-          1749427200000,
-          1375615600.0
+          1765065600000,
+          null
         ],
         [
-          1749513600000,
-          1441862600.0
-        ],
+          1765152000000,
+          53.47
+        ]
+      ],
+      "obv": [
         [
           1749600000000,
           1368204400.0
@@ -2199,6 +2187,18 @@
         [
           1764892800000,
           2435380567.0
+        ],
+        [
+          1764979200000,
+          null
+        ],
+        [
+          1765065600000,
+          null
+        ],
+        [
+          1765152000000,
+          2386346783.0
         ]
       ]
     },
@@ -2252,7 +2252,7 @@
       -1.92,
       3.7,
       0.33,
-      null,
+      -0.29,
       null,
       null
     ]

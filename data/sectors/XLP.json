@@ -1,12 +1,12 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that produce essential goods and services such as food, beverages, household products, and tobacco, which are generally non-cyclical and in constant demand.",
-    "marketSizeUSD": "2.8T",
+    "description": "The Consumer Staples sector includes companies that manufacture and market everyday essential products like food, beverages, tobacco, household goods, and personal care products.",
+    "marketSizeUSD": "2.7T",
     "constituentCount": 33,
     "topHoldings": [
       {
-        "name": "Procter & Gamble Company",
+        "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
@@ -14,28 +14,16 @@
         "symbol": "PEP"
       },
       {
-        "name": "Coca-Cola Company",
+        "name": "The Coca-Cola Company",
         "symbol": "KO"
       }
     ]
   },
-  "market_weight": 0.0458,
-  "change_pct": -0.0,
-  "insights": "The Consumer Staples sector experienced a neutral trading session today, registering a -0.00% change. Technical indicators paint a nuanced picture: The RSI at 53.95 suggests largely neutral momentum, without strong buying or selling pressure dominating. However, the MFI at 64.46 indicates relatively strong money flow into the sector, implying underlying accumulation or buying interest despite the flat price action. The OBV, sitting at -44,782,273, reflects a historical net volume bias towards selling, but for today's negligible price movement, it doesn't indicate significant new directional conviction. In essence, while prices remained stagnant, there appears to be quiet accumulation occurring within the sector.",
+  "market_weight": 0.0496,
+  "change_pct": -0.82,
+  "insights": "The Consumer Staples sector experienced a modest decline today, falling by 0.82%. Examining key technical indicators, the Relative Strength Index (RSI) at 48.52 indicates neutral momentum, slightly favoring sellers but not signaling an oversold condition. Interestingly, the Money Flow Index (MFI) at 64.44 suggests a net positive money flow into the sector despite the price dip, potentially indicating underlying accumulation on weakness or limited institutional selling. However, the On-Balance Volume (OBV) registering -44,713,521 reinforces that selling volume has generally outweighed buying volume over its calculation period, aligning with today's price weakness and indicating a prevailing bearish volume trend, even if some money is still flowing in.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749340800000,
-        null
-      ],
-      [
-        1749427200000,
-        49.2
-      ],
-      [
-        1749513600000,
-        50.58
-      ],
       [
         1749600000000,
         48.38
@@ -747,21 +735,21 @@
       [
         1764892800000,
         53.95
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        43.94
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        43.79
-      ],
+        1765152000000,
+        48.52
+      ]
+    ],
+    "mfi": [
       [
         1749600000000,
         43.75
@@ -1473,21 +1461,21 @@
       [
         1764892800000,
         64.46
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749340800000,
+        1764979200000,
         null
       ],
       [
-        1749427200000,
-        -8230800.0
+        1765065600000,
+        null
       ],
       [
-        1749513600000,
-        4134100.0
-      ],
+        1765152000000,
+        64.44
+      ]
+    ],
+    "obv": [
       [
         1749600000000,
         -7069900.0
@@ -2198,7 +2186,19 @@
       ],
       [
         1764892800000,
-        -44782273.0
+        -32032496.0
+      ],
+      [
+        1764979200000,
+        null
+      ],
+      [
+        1765065600000,
+        null
+      ],
+      [
+        1765152000000,
+        -44713521.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     0.85,
     1.86,
     -1.15,
-    null,
+    -0.82,
     null,
     null
   ]
