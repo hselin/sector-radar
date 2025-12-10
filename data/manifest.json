@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-09T21:12:59.247907Z",
+  "lastUpdated": "2025-12-10T21:14:40.549156Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States, representing a significant portion of the total U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a marginal decline of just -0.09% today, indicating a largely flat session lacking strong directional conviction. However, underlying technical indicators suggest a more positive sentiment and momentum. The Relative Strength Index (RSI) at 57.20 and the Money Flow Index (MFI) at 56.96 both reside comfortably above the 50-mark, indicating healthy, positive momentum and sustained money inflow without reaching overbought conditions. This implies buying interest is present and not yet exhausted, suggesting room for further upside. The significant On-Balance Volume (OBV) figure of 2,337,955,858, while best analyzed in trend, further reflects ongoing volume dynamics that, when combined with the RSI and MFI, suggest underlying market strength and a cautiously optimistic sentiment among participants despite the day's minor dip.",
-    "change_pct": -0.09,
+    "commentary": "The broader stock market posted a positive session today, climbing 0.65%. Examining key technicals, the Relative Strength Index (RSI) at 60.90 indicates strengthening buying momentum without yet signaling overbought conditions, suggesting continued room for upward movement. The Money Flow Index (MFI) at 56.69 further supports this, showing positive money flow into the market, reinforcing investor interest. Concurrently, a significant On-Balance Volume (OBV) reading suggests that this upward movement was supported by substantial buying interest rather than just price manipulation. Together, these indicators point to a market where positive sentiment is gaining traction, and the current upward momentum appears to be well-supported by underlying money flow and buying activity, suggesting a relatively healthy advance.",
+    "change_pct": 0.65,
     "technicalIndicators": {
       "rsi": [
-        [
-          1749686400000,
-          66.84
-        ],
         [
           1749772800000,
           58.9
@@ -747,13 +743,13 @@
         [
           1765238400000,
           57.2
+        ],
+        [
+          1765324800000,
+          60.9
         ]
       ],
       "mfi": [
-        [
-          1749686400000,
-          73.74
-        ],
         [
           1749772800000,
           72.54
@@ -1473,13 +1469,13 @@
         [
           1765238400000,
           56.96
+        ],
+        [
+          1765324800000,
+          56.69
         ]
       ],
       "obv": [
-        [
-          1749686400000,
-          1432333400.0
-        ],
         [
           1749772800000,
           1342827400.0
@@ -2199,6 +2195,10 @@
         [
           1765238400000,
           2337955858.0
+        ],
+        [
+          1765324800000,
+          2412688053.0
         ]
       ]
     },
@@ -2252,7 +2252,7 @@
       -1.92,
       3.7,
       0.33,
-      -0.38,
+      0.27,
       null,
       null
     ]

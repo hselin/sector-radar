@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0864,
-  "change_pct": 0.11,
-  "insights": "The Communication Services sector closed with a marginal gain of 0.11% today, reflecting a largely flat daily performance. Despite this minimal price movement, key technical indicators suggest underlying bullish sentiment and significant capital inflow. The Relative Strength Index (RSI) at 59.76 indicates positive momentum without reaching overbought conditions, while the Money Flow Index (MFI) at 71.45 points to robust buying interest and substantial capital entering the sector, nearing the overbought threshold. The positive On-Balance Volume (OBV) of 315,994,783 further supports that even this small daily advance was accompanied by net positive volume, affirming underlying demand.",
+  "change_pct": 0.55,
+  "insights": "The Communication Services sector recorded a modest gain of 0.55% today, reflecting positive but not aggressive buying interest. Technical indicators largely confirm this upward movement: the Relative Strength Index (RSI) at 62.24 suggests healthy bullish momentum without being overbought, while the Money Flow Index (MFI) at 72.01 indicates strong capital inflow and growing buying pressure, approaching overbought territory. The On-Balance Volume (OBV) at 321,641,297 further corroborates that the day's positive price action was supported by a net increase in buying volume, aligning with the sector's modest appreciation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749686400000,
-        64.0
-      ],
       [
         1749772800000,
         57.36
@@ -747,13 +743,13 @@
       [
         1765238400000,
         59.76
+      ],
+      [
+        1765324800000,
+        62.24
       ]
     ],
     "mfi": [
-      [
-        1749686400000,
-        69.66
-      ],
       [
         1749772800000,
         66.5
@@ -1473,13 +1469,13 @@
       [
         1765238400000,
         71.45
+      ],
+      [
+        1765324800000,
+        72.01
       ]
     ],
     "obv": [
-      [
-        1749686400000,
-        253074000.0
-      ],
       [
         1749772800000,
         245731200.0
@@ -2199,6 +2195,10 @@
       [
         1765238400000,
         315994783.0
+      ],
+      [
+        1765324800000,
+        321641297.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     0.51,
     3.12,
     1.51,
-    -0.62,
+    -0.07,
     null,
     null
   ]
