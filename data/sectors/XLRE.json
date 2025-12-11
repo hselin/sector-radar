@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0515,
-  "change_pct": 0.19,
-  "insights": "The Real Estate sector posted a marginal gain of 0.19% today, indicating a very slight positive movement. Technical indicators suggest this modest appreciation lacked strong underlying conviction; the Relative Strength Index (RSI) at 41.67 and Money Flow Index (MFI) at 48.34 are both positioned just below the neutral 50 mark, signaling weak buying momentum and a lack of significant money inflow into the sector. While the On-Balance Volume (OBV) at 25422158 would have likely seen a slight positive shift to accompany the price increase, the overall technical picture points to a day of subdued activity with underlying pressure leaning neutral to slightly bearish, despite the fractional price climb.",
+  "change_pct": 0.55,
+  "insights": "The Real Estate sector experienced a modest gain of 0.55% today. Its key technical indicators present a somewhat neutral but supported picture: the Relative Strength Index (RSI) at 45.92 indicates neutral momentum, leaning slightly below the midpoint, suggesting no strong overbought or oversold conditions. However, the Money Flow Index (MFI) at 58.41 signals a moderate net inflow of capital, indicating underlying buying interest, while the On-Balance Volume (OBV) at 35,593,051, coupled with today's price increase, suggests that buying volume generally supported the day's modest rally, preventing significant selling pressure. In essence, the sector saw a quiet but supported advance without strong directional conviction from momentum metrics.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749772800000,
-        54.41
-      ],
       [
         1749859200000,
         null
@@ -747,13 +743,13 @@
       [
         1765324800000,
         41.67
+      ],
+      [
+        1765411200000,
+        45.92
       ]
     ],
     "mfi": [
-      [
-        1749772800000,
-        69.07
-      ],
       [
         1749859200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1765324800000,
         48.34
+      ],
+      [
+        1765411200000,
+        58.41
       ]
     ],
     "obv": [
-      [
-        1749772800000,
-        78274500.0
-      ],
       [
         1749859200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1765324800000,
         25422158.0
+      ],
+      [
+        1765411200000,
+        35593051.0
       ]
     ]
   },
@@ -2252,7 +2252,7 @@
     -0.13,
     1.9,
     -1.62,
-    -1.02,
+    -0.48,
     null,
     null
   ]

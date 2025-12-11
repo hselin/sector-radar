@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-10T21:14:40.549156Z",
+  "lastUpdated": "2025-12-11T21:14:27.697665Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States, representing a significant portion of the total U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader stock market posted a positive session today, climbing 0.65%. Examining key technicals, the Relative Strength Index (RSI) at 60.90 indicates strengthening buying momentum without yet signaling overbought conditions, suggesting continued room for upward movement. The Money Flow Index (MFI) at 56.69 further supports this, showing positive money flow into the market, reinforcing investor interest. Concurrently, a significant On-Balance Volume (OBV) reading suggests that this upward movement was supported by substantial buying interest rather than just price manipulation. Together, these indicators point to a market where positive sentiment is gaining traction, and the current upward momentum appears to be well-supported by underlying money flow and buying activity, suggesting a relatively healthy advance.",
-    "change_pct": 0.65,
+    "commentary": "The stock market concluded the day with a modest gain of 0.24%, reflecting a generally positive session. Technical indicators suggest building bullish momentum: the Relative Strength Index (RSI) at 62.18, firmly above 50, signals strong underlying bullish sentiment without yet indicating extreme overbought conditions. Complementing this, the Money Flow Index (MFI) at 69.90 highlights significant money inflow into the market, approaching levels that suggest strong buying pressure. The substantial On-Balance Volume (OBV) further corroborates this, confirming that the day's upward movement was supported by healthy buying volume. Collectively, these figures paint a picture of positive market sentiment driven by robust momentum and sustained investor interest.",
+    "change_pct": 0.24,
     "technicalIndicators": {
       "rsi": [
-        [
-          1749772800000,
-          58.9
-        ],
         [
           1749859200000,
           null
@@ -747,13 +743,13 @@
         [
           1765324800000,
           60.9
+        ],
+        [
+          1765411200000,
+          62.18
         ]
       ],
       "mfi": [
-        [
-          1749772800000,
-          72.54
-        ],
         [
           1749859200000,
           null
@@ -1473,13 +1469,13 @@
         [
           1765324800000,
           56.69
+        ],
+        [
+          1765411200000,
+          69.9
         ]
       ],
       "obv": [
-        [
-          1749772800000,
-          1342827400.0
-        ],
         [
           1749859200000,
           null
@@ -2199,6 +2195,10 @@
         [
           1765324800000,
           2412688053.0
+        ],
+        [
+          1765411200000,
+          2486217696.0
         ]
       ]
     },
@@ -2252,7 +2252,7 @@
       -1.92,
       3.7,
       0.33,
-      0.27,
+      0.51,
       null,
       null
     ]
