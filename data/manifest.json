@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-11T21:14:27.697665Z",
+  "lastUpdated": "2025-12-12T21:12:55.301020Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States, representing a significant portion of the total U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a modest gain of 0.24%, reflecting a generally positive session. Technical indicators suggest building bullish momentum: the Relative Strength Index (RSI) at 62.18, firmly above 50, signals strong underlying bullish sentiment without yet indicating extreme overbought conditions. Complementing this, the Money Flow Index (MFI) at 69.90 highlights significant money inflow into the market, approaching levels that suggest strong buying pressure. The substantial On-Balance Volume (OBV) further corroborates this, confirming that the day's upward movement was supported by healthy buying volume. Collectively, these figures paint a picture of positive market sentiment driven by robust momentum and sustained investor interest.",
-    "change_pct": 0.24,
+    "commentary": "The overall stock market closed down today, shedding -1.07%, reflecting broad selling pressure across sectors. Despite this daily dip, key technical indicators present a more mixed picture of market sentiment and momentum. The Relative Strength Index (RSI) at 53.58 is in neutral territory, suggesting that while the market is not experiencing strong upward momentum, it is also not yet oversold, implying underlying resilience. More notably, the Money Flow Index (MFI) registers at a robust 70.98, nearing overbought conditions, which indicates significant capital inflow and strong buying interest even amidst the daily price decline. This divergence suggests a battle between profit-taking sellers and active buyers seeking value. Finally, a substantial On-Balance Volume (OBV) of 2.38 billion indicates significant cumulative buying pressure over time, hinting at persistent underlying demand or accumulation that could provide future support, despite today's negative price action.",
+    "change_pct": -1.07,
     "technicalIndicators": {
       "rsi": [
-        [
-          1749859200000,
-          null
-        ],
         [
           1749945600000,
           null
@@ -747,13 +743,13 @@
         [
           1765411200000,
           62.18
+        ],
+        [
+          1765497600000,
+          53.58
         ]
       ],
       "mfi": [
-        [
-          1749859200000,
-          null
-        ],
         [
           1749945600000,
           null
@@ -1473,13 +1469,13 @@
         [
           1765411200000,
           69.9
+        ],
+        [
+          1765497600000,
+          70.98
         ]
       ],
       "obv": [
-        [
-          1749859200000,
-          null
-        ],
         [
           1749945600000,
           null
@@ -2199,6 +2195,10 @@
         [
           1765411200000,
           2486217696.0
+        ],
+        [
+          1765497600000,
+          2388097097.0
         ]
       ]
     },
@@ -2252,7 +2252,7 @@
       -1.92,
       3.7,
       0.33,
-      0.51,
+      -0.57,
       null,
       null
     ]
