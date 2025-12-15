@@ -1,41 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing commercial and professional services, and offering various transportation services.",
-    "marketSizeUSD": "5.0T",
-    "constituentCount": 72,
+    "description": "The Industrials sector includes companies that manufacture and distribute capital goods, provide transportation services, and offer commercial services and supplies to businesses and consumers.",
+    "marketSizeUSD": "3.9T",
+    "constituentCount": 75,
     "topHoldings": [
-      {
-        "name": "Honeywell International Inc.",
-        "symbol": "HON"
-      },
-      {
-        "name": "Union Pacific Corp.",
-        "symbol": "UNP"
-      },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
+      },
+      {
+        "name": "General Electric Company",
+        "symbol": "GE"
+      },
+      {
+        "name": "Union Pacific Corporation",
+        "symbol": "UNP"
       }
     ]
   },
-  "market_weight": 0.0919,
-  "change_pct": -0.65,
-  "insights": "The Industrials sector closed down -0.65% today, indicating a slight pullback in performance. Despite this daily decline, the key technical indicators suggest underlying strength: the Relative Strength Index (RSI) at 60.02 signals ongoing bullish momentum, remaining comfortably above the neutral 50 level. More notably, the Money Flow Index (MFI) at 75.62 is quite high, nearing overbought conditions, which strongly indicates significant money inflow into the sector, even on a day of negative price action. The On-Balance Volume (OBV) at 107,097,228, a cumulative measure of buying and selling pressure, supports sustained investor engagement. In essence, while the sector saw a modest dip today, the robust money flow and momentum indicators suggest it remains in a strong underlying uptrend, potentially indicating the current decline is a temporary consolidation rather than a reversal.",
+  "market_weight": 0.0625,
+  "change_pct": 0.17,
+  "insights": "The Industrials sector exhibited a modest positive performance today, gaining 0.17%. This slight uptick is supported by technical indicators: the RSI at 60.69 suggests healthy positive momentum without being overbought, while the MFI at 67.09 further confirms robust money flow into the sector. Although a single OBV figure lacks trend context, its positive nature implies today's modest price gain was likely supported by net buying volume, reinforcing the observed positive momentum and indicating potential for continued stability or slight upward movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749945600000,
-        null
-      ],
-      [
-        1750032000000,
-        60.36
-      ],
-      [
-        1750118400000,
-        54.98
-      ],
       [
         1750204800000,
         53.36
@@ -747,21 +735,21 @@
       [
         1765497600000,
         60.02
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        30.57
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        24.86
-      ],
+        1765756800000,
+        60.69
+      ]
+    ],
+    "mfi": [
       [
         1750204800000,
         24.6
@@ -1473,21 +1461,21 @@
       [
         1765497600000,
         75.62
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        -19588500.0
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        -32242700.0
-      ],
+        1765756800000,
+        67.09
+      ]
+    ],
+    "obv": [
       [
         1750204800000,
         -46251500.0
@@ -2199,6 +2187,18 @@
       [
         1765497600000,
         107097228.0
+      ],
+      [
+        1765584000000,
+        null
+      ],
+      [
+        1765670400000,
+        null
+      ],
+      [
+        1765756800000,
+        117703388.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     2.7,
     0.57,
     1.4,
-    null,
+    0.17,
     null
   ]
 }

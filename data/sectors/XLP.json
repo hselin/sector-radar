@@ -1,41 +1,29 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that manufacture and market everyday essential products like food, beverages, tobacco, household goods, and personal care products.",
+    "description": "The Consumer Staples sector comprises companies involved in the manufacturing and distribution of essential products like food, beverages, tobacco, household goods, and personal care items, which consumers purchase regularly regardless of economic conditions.",
     "marketSizeUSD": "2.7T",
-    "constituentCount": 33,
+    "constituentCount": 37,
     "topHoldings": [
       {
-        "name": "Procter & Gamble Co.",
+        "name": "Walmart Inc.",
+        "symbol": "WMT"
+      },
+      {
+        "name": "Procter & Gamble Company",
         "symbol": "PG"
       },
       {
-        "name": "PepsiCo, Inc.",
-        "symbol": "PEP"
-      },
-      {
-        "name": "The Coca-Cola Company",
-        "symbol": "KO"
+        "name": "Costco Wholesale Corporation",
+        "symbol": "COST"
       }
     ]
   },
-  "market_weight": 0.0496,
-  "change_pct": 0.8,
-  "insights": "The Consumer Staples sector experienced a positive day, gaining 0.80%. This upward momentum is supported by key technical indicators; the Relative Strength Index (RSI) at 60.86 and the Money Flow Index (MFI) at 68.06 both suggest strong buying pressure and significant money inflow into the sector, yet remain below overbought thresholds, indicating potential for continued strength. The robust On-Balance Volume (OBV) of 7,833,912 further confirms that today's price appreciation was accompanied by substantial buying volume, validating the sector's gain.",
+  "market_weight": 0.0433,
+  "change_pct": 0.25,
+  "insights": "The Consumer Staples sector posted a modest gain of 0.25% today, suggesting a defensive yet steady performance. This upward movement is supported by key technical indicators; the Relative Strength Index (RSI) at 62.16 indicates strong buying momentum, nearing overbought conditions but not yet extreme. Complementing this, the Money Flow Index (MFI) at 76.10 signifies substantial money flowing into the sector, reinforcing the buying pressure behind the day's positive close. The On-Balance Volume (OBV) at 21361057, a high positive value, further suggests sustained accumulation, indicating that volume is supporting price advances and validating the sector's steady performance. While the daily gain was slight, underlying technicals point to robust demand and investor confidence.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749945600000,
-        null
-      ],
-      [
-        1750032000000,
-        46.88
-      ],
-      [
-        1750118400000,
-        42.24
-      ],
       [
         1750204800000,
         41.6
@@ -747,21 +735,21 @@
       [
         1765497600000,
         60.86
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        42.32
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        41.23
-      ],
+        1765756800000,
+        62.16
+      ]
+    ],
+    "mfi": [
       [
         1750204800000,
         41.76
@@ -1473,21 +1461,21 @@
       [
         1765497600000,
         68.06
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        733100.0
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        -14326800.0
-      ],
+        1765756800000,
+        76.1
+      ]
+    ],
+    "obv": [
       [
         1750204800000,
         -25444500.0
@@ -2199,6 +2187,18 @@
       [
         1765497600000,
         7833912.0
+      ],
+      [
+        1765584000000,
+        null
+      ],
+      [
+        1765670400000,
+        null
+      ],
+      [
+        1765756800000,
+        21361057.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     1.86,
     -1.15,
     1.23,
-    null,
+    0.25,
     null
   ]
 }

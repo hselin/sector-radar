@@ -1,8 +1,8 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities GICS sector comprises companies that provide essential services such as electricity, natural gas, water, and often waste management, characterized by stable demand and high barriers to entry.",
-    "marketSizeUSD": "1.4T",
+    "description": "The Utilities sector comprises companies engaged in the generation, transmission, and distribution of electricity, natural gas, and water, as well as diversified public utility services.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 30,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0257,
-  "change_pct": -0.45,
-  "insights": "The Utilities sector experienced a -0.45% decline today, reflecting a day of moderate selling pressure. Key technical indicators point to an intensely bearish sentiment: the Relative Strength Index (RSI) at an extremely low 6.75 signals the sector is significantly oversold, indicating a strong downward momentum that may be unsustainable in the very short term. The Money Flow Index (MFI) at 38.87 corroborates this, showing more money flowing out of the sector than in, though not as extremely as the RSI suggests. While the On-Balance Volume (OBV) at 282,996,599 provides a cumulative view, its movement in conjunction with today's price drop generally reinforces the observed selling pressure and bearish sentiment.",
+  "market_weight": 0.0272,
+  "change_pct": 0.89,
+  "insights": "The Utilities sector posted a modest gain of 0.89% today, indicating some positive movement. However, underlying technical indicators suggest this rise occurs within a context of prior weakness. The extremely low Relative Strength Index (RSI) at 7.78 indicates the sector is significantly oversold, suggesting this daily gain could be a rebound from deeply depressed levels rather than a strong reversal. Concurrently, the Money Flow Index (MFI) at 38.03, while not in extreme oversold territory, is still below the neutral 50-mark, implying that while prices moved up, the buying interest based on volume may not be overwhelmingly strong. On-Balance Volume (OBV) at 302,034,340 reflects cumulative buying and selling pressure, and would have increased with today's positive close, aligning with the price move but needing a longer-term trend for deeper insight. In summary, the 0.89% gain appears to be a tactical bounce from very oversold conditions, potentially lacking strong conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749945600000,
-        null
-      ],
-      [
-        1750032000000,
-        51.25
-      ],
-      [
-        1750118400000,
-        47.14
-      ],
       [
         1750204800000,
         48.53
@@ -747,21 +735,21 @@
       [
         1765497600000,
         6.75
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        46.97
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        45.99
-      ],
+        1765756800000,
+        7.78
+      ]
+    ],
+    "mfi": [
       [
         1750204800000,
         46.21
@@ -1473,21 +1461,21 @@
       [
         1765497600000,
         38.87
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        151234500.0
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        137066600.0
-      ],
+        1765756800000,
+        38.03
+      ]
+    ],
+    "obv": [
       [
         1750204800000,
         148228600.0
@@ -2199,6 +2187,18 @@
       [
         1765497600000,
         282996599.0
+      ],
+      [
+        1765584000000,
+        null
+      ],
+      [
+        1765670400000,
+        null
+      ],
+      [
+        1765756800000,
+        302034340.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     2.85,
     -52.23,
     -1.04,
-    null,
+    0.89,
     null
   ]
 }

@@ -1,41 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector encompasses companies that own, operate, develop, and manage real estate, including diversified and specialized REITs.",
-    "marketSizeUSD": "2.8T",
-    "constituentCount": 32,
+    "description": "The Real Estate sector encompasses companies primarily engaged in the ownership, development, and management of real estate, including Real Estate Investment Trusts (REITs).",
+    "marketSizeUSD": "1.4T",
+    "constituentCount": 31,
     "topHoldings": [
       {
-        "name": "Prologis Inc.",
+        "name": "Prologis, Inc.",
         "symbol": "PLD"
       },
       {
-        "name": "American Tower Corp",
+        "name": "American Tower Corporation",
         "symbol": "AMT"
       },
       {
-        "name": "Equinix Inc.",
+        "name": "Equinix, Inc.",
         "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.0515,
-  "change_pct": -0.16,
-  "insights": "The Real Estate sector experienced a modest decline today, closing marginally lower by -0.16%. The Relative Strength Index (RSI) at 44.90 indicates the sector is firmly in neutral territory, suggesting a lack of strong buying or selling momentum. Complementing this, the Money Flow Index (MFI) at 58.20 also points to relatively balanced money flow, not signaling aggressive outflows despite the slight price dip, and hinting at some underlying buying interest. While a cumulative figure, the On-Balance Volume (OBV) of 28,382,655, in context with the minor price drop, suggests the day's movement was not driven by overwhelming selling volume, reinforcing a picture of consolidation rather than a strong directional shift.",
+  "market_weight": 0.0224,
+  "change_pct": 0.43,
+  "insights": "The Real Estate sector saw a modest gain of 0.43% today, reflecting a slight positive movement. Its RSI at 48.22 suggests momentum is largely neutral, sitting near the midpoint and indicating neither overbought nor oversold conditions currently exist. However, the MFI at 58.66 points to a healthy positive money flow into the sector, indicating that today's price appreciation is supported by underlying buying interest and capital inflow. The OBV, having increased with the positive close, generally affirms this upward movement with accumulating volume, suggesting that participants are adding to their positions rather than exiting.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749945600000,
-        null
-      ],
-      [
-        1750032000000,
-        54.95
-      ],
-      [
-        1750118400000,
-        52.13
-      ],
       [
         1750204800000,
         53.35
@@ -747,21 +735,21 @@
       [
         1765497600000,
         44.9
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        70.3
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        63.34
-      ],
+        1765756800000,
+        48.22
+      ]
+    ],
+    "mfi": [
       [
         1750204800000,
         63.72
@@ -1473,21 +1461,21 @@
       [
         1765497600000,
         58.2
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        84578900.0
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        78968800.0
-      ],
+        1765756800000,
+        58.66
+      ]
+    ],
+    "obv": [
       [
         1750204800000,
         84498700.0
@@ -2199,6 +2187,18 @@
       [
         1765497600000,
         28382655.0
+      ],
+      [
+        1765584000000,
+        null
+      ],
+      [
+        1765670400000,
+        null
+      ],
+      [
+        1765756800000,
+        35816233.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     1.9,
     -1.62,
     -0.63,
-    null,
+    0.43,
     null
   ]
 }

@@ -1,16 +1,16 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector comprises companies that provide telecommunication services, entertainment content, and interactive media and services.",
-    "marketSizeUSD": "4.7T",
-    "constituentCount": 24,
+    "description": "The Communication Services GICS sector encompasses companies that provide telecommunication services, entertainment content, interactive media, and various communication infrastructure and platforms.",
+    "marketSizeUSD": "4.8T",
+    "constituentCount": 22,
     "topHoldings": [
       {
         "name": "Alphabet Inc.",
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms, Inc.",
+        "name": "Meta Platforms Inc.",
         "symbol": "META"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0864,
-  "change_pct": -0.21,
-  "insights": "The Communication Services sector experienced a marginal decline of 0.21% today, indicating a relatively quiet session. Despite this slight dip, key technicals suggest underlying strength. The Relative Strength Index (RSI) at 59.09 remains in bullish territory, well below overbought levels, while the Money Flow Index (MFI) at 72.90 points to significant capital inflow, nearing overbought conditions. On-Balance Volume (OBV) at 309,897,278 further underscores sustained buying interest. This combination suggests that while the sector saw a slight price retreat, underlying momentum and investor interest remain robust, potentially indicating a healthy consolidation rather than a loss of bullish sentiment.",
+  "market_weight": 0.0769,
+  "change_pct": 0.01,
+  "insights": "Today, the Communication Services sector posted a nearly flat performance, gaining a marginal 0.01%. Despite this minimal price movement, key technical indicators reveal underlying positive sentiment: the Relative Strength Index (RSI) at 59.13 suggests moderate bullish momentum, while the Money Flow Index (MFI) at 66.32 points to significant, volume-backed buying interest approaching overbought levels. The consistently high On-Balance Volume (OBV) of 314,612,594 further supports an ongoing pattern of accumulation. This suggests that while price action today was largely subdued, there's a notable underlying capital inflow and bullish bias within the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749945600000,
-        null
-      ],
-      [
-        1750032000000,
-        64.08
-      ],
-      [
-        1750118400000,
-        58.86
-      ],
       [
         1750204800000,
         59.05
@@ -747,21 +735,21 @@
       [
         1765497600000,
         59.09
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        67.63
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        61.13
-      ],
+        1765756800000,
+        59.13
+      ]
+    ],
+    "mfi": [
       [
         1750204800000,
         66.98
@@ -1473,21 +1461,21 @@
       [
         1765497600000,
         72.9
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        251943100.0
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        245908400.0
-      ],
+        1765756800000,
+        66.32
+      ]
+    ],
+    "obv": [
       [
         1750204800000,
         251835700.0
@@ -2199,6 +2187,18 @@
       [
         1765497600000,
         309897278.0
+      ],
+      [
+        1765584000000,
+        null
+      ],
+      [
+        1765670400000,
+        null
+      ],
+      [
+        1765756800000,
+        314612594.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     3.12,
     1.51,
     -0.5,
-    null,
+    0.01,
     null
   ]
 }

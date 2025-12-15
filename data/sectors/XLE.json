@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies that explore, develop, produce, refine, market, store, and transport oil and gas products, along with those providing energy-related equipment and services.",
-    "marketSizeUSD": "1.8T",
+    "description": "The Energy GICS sector comprises companies engaged in the exploration, production, refining, and marketing of oil, gas, and consumable fuels, alongside providers of related drilling and energy services.",
+    "marketSizeUSD": "5.5T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0331,
-  "change_pct": -0.94,
-  "insights": "The Energy sector experienced a notable decline of -0.94% today, reflecting significant bearish sentiment. This downward pressure is corroborated by its key technical indicators: the Relative Strength Index (RSI) at 13.12 places the sector deep into severely oversold territory, suggesting that selling pressure has been extreme and potentially exhaustive, which could set the stage for a technical bounce. Concurrently, the Money Flow Index (MFI) at 46.12, below the neutral 50-mark, indicates a net outflow of capital from the sector, reinforcing the negative price action. While the absolute On-Balance Volume (OBV) of 488,937,569 requires comparative data for full interpretation, the context of declining price and severely oversold conditions suggests OBV likely confirmed persistent selling momentum.",
+  "market_weight": 0.0881,
+  "change_pct": -0.77,
+  "insights": "The Energy sector concluded today with a -0.77% decline, reflecting continued bearish sentiment. Key technical indicators reveal a significant development: the Relative Strength Index (RSI) at an extremely low 13.01 strongly suggests the sector is deeply oversold, indicating that recent selling pressure may be overextended and could precede a short-term rebound or period of consolidation. The Money Flow Index (MFI) at 46.68, while slightly below the neutral 50-mark, aligns with the daily price dip by showing a marginal net outflow of capital, but does not suggest aggressive distribution. The On-Balance Volume (OBV) of 461,743,453 represents the cumulative volume supporting current price trends. In context, while prices fell, the deeply oversold RSI implies that the downside momentum might be losing steam, making the sector ripe for potential stabilization or a technical bounce.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749945600000,
-        null
-      ],
-      [
-        1750032000000,
-        65.72
-      ],
-      [
-        1750118400000,
-        67.94
-      ],
       [
         1750204800000,
         64.75
@@ -747,21 +735,21 @@
       [
         1765497600000,
         13.12
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        72.8
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        79.48
-      ],
+        1765756800000,
+        13.01
+      ]
+    ],
+    "mfi": [
       [
         1750204800000,
         73.32
@@ -1473,21 +1461,21 @@
       [
         1765497600000,
         46.12
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        462112900.0
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        496055000.0
-      ],
+        1765756800000,
+        46.68
+      ]
+    ],
+    "obv": [
       [
         1750204800000,
         460818500.0
@@ -2199,6 +2187,18 @@
       [
         1765497600000,
         488937569.0
+      ],
+      [
+        1765584000000,
+        null
+      ],
+      [
+        1765670400000,
+        null
+      ],
+      [
+        1765756800000,
+        461743453.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     1.16,
     -49.23,
     -0.83,
-    null,
+    -0.77,
     null
   ]
 }

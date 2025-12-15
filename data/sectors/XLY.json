@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose demand is sensitive to economic cycles and consumer disposable income.",
-    "marketSizeUSD": "6.0T",
-    "constituentCount": 57,
+    "description": "The Consumer Discretionary sector includes companies that produce non-essential goods and services, demand for which is highly sensitive to the business cycle and consumer income.",
+    "marketSizeUSD": "7.0T",
+    "constituentCount": 56,
     "topHoldings": [
       {
         "name": "Amazon.com, Inc.",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1103,
-  "change_pct": 0.42,
-  "insights": "The Consumer Discretionary sector saw a modest 0.42% advance today, a movement that, when viewed through its technical indicators, presents a nuanced outlook. Despite this marginal gain, the Relative Strength Index (RSI) at an extremely low 13.05 signals the sector remains deeply oversold, suggesting a recent period of significant selling pressure. However, the Money Flow Index (MFI) at 67.48 indicates considerable buying pressure and money inflow into the sector today, while the On-Balance Volume (OBV) of 50353898, increasing with the positive price action, confirms volume is supporting this upward move. This combination of deeply oversold conditions and strong money flow suggests the sector might be attempting a technical rebound from previously suppressed levels, with capital beginning to flow back in.",
+  "market_weight": 0.1122,
+  "change_pct": 0.86,
+  "insights": "The Consumer Discretionary sector posted a modest gain of 0.86% today, indicating some positive momentum. This daily movement occurred against a technically complex backdrop: the Relative Strength Index (RSI) is deeply oversold at 13.97, suggesting the sector is significantly undervalued from a momentum perspective despite today's uptick. Conversely, the Money Flow Index (MFI) at 68.19 indicates robust buying interest and strong capital inflow into the sector, potentially signaling bargain hunting. The On-Balance Volume (OBV) of 62,297,774 reflects the cumulative volume pressure, which, alongside the MFI, suggests today's positive price action was supported by notable capital engagement, potentially signaling a tactical rebound from oversold conditions.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749945600000,
-        null
-      ],
-      [
-        1750032000000,
-        54.84
-      ],
-      [
-        1750118400000,
-        48.57
-      ],
       [
         1750204800000,
         48.74
@@ -747,21 +735,21 @@
       [
         1765497600000,
         13.05
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        35.23
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        35.01
-      ],
+        1765756800000,
+        13.97
+      ]
+    ],
+    "mfi": [
       [
         1750204800000,
         35.24
@@ -1473,21 +1461,21 @@
       [
         1765497600000,
         67.48
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        -15765700.0
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        -20002300.0
-      ],
+        1765756800000,
+        68.19
+      ]
+    ],
+    "obv": [
       [
         1750204800000,
         -16299400.0
@@ -2199,6 +2187,18 @@
       [
         1765497600000,
         50353898.0
+      ],
+      [
+        1765584000000,
+        null
+      ],
+      [
+        1765670400000,
+        null
+      ],
+      [
+        1765756800000,
+        62297774.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     4.85,
     -49.36,
     0.78,
-    null,
+    0.86,
     null
   ]
 }

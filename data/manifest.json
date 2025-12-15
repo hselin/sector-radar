@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-14T21:08:06.649925Z",
+  "lastUpdated": "2025-12-15T21:19:16.411011Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a noticeable decline today, closing down 1.07%, indicating a shift towards bearish sentiment for the session. Technical indicators provide a mixed, yet cautious, perspective: the Relative Strength Index (RSI) at 53.58 remains in neutral territory, suggesting the market is not yet oversold and maintains some equilibrium despite the daily drop. However, the Money Flow Index (MFI) at 70.98 is elevated, signaling strong recent money inflows which often precedes an overbought condition and can lead to profit-taking or distribution, potentially contributing to today's downward pressure. On-Balance Volume (OBV) at 2,388,097,097 confirms the volume behind price movements; typically, a falling OBV on a down day reinforces bearish momentum. Overall, the neutral RSI combined with a high MFI suggests that today's selling might be a reaction to prior accumulation reaching an overbought state, rather than a broad panic, indicating a complex dynamic for short-term market momentum and sentiment.",
-    "change_pct": -1.07,
+    "commentary": "Commentary could not be generated due to a persistent network error.",
+    "change_pct": -0.15,
     "technicalIndicators": {
       "rsi": [
-        [
-          1749945600000,
-          null
-        ],
-        [
-          1750032000000,
-          62.9
-        ],
-        [
-          1750118400000,
-          57.44
-        ],
         [
           1750204800000,
           57.35
@@ -747,21 +735,21 @@
         [
           1765497600000,
           53.58
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1749945600000,
+          1765584000000,
           null
         ],
         [
-          1750032000000,
-          72.8
+          1765670400000,
+          null
         ],
         [
-          1750118400000,
-          65.04
-        ],
+          1765756800000,
+          52.49
+        ]
+      ],
+      "mfi": [
         [
           1750204800000,
           57.77
@@ -1473,21 +1461,21 @@
         [
           1765497600000,
           70.98
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1749945600000,
+          1765584000000,
           null
         ],
         [
-          1750032000000,
-          1422811500.0
+          1765670400000,
+          null
         ],
         [
-          1750118400000,
-          1340602100.0
-        ],
+          1765756800000,
+          62.04
+        ]
+      ],
+      "obv": [
         [
           1750204800000,
           1263997100.0
@@ -2199,6 +2187,18 @@
         [
           1765497600000,
           2388097097.0
+        ],
+        [
+          1765584000000,
+          null
+        ],
+        [
+          1765670400000,
+          null
+        ],
+        [
+          1765756800000,
+          2303497946.0
         ]
       ]
     },
@@ -2253,7 +2253,7 @@
       3.7,
       0.33,
       -0.57,
-      null,
+      -0.15,
       null
     ]
   },

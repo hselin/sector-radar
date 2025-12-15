@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector comprises companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, paper, and packaging.",
-    "marketSizeUSD": "$1.7T",
+    "description": "The Materials sector comprises companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, paper, and forest products.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,32 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co",
+        "name": "Sherwin-Williams Co.",
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc",
+        "name": "Ecolab Inc.",
         "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0312,
-  "change_pct": 0.03,
-  "insights": "The Materials sector closed today's trading session virtually flat with a marginal 0.03% gain. While its extremely low Relative Strength Index (RSI) of 13.02 indicates a deeply oversold condition, and the significantly negative On-Balance Volume (OBV) of -38,694,264 points to substantial selling pressure over time, the Money Flow Index (MFI) at 66.99 suggests that capital is actively flowing back into the sector. This combination implies a potential stabilization at current depressed price levels, where underlying buying interest is emerging to prevent further declines, despite the broader technical picture reflecting recent weakness.",
+  "market_weight": 0.0272,
+  "change_pct": -0.04,
+  "insights": "Commentary could not be generated due to a persistent network error.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749945600000,
-        null
-      ],
-      [
-        1750032000000,
-        57.57
-      ],
-      [
-        1750118400000,
-        52.5
-      ],
       [
         1750204800000,
         51.09
@@ -747,21 +735,21 @@
       [
         1765497600000,
         13.02
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        50.67
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        51.08
-      ],
+        1765756800000,
+        13.02
+      ]
+    ],
+    "mfi": [
       [
         1750204800000,
         51.46
@@ -1473,21 +1461,21 @@
       [
         1765497600000,
         66.99
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        -21104100.0
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        -25683100.0
-      ],
+        1765756800000,
+        59.63
+      ]
+    ],
+    "obv": [
       [
         1750204800000,
         -29960100.0
@@ -2199,6 +2187,18 @@
       [
         1765497600000,
         -38694264.0
+      ],
+      [
+        1765584000000,
+        null
+      ],
+      [
+        1765670400000,
+        null
+      ],
+      [
+        1765756800000,
+        -47559239.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     3.5,
     -50.68,
     2.37,
-    null,
+    -0.04,
     null
   ]
 }

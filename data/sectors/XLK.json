@@ -1,8 +1,8 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology GICS sector encompasses companies primarily involved in software, IT services, and technology hardware and equipment, including semiconductors, and communications equipment.",
-    "marketSizeUSD": "16.5T",
+    "description": "The Information Technology sector includes companies that primarily develop, produce, or market software, hardware, semiconductors, IT services, and communications equipment.",
+    "marketSizeUSD": "14.0T",
     "constituentCount": 68,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.3033,
-  "change_pct": -2.91,
-  "insights": "The Information Technology sector experienced a notable downturn today, declining by -2.91%. Technical indicators offer a nuanced perspective: the Relative Strength Index (RSI) at an extremely low 12.24 signals that the sector is deeply oversold, suggesting significant downward momentum but also potential for a short-term rebound due to the severity of the sell-off. Interestingly, the Money Flow Index (MFI) at 60.68 indicates that despite today's price drop, there remains a notable inflow of money into the sector, potentially from investors buying the dip, which could point to underlying demand not fully captured by the price action alone. The On-Balance Volume (OBV) stands at 383,899,222, reflecting substantial cumulative trading volume over time, confirming active participation within the sector.",
+  "market_weight": 0.2244,
+  "change_pct": -0.97,
+  "insights": "The Information Technology sector experienced a moderate decline of -0.97% today. This negative price action occurred as its Relative Strength Index (RSI) reached an extremely oversold level of 12.11, suggesting that recent selling pressure has been substantial and could indicate a potential for a near-term technical bounce as the market might view the sector as undervalued on a short-term basis. Concurrently, the Money Flow Index (MFI) stands near a neutral 52.11, indicating a relatively balanced flow of capital despite the price dip, while the On-Balance Volume (OBV) of 374,390,267 reflects the cumulative buying and selling pressure over time.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1749945600000,
-        null
-      ],
-      [
-        1750032000000,
-        68.56
-      ],
-      [
-        1750118400000,
-        64.72
-      ],
       [
         1750204800000,
         65.08
@@ -747,21 +735,21 @@
       [
         1765497600000,
         12.24
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        84.45
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        78.15
-      ],
+        1765756800000,
+        12.11
+      ]
+    ],
+    "mfi": [
       [
         1750204800000,
         71.1
@@ -1473,21 +1461,21 @@
       [
         1765497600000,
         60.68
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1749945600000,
+        1765584000000,
         null
       ],
       [
-        1750032000000,
-        181792200.0
+        1765670400000,
+        null
       ],
       [
-        1750118400000,
-        176529500.0
-      ],
+        1765756800000,
+        52.11
+      ]
+    ],
+    "obv": [
       [
         1750204800000,
         182062500.0
@@ -2199,6 +2187,18 @@
       [
         1765497600000,
         383899222.0
+      ],
+      [
+        1765584000000,
+        null
+      ],
+      [
+        1765670400000,
+        null
+      ],
+      [
+        1765756800000,
+        374390267.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     4.74,
     -48.78,
     -1.99,
-    null,
+    -0.97,
     null
   ]
 }
