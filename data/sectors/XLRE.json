@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0224,
-  "change_pct": 0.43,
-  "insights": "The Real Estate sector saw a modest gain of 0.43% today, reflecting a slight positive movement. Its RSI at 48.22 suggests momentum is largely neutral, sitting near the midpoint and indicating neither overbought nor oversold conditions currently exist. However, the MFI at 58.66 points to a healthy positive money flow into the sector, indicating that today's price appreciation is supported by underlying buying interest and capital inflow. The OBV, having increased with the positive close, generally affirms this upward movement with accumulating volume, suggesting that participants are adding to their positions rather than exiting.",
+  "change_pct": -0.88,
+  "insights": "The Real Estate sector experienced a modest decline today, falling 0.88%. Its Relative Strength Index (RSI) at 42.54 indicates mild bearish momentum, suggesting selling pressure slightly outweighed buying interest, though the sector is not approaching oversold conditions. Conversely, the Money Flow Index (MFI) at 51.12 points to a nearly neutral money flow with a slight inclination towards accumulation despite the negative price action, indicating capital isn't aggressively exiting. On-Balance Volume (OBV) at 28,407,589 reflects the cumulative buying and selling pressure supporting the price trend, which in today's context, has seen a minor daily pullback.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750204800000,
-        53.35
-      ],
       [
         1750291200000,
         null
@@ -747,13 +743,13 @@
       [
         1765756800000,
         48.22
+      ],
+      [
+        1765843200000,
+        42.54
       ]
     ],
     "mfi": [
-      [
-        1750204800000,
-        63.72
-      ],
       [
         1750291200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1765756800000,
         58.66
+      ],
+      [
+        1765843200000,
+        51.12
       ]
     ],
     "obv": [
-      [
-        1750204800000,
-        84498700.0
-      ],
       [
         1750291200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1765756800000,
         35816233.0
+      ],
+      [
+        1765843200000,
+        28407589.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     1.9,
     -1.62,
     -0.63,
-    0.43,
+    -0.45,
     null
   ]
 }

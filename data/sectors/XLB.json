@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0272,
-  "change_pct": -0.04,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "change_pct": -0.27,
+  "insights": "The Materials sector registered a slight decline of -0.27% today, with key technical indicators reflecting a nuanced picture. The Relative Strength Index (RSI) at an extremely low 12.97 signals intensely oversold conditions, suggesting strong bearish sentiment and potential for a near-term bounce if selling pressure abates. While the Money Flow Index (MFI) at a near-neutral 52.27 indicates a relatively balanced institutional money flow despite the price dip, the significantly negative On-Balance Volume (OBV) of -56,436,593 confirms that today's price decline was accompanied by substantial net selling volume, lending credibility to the bearish daily movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750204800000,
-        51.09
-      ],
       [
         1750291200000,
         null
@@ -747,13 +743,13 @@
       [
         1765756800000,
         13.02
+      ],
+      [
+        1765843200000,
+        12.97
       ]
     ],
     "mfi": [
-      [
-        1750204800000,
-        51.46
-      ],
       [
         1750291200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1765756800000,
         59.63
+      ],
+      [
+        1765843200000,
+        52.27
       ]
     ],
     "obv": [
-      [
-        1750204800000,
-        -29960100.0
-      ],
       [
         1750291200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1765756800000,
         -47559239.0
+      ],
+      [
+        1765843200000,
+        -56436593.0
       ]
     ]
   },
@@ -2253,7 +2253,7 @@
     3.5,
     -50.68,
     2.37,
-    -0.04,
+    -0.31,
     null
   ]
 }

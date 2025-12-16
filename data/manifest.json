@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-15T21:19:16.411011Z",
+  "lastUpdated": "2025-12-16T21:14:01.604750Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Commentary could not be generated due to a persistent network error.",
-    "change_pct": -0.15,
+    "commentary": "The overall stock market closed with a minor decline of -0.27% today, signaling a period of market indecision rather than a decisive trend. This marginal dip is mirrored by key technical indicators: the Relative Strength Index (RSI) at 50.48 and the Money Flow Index (MFI) at 52.75 both hover near their respective neutral 50-levels. This configuration suggests a balanced state between buying and selling pressure, indicating neither overbought nor oversold conditions and a distinct lack of strong directional momentum. While the On-Balance Volume (OBV) stands at 2211635499, the collective message from these metrics is that market sentiment remains largely neutral, with the market currently consolidating rather than exhibiting a clear bullish or bearish bias.",
+    "change_pct": -0.27,
     "technicalIndicators": {
       "rsi": [
-        [
-          1750204800000,
-          57.35
-        ],
         [
           1750291200000,
           null
@@ -747,13 +743,13 @@
         [
           1765756800000,
           52.49
+        ],
+        [
+          1765843200000,
+          50.48
         ]
       ],
       "mfi": [
-        [
-          1750204800000,
-          57.77
-        ],
         [
           1750291200000,
           null
@@ -1473,13 +1469,13 @@
         [
           1765756800000,
           62.04
+        ],
+        [
+          1765843200000,
+          52.75
         ]
       ],
       "obv": [
-        [
-          1750204800000,
-          1263997100.0
-        ],
         [
           1750291200000,
           null
@@ -2199,6 +2195,10 @@
         [
           1765756800000,
           2303497946.0
+        ],
+        [
+          1765843200000,
+          2211635499.0
         ]
       ]
     },
@@ -2253,7 +2253,7 @@
       3.7,
       0.33,
       -0.57,
-      -0.15,
+      -0.43,
       null
     ]
   },
