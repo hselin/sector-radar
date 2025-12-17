@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.2163,
-  "change_pct": -0.69,
-  "insights": "The Financials sector saw a modest decline of 0.69% today. Despite this daily price dip, key technical indicators suggest persistent underlying strength and strong investor interest. The Relative Strength Index (RSI) at 63.24 indicates the sector maintains a healthy bullish momentum without yet approaching overbought conditions. More significantly, the Money Flow Index (MFI) at 75.65 highlights very robust capital inflow into the sector, nearing overbought levels and potentially signaling accumulation on weakness. While the On-Balance Volume (OBV) reflects significant cumulative trading volume, the strong MFI suggests active demand despite today's negative price action.",
+  "change_pct": 0.0,
+  "insights": "The Financials sector concluded the day flat with a 0.00% change, indicating no net price movement. However, underlying technicals suggest a subtle bullish undertone. The Relative Strength Index (RSI) at 63.24 points to healthy positive momentum, while the Money Flow Index (MFI) at 75.84 highlights significant capital inflow, nearing overbought territory. The substantial On-Balance Volume (OBV) of 1,439,709,749 further reinforces a pattern of accumulation, implying that despite today's stagnation, there's considerable buying interest supporting the sector's valuation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750291200000,
-        null
-      ],
       [
         1750377600000,
         49.2
@@ -747,13 +743,13 @@
       [
         1765843200000,
         63.24
+      ],
+      [
+        1765929600000,
+        63.24
       ]
     ],
     "mfi": [
-      [
-        1750291200000,
-        null
-      ],
       [
         1750377600000,
         51.95
@@ -1473,13 +1469,13 @@
       [
         1765843200000,
         75.65
+      ],
+      [
+        1765929600000,
+        75.84
       ]
     ],
     "obv": [
-      [
-        1750291200000,
-        null
-      ],
       [
         1750377600000,
         952041200.0
@@ -2199,6 +2195,10 @@
       [
         1765843200000,
         1403291544.0
+      ],
+      [
+        1765929600000,
+        1439709749.0
       ]
     ]
   },
