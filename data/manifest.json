@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-18T21:13:59.288954Z",
+  "lastUpdated": "2025-12-19T21:12:59.262571Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a modest gain, advancing by 0.75%. Technical indicators suggest market sentiment and momentum are in a relatively neutral state. The Relative Strength Index (RSI) at 48.62 and the Money Flow Index (MFI) at 47.52 both reside comfortably in neutral territory, signaling a balanced market without significant overbought/oversold pressures or overwhelming directional money flow. While the On-Balance Volume (OBV) at 2,217,926,594 reflects cumulative buying pressure consistent with the positive close, it doesn't indicate strong conviction for an immediate breakout or breakdown. Overall, despite the positive daily performance, the market appears to be in a holding pattern, lacking strong directional catalysts as investors likely await further developments.",
-    "change_pct": 0.75,
+    "commentary": "The overall stock market posted a modest yet positive 0.60% gain today, reflecting generally constructive sentiment. From a technical standpoint, the Relative Strength Index (RSI) at 52.44 and the Money Flow Index (MFI) at 54.58 both sit comfortably in neutral territory, leaning slightly bullish without indicating overbought conditions. This suggests healthy momentum with sustained buying interest and capital inflows, but not at an unsustainable pace. The On-Balance Volume (OBV) figure of 2,306,441,890, while a cumulative measure, generally supports the upward trend by confirming that volume is backing the price action. Collectively, these indicators point to a market that is consolidating positive momentum with a healthy risk appetite, suggesting continued strength without immediate signs of overheating.",
+    "change_pct": 0.6,
     "technicalIndicators": {
       "rsi": [
-        [
-          1750464000000,
-          null
-        ],
         [
           1750550400000,
           null
@@ -747,13 +743,13 @@
         [
           1766016000000,
           48.62
+        ],
+        [
+          1766102400000,
+          52.44
         ]
       ],
       "mfi": [
-        [
-          1750464000000,
-          null
-        ],
         [
           1750550400000,
           null
@@ -1473,13 +1469,13 @@
         [
           1766016000000,
           47.52
+        ],
+        [
+          1766102400000,
+          54.58
         ]
       ],
       "obv": [
-        [
-          1750464000000,
-          null
-        ],
         [
           1750550400000,
           null
@@ -2199,6 +2195,10 @@
         [
           1766016000000,
           2217926594.0
+        ],
+        [
+          1766102400000,
+          2306441890.0
         ]
       ]
     },
@@ -2253,7 +2253,7 @@
       3.7,
       0.33,
       -0.57,
-      -0.78,
+      -0.19,
       null
     ]
   },
