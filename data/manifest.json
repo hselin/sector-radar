@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-21T21:07:53.137367Z",
+  "lastUpdated": "2025-12-23T21:14:01.685038Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,26 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a moderately positive session today, closing up 0.62%. Examining key technical indicators, the Relative Strength Index (RSI) at 52.44 and the Money Flow Index (MFI) at 54.58 both hover slightly above the neutral 50-mark. This suggests balanced momentum with positive money flow, without indicating an overbought or oversold market condition, implying the current upward movement is healthy rather than excessive. The On-Balance Volume (OBV) reading of 2,306,441,890, having increased with today's positive price action, indicates that the market's gains were accompanied by underlying buying pressure, lending conviction to the day's performance. Collectively, these figures paint a picture of constructive, albeit not exuberant, market sentiment, with today's rally showing support from both price momentum and participation.",
-    "change_pct": 0.62,
+    "commentary": "The broader stock market closed higher today, posting a modest gain of 0.45%. Key technical indicators suggest a constructive sentiment and building momentum. The Relative Strength Index (RSI) at 58.77 indicates positive momentum without being overextended into overbought territory, while the Money Flow Index (MFI) at 55.37 reinforces that capital is flowing into the market, signaling improving investor confidence. Furthermore, the robust On-Balance Volume (OBV) figure of 2,432,196,780, especially on an up day, confirms that the price appreciation was supported by significant buying interest, lending credibility and strength to the current upward trend. Overall, the market's ascent is backed by healthy technicals, pointing towards sustained positive sentiment and momentum.",
+    "change_pct": 0.45,
     "technicalIndicators": {
       "rsi": [
-        [
-          1750550400000,
-          null
-        ],
-        [
-          1750636800000,
-          58.8
-        ],
-        [
-          1750723200000,
-          63.43
-        ],
-        [
-          1750809600000,
-          63.65
-        ],
         [
           1750896000000,
           66.74
@@ -747,25 +731,25 @@
         [
           1766102400000,
           52.44
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1750550400000,
+          1766188800000,
           null
         ],
         [
-          1750636800000,
-          58.58
+          1766275200000,
+          null
         ],
         [
-          1750723200000,
-          58.79
+          1766361600000,
+          56.25
         ],
         [
-          1750809600000,
-          59.02
-        ],
+          1766448000000,
+          58.77
+        ]
+      ],
+      "mfi": [
         [
           1750896000000,
           67.33
@@ -1473,25 +1457,25 @@
         [
           1766102400000,
           54.58
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1750550400000,
+          1766188800000,
           null
         ],
         [
-          1750636800000,
-          1257371700.0
+          1766275200000,
+          null
         ],
         [
-          1750723200000,
-          1325107000.0
+          1766361600000,
+          55.17
         ],
         [
-          1750809600000,
-          1387221800.0
-        ],
+          1766448000000,
+          55.37
+        ]
+      ],
+      "obv": [
         [
           1750896000000,
           1465770200.0
@@ -2199,6 +2183,22 @@
         [
           1766102400000,
           2306441890.0
+        ],
+        [
+          1766188800000,
+          null
+        ],
+        [
+          1766275200000,
+          null
+        ],
+        [
+          1766361600000,
+          2375998590.0
+        ],
+        [
+          1766448000000,
+          2432196780.0
         ]
       ]
     },
@@ -2254,7 +2254,7 @@
       0.33,
       -0.57,
       -0.19,
-      null
+      1.1
     ]
   },
   "sectors": [

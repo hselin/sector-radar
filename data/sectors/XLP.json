@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies involved in the manufacturing and distribution of essential products like food, beverages, tobacco, household goods, and personal care items, which consumers purchase regularly regardless of economic conditions.",
-    "marketSizeUSD": "2.7T",
+    "description": "The Consumer Staples sector comprises companies that produce and distribute essential products and services that consumers need regularly, irrespective of economic cycles.",
+    "marketSizeUSD": "2.8T",
     "constituentCount": 37,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "WMT"
       },
       {
-        "name": "Procter & Gamble Company",
+        "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0433,
-  "change_pct": -0.54,
-  "insights": "The Consumer Staples sector concluded today's trading with a modest -0.54% decline. Technically, the RSI at 52.34 indicates a relatively neutral momentum, suggesting the sector is neither significantly overbought nor oversold following this movement. The MFI at 56.75, while above the neutral threshold, implies some underlying money flow but wasn't sufficient to counteract selling pressure. Crucially, the negative OBV of -320,713 highlights that net selling volume predominated throughout the day, providing strong validation for the slight price contraction.",
+  "market_weight": 0.0577,
+  "change_pct": -0.48,
+  "insights": "The Consumer Staples sector experienced a modest decline of -0.48% today, suggesting some mild profit-taking or rotation. Technical indicators present a nuanced picture: while the Relative Strength Index (RSI) at 42.41 indicates weakening price momentum and a neutral-to-bearish bias, the Money Flow Index (MFI) at 54.06, slightly above 50, implies that capital is still flowing into the sector, albeit modestly, potentially signaling a battle between price weakness and underlying interest. The deeply negative On-Balance Volume (OBV) value reinforces that cumulative selling volume has generally outweighed buying volume, aligning with the sector's daily dip and indicating prevailing bearish pressure from a volume perspective.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750550400000,
-        null
-      ],
-      [
-        1750636800000,
-        49.81
-      ],
-      [
-        1750723200000,
-        49.25
-      ],
-      [
-        1750809600000,
-        41.4
-      ],
       [
         1750896000000,
         40.95
@@ -747,25 +731,25 @@
       [
         1766102400000,
         52.34
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        50.39
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        50.15
+        1766361600000,
+        45.05
       ],
       [
-        1750809600000,
-        49.67
-      ],
+        1766448000000,
+        42.41
+      ]
+    ],
+    "mfi": [
       [
         1750896000000,
         50.45
@@ -1473,25 +1457,25 @@
       [
         1766102400000,
         56.75
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        9098400.0
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        -3482500.0
+        1766361600000,
+        59.86
       ],
       [
-        1750809600000,
-        -16362900.0
-      ],
+        1766448000000,
+        54.06
+      ]
+    ],
+    "obv": [
       [
         1750896000000,
         -30146100.0
@@ -2199,6 +2183,22 @@
       [
         1766102400000,
         -320713.0
+      ],
+      [
+        1766188800000,
+        null
+      ],
+      [
+        1766275200000,
+        null
+      ],
+      [
+        1766361600000,
+        -10599661.0
+      ],
+      [
+        1766448000000,
+        -17525487.0
       ]
     ]
   },
@@ -2254,6 +2254,6 @@
     -1.15,
     1.23,
     -0.83,
-    null
+    -1.6
   ]
 }

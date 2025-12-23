@@ -1,16 +1,16 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services GICS sector encompasses companies that provide telecommunication services, entertainment content, interactive media, and various communication infrastructure and platforms.",
-    "marketSizeUSD": "4.8T",
-    "constituentCount": 22,
+    "description": "The Communication Services GICS sector encompasses companies that provide telecommunication services, entertainment content, interactive media, and other communication-related businesses.",
+    "marketSizeUSD": "4.6T",
+    "constituentCount": 23,
     "topHoldings": [
       {
         "name": "Alphabet Inc.",
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms Inc.",
+        "name": "Meta Platforms, Inc.",
         "symbol": "META"
       },
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0769,
-  "change_pct": 0.06,
-  "insights": "The Communication Services sector experienced a largely flat session today, posting a marginal 0.06% gain. Despite this minimal movement, key technical indicators suggest a subtle underlying bullish bias. The RSI at 57.46 and MFI at 63.60 are both above their respective midlines, indicating mild positive price momentum and a net inflow of money into the sector, without signaling overbought conditions. The robust OBV of 324,251,617 confirms that even this slight upward price action was supported by positive net volume.",
+  "market_weight": 0.0948,
+  "change_pct": 0.65,
+  "insights": "The Communication Services sector experienced a modest gain of 0.65% today, reflecting positive investor sentiment. This upward movement is supported by the technical indicators: the Relative Strength Index (RSI) at 62.21 indicates strong bullish momentum without yet signaling an overbought condition, while the Money Flow Index (MFI) at 63.00 suggests significant capital inflow into the sector. Furthermore, the On-Balance Volume (OBV) of 332,083,515, rising in tandem with the price, confirms that today's advance is backed by healthy trading volume, lending credibility to the daily price increase.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750550400000,
-        null
-      ],
-      [
-        1750636800000,
-        59.84
-      ],
-      [
-        1750723200000,
-        64.61
-      ],
-      [
-        1750809600000,
-        64.49
-      ],
       [
         1750896000000,
         68.44
@@ -747,25 +731,25 @@
       [
         1766102400000,
         57.46
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        60.25
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        60.59
+        1766361600000,
+        58.19
       ],
       [
-        1750809600000,
-        60.66
-      ],
+        1766448000000,
+        62.21
+      ]
+    ],
+    "mfi": [
       [
         1750896000000,
         60.57
@@ -1473,25 +1457,25 @@
       [
         1766102400000,
         63.6
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        251291500.0
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        255977000.0
+        1766361600000,
+        63.57
       ],
       [
-        1750809600000,
-        251575200.0
-      ],
+        1766448000000,
+        63.0
+      ]
+    ],
+    "obv": [
       [
         1750896000000,
         257951000.0
@@ -2199,6 +2183,22 @@
       [
         1766102400000,
         324251617.0
+      ],
+      [
+        1766188800000,
+        null
+      ],
+      [
+        1766275200000,
+        null
+      ],
+      [
+        1766361600000,
+        328678740.0
+      ],
+      [
+        1766448000000,
+        332083515.0
       ]
     ]
   },
@@ -2254,6 +2254,6 @@
     1.51,
     -0.5,
     -0.03,
-    null
+    0.76
   ]
 }

@@ -1,45 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that manufacture and distribute capital goods, provide transportation services, and offer commercial services and supplies to businesses and consumers.",
-    "marketSizeUSD": "3.9T",
+    "description": "The Industrials sector includes companies that produce capital goods, provide commercial services and supplies, and offer transportation services.",
+    "marketSizeUSD": "3.8T",
     "constituentCount": 75,
     "topHoldings": [
       {
-        "name": "Caterpillar Inc.",
-        "symbol": "CAT"
+        "name": "Honeywell International Inc.",
+        "symbol": "HON"
       },
       {
-        "name": "General Electric Company",
+        "name": "GE Aerospace",
         "symbol": "GE"
       },
       {
-        "name": "Union Pacific Corporation",
-        "symbol": "UNP"
+        "name": "Caterpillar Inc.",
+        "symbol": "CAT"
       }
     ]
   },
-  "market_weight": 0.0625,
-  "change_pct": 0.88,
-  "insights": "The Industrials sector posted a positive session today, climbing 0.88%. This moderate gain is supported by its key technical indicators: the Relative Strength Index (RSI) at 55.36 and the Money Flow Index (MFI) at 59.28 both suggest healthy, strengthening momentum with increasing buying pressure, yet remain well below overbought thresholds, indicating room for further movement. The On-Balance Volume (OBV) at 112,619,783, which likely increased today given the positive price action, further confirms that the sector's advance was accompanied by net buying volume, reinforcing the validity of today's upward price movement.",
+  "market_weight": 0.0784,
+  "change_pct": -0.04,
+  "insights": "The Industrials sector closed with a marginal decline of -0.04% today, indicating a largely flat trading session with neither significant buying nor selling pressure dominating. Despite this fractional dip, key technical indicators suggest underlying strength: the Relative Strength Index (RSI) at 58.32 and Money Flow Index (MFI) at 56.64 both reside in moderately bullish territory (above 50), signaling sustained buying momentum and positive money flow into the sector without being overbought. The substantial On-Balance Volume (OBV) of 112,723,939 further suggests consistent participation and volume support, implying that today's minor price weakness does not reflect a significant shift in the broader positive sentiment or aggressive distribution.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750550400000,
-        null
-      ],
-      [
-        1750636800000,
-        59.94
-      ],
-      [
-        1750723200000,
-        63.95
-      ],
-      [
-        1750809600000,
-        57.35
-      ],
       [
         1750896000000,
         62.44
@@ -747,25 +731,25 @@
       [
         1766102400000,
         55.36
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        32.89
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        33.16
+        1766361600000,
+        58.58
       ],
       [
-        1750809600000,
-        28.5
-      ],
+        1766448000000,
+        58.32
+      ]
+    ],
+    "mfi": [
       [
         1750896000000,
         34.57
@@ -1473,25 +1457,25 @@
       [
         1766102400000,
         59.28
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        -16363900.0
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        -4845700.0
+        1766361600000,
+        57.9
       ],
       [
-        1750809600000,
-        -14597300.0
-      ],
+        1766448000000,
+        56.64
+      ]
+    ],
+    "obv": [
       [
         1750896000000,
         -4869000.0
@@ -2199,6 +2183,22 @@
       [
         1766102400000,
         112619783.0
+      ],
+      [
+        1766188800000,
+        null
+      ],
+      [
+        1766275200000,
+        null
+      ],
+      [
+        1766361600000,
+        117688242.0
+      ],
+      [
+        1766448000000,
+        112723939.0
       ]
     ]
   },
@@ -2254,6 +2254,6 @@
     0.57,
     1.4,
     -0.56,
-    null
+    0.73
   ]
 }

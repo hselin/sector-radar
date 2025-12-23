@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector encompasses companies primarily engaged in the ownership, development, and management of real estate, including Real Estate Investment Trusts (REITs).",
-    "marketSizeUSD": "1.4T",
+    "description": "The Real Estate sector encompasses companies that own, develop, and manage real estate, including Equity Real Estate Investment Trusts (REITs) and real estate management and development firms.",
+    "marketSizeUSD": "1.6T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -10,36 +10,20 @@
         "symbol": "PLD"
       },
       {
-        "name": "American Tower Corporation",
-        "symbol": "AMT"
-      },
-      {
         "name": "Equinix, Inc.",
         "symbol": "EQIX"
+      },
+      {
+        "name": "American Tower Corporation",
+        "symbol": "AMT"
       }
     ]
   },
-  "market_weight": 0.0224,
-  "change_pct": -0.39,
-  "insights": "The Real Estate sector experienced a slight downturn today, closing down 0.39%. This modest decline is corroborated by its key technical indicators: the Relative Strength Index (RSI) at 39.96 indicates bearish momentum, hovering below the neutral 50-mark but not yet in oversold territory. Similarly, the Money Flow Index (MFI) at 45.31 also points to weakening buying pressure, as money generally flows out of the sector. Finally, the On-Balance Volume (OBV) at 19,684,743, while a cumulative figure, suggests that today's slight price decline was accompanied by corresponding selling volume, reinforcing the modest bearish sentiment across the sector.",
+  "market_weight": 0.033,
+  "change_pct": -0.02,
+  "insights": "The Real Estate sector saw a largely flat performance today, declining a marginal -0.02%. Despite this minimal price movement, key technical indicators suggest an underlying lack of conviction. The Relative Strength Index (RSI) at 37.99 and the Money Flow Index (MFI) at 46.75 are both below their neutral 50-levels, indicating weakening momentum and a slight net outflow of money, respectively. This suggests that while the price action was nearly static, there's an absence of strong buying interest, with the On-Balance Volume (OBV) reflecting this subdued, non-committal trading activity rather than any significant accumulation or distribution for the day.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750550400000,
-        null
-      ],
-      [
-        1750636800000,
-        56.81
-      ],
-      [
-        1750723200000,
-        59.74
-      ],
-      [
-        1750809600000,
-        43.4
-      ],
       [
         1750896000000,
         40.39
@@ -747,25 +731,25 @@
       [
         1766102400000,
         39.96
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        62.04
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        61.57
+        1766361600000,
+        38.13
       ],
       [
-        1750809600000,
-        51.7
-      ],
+        1766448000000,
+        37.99
+      ]
+    ],
+    "mfi": [
       [
         1750896000000,
         40.65
@@ -1473,25 +1457,25 @@
       [
         1766102400000,
         45.31
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        84722000.0
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        90014600.0
+        1766361600000,
+        44.78
       ],
       [
-        1750809600000,
-        79054500.0
-      ],
+        1766448000000,
+        46.75
+      ]
+    ],
+    "obv": [
       [
         1750896000000,
         65030800.0
@@ -2199,6 +2183,22 @@
       [
         1766102400000,
         19684743.0
+      ],
+      [
+        1766188800000,
+        null
+      ],
+      [
+        1766275200000,
+        null
+      ],
+      [
+        1766361600000,
+        12990914.0
+      ],
+      [
+        1766448000000,
+        4678749.0
       ]
     ]
   },
@@ -2254,6 +2254,6 @@
     -1.62,
     -0.63,
     -1.01,
-    null
+    -0.35
   ]
 }

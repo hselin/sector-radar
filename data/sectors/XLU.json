@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector comprises companies engaged in the generation, transmission, and distribution of electricity, natural gas, and water, as well as diversified public utility services.",
-    "marketSizeUSD": "1.7T",
-    "constituentCount": 30,
+    "description": "The Utilities sector encompasses companies providing essential services such as electricity, natural gas, water, and sewage to residential, commercial, and industrial customers.",
+    "marketSizeUSD": "1.1T",
+    "constituentCount": 29,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0272,
-  "change_pct": -1.33,
-  "insights": "The Utilities sector experienced a notable decline of -1.33% today, reflecting significant selling pressure. This downward movement is strongly corroborated by its technical indicators: the Relative Strength Index (RSI) at an extremely low 8.89 indicates severely oversold conditions, suggesting the sector has been heavily sold off in a short period. The Money Flow Index (MFI) at 28.37 further reinforces this, signaling that money is actively flowing out of the sector. While the On-Balance Volume (OBV) at 267,882,194 is a cumulative measure, its likely decrease today, in conjunction with the price drop, confirms that selling volume outpaced buying volume, reinforcing the day's strong bearish momentum.",
+  "market_weight": 0.0227,
+  "change_pct": 0.31,
+  "insights": "Today, the Utilities sector posted a modest gain of 0.31%, indicating a relatively stable or slightly positive session. However, the sector's key technical indicators suggest a significant underlying condition of overselling: the Relative Strength Index (RSI) at an extremely low 9.35 signals that the sector is heavily oversold, implying recent aggressive selling pressure and potentially setting the stage for a near-term bounce or reversal. The Money Flow Index (MFI) at 34.21 further indicates a net outflow of funds, corroborating the selling pressure, though not as acutely oversold as the RSI. While the On-Balance Volume (OBV) stands at 263,492,891, its current level, combined with the depressed oscillators, implies that despite today's slight uptick, the sector has faced considerable bearish momentum in the recent past, making it a sector to watch for potential value opportunities if buying interest returns.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750550400000,
-        null
-      ],
-      [
-        1750636800000,
-        53.07
-      ],
-      [
-        1750723200000,
-        55.3
-      ],
-      [
-        1750809600000,
-        47.68
-      ],
       [
         1750896000000,
         52.06
@@ -747,25 +731,25 @@
       [
         1766102400000,
         8.89
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        47.6
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        46.33
+        1766361600000,
+        8.84
       ],
       [
-        1750809600000,
-        47.2
-      ],
+        1766448000000,
+        9.35
+      ]
+    ],
+    "mfi": [
       [
         1750896000000,
         53.02
@@ -1473,25 +1457,25 @@
       [
         1766102400000,
         28.37
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        176859200.0
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        187054000.0
+        1766361600000,
+        28.4
       ],
       [
-        1750809600000,
-        173668100.0
-      ],
+        1766448000000,
+        34.21
+      ]
+    ],
+    "obv": [
       [
         1750896000000,
         183041200.0
@@ -2199,6 +2183,22 @@
       [
         1766102400000,
         267882194.0
+      ],
+      [
+        1766188800000,
+        null
+      ],
+      [
+        1766275200000,
+        null
+      ],
+      [
+        1766361600000,
+        250695123.0
+      ],
+      [
+        1766448000000,
+        263492891.0
       ]
     ]
   },
@@ -2254,6 +2254,6 @@
     -52.23,
     -1.04,
     -0.53,
-    null
+    -0.03
   ]
 }

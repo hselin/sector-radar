@@ -1,7 +1,7 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector comprises companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, paper, and forest products.",
+    "description": "The Materials sector comprises companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, and mining.",
     "marketSizeUSD": "1.7T",
     "constituentCount": 28,
     "topHoldings": [
@@ -10,36 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co.",
+        "name": "Sherwin-Williams Co",
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc.",
+        "name": "Ecolab Inc",
         "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0272,
-  "change_pct": 0.4,
-  "insights": "Despite a modest 0.40% gain today, the Materials sector appears to be under significant recent pressure. The Relative Strength Index (RSI) at an extremely oversold 14.05 highlights a strong sell-off leading up to today, potentially signaling an upcoming reversal or a short-term bounce from deeply depressed levels. While the Money Flow Index (MFI) at 52.84 indicates a more neutral money flow for the day itself, the deeply negative On-Balance Volume (OBV) of -45,723,404 reinforces a sustained pattern of distribution and selling pressure over a longer period, suggesting that today's small positive move occurred within an overarching bearish technical backdrop.",
+  "market_weight": 0.0351,
+  "change_pct": 0.19,
+  "insights": "The Materials sector posted a modest gain today, closing up 0.19%. However, a closer look at key technicals reveals underlying complexities: the extremely low Relative Strength Index (RSI) at 15.38 indicates the sector is deeply oversold, suggesting significant downward pressure leading into today's session and potential for a technical rebound. While the Money Flow Index (MFI) at 59.85 points to moderate positive money flow entering the sector, the On-Balance Volume (OBV) sitting at a deeply negative -28684730 reinforces a persistent trend of selling pressure over time, suggesting that despite today's slight uptick, underlying buying conviction remains cautious and the modest gain may lack strong foundational support.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750550400000,
-        null
-      ],
-      [
-        1750636800000,
-        50.81
-      ],
-      [
-        1750723200000,
-        54.67
-      ],
-      [
-        1750809600000,
-        49.76
-      ],
       [
         1750896000000,
         54.76
@@ -747,25 +731,25 @@
       [
         1766102400000,
         14.05
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        42.77
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        41.09
+        1766361600000,
+        15.08
       ],
       [
-        1750809600000,
-        33.26
-      ],
+        1766448000000,
+        15.38
+      ]
+    ],
+    "mfi": [
       [
         1750896000000,
         41.54
@@ -1473,25 +1457,25 @@
       [
         1766102400000,
         52.84
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        -31604700.0
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        -27220600.0
+        1766361600000,
+        60.81
       ],
       [
-        1750809600000,
-        -31592600.0
-      ],
+        1766448000000,
+        59.85
+      ]
+    ],
+    "obv": [
       [
         1750896000000,
         -26338300.0
@@ -2199,6 +2183,22 @@
       [
         1766102400000,
         -45723404.0
+      ],
+      [
+        1766188800000,
+        null
+      ],
+      [
+        1766275200000,
+        null
+      ],
+      [
+        1766361600000,
+        -36779973.0
+      ],
+      [
+        1766448000000,
+        -28684730.0
       ]
     ]
   },
@@ -2254,6 +2254,6 @@
     -50.68,
     2.37,
     0.47,
-    null
+    0.87
   ]
 }

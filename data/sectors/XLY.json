@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector includes companies that produce non-essential goods and services, demand for which is highly sensitive to the business cycle and consumer income.",
-    "marketSizeUSD": "7.0T",
-    "constituentCount": 56,
+    "description": "The Consumer Discretionary sector encompasses companies providing non-essential goods and services, often purchased when consumers have disposable income.",
+    "marketSizeUSD": "5.5T",
+    "constituentCount": 60,
     "topHoldings": [
       {
         "name": "Amazon.com, Inc.",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1122,
-  "change_pct": -0.42,
-  "insights": "The Consumer Discretionary sector experienced a modest decline of -0.42% today. This performance unfolds against a backdrop of deeply oversold conditions, with the Relative Strength Index (RSI) at an extremely low 15.73, suggesting significant and persistent selling pressure that may precede a technical bounce or indicate continued weakness. Supporting this bearish sentiment, the Money Flow Index (MFI) at 44.78 signals a net outflow of capital from the sector. While the On-Balance Volume (OBV) stands at a significant 65,773,481, the immediate technical signals from the extremely low RSI and negative money flow largely explain today's fractional downturn, reflecting a sector under considerable selling pressure.",
+  "market_weight": 0.1134,
+  "change_pct": -0.11,
+  "insights": "The Consumer Discretionary sector experienced a marginal decrease of -0.11% today, a relatively minor daily pullback. However, its key technical indicators present a more significant underlying picture. The Relative Strength Index (RSI) at an extremely low 16.25 signals the sector is deeply oversold, well below the typical 30 threshold, which often precedes a short-term bounce or reversal, suggesting today's minor dip might be a continuation of a longer downtrend. The Money Flow Index (MFI) at 44.65 supports the negative performance, indicating more capital is flowing out of the sector than into it, though not at extreme sell-off levels. The On-Balance Volume (OBV) stands at 63,984,300, reflecting cumulative buying and selling pressure, which today leaned slightly towards sellers given the negative price action.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750550400000,
-        null
-      ],
-      [
-        1750636800000,
-        55.52
-      ],
-      [
-        1750723200000,
-        57.35
-      ],
-      [
-        1750809600000,
-        52.39
-      ],
       [
         1750896000000,
         55.58
@@ -747,25 +731,25 @@
       [
         1766102400000,
         15.73
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        44.62
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        44.99
+        1766361600000,
+        16.29
       ],
       [
-        1750809600000,
-        44.37
-      ],
+        1766448000000,
+        16.25
+      ]
+    ],
+    "mfi": [
       [
         1750896000000,
         52.3
@@ -1473,25 +1457,25 @@
       [
         1766102400000,
         44.78
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        -5168400.0
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        -842400.0
+        1766361600000,
+        52.15
       ],
       [
-        1750809600000,
-        -5493400.0
-      ],
+        1766448000000,
+        44.65
+      ]
+    ],
+    "obv": [
       [
         1750896000000,
         -1721900.0
@@ -2199,6 +2183,22 @@
       [
         1766102400000,
         65773481.0
+      ],
+      [
+        1766188800000,
+        null
+      ],
+      [
+        1766275200000,
+        null
+      ],
+      [
+        1766361600000,
+        73612712.0
+      ],
+      [
+        1766448000000,
+        63984300.0
       ]
     ]
   },
@@ -2254,6 +2254,6 @@
     -49.36,
     0.78,
     0.96,
-    null
+    0.28
   ]
 }

@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector includes companies that provide medical services, manufacture pharmaceuticals, medical equipment, and provide health care facilities and insurance.",
-    "marketSizeUSD": "6.2T",
-    "constituentCount": 64,
+    "description": "The Health Care sector comprises companies involved in providing medical services, manufacturing medical equipment and pharmaceuticals, and developing biotechnology products.",
+    "marketSizeUSD": "4.5T",
+    "constituentCount": 65,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0994,
-  "change_pct": 0.68,
-  "insights": "The Health Care sector posted a modest gain of 0.68% today, indicating a positive but controlled market sentiment. Its key technical indicators suggest a healthy underlying momentum: the Relative Strength Index (RSI) at 57.46 and the Money Flow Index (MFI) at 51.72 both sit comfortably above their respective midpoints. This points to sustained buying interest and positive money flow within the sector without approaching overbought conditions. The positive price movement, coupled with an implied increase in On-Balance Volume (OBV), suggests the sector's current upward trajectory is supported by consistent buying pressure and could be sustainable in the near term.",
+  "market_weight": 0.0928,
+  "change_pct": -0.19,
+  "insights": "The Health Care sector experienced a marginal decline today, closing down -0.19%. Despite this slight pull-back, key technical indicators suggest underlying stability rather than a strong bearish shift: its Relative Strength Index (RSI) at 57.23 and Money Flow Index (MFI) at 53.00 both signal neutral to slightly positive momentum and balanced money flow, well within healthy ranges without indicating overbought or oversold conditions. The robust On-Balance Volume (OBV) at 57,772,500, a measure of cumulative buying pressure, further indicates sustained investor interest, suggesting today's modest dip was likely a minor consolidation rather than the start of a significant downtrend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750550400000,
-        null
-      ],
-      [
-        1750636800000,
-        42.25
-      ],
-      [
-        1750723200000,
-        48.85
-      ],
-      [
-        1750809600000,
-        49.31
-      ],
       [
         1750896000000,
         50.59
@@ -747,25 +731,25 @@
       [
         1766102400000,
         57.46
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        42.97
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        41.9
+        1766361600000,
+        58.41
       ],
       [
-        1750809600000,
-        42.63
-      ],
+        1766448000000,
+        57.23
+      ]
+    ],
+    "mfi": [
       [
         1750896000000,
         51.07
@@ -1473,25 +1457,25 @@
       [
         1766102400000,
         51.72
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        -136852500.0
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        -125579600.0
+        1766361600000,
+        54.51
       ],
       [
-        1750809600000,
-        -113583200.0
-      ],
+        1766448000000,
+        53.0
+      ]
+    ],
+    "obv": [
       [
         1750896000000,
         -100405500.0
@@ -2199,6 +2183,22 @@
       [
         1766102400000,
         58090598.0
+      ],
+      [
+        1766188800000,
+        null
+      ],
+      [
+        1766275200000,
+        null
+      ],
+      [
+        1766361600000,
+        64840741.0
+      ],
+      [
+        1766448000000,
+        57772500.0
       ]
     ]
   },
@@ -2254,6 +2254,6 @@
     -2.78,
     0.51,
     0.57,
-    null
+    0.03
   ]
 }

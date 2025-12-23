@@ -1,45 +1,29 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector includes companies that primarily develop, produce, or market software, hardware, semiconductors, IT services, and communications equipment.",
-    "marketSizeUSD": "14.0T",
+    "description": "The Information Technology sector comprises companies primarily involved in the creation and distribution of software, hardware, semiconductors, and the provision of IT services.",
+    "marketSizeUSD": "14.5T",
     "constituentCount": 68,
     "topHoldings": [
+      {
+        "name": "Microsoft Corp.",
+        "symbol": "MSFT"
+      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
       },
       {
-        "name": "Microsoft Corporation",
-        "symbol": "MSFT"
-      },
-      {
-        "name": "NVIDIA Corporation",
+        "name": "NVIDIA Corp.",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.2244,
-  "change_pct": 2.16,
-  "insights": "The Information Technology sector posted a solid 2.16% gain today, signaling strong daily buying interest. However, key technical indicators present a nuanced view: the Relative Strength Index (RSI) at 16.38 indicates the sector remains significantly oversold, suggesting today's rally could be a technical bounce from prior declines. Money Flow Index (MFI) at 47.19 is near neutral, showing balanced buying and selling pressure recently, while the On-Balance Volume (OBV) at 391,192,888 reflects a substantial accumulation of volume supporting price movements, further highlighting the sector's daily activity.",
+  "market_weight": 0.299,
+  "change_pct": 0.55,
+  "insights": "The Information Technology sector posted a modest 0.55% gain today. This uptick is particularly notable given the sector's Relative Strength Index (RSI) stands at an extremely low 17.63, indicating deeply oversold conditions and suggesting potential for a short-term bounce after recent declines. However, the Money Flow Index (MFI) at 51.42 hovers near neutral, implying that today's positive move wasn't driven by exceptionally strong, volume-weighted money inflows. The On-Balance Volume (OBV) of 406,912,016 would have incrementally confirmed the day's upward price action.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1750550400000,
-        null
-      ],
-      [
-        1750636800000,
-        65.68
-      ],
-      [
-        1750723200000,
-        70.58
-      ],
-      [
-        1750809600000,
-        72.62
-      ],
       [
         1750896000000,
         74.19
@@ -747,25 +731,25 @@
       [
         1766102400000,
         16.38
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        71.69
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        71.27
+        1766361600000,
+        16.87
       ],
       [
-        1750809600000,
-        71.06
-      ],
+        1766448000000,
+        17.63
+      ]
+    ],
+    "mfi": [
       [
         1750896000000,
         70.34
@@ -1473,25 +1457,25 @@
       [
         1766102400000,
         47.19
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1750550400000,
+        1766188800000,
         null
       ],
       [
-        1750636800000,
-        182455700.0
+        1766275200000,
+        null
       ],
       [
-        1750723200000,
-        188120400.0
+        1766361600000,
+        44.88
       ],
       [
-        1750809600000,
-        192734700.0
-      ],
+        1766448000000,
+        51.42
+      ]
+    ],
+    "obv": [
       [
         1750896000000,
         198378900.0
@@ -2199,6 +2183,22 @@
       [
         1766102400000,
         391192888.0
+      ],
+      [
+        1766188800000,
+        null
+      ],
+      [
+        1766275200000,
+        null
+      ],
+      [
+        1766361600000,
+        399964710.0
+      ],
+      [
+        1766448000000,
+        406912016.0
       ]
     ]
   },
@@ -2254,6 +2254,6 @@
     -48.78,
     -1.99,
     0.63,
-    null
+    0.93
   ]
 }
