@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-25T21:08:06.680395Z",
+  "lastUpdated": "2025-12-26T21:12:50.512293Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,18 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market closed with a modest gain today, advancing 0.35%. This positive movement is supported by underlying technical indicators, suggesting a developing positive momentum and growing investor interest. The Relative Strength Index (RSI) at 60.69, while not yet in overbought territory, indicates increasing buying pressure and a generally bullish sentiment. Similarly, the Money Flow Index (MFI) at 54.59 reinforces this, showing positive money flow into the market. Furthermore, the substantial On-Balance Volume (OBV) figure, when considered in the context of the day's gain, likely reflects volume supporting the upward price action, lending credibility to the move. Collectively, these figures point to a market with positive sentiment and building momentum, though not exhibiting signs of extreme exuberance yet.",
-    "change_pct": 0.35,
+    "commentary": "The broader market experienced a largely flat session today, registering a negligible decline of -0.02%, indicating a lack of strong directional conviction. Examining key technical indicators, the Relative Strength Index (RSI) at 60.52 suggests the market maintains bullish momentum without yet entering overbought territory, implying sustained buying interest. The Money Flow Index (MFI) at 53.83 reinforces this, showing a slightly positive money flow into assets, hinting at continued, albeit moderate, capital allocation. On-Balance Volume (OBV) at 2432557119, a measure of cumulative volume flow, when combined with the day's flat price action, suggests that today's marginal dip was not accompanied by significant selling pressure or capitulation. Collectively, these figures point to a market in a relatively stable, slightly bullish phase, with underlying strength persisting despite the minimal daily price change.",
+    "change_pct": -0.02,
     "technicalIndicators": {
       "rsi": [
-        [
-          1750982400000,
-          68.58
-        ],
-        [
-          1751068800000,
-          null
-        ],
         [
           1751155200000,
           null
@@ -747,17 +739,17 @@
         [
           1766534400000,
           60.69
+        ],
+        [
+          1766620800000,
+          null
+        ],
+        [
+          1766707200000,
+          60.52
         ]
       ],
       "mfi": [
-        [
-          1750982400000,
-          68.0
-        ],
-        [
-          1751068800000,
-          null
-        ],
         [
           1751155200000,
           null
@@ -1473,17 +1465,17 @@
         [
           1766534400000,
           54.59
+        ],
+        [
+          1766620800000,
+          null
+        ],
+        [
+          1766707200000,
+          53.83
         ]
       ],
       "obv": [
-        [
-          1750982400000,
-          1552028600.0
-        ],
-        [
-          1751068800000,
-          null
-        ],
         [
           1751155200000,
           null
@@ -2199,6 +2191,14 @@
         [
           1766534400000,
           2471195040.0
+        ],
+        [
+          1766620800000,
+          null
+        ],
+        [
+          1766707200000,
+          2432557119.0
         ]
       ]
     },
@@ -2254,7 +2254,7 @@
       0.33,
       -0.57,
       -0.19,
-      1.46
+      1.44
     ]
   },
   "sectors": [
