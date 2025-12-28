@@ -1,26 +1,26 @@
 {
-  "lastUpdated": "2025-12-27T21:07:23.728049Z",
+  "lastUpdated": "2025-12-28T21:08:25.407642Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "48.5T",
+      "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "46.5T",
       "constituentCount": 503,
       "topHoldings": [
-        {
-          "name": "Microsoft Corporation",
-          "symbol": "MSFT"
-        },
         {
           "name": "Apple Inc.",
           "symbol": "AAPL"
         },
         {
-          "name": "NVIDIA Corporation",
+          "name": "Microsoft Corp.",
+          "symbol": "MSFT"
+        },
+        {
+          "name": "NVIDIA Corp.",
           "symbol": "NVDA"
         }
       ]
     },
-    "commentary": "The overall stock market experienced an exceptionally quiet session today, closing down a marginal 0.01%, indicating virtually no net movement. Despite this flat price action, key technical indicators suggest a nuanced market sentiment and momentum. The Relative Strength Index (RSI) at 60.52 and Money Flow Index (MFI) at 53.83 both hover above their respective midpoints, suggesting a mild bullish bias and that positive money flow is slightly outweighing selling pressure. Furthermore, the substantial On-Balance Volume (OBV) figure of 2,432,557,119 could imply an underlying accumulation trend, where volume on up days is potentially outperforming volume on down days. This combination hints that while the market's surface movement was negligible, there may be some latent strength and positive sentiment building beneath the surface.",
+    "commentary": "The overall stock market experienced a largely flat trading session today, registering a marginal decline of just -0.01%. Looking at key technical indicators, the Relative Strength Index (RSI) at 60.52 suggests the market is neither overbought nor oversold, but rather resides in the upper half of its neutral range, indicating underlying positive momentum without being excessive. Similarly, the Money Flow Index (MFI) at 53.83, also near its neutral 50-mark, points to relatively balanced money flow, with no significant divergence in buying versus selling volume. While the absolute On-Balance Volume (OBV) figure of 2432557119 reflects accumulated volume, its context within a near-flat day, combined with the other indicators, implies that there isn't strong conviction or significant directional institutional flow currently driving the market. Collectively, these indicators suggest a market in a phase of consolidation or indecision, characterized by a lack of strong directional conviction despite a subtle underlying positive bias from the RSI.",
     "change_pct": -0.01,
     "technicalIndicators": {
       "rsi": [
