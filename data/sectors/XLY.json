@@ -1,41 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses companies providing non-essential goods and services, often purchased when consumers have disposable income.",
-    "marketSizeUSD": "5.5T",
-    "constituentCount": 60,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose sales are highly sensitive to economic cycles and consumer disposable income.",
+    "marketSizeUSD": "6.5T",
+    "constituentCount": 55,
     "topHoldings": [
       {
-        "name": "Amazon.com, Inc.",
+        "name": "Amazon.com Inc",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla, Inc.",
+        "name": "Tesla Inc",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot, Inc.",
+        "name": "The Home Depot Inc",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1134,
-  "change_pct": -0.45,
-  "insights": "The Consumer Discretionary sector experienced a modest decline of -0.45% today, reflecting some negative sentiment. This daily movement has driven its Relative Strength Index (RSI) to a deeply oversold 16.65, suggesting that recent selling pressure might be overextended and could precede a technical rebound. The Money Flow Index (MFI) at 49.64 indicates a slight outflow of capital, but it remains close to the neutral 50 level, implying the selling pressure isn't overwhelmingly supported by significant money flow. Concurrently, the On-Balance Volume (OBV) at 62,160,730, in context with the price drop, suggests that selling volume likely exceeded buying volume for the day, confirming the session's bearish sentiment, albeit the extreme RSI hints at potential near-term exhaustion of sellers.",
+  "market_weight": 0.1282,
+  "change_pct": -0.97,
+  "insights": "The Consumer Discretionary sector experienced a challenging day, declining by -0.97%. The Relative Strength Index (RSI) at 16.30 indicates the sector is significantly oversold, reflecting intense selling pressure that has pushed prices into extreme territory and potentially signaling a technical rebound could be imminent. While the Money Flow Index (MFI) at 49.83 hovers near a neutral level, it suggests there isn't strong money inflow to counteract the selling pressure seen in the price action. The On-Balance Volume (OBV) at 56,456,150, when observed in conjunction with the price decrease, implies that trading volume largely accompanied the selling, reinforcing the bearish sentiment and the deeply oversold technical condition indicated by the RSI.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751155200000,
-        null
-      ],
-      [
-        1751241600000,
-        58.19
-      ],
-      [
-        1751328000000,
-        59.54
-      ],
       [
         1751414400000,
         62.04
@@ -747,21 +735,21 @@
       [
         1766707200000,
         16.65
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        50.56
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        41.4
-      ],
+        1766966400000,
+        16.3
+      ]
+    ],
+    "mfi": [
       [
         1751414400000,
         49.61
@@ -1473,21 +1461,21 @@
       [
         1766707200000,
         49.64
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        -772600.0
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        5770100.0
-      ],
+        1766966400000,
+        49.83
+      ]
+    ],
+    "obv": [
       [
         1751414400000,
         11988200.0
@@ -2199,6 +2187,18 @@
       [
         1766707200000,
         62160730.0
+      ],
+      [
+        1766793600000,
+        null
+      ],
+      [
+        1766880000000,
+        null
+      ],
+      [
+        1766966400000,
+        56456150.0
       ]
     ]
   },

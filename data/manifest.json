@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-28T21:08:25.407642Z",
+  "lastUpdated": "2025-12-29T21:17:50.701243Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a largely flat trading session today, registering a marginal decline of just -0.01%. Looking at key technical indicators, the Relative Strength Index (RSI) at 60.52 suggests the market is neither overbought nor oversold, but rather resides in the upper half of its neutral range, indicating underlying positive momentum without being excessive. Similarly, the Money Flow Index (MFI) at 53.83, also near its neutral 50-mark, points to relatively balanced money flow, with no significant divergence in buying versus selling volume. While the absolute On-Balance Volume (OBV) figure of 2432557119 reflects accumulated volume, its context within a near-flat day, combined with the other indicators, implies that there isn't strong conviction or significant directional institutional flow currently driving the market. Collectively, these indicators suggest a market in a phase of consolidation or indecision, characterized by a lack of strong directional conviction despite a subtle underlying positive bias from the RSI.",
-    "change_pct": -0.01,
+    "commentary": "The overall stock market experienced a modest retreat today, declining by 0.35%, suggesting some light profit-taking or minor bearish pressure. Despite this daily dip, key technical indicators reveal a more nuanced picture of underlying sentiment and momentum. The Relative Strength Index (RSI) at 57.49 sits in a healthy, bullish range, indicating that while there is positive momentum, the market is not yet overbought. Similarly, the Money Flow Index (MFI) at 53.14 suggests money is still marginally flowing into the market, albeit without strong conviction. While On-Balance Volume (OBV) provides a cumulative measure of buying and selling pressure, without its recent trend, the collective message from RSI and MFI suggests that despite today's slight decline, the broader market sentiment remains cautiously optimistic with underlying momentum still leaning positive.",
+    "change_pct": -0.35,
     "technicalIndicators": {
       "rsi": [
-        [
-          1751155200000,
-          null
-        ],
-        [
-          1751241600000,
-          70.29
-        ],
-        [
-          1751328000000,
-          70.01
-        ],
         [
           1751414400000,
           71.7
@@ -747,21 +735,21 @@
         [
           1766707200000,
           60.52
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1751155200000,
+          1766793600000,
           null
         ],
         [
-          1751241600000,
-          69.22
+          1766880000000,
+          null
         ],
         [
-          1751328000000,
-          62.9
-        ],
+          1766966400000,
+          57.49
+        ]
+      ],
+      "mfi": [
         [
           1751414400000,
           62.73
@@ -1473,21 +1461,21 @@
         [
           1766707200000,
           53.83
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1751155200000,
+          1766793600000,
           null
         ],
         [
-          1751241600000,
-          1644531100.0
+          1766880000000,
+          null
         ],
         [
-          1751328000000,
-          1574501000.0
-        ],
+          1766966400000,
+          53.14
+        ]
+      ],
+      "obv": [
         [
           1751414400000,
           1641011400.0
@@ -2199,6 +2187,18 @@
         [
           1766707200000,
           2432557119.0
+        ],
+        [
+          1766793600000,
+          null
+        ],
+        [
+          1766880000000,
+          null
+        ],
+        [
+          1766966400000,
+          2370849400.0
         ]
       ]
     },

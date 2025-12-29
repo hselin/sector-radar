@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises companies primarily involved in the creation and distribution of software, hardware, semiconductors, and the provision of IT services.",
-    "marketSizeUSD": "14.5T",
-    "constituentCount": 68,
+    "description": "The Information Technology sector includes companies that develop, produce, and market technology products and services, such as software, IT services, semiconductors, and technology hardware & equipment.",
+    "marketSizeUSD": "14.8T",
+    "constituentCount": 67,
     "topHoldings": [
-      {
-        "name": "Microsoft Corp.",
-        "symbol": "MSFT"
-      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
+      },
+      {
+        "name": "Microsoft Corp.",
+        "symbol": "MSFT"
       },
       {
         "name": "NVIDIA Corp.",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.299,
-  "change_pct": 0.15,
-  "insights": "The Information Technology sector posted a modest 0.15% gain today, indicating a largely sideways trading session. However, key technical indicators reveal underlying dynamics: the Relative Strength Index (RSI) at 18.23 signals deeply oversold conditions, suggesting the sector has experienced significant recent selling pressure and could be poised for a reversal or bounce. In contrast, the Money Flow Index (MFI) at 53.96 sits in a neutral zone, implying balanced money flow activity without strong buying or selling conviction. The On-Balance Volume (OBV) at 415,561,000 indicates a substantial cumulative volume, which, when coupled with today's slight price increase, suggests a continued accumulation of buying interest, potentially providing a foundation amidst the oversold technical sentiment.",
+  "market_weight": 0.2919,
+  "change_pct": -0.42,
+  "insights": "The Information Technology sector posted a minor decline of -0.42% today. Key technical indicators suggest a significant oversold condition, with the Relative Strength Index (RSI) at a very low 18.07, indicating that recent selling pressure has been substantial and a near-term rebound could be possible. The Money Flow Index (MFI) at 47.31 shows a relatively balanced money flow, just slightly favoring outflows, which contrasts with the extreme RSI and might suggest a moderation in selling volume. While the On-Balance Volume (OBV) of 406,146,471 is a cumulative measure, its substantial positive value generally reflects a history of strong underlying buying pressure, potentially offering support despite today's slight downward movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751155200000,
-        null
-      ],
-      [
-        1751241600000,
-        75.69
-      ],
-      [
-        1751328000000,
-        69.75
-      ],
       [
         1751414400000,
         72.48
@@ -747,21 +735,21 @@
       [
         1766707200000,
         18.23
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        71.57
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        63.23
-      ],
+        1766966400000,
+        18.07
+      ]
+    ],
+    "mfi": [
       [
         1751414400000,
         63.86
@@ -1473,21 +1461,21 @@
       [
         1766707200000,
         53.96
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        198963200.0
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        191390800.0
-      ],
+        1766966400000,
+        47.31
+      ]
+    ],
+    "obv": [
       [
         1751414400000,
         197365900.0
@@ -2199,6 +2187,18 @@
       [
         1766707200000,
         415561000.0
+      ],
+      [
+        1766793600000,
+        null
+      ],
+      [
+        1766880000000,
+        null
+      ],
+      [
+        1766966400000,
+        406146471.0
       ]
     ]
   },

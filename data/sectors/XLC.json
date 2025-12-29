@@ -1,9 +1,9 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services GICS sector encompasses companies that provide telecommunication services, entertainment content, interactive media, and other communication-related businesses.",
-    "marketSizeUSD": "4.6T",
-    "constituentCount": 23,
+    "description": "The Communication Services sector encompasses companies involved in telecommunication services, media and entertainment, and interactive media and services.",
+    "marketSizeUSD": "4.5T",
+    "constituentCount": 21,
     "topHoldings": [
       {
         "name": "Alphabet Inc.",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0948,
-  "change_pct": -0.1,
-  "insights": "The Communication Services sector experienced a marginal dip of -0.10% today, suggesting a very slight pullback. Despite this minor daily decline, key technical indicators point to underlying strength: the RSI at 64.46 is firm, nearing overbought territory, indicating robust buying interest and bullish momentum. Similarly, the MFI at 59.90 suggests that money flow is still positive and entering the sector. The substantial positive OBV of 331,237,027 further reinforces an accumulation trend, implying that buyers are generally in control over the longer term. Therefore, today's minor negative movement appears to be a consolidation within a broader period of sustained strength and investor confidence in the sector.",
+  "market_weight": 0.0888,
+  "change_pct": -0.07,
+  "insights": "The Communication Services sector saw a largely flat trading day, posting a marginal decline of -0.07%. Despite this slight dip, key technical indicators suggest underlying strength: the Relative Strength Index (RSI) at 63.73 indicates robust bullish momentum, implying sustained buying interest over the recent period. Similarly, the Money Flow Index (MFI) at 60.93 points to continued positive money flow into the sector. While the On-Balance Volume (OBV) at 326,577,651 reflects significant cumulative trading activity, today's minor price movement on strong momentum and money flow indicators suggests a period of consolidation rather than a significant bearish shift.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751155200000,
-        null
-      ],
-      [
-        1751241600000,
-        73.97
-      ],
-      [
-        1751328000000,
-        68.98
-      ],
       [
         1751414400000,
         67.02
@@ -747,21 +735,21 @@
       [
         1766707200000,
         64.46
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        61.81
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        53.66
-      ],
+        1766966400000,
+        63.73
+      ]
+    ],
+    "mfi": [
       [
         1751414400000,
         47.56
@@ -1473,21 +1461,21 @@
       [
         1766707200000,
         59.9
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        270553200.0
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        263939100.0
-      ],
+        1766966400000,
+        60.93
+      ]
+    ],
+    "obv": [
       [
         1751414400000,
         259073300.0
@@ -2199,6 +2187,18 @@
       [
         1766707200000,
         331237027.0
+      ],
+      [
+        1766793600000,
+        null
+      ],
+      [
+        1766880000000,
+        null
+      ],
+      [
+        1766966400000,
+        326577651.0
       ]
     ]
   },

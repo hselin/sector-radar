@@ -1,41 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that produce capital goods, provide commercial services and supplies, and offer transportation services.",
-    "marketSizeUSD": "3.8T",
-    "constituentCount": 75,
+    "description": "The Industrials sector comprises companies involved in the manufacturing of capital goods, provision of commercial services, and transportation and logistics.",
+    "marketSizeUSD": "4.7T",
+    "constituentCount": 76,
     "topHoldings": [
       {
-        "name": "Honeywell International Inc.",
-        "symbol": "HON"
-      },
-      {
-        "name": "GE Aerospace",
+        "name": "General Electric Company",
         "symbol": "GE"
       },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
+      },
+      {
+        "name": "Union Pacific Corporation",
+        "symbol": "UNP"
       }
     ]
   },
-  "market_weight": 0.0784,
-  "change_pct": -0.19,
-  "insights": "The Industrials sector experienced a marginal decline of -0.19% today, indicating a largely stable and relatively flat trading session. Despite this slight price weakness, key technical indicators suggest underlying resilience: the Relative Strength Index (RSI) at 58.50 and the Money Flow Index (MFI) at 56.10 both comfortably sit above 50, signaling that buying interest remains relatively robust and money continues to flow into the sector rather than out. The On-Balance Volume (OBV) of 110,916,979 reflects the cumulative volume balance, further supporting the notion that today's minor price pullback may be occurring within a broader context of sustained demand.",
+  "market_weight": 0.0927,
+  "change_pct": -0.21,
+  "insights": "The Industrials sector experienced a marginal decline of -0.21% today. Despite this slight pullback, key technical indicators suggest a degree of underlying stability. The Relative Strength Index (RSI) at 57.08 and Money Flow Index (MFI) at 57.33 both reside in neutral territory, indicating the sector is neither overbought nor oversold, and that money flow remains relatively balanced. The On-Balance Volume (OBV) at 106,916,317 reflects significant cumulative volume activity; for a modest daily downturn, it implies that today's selling pressure was not accompanied by high conviction or substantial distribution.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751155200000,
-        null
-      ],
-      [
-        1751241600000,
-        68.27
-      ],
-      [
-        1751328000000,
-        69.48
-      ],
       [
         1751414400000,
         69.86
@@ -747,21 +735,21 @@
       [
         1766707200000,
         58.5
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        41.07
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        48.98
-      ],
+        1766966400000,
+        57.08
+      ]
+    ],
+    "mfi": [
       [
         1751414400000,
         56.61
@@ -1473,21 +1461,21 @@
       [
         1766707200000,
         56.1
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        19426500.0
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        32615600.0
-      ],
+        1766966400000,
+        57.33
+      ]
+    ],
+    "obv": [
       [
         1751414400000,
         43677300.0
@@ -2199,6 +2187,18 @@
       [
         1766707200000,
         110916979.0
+      ],
+      [
+        1766793600000,
+        null
+      ],
+      [
+        1766880000000,
+        null
+      ],
+      [
+        1766966400000,
+        106916317.0
       ]
     ]
   },

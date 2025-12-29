@@ -1,16 +1,16 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, and other consumable fuels, as well as those providing equipment and services to the industry.",
-    "marketSizeUSD": "2.7T",
-    "constituentCount": 21,
+    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, marketing, storage, and transportation of oil and gas, as well as those providing equipment and services to the oil and gas industry.",
+    "marketSizeUSD": "2.4T",
+    "constituentCount": 23,
     "topHoldings": [
       {
-        "name": "Exxon Mobil Corp",
+        "name": "Exxon Mobil Corporation",
         "symbol": "XOM"
       },
       {
-        "name": "Chevron Corp",
+        "name": "Chevron Corporation",
         "symbol": "CVX"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0557,
-  "change_pct": -0.36,
-  "insights": "The Energy sector experienced a marginal decline of -0.36% today, a movement that is further elucidated by its key technical indicators. The Relative Strength Index (RSI) at 15.55 and the Money Flow Index (MFI) at 33.96 both signal that the sector is in significantly oversold territory, suggesting that recent selling pressure may have been overextended and could potentially precede a near-term rebound. While the On-Balance Volume (OBV) stands at a substantial 469,370,148, indicating significant cumulative trading activity, its interpretation requires historical context. However, combined with the extreme oversold readings from RSI and MFI, the current technical posture implies that while the sector saw a slight dip today, it might be due for a corrective upside movement as buyers could step in.",
+  "market_weight": 0.0473,
+  "change_pct": 0.93,
+  "insights": "The Energy sector recorded a modest gain of 0.93% today. Despite this positive daily movement, key technical indicators suggest underlying weakness. The Relative Strength Index (RSI) is critically low at 17.07, indicating the sector is heavily oversold and has experienced significant recent selling pressure. Complementing this, the Money Flow Index (MFI) at 41.29, remaining below the neutral 50-mark, suggests that net money flow is still trending out of the sector. While the On-Balance Volume (OBV) stands at 496,252,683, the context provided by the low RSI and MFI implies that today's price uptick may represent a minor bounce within a broader downtrend or a deeply oversold market, rather than a strong, conviction-backed reversal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751155200000,
-        null
-      ],
-      [
-        1751241600000,
-        48.89
-      ],
-      [
-        1751328000000,
-        51.5
-      ],
       [
         1751414400000,
         56.85
@@ -747,21 +735,21 @@
       [
         1766707200000,
         15.55
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        56.24
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        55.95
-      ],
+        1766966400000,
+        17.07
+      ]
+    ],
+    "mfi": [
       [
         1751414400000,
         55.6
@@ -1473,21 +1461,21 @@
       [
         1766707200000,
         33.96
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        367759000.0
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        388145400.0
-      ],
+        1766966400000,
+        41.29
+      ]
+    ],
+    "obv": [
       [
         1751414400000,
         409379800.0
@@ -2199,6 +2187,18 @@
       [
         1766707200000,
         469370148.0
+      ],
+      [
+        1766793600000,
+        null
+      ],
+      [
+        1766880000000,
+        null
+      ],
+      [
+        1766966400000,
+        496252683.0
       ]
     ]
   },

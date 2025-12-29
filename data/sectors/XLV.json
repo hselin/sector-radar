@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector comprises companies involved in providing medical services, manufacturing medical equipment and pharmaceuticals, and developing biotechnology products.",
-    "marketSizeUSD": "4.5T",
-    "constituentCount": 65,
+    "description": "The Health Care sector encompasses companies involved in providing medical services, manufacturing pharmaceutical and biotechnology products, and developing medical equipment and supplies.",
+    "marketSizeUSD": "5.8T",
+    "constituentCount": 64,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Incorporated",
+        "name": "UnitedHealth Group Inc.",
         "symbol": "UNH"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0928,
-  "change_pct": 0.15,
-  "insights": "The Health Care sector posted a modest gain of 0.15% today, reflecting a slight positive sentiment. Technical indicators generally support this uptick: the Relative Strength Index (RSI) at 60.39, while not overbought, suggests healthy bullish momentum, indicating buying pressure is present. Similarly, the Money Flow Index (MFI) at 63.82 points to robust capital inflow into the sector, reinforcing the buying interest. The significant On-Balance Volume (OBV) of 651,384,774 further corroborates the price movement, implying that the day's positive performance is supported by substantial trading volume and underlying demand.",
+  "market_weight": 0.1144,
+  "change_pct": -0.14,
+  "insights": "The Health Care sector registered a marginal decline of -0.14% today, indicating a relatively flat performance. Despite this slight dip, key technical indicators suggest underlying strength and continued investor interest. The Relative Strength Index (RSI) at 59.35 points to moderate bullish momentum, well above neutral but not yet overbought. More significantly, the Money Flow Index (MFI) at 70.62 indicates strong money inflows into the sector, nearing overbought levels and implying robust buying pressure that could limit further downside. The substantial On-Balance Volume (OBV) of 58,933,918, while an absolute figure, generally reflects significant cumulative buying interest. Collectively, these metrics suggest today's minor price pullback is likely a temporary fluctuation within a trend supported by consistent capital allocation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751155200000,
-        null
-      ],
-      [
-        1751241600000,
-        52.99
-      ],
-      [
-        1751328000000,
-        59.87
-      ],
       [
         1751414400000,
         53.89
@@ -747,21 +735,21 @@
       [
         1766707200000,
         60.39
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        50.85
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        53.64
-      ],
+        1766966400000,
+        59.35
+      ]
+    ],
+    "mfi": [
       [
         1751414400000,
         45.75
@@ -1473,21 +1461,21 @@
       [
         1766707200000,
         63.82
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        -101816300.0
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        -80612000.0
-      ],
+        1766966400000,
+        70.62
+      ]
+    ],
+    "obv": [
       [
         1751414400000,
         -94332400.0
@@ -2199,6 +2187,18 @@
       [
         1766707200000,
         65138474.0
+      ],
+      [
+        1766793600000,
+        null
+      ],
+      [
+        1766880000000,
+        null
+      ],
+      [
+        1766966400000,
+        58933918.0
       ]
     ]
   },

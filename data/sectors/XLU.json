@@ -1,41 +1,29 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies providing essential services such as electricity, natural gas, water, and sewage to residential, commercial, and industrial customers.",
-    "marketSizeUSD": "1.1T",
-    "constituentCount": 29,
+    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, as well as providing other public utility services.",
+    "marketSizeUSD": "1.2T",
+    "constituentCount": 30,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
         "symbol": "NEE"
       },
       {
-        "name": "Duke Energy Corporation",
-        "symbol": "DUK"
+        "name": "Southern Company",
+        "symbol": "SO"
       },
       {
-        "name": "The Southern Company",
-        "symbol": "SO"
+        "name": "Duke Energy Corporation",
+        "symbol": "DUK"
       }
     ]
   },
-  "market_weight": 0.0227,
-  "change_pct": -0.06,
-  "insights": "The Utilities sector experienced a largely stable session today, registering a marginal decline of -0.06%. Despite the minimal daily price change, the extremely low Relative Strength Index (RSI) of 10.19 indicates the sector remains deeply oversold, suggesting significant prior selling pressure that could make it ripe for a technical bounce. The Money Flow Index (MFI) at 42.02 shows slightly negative money flow but does not reflect the extreme capitulation implied by the RSI, indicating a degree of divergence in recent momentum. While the On-Balance Volume (OBV) stands at 261,052,863, highlighting substantial cumulative activity, its daily trend, which is crucial for gauging buying versus selling pressure, cannot be fully interpreted from this single data point.",
+  "market_weight": 0.0237,
+  "change_pct": 0.18,
+  "insights": "The Utilities sector posted a modest gain of 0.18% today, indicating very little directional movement. However, the technical indicators present a more striking picture: the Relative Strength Index (RSI) at an extremely low 10.54 signals a severely oversold condition, suggesting the sector has experienced significant selling pressure recently and may be technically due for a rebound. The Money Flow Index (MFI) at 48.94, near its neutral midpoint, indicates that current money flow isn't strongly bullish or bearish despite the low RSI. While On-Balance Volume (OBV) stands at 273.54 million, without a historical trend comparison, its immediate implication for today's minor price change is limited. In essence, despite today's flat performance, the sector appears heavily discounted from a momentum perspective.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751155200000,
-        null
-      ],
-      [
-        1751241600000,
-        55.16
-      ],
-      [
-        1751328000000,
-        56.92
-      ],
       [
         1751414400000,
         51.41
@@ -747,21 +735,21 @@
       [
         1766707200000,
         10.19
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        54.01
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        63.44
-      ],
+        1766966400000,
+        10.54
+      ]
+    ],
+    "mfi": [
       [
         1751414400000,
         57.32
@@ -1473,21 +1461,21 @@
       [
         1766707200000,
         42.02
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        206704100.0
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        226549200.0
-      ],
+        1766966400000,
+        48.94
+      ]
+    ],
+    "obv": [
       [
         1751414400000,
         215603700.0
@@ -2199,6 +2187,18 @@
       [
         1766707200000,
         261052863.0
+      ],
+      [
+        1766793600000,
+        null
+      ],
+      [
+        1766880000000,
+        null
+      ],
+      [
+        1766966400000,
+        273538166.0
       ]
     ]
   },

@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and distribute essential products and services that consumers need regularly, irrespective of economic cycles.",
-    "marketSizeUSD": "2.8T",
-    "constituentCount": 37,
+    "description": "The Consumer Staples sector includes companies that manufacture and sell essential products and services that people use regularly, regardless of economic conditions.",
+    "marketSizeUSD": "2.6T",
+    "constituentCount": 33,
     "topHoldings": [
       {
         "name": "Walmart Inc.",
@@ -14,28 +14,16 @@
         "symbol": "PG"
       },
       {
-        "name": "Costco Wholesale Corporation",
+        "name": "Costco Wholesale Corp",
         "symbol": "COST"
       }
     ]
   },
-  "market_weight": 0.0577,
-  "change_pct": 0.14,
-  "insights": "The Consumer Staples sector posted a marginal gain of 0.14% today, indicating largely flat performance. Technical indicators present a mixed outlook: the Relative Strength Index (RSI) at 48.86 suggests neutral momentum, leaning slightly bearish, while the Money Flow Index (MFI) at 58.68 points to positive money flow and some buying interest. However, the On-Balance Volume (OBV) at -4,795,216 implies that despite the slight price increase, the upward movement lacks strong conviction from buying volume, potentially suggesting underlying selling pressure or a prevailing lack of robust demand.",
+  "market_weight": 0.0513,
+  "change_pct": 0.08,
+  "insights": "The Consumer Staples sector experienced a largely flat trading day, posting a marginal gain of 0.08%. The Relative Strength Index (RSI) at 49.39 underscores this neutrality, positioning the sector precisely in the middle of its momentum range, indicating balanced buying and selling pressure. Conversely, the Money Flow Index (MFI) at 65.64 suggests a healthier underlying money inflow, sitting in the upper half of its range and implying that despite the minimal price movement, there was sustained buying interest from a volume perspective. This is further supported by the On-Balance Volume (OBV), which, having increased today due to the positive close, confirms a net positive volume contribution, hinting at potential accumulation despite the constrained price action.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751155200000,
-        null
-      ],
-      [
-        1751241600000,
-        48.18
-      ],
-      [
-        1751328000000,
-        55.8
-      ],
       [
         1751414400000,
         57.4
@@ -747,21 +735,21 @@
       [
         1766707200000,
         48.86
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        58.13
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        60.43
-      ],
+        1766966400000,
+        49.39
+      ]
+    ],
+    "mfi": [
       [
         1751414400000,
         66.93
@@ -1473,21 +1461,21 @@
       [
         1766707200000,
         58.68
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751155200000,
+        1766793600000,
         null
       ],
       [
-        1751241600000,
-        -2930800.0
+        1766880000000,
+        null
       ],
       [
-        1751328000000,
-        20371300.0
-      ],
+        1766966400000,
+        65.64
+      ]
+    ],
+    "obv": [
       [
         1751414400000,
         36800400.0
@@ -2199,6 +2187,18 @@
       [
         1766707200000,
         -4795216.0
+      ],
+      [
+        1766793600000,
+        null
+      ],
+      [
+        1766880000000,
+        null
+      ],
+      [
+        1766966400000,
+        3291102.0
       ]
     ]
   },
