@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector comprises companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, and mining.",
-    "marketSizeUSD": "1.7T",
+    "description": "The Materials sector includes companies that discover, develop, and process raw materials, encompassing industries like chemicals, construction materials, metals & mining, paper & forest products, and containers & packaging.",
+    "marketSizeUSD": "0.85T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co",
+        "name": "The Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc",
+        "name": "Ecolab Inc.",
         "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0335,
-  "change_pct": -0.82,
-  "insights": "The Materials sector saw a daily decline of -0.82%, reflecting a challenging trading session. Technical indicators highlight significant downward pressure: the Relative Strength Index (RSI) at 16.53 signals the sector is deeply oversold, indicating strong recent bearish momentum. This is further confirmed by a highly negative On-Balance Volume (OBV) of -27,222,391, suggesting substantial selling pressure and distribution where volume on down days significantly outweighed volume on up days. While the Money Flow Index (MFI) at 73.04 is elevated, often pointing to buying interest, its current level, alongside the extreme oversold conditions and negative OBV, implies that current selling forces are overwhelmingly dominant, pushing prices lower despite potential underlying capital movement.",
+  "market_weight": 0.0171,
+  "change_pct": -0.03,
+  "insights": "The Materials sector closed today with a marginal decline of -0.03%, indicating largely flat price action. However, technical indicators reveal a more complex picture: the extremely low RSI of 16.52 suggests the sector is deeply oversold from a price perspective, signaling significant recent downward pressure. Conversely, the MFI at 79.19 is approaching overbought levels, indicating strong money inflow, potentially reflecting accumulation by buyers despite the price weakness. This divergence, combined with a significantly negative OBV of -31,440,162, which confirms persistent underlying selling pressure, suggests a technically beaten-down sector experiencing concentrated buying interest amidst broader distribution.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751414400000,
-        69.28
-      ],
       [
         1751500800000,
         68.87
@@ -747,13 +743,13 @@
       [
         1766966400000,
         16.53
+      ],
+      [
+        1767052800000,
+        16.52
       ]
     ],
     "mfi": [
-      [
-        1751414400000,
-        46.54
-      ],
       [
         1751500800000,
         51.75
@@ -1473,13 +1469,13 @@
       [
         1766966400000,
         73.04
+      ],
+      [
+        1767052800000,
+        79.19
       ]
     ],
     "obv": [
-      [
-        1751414400000,
-        -10673200.0
-      ],
       [
         1751500800000,
         -14056200.0
@@ -2199,6 +2195,10 @@
       [
         1766966400000,
         -27222391.0
+      ],
+      [
+        1767052800000,
+        -31440162.0
       ]
     ]
   },

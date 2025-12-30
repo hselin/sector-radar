@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0513,
-  "change_pct": 0.08,
-  "insights": "The Consumer Staples sector experienced a largely flat trading day, posting a marginal gain of 0.08%. The Relative Strength Index (RSI) at 49.39 underscores this neutrality, positioning the sector precisely in the middle of its momentum range, indicating balanced buying and selling pressure. Conversely, the Money Flow Index (MFI) at 65.64 suggests a healthier underlying money inflow, sitting in the upper half of its range and implying that despite the minimal price movement, there was sustained buying interest from a volume perspective. This is further supported by the On-Balance Volume (OBV), which, having increased today due to the positive close, confirms a net positive volume contribution, hinting at potential accumulation despite the constrained price action.",
+  "market_weight": 0.0522,
+  "change_pct": -0.17,
+  "insights": "The Consumer Staples sector experienced a marginal decline today, down -0.17%, indicating a relatively flat session with slight bearish undertones. The RSI at 48.22 confirms this near-neutral momentum, hovering just below the 50-mark and suggesting neither overbought nor oversold conditions. However, the Money Flow Index (MFI) at 60.06 suggests a moderate level of money flowing into the sector on a volume-weighted basis, possibly indicating underlying accumulation despite the slight price dip. Conversely, the significantly negative On-Balance Volume (OBV) at -1,994,827, alongside today's slight price decrease, implies that selling volume slightly outpaced buying volume, contributing to the minor downward pressure and reflecting a longer-term trend of net distribution. Overall, the technical picture suggests indecision with a slight tilt towards weakness, where some money inflows are struggling against prevailing selling pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751414400000,
-        57.4
-      ],
       [
         1751500800000,
         57.03
@@ -747,13 +743,13 @@
       [
         1766966400000,
         49.39
+      ],
+      [
+        1767052800000,
+        48.22
       ]
     ],
     "mfi": [
-      [
-        1751414400000,
-        66.93
-      ],
       [
         1751500800000,
         66.97
@@ -1473,13 +1469,13 @@
       [
         1766966400000,
         65.64
+      ],
+      [
+        1767052800000,
+        60.06
       ]
     ],
     "obv": [
-      [
-        1751414400000,
-        36800400.0
-      ],
       [
         1751500800000,
         25902000.0
@@ -2199,6 +2195,10 @@
       [
         1766966400000,
         3291102.0
+      ],
+      [
+        1767052800000,
+        -1994827.0
       ]
     ]
   },

@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0237,
-  "change_pct": 0.28,
-  "insights": "The Real Estate sector experienced a modest positive movement today, climbing 0.28%. Technical indicators suggest a largely balanced market; the Relative Strength Index (RSI) at 47.84 points to neutral short-term momentum, reflecting balanced supply and demand without significant overbought or oversold conditions. However, the Money Flow Index (MFI) at 56.58 indicates a healthy positive money flow into the sector, providing support for the day's upward movement. On-Balance Volume (OBV) at 22211371 tracks underlying volume dynamics, suggesting a general accumulation trend supportive of the price action.",
+  "market_weight": 0.0241,
+  "change_pct": 0.2,
+  "insights": "The Real Estate sector concluded today with a modest 0.20% gain. Technically, the Relative Strength Index (RSI) at 49.53 signals neutral momentum, suggesting the slight upward movement was not driven by significant overbought or oversold pressures. The Money Flow Index (MFI) at 63.16 indicates a moderate inflow of capital into the sector, lending support to the positive price action. Furthermore, the On-Balance Volume (OBV) at 30,175,136, combined with the daily gain, suggests that buying volume likely outpaced selling volume, indicating a degree of accumulation during this slight advance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751414400000,
-        52.59
-      ],
       [
         1751500800000,
         52.88
@@ -747,13 +743,13 @@
       [
         1766966400000,
         47.84
+      ],
+      [
+        1767052800000,
+        49.53
       ]
     ],
     "mfi": [
-      [
-        1751414400000,
-        50.19
-      ],
       [
         1751500800000,
         50.97
@@ -1473,13 +1469,13 @@
       [
         1766966400000,
         56.58
+      ],
+      [
+        1767052800000,
+        63.16
       ]
     ],
     "obv": [
-      [
-        1751414400000,
-        94774300.0
-      ],
       [
         1751500800000,
         100532400.0
@@ -2199,6 +2195,10 @@
       [
         1766966400000,
         22211371.0
+      ],
+      [
+        1767052800000,
+        30175136.0
       ]
     ]
   },

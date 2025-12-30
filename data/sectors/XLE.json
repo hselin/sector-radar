@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0473,
-  "change_pct": 0.93,
-  "insights": "The Energy sector recorded a modest gain of 0.93% today. Despite this positive daily movement, key technical indicators suggest underlying weakness. The Relative Strength Index (RSI) is critically low at 17.07, indicating the sector is heavily oversold and has experienced significant recent selling pressure. Complementing this, the Money Flow Index (MFI) at 41.29, remaining below the neutral 50-mark, suggests that net money flow is still trending out of the sector. While the On-Balance Volume (OBV) stands at 496,252,683, the context provided by the low RSI and MFI implies that today's price uptick may represent a minor bounce within a broader downtrend or a deeply oversold market, rather than a strong, conviction-backed reversal.",
+  "market_weight": 0.0481,
+  "change_pct": 0.78,
+  "insights": "The Energy sector experienced a modest gain of +0.78% today. However, technical indicators suggest underlying dynamics. The deeply oversold RSI at 18.43 indicates the sector has faced significant selling pressure recently, potentially setting it up for a short-term rebound. The MFI at 40.96, while neutral, leans towards the lower end, suggesting that money flow isn't strongly robust in supporting today's slight price increase. The substantial OBV of 514,626,630 reflects significant cumulative volume activity, and for today's positive movement to be robust, a corresponding increase in OBV (which we don't have the prior day's value to confirm) would be ideal. Overall, today's slight positive move occurs within a context of underlying technical weakness, hinting at potential for a bounce but without strong confirmation from money flow.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751414400000,
-        56.85
-      ],
       [
         1751500800000,
         57.2
@@ -747,13 +743,13 @@
       [
         1766966400000,
         17.07
+      ],
+      [
+        1767052800000,
+        18.43
       ]
     ],
     "mfi": [
-      [
-        1751414400000,
-        55.6
-      ],
       [
         1751500800000,
         54.94
@@ -1473,13 +1469,13 @@
       [
         1766966400000,
         41.29
+      ],
+      [
+        1767052800000,
+        40.96
       ]
     ],
     "obv": [
-      [
-        1751414400000,
-        409379800.0
-      ],
       [
         1751500800000,
         420512900.0
@@ -2199,6 +2195,10 @@
       [
         1766966400000,
         496252683.0
+      ],
+      [
+        1767052800000,
+        514626630.0
       ]
     ]
   },

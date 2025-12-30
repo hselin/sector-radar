@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0237,
-  "change_pct": 0.18,
-  "insights": "The Utilities sector posted a modest gain of 0.18% today, indicating very little directional movement. However, the technical indicators present a more striking picture: the Relative Strength Index (RSI) at an extremely low 10.54 signals a severely oversold condition, suggesting the sector has experienced significant selling pressure recently and may be technically due for a rebound. The Money Flow Index (MFI) at 48.94, near its neutral midpoint, indicates that current money flow isn't strongly bullish or bearish despite the low RSI. While On-Balance Volume (OBV) stands at 273.54 million, without a historical trend comparison, its immediate implication for today's minor price change is limited. In essence, despite today's flat performance, the sector appears heavily discounted from a momentum perspective.",
+  "market_weight": 0.0241,
+  "change_pct": 0.23,
+  "insights": "The Utilities sector saw a modest gain of 0.23% today, signaling a slight positive movement. Despite this uptick, the extremely low Relative Strength Index (RSI) of 11.04 indicates the sector is significantly oversold, suggesting it has experienced considerable selling pressure recently and may be due for a technical bounce or reversal. Complementing today's small advance, the Money Flow Index (MFI) at 56.40 points to a marginal net inflow of money, subtly supporting the day's positive price action. The On-Balance Volume (OBV) at 282,672,468, while a cumulative measure, reinforces the underlying volume dynamics associated with current price movements, with today's positive close likely contributing to its overall level. In summary, while the sector saw a slight positive close today with some money flow, it remains in a deeply oversold technical state.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751414400000,
-        51.41
-      ],
       [
         1751500800000,
         55.4
@@ -747,13 +743,13 @@
       [
         1766966400000,
         10.54
+      ],
+      [
+        1767052800000,
+        11.04
       ]
     ],
     "mfi": [
-      [
-        1751414400000,
-        57.32
-      ],
       [
         1751500800000,
         56.75
@@ -1473,13 +1469,13 @@
       [
         1766966400000,
         48.94
+      ],
+      [
+        1767052800000,
+        56.4
       ]
     ],
     "obv": [
-      [
-        1751414400000,
-        215603700.0
-      ],
       [
         1751500800000,
         223053800.0
@@ -2199,6 +2195,10 @@
       [
         1766966400000,
         273538166.0
+      ],
+      [
+        1767052800000,
+        282672468.0
       ]
     ]
   },
