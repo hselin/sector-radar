@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2025-12-30T21:14:04.014472Z",
+  "lastUpdated": "2025-12-31T21:13:20.652725Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market saw a very modest decline today, closing down -0.13%, suggesting a day of consolidation rather than a significant directional move. Examining key technical indicators, the Relative Strength Index (RSI) at 56.34 and the Money Flow Index (MFI) at 53.50 both reside in neutral-to-slightly-bullish territory, indicating neither an overbought nor oversold condition and a relatively balanced money flow. The high On-Balance Volume (OBV) reading suggests sustained accumulation over a longer period. Collectively, these figures point to underlying resilience and potentially a healthy, consolidating market, where despite a minor daily dip, sentiment remains broadly neutral with a slight lean towards continued underlying buying interest and momentum.",
-    "change_pct": -0.13,
+    "commentary": "The stock market concluded the day with a modest decline of -0.74%, signaling a slightly bearish session characterized by cautious sentiment. Technical indicators support this nuanced view: the Relative Strength Index (RSI) at 50.27 sits near the neutral midpoint, suggesting a lack of strong directional momentum or extreme overbought/oversold conditions. Similarly, the Money Flow Index (MFI) at 46.62, positioned slightly below 50, indicates a mild prevalence of selling pressure over buying, aligning with the daily loss without suggesting panic. While On-Balance Volume (OBV) at 2,266,415,767 signifies a history of substantial cumulative volume, its isolated value doesn't provide clear daily momentum insight without trend comparison. Overall, the market exhibited a slight bearish tilt for the session, but without strong conviction in either direction based on these momentum indicators.",
+    "change_pct": -0.74,
     "technicalIndicators": {
       "rsi": [
-        [
-          1751500800000,
-          74.42
-        ],
         [
           1751587200000,
           null
@@ -747,13 +743,13 @@
         [
           1767052800000,
           56.34
+        ],
+        [
+          1767139200000,
+          50.27
         ]
       ],
       "mfi": [
-        [
-          1751500800000,
-          62.34
-        ],
         [
           1751587200000,
           null
@@ -1473,13 +1469,13 @@
         [
           1767052800000,
           53.5
+        ],
+        [
+          1767139200000,
+          46.62
         ]
       ],
       "obv": [
-        [
-          1751500800000,
-          1692077200.0
-        ],
         [
           1751587200000,
           null
@@ -2199,6 +2195,10 @@
         [
           1767052800000,
           2329514457.0
+        ],
+        [
+          1767139200000,
+          2266415767.0
         ]
       ]
     },
