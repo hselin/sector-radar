@@ -1,9 +1,9 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector includes companies that develop, produce, and market technology products and services, such as software, IT services, semiconductors, and technology hardware & equipment.",
-    "marketSizeUSD": "14.8T",
-    "constituentCount": 67,
+    "description": "The Information Technology sector comprises companies engaged in software development, IT services, semiconductors and semiconductor equipment, and technology hardware and storage.",
+    "marketSizeUSD": "14.0T",
+    "constituentCount": 69,
     "topHoldings": [
       {
         "name": "Apple Inc.",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2969,
-  "change_pct": 0.22,
-  "insights": "The Information Technology sector posted a modest 0.22% gain today, yet technical indicators suggest underlying caution despite the positive movement. The extremely low Relative Strength Index (RSI) at 17.97 signals the sector is significantly oversold, potentially indicating it is due for a rebound after recent selling pressure. However, the Money Flow Index (MFI) at 45.88, below the neutral 50-mark, suggests that money is still generally flowing out of the sector, implying today's minor price increase was not backed by strong buying conviction. While the On-Balance Volume (OBV) of 276,952,872 reflects historical accumulation, the current MFI outflow suggests that any sustained upward momentum would require a more robust influx of new capital.",
+  "market_weight": 0.2428,
+  "change_pct": 0.25,
+  "insights": "The Information Technology sector posted a modest 0.25% gain today, appearing as a slight rebound within a generally weak technical landscape. The extremely low Relative Strength Index (RSI) at 18.50 signals that the sector is deeply oversold, indicating significant recent downward pressure. Despite this, the Money Flow Index (MFI) at 56.89 suggests a more neutral to slightly positive money flow when considering volume, potentially indicating some stabilization or initial accumulation at lower price points. The On-Balance Volume (OBV) would have registered an increase consistent with the daily price uptick, but overall, today's performance leans towards a tentative bounce rather than a strong reversal in a technically challenged environment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751760000000,
-        null
-      ],
-      [
-        1751846400000,
-        70.43
-      ],
-      [
-        1751932800000,
-        71.8
-      ],
       [
         1752019200000,
         73.29
@@ -747,21 +735,21 @@
       [
         1767312000000,
         17.97
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        63.4
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        63.99
-      ],
+        1767571200000,
+        18.5
+      ]
+    ],
+    "mfi": [
       [
         1752019200000,
         70.77
@@ -1473,21 +1461,21 @@
       [
         1767312000000,
         45.88
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        65860000.0
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        73717600.0
-      ],
+        1767571200000,
+        56.89
+      ]
+    ],
+    "obv": [
       [
         1752019200000,
         80184400.0
@@ -2199,12 +2187,24 @@
       [
         1767312000000,
         276952872.0
+      ],
+      [
+        1767398400000,
+        null
+      ],
+      [
+        1767484800000,
+        null
+      ],
+      [
+        1767571200000,
+        293972859.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.22,
-    null,
+    0.25,
     null,
     null,
     null,

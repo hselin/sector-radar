@@ -1,41 +1,29 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, as well as providing other public utility services.",
-    "marketSizeUSD": "1.2T",
-    "constituentCount": 30,
+    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, as well as diversified multi-utility services.",
+    "marketSizeUSD": "1.4T",
+    "constituentCount": 29,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
         "symbol": "NEE"
       },
       {
-        "name": "Southern Company",
-        "symbol": "SO"
-      },
-      {
         "name": "Duke Energy Corporation",
         "symbol": "DUK"
+      },
+      {
+        "name": "The Southern Company",
+        "symbol": "SO"
       }
     ]
   },
-  "market_weight": 0.0241,
-  "change_pct": 1.16,
-  "insights": "The Utilities sector posted a modest gain of 1.16% today, indicating some positive price action. Despite this uptick, the Relative Strength Index (RSI) at an extremely low 13.60 suggests the sector remains deeply oversold, potentially signaling that today's increase is a bounce from depressed levels and that further upward correction might be warranted. Concurrently, the Money Flow Index (MFI) at 60.39 indicates a healthy, though not overly aggressive, inflow of capital into the sector, lending support to the daily price appreciation. While the On-Balance Volume (OBV) of 129,574,200 is an absolute figure that gains most meaning with historical comparison, its likely positive movement in conjunction with today's price gain suggests buying volume generally outpaced selling volume, reinforcing the day's upward trend.",
+  "market_weight": 0.0243,
+  "change_pct": -1.13,
+  "insights": "The Utilities sector experienced a notable decline of -1.13% today, signaling considerable selling pressure. This downward movement is strongly corroborated by an extremely oversold Relative Strength Index (RSI) of 13.17, indicating prices fell sharply and rapidly, pushing the sector into extreme oversold territory. However, the Money Flow Index (MFI) at 49.80, near the neutral threshold, suggests that while prices declined, the volume-weighted money flow was not overwhelmingly negative, offering a slight counterpoint to the sharp price drop. The On-Balance Volume (OBV) of 102,123,930 would have seen today's volume subtracted due to the negative close, consistent with the bearish daily price action. In essence, while the sector experienced significant bearish momentum today, the MFI hints that underlying volume flows weren't entirely capitulatory, potentially setting the stage for a near-term technical rebound given the extreme oversold condition.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751760000000,
-        null
-      ],
-      [
-        1751846400000,
-        56.48
-      ],
-      [
-        1751932800000,
-        49.87
-      ],
       [
         1752019200000,
         54.84
@@ -747,21 +735,21 @@
       [
         1767312000000,
         13.6
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        63.49
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        60.53
-      ],
+        1767571200000,
+        13.17
+      ]
+    ],
+    "mfi": [
       [
         1752019200000,
         69.33
@@ -1473,21 +1461,21 @@
       [
         1767312000000,
         60.39
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        69984800.0
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        47839900.0
-      ],
+        1767571200000,
+        49.8
+      ]
+    ],
+    "obv": [
       [
         1752019200000,
         67955100.0
@@ -2199,12 +2187,24 @@
       [
         1767312000000,
         129574200.0
+      ],
+      [
+        1767398400000,
+        null
+      ],
+      [
+        1767484800000,
+        null
+      ],
+      [
+        1767571200000,
+        102123930.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.16,
-    null,
+    -1.13,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector comprises companies primarily engaged in the ownership, development, and management of real estate, including Equity Real Estate Investment Trusts (REITs).",
-    "marketSizeUSD": "1.2T",
+    "description": "The Real Estate sector primarily comprises Equity Real Estate Investment Trusts (REITs) and real estate management and development companies, focusing on owning, developing, and managing income-producing properties.",
+    "marketSizeUSD": "1.1T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -14,28 +14,16 @@
         "symbol": "AMT"
       },
       {
-        "name": "Crown Castle Inc.",
-        "symbol": "CCI"
+        "name": "Equinix, Inc.",
+        "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.0241,
-  "change_pct": 0.04,
-  "insights": "The Real Estate sector experienced a largely flat day, inching up by a marginal 0.04%. Technical indicators present a nuanced picture: The Relative Strength Index (RSI) at 43.33 suggests neutral momentum, leaning slightly bearish, indicating a lack of strong buying enthusiasm. While the Money Flow Index (MFI) at 55.18 points to a slight net inflow of funds into the sector, the significantly negative On-Balance Volume (OBV) of -29,399,474 indicates that selling volume has predominantly outweighed buying volume, suggesting underlying selling pressure despite today's minimal price uptick.",
+  "market_weight": 0.0191,
+  "change_pct": 0.14,
+  "insights": "Today, the Real Estate sector saw a modest gain of 0.14%. Technical indicators present a nuanced view: the Relative Strength Index (RSI) at 44.65 suggests slightly bearish momentum, remaining below the neutral 50-mark. Conversely, the Money Flow Index (MFI) at 57.09 indicates net money flowing into the sector, pointing to some accumulation. Despite this positive money flow and the sector's daily increase, the significantly negative On-Balance Volume (OBV) at -17,478,349 suggests that overall selling pressure has largely outweighed buying pressure on a cumulative volume basis, implying that today's slight upturn may lack strong conviction from a broader volume perspective.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751760000000,
-        null
-      ],
-      [
-        1751846400000,
-        47.86
-      ],
-      [
-        1751932800000,
-        46.96
-      ],
       [
         1752019200000,
         46.64
@@ -747,21 +735,21 @@
       [
         1767312000000,
         43.33
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        50.97
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        44.97
-      ],
+        1767571200000,
+        44.65
+      ]
+    ],
+    "mfi": [
       [
         1752019200000,
         45.32
@@ -1473,21 +1461,21 @@
       [
         1767312000000,
         55.18
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        31430900.0
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        25662300.0
-      ],
+        1767571200000,
+        57.09
+      ]
+    ],
+    "obv": [
       [
         1752019200000,
         20794500.0
@@ -2199,12 +2187,24 @@
       [
         1767312000000,
         -29399474.0
+      ],
+      [
+        1767398400000,
+        null
+      ],
+      [
+        1767484800000,
+        null
+      ],
+      [
+        1767571200000,
+        -17478349.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.04,
-    null,
+    0.14,
     null,
     null,
     null,

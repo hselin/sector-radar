@@ -1,41 +1,29 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that manufacture and sell essential products and services that people use regularly, regardless of economic conditions.",
-    "marketSizeUSD": "2.6T",
-    "constituentCount": 33,
+    "description": "The Consumer Staples sector comprises companies that produce and distribute essential goods and services, such as food, beverages, tobacco, household products, and personal care items, which consumers purchase regularly regardless of economic conditions.",
+    "marketSizeUSD": "3.9T",
+    "constituentCount": 37,
     "topHoldings": [
-      {
-        "name": "Walmart Inc.",
-        "symbol": "WMT"
-      },
       {
         "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
-        "name": "Costco Wholesale Corp",
-        "symbol": "COST"
+        "name": "PepsiCo, Inc.",
+        "symbol": "PEP"
+      },
+      {
+        "name": "The Coca-Cola Company",
+        "symbol": "KO"
       }
     ]
   },
-  "market_weight": 0.0522,
-  "change_pct": 0.01,
-  "insights": "The Consumer Staples sector exhibited a remarkably flat performance today, registering a mere 0.01% change, indicating a day of minimal price movement and low conviction. Key technical indicators support this sentiment: both the RSI at 44.24 and MFI at 44.27 hover slightly below the neutral 50-mark. This suggests a slight bias towards cooling buying momentum and moderate money flow out of the sector, though not yet signaling oversold conditions or strong bearish conviction. The On-Balance Volume (OBV) at 30,068,056, in conjunction with the near-zero price change, implies that no significant institutional buying or selling pressure dictated the sector's movement today, reflecting a period of consolidation.",
+  "market_weight": 0.0676,
+  "change_pct": -0.46,
+  "insights": "The Consumer Staples sector experienced a modest decline of -0.46% today. The Relative Strength Index (RSI) at 41.19 suggests weakening upward momentum, trending below the neutral 50-mark but still above oversold territory. Further, the Money Flow Index (MFI) at 32.89 points to a noticeable outflow of capital, indicating that sellers had a clear advantage during today's session, pushing the index closer to oversold conditions. While the positive On-Balance Volume (OBV) of 8,640,238 reflects a historical accumulation of buying volume, today's price dip alongside the MFI suggests that this underlying demand might be temporarily challenged, with current selling pressure overriding immediate buying interest. Collectively, the indicators point to a sector exhibiting softening momentum and increasing selling pressure following today's negative performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751760000000,
-        null
-      ],
-      [
-        1751846400000,
-        56.35
-      ],
-      [
-        1751932800000,
-        49.4
-      ],
       [
         1752019200000,
         45.21
@@ -747,21 +735,21 @@
       [
         1767312000000,
         44.24
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        67.34
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        60.23
-      ],
+        1767571200000,
+        41.19
+      ]
+    ],
+    "mfi": [
       [
         1752019200000,
         58.23
@@ -1473,21 +1461,21 @@
       [
         1767312000000,
         44.27
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        34359600.0
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        18646800.0
-      ],
+        1767571200000,
+        32.89
+      ]
+    ],
+    "obv": [
       [
         1752019200000,
         -3532200.0
@@ -2199,12 +2187,24 @@
       [
         1767312000000,
         30068056.0
+      ],
+      [
+        1767398400000,
+        null
+      ],
+      [
+        1767484800000,
+        null
+      ],
+      [
+        1767571200000,
+        8640238.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.01,
-    null,
+    -0.46,
     null,
     null,
     null,

@@ -1,41 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose sales are highly sensitive to economic cycles and consumer disposable income.",
-    "marketSizeUSD": "6.5T",
-    "constituentCount": 55,
+    "description": "The Consumer Discretionary sector comprises industries that are most sensitive to economic cycles, including retail (excluding food and drug), automotive, household durable goods, leisure products, apparel, hotels, restaurants, and various media services, typically purchased with disposable income.",
+    "marketSizeUSD": "4.9T",
+    "constituentCount": 54,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc",
+        "name": "Amazon.com Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc",
+        "name": "Tesla Inc.",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot Inc",
+        "name": "The Home Depot, Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1304,
-  "change_pct": -0.87,
-  "insights": "The Consumer Discretionary sector experienced a notable decline of -0.87% today, signaling strong bearish sentiment. This downward movement is further illuminated by key technical indicators, particularly the Relative Strength Index (RSI) which registered an extremely oversold reading of 15.49. This level is significantly below the typical oversold threshold of 30, suggesting intense selling pressure and potentially indicating the sector is due for a short-term rebound. The Money Flow Index (MFI) at 35.73 corroborates this trend, reflecting a net outflow of capital, although it is not as acutely oversold as the RSI. While On-Balance Volume (OBV) provides a cumulative view of buying and selling pressure, its current level aligns with the observed price action, confirming the prevalence of selling volume in today's session.",
+  "market_weight": 0.085,
+  "change_pct": 1.66,
+  "insights": "The Consumer Discretionary sector experienced a robust daily gain of 1.66%, indicating a strong positive shift in investor sentiment today. However, the technical indicators present a nuanced view: the Relative Strength Index (RSI) at a deeply oversold 19.11 suggests that today's rally is likely a significant bounce from extremely depressed levels, rather than a definitive start to a new uptrend. While the On-Balance Volume (OBV) of 28,420,880 confirms that today's upward price movement was accompanied by substantial buying volume, lending credibility to the day's performance, the Money Flow Index (MFI) at 40.19, though not oversold, indicates that broader money flow into the sector is still somewhat subdued, suggesting that sustained buying interest beyond this bounce will need further confirmation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751760000000,
-        null
-      ],
-      [
-        1751846400000,
-        57.39
-      ],
-      [
-        1751932800000,
-        55.82
-      ],
       [
         1752019200000,
         57.98
@@ -747,21 +735,21 @@
       [
         1767312000000,
         15.49
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        54.5
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        49.9
-      ],
+        1767571200000,
+        19.11
+      ]
+    ],
+    "mfi": [
       [
         1752019200000,
         55.17
@@ -1473,21 +1461,21 @@
       [
         1767312000000,
         35.73
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        -10589300.0
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        -14016800.0
-      ],
+        1767571200000,
+        40.19
+      ]
+    ],
+    "obv": [
       [
         1752019200000,
         -11584400.0
@@ -2199,12 +2187,24 @@
       [
         1767312000000,
         12065087.0
+      ],
+      [
+        1767398400000,
+        null
+      ],
+      [
+        1767484800000,
+        null
+      ],
+      [
+        1767571200000,
+        28420880.0
       ]
     ]
   },
   "weeklyPerformance": [
     -0.87,
-    null,
+    1.66,
     null,
     null,
     null,

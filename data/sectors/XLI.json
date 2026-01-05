@@ -1,41 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector comprises companies involved in the manufacturing of capital goods, provision of commercial services, and transportation and logistics.",
-    "marketSizeUSD": "4.7T",
+    "description": "The Industrials sector comprises companies involved in manufacturing and distributing capital goods, providing commercial and professional services, and offering transportation services.",
+    "marketSizeUSD": "4.5T",
     "constituentCount": 76,
     "topHoldings": [
       {
-        "name": "General Electric Company",
+        "name": "General Electric",
         "symbol": "GE"
+      },
+      {
+        "name": "RTX Corporation",
+        "symbol": "RTX"
       },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
-      },
-      {
-        "name": "Union Pacific Corporation",
-        "symbol": "UNP"
       }
     ]
   },
-  "market_weight": 0.0943,
-  "change_pct": 1.87,
-  "insights": "The Industrials sector demonstrated strong performance today, closing up 1.87%. This robust daily gain is supported by the technical indicators: the Relative Strength Index (RSI) at 59.16 suggests solid upward momentum without being overbought, indicating potential for continued appreciation. The Money Flow Index (MFI) at 51.55 shows a healthy, albeit not aggressive, capital inflow supporting the price action. Furthermore, the On-Balance Volume (OBV) figure of 72,832,900, particularly in conjunction with today's positive price movement, confirms significant buying pressure and accumulation, validating the sector's strong daily advance.",
+  "market_weight": 0.0781,
+  "change_pct": 1.17,
+  "insights": "The Industrials sector showed robust performance today, rising by 1.17%. This positive daily movement is well-supported by its technical indicators. The Relative Strength Index (RSI) at 63.83 reflects strong bullish momentum, nearing overbought conditions but not yet signaling an immediate reversal, suggesting potential for continued upside. Concurrently, the Money Flow Index (MFI) at 53.71 indicates healthy positive money flow into the sector. The implied increase in On-Balance Volume (OBV) further validates this price appreciation, confirming that today's gains are supported by solid investor interest and trading volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751760000000,
-        null
-      ],
-      [
-        1751846400000,
-        69.77
-      ],
-      [
-        1751932800000,
-        69.53
-      ],
       [
         1752019200000,
         72.27
@@ -747,21 +735,21 @@
       [
         1767312000000,
         59.16
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        63.35
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        55.97
-      ],
+        1767571200000,
+        63.83
+      ]
+    ],
+    "mfi": [
       [
         1752019200000,
         63.17
@@ -1473,21 +1461,21 @@
       [
         1767312000000,
         51.55
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        1152100.0
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        -9693400.0
-      ],
+        1767571200000,
+        53.71
+      ]
+    ],
+    "obv": [
       [
         1752019200000,
         480200.0
@@ -2199,12 +2187,24 @@
       [
         1767312000000,
         72832900.0
+      ],
+      [
+        1767398400000,
+        null
+      ],
+      [
+        1767484800000,
+        null
+      ],
+      [
+        1767571200000,
+        88898022.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.87,
-    null,
+    1.17,
     null,
     null,
     null,

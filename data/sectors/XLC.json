@@ -1,12 +1,12 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector encompasses companies involved in telecommunication services, media and entertainment, and interactive media and services.",
-    "marketSizeUSD": "4.5T",
+    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment, interactive media and services, and social media platforms.",
+    "marketSizeUSD": "5.0T",
     "constituentCount": 21,
     "topHoldings": [
       {
-        "name": "Alphabet Inc.",
+        "name": "Alphabet Inc. Class A",
         "symbol": "GOOGL"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0903,
-  "change_pct": -0.72,
-  "insights": "The Communication Services sector saw a modest decline today, shedding 0.72% of its value. Despite this slight pullback, key technical indicators suggest a largely neutral market sentiment. The Relative Strength Index (RSI) at 53.67 and the Money Flow Index (MFI) at 51.92 both indicate balanced buying and selling pressure, signaling the sector is neither overbought nor oversold and capital flows are stable rather than strongly directional. The On-Balance Volume (OBV) standing at 184,585,169, when viewed alongside these neutral oscillators, suggests that today's minor price dip was not accompanied by a significant surge in selling volume or a capitulation in underlying demand.",
+  "market_weight": 0.0867,
+  "change_pct": 0.75,
+  "insights": "The Communication Services sector posted a positive day, advancing 0.75%. This upward movement is largely supported by its key technical indicators. The Relative Strength Index (RSI) at 58.96 and the Money Flow Index (MFI) at 60.86 both reside above the neutral 50-mark, indicating healthy buying interest and positive money flow into the sector without yet signaling overbought conditions, suggesting room for further upward momentum. Furthermore, the On-Balance Volume (OBV) at 190,096,662, confirms that trading volume is accompanying the price increase, reinforcing the day's positive sentiment and accumulation within the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751760000000,
-        null
-      ],
-      [
-        1751846400000,
-        62.33
-      ],
-      [
-        1751932800000,
-        61.02
-      ],
       [
         1752019200000,
         62.11
@@ -747,21 +735,21 @@
       [
         1767312000000,
         53.67
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        53.83
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        47.27
-      ],
+        1767571200000,
+        58.96
+      ]
+    ],
+    "mfi": [
       [
         1752019200000,
         54.25
@@ -1473,21 +1461,21 @@
       [
         1767312000000,
         51.92
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        119542200.0
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        115189200.0
-      ],
+        1767571200000,
+        60.86
+      ]
+    ],
+    "obv": [
       [
         1752019200000,
         120163100.0
@@ -2199,12 +2187,24 @@
       [
         1767312000000,
         184585169.0
+      ],
+      [
+        1767398400000,
+        null
+      ],
+      [
+        1767484800000,
+        null
+      ],
+      [
+        1767571200000,
+        190096662.0
       ]
     ]
   },
   "weeklyPerformance": [
     -0.72,
-    null,
+    0.75,
     null,
     null,
     null,

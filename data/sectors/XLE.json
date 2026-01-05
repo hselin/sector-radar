@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, marketing, storage, and transportation of oil and gas, as well as those providing equipment and services to the oil and gas industry.",
-    "marketSizeUSD": "2.4T",
-    "constituentCount": 23,
+    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil, gas, and consumable fuels, alongside integrated service providers.",
+    "marketSizeUSD": "1.8T",
+    "constituentCount": 21,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0481,
-  "change_pct": 2.08,
-  "insights": "The Energy sector experienced a strong daily performance today, closing up 2.08% and signaling positive momentum. However, key technical indicators suggest this rally may be occurring within an broader context of undervaluation. The Relative Strength Index (RSI) at 22.07 points to the sector being deeply oversold, implying today's gain is likely a rebound from recent lows rather than a confirmed reversal of a long-term downtrend. The Money Flow Index (MFI) at 43.06, while not extremely low, still indicates money flow over a trailing period leans slightly bearish. The On-Balance Volume (OBV) at 303,645,788 reflects cumulative buying pressure for the day, which aligns with the positive price movement. In summary, while today's action was bullish, the low RSI and MFI suggest the sector is still navigating a recovery from significant selling pressure.",
+  "market_weight": 0.0312,
+  "change_pct": 2.72,
+  "insights": "The Energy sector experienced a robust day, climbing 2.72%. This strong upward movement occurred while its Relative Strength Index (RSI) stood at 27.03, indicating the sector was previously in an oversold condition, suggesting today's rally might be a rebound from depressed levels. Concurrently, the Money Flow Index (MFI) at 59.18 points to healthy money inflow into the sector, supporting the observed price appreciation and indicating renewed buying interest. The On-Balance Volume (OBV) at 397,666,200, when considered with the day's positive price action, suggests that today's gains were likely supported by significant buying volume, reinforcing the strength of the rally.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751760000000,
-        null
-      ],
-      [
-        1751846400000,
-        53.33
-      ],
-      [
-        1751932800000,
-        61.15
-      ],
       [
         1752019200000,
         59.08
@@ -747,21 +735,21 @@
       [
         1767312000000,
         22.07
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        46.85
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        45.14
-      ],
+        1767571200000,
+        27.03
+      ]
+    ],
+    "mfi": [
       [
         1752019200000,
         41.77
@@ -1473,21 +1461,21 @@
       [
         1767312000000,
         43.06
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        175876500.0
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        199612700.0
-      ],
+        1767571200000,
+        59.18
+      ]
+    ],
+    "obv": [
       [
         1752019200000,
         185276500.0
@@ -2199,12 +2187,24 @@
       [
         1767312000000,
         303645788.0
+      ],
+      [
+        1767398400000,
+        null
+      ],
+      [
+        1767484800000,
+        null
+      ],
+      [
+        1767571200000,
+        397666200.0
       ]
     ]
   },
   "weeklyPerformance": [
     2.08,
-    null,
+    2.72,
     null,
     null,
     null,

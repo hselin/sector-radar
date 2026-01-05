@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in providing medical services, manufacturing pharmaceutical and biotechnology products, and developing medical equipment and supplies.",
-    "marketSizeUSD": "5.8T",
-    "constituentCount": 64,
+    "description": "The Health Care GICS sector encompasses companies engaged in providing medical services, manufacturing pharmaceuticals, biotechnologies, and medical devices, and developing health-related technologies.",
+    "marketSizeUSD": "6.2T",
+    "constituentCount": 68,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Inc.",
+        "name": "UnitedHealth Group Incorporated",
         "symbol": "UNH"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1163,
-  "change_pct": 0.45,
-  "insights": "The Health Care sector experienced a modest gain of 0.45% today, indicating slight positive momentum. Technical indicators largely support this upward movement without signaling overextension; the RSI at 57.06 and MFI at 58.28 both reside in neutral-to-bullish territory, suggesting sustained buying interest and positive money flow into the sector without being overbought. The significant On-Balance Volume (OBV) of 143,425,020, presumably increasing with today's price action, further validates the modest upward trend, indicating that the sector's gain was supported by corresponding trading volume.",
+  "market_weight": 0.1075,
+  "change_pct": -0.31,
+  "insights": "The Health Care sector experienced a modest decline of -0.31% today, indicating a relatively subdued trading session. The RSI at 54.68 suggests a neutral-to-slightly-positive short-term momentum, well within typical trading ranges and not signaling overbought or oversold conditions. However, the Money Flow Index (MFI) at 45.14 points to a slight net outflow of capital, aligning with today's price dip and suggesting that buying interest on volume was insufficient to overcome selling pressure. While the On-Balance Volume (OBV) reflects significant cumulative buying pressure historically, the current MFI indicates a lack of strong immediate buying conviction, contributing to the day's minor correction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1751760000000,
-        null
-      ],
-      [
-        1751846400000,
-        49.61
-      ],
-      [
-        1751932800000,
-        52.04
-      ],
       [
         1752019200000,
         54.08
@@ -747,21 +735,21 @@
       [
         1767312000000,
         57.06
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        37.61
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        46.79
-      ],
+        1767571200000,
+        54.68
+      ]
+    ],
+    "mfi": [
       [
         1752019200000,
         53.94
@@ -1473,21 +1461,21 @@
       [
         1767312000000,
         58.28
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1751760000000,
+        1767398400000,
         null
       ],
       [
-        1751846400000,
-        -18361600.0
+        1767484800000,
+        null
       ],
       [
-        1751932800000,
-        1124300.0
-      ],
+        1767571200000,
+        45.14
+      ]
+    ],
+    "obv": [
       [
         1752019200000,
         15088200.0
@@ -2199,12 +2187,24 @@
       [
         1767312000000,
         143425020.0
+      ],
+      [
+        1767398400000,
+        null
+      ],
+      [
+        1767484800000,
+        null
+      ],
+      [
+        1767571200000,
+        126566356.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.45,
-    null,
+    -0.31,
     null,
     null,
     null,
