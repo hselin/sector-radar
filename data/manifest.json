@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-05T21:18:41.328604Z",
+  "lastUpdated": "2026-01-06T21:13:58.345341Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, representing a broad measure of the U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Commentary could not be generated due to a persistent network error.",
-    "change_pct": 0.66,
+    "commentary": "The stock market experienced a positive day, closing up 0.60%, supported by favorable technical indicators. The Relative Strength Index (RSI) at 60.21 suggests robust buying interest and healthy upward momentum, without yet indicating an overbought condition. Complementing this, the Money Flow Index (MFI) at 54.86 confirms positive cash flow into the market, reinforcing the price appreciation. While the On-Balance Volume (OBV) of 1,299,987,935, when considered in isolation, primarily indicates accumulated volume, its current high value alongside a rising market generally implies that buying volume is consistently outpacing selling volume. Together, these metrics point to a market with positive sentiment and sustained momentum, suggesting continued accumulation by participants.",
+    "change_pct": 0.6,
     "technicalIndicators": {
       "rsi": [
-        [
-          1752019200000,
-          69.76
-        ],
         [
           1752105600000,
           70.89
@@ -747,13 +743,13 @@
         [
           1767571200000,
           56.42
+        ],
+        [
+          1767657600000,
+          60.21
         ]
       ],
       "mfi": [
-        [
-          1752019200000,
-          63.87
-        ],
         [
           1752105600000,
           70.67
@@ -1473,13 +1469,13 @@
         [
           1767571200000,
           47.19
+        ],
+        [
+          1767657600000,
+          54.86
         ]
       ],
       "obv": [
-        [
-          1752019200000,
-          440215100.0
-        ],
         [
           1752105600000,
           497744100.0
@@ -2199,12 +2195,16 @@
         [
           1767571200000,
           1236645739.0
+        ],
+        [
+          1767657600000,
+          1299987935.0
         ]
       ]
     },
     "weeklyPerformance": [
       0.2,
-      0.66,
+      1.26,
       null,
       null,
       null,

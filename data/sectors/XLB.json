@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector includes companies that discover, develop, and process raw materials, encompassing industries like chemicals, construction materials, metals & mining, paper & forest products, and containers & packaging.",
-    "marketSizeUSD": "0.85T",
+    "description": "The Materials sector includes companies that are primarily engaged in discovering, developing, and processing raw materials.",
+    "marketSizeUSD": "1.1T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LIN"
       },
       {
-        "name": "The Sherwin-Williams Company",
+        "name": "Sherwin-Williams Co",
         "symbol": "SHW"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0147,
-  "change_pct": 1.01,
-  "insights": "The Materials sector posted a robust 1.01% gain today, signaling positive momentum. However, its Relative Strength Index (RSI) at 22.20 indicates the sector remains significantly oversold from a longer-term perspective, suggesting today's strong performance could be a rebound from recent pressures or a buying opportunity. Countering this, the Money Flow Index (MFI) at 75.98 points to substantial capital inflows driving today's rally, further supported by the On-Balance Volume (OBV) which confirms strong buying pressure accompanying the price increase. This dynamic suggests a powerful daily bounce fueled by significant investor interest, despite the sector's underlying technical oversold condition.",
+  "market_weight": 0.019,
+  "change_pct": 1.96,
+  "insights": "The Materials sector posted a robust 1.96% gain today, signaling strong investor confidence and a notable upward movement. Despite this significant daily advance, the Relative Strength Index (RSI) at 26.61 indicates the sector remains in deeply oversold territory, suggesting today's rally could be a technical bounce from depressed levels rather than a full trend reversal. Concurrently, the Money Flow Index (MFI) at 84.24 highlights substantial capital flowing into the sector, strongly reinforcing the positive daily price action, while the positive On-Balance Volume (OBV) of 24,891,010 further confirms an overall pattern of accumulation supporting the price increase.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752019200000,
-        67.51
-      ],
       [
         1752105600000,
         69.12
@@ -747,13 +743,13 @@
       [
         1767571200000,
         22.2
+      ],
+      [
+        1767657600000,
+        26.61
       ]
     ],
     "mfi": [
-      [
-        1752019200000,
-        61.61
-      ],
       [
         1752105600000,
         67.97
@@ -1473,13 +1469,13 @@
       [
         1767571200000,
         75.98
+      ],
+      [
+        1767657600000,
+        84.24
       ]
     ],
     "obv": [
-      [
-        1752019200000,
-        6193400.0
-      ],
       [
         1752105600000,
         12626200.0
@@ -2199,12 +2195,16 @@
       [
         1767571200000,
         9053908.0
+      ],
+      [
+        1767657600000,
+        24891010.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.71,
-    1.01,
+    2.99,
     null,
     null,
     null,

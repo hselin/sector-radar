@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0243,
-  "change_pct": -1.13,
-  "insights": "The Utilities sector experienced a notable decline of -1.13% today, signaling considerable selling pressure. This downward movement is strongly corroborated by an extremely oversold Relative Strength Index (RSI) of 13.17, indicating prices fell sharply and rapidly, pushing the sector into extreme oversold territory. However, the Money Flow Index (MFI) at 49.80, near the neutral threshold, suggests that while prices declined, the volume-weighted money flow was not overwhelmingly negative, offering a slight counterpoint to the sharp price drop. The On-Balance Volume (OBV) of 102,123,930 would have seen today's volume subtracted due to the negative close, consistent with the bearish daily price action. In essence, while the sector experienced significant bearish momentum today, the MFI hints that underlying volume flows weren't entirely capitulatory, potentially setting the stage for a near-term technical rebound given the extreme oversold condition.",
+  "market_weight": 0.0242,
+  "change_pct": 0.44,
+  "insights": "The Utilities sector posted a modest gain of 0.44% today, signaling a slight positive shift. This movement occurs within a notable technical backdrop: the Relative Strength Index (RSI) is at an extremely oversold 14.30, strongly suggesting the sector has experienced significant selling pressure and could be poised for a rebound. Meanwhile, the Money Flow Index (MFI) stands at a neutral 50.00, indicating an equilibrium in money flowing into and out of the sector for the day, which tempers expectations for any immediate strong directional change. The On-Balance Volume (OBV) at 122,172,274 reflects substantial cumulative buying interest over time, and its current level, coupled with the deeply oversold RSI, hints at potential underlying accumulation beginning despite today's minimal price appreciation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752019200000,
-        54.84
-      ],
       [
         1752105600000,
         58.73
@@ -747,13 +743,13 @@
       [
         1767571200000,
         13.17
+      ],
+      [
+        1767657600000,
+        14.3
       ]
     ],
     "mfi": [
-      [
-        1752019200000,
-        69.33
-      ],
       [
         1752105600000,
         69.92
@@ -1473,13 +1469,13 @@
       [
         1767571200000,
         49.8
+      ],
+      [
+        1767657600000,
+        50.0
       ]
     ],
     "obv": [
-      [
-        1752019200000,
-        67955100.0
-      ],
       [
         1752105600000,
         82492100.0
@@ -2199,12 +2195,16 @@
       [
         1767571200000,
         102123930.0
+      ],
+      [
+        1767657600000,
+        122172274.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.16,
-    -1.13,
+    -0.69,
     null,
     null,
     null,

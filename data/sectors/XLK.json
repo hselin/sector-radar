@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2428,
-  "change_pct": 0.25,
-  "insights": "The Information Technology sector posted a modest 0.25% gain today, appearing as a slight rebound within a generally weak technical landscape. The extremely low Relative Strength Index (RSI) at 18.50 signals that the sector is deeply oversold, indicating significant recent downward pressure. Despite this, the Money Flow Index (MFI) at 56.89 suggests a more neutral to slightly positive money flow when considering volume, potentially indicating some stabilization or initial accumulation at lower price points. The On-Balance Volume (OBV) would have registered an increase consistent with the daily price uptick, but overall, today's performance leans towards a tentative bounce rather than a strong reversal in a technically challenged environment.",
+  "market_weight": 0.2418,
+  "change_pct": 1.38,
+  "insights": "The Information Technology sector posted a robust gain of 1.38% today. Despite this uptick, the Relative Strength Index (RSI) at 21.55 indicates the sector remains significantly oversold, suggesting today's positive movement could be an initial rebound from a prior period of weakness rather than an overextended rally. Supporting this upward movement, the Money Flow Index (MFI) at 64.76 points to healthy net capital inflow, while a substantial On-Balance Volume (OBV) of 308,115,876 validates the price action with strong buying pressure. Overall, today's rally appears to be a fundamentally supported bounce, though the low RSI suggests room for further upside from current levels as the oversold condition corrects.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752019200000,
-        73.29
-      ],
       [
         1752105600000,
         71.05
@@ -747,13 +743,13 @@
       [
         1767571200000,
         18.5
+      ],
+      [
+        1767657600000,
+        21.55
       ]
     ],
     "mfi": [
-      [
-        1752019200000,
-        70.77
-      ],
       [
         1752105600000,
         70.95
@@ -1473,13 +1469,13 @@
       [
         1767571200000,
         56.89
+      ],
+      [
+        1767657600000,
+        64.76
       ]
     ],
     "obv": [
-      [
-        1752019200000,
-        80184400.0
-      ],
       [
         1752105600000,
         75190100.0
@@ -2199,12 +2195,16 @@
       [
         1767571200000,
         293972859.0
+      ],
+      [
+        1767657600000,
+        308115876.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.22,
-    0.25,
+    1.64,
     null,
     null,
     null,
