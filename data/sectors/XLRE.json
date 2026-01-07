@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.019,
-  "change_pct": 0.68,
-  "insights": "The Real Estate sector posted a modest 0.68% gain today. While the RSI at 50.83 indicates a neutral momentum, just slightly favoring bulls, and the MFI at 57.67 suggests moderate money inflow consistent with the price uptick, the significantly negative OBV of -8,530,229 implies that, cumulatively, selling volume has outweighed buying volume over the observed period. This suggests that today's positive movement, while welcome, may lack strong underlying buying conviction and sustained accumulation from a volume perspective, hinting at a cautious environment despite the daily rise.",
+  "change_pct": -1.41,
+  "insights": "The Real Estate sector faced a significant decline today, falling by -1.41%. The Relative Strength Index (RSI) at 40.61 indicates bearish momentum, nearing oversold conditions but not yet signalling extreme capitulation. The Money Flow Index (MFI) at 55.20, slightly above neutral, suggests that while prices fell, the volume-weighted money flow isn't aggressively negative, potentially indicating some underlying support or less overwhelming selling pressure on a volume basis than implied by the price drop alone. However, the sharply negative On-Balance Volume (OBV) of -20,901,847 definitively confirms strong bearish sentiment, as selling volume significantly outpaced buying volume, suggesting genuine institutional distribution accompanying the price drop.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752105600000,
-        50.41
-      ],
       [
         1752192000000,
         49.69
@@ -747,13 +743,13 @@
       [
         1767657600000,
         50.83
+      ],
+      [
+        1767744000000,
+        40.61
       ]
     ],
     "mfi": [
-      [
-        1752105600000,
-        45.58
-      ],
       [
         1752192000000,
         39.77
@@ -1473,13 +1469,13 @@
       [
         1767657600000,
         57.67
+      ],
+      [
+        1767744000000,
+        55.2
       ]
     ],
     "obv": [
-      [
-        1752105600000,
-        26839800.0
-      ],
       [
         1752192000000,
         21037300.0
@@ -2199,12 +2195,16 @@
       [
         1767657600000,
         -8530229.0
+      ],
+      [
+        1767744000000,
+        -20901847.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.04,
-    0.82,
+    -0.61,
     null,
     null,
     null,

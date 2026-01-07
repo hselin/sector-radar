@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-06T21:13:58.345341Z",
+  "lastUpdated": "2026-01-07T21:14:20.306117Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, representing a broad measure of the U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a positive day, closing up 0.60%, supported by favorable technical indicators. The Relative Strength Index (RSI) at 60.21 suggests robust buying interest and healthy upward momentum, without yet indicating an overbought condition. Complementing this, the Money Flow Index (MFI) at 54.86 confirms positive cash flow into the market, reinforcing the price appreciation. While the On-Balance Volume (OBV) of 1,299,987,935, when considered in isolation, primarily indicates accumulated volume, its current high value alongside a rising market generally implies that buying volume is consistently outpacing selling volume. Together, these metrics point to a market with positive sentiment and sustained momentum, suggesting continued accumulation by participants.",
-    "change_pct": 0.6,
+    "commentary": "The overall stock market experienced a modest decline today, closing down -0.32%. Despite this slight pullback, key technical indicators suggest underlying strength and continued buying interest. The Relative Strength Index (RSI) at 57.34 and the Money Flow Index (MFI) at 63.64 are both comfortably above their neutral 50 levels, indicating that momentum remains leaning bullish and that positive money flow is still present. Furthermore, the consistently high On-Balance Volume (OBV) reinforces that, despite the daily dip, significant selling pressure on heavy volume likely did not occur. This suggests market sentiment is holding cautiously optimistic, with momentum indicators supporting a constructive, rather than defensive, posture.",
+    "change_pct": -0.32,
     "technicalIndicators": {
       "rsi": [
-        [
-          1752105600000,
-          70.89
-        ],
         [
           1752192000000,
           67.5
@@ -747,13 +743,13 @@
         [
           1767657600000,
           60.21
+        ],
+        [
+          1767744000000,
+          57.34
         ]
       ],
       "mfi": [
-        [
-          1752105600000,
-          70.67
-        ],
         [
           1752192000000,
           72.58
@@ -1473,13 +1469,13 @@
         [
           1767657600000,
           54.86
+        ],
+        [
+          1767744000000,
+          63.64
         ]
       ],
       "obv": [
-        [
-          1752105600000,
-          497744100.0
-        ],
         [
           1752192000000,
           434073900.0
@@ -2199,12 +2195,16 @@
         [
           1767657600000,
           1299987935.0
+        ],
+        [
+          1767744000000,
+          1228661973.0
         ]
       ]
     },
     "weeklyPerformance": [
       0.2,
-      1.26,
+      0.94,
       null,
       null,
       null,
