@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-07T21:14:20.306117Z",
+  "lastUpdated": "2026-01-08T21:14:16.569372Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, representing a broad measure of the U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a modest decline today, closing down -0.32%. Despite this slight pullback, key technical indicators suggest underlying strength and continued buying interest. The Relative Strength Index (RSI) at 57.34 and the Money Flow Index (MFI) at 63.64 are both comfortably above their neutral 50 levels, indicating that momentum remains leaning bullish and that positive money flow is still present. Furthermore, the consistently high On-Balance Volume (OBV) reinforces that, despite the daily dip, significant selling pressure on heavy volume likely did not occur. This suggests market sentiment is holding cautiously optimistic, with momentum indicators supporting a constructive, rather than defensive, posture.",
-    "change_pct": -0.32,
+    "commentary": "The overall stock market experienced a largely unchanged session today, registering a fractional decline of -0.01%, indicative of a period of consolidation without a clear directional bias. Despite the minimal price movement, technical indicators suggest underlying strength and positive sentiment. The Relative Strength Index (RSI) at 57.22 resides in healthy territory, well above oversold levels and below overbought, signaling balanced momentum. More notably, the Money Flow Index (MFI) at 65.87 points to significant buying pressure and strong capital inflow into the market, suggesting robust underlying demand despite the day's flat performance. On-Balance Volume (OBV) at 1,168,960,597, when considered alongside the high MFI, further implies that volume is largely confirming the accumulation and sustained investor interest at current price levels, suggesting a potentially bullish undercurrent despite the day's stagnant close.",
+    "change_pct": -0.01,
     "technicalIndicators": {
       "rsi": [
-        [
-          1752192000000,
-          67.5
-        ],
         [
           1752278400000,
           null
@@ -747,13 +743,13 @@
         [
           1767744000000,
           57.34
+        ],
+        [
+          1767830400000,
+          57.22
         ]
       ],
       "mfi": [
-        [
-          1752192000000,
-          72.58
-        ],
         [
           1752278400000,
           null
@@ -1473,13 +1469,13 @@
         [
           1767744000000,
           63.64
+        ],
+        [
+          1767830400000,
+          65.87
         ]
       ],
       "obv": [
-        [
-          1752192000000,
-          434073900.0
-        ],
         [
           1752278400000,
           null
@@ -2199,12 +2195,16 @@
         [
           1767744000000,
           1228661973.0
+        ],
+        [
+          1767830400000,
+          1168960597.0
         ]
       ]
     },
     "weeklyPerformance": [
       0.2,
-      0.94,
+      0.92,
       null,
       null,
       null,

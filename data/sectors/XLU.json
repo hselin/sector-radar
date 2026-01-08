@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0242,
-  "change_pct": -2.41,
-  "insights": "The Utilities sector experienced a significant decline of -2.41% today, driven by substantial selling pressure. The Relative Strength Index (RSI) at 13.28 indicates the sector is deeply oversold, suggesting extreme bearish momentum and potentially ripe for a technical bounce, though current sentiment is overwhelmingly negative. The Money Flow Index (MFI) at 47.93, while slightly below neutral, doesn't yet signal extreme volume-driven capitulation to the same extent as the RSI. The On-Balance Volume (OBV), while an absolute figure requiring historical context for trend analysis, in conjunction with the price drop, implies that selling volume likely outweighed buying volume throughout the day, reinforcing the negative performance.",
+  "change_pct": 0.35,
+  "insights": "The Utilities sector saw a modest gain of 0.35% today. However, this slight positive movement is overshadowed by its key technical indicators: an extremely low Relative Strength Index (RSI) of 14.20 signals that the sector is significantly oversold in the short term, implying recent intense selling pressure. The Money Flow Index (MFI) at 47.14, while slightly below neutral, indicates a lack of strong conviction in either direction regarding current money flow. While the On-Balance Volume (OBV) likely saw a marginal increase today, aligning with the positive close, the overall technical picture suggests the sector has experienced substantial recent weakness, potentially positioning it for a technical bounce, despite today's minor recovery.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752192000000,
-        57.77
-      ],
       [
         1752278400000,
         null
@@ -747,13 +743,13 @@
       [
         1767744000000,
         13.28
+      ],
+      [
+        1767830400000,
+        14.2
       ]
     ],
     "mfi": [
-      [
-        1752192000000,
-        69.18
-      ],
       [
         1752278400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1767744000000,
         47.93
+      ],
+      [
+        1767830400000,
+        47.14
       ]
     ],
     "obv": [
-      [
-        1752192000000,
-        71392200.0
-      ],
       [
         1752278400000,
         null
@@ -2199,12 +2195,16 @@
       [
         1767744000000,
         95118489.0
+      ],
+      [
+        1767830400000,
+        117061074.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.16,
-    -3.09,
+    -2.76,
     null,
     null,
     null,
