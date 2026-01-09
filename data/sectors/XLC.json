@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0864,
-  "change_pct": 0.29,
-  "insights": "The Communication Services sector exhibited a modest positive performance today, gaining 0.29%. This upward movement appears to be well-supported by key technical indicators: the RSI at 56.01 suggests healthy buying interest without reaching overbought conditions, while the MFI at 60.82 indicates a robust inflow of capital into the sector. Furthermore, the significant OBV of 184,986,358 confirms that today's positive price action is accompanied by meaningful volume, lending credibility to the gain rather than it being a purely speculative or low-conviction move.",
+  "change_pct": 0.39,
+  "insights": "The Communication Services sector experienced a modest gain of 0.39% today, reflecting a positive but not overheated session. This daily uptick is supported by healthy technicals: the Relative Strength Index (RSI) at 58.88 and the Money Flow Index (MFI) at 60.54 both reside in bullish-leaning territory, suggesting sustained buying interest and positive momentum without indicating an overbought condition. The substantial On-Balance Volume (OBV) at 188,984,959 further indicates an accumulation of buying pressure over time, lending conviction to the sector's current upward trajectory.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752278400000,
-        null
-      ],
       [
         1752364800000,
         null
@@ -747,13 +743,13 @@
       [
         1767830400000,
         56.01
+      ],
+      [
+        1767916800000,
+        58.88
       ]
     ],
     "mfi": [
-      [
-        1752278400000,
-        null
-      ],
       [
         1752364800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1767830400000,
         60.82
+      ],
+      [
+        1767916800000,
+        60.54
       ]
     ],
     "obv": [
-      [
-        1752278400000,
-        null
-      ],
       [
         1752364800000,
         null
@@ -2199,12 +2195,16 @@
       [
         1767830400000,
         184986358.0
+      ],
+      [
+        1767916800000,
+        188984959.0
       ]
     ]
   },
   "weeklyPerformance": [
     -0.72,
-    0.47,
+    0.86,
     null,
     null,
     null,
