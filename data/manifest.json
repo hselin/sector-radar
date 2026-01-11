@@ -1,15 +1,11 @@
 {
-  "lastUpdated": "2026-01-10T21:07:29.778805Z",
+  "lastUpdated": "2026-01-11T21:08:18.766950Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, representing a broad measure of the U.S. equity market.",
-      "marketSizeUSD": "49T",
-      "constituentCount": 503,
+      "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "48T",
+      "constituentCount": 500,
       "topHoldings": [
-        {
-          "name": "NVIDIA Corporation",
-          "symbol": "NVDA"
-        },
         {
           "name": "Microsoft Corporation",
           "symbol": "MSFT"
@@ -17,10 +13,14 @@
         {
           "name": "Apple Inc.",
           "symbol": "AAPL"
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "symbol": "NVDA"
         }
       ]
     },
-    "commentary": "The broader stock market experienced a modest gain today, closing up 0.66%. This upward movement was supported by technical indicators suggesting healthy underlying momentum. The Relative Strength Index (RSI) at 61.59 indicates strong buying pressure, remaining below overbought levels but firmly in bullish territory. Complementing this, the Money Flow Index (MFI) at 64.64 reinforces this positive trend, suggesting a healthy influx of capital into the market. Furthermore, the high On-Balance Volume (OBV) figure of 1,235,093,727 confirms robust investor participation and buying interest, as significant volume accompanied the upward price movement. Collectively, these figures point to a market where positive momentum is well-supported by active capital flows and sustained bullish sentiment, without yet reaching extreme overextension.",
+    "commentary": "The stock market concluded the day with a solid gain of 0.66%, indicating positive momentum. This upward movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 61.59 and the Money Flow Index (MFI) at 64.64 both suggest strong buying pressure and significant capital inflow, with the market showing robust bullish sentiment without yet entering extreme overbought territory. The On-Balance Volume (OBV) at 1,235,093,727 further confirms sustained accumulation and strong participation from buyers, collectively painting a picture of confident market sentiment and healthy momentum underpinning today's performance.",
     "change_pct": 0.66,
     "technicalIndicators": {
       "rsi": [
