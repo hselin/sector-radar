@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector encompasses companies engaged in providing medical services, manufacturing pharmaceuticals, biotechnologies, and medical devices, and developing health-related technologies.",
-    "marketSizeUSD": "6.2T",
-    "constituentCount": 68,
+    "description": "The Health Care sector encompasses companies that provide medical services or equipment, manufacture drugs, and develop biotechnological products, aiming to improve health outcomes.",
+    "marketSizeUSD": "7.0T",
+    "constituentCount": 65,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1071,
-  "change_pct": -0.56,
-  "insights": "The Health Care sector experienced a modest decline today, falling -0.56%. Technically, the Relative Strength Index (RSI) at 57.99 suggests that despite this dip, the underlying momentum remains neutral-to-slightly bullish, well above oversold levels. However, the Money Flow Index (MFI) at 46.46 indicates a slight outflow of capital, confirming the lack of buying conviction associated with the price drop. The On-Balance Volume (OBV) currently at 130,347,243 reinforces the cumulative volume activity; while its precise daily change is key, a declining OBV would confirm selling pressure accompanying today's negative close. In essence, the sector experienced a minor pullback with some capital exiting, but without signaling a significant shift in its broader trend based on these indicators.",
+  "market_weight": 0.1338,
+  "change_pct": 0.06,
+  "insights": "The Health Care sector experienced a virtually flat day, recording a negligible gain of 0.06%. Key technical indicators paint a picture of mixed momentum: The Relative Strength Index (RSI) at 58.27 indicates a neutral-to-slightly-bullish sentiment, reflecting the minor positive price movement without strong conviction. However, the Money Flow Index (MFI) at 39.14, being below 50, suggests a net outflow of capital from the sector, hinting that the slight price appreciation wasn't supported by significant new money entering. The On-Balance Volume (OBV) of 141,998,084, while high, would have likely seen a minor increase corresponding to the positive price change, but the MFI data implies that this buying volume lacked strong conviction or sustained capital inflow, indicating underlying weakness despite the fractional gain.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752364800000,
-        null
-      ],
-      [
-        1752451200000,
-        51.31
-      ],
-      [
-        1752537600000,
-        41.94
-      ],
       [
         1752624000000,
         48.78
@@ -747,21 +735,21 @@
       [
         1767916800000,
         57.99
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        62.04
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        54.72
-      ],
+        1768176000000,
+        58.27
+      ]
+    ],
+    "mfi": [
       [
         1752624000000,
         55.2
@@ -1473,21 +1461,21 @@
       [
         1767916800000,
         46.46
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        7414500.0
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        -9681100.0
-      ],
+        1768176000000,
+        39.14
+      ]
+    ],
+    "obv": [
       [
         1752624000000,
         4461000.0
@@ -2199,13 +2187,25 @@
       [
         1767916800000,
         130347243.0
+      ],
+      [
+        1768003200000,
+        null
+      ],
+      [
+        1768089600000,
+        null
+      ],
+      [
+        1768176000000,
+        141998084.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.45,
     1.14,
-    null,
+    0.06,
     null,
     null,
     null,

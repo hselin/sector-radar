@@ -1,8 +1,8 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, as well as diversified multi-utility services.",
-    "marketSizeUSD": "1.4T",
+    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, as well as multi-utilities.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 29,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0242,
-  "change_pct": 1.21,
-  "insights": "The Utilities sector saw a modest gain of 1.21% today, a move that potentially signals a short-term rebound from extremely oversold conditions, as indicated by its very low Relative Strength Index (RSI) of 17.51. While the Money Flow Index (MFI) at 46.92 remains relatively neutral, suggesting money flow isn't strongly confirming a sustained upward trend yet, the increase in On-Balance Volume (OBV) following today's positive price action does provide some confirmation of buying interest. Overall, the sector appears to be attempting to stabilize after recent weakness, with today's price action reflecting a potential bounce from an oversold state, supported by rising volume.",
+  "market_weight": 0.0325,
+  "change_pct": 0.16,
+  "insights": "The Utilities sector experienced a largely flat session today, eking out a modest gain of 0.16%. This minimal upward movement comes as its Relative Strength Index (RSI) registers an extremely low 17.98, signaling that the sector is severely oversold and potentially due for a technical rebound. However, the Money Flow Index (MFI) at 47.91, hovering just below 50, suggests that despite the oversold condition, there wasn't strong positive money flow or significant buying conviction today. The On-Balance Volume (OBV) of 154,222,629, while indicating cumulative volume, aligns with the day's marginal price uptick, suggesting a slight positive balance in volume but no substantial accumulation to confirm a decisive trend reversal from its deeply oversold state.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752364800000,
-        null
-      ],
-      [
-        1752451200000,
-        59.72
-      ],
-      [
-        1752537600000,
-        53.37
-      ],
       [
         1752624000000,
         53.64
@@ -747,21 +735,21 @@
       [
         1767916800000,
         17.51
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        69.08
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        62.54
-      ],
+        1768176000000,
+        17.98
+      ]
+    ],
+    "mfi": [
       [
         1752624000000,
         63.18
@@ -1473,21 +1461,21 @@
       [
         1767916800000,
         46.92
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        83333900.0
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        70207400.0
-      ],
+        1768176000000,
+        47.91
+      ]
+    ],
+    "obv": [
       [
         1752624000000,
         81519900.0
@@ -2199,13 +2187,25 @@
       [
         1767916800000,
         137949542.0
+      ],
+      [
+        1768003200000,
+        null
+      ],
+      [
+        1768089600000,
+        null
+      ],
+      [
+        1768176000000,
+        154222629.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.16,
     -1.57,
-    null,
+    0.16,
     null,
     null,
     null,

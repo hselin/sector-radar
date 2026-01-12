@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises companies engaged in software development, IT services, semiconductors and semiconductor equipment, and technology hardware and storage.",
-    "marketSizeUSD": "14.0T",
-    "constituentCount": 69,
+    "description": "The Information Technology sector encompasses companies involved in the production of software, hardware, semiconductors, and the provision of IT services, ranging from enterprise solutions to consumer electronics.",
+    "marketSizeUSD": "14.5T",
+    "constituentCount": 68,
     "topHoldings": [
-      {
-        "name": "Apple Inc.",
-        "symbol": "AAPL"
-      },
       {
         "name": "Microsoft Corp.",
         "symbol": "MSFT"
+      },
+      {
+        "name": "Apple Inc.",
+        "symbol": "AAPL"
       },
       {
         "name": "NVIDIA Corp.",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2418,
-  "change_pct": 1.34,
-  "insights": "The Information Technology sector demonstrated a strong positive performance today, gaining 1.34%. While its Relative Strength Index (RSI) at 23.76 indicates the sector was in an oversold condition, suggesting today's rally could be a technical bounce or a sign of renewed buying interest after recent pressure, the Money Flow Index (MFI) at 73.27 points to strong buying pressure and significant capital inflow accompanying this rise. The substantial On-Balance Volume (OBV) of 293,508,249 further reinforces that today's positive price action was supported by considerable volume, suggesting conviction behind the recent accumulation despite prior weakness.",
+  "market_weight": 0.2772,
+  "change_pct": 0.42,
+  "insights": "The Information Technology sector posted a modest gain of 0.42% today. Despite this positive movement, the Relative Strength Index (RSI) at 24.82 indicates the sector remains in oversold territory, suggesting it may have recently experienced significant downward pressure. However, the Money Flow Index (MFI) at 73.31 signals strong buying interest and significant capital inflow into the sector, potentially as investors capitalize on perceived undervaluation. The substantial On-Balance Volume (OBV) of 305,820,398 further reflects this cumulative buying pressure, hinting that while momentum indicators suggest oversold conditions, there's active interest supporting the current positive movement and potential for further recovery.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752364800000,
-        null
-      ],
-      [
-        1752451200000,
-        67.52
-      ],
-      [
-        1752537600000,
-        70.38
-      ],
       [
         1752624000000,
         71.34
@@ -747,21 +735,21 @@
       [
         1767916800000,
         23.76
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        65.88
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        66.9
-      ],
+        1768176000000,
+        24.82
+      ]
+    ],
+    "mfi": [
       [
         1752624000000,
         58.18
@@ -1473,21 +1461,21 @@
       [
         1767916800000,
         73.27
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        66508000.0
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        74336500.0
-      ],
+        1768176000000,
+        73.31
+      ]
+    ],
+    "obv": [
       [
         1752624000000,
         83227800.0
@@ -2199,13 +2187,25 @@
       [
         1767916800000,
         293508249.0
+      ],
+      [
+        1768003200000,
+        null
+      ],
+      [
+        1768089600000,
+        null
+      ],
+      [
+        1768176000000,
+        305820398.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.22,
     1.31,
-    null,
+    0.42,
     null,
     null,
     null,

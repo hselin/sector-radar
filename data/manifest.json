@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-11T21:08:18.766950Z",
+  "lastUpdated": "2026-01-12T21:18:42.512722Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a solid gain of 0.66%, indicating positive momentum. This upward movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 61.59 and the Money Flow Index (MFI) at 64.64 both suggest strong buying pressure and significant capital inflow, with the market showing robust bullish sentiment without yet entering extreme overbought territory. The On-Balance Volume (OBV) at 1,235,093,727 further confirms sustained accumulation and strong participation from buyers, collectively painting a picture of confident market sentiment and healthy momentum underpinning today's performance.",
-    "change_pct": 0.66,
+    "commentary": "Commentary could not be generated due to a persistent network error.",
+    "change_pct": 0.17,
     "technicalIndicators": {
       "rsi": [
-        [
-          1752364800000,
-          null
-        ],
-        [
-          1752451200000,
-          68.38
-        ],
-        [
-          1752537600000,
-          64.17
-        ],
         [
           1752624000000,
           65.93
@@ -747,21 +735,21 @@
         [
           1767916800000,
           61.59
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1752364800000,
+          1768003200000,
           null
         ],
         [
-          1752451200000,
-          71.65
+          1768089600000,
+          null
         ],
         [
-          1752537600000,
-          71.9
-        ],
+          1768176000000,
+          62.67
+        ]
+      ],
+      "mfi": [
         [
           1752624000000,
           63.62
@@ -1473,21 +1461,21 @@
         [
           1767916800000,
           64.64
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1752364800000,
+          1768003200000,
           null
         ],
         [
-          1752451200000,
-          485972400.0
+          1768089600000,
+          null
         ],
         [
-          1752537600000,
-          411655100.0
-        ],
+          1768176000000,
+          63.49
+        ]
+      ],
+      "obv": [
         [
           1752624000000,
           500642600.0
@@ -2199,13 +2187,25 @@
         [
           1767916800000,
           1235093727.0
+        ],
+        [
+          1768003200000,
+          null
+        ],
+        [
+          1768089600000,
+          null
+        ],
+        [
+          1768176000000,
+          1294582932.0
         ]
       ]
     },
     "weeklyPerformance": [
       0.2,
       1.59,
-      null,
+      0.17,
       null,
       null,
       null,

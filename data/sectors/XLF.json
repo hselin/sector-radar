@@ -1,41 +1,29 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector comprises companies engaged in banking, diversified financial services, insurance, and real estate, facilitating monetary transactions and managing assets.",
-    "marketSizeUSD": "14.0T",
-    "constituentCount": 68,
+    "description": "The Financials GICS sector includes companies primarily engaged in banking, diversified financial services, insurance, and capital markets.",
+    "marketSizeUSD": "5.4T",
+    "constituentCount": 72,
     "topHoldings": [
-      {
-        "name": "JPMorgan Chase & Co.",
-        "symbol": "JPM"
-      },
       {
         "name": "Berkshire Hathaway Inc.",
         "symbol": "BRK.B"
       },
       {
-        "name": "Bank of America Corp.",
-        "symbol": "BAC"
+        "name": "JPMorgan Chase & Co.",
+        "symbol": "JPM"
+      },
+      {
+        "name": "Visa Inc.",
+        "symbol": "V"
       }
     ]
   },
-  "market_weight": 0.2418,
-  "change_pct": -0.34,
-  "insights": "The Financials sector experienced a minor pullback today, declining by 0.34%. Technical indicators suggest this was a consolidation within a broader trend rather than a significant reversal. The Relative Strength Index (RSI) at 59.30 and Money Flow Index (MFI) at 61.49 both sit in healthy, neutral-to-bullish territory, indicating that despite today's slight dip, the sector maintains underlying momentum without being overbought, and positive money flow persists. The substantial On-Balance Volume (OBV) at 354,288,552 reflects significant cumulative buying pressure over time, suggesting that today's modest decline did not trigger a substantial unwinding of positions, with broader market participation remaining robust in the sector.",
+  "market_weight": 0.1033,
+  "change_pct": -0.8,
+  "insights": "The Financials sector experienced a modest decline of -0.80% today, suggesting a slight pullback. Despite this daily dip, key technical indicators point towards a largely neutral sentiment rather than strong directional conviction. The Relative Strength Index (RSI) at 54.13 and the Money Flow Index (MFI) at 52.07 are both situated near their respective midpoints, indicating the sector is neither overbought nor oversold and does not show significant buying or selling pressure based on momentum and volume. The On-Balance Volume (OBV) stands at 314,148,296; while a cumulative measure, its current level in the context of today's moderate price drop does not indicate that the selling pressure was overwhelming enough to significantly alter its established trend or signal a strong shift in volume accumulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752364800000,
-        null
-      ],
-      [
-        1752451200000,
-        59.14
-      ],
-      [
-        1752537600000,
-        49.58
-      ],
       [
         1752624000000,
         52.86
@@ -747,21 +735,21 @@
       [
         1767916800000,
         59.3
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        70.05
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        61.17
-      ],
+        1768176000000,
+        54.13
+      ]
+    ],
+    "mfi": [
       [
         1752624000000,
         59.57
@@ -1473,21 +1461,21 @@
       [
         1767916800000,
         61.49
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        -13376400.0
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        -61081000.0
-      ],
+        1768176000000,
+        52.07
+      ]
+    ],
+    "obv": [
       [
         1752624000000,
         -14354500.0
@@ -2199,13 +2187,25 @@
       [
         1767916800000,
         354288552.0
+      ],
+      [
+        1768003200000,
+        null
+      ],
+      [
+        1768089600000,
+        null
+      ],
+      [
+        1768176000000,
+        314148296.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.31,
     1.43,
-    null,
+    -0.8,
     null,
     null,
     null,

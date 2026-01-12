@@ -1,17 +1,17 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and distribute essential goods and services, such as food, beverages, tobacco, household products, and personal care items, which consumers purchase regularly regardless of economic conditions.",
-    "marketSizeUSD": "3.9T",
-    "constituentCount": 37,
+    "description": "The Consumer Staples sector comprises companies that produce and distribute essential goods and services that consumers purchase regardless of economic conditions.",
+    "marketSizeUSD": "2.9T",
+    "constituentCount": 34,
     "topHoldings": [
+      {
+        "name": "Walmart Inc.",
+        "symbol": "WMT"
+      },
       {
         "name": "Procter & Gamble Co.",
         "symbol": "PG"
-      },
-      {
-        "name": "PepsiCo, Inc.",
-        "symbol": "PEP"
       },
       {
         "name": "The Coca-Cola Company",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0674,
-  "change_pct": 1.03,
-  "insights": "The Consumer Staples sector posted a solid 1.03% gain today, indicating positive investor sentiment. This upward movement is supported by an RSI of 58.31, suggesting increasing bullish momentum without yet entering overbought territory, thus leaving room for further appreciation. However, the Money Flow Index (MFI) at 46.46, sitting slightly below the neutral 50 level, implies that while prices advanced, the volume-weighted money flow isn't overwhelmingly strong, suggesting the day's buying might not have been accompanied by significant institutional conviction. The substantial OBV of 51094665, a cumulative volume indicator, generally reflects underlying buying interest, broadly aligning with the positive price action. Overall, the sector shows positive price and momentum, but with a nuanced perspective on the depth of daily money flow.",
+  "market_weight": 0.0554,
+  "change_pct": 1.2,
+  "insights": "The Consumer Staples sector demonstrated robust performance today, posting a solid 1.20% gain. This upward movement is supported by its key technical indicators: The Relative Strength Index (RSI) at 63.54 indicates strong positive momentum, approaching overbought territory but not yet excessively extended, suggesting healthy buying interest. Complementing this, the Money Flow Index (MFI) at 55.61 reinforces that capital is flowing into the sector, validating the price appreciation with underlying volume. The On-Balance Volume (OBV) at 70,772,561 further confirms that today's ascent was driven by positive net volume, indicating strong participant conviction behind the gains.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752364800000,
-        null
-      ],
-      [
-        1752451200000,
-        46.09
-      ],
-      [
-        1752537600000,
-        39.88
-      ],
       [
         1752624000000,
         42.75
@@ -747,21 +735,21 @@
       [
         1767916800000,
         58.31
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        49.57
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        42.79
-      ],
+        1768176000000,
+        63.54
+      ]
+    ],
+    "mfi": [
       [
         1752624000000,
         42.28
@@ -1473,21 +1461,21 @@
       [
         1767916800000,
         46.46
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        9913000.0
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        -7768600.0
-      ],
+        1768176000000,
+        55.61
+      ]
+    ],
+    "obv": [
       [
         1752624000000,
         7865000.0
@@ -2199,13 +2187,25 @@
       [
         1767916800000,
         51094665.0
+      ],
+      [
+        1768003200000,
+        null
+      ],
+      [
+        1768089600000,
+        null
+      ],
+      [
+        1768176000000,
+        70772561.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.01,
     1.98,
-    null,
+    1.2,
     null,
     null,
     null,

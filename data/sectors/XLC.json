@@ -1,16 +1,16 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment, interactive media and services, and social media platforms.",
+    "description": "The Communication Services GICS sector includes companies that provide telecommunication services, media & entertainment, and interactive media & services.",
     "marketSizeUSD": "5.0T",
-    "constituentCount": 21,
+    "constituentCount": 23,
     "topHoldings": [
       {
-        "name": "Alphabet Inc. Class A",
+        "name": "Alphabet Inc.",
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms, Inc.",
+        "name": "Meta Platforms Inc.",
         "symbol": "META"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0864,
-  "change_pct": 0.39,
-  "insights": "The Communication Services sector experienced a modest gain of 0.39% today, reflecting a positive but not overheated session. This daily uptick is supported by healthy technicals: the Relative Strength Index (RSI) at 58.88 and the Money Flow Index (MFI) at 60.54 both reside in bullish-leaning territory, suggesting sustained buying interest and positive momentum without indicating an overbought condition. The substantial On-Balance Volume (OBV) at 188,984,959 further indicates an accumulation of buying pressure over time, lending conviction to the sector's current upward trajectory.",
+  "market_weight": 0.0956,
+  "change_pct": -0.32,
+  "insights": "The Communication Services sector saw a modest decline of -0.32% today, reflecting a largely neutral trading session. Key technical indicators support this muted movement; the Relative Strength Index (RSI) at 55.69 suggests the sector is neither overbought nor oversold, indicating balanced momentum. Similarly, the Money Flow Index (MFI) at 51.59 points to an equilibrium in capital flows, with no strong institutional buying or selling pressure dominating the day. The On-Balance Volume (OBV) standing at 183,443,877, while a cumulative measure, indicates sustained buying interest over the longer term, suggesting that today's slight dip was minor within the broader context of accumulation and did not signal a significant shift in underlying market sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752364800000,
-        null
-      ],
-      [
-        1752451200000,
-        60.14
-      ],
-      [
-        1752537600000,
-        53.96
-      ],
       [
         1752624000000,
         55.45
@@ -747,21 +735,21 @@
       [
         1767916800000,
         58.88
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        58.25
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        51.08
-      ],
+        1768176000000,
+        55.69
+      ]
+    ],
+    "mfi": [
       [
         1752624000000,
         43.75
@@ -1473,21 +1461,21 @@
       [
         1767916800000,
         60.54
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        117368300.0
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        111554800.0
-      ],
+        1768176000000,
+        51.59
+      ]
+    ],
+    "obv": [
       [
         1752624000000,
         118367400.0
@@ -2199,13 +2187,25 @@
       [
         1767916800000,
         188984959.0
+      ],
+      [
+        1768003200000,
+        null
+      ],
+      [
+        1768089600000,
+        null
+      ],
+      [
+        1768176000000,
+        183443877.0
       ]
     ]
   },
   "weeklyPerformance": [
     -0.72,
     0.86,
-    null,
+    -0.32,
     null,
     null,
     null,

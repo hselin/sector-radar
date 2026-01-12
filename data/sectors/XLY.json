@@ -1,16 +1,16 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises industries that are most sensitive to economic cycles, including retail (excluding food and drug), automotive, household durable goods, leisure products, apparel, hotels, restaurants, and various media services, typically purchased with disposable income.",
-    "marketSizeUSD": "4.9T",
-    "constituentCount": 54,
+    "description": "The Consumer Discretionary sector includes companies providing non-essential goods and services that consumers purchase with their disposable income, making it sensitive to economic cycles.",
+    "marketSizeUSD": "5.8T",
+    "constituentCount": 56,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc.",
+        "name": "Amazon.com, Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc.",
+        "name": "Tesla, Inc.",
         "symbol": "TSLA"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0846,
-  "change_pct": 1.24,
-  "insights": "The Consumer Discretionary sector experienced a positive day, gaining 1.24%. While this indicates buying interest, the Relative Strength Index (RSI) at 27.51 suggests the sector remains in deeply oversold territory, implying today's bounce could be a short-term rebound from prior weakness rather than a definitive trend reversal. Complementing the price action, the Money Flow Index (MFI) at 60.41 confirms positive money flow into the sector today, indicating active buying. The On-Balance Volume (OBV) of 60438627, by nature of the positive close, shows that today's price appreciation was accompanied by volume, lending some immediate credibility to the session's upward move.",
+  "market_weight": 0.1109,
+  "change_pct": 0.06,
+  "insights": "The Consumer Discretionary sector posted a largely flat performance today, registering a marginal 0.06% gain. Key technical indicators present a nuanced picture: the Relative Strength Index (RSI) at 27.66 indicates the sector is currently oversold, potentially signaling a near-term rebound opportunity. However, the Money Flow Index (MFI) at 67.45 suggests strong money inflow and sustained buying interest, despite the minimal daily price appreciation. This, coupled with a robust positive On-Balance Volume (OBV) of 69,131,855, indicates underlying accumulation, suggesting that while price movement was subdued, there may be a developing buying base at these lower levels.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752364800000,
-        null
-      ],
-      [
-        1752451200000,
-        63.14
-      ],
-      [
-        1752537600000,
-        55.29
-      ],
       [
         1752624000000,
         56.03
@@ -747,21 +735,21 @@
       [
         1767916800000,
         27.51
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        66.64
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        58.5
-      ],
+        1768176000000,
+        27.66
+      ]
+    ],
+    "mfi": [
       [
         1752624000000,
         56.17
@@ -1473,21 +1461,21 @@
       [
         1767916800000,
         60.41
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        -810100.0
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        -5876700.0
-      ],
+        1768176000000,
+        67.45
+      ]
+    ],
+    "obv": [
       [
         1752624000000,
         1114600.0
@@ -2199,13 +2187,25 @@
       [
         1767916800000,
         60438627.0
+      ],
+      [
+        1768003200000,
+        null
+      ],
+      [
+        1768089600000,
+        null
+      ],
+      [
+        1768176000000,
+        69131855.0
       ]
     ]
   },
   "weeklyPerformance": [
     -0.87,
     5.14,
-    null,
+    0.06,
     null,
     null,
     null,

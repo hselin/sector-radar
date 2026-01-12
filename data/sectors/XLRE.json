@@ -1,41 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector primarily comprises Equity Real Estate Investment Trusts (REITs) and real estate management and development companies, focusing on owning, developing, and managing income-producing properties.",
-    "marketSizeUSD": "1.1T",
-    "constituentCount": 31,
+    "description": "The Real Estate sector comprises Equity Real Estate Investment Trusts (REITs) and companies that manage, develop, or own real estate properties.",
+    "marketSizeUSD": "2.5T",
+    "constituentCount": 32,
     "topHoldings": [
       {
         "name": "Prologis, Inc.",
         "symbol": "PLD"
       },
       {
-        "name": "American Tower Corporation",
-        "symbol": "AMT"
-      },
-      {
         "name": "Equinix, Inc.",
         "symbol": "EQIX"
+      },
+      {
+        "name": "Public Storage",
+        "symbol": "PSA"
       }
     ]
   },
-  "market_weight": 0.019,
-  "change_pct": 0.12,
-  "insights": "The Real Estate sector concluded the day with a marginal gain of 0.12%, indicating a largely flat performance. Technical indicators largely support this subdued activity: the RSI at 48.03 and MFI at 54.96 both hover around their neutral midpoints, suggesting neither significant overbought/oversold conditions nor strong money inflow/outflow for the day. However, the substantially negative On-Balance Volume (OBV) of -5,446,248, while a cumulative figure, hints at an underlying pattern of more volume on down days than up days historically, suggesting potential distribution or a lack of strong persistent buying interest, even on a day with a slight positive close. Overall, the sector lacks immediate directional conviction.",
+  "market_weight": 0.0478,
+  "change_pct": 0.28,
+  "insights": "The Real Estate sector concluded today with a modest gain, appreciating by 0.28%. This positive movement is subtly supported by underlying technical indicators: the Money Flow Index (MFI) at 62.19 suggests a healthy net inflow of capital into the sector, indicating stronger buying interest. The Relative Strength Index (RSI) at 50.22 sits at a neutral midpoint, implying balanced momentum and that today's increase was not driven by extreme overbought conditions. Concurrently, the On-Balance Volume (OBV) at 2,879,141, a cumulative measure of volume flow, indicates that the price appreciation was accompanied by buying volume, reflecting measured investor confidence in the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752364800000,
-        null
-      ],
-      [
-        1752451200000,
-        54.58
-      ],
-      [
-        1752537600000,
-        45.41
-      ],
       [
         1752624000000,
         52.56
@@ -747,21 +735,21 @@
       [
         1767916800000,
         48.03
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        46.48
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        40.78
-      ],
+        1768176000000,
+        50.22
+      ]
+    ],
+    "mfi": [
       [
         1752624000000,
         50.25
@@ -1473,21 +1461,21 @@
       [
         1767916800000,
         54.96
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        28307900.0
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        21880400.0
-      ],
+        1768176000000,
+        62.19
+      ]
+    ],
+    "obv": [
       [
         1752624000000,
         30368300.0
@@ -2199,13 +2187,25 @@
       [
         1767916800000,
         -5446248.0
+      ],
+      [
+        1768003200000,
+        null
+      ],
+      [
+        1768089600000,
+        null
+      ],
+      [
+        1768176000000,
+        2879141.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.04,
     0.32,
-    null,
+    0.28,
     null,
     null,
     null,

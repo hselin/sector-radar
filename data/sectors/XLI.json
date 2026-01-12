@@ -1,41 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector comprises companies involved in manufacturing and distributing capital goods, providing commercial and professional services, and offering transportation services.",
-    "marketSizeUSD": "4.5T",
-    "constituentCount": 76,
+    "description": "The Industrials sector includes companies that manufacture and distribute capital goods, provide commercial services and supplies, and engage in transportation, aerospace, and defense industries.",
+    "marketSizeUSD": "4.1T",
+    "constituentCount": 73,
     "topHoldings": [
       {
-        "name": "General Electric",
+        "name": "GE Aerospace",
         "symbol": "GE"
-      },
-      {
-        "name": "RTX Corporation",
-        "symbol": "RTX"
       },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
+      },
+      {
+        "name": "Union Pacific Corp",
+        "symbol": "UNP"
       }
     ]
   },
-  "market_weight": 0.0777,
-  "change_pct": 1.13,
-  "insights": "The Industrials sector demonstrated a robust performance today, posting a solid 1.13% gain. This positive movement is well-supported by key technical indicators: the Relative Strength Index (RSI) at 63.83 signals strong bullish momentum, approaching but not yet in extreme overbought territory, suggesting potential for continued upside. The Money Flow Index (MFI) at 74.04 further reinforces this, indicating significant capital inflow and strong buying pressure within the sector. While the On-Balance Volume (OBV) at 109,673,782 reflects broad accumulation, confirming that the day's price appreciation is accompanied by substantial trading volume, validating the upward trend.",
+  "market_weight": 0.0784,
+  "change_pct": 0.75,
+  "insights": "The Industrials sector demonstrated solid performance today, rising 0.75%. This positive movement is supported by technical indicators, with the Relative Strength Index (RSI) at 66.13, indicating strong upward momentum, though approaching the upper bound often signaling overbought conditions. Further reinforcing this trend, the Money Flow Index (MFI) at 74.31 suggests robust capital inflows into the sector, albeit signaling it is becoming somewhat extended. The high On-Balance Volume (OBV) of 117,002,274 also supports the narrative of consistent buying pressure over time, validating the current positive price action. Collectively, these metrics point to a sector experiencing strong bullish sentiment and significant demand, although investors should monitor for potential short-term consolidation given the elevated momentum readings.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752364800000,
-        null
-      ],
-      [
-        1752451200000,
-        72.83
-      ],
-      [
-        1752537600000,
-        65.74
-      ],
       [
         1752624000000,
         67.34
@@ -747,21 +735,21 @@
       [
         1767916800000,
         63.83
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        73.48
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        66.06
-      ],
+        1768176000000,
+        66.13
+      ]
+    ],
+    "mfi": [
       [
         1752624000000,
         65.77
@@ -1473,21 +1461,21 @@
       [
         1767916800000,
         74.04
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752364800000,
+        1768003200000,
         null
       ],
       [
-        1752451200000,
-        14870500.0
+        1768089600000,
+        null
       ],
       [
-        1752537600000,
-        4591800.0
-      ],
+        1768176000000,
+        74.31
+      ]
+    ],
+    "obv": [
       [
         1752624000000,
         14590100.0
@@ -2199,13 +2187,25 @@
       [
         1767916800000,
         109673782.0
+      ],
+      [
+        1768003200000,
+        null
+      ],
+      [
+        1768089600000,
+        null
+      ],
+      [
+        1768176000000,
+        117002274.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.87,
     2.51,
-    null,
+    0.75,
     null,
     null,
     null,
