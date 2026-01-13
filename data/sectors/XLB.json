@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector includes companies that are primarily engaged in discovering, developing, and processing raw materials.",
-    "marketSizeUSD": "1.1T",
+    "description": "The Materials GICS sector includes companies engaged in discovering, developing, and processing raw materials used across various industries, such as chemicals, metals, mining, construction materials, and packaging.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -14,20 +14,16 @@
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc.",
+        "name": "Ecolab Inc",
         "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.021,
-  "change_pct": 0.54,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.0321,
+  "change_pct": 0.43,
+  "insights": "The Materials sector posted a modest 0.43% gain today. Technically, the Relative Strength Index (RSI) at 34.99 suggests the sector is not currently overbought and could have further room for appreciation or has experienced recent price weakness. Conversely, the Money Flow Index (MFI) at 81.69 indicates strong capital inflow, nearing overbought levels for money entering the sector. The On-Balance Volume (OBV) also increased, consistent with the daily price gain. This combination suggests that despite the relatively small daily price increase, there is robust buying interest and accumulation taking place within the sector, potentially signaling underlying strength or a battle between supply and demand after recent trends.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752624000000,
-        51.26
-      ],
       [
         1752710400000,
         54.26
@@ -747,13 +743,13 @@
       [
         1768176000000,
         33.97
+      ],
+      [
+        1768262400000,
+        34.99
       ]
     ],
     "mfi": [
-      [
-        1752624000000,
-        57.84
-      ],
       [
         1752710400000,
         58.21
@@ -1473,13 +1469,13 @@
       [
         1768176000000,
         81.4
+      ],
+      [
+        1768262400000,
+        81.69
       ]
     ],
     "obv": [
-      [
-        1752624000000,
-        -149300.0
-      ],
       [
         1752710400000,
         5771100.0
@@ -2199,13 +2195,17 @@
       [
         1768176000000,
         46218301.0
+      ],
+      [
+        1768262400000,
+        56746943.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.71,
     4.65,
-    0.54,
+    0.97,
     null,
     null,
     null,

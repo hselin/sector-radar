@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-12T21:18:42.512722Z",
+  "lastUpdated": "2026-01-13T21:14:37.934652Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Commentary could not be generated due to a persistent network error.",
-    "change_pct": 0.17,
+    "commentary": "The stock market experienced a marginal decline today, closing down 0.20%. Despite this slight pullback, key technical indicators suggest underlying resilience and constructive sentiment. The Relative Strength Index (RSI) at 60.57 indicates that while the market is not yet overbought, there's healthy upward momentum. Similarly, the Money Flow Index (MFI) at 55.13 points to continued, albeit moderate, capital inflow into the market. Furthermore, the robust On-Balance Volume (OBV) reading of 1,223,409,728 suggests a sustained buying interest over time, potentially cushioning the current minor dip and hinting at continued support below the surface.",
+    "change_pct": -0.2,
     "technicalIndicators": {
       "rsi": [
-        [
-          1752624000000,
-          65.93
-        ],
         [
           1752710400000,
           68.95
@@ -747,13 +743,13 @@
         [
           1768176000000,
           62.67
+        ],
+        [
+          1768262400000,
+          60.57
         ]
       ],
       "mfi": [
-        [
-          1752624000000,
-          63.62
-        ],
         [
           1752710400000,
           63.33
@@ -1473,13 +1469,13 @@
         [
           1768176000000,
           63.49
+        ],
+        [
+          1768262400000,
+          55.13
         ]
       ],
       "obv": [
-        [
-          1752624000000,
-          500642600.0
-        ],
         [
           1752710400000,
           569528300.0
@@ -2199,13 +2195,17 @@
         [
           1768176000000,
           1294582932.0
+        ],
+        [
+          1768262400000,
+          1223409728.0
         ]
       ]
     },
     "weeklyPerformance": [
       0.2,
       1.59,
-      0.17,
+      -0.02,
       null,
       null,
       null,

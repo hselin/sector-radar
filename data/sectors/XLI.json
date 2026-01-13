@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0784,
-  "change_pct": 0.75,
-  "insights": "The Industrials sector demonstrated solid performance today, rising 0.75%. This positive movement is supported by technical indicators, with the Relative Strength Index (RSI) at 66.13, indicating strong upward momentum, though approaching the upper bound often signaling overbought conditions. Further reinforcing this trend, the Money Flow Index (MFI) at 74.31 suggests robust capital inflows into the sector, albeit signaling it is becoming somewhat extended. The high On-Balance Volume (OBV) of 117,002,274 also supports the narrative of consistent buying pressure over time, validating the current positive price action. Collectively, these metrics point to a sector experiencing strong bullish sentiment and significant demand, although investors should monitor for potential short-term consolidation given the elevated momentum readings.",
+  "market_weight": 0.0775,
+  "change_pct": 0.51,
+  "insights": "The Industrials sector advanced by a modest 0.51% today, supported by strong buying interest. The Relative Strength Index (RSI) at 67.64 indicates significant positive momentum, while the Money Flow Index (MFI) at 75.41 highlights substantial capital inflow into the sector, suggesting investor conviction behind today's move. Both indicators are approaching overbought levels, signaling increased investor enthusiasm and potentially extended short-term valuations. The On-Balance Volume (OBV) of 126,432,227, implicitly rising with today's positive close, confirms that the price appreciation was backed by healthy trading volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752624000000,
-        67.34
-      ],
       [
         1752710400000,
         71.16
@@ -747,13 +743,13 @@
       [
         1768176000000,
         66.13
+      ],
+      [
+        1768262400000,
+        67.64
       ]
     ],
     "mfi": [
-      [
-        1752624000000,
-        65.77
-      ],
       [
         1752710400000,
         66.73
@@ -1473,13 +1469,13 @@
       [
         1768176000000,
         74.31
+      ],
+      [
+        1768262400000,
+        75.41
       ]
     ],
     "obv": [
-      [
-        1752624000000,
-        14590100.0
-      ],
       [
         1752710400000,
         27964300.0
@@ -2199,13 +2195,17 @@
       [
         1768176000000,
         117002274.0
+      ],
+      [
+        1768262400000,
+        126432227.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.87,
     2.51,
-    0.75,
+    1.27,
     null,
     null,
     null,

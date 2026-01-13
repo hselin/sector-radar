@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0956,
-  "change_pct": -0.32,
-  "insights": "The Communication Services sector saw a modest decline of -0.32% today, reflecting a largely neutral trading session. Key technical indicators support this muted movement; the Relative Strength Index (RSI) at 55.69 suggests the sector is neither overbought nor oversold, indicating balanced momentum. Similarly, the Money Flow Index (MFI) at 51.59 points to an equilibrium in capital flows, with no strong institutional buying or selling pressure dominating the day. The On-Balance Volume (OBV) standing at 183,443,877, while a cumulative measure, indicates sustained buying interest over the longer term, suggesting that today's slight dip was minor within the broader context of accumulation and did not signal a significant shift in underlying market sentiment.",
+  "market_weight": 0.0945,
+  "change_pct": -0.55,
+  "insights": "The Communication Services sector experienced a modest decline today, closing down -0.55%. Key technical indicators suggest a relatively balanced but slightly negative sentiment: The Relative Strength Index (RSI) at 50.61 indicates neutral momentum, suggesting the sector is neither overbought nor oversold. The Money Flow Index (MFI) at 42.13, slightly below the 50 mark, points to a modest net outflow of money, which aligns with the daily price decrease but doesn't signal strong selling pressure. The On-Balance Volume (OBV) at 175,923,314 tracks cumulative volume; while its daily change would offer more precise insight into today's volume dynamics, the combined indicators suggest the sector saw mild weakness rather than a decisive directional shift.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752624000000,
-        55.45
-      ],
       [
         1752710400000,
         57.17
@@ -747,13 +743,13 @@
       [
         1768176000000,
         55.69
+      ],
+      [
+        1768262400000,
+        50.61
       ]
     ],
     "mfi": [
-      [
-        1752624000000,
-        43.75
-      ],
       [
         1752710400000,
         42.47
@@ -1473,13 +1469,13 @@
       [
         1768176000000,
         51.59
+      ],
+      [
+        1768262400000,
+        42.13
       ]
     ],
     "obv": [
-      [
-        1752624000000,
-        118367400.0
-      ],
       [
         1752710400000,
         123007500.0
@@ -2199,13 +2195,17 @@
       [
         1768176000000,
         183443877.0
+      ],
+      [
+        1768262400000,
+        175923314.0
       ]
     ]
   },
   "weeklyPerformance": [
     -0.72,
     0.86,
-    -0.32,
+    -0.87,
     null,
     null,
     null,

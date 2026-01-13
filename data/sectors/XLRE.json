@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0478,
-  "change_pct": 0.28,
-  "insights": "The Real Estate sector concluded today with a modest gain, appreciating by 0.28%. This positive movement is subtly supported by underlying technical indicators: the Money Flow Index (MFI) at 62.19 suggests a healthy net inflow of capital into the sector, indicating stronger buying interest. The Relative Strength Index (RSI) at 50.22 sits at a neutral midpoint, implying balanced momentum and that today's increase was not driven by extreme overbought conditions. Concurrently, the On-Balance Volume (OBV) at 2,879,141, a cumulative measure of volume flow, indicates that the price appreciation was accompanied by buying volume, reflecting measured investor confidence in the sector.",
+  "market_weight": 0.0473,
+  "change_pct": 0.79,
+  "insights": "The Real Estate sector posted a modest gain today, closing up 0.79%. This positive daily movement is supported by its technical indicators: the Relative Strength Index (RSI) at 55.80 suggests healthy upward momentum, staying above neutral without entering overbought territory. Complementing this, the Money Flow Index (MFI) at 68.67 indicates a robust inflow of capital into the sector, albeit nearing levels that could signal short-term overextension. Finally, the high On-Balance Volume (OBV) of 11,581,654 reinforces the presence of sustained buying pressure backing today's price appreciation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752624000000,
-        52.56
-      ],
       [
         1752710400000,
         51.91
@@ -747,13 +743,13 @@
       [
         1768176000000,
         50.22
+      ],
+      [
+        1768262400000,
+        55.8
       ]
     ],
     "mfi": [
-      [
-        1752624000000,
-        50.25
-      ],
       [
         1752710400000,
         61.74
@@ -1473,13 +1469,13 @@
       [
         1768176000000,
         62.19
+      ],
+      [
+        1768262400000,
+        68.67
       ]
     ],
     "obv": [
-      [
-        1752624000000,
-        30368300.0
-      ],
       [
         1752710400000,
         22519600.0
@@ -2199,13 +2195,17 @@
       [
         1768176000000,
         2879141.0
+      ],
+      [
+        1768262400000,
+        11581654.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.04,
     0.32,
-    0.28,
+    1.07,
     null,
     null,
     null,

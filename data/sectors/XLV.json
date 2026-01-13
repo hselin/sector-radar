@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1338,
-  "change_pct": 0.06,
-  "insights": "The Health Care sector experienced a virtually flat day, recording a negligible gain of 0.06%. Key technical indicators paint a picture of mixed momentum: The Relative Strength Index (RSI) at 58.27 indicates a neutral-to-slightly-bullish sentiment, reflecting the minor positive price movement without strong conviction. However, the Money Flow Index (MFI) at 39.14, being below 50, suggests a net outflow of capital from the sector, hinting that the slight price appreciation wasn't supported by significant new money entering. The On-Balance Volume (OBV) of 141,998,084, while high, would have likely seen a minor increase corresponding to the positive price change, but the MFI data implies that this buying volume lacked strong conviction or sustained capital inflow, indicating underlying weakness despite the fractional gain.",
+  "market_weight": 0.1323,
+  "change_pct": -0.42,
+  "insights": "The Healthcare sector saw a slight downturn today, registering a -0.42% change. Technical indicators present a nuanced view: the Relative Strength Index (RSI) at 55.38 suggests the sector remains in a neutral-to-slightly bullish territory, indicating that despite the daily dip, underlying momentum isn't strongly bearish. Conversely, the Money Flow Index (MFI) at 37.76 points to a net outflow of capital from the sector, consistent with the negative daily performance and suggesting selling pressure outweighed buying pressure. The On-Balance Volume (OBV) at 130,451,675 reflects significant cumulative trading activity, which, in conjunction with the MFI, suggests that the modest price decline was accompanied by a prevailing trend of distribution.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752624000000,
-        48.78
-      ],
       [
         1752710400000,
         43.65
@@ -747,13 +743,13 @@
       [
         1768176000000,
         58.27
+      ],
+      [
+        1768262400000,
+        55.38
       ]
     ],
     "mfi": [
-      [
-        1752624000000,
-        55.2
-      ],
       [
         1752710400000,
         48.19
@@ -1473,13 +1469,13 @@
       [
         1768176000000,
         39.14
+      ],
+      [
+        1768262400000,
+        37.76
       ]
     ],
     "obv": [
-      [
-        1752624000000,
-        4461000.0
-      ],
       [
         1752710400000,
         -11279900.0
@@ -2199,13 +2195,17 @@
       [
         1768176000000,
         141998084.0
+      ],
+      [
+        1768262400000,
+        130451675.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.45,
     1.14,
-    0.06,
+    -0.36,
     null,
     null,
     null,
