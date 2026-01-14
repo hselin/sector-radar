@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0435,
-  "change_pct": 1.45,
-  "insights": "The Energy sector posted a solid 1.45% gain today, indicating renewed investor interest. While the Money Flow Index (MFI) at 64.53 suggests healthy money flowing into the sector, supporting the price appreciation, the Relative Strength Index (RSI) at 33.10, still close to oversold levels, could imply that today's move represents a relief bounce from recent weakness, potentially leaving room for further upside before encountering overbought conditions. The substantial On-Balance Volume (OBV) of 397,582,798 further validates the underlying accumulation and buying pressure that contributed to today's positive performance.",
+  "change_pct": 2.25,
+  "insights": "The Energy sector experienced a robust 2.25% gain today, indicating strong buying interest. Despite this significant upward movement, the Relative Strength Index (RSI) at 37.59 suggests the sector is not yet overbought, potentially leaving room for further positive momentum, possibly recovering from a prior period of weakness. Concurrently, the Money Flow Index (MFI) at 68.56 indicates substantial money inflow into the sector, lending conviction to today's price action. The likely corresponding increase in the On-Balance Volume (OBV) reinforces that this rally is well-supported by significant buying volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752710400000,
-        51.06
-      ],
       [
         1752796800000,
         48.13
@@ -747,13 +743,13 @@
       [
         1768262400000,
         33.1
+      ],
+      [
+        1768348800000,
+        37.59
       ]
     ],
     "mfi": [
-      [
-        1752710400000,
-        50.71
-      ],
       [
         1752796800000,
         60.17
@@ -1473,13 +1469,13 @@
       [
         1768262400000,
         64.53
+      ],
+      [
+        1768348800000,
+        68.56
       ]
     ],
     "obv": [
-      [
-        1752710400000,
-        181415900.0
-      ],
       [
         1752796800000,
         150928100.0
@@ -2199,13 +2195,17 @@
       [
         1768262400000,
         397582798.0
+      ],
+      [
+        1768348800000,
+        476154539.0
       ]
     ]
   },
   "weeklyPerformance": [
     2.08,
     2.19,
-    0.77,
+    3.04,
     null,
     null,
     null,

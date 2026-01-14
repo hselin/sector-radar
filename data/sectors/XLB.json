@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0321,
-  "change_pct": 0.43,
-  "insights": "The Materials sector posted a modest 0.43% gain today. Technically, the Relative Strength Index (RSI) at 34.99 suggests the sector is not currently overbought and could have further room for appreciation or has experienced recent price weakness. Conversely, the Money Flow Index (MFI) at 81.69 indicates strong capital inflow, nearing overbought levels for money entering the sector. The On-Balance Volume (OBV) also increased, consistent with the daily price gain. This combination suggests that despite the relatively small daily price increase, there is robust buying interest and accumulation taking place within the sector, potentially signaling underlying strength or a battle between supply and demand after recent trends.",
+  "change_pct": 0.04,
+  "insights": "The Materials sector registered a nearly flat performance today with a 0.04% gain, indicating minimal price movement. However, the technical indicators present a mixed picture: the Relative Strength Index (RSI) at 35.10 suggests the sector is nearing oversold conditions, reflecting underlying weakness in recent price momentum. Conversely, the Money Flow Index (MFI) at 82.56 indicates strong buying pressure and substantial money flowing into the sector, placing it in an overbought state based on volume. The high On-Balance Volume (OBV) of 71,281,871 further confirms significant participation. This divergence suggests a tug-of-war where recent selling pressure has kept the RSI low, but new capital is actively flowing in, potentially signaling a period of consolidation or a potential bottoming process despite the lack of a significant price surge today.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752710400000,
-        54.26
-      ],
       [
         1752796800000,
         55.25
@@ -747,13 +743,13 @@
       [
         1768262400000,
         34.99
+      ],
+      [
+        1768348800000,
+        35.1
       ]
     ],
     "mfi": [
-      [
-        1752710400000,
-        58.21
-      ],
       [
         1752796800000,
         59.26
@@ -1473,13 +1469,13 @@
       [
         1768262400000,
         81.69
+      ],
+      [
+        1768348800000,
+        82.56
       ]
     ],
     "obv": [
-      [
-        1752710400000,
-        5771100.0
-      ],
       [
         1752796800000,
         12582700.0
@@ -2199,13 +2195,17 @@
       [
         1768262400000,
         56746943.0
+      ],
+      [
+        1768348800000,
+        71281871.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.71,
     4.65,
-    0.97,
+    1.02,
     null,
     null,
     null,
