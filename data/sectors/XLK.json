@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.2741,
-  "change_pct": -1.23,
-  "insights": "The Information Technology sector faced a 1.23% decline today, pushing its Relative Strength Index (RSI) to an oversold 23.55, which typically signals intense selling pressure and a potential for a near-term rebound. Interestingly, the Money Flow Index (MFI) remains robust at 64.36, suggesting that despite the price drop, money flow into the sector hasn't significantly deteriorated, perhaps indicating underlying demand or buying interest on dips. The substantial On-Balance Volume (OBV) of 268,192,589 further reflects significant cumulative buying over time, providing a historical context of strength despite today's sharp pullback.",
+  "change_pct": 0.48,
+  "insights": "The Information Technology sector concluded today with a modest gain of 0.48%. Examining the key technical indicators, the Relative Strength Index (RSI) at 24.95 signifies that the sector is in deeply oversold territory, suggesting it has experienced significant selling pressure recently and may be due for a rebound. However, the Money Flow Index (MFI) at 66.83, indicating strong money inflow, combined with a substantial On-Balance Volume (OBV) of 284,809,616, suggests that despite the sector's oversold condition, today's positive movement was supported by genuine buying interest and volume. This dynamic implies current buying efforts are contributing to a slight recovery within a broader, recently depressed trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752796800000,
-        73.47
-      ],
       [
         1752883200000,
         null
@@ -747,13 +743,13 @@
       [
         1768348800000,
         23.55
+      ],
+      [
+        1768435200000,
+        24.95
       ]
     ],
     "mfi": [
-      [
-        1752796800000,
-        58.09
-      ],
       [
         1752883200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1768348800000,
         64.36
+      ],
+      [
+        1768435200000,
+        66.83
       ]
     ],
     "obv": [
-      [
-        1752796800000,
-        84064800.0
-      ],
       [
         1752883200000,
         null
@@ -2199,13 +2195,17 @@
       [
         1768348800000,
         268192589.0
+      ],
+      [
+        1768435200000,
+        284809616.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.22,
     1.31,
-    -1.0,
+    -0.53,
     null,
     null,
     null,

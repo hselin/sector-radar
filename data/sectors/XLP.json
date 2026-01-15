@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0548,
-  "change_pct": 1.36,
-  "insights": "The Consumer Staples sector demonstrated robust performance today, posting a solid 1.36% gain. This significant upward movement is strongly corroborated by key technical indicators: the Relative Strength Index (RSI) at 71.98 indicates the sector is now in overbought territory, reflecting substantial recent buying pressure and strong momentum. Further supporting this, the Money Flow Index (MFI) at 69.89 also points to considerable capital inflow and buying interest within the sector. The high On-Balance Volume (OBV) reading of 114,928,326, concurrent with today's price appreciation, suggests that this rally is well-supported by cumulative buying volume. While today's strong showing highlights current positive sentiment, the elevated RSI suggests the sector may be approaching a point where a short-term consolidation or pullback could occur due to overextended conditions.",
+  "change_pct": 0.17,
+  "insights": "The Consumer Staples sector saw a marginal gain of 0.17% today, indicating slight positive momentum. However, key technical indicators suggest the sector is currently experiencing strong buying interest and is nearing overbought conditions. Both the Relative Strength Index (RSI) at 72.47 and the Money Flow Index (MFI) at 72.42 are well above the 70 threshold, signaling that recent upward price action has been aggressive and accompanied by significant capital inflows. The large On-Balance Volume (OBV) of 137,407,685 further corroborates sustained buying pressure. While today's movement was modest, these elevated indicators imply that the sector might be due for consolidation or a slight pullback following its recent run-up.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752796800000,
-        47.93
-      ],
       [
         1752883200000,
         null
@@ -747,13 +743,13 @@
       [
         1768348800000,
         71.98
+      ],
+      [
+        1768435200000,
+        72.47
       ]
     ],
     "mfi": [
-      [
-        1752796800000,
-        48.62
-      ],
       [
         1752883200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1768348800000,
         69.89
+      ],
+      [
+        1768435200000,
+        72.42
       ]
     ],
     "obv": [
-      [
-        1752796800000,
-        12189000.0
-      ],
       [
         1752883200000,
         null
@@ -2199,13 +2195,17 @@
       [
         1768348800000,
         114928326.0
+      ],
+      [
+        1768435200000,
+        137407685.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.01,
     1.98,
-    3.76,
+    3.94,
     null,
     null,
     null,
