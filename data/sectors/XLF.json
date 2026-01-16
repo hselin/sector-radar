@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.1021,
-  "change_pct": 0.39,
-  "insights": "The Financials sector posted a modest 0.39% gain today, but key technical indicators suggest this upward movement may lack robust underlying conviction. The Relative Strength Index (RSI) at 45.97 indicates neutral momentum, well below overbought territory and not signaling strong bullish pressure despite the daily rise. More notably, the Money Flow Index (MFI) at 36.91 points to a net outflow of money from the sector, suggesting that today's gains may not be supported by significant buying conviction. While On-Balance Volume (OBV) at 227,563,401 reflects substantial cumulative buying pressure over time, which generally aligns with price increases, the combined signals from the RSI and MFI advise caution regarding the strength and sustainability of this particular daily move.",
+  "change_pct": 0.11,
+  "insights": "The Financials sector closed with a marginal gain of 0.11% today, indicating a largely flat session with a slight upward bias. Technical indicators suggest a period of consolidation with subdued momentum: the RSI at 46.62 and MFI at 42.31 both reside in neutral territory but lean towards slightly weakening momentum and mild money outflow, respectively, which likely capped a more significant rally. While the exact daily change of the OBV (264,987,731) cannot be precisely determined without a prior value, a stable or increasing trend would suggest some underlying volume support for the day's minor positive movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -747,13 +743,13 @@
       [
         1768435200000,
         45.97
+      ],
+      [
+        1768521600000,
+        46.62
       ]
     ],
     "mfi": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1768435200000,
         36.91
+      ],
+      [
+        1768521600000,
+        42.31
       ]
     ],
     "obv": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -2199,13 +2195,17 @@
       [
         1768435200000,
         227563401.0
+      ],
+      [
+        1768521600000,
+        264987731.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.31,
     1.43,
-    -2.43,
+    -2.32,
     null,
     null,
     null,

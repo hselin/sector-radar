@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0945,
-  "change_pct": -0.36,
-  "insights": "The Communication Services sector registered a modest decline of -0.36% today, reflecting a slight downward shift in investor sentiment. Technically, the Relative Strength Index (RSI) at 45.79 suggests a mild bearish momentum without the sector entering oversold conditions. However, the Money Flow Index (MFI) at 28.98 indicates significant money outflow and selling pressure, which strongly corroborates the day's negative performance. While the On-Balance Volume (OBV) stands at 160,029,463, the immediate picture from the MFI clearly points to a prevailing weakness and a net capital exit driving today's slight pullback.",
+  "change_pct": -0.91,
+  "insights": "The Communication Services sector experienced a modest decline of -0.91% today, a movement largely supported by its key technical indicators. The Relative Strength Index (RSI) at 39.16 indicates growing bearish momentum, approaching oversold territory, while the Money Flow Index (MFI) at 24.44 points to significant capital outflow and strong selling pressure within the sector. The On-Balance Volume (OBV) of 154,791,446, when considered alongside these bearish indicators and the daily price drop, suggests that selling volume likely outpaced buying volume, reinforcing the day's negative performance and signaling sustained downward pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -747,13 +743,13 @@
       [
         1768435200000,
         45.79
+      ],
+      [
+        1768521600000,
+        39.16
       ]
     ],
     "mfi": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1768435200000,
         28.98
+      ],
+      [
+        1768521600000,
+        24.44
       ]
     ],
     "obv": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -2199,13 +2195,17 @@
       [
         1768435200000,
         160029463.0
+      ],
+      [
+        1768521600000,
+        154791446.0
       ]
     ]
   },
   "weeklyPerformance": [
     -0.72,
     0.86,
-    -1.42,
+    -2.32,
     null,
     null,
     null,

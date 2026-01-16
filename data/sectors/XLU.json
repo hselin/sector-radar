@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0321,
-  "change_pct": 1.03,
-  "insights": "The Utilities sector posted a solid 1.03% gain today, suggesting a potential rebound from recent weakness. This upward movement appears to be occurring from deeply oversold conditions, as indicated by a very low Relative Strength Index (RSI) of 25.41. The Money Flow Index (MFI) at 60.05 confirms moderate capital inflow into the sector, supporting today's price appreciation without showing signs of overheating, while the positive On-Balance Volume (OBV) further corroborates that buying volume generally outpaced selling volume throughout the session, lending credence to the day's positive price action.",
+  "change_pct": -0.52,
+  "insights": "The Utilities sector concluded today down a modest -0.52%. Technically, the sector appears significantly oversold with its RSI at 24.85, indicating a strong recent downward trend and potential for a near-term bounce. However, the MFI at 52.85, being slightly above 50, suggests that despite today's price drop, there isn't a strong net outflow of money on a volume-weighted basis, possibly hinting at some dip-buying interest or less aggressive selling pressure than the RSI alone might imply. The large OBV of 188611240 would have seen a negative daily contribution due to today's price decline, confirming that the day's selling pressure was accompanied by volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -747,13 +743,13 @@
       [
         1768435200000,
         25.41
+      ],
+      [
+        1768521600000,
+        24.85
       ]
     ],
     "mfi": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1768435200000,
         60.05
+      ],
+      [
+        1768521600000,
+        52.85
       ]
     ],
     "obv": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -2199,13 +2195,17 @@
       [
         1768435200000,
         215635349.0
+      ],
+      [
+        1768521600000,
+        188611240.0
       ]
     ]
   },
   "weeklyPerformance": [
     1.16,
     -1.57,
-    2.62,
+    2.09,
     null,
     null,
     null,

@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0548,
-  "change_pct": 0.17,
-  "insights": "The Consumer Staples sector saw a marginal gain of 0.17% today, indicating slight positive momentum. However, key technical indicators suggest the sector is currently experiencing strong buying interest and is nearing overbought conditions. Both the Relative Strength Index (RSI) at 72.47 and the Money Flow Index (MFI) at 72.42 are well above the 70 threshold, signaling that recent upward price action has been aggressive and accompanied by significant capital inflows. The large On-Balance Volume (OBV) of 137,407,685 further corroborates sustained buying pressure. While today's movement was modest, these elevated indicators imply that the sector might be due for consolidation or a slight pullback following its recent run-up.",
+  "change_pct": -0.27,
+  "insights": "The Consumer Staples sector experienced a modest decline of -0.27% today. This slight dip occurs as key technical indicators suggest a period of elevated activity and potential overextension. The Relative Strength Index (RSI) at 70.39 is firmly in overbought territory, indicating the sector may be due for a consolidation or a potential near-term pullback after recent gains. Supporting this, the Money Flow Index (MFI) at 64.36, while not extreme, still reflects significant buying pressure and capital inflow into the sector. The On-Balance Volume (OBV) reading of 114,499,118 confirms substantial accumulated volume activity, consistent with the observed capital inflow. Today's modest dip could therefore represent a minor profit-taking event or a cooling-off period following a stretch of strength, as suggested by the overbought RSI.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -747,13 +743,13 @@
       [
         1768435200000,
         72.47
+      ],
+      [
+        1768521600000,
+        70.39
       ]
     ],
     "mfi": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1768435200000,
         72.42
+      ],
+      [
+        1768521600000,
+        64.36
       ]
     ],
     "obv": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -2199,13 +2195,17 @@
       [
         1768435200000,
         137407685.0
+      ],
+      [
+        1768521600000,
+        114499118.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.01,
     1.98,
-    3.94,
+    3.66,
     null,
     null,
     null,

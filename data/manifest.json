@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-15T21:14:15.240234Z",
+  "lastUpdated": "2026-01-16T21:14:10.040711Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market concluded the day with a modest gain of 0.24%, reflecting a slightly positive sentiment among investors. Technical indicators, however, present a nuanced picture: the Relative Strength Index (RSI) at 57.27 suggests a healthy, moderate underlying bullish momentum, indicating that the market is not yet in overbought territory. Conversely, the Money Flow Index (MFI) at 48.74, slightly below the neutral 50-mark, implies that while prices advanced, the net money flow into the market wasn't overwhelmingly strong, potentially signaling some degree of investor hesitancy or mild profit-taking. The On-Balance Volume (OBV) at 1,208,453,793, as a cumulative measure, would have increased today, generally confirming the day's positive price action with supportive volume. In summary, the market exhibits positive price momentum, but the MFI suggests buying conviction may not be exceptionally robust.",
-    "change_pct": 0.24,
+    "commentary": "The overall stock market exhibited a remarkably flat performance today, closing with a marginal decline of just -0.04%. Digging into key technical indicators, the Relative Strength Index (RSI) at 56.82 suggests conditions are neither overbought nor oversold, with a slight lean towards healthy, positive momentum. However, the Money Flow Index (MFI) at 42.95 indicates a net outflow of funds, pointing to some underlying selling pressure or profit-taking despite the stable RSI. While On-Balance Volume (OBV) provides a cumulative measure of volume-backed momentum, its absolute value of 1,137,970,661, without comparative historical data, offers limited direct insight into today's sentiment alone. Combined, these signals paint a picture of **mixed sentiment and indecisive momentum**, suggesting a market currently lacking strong conviction in either direction and possibly in a phase of consolidation.",
+    "change_pct": -0.04,
     "technicalIndicators": {
       "rsi": [
-        [
-          1752883200000,
-          null
-        ],
         [
           1752969600000,
           null
@@ -747,13 +743,13 @@
         [
           1768435200000,
           57.27
+        ],
+        [
+          1768521600000,
+          56.82
         ]
       ],
       "mfi": [
-        [
-          1752883200000,
-          null
-        ],
         [
           1752969600000,
           null
@@ -1473,13 +1469,13 @@
         [
           1768435200000,
           48.74
+        ],
+        [
+          1768521600000,
+          42.95
         ]
       ],
       "obv": [
-        [
-          1752883200000,
-          null
-        ],
         [
           1752969600000,
           null
@@ -2199,13 +2195,17 @@
         [
           1768435200000,
           1208453793.0
+        ],
+        [
+          1768521600000,
+          1137970661.0
         ]
       ]
     },
     "weeklyPerformance": [
       0.2,
       1.59,
-      -0.29,
+      -0.33,
       null,
       null,
       null,

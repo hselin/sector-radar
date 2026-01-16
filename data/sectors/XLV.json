@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.1323,
-  "change_pct": -0.57,
-  "insights": "The Health Care sector experienced a modest decline today, dropping 0.57%. While its Relative Strength Index (RSI) at 55.19 suggests it's not oversold and retains underlying intermediate strength, the Money Flow Index (MFI) at 35.38 indicates weakening buying interest and a net outflow of funds, aligning with the day's negative price action. Although On-Balance Volume (OBV) reflects significant cumulative interest, the current technical signals suggest selling pressure is outweighing new accumulation, warranting close observation for sustained directional momentum.",
+  "change_pct": -0.76,
+  "insights": "The Health Care sector experienced a modest decline of -0.76% today. Despite this daily dip, the Relative Strength Index (RSI) at 50.37 suggests the sector is not in an overbought or oversold condition, indicating a lack of strong underlying momentum in either direction. However, the Money Flow Index (MFI) at 31.27 points to a notable outflow of capital, nearing oversold territory and consistent with the day's negative price action, signaling prevalent selling pressure. The On-Balance Volume (OBV) of 117,179,825 reflects the cumulative volume trend, and in conjunction with the MFI, implies that selling volume likely outweighed buying volume, reinforcing the observed daily decline.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -747,13 +743,13 @@
       [
         1768435200000,
         55.19
+      ],
+      [
+        1768521600000,
+        50.37
       ]
     ],
     "mfi": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1768435200000,
         35.38
+      ],
+      [
+        1768521600000,
+        31.27
       ]
     ],
     "obv": [
-      [
-        1752883200000,
-        null
-      ],
       [
         1752969600000,
         null
@@ -2199,13 +2195,17 @@
       [
         1768435200000,
         128454157.0
+      ],
+      [
+        1768521600000,
+        117179825.0
       ]
     ]
   },
   "weeklyPerformance": [
     0.45,
     1.14,
-    -0.21,
+    -0.97,
     null,
     null,
     null,
