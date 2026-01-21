@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials GICS sector includes companies engaged in discovering, developing, and processing raw materials used across various industries, such as chemicals, metals, mining, construction materials, and packaging.",
-    "marketSizeUSD": "1.7T",
+    "description": "The Materials sector encompasses companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, paper, and forest products.",
+    "marketSizeUSD": "1.6T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,40 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co",
+        "name": "The Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc",
-        "symbol": "ECL"
+        "name": "Freeport-McMoRan Inc.",
+        "symbol": "FCX"
       }
     ]
   },
-  "market_weight": 0.032,
-  "change_pct": -0.57,
-  "insights": "The Materials sector concluded today with a modest 0.57% decline. Its RSI of 35.29 suggests the sector is approaching oversold conditions, reflecting recent price weakness and potential for a rebound. Conversely, the Money Flow Index (MFI) at a robust 78.23 indicates strong money inflow, creating a notable divergence where capital is still entering the sector despite the day's price dip. This suggests potential buying interest on weakness, with the high On-Balance Volume (OBV) of 75,064,680 reflecting significant cumulative volume over time.",
+  "market_weight": 0.0293,
+  "change_pct": 2.18,
+  "insights": "The Materials sector demonstrated strong performance today, surging by 2.18%. This upward movement was significantly supported by robust money flow, as indicated by the high Money Flow Index (MFI) of 74.94, suggesting substantial capital inflow and buying interest. Despite this daily gain, the Relative Strength Index (RSI) at 39.93 suggests the sector is not yet overbought and remains in a relatively neutral territory, potentially allowing for further upside without immediate exhaustion. The high On-Balance Volume (OBV) of 73,997,773 further corroborates strong accumulation, indicating that the price rise was accompanied by significant buying volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752969600000,
-        null
-      ],
-      [
-        1753056000000,
-        57.43
-      ],
-      [
-        1753142400000,
-        62.73
-      ],
-      [
-        1753228800000,
-        63.93
-      ],
-      [
-        1753315200000,
-        57.79
-      ],
       [
         1753401600000,
         62.23
@@ -747,29 +727,29 @@
       [
         1768521600000,
         35.29
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        64.38
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        64.0
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        63.81
+        1768867200000,
+        33.75
       ],
       [
-        1753315200000,
-        56.57
-      ],
+        1768953600000,
+        39.93
+      ]
+    ],
+    "mfi": [
       [
         1753401600000,
         63.63
@@ -1473,29 +1453,29 @@
       [
         1768521600000,
         78.23
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        17898200.0
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        24723700.0
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        31470900.0
+        1768867200000,
+        73.18
       ],
       [
-        1753315200000,
-        22799200.0
-      ],
+        1768953600000,
+        74.94
+      ]
+    ],
+    "obv": [
       [
         1753401600000,
         30675600.0
@@ -2199,6 +2179,26 @@
       [
         1768521600000,
         75064680.0
+      ],
+      [
+        1768608000000,
+        null
+      ],
+      [
+        1768694400000,
+        null
+      ],
+      [
+        1768780800000,
+        null
+      ],
+      [
+        1768867200000,
+        57969469.0
+      ],
+      [
+        1768953600000,
+        73997773.0
       ]
     ]
   },
@@ -2206,7 +2206,7 @@
     1.71,
     4.65,
     0.85,
-    null,
+    1.17,
     null,
     null,
     null,

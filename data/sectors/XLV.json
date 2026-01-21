@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector encompasses companies engaged in pharmaceuticals, biotechnology, life sciences tools & services, healthcare equipment & supplies, and healthcare providers & services.",
-    "marketSizeUSD": "7.5T",
-    "constituentCount": 65,
+    "description": "The Health Care sector includes companies that provide medical services, manufacture medical equipment or pharmaceuticals, or develop biotechnology products.",
+    "marketSizeUSD": "5.8T",
+    "constituentCount": 64,
     "topHoldings": [
       {
-        "name": "Eli Lilly and Company",
+        "name": "Eli Lilly and Co",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Incorporated",
+        "name": "UnitedHealth Group Inc",
         "symbol": "UNH"
       },
       {
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.141,
-  "change_pct": -0.76,
-  "insights": "The Health Care sector experienced a modest decline of -0.76% today. Despite this daily dip, the Relative Strength Index (RSI) at 50.37 suggests the sector is not in an overbought or oversold condition, indicating a lack of strong underlying momentum in either direction. However, the Money Flow Index (MFI) at 31.27 points to a notable outflow of capital, nearing oversold territory and consistent with the day's negative price action, signaling prevalent selling pressure. The On-Balance Volume (OBV) of 117,179,825 reflects the cumulative volume trend, and in conjunction with the MFI, implies that selling volume likely outweighed buying volume, reinforcing the observed daily decline.",
+  "market_weight": 0.1061,
+  "change_pct": 1.82,
+  "insights": "The Health Care sector posted a robust daily gain of 1.82%, demonstrating strong positive momentum today. The Relative Strength Index (RSI) at 58.67 confirms this bullish sentiment, resting comfortably above the neutral 50-mark without yet indicating overbought conditions, suggesting room for further appreciation. However, the Money Flow Index (MFI) at 33.45 presents a cautious note; despite the price rally, money flow into the sector appears relatively subdued, nearing oversold levels. This potential divergence suggests the strong daily move might lack broad-based buying conviction from institutional investors. The On-Balance Volume (OBV) at 120,507,398, a cumulative measure of buying and selling pressure, reflects the total volume contributing to the price action, and its trend over time would further confirm the conviction behind this daily rise.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752969600000,
-        null
-      ],
-      [
-        1753056000000,
-        38.8
-      ],
-      [
-        1753142400000,
-        48.41
-      ],
-      [
-        1753228800000,
-        56.64
-      ],
-      [
-        1753315200000,
-        54.89
-      ],
       [
         1753401600000,
         56.92
@@ -747,29 +727,29 @@
       [
         1768521600000,
         50.37
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        42.99
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        41.55
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        49.31
+        1768867200000,
+        49.02
       ],
       [
-        1753315200000,
-        53.85
-      ],
+        1768953600000,
+        58.67
+      ]
+    ],
+    "mfi": [
       [
         1753401600000,
         59.87
@@ -1473,29 +1453,29 @@
       [
         1768521600000,
         31.27
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        -33994100.0
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        -17312200.0
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        -688200.0
+        1768867200000,
+        26.57
       ],
       [
-        1753315200000,
-        -11743000.0
-      ],
+        1768953600000,
+        33.45
+      ]
+    ],
+    "obv": [
       [
         1753401600000,
         -2203100.0
@@ -2199,6 +2179,26 @@
       [
         1768521600000,
         117179825.0
+      ],
+      [
+        1768608000000,
+        null
+      ],
+      [
+        1768694400000,
+        null
+      ],
+      [
+        1768780800000,
+        null
+      ],
+      [
+        1768867200000,
+        105246592.0
+      ],
+      [
+        1768953600000,
+        120507398.0
       ]
     ]
   },
@@ -2206,7 +2206,7 @@
     0.45,
     1.14,
     -0.97,
-    null,
+    1.59,
     null,
     null,
     null,

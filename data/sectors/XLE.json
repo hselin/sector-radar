@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil and gas, as well as those involved in coal, consumable fuels, and renewable energy equipment and services.",
-    "marketSizeUSD": "2.3T",
+    "description": "The Energy sector encompasses companies primarily engaged in the exploration, production, refining, and marketing of oil, gas, and consumable fuels, as well as companies providing related services.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0432,
-  "change_pct": 0.21,
-  "insights": "The Energy sector experienced a marginal gain of 0.21% today, reflecting a largely flat trading session. Technical indicators present a mixed picture: the Relative Strength Index (RSI) at 36.86 points towards weakening momentum and selling pressure outweighing buying, nearing oversold territory. Conversely, the Money Flow Index (MFI) at 67.52 suggests robust capital inflow into the sector, indicating strong institutional interest despite the tepid price action. The substantial On-Balance Volume (OBV) of 457,090,353 further supports this underlying accumulation of buying interest over time. This divergence implies that while daily price momentum is soft, smart money may be positioning within the sector.",
+  "market_weight": 0.0311,
+  "change_pct": 2.43,
+  "insights": "The Energy sector experienced a notable advance today, climbing 2.43%, indicating strong positive momentum. Technically, the Relative Strength Index (RSI) at 42.03 suggests the sector is not yet overbought despite this gain, leaving potential room for further upside without immediate reversal signals, though it remains below the neutral 50-mark. Conversely, the Money Flow Index (MFI) at 70.78 points to robust buying interest and significant capital inflow, nearing overbought levels and confirming the strong price appreciation. The On-Balance Volume (OBV) at 466,457,085, a cumulative measure, suggests that today's upward movement was supported by corresponding volume, a positive sign for the daily rally's validity.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752969600000,
-        null
-      ],
-      [
-        1753056000000,
-        44.63
-      ],
-      [
-        1753142400000,
-        46.51
-      ],
-      [
-        1753228800000,
-        52.36
-      ],
-      [
-        1753315200000,
-        54.82
-      ],
       [
         1753401600000,
         53.25
@@ -747,29 +727,29 @@
       [
         1768521600000,
         36.86
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        59.66
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        59.01
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        57.8
+        1768867200000,
+        36.59
       ],
       [
-        1753315200000,
-        57.95
-      ],
+        1768953600000,
+        42.03
+      ]
+    ],
+    "mfi": [
       [
         1753401600000,
         64.11
@@ -1473,29 +1453,29 @@
       [
         1768521600000,
         67.52
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        135710900.0
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        151932900.0
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        165955900.0
+        1768867200000,
+        68.79
       ],
       [
-        1753315200000,
-        177967000.0
-      ],
+        1768953600000,
+        70.78
+      ]
+    ],
+    "obv": [
       [
         1753401600000,
         167895400.0
@@ -2199,6 +2179,26 @@
       [
         1768521600000,
         457090353.0
+      ],
+      [
+        1768608000000,
+        null
+      ],
+      [
+        1768694400000,
+        null
+      ],
+      [
+        1768780800000,
+        null
+      ],
+      [
+        1768867200000,
+        407612996.0
+      ],
+      [
+        1768953600000,
+        466457085.0
       ]
     ]
   },
@@ -2206,7 +2206,7 @@
     2.08,
     2.19,
     2.24,
-    null,
+    2.22,
     null,
     null,
     null,

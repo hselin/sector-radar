@@ -1,49 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises industries sensitive to economic cycles, including retail, automotive, hotels, restaurants, and leisure products.",
-    "marketSizeUSD": "7.5T",
-    "constituentCount": 57,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, which consumers purchase with their disposable income, including retail, automotive, hotels, restaurants, and entertainment.",
+    "marketSizeUSD": "6.8T",
+    "constituentCount": 52,
     "topHoldings": [
       {
-        "name": "Amazon.com, Inc.",
+        "name": "Amazon.com Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla, Inc.",
+        "name": "Tesla Inc",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot, Inc.",
+        "name": "The Home Depot Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.141,
-  "change_pct": -0.34,
-  "insights": "The Consumer Discretionary sector saw a modest -0.34% decline today. While the Relative Strength Index (RSI) at 26.46 places the sector firmly in oversold territory, indicating significant recent selling pressure and potential for a near-term bounce, the Money Flow Index (MFI) at 60.64 suggests persistent underlying buying interest, with money actively flowing into the sector despite the price dip. This is further supported by a robust On-Balance Volume (OBV) of 50,142,852, which points to substantial historical accumulation, potentially signaling that today's slight downturn is a minor correction within a broader trend of investor confidence.",
+  "market_weight": 0.1244,
+  "change_pct": 1.91,
+  "insights": "The Consumer Discretionary sector posted a strong performance today, gaining 1.91%. This robust daily movement appears to be a rebound from recent weakness, as indicated by the **RSI at 29.42**, which is firmly in oversold territory, suggesting the sector was due for a potential bounce. Supporting this upward momentum, the **Money Flow Index (MFI) at 63.63** shows healthy capital inflow into the sector, while the positive **On-Balance Volume (OBV) of 51,505,483** further corroborates that buying volume significantly outweighed selling volume, aligning with the day's positive price action.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752969600000,
-        null
-      ],
-      [
-        1753056000000,
-        62.78
-      ],
-      [
-        1753142400000,
-        66.36
-      ],
-      [
-        1753228800000,
-        67.94
-      ],
-      [
-        1753315200000,
-        57.74
-      ],
       [
         1753401600000,
         61.2
@@ -747,29 +727,29 @@
       [
         1768521600000,
         26.46
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        58.2
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        67.82
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        67.3
+        1768867200000,
+        23.7
       ],
       [
-        1753315200000,
-        57.84
-      ],
+        1768953600000,
+        29.42
+      ]
+    ],
+    "mfi": [
       [
         1753401600000,
         65.98
@@ -1473,29 +1453,29 @@
       [
         1768521600000,
         60.64
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        15512900.0
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        21002900.0
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        26044500.0
+        1768867200000,
+        59.12
       ],
       [
-        1753315200000,
-        18470300.0
-      ],
+        1768953600000,
+        63.63
+      ]
+    ],
+    "obv": [
       [
         1753401600000,
         24604300.0
@@ -2199,6 +2179,26 @@
       [
         1768521600000,
         50142852.0
+      ],
+      [
+        1768608000000,
+        null
+      ],
+      [
+        1768694400000,
+        null
+      ],
+      [
+        1768780800000,
+        null
+      ],
+      [
+        1768867200000,
+        40698539.0
+      ],
+      [
+        1768953600000,
+        51505483.0
       ]
     ]
   },
@@ -2206,7 +2206,7 @@
     -0.87,
     5.14,
     -1.72,
-    null,
+    -0.72,
     null,
     null,
     null,

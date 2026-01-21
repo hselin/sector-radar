@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-19T21:13:17.488822Z",
+  "lastUpdated": "2026-01-21T21:19:06.762959Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States, selected by Standard & Poor's based on criteria like market size, liquidity, and sector representation.",
@@ -20,30 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a largely flat day, registering a marginal decline of -0.05%. Key technical indicators present a mixed picture of underlying sentiment and momentum. The Relative Strength Index (RSI) at 56.82 indicates slightly bullish momentum but remains firmly in neutral territory, suggesting neither overbought nor oversold conditions. Conversely, the Money Flow Index (MFI) at 42.95 suggests some underlying selling pressure or capital outflow, though not signaling an oversold condition. The significant On-Balance Volume (OBV) at 1137970661 reflects substantial cumulative trading interest. Combined with the near-flat close and divergent momentum signals from RSI and MFI, this suggests a market currently lacking strong directional conviction and potentially consolidating as investors await fresh catalysts.",
-    "change_pct": -0.05,
+    "commentary": "The overall stock market exhibited a strong positive performance today, closing up 1.15%, indicating robust short-term bullish sentiment. However, key technical indicators suggest a more balanced underlying momentum; the Relative Strength Index (RSI) at 49.14 sits near the neutral 50-mark, and the Money Flow Index (MFI) at 48.86 similarly points to neither strong buying nor selling pressure on a volume-weighted basis. The high On-Balance Volume (OBV) reading of 1,142,595,467, which represents cumulative volume flow, suggests that today's positive price action was generally supported by significant buying interest. Collectively, while the daily gain points to positive sentiment, the neutral RSI and MFI suggest the market is not yet overextended or exhibiting extreme euphoria, potentially indicating sustainable momentum backed by volume.",
+    "change_pct": 1.15,
     "technicalIndicators": {
       "rsi": [
-        [
-          1752969600000,
-          null
-        ],
-        [
-          1753056000000,
-          69.14
-        ],
-        [
-          1753142400000,
-          69.22
-        ],
-        [
-          1753228800000,
-          73.45
-        ],
-        [
-          1753315200000,
-          73.6
-        ],
         [
           1753401600000,
           75.55
@@ -747,29 +727,29 @@
         [
           1768521600000,
           56.82
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1752969600000,
+          1768608000000,
           null
         ],
         [
-          1753056000000,
-          61.48
+          1768694400000,
+          null
         ],
         [
-          1753142400000,
-          62.07
+          1768780800000,
+          null
         ],
         [
-          1753228800000,
-          62.3
+          1768867200000,
+          40.36
         ],
         [
-          1753315200000,
-          63.16
-        ],
+          1768953600000,
+          49.14
+        ]
+      ],
+      "mfi": [
         [
           1753401600000,
           70.57
@@ -1473,29 +1453,29 @@
         [
           1768521600000,
           42.95
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1752969600000,
+          1768608000000,
           null
         ],
         [
-          1753056000000,
-          567281700.0
+          1768694400000,
+          null
         ],
         [
-          1753142400000,
-          627328000.0
+          1768780800000,
+          null
         ],
         [
-          1753228800000,
-          697839000.0
+          1768867200000,
+          40.84
         ],
         [
-          1753315200000,
-          769146100.0
-        ],
+          1768953600000,
+          48.86
+        ]
+      ],
+      "obv": [
         [
           1753401600000,
           826011500.0
@@ -2199,6 +2179,26 @@
         [
           1768521600000,
           1137970661.0
+        ],
+        [
+          1768608000000,
+          null
+        ],
+        [
+          1768694400000,
+          null
+        ],
+        [
+          1768780800000,
+          null
+        ],
+        [
+          1768867200000,
+          1026347361.0
+        ],
+        [
+          1768953600000,
+          1142595467.0
         ]
       ]
     },
@@ -2206,7 +2206,7 @@
       0.2,
       1.59,
       -0.33,
-      null,
+      -0.91,
       null,
       null,
       null,

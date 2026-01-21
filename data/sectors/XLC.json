@@ -1,49 +1,29 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment, interactive media, and other communication-related services.",
-    "marketSizeUSD": "5.0T",
-    "constituentCount": 25,
+    "description": "The Communication Services sector encompasses companies involved in telecommunications, media, entertainment, and interactive media & services.",
+    "marketSizeUSD": "6.5T",
+    "constituentCount": 23,
     "topHoldings": [
       {
         "name": "Alphabet Inc.",
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms, Inc.",
+        "name": "Meta Platforms Inc.",
         "symbol": "META"
       },
       {
-        "name": "Netflix, Inc.",
+        "name": "Netflix Inc.",
         "symbol": "NFLX"
       }
     ]
   },
-  "market_weight": 0.094,
-  "change_pct": -0.91,
-  "insights": "The Communication Services sector experienced a modest decline of -0.91% today, a movement largely supported by its key technical indicators. The Relative Strength Index (RSI) at 39.16 indicates growing bearish momentum, approaching oversold territory, while the Money Flow Index (MFI) at 24.44 points to significant capital outflow and strong selling pressure within the sector. The On-Balance Volume (OBV) of 154,791,446, when considered alongside these bearish indicators and the daily price drop, suggests that selling volume likely outpaced buying volume, reinforcing the day's negative performance and signaling sustained downward pressure.",
+  "market_weight": 0.1189,
+  "change_pct": 1.03,
+  "insights": "The Communication Services sector posted a modest 1.03% gain today. Despite this positive daily movement, key technical indicators suggest underlying caution: the RSI at 40.19 indicates momentum remains subdued below the neutral 50-level, while the MFI at 26.46 is nearing oversold territory, signaling significant money outflow despite today's uptick. The OBV, standing at 154,224,892, reflects cumulative volume flow and likely increased today given the price rise, but the combined signals suggest today's positive price action may lack robust conviction from broader buying pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752969600000,
-        null
-      ],
-      [
-        1753056000000,
-        60.61
-      ],
-      [
-        1753142400000,
-        61.63
-      ],
-      [
-        1753228800000,
-        64.0
-      ],
-      [
-        1753315200000,
-        64.72
-      ],
       [
         1753401600000,
         57.77
@@ -747,29 +727,29 @@
       [
         1768521600000,
         39.16
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        32.6
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        40.79
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        47.83
+        1768867200000,
+        31.33
       ],
       [
-        1753315200000,
-        49.68
-      ],
+        1768953600000,
+        40.19
+      ]
+    ],
+    "mfi": [
       [
         1753401600000,
         48.49
@@ -1473,29 +1453,29 @@
       [
         1768521600000,
         24.44
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        121882200.0
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        127174700.0
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        132141700.0
+        1768867200000,
+        23.37
       ],
       [
-        1753315200000,
-        137874400.0
-      ],
+        1768953600000,
+        26.46
+      ]
+    ],
+    "obv": [
       [
         1753401600000,
         130573700.0
@@ -2199,6 +2179,26 @@
       [
         1768521600000,
         154791446.0
+      ],
+      [
+        1768608000000,
+        null
+      ],
+      [
+        1768694400000,
+        null
+      ],
+      [
+        1768780800000,
+        null
+      ],
+      [
+        1768867200000,
+        146367917.0
+      ],
+      [
+        1768953600000,
+        154224892.0
       ]
     ]
   },
@@ -2206,7 +2206,7 @@
     -0.72,
     0.86,
     -2.32,
-    null,
+    -0.46,
     null,
     null,
     null,

@@ -1,49 +1,29 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, gas, and water, often operating as regulated monopolies.",
-    "marketSizeUSD": "1.1T",
-    "constituentCount": 29,
+    "description": "The Utilities sector encompasses companies that generate, transmit, and distribute electricity, natural gas, and water, and also includes independent power producers and energy traders.",
+    "marketSizeUSD": "850B",
+    "constituentCount": 30,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
         "symbol": "NEE"
       },
       {
-        "name": "The Southern Company",
-        "symbol": "SO"
-      },
-      {
         "name": "Duke Energy Corporation",
         "symbol": "DUK"
+      },
+      {
+        "name": "The Southern Company",
+        "symbol": "SO"
       }
     ]
   },
-  "market_weight": 0.0207,
-  "change_pct": -0.52,
-  "insights": "The Utilities sector concluded today down a modest -0.52%. Technically, the sector appears significantly oversold with its RSI at 24.85, indicating a strong recent downward trend and potential for a near-term bounce. However, the MFI at 52.85, being slightly above 50, suggests that despite today's price drop, there isn't a strong net outflow of money on a volume-weighted basis, possibly hinting at some dip-buying interest or less aggressive selling pressure than the RSI alone might imply. The large OBV of 188611240 would have seen a negative daily contribution due to today's price decline, confirming that the day's selling pressure was accompanied by volume.",
+  "market_weight": 0.0156,
+  "change_pct": 0.14,
+  "insights": "The Utilities sector posted a marginal gain of 0.14% today, signaling a relatively flat performance. Despite this slight uptick, key technical indicators suggest significant underlying pressure. The Relative Strength Index (RSI) at 24.25 and the Money Flow Index (MFI) at 39.75 both reside in oversold territory, indicating that the sector has experienced substantial selling pressure recently, which could potentially precede a near-term technical rebound or at least signal a stabilization after a period of weakness. The On-Balance Volume (OBV) standing at 197,746,445, while a large positive absolute number, would require its daily trend for a clearer interpretation of whether buying or selling volume dominated today's specific movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752969600000,
-        null
-      ],
-      [
-        1753056000000,
-        65.19
-      ],
-      [
-        1753142400000,
-        69.73
-      ],
-      [
-        1753228800000,
-        64.13
-      ],
-      [
-        1753315200000,
-        63.2
-      ],
       [
         1753401600000,
         64.32
@@ -747,29 +727,29 @@
       [
         1768521600000,
         24.85
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        69.4
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        68.11
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        75.53
+        1768867200000,
+        23.76
       ],
       [
-        1753315200000,
-        70.14
-      ],
+        1768953600000,
+        24.25
+      ]
+    ],
+    "mfi": [
       [
         1753401600000,
         69.88
@@ -1473,29 +1453,29 @@
       [
         1768521600000,
         52.85
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        115659900.0
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        127419000.0
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        107252500.0
+        1768867200000,
+        46.32
       ],
       [
-        1753315200000,
-        96183700.0
-      ],
+        1768953600000,
+        39.75
+      ]
+    ],
+    "obv": [
       [
         1753401600000,
         104343900.0
@@ -2199,6 +2179,26 @@
       [
         1768521600000,
         188611240.0
+      ],
+      [
+        1768608000000,
+        null
+      ],
+      [
+        1768694400000,
+        null
+      ],
+      [
+        1768780800000,
+        null
+      ],
+      [
+        1768867200000,
+        164814262.0
+      ],
+      [
+        1768953600000,
+        197746445.0
       ]
     ]
   },
@@ -2206,7 +2206,7 @@
     1.16,
     -1.57,
     2.09,
-    null,
+    -0.88,
     null,
     null,
     null,

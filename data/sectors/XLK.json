@@ -1,8 +1,8 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector includes companies primarily involved in the development of software, provision of IT services, and manufacturing of semiconductors and technology hardware & equipment.",
-    "marketSizeUSD": "14.5T",
+    "description": "The Information Technology sector comprises companies that primarily produce software, hardware, semiconductors, and provide IT services.",
+    "marketSizeUSD": "15.0T",
     "constituentCount": 67,
     "topHoldings": [
       {
@@ -10,40 +10,20 @@
         "symbol": "AAPL"
       },
       {
-        "name": "Microsoft Corporation",
+        "name": "Microsoft Corp.",
         "symbol": "MSFT"
       },
       {
-        "name": "NVIDIA Corporation",
+        "name": "NVIDIA Corp.",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.2726,
-  "change_pct": 0.15,
-  "insights": "The Information Technology sector posted a modest gain of 0.15% today, reflecting largely flat performance with a slight positive bias. Despite this minor daily uptick, the Relative Strength Index (RSI) at 25.40 indicates the sector remains deeply oversold, suggesting significant recent bearish momentum. Counteracting this, the Money Flow Index (MFI) at 61.41 points to moderate capital inflow, hinting at underlying buying interest that contributed to today's positive close. The On-Balance Volume (OBV), which would have increased today due to the positive price movement, further corroborates that buying volume outweighed selling volume for the session, despite the sector's broader oversold condition.",
+  "market_weight": 0.2745,
+  "change_pct": 1.4,
+  "insights": "The Information Technology sector registered a solid 1.40% gain today, reflecting positive market sentiment. Despite this upward movement, the Relative Strength Index (RSI) at 27.04 indicates the sector is still technically oversold, suggesting today's rally might be a bounce from recent lows. Conversely, the Money Flow Index (MFI) at 65.15 shows healthy money inflows into the sector, while the substantial On-Balance Volume (OBV) of 306,348,976 confirms that this price appreciation was indeed supported by strong buying volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1752969600000,
-        null
-      ],
-      [
-        1753056000000,
-        73.87
-      ],
-      [
-        1753142400000,
-        66.15
-      ],
-      [
-        1753228800000,
-        68.33
-      ],
-      [
-        1753315200000,
-        69.88
-      ],
       [
         1753401600000,
         70.73
@@ -747,29 +727,29 @@
       [
         1768521600000,
         25.4
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        57.15
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        57.58
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        57.18
+        1768867200000,
+        22.81
       ],
       [
-        1753315200000,
-        58.51
-      ],
+        1768953600000,
+        27.04
+      ]
+    ],
+    "mfi": [
       [
         1753401600000,
         64.61
@@ -1473,29 +1453,29 @@
       [
         1768521600000,
         61.41
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1752969600000,
+        1768608000000,
         null
       ],
       [
-        1753056000000,
-        88688100.0
+        1768694400000,
+        null
       ],
       [
-        1753142400000,
-        81963700.0
+        1768780800000,
+        null
       ],
       [
-        1753228800000,
-        87009600.0
+        1768867200000,
+        58.67
       ],
       [
-        1753315200000,
-        93089400.0
-      ],
+        1768953600000,
+        65.15
+      ]
+    ],
+    "obv": [
       [
         1753401600000,
         97090400.0
@@ -2199,6 +2179,26 @@
       [
         1768521600000,
         298146875.0
+      ],
+      [
+        1768608000000,
+        null
+      ],
+      [
+        1768694400000,
+        null
+      ],
+      [
+        1768780800000,
+        null
+      ],
+      [
+        1768867200000,
+        279186306.0
+      ],
+      [
+        1768953600000,
+        306348976.0
       ]
     ]
   },
@@ -2206,7 +2206,7 @@
     0.22,
     1.31,
     -0.38,
-    null,
+    -1.22,
     null,
     null,
     null,
