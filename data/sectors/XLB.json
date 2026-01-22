@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0293,
-  "change_pct": 2.18,
-  "insights": "The Materials sector demonstrated strong performance today, surging by 2.18%. This upward movement was significantly supported by robust money flow, as indicated by the high Money Flow Index (MFI) of 74.94, suggesting substantial capital inflow and buying interest. Despite this daily gain, the Relative Strength Index (RSI) at 39.93 suggests the sector is not yet overbought and remains in a relatively neutral territory, potentially allowing for further upside without immediate exhaustion. The high On-Balance Volume (OBV) of 73,997,773 further corroborates strong accumulation, indicating that the price rise was accompanied by significant buying volume.",
+  "change_pct": 0.55,
+  "insights": "The Materials sector posted a modest gain of 0.55% today, reflecting some positive movement. However, its Relative Strength Index (RSI) at 41.44 suggests that buying momentum remains subdued, indicating a neutral to slightly bearish short-term trend. In contrast, the Money Flow Index (MFI) at 78.70 points to a significant inflow of capital into the sector, approaching overbought territory, while the On-Balance Volume (OBV) of 87,938,882 likely increased with today's positive close, corroborating strong volume accompanying the price rise. This indicates a divergence where capital is actively entering the sector, yet the price increase hasn't fully translated into robust relative strength.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753401600000,
-        62.23
-      ],
       [
         1753488000000,
         null
@@ -747,13 +743,13 @@
       [
         1768953600000,
         39.93
+      ],
+      [
+        1769040000000,
+        41.44
       ]
     ],
     "mfi": [
-      [
-        1753401600000,
-        63.63
-      ],
       [
         1753488000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1768953600000,
         74.94
+      ],
+      [
+        1769040000000,
+        78.7
       ]
     ],
     "obv": [
-      [
-        1753401600000,
-        30675600.0
-      ],
       [
         1753488000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1768953600000,
         73997773.0
+      ],
+      [
+        1769040000000,
+        87938882.0
       ]
     ]
   },
@@ -2206,7 +2206,7 @@
     1.71,
     4.65,
     0.85,
-    1.17,
+    1.73,
     null,
     null,
     null,

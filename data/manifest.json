@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-21T21:19:06.762959Z",
+  "lastUpdated": "2026-01-22T21:15:16.065621Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States, selected by Standard & Poor's based on criteria like market size, liquidity, and sector representation.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market exhibited a strong positive performance today, closing up 1.15%, indicating robust short-term bullish sentiment. However, key technical indicators suggest a more balanced underlying momentum; the Relative Strength Index (RSI) at 49.14 sits near the neutral 50-mark, and the Money Flow Index (MFI) at 48.86 similarly points to neither strong buying nor selling pressure on a volume-weighted basis. The high On-Balance Volume (OBV) reading of 1,142,595,467, which represents cumulative volume flow, suggests that today's positive price action was generally supported by significant buying interest. Collectively, while the daily gain points to positive sentiment, the neutral RSI and MFI suggest the market is not yet overextended or exhibiting extreme euphoria, potentially indicating sustainable momentum backed by volume.",
-    "change_pct": 1.15,
+    "commentary": "Today, the overall stock market posted a modest gain, closing up 0.49%. Key technical indicators suggest a market in relative balance with a slight positive tilt. The Relative Strength Index (RSI) at 52.35 and the Money Flow Index (MFI) at 54.96 both reside just above their neutral 50-levels, indicating that while there is some prevailing buying pressure and capital inflow, the market is not displaying strong overbought conditions or significant conviction in either direction. This suggests a somewhat balanced sentiment, with demand slightly outweighing supply but without aggressive momentum. The On-Balance Volume (OBV) at 1,210,169,580 reflects cumulative buying interest over time, consistent with sustained, albeit moderate, demand.",
+    "change_pct": 0.49,
     "technicalIndicators": {
       "rsi": [
-        [
-          1753401600000,
-          75.55
-        ],
         [
           1753488000000,
           null
@@ -747,13 +743,13 @@
         [
           1768953600000,
           49.14
+        ],
+        [
+          1769040000000,
+          52.35
         ]
       ],
       "mfi": [
-        [
-          1753401600000,
-          70.57
-        ],
         [
           1753488000000,
           null
@@ -1473,13 +1469,13 @@
         [
           1768953600000,
           48.86
+        ],
+        [
+          1769040000000,
+          54.96
         ]
       ],
       "obv": [
-        [
-          1753401600000,
-          826011500.0
-        ],
         [
           1753488000000,
           null
@@ -2199,6 +2195,10 @@
         [
           1768953600000,
           1142595467.0
+        ],
+        [
+          1769040000000,
+          1210169580.0
         ]
       ]
     },
@@ -2206,7 +2206,7 @@
       0.2,
       1.59,
       -0.33,
-      -0.91,
+      -0.43,
       null,
       null,
       null,
