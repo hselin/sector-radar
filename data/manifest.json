@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-22T21:15:16.065621Z",
+  "lastUpdated": "2026-01-23T21:14:01.453203Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States, selected by Standard & Poor's based on criteria like market size, liquidity, and sector representation.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Today, the overall stock market posted a modest gain, closing up 0.49%. Key technical indicators suggest a market in relative balance with a slight positive tilt. The Relative Strength Index (RSI) at 52.35 and the Money Flow Index (MFI) at 54.96 both reside just above their neutral 50-levels, indicating that while there is some prevailing buying pressure and capital inflow, the market is not displaying strong overbought conditions or significant conviction in either direction. This suggests a somewhat balanced sentiment, with demand slightly outweighing supply but without aggressive momentum. The On-Balance Volume (OBV) at 1,210,169,580 reflects cumulative buying interest over time, consistent with sustained, albeit moderate, demand.",
-    "change_pct": 0.49,
+    "commentary": "The stock market experienced a largely flat session, closing with a marginal gain of 0.06%. While price action was minimal, key technical indicators suggest a nuanced underlying sentiment. The Relative Strength Index (RSI) at 52.74 is near the neutral 50-mark, indicating a balanced market without strong directional momentum. However, the Money Flow Index (MFI) at 61.80 suggests positive money flow into the market, pointing towards active underlying buying interest. Complementing this, the On-Balance Volume (OBV) at 1,267,409,652, when observed in conjunction with the slight price increase and positive MFI, implies continued accumulation despite the lack of significant daily price movement. Overall, market sentiment appears cautiously optimistic with sustained investor interest, rather than strong conviction or momentum.",
+    "change_pct": 0.06,
     "technicalIndicators": {
       "rsi": [
-        [
-          1753488000000,
-          null
-        ],
         [
           1753574400000,
           null
@@ -747,13 +743,13 @@
         [
           1769040000000,
           52.35
+        ],
+        [
+          1769126400000,
+          52.74
         ]
       ],
       "mfi": [
-        [
-          1753488000000,
-          null
-        ],
         [
           1753574400000,
           null
@@ -1473,13 +1469,13 @@
         [
           1769040000000,
           54.96
+        ],
+        [
+          1769126400000,
+          61.8
         ]
       ],
       "obv": [
-        [
-          1753488000000,
-          null
-        ],
         [
           1753574400000,
           null
@@ -2199,6 +2195,10 @@
         [
           1769040000000,
           1210169580.0
+        ],
+        [
+          1769126400000,
+          1267409652.0
         ]
       ]
     },
@@ -2206,7 +2206,7 @@
       0.2,
       1.59,
       -0.33,
-      -0.43,
+      -0.37,
       null,
       null,
       null,
