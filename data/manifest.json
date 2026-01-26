@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-25T21:08:43.168280Z",
+  "lastUpdated": "2026-01-26T21:15:33.861678Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market concluded the day with a marginal gain of 0.07%, reflecting a largely flat and indecisive session. Analyzing the key technical indicators, the Relative Strength Index (RSI) at 52.74 sits near neutral territory, suggesting neither significantly overbought nor oversold conditions currently exist. However, the Money Flow Index (MFI) at 61.80 indicates a healthy inflow of capital into the market, pointing to underlying buying interest. This positive money flow is further supported by the On-Balance Volume (OBV) at 1,267,409,652, which, given the slight positive close, likely trended upwards, confirming that the modest price appreciation was accompanied by genuine volume. Therefore, despite the muted price action, market sentiment appears to be quietly positive with underlying momentum potentially gathering, even if not yet translating into a significant price move.",
-    "change_pct": 0.07,
+    "commentary": "The broader stock market experienced a modest gain today, closing up 0.52%, reflecting a generally positive session. Key technical indicators support this cautiously optimistic outlook: the Relative Strength Index (RSI) at 56.18 suggests healthy, sustained buying interest without venturing into overbought territory, indicating balanced momentum. This is further corroborated by the Money Flow Index (MFI) at 61.12, which points to a net inflow of capital into the market, signifying genuine participation. A robust On-Balance Volume (OBV) figure of 1,319,993,070, when viewed alongside the positive price movement and MFI, reinforces the idea that today's gains were supported by significant underlying volume, confirming the upward price action. Collectively, these figures suggest a market with positive momentum and underlying strength, driven by sustained, rather than speculative, buying interest, pointing to cautiously optimistic sentiment.",
+    "change_pct": 0.52,
     "technicalIndicators": {
       "rsi": [
-        [
-          1753574400000,
-          null
-        ],
-        [
-          1753660800000,
-          75.19
-        ],
-        [
-          1753747200000,
-          71.39
-        ],
         [
           1753833600000,
           69.59
@@ -747,21 +735,21 @@
         [
           1769126400000,
           52.74
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1753574400000,
+          1769212800000,
           null
         ],
         [
-          1753660800000,
-          76.87
+          1769299200000,
+          null
         ],
         [
-          1753747200000,
-          70.02
-        ],
+          1769385600000,
+          56.18
+        ]
+      ],
+      "mfi": [
         [
           1753833600000,
           62.09
@@ -1473,21 +1461,21 @@
         [
           1769126400000,
           61.8
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1753574400000,
+          1769212800000,
           null
         ],
         [
-          1753660800000,
-          771094400.0
+          1769299200000,
+          null
         ],
         [
-          1753747200000,
-          710538100.0
-        ],
+          1769385600000,
+          61.12
+        ]
+      ],
+      "obv": [
         [
           1753833600000,
           630119200.0
@@ -2199,6 +2187,18 @@
         [
           1769126400000,
           1267409652.0
+        ],
+        [
+          1769212800000,
+          null
+        ],
+        [
+          1769299200000,
+          null
+        ],
+        [
+          1769385600000,
+          1319993070.0
         ]
       ]
     },
@@ -2207,7 +2207,7 @@
       1.59,
       -0.33,
       -0.37,
-      null,
+      0.52,
       null,
       null,
       null,
