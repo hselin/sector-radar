@@ -1,9 +1,9 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises companies that primarily produce software, hardware, semiconductors, and provide IT services.",
-    "marketSizeUSD": "15.0T",
-    "constituentCount": 67,
+    "description": "The Information Technology sector includes companies involved in the production and distribution of software, hardware, semiconductors, and the provision of IT services and technology equipment.",
+    "marketSizeUSD": "13.5T",
+    "constituentCount": 68,
     "topHoldings": [
       {
         "name": "Apple Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2745,
-  "change_pct": 0.71,
-  "insights": "The Information Technology sector posted a modest gain of 0.71% today, indicating positive daily momentum. This upward movement appears supported by healthy money flow, as indicated by the Money Flow Index (MFI) at 62.04, reflecting significant buying interest for the day. Despite this gain, the Relative Strength Index (RSI) at 31.99 suggests the sector remains close to oversold conditions, implying potential room for further recovery without immediate overbought concerns. The On-Balance Volume (OBV) reading also corroborates the presence of volume supporting today's positive price action.",
+  "market_weight": 0.2621,
+  "change_pct": 1.36,
+  "insights": "The Information Technology sector recorded a solid 1.36% gain today, reflecting positive market momentum. Analyzing key technical indicators, the Relative Strength Index (RSI) at 36.37 suggests the sector is not overbought and could have further upside potential, despite the daily rally, as it remains well below the neutral 50-level. Conversely, the Money Flow Index (MFI) at 61.65 confirms healthy buying pressure, indicating that capital is actively flowing into the sector, aligning with today's price increase. Finally, a substantial On-Balance Volume (OBV) of 354,730,306 reinforces the strength of this positive movement, signaling significant accumulation accompanying the upward price action.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753833600000,
-        74.32
-      ],
       [
         1753920000000,
         67.15
@@ -747,13 +743,13 @@
       [
         1769385600000,
         31.99
+      ],
+      [
+        1769472000000,
+        36.37
       ]
     ],
     "mfi": [
-      [
-        1753833600000,
-        62.37
-      ],
       [
         1753920000000,
         59.64
@@ -1473,13 +1469,13 @@
       [
         1769385600000,
         62.04
+      ],
+      [
+        1769472000000,
+        61.65
       ]
     ],
     "obv": [
-      [
-        1753833600000,
-        116686000.0
-      ],
       [
         1753920000000,
         108478800.0
@@ -2199,6 +2195,10 @@
       [
         1769385600000,
         342938935.0
+      ],
+      [
+        1769472000000,
+        354730306.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     1.31,
     -0.38,
     -0.37,
-    0.71,
+    2.07,
     null,
     null,
     null,

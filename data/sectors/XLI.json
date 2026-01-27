@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector comprises companies that manufacture and distribute capital goods, provide commercial and professional services, and offer transportation services.",
-    "marketSizeUSD": "3.9T",
-    "constituentCount": 77,
+    "description": "The Industrials sector comprises companies that manufacture industrial products and equipment, provide commercial and professional services, and offer transportation infrastructure and services.",
+    "marketSizeUSD": "4.3T",
+    "constituentCount": 75,
     "topHoldings": [
       {
-        "name": "General Electric",
+        "name": "General Electric Company",
         "symbol": "GE"
       },
       {
@@ -14,20 +14,16 @@
         "symbol": "CAT"
       },
       {
-        "name": "Honeywell International Inc.",
-        "symbol": "HON"
+        "name": "Union Pacific Corporation",
+        "symbol": "UNP"
       }
     ]
   },
-  "market_weight": 0.0714,
-  "change_pct": 0.12,
-  "insights": "The Industrials sector registered a marginal gain of 0.12% today, with technical indicators reflecting underlying constructive momentum despite the modest price movement. The Relative Strength Index (RSI) at 59.23 suggests building bullish sentiment, staying below overbought thresholds but indicating increasing buying interest. Complementing this, the Money Flow Index (MFI) at 63.28 signals positive capital inflow, implying that buying pressure is outpacing selling volume. Furthermore, the On-Balance Volume (OBV) of 145,226,832, given today's positive close, likely increased, reinforcing the idea that demand is present and accumulating alongside the sector's slight upward trajectory.",
+  "market_weight": 0.0835,
+  "change_pct": 0.43,
+  "insights": "The Industrials sector posted a modest gain of 0.43% today, reflecting slight positive momentum. Key technical indicators largely support this upward movement: the Relative Strength Index (RSI) at 60.80 and Money Flow Index (MFI) at 62.58 both indicate healthy buying interest and increasing capital inflow without signaling overbought conditions. The On-Balance Volume (OBV) at 154,230,100, while a cumulative metric, aligns with the positive price action, suggesting volume is confirming the modest appreciation and implying underlying strength.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753833600000,
-        58.59
-      ],
       [
         1753920000000,
         58.62
@@ -747,13 +743,13 @@
       [
         1769385600000,
         59.23
+      ],
+      [
+        1769472000000,
+        60.8
       ]
     ],
     "mfi": [
-      [
-        1753833600000,
-        49.58
-      ],
       [
         1753920000000,
         56.64
@@ -1473,13 +1469,13 @@
       [
         1769385600000,
         63.28
+      ],
+      [
+        1769472000000,
+        62.58
       ]
     ],
     "obv": [
-      [
-        1753833600000,
-        -1401100.0
-      ],
       [
         1753920000000,
         15119300.0
@@ -2199,6 +2195,10 @@
       [
         1769385600000,
         145226832.0
+      ],
+      [
+        1769472000000,
+        154230100.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     2.51,
     3.03,
     -1.61,
-    0.12,
+    0.55,
     null,
     null,
     null,

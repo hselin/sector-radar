@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies that generate, transmit, and distribute electricity, natural gas, and water, and also includes independent power producers and energy traders.",
-    "marketSizeUSD": "850B",
-    "constituentCount": 30,
+    "description": "The Utilities sector primarily encompasses companies involved in the generation, transmission, and distribution of electricity, gas, and water, including independent power producers and renewable energy sources.",
+    "marketSizeUSD": "$1.4T",
+    "constituentCount": 29,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0156,
-  "change_pct": 0.78,
-  "insights": "The Utilities sector posted a modest gain of 0.78% today, suggesting a slight positive drift. However, this upward movement appears to be occurring within a broader context of weakness, as indicated by key technical metrics. The Relative Strength Index (RSI) at 26.06 places the sector firmly in oversold territory, signaling that the recent selling pressure has been significant. Similarly, the Money Flow Index (MFI) at 37.76 suggests that selling interest continues to outweigh buying interest over the lookback period, despite today's positive close. While the On-Balance Volume (OBV) of 164,924,096 reflects cumulative volume-backed momentum, the deeply oversold RSI and MFI imply that today's positive price action could be a short-term bounce rather than a definitive reversal, with underlying sentiment remaining cautious.",
+  "market_weight": 0.0272,
+  "change_pct": 1.24,
+  "insights": "The Utilities sector posted a positive performance today, rising 1.24%. However, key technical indicators suggest this upward movement may reflect a bounce within a cautious sentiment rather than a strong reversal. The Relative Strength Index (RSI) at 30.84 is still hovering near oversold territory, indicating that despite today's gains, the sector's momentum remains subdued. Similarly, the Money Flow Index (MFI) at 39.72 signals that net money flow into the sector remains relatively weak, not fully supporting the price increase with robust buying interest. While the On-Balance Volume (OBV) at 195099504 reflects cumulative volume, the collective signal from the RSI and MFI implies that today's advance might be a short-term recovery as the sector seeks stronger fundamental or technical confirmation for a sustained uptrend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753833600000,
-        64.86
-      ],
       [
         1753920000000,
         66.9
@@ -747,13 +743,13 @@
       [
         1769385600000,
         26.06
+      ],
+      [
+        1769472000000,
+        30.84
       ]
     ],
     "mfi": [
-      [
-        1753833600000,
-        72.23
-      ],
       [
         1753920000000,
         72.95
@@ -1473,13 +1469,13 @@
       [
         1769385600000,
         37.76
+      ],
+      [
+        1769472000000,
+        39.72
       ]
     ],
     "obv": [
-      [
-        1753833600000,
-        116047000.0
-      ],
       [
         1753920000000,
         131136800.0
@@ -2199,6 +2195,10 @@
       [
         1769385600000,
         164924096.0
+      ],
+      [
+        1769472000000,
+        195099504.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     -1.57,
     2.09,
     -1.96,
-    0.78,
+    2.02,
     null,
     null,
     null,

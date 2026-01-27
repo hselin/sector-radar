@@ -1,8 +1,8 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector encompasses companies involved in telecommunications, media, entertainment, and interactive media & services.",
-    "marketSizeUSD": "6.5T",
+    "description": "The Communication Services sector includes companies involved in telecommunications, media, entertainment, and interactive services.",
+    "marketSizeUSD": "4.4T",
     "constituentCount": 23,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms Inc.",
+        "name": "Meta Platforms, Inc.",
         "symbol": "META"
       },
       {
-        "name": "Netflix Inc.",
+        "name": "Netflix, Inc.",
         "symbol": "NFLX"
       }
     ]
   },
-  "market_weight": 0.1189,
-  "change_pct": 0.68,
-  "insights": "The Communication Services sector recorded a modest gain of 0.68% today, indicating slight positive momentum. Technically, the Relative Strength Index (RSI) at 57.04 suggests developing bullish sentiment, remaining in a healthy neutral zone without being overbought. However, the Money Flow Index (MFI) at 38.13 presents a cautious signal, indicating that money is generally flowing out of the sector despite the day's positive price action. While On-Balance Volume (OBV) stands at 169,915,713, the divergence between the positive price movement and the weak MFI suggests that today's gain may lack strong underlying buying conviction from a money flow perspective, warranting careful monitoring for sustained inflows.",
+  "market_weight": 0.0854,
+  "change_pct": -0.71,
+  "insights": "The Communication Services sector experienced a modest decline of -0.71% today, indicating some selling pressure. Technical indicators suggest this dip occurred within a largely neutral momentum environment; the RSI at 52.36 is neither overbought nor oversold, hovering near the midline. However, the Money Flow Index (MFI) at 38.70 points to a notable outflow of capital from the sector, reinforcing the observed daily price weakness. The On-Balance Volume (OBV) stands at 166,102,106, representing the cumulative volume balance, though its trend over time is crucial for understanding sustained buying or selling pressure. In summary, today's movement reflects minor price weakness supported by capital exiting, without significantly altering the sector's broader momentum profile.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753833600000,
-        50.8
-      ],
       [
         1753920000000,
         55.76
@@ -747,13 +743,13 @@
       [
         1769385600000,
         57.04
+      ],
+      [
+        1769472000000,
+        52.36
       ]
     ],
     "mfi": [
-      [
-        1753833600000,
-        47.36
-      ],
       [
         1753920000000,
         56.98
@@ -1473,13 +1469,13 @@
       [
         1769385600000,
         38.13
+      ],
+      [
+        1769472000000,
+        38.7
       ]
     ],
     "obv": [
-      [
-        1753833600000,
-        125182500.0
-      ],
       [
         1753920000000,
         136633300.0
@@ -2199,6 +2195,10 @@
       [
         1769385600000,
         169915713.0
+      ],
+      [
+        1769472000000,
+        166102106.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     0.86,
     -2.32,
     1.55,
-    0.68,
+    -0.03,
     null,
     null,
     null,

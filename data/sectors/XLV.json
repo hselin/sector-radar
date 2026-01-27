@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector includes companies that provide medical services, manufacture medical equipment or pharmaceuticals, or develop biotechnology products.",
+    "description": "The Health Care sector encompasses companies engaged in providing medical services, manufacturing pharmaceuticals and biotechnology products, and producing medical equipment and supplies.",
     "marketSizeUSD": "5.8T",
     "constituentCount": 64,
     "topHoldings": [
       {
-        "name": "Eli Lilly and Co",
+        "name": "Eli Lilly and Company",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Inc",
+        "name": "UnitedHealth Group Inc.",
         "symbol": "UNH"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1061,
-  "change_pct": 0.4,
-  "insights": "The Health Care sector saw a modest gain of 0.40% today, indicating slight positive sentiment. The Relative Strength Index (RSI) at 57.34 suggests the sector is experiencing moderate bullish momentum without being overbought, implying potential for continued upside. However, the Money Flow Index (MFI) at 43.94, below the 50-mark, points to weakening buying pressure or money potentially flowing out, which could temper the conviction behind today's price increase. The On-Balance Volume (OBV) at 128,043,192, a cumulative volume indicator, would ideally show an upward trend to robustly confirm price gains, providing a long-term perspective on buying and selling pressure.",
+  "market_weight": 0.1126,
+  "change_pct": -1.65,
+  "insights": "The Health Care sector experienced a notable daily decline of -1.65% today, reflecting significant selling pressure. Technical indicators largely corroborate this weakness: the RSI at 47.43 signals a lack of strong buying momentum as it sits below the 50-level, while the MFI at 34.99 points to money actively flowing out of the sector. The OBV figure of 115,661,808, when viewed in the context of the daily price drop, suggests that volume accompanied the decline, reinforcing the bearish sentiment. Collectively, these indicators suggest the sector experienced a broad-based retreat, with capital actively moving away today.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753833600000,
-        49.02
-      ],
       [
         1753920000000,
         38.53
@@ -747,13 +743,13 @@
       [
         1769385600000,
         57.34
+      ],
+      [
+        1769472000000,
+        47.43
       ]
     ],
     "mfi": [
-      [
-        1753833600000,
-        43.18
-      ],
       [
         1753920000000,
         40.65
@@ -1473,13 +1469,13 @@
       [
         1769385600000,
         43.94
+      ],
+      [
+        1769472000000,
+        34.99
       ]
     ],
     "obv": [
-      [
-        1753833600000,
-        -38585600.0
-      ],
       [
         1753920000000,
         -65027200.0
@@ -2199,6 +2195,10 @@
       [
         1769385600000,
         128043192.0
+      ],
+      [
+        1769472000000,
+        115661808.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     1.14,
     -0.97,
     1.09,
-    0.4,
+    -1.26,
     null,
     null,
     null,

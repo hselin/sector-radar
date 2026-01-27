@@ -1,33 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector comprises companies that own, develop, and manage real estate, including equity real estate investment trusts (REITs) and real estate management and development firms.",
-    "marketSizeUSD": "2.7T",
-    "constituentCount": 32,
+    "description": "The Real Estate sector includes companies that own, develop, and manage real estate, encompassing Equity REITs and Real Estate Management & Development firms.",
+    "marketSizeUSD": "2.0T",
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "Prologis Inc.",
         "symbol": "PLD"
       },
       {
-        "name": "American Tower Corp.",
-        "symbol": "AMT"
+        "name": "Equinix, Inc.",
+        "symbol": "EQIX"
       },
       {
-        "name": "Equinix Inc.",
-        "symbol": "EQIX"
+        "name": "American Tower Corporation",
+        "symbol": "AMT"
       }
     ]
   },
-  "market_weight": 0.0494,
-  "change_pct": -0.07,
-  "insights": "The Real Estate sector saw a largely stable day, posting a marginal decline of -0.07%. Technical indicators reflect this subdued movement, with the Relative Strength Index (RSI) at 53.32 firmly in neutral territory, suggesting no significant overbought or oversold conditions. The Money Flow Index (MFI) at 58.58, while slightly above the midline, indicates a moderate inflow of money but not enough to drive substantial price action, aligning with the minimal daily price change. The On-Balance Volume (OBV) at 44,977,876, reflecting cumulative volume pressure, supports the idea of a stable, non-directional day for the sector without strong buying or selling conviction.",
+  "market_weight": 0.0388,
+  "change_pct": 0.06,
+  "insights": "The Real Estate sector concluded the day with a largely flat performance, posting a minimal gain of 0.06%. Technical indicators reflect this muted activity, with the Relative Strength Index (RSI) at 53.67 and Money Flow Index (MFI) at 53.12. Both are firmly in neutral territory just above their respective 50-marks, indicating no significant overbought or oversold conditions and a balanced, rather than strong, directional money flow. The On-Balance Volume (OBV) at 51303024, in context with the negligible price movement and other indicators, suggests that buying and selling pressures were largely balanced, leading to a day devoid of strong conviction or significant trend development.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753833600000,
-        51.66
-      ],
       [
         1753920000000,
         43.59
@@ -747,13 +743,13 @@
       [
         1769385600000,
         53.32
+      ],
+      [
+        1769472000000,
+        53.67
       ]
     ],
     "mfi": [
-      [
-        1753833600000,
-        66.5
-      ],
       [
         1753920000000,
         63.47
@@ -1473,13 +1469,13 @@
       [
         1769385600000,
         58.58
+      ],
+      [
+        1769472000000,
+        53.12
       ]
     ],
     "obv": [
-      [
-        1753833600000,
-        33289900.0
-      ],
       [
         1753920000000,
         22969200.0
@@ -2199,6 +2195,10 @@
       [
         1769385600000,
         44977876.0
+      ],
+      [
+        1769472000000,
+        51303024.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     0.32,
     4.25,
     -2.3,
-    -0.07,
+    -0.01,
     null,
     null,
     null,

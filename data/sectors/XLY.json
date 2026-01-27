@@ -1,33 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, which consumers purchase with their disposable income, including retail, automotive, hotels, restaurants, and entertainment.",
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, including retail, automotive, hotels, restaurants, leisure, and entertainment, which are generally sensitive to economic cycles.",
     "marketSizeUSD": "6.8T",
-    "constituentCount": 52,
+    "constituentCount": 56,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc.",
+        "name": "Amazon.com, Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc",
+        "name": "Tesla, Inc.",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot Inc.",
+        "name": "The Home Depot, Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1244,
-  "change_pct": -0.67,
-  "insights": "The Consumer Discretionary sector experienced a modest decline of -0.67% today. This downward movement pushed its Relative Strength Index (RSI) to 32.50, indicating increasing selling pressure and nearing the oversold threshold. However, the Money Flow Index (MFI) remains robust at 69.42, suggesting that despite today's price weakness, there has been significant capital flowing into the sector, pointing to underlying buying interest. The On-Balance Volume (OBV) stands at 59,367,051, generally reflecting historical net buying pressure, presenting a mixed technical picture where current downward momentum is contrasted with signs of persistent capital inflow.",
+  "market_weight": 0.132,
+  "change_pct": 0.3,
+  "insights": "The Consumer Discretionary sector posted a modest 0.30% gain today, presenting a nuanced technical picture. The Relative Strength Index (RSI) at 33.50 suggests the sector has experienced recent weakness and is nearing oversold territory, indicating potential undervaluation after previous declines. However, the Money Flow Index (MFI) at 62.94 points to robust money inflows, signaling strong buying interest, which is consistent with today's positive movement. The On-Balance Volume (OBV) of 63,512,455, likely increasing with today's positive close, further suggests that this price uptick was supported by underlying buying volume, despite the broader momentum weakness implied by the RSI.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753833600000,
-        55.76
-      ],
       [
         1753920000000,
         51.7
@@ -747,13 +743,13 @@
       [
         1769385600000,
         32.5
+      ],
+      [
+        1769472000000,
+        33.5
       ]
     ],
     "mfi": [
-      [
-        1753833600000,
-        57.88
-      ],
       [
         1753920000000,
         51.12
@@ -1473,13 +1469,13 @@
       [
         1769385600000,
         69.42
+      ],
+      [
+        1769472000000,
+        62.94
       ]
     ],
     "obv": [
-      [
-        1753833600000,
-        17891300.0
-      ],
       [
         1753920000000,
         11027200.0
@@ -2199,6 +2195,10 @@
       [
         1769385600000,
         59367051.0
+      ],
+      [
+        1769472000000,
+        63512455.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     5.14,
     -1.72,
     0.67,
-    -0.67,
+    -0.37,
     null,
     null,
     null,

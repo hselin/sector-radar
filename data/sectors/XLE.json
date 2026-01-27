@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector encompasses companies primarily engaged in the exploration, production, refining, and marketing of oil, gas, and consumable fuels, as well as companies providing related services.",
-    "marketSizeUSD": "1.7T",
+    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, and other consumable fuels.",
+    "marketSizeUSD": "1.9T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0311,
-  "change_pct": 0.04,
-  "insights": "The Energy sector experienced a nearly flat performance today, registering a marginal gain of 0.04%. Technical indicators present a nuanced view: the Relative Strength Index (RSI) at 44.14 suggests neutral momentum, leaning slightly bearish, indicating neither strong buying nor selling pressure. However, the Money Flow Index (MFI) at 67.33 highlights significant money inflow into the sector, potentially signaling underlying accumulation despite the stagnant price action. The On-Balance Volume (OBV), reflecting a current cumulative value of 606,792,286, would have registered a slight increase today, consistent with the positive price movement and confirming that the marginal buying was accompanied by volume.",
+  "market_weight": 0.0369,
+  "change_pct": 0.9,
+  "insights": "The Energy sector advanced by a respectable 0.90% today, signaling positive sentiment. This upward movement is corroborated by key technical indicators: the Money Flow Index (MFI) at 76.00 suggests significant capital inflow and strong buying interest, nearing overbought territory but confirming conviction. Meanwhile, the Relative Strength Index (RSI) at 46.44 remains in neutral territory, indicating that today's gains are not yet extended and there's potential for further upside without the sector being considered overbought. The high On-Balance Volume (OBV) of 642,443,201, having increased with the price, further validates the underlying buying pressure supporting today's price appreciation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753833600000,
-        54.04
-      ],
       [
         1753920000000,
         51.87
@@ -747,13 +743,13 @@
       [
         1769385600000,
         44.14
+      ],
+      [
+        1769472000000,
+        46.44
       ]
     ],
     "mfi": [
-      [
-        1753833600000,
-        55.54
-      ],
       [
         1753920000000,
         49.17
@@ -1473,13 +1469,13 @@
       [
         1769385600000,
         67.33
+      ],
+      [
+        1769472000000,
+        76.0
       ]
     ],
     "obv": [
-      [
-        1753833600000,
-        178747800.0
-      ],
       [
         1753920000000,
         166267400.0
@@ -2199,6 +2195,10 @@
       [
         1769385600000,
         606792286.0
+      ],
+      [
+        1769472000000,
+        642443201.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     2.19,
     2.24,
     3.12,
-    0.04,
+    0.95,
     null,
     null,
     null,
