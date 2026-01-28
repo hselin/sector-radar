@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, paper, and forest products.",
-    "marketSizeUSD": "1.6T",
+    "description": "The Materials sector comprises companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, and packaging.",
+    "marketSizeUSD": "1.2T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "The Sherwin-Williams Company",
+        "name": "Sherwin-Williams Co",
         "symbol": "SHW"
       },
       {
-        "name": "Freeport-McMoRan Inc.",
-        "symbol": "FCX"
+        "name": "Ecolab Inc",
+        "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0311,
-  "change_pct": -0.1,
-  "insights": "The Materials sector registered a marginal decline of -0.10% today, indicating a largely neutral session with minimal price movement. The Relative Strength Index (RSI) at 44.13 suggests momentum is slightly bearish but remains in a neutral range, without indicating strong oversold or overbought conditions. Conversely, the Money Flow Index (MFI) at 72.83 points to strong buying pressure and substantial money inflow into the sector, approaching overbought levels. This divergence, where price shows a slight dip while money flow is robust, could suggest underlying accumulation or persistent investor interest despite today's flat performance. The On-Balance Volume (OBV) stands at 110,578,971, reflecting cumulative buying and selling pressure over time, though its daily change would offer more specific insight into today's volume-price relationship.",
+  "market_weight": 0.0235,
+  "change_pct": -0.06,
+  "insights": "The Materials sector closed largely flat today, experiencing a marginal decline of -0.06%. While the Relative Strength Index (RSI) at 43.98 indicates a lack of strong directional momentum and leans slightly bearish, the Money Flow Index (MFI) at 73.29 suggests robust money inflow into the sector, approaching overbought territory. This divergence, coupled with a substantial On-Balance Volume (OBV) of 97,440,441 reflecting accumulated buying pressure, indicates that despite today's negligible price movement, there is underlying capital interest and demand for Materials equities.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753920000000,
-        40.17
-      ],
       [
         1754006400000,
         36.78
@@ -747,13 +743,13 @@
       [
         1769472000000,
         44.13
+      ],
+      [
+        1769558400000,
+        43.98
       ]
     ],
     "mfi": [
-      [
-        1753920000000,
-        37.3
-      ],
       [
         1754006400000,
         34.95
@@ -1473,13 +1469,13 @@
       [
         1769472000000,
         72.83
+      ],
+      [
+        1769558400000,
+        73.29
       ]
     ],
     "obv": [
-      [
-        1753920000000,
-        -7364800.0
-      ],
       [
         1754006400000,
         -21655700.0
@@ -2199,6 +2195,10 @@
       [
         1769472000000,
         110578971.0
+      ],
+      [
+        1769558400000,
+        97440441.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     4.65,
     0.85,
     2.65,
-    0.04,
+    -0.02,
     null,
     null,
     null,

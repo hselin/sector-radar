@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0369,
-  "change_pct": 0.9,
-  "insights": "The Energy sector advanced by a respectable 0.90% today, signaling positive sentiment. This upward movement is corroborated by key technical indicators: the Money Flow Index (MFI) at 76.00 suggests significant capital inflow and strong buying interest, nearing overbought territory but confirming conviction. Meanwhile, the Relative Strength Index (RSI) at 46.44 remains in neutral territory, indicating that today's gains are not yet extended and there's potential for further upside without the sector being considered overbought. The high On-Balance Volume (OBV) of 642,443,201, having increased with the price, further validates the underlying buying pressure supporting today's price appreciation.",
+  "market_weight": 0.0372,
+  "change_pct": 0.81,
+  "insights": "The Energy sector experienced a modest positive day, climbing 0.81%. While the Relative Strength Index (RSI) at 48.48 suggests a neutral momentum, indicating neither overbought nor oversold conditions, the Money Flow Index (MFI) at 82.05 signals significant buying pressure, pushing the sector into an overbought territory. This robust capital inflow, coupled with a substantial On-Balance Volume (OBV) of 681,374,799, corroborates that today's price appreciation was well-supported by strong buying volume, but the high MFI warrants caution regarding potential short-term consolidation or pullback.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1753920000000,
-        51.87
-      ],
       [
         1754006400000,
         45.15
@@ -747,13 +743,13 @@
       [
         1769472000000,
         46.44
+      ],
+      [
+        1769558400000,
+        48.48
       ]
     ],
     "mfi": [
-      [
-        1753920000000,
-        49.17
-      ],
       [
         1754006400000,
         48.29
@@ -1473,13 +1469,13 @@
       [
         1769472000000,
         76.0
+      ],
+      [
+        1769558400000,
+        82.05
       ]
     ],
     "obv": [
-      [
-        1753920000000,
-        166267400.0
-      ],
       [
         1754006400000,
         145102700.0
@@ -2199,6 +2195,10 @@
       [
         1769472000000,
         642443201.0
+      ],
+      [
+        1769558400000,
+        681374799.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     2.19,
     2.24,
     3.12,
-    0.95,
+    1.76,
     null,
     null,
     null,

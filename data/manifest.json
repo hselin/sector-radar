@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-27T21:17:13.673896Z",
+  "lastUpdated": "2026-01-28T21:18:44.114825Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Commentary could not be generated due to a persistent network error.",
-    "change_pct": 0.4,
+    "commentary": "The overall stock market concluded the day virtually unchanged, registering a fractional decline of -0.01%, suggesting a session of consolidation and indecisive price action. Despite this marginal movement, technical indicators paint a picture of resilient underlying sentiment. The Relative Strength Index (RSI) at 58.57 and Money Flow Index (MFI) at 59.94 are both positioned in neutral territory but lean towards the stronger side, indicating sustained buying interest and positive money flow without yet reaching overbought conditions. The On-Balance Volume (OBV) at 1,313,894,372, while a cumulative measure, suggests volume activity consistent with a market holding current levels rather than experiencing strong distribution on this flat day. Collectively, these figures hint at persistent, albeit moderate, bullish momentum and a sentiment that remains constructively poised beneath the surface, despite the lack of a clear directional move.",
+    "change_pct": -0.01,
     "technicalIndicators": {
       "rsi": [
-        [
-          1753920000000,
-          64.37
-        ],
         [
           1754006400000,
           47.65
@@ -747,13 +743,13 @@
         [
           1769472000000,
           58.68
+        ],
+        [
+          1769558400000,
+          58.57
         ]
       ],
       "mfi": [
-        [
-          1753920000000,
-          59.46
-        ],
         [
           1754006400000,
           49.72
@@ -1473,13 +1469,13 @@
         [
           1769472000000,
           60.58
+        ],
+        [
+          1769558400000,
+          59.94
         ]
       ],
       "obv": [
-        [
-          1753920000000,
-          526734000.0
-        ],
         [
           1754006400000,
           386630400.0
@@ -2199,6 +2195,10 @@
         [
           1769472000000,
           1368886332.0
+        ],
+        [
+          1769558400000,
+          1313894372.0
         ]
       ]
     },
@@ -2207,7 +2207,7 @@
       1.59,
       -0.33,
       -0.37,
-      0.93,
+      0.91,
       null,
       null,
       null,
