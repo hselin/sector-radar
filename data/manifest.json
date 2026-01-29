@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-28T21:18:44.114825Z",
+  "lastUpdated": "2026-01-29T21:17:01.680719Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market concluded the day virtually unchanged, registering a fractional decline of -0.01%, suggesting a session of consolidation and indecisive price action. Despite this marginal movement, technical indicators paint a picture of resilient underlying sentiment. The Relative Strength Index (RSI) at 58.57 and Money Flow Index (MFI) at 59.94 are both positioned in neutral territory but lean towards the stronger side, indicating sustained buying interest and positive money flow without yet reaching overbought conditions. The On-Balance Volume (OBV) at 1,313,894,372, while a cumulative measure, suggests volume activity consistent with a market holding current levels rather than experiencing strong distribution on this flat day. Collectively, these figures hint at persistent, albeit moderate, bullish momentum and a sentiment that remains constructively poised beneath the surface, despite the lack of a clear directional move.",
-    "change_pct": -0.01,
+    "commentary": "The overall stock market saw a marginal decline today, closing down -0.19%. Despite this fractional pullback, key technical indicators suggest a degree of underlying resilience. The Relative Strength Index (RSI) at 56.75 and Money Flow Index (MFI) at 58.04 both hover slightly above their respective neutral 50-marks. This indicates that while price momentum for the day was negative, there remains a slight bias towards buying interest and capital inflow, preventing a more significant downturn. On-Balance Volume (OBV) at 1,222,103,468 reflects significant cumulative trading activity. Overall market sentiment appears balanced with a subtle underlying bid, suggesting a period of consolidation rather than a strong directional move, with momentum showing no immediate signs of extreme overbought or oversold conditions.",
+    "change_pct": -0.19,
     "technicalIndicators": {
       "rsi": [
-        [
-          1754006400000,
-          47.65
-        ],
         [
           1754092800000,
           null
@@ -747,13 +743,13 @@
         [
           1769558400000,
           58.57
+        ],
+        [
+          1769644800000,
+          56.75
         ]
       ],
       "mfi": [
-        [
-          1754006400000,
-          49.72
-        ],
         [
           1754092800000,
           null
@@ -1473,13 +1469,13 @@
         [
           1769558400000,
           59.94
+        ],
+        [
+          1769644800000,
+          58.04
         ]
       ],
       "obv": [
-        [
-          1754006400000,
-          386630400.0
-        ],
         [
           1754092800000,
           null
@@ -2199,6 +2195,10 @@
         [
           1769558400000,
           1313894372.0
+        ],
+        [
+          1769644800000,
+          1222103468.0
         ]
       ]
     },
@@ -2207,7 +2207,7 @@
       1.59,
       -0.33,
       -0.37,
-      0.91,
+      0.72,
       null,
       null,
       null,
