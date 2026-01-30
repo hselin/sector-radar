@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0391,
-  "change_pct": 1.27,
-  "insights": "The Real Estate sector demonstrated positive performance today, gaining 1.27%. This upward movement is supported by healthy technical indicators: the Relative Strength Index (RSI) at 54.75 suggests solid momentum without being overbought, while the Money Flow Index (MFI) at 61.05 reflects robust money flow into the sector. The substantial On-Balance Volume (OBV) reading of 51,373,900 further confirms that today's price appreciation was accompanied by significant buying interest and volume, validating the strength of the daily gain.",
+  "change_pct": 0.15,
+  "insights": "The Real Estate sector posted a modest gain of 0.15% today, reflecting a slight positive sentiment. Technical indicators suggest this movement is supported by underlying momentum and money flow, yet without signalling overextension. Specifically, the RSI at 55.50 indicates continued, albeit moderate, bullish momentum, remaining well within neutral territory. The MFI at 62.14 corroborates this, pointing to sustained money inflow into the sector, albeit not aggressively overbought. The robust OBV reading of 61,966,802, in conjunction with today's positive close, further supports that buying volume has generally outpaced selling volume, underpinning the sector's current upward trajectory.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1754092800000,
-        null
-      ],
       [
         1754179200000,
         null
@@ -747,13 +743,13 @@
       [
         1769644800000,
         54.75
+      ],
+      [
+        1769731200000,
+        55.5
       ]
     ],
     "mfi": [
-      [
-        1754092800000,
-        null
-      ],
       [
         1754179200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1769644800000,
         61.05
+      ],
+      [
+        1769731200000,
+        62.14
       ]
     ],
     "obv": [
-      [
-        1754092800000,
-        null
-      ],
       [
         1754179200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1769644800000,
         51373900.0
+      ],
+      [
+        1769731200000,
+        61966802.0
       ]
     ]
   },
@@ -2207,7 +2207,7 @@
     0.32,
     4.25,
     -2.3,
-    0.28,
+    0.42,
     null,
     null,
     null,

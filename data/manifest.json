@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-01-29T21:17:01.680719Z",
+  "lastUpdated": "2026-01-30T21:17:00.264474Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market saw a marginal decline today, closing down -0.19%. Despite this fractional pullback, key technical indicators suggest a degree of underlying resilience. The Relative Strength Index (RSI) at 56.75 and Money Flow Index (MFI) at 58.04 both hover slightly above their respective neutral 50-marks. This indicates that while price momentum for the day was negative, there remains a slight bias towards buying interest and capital inflow, preventing a more significant downturn. On-Balance Volume (OBV) at 1,222,103,468 reflects significant cumulative trading activity. Overall market sentiment appears balanced with a subtle underlying bid, suggesting a period of consolidation rather than a strong directional move, with momentum showing no immediate signs of extreme overbought or oversold conditions.",
-    "change_pct": -0.19,
+    "commentary": "The stock market experienced a modest decline today, closing down -0.30%. This slight dip occurred amidst technical indicators suggesting a largely neutral market sentiment and subdued momentum. The Relative Strength Index (RSI) at 53.94 is comfortably in neutral territory, indicating neither overbought nor oversold conditions, while the Money Flow Index (MFI) at 50.65 similarly points to balanced money flow without strong conviction from either buyers or sellers. While On-Balance Volume (OBV) at 1,137,462,544 reflects significant cumulative trading activity, without its daily change, it broadly aligns with the overall picture of a market lacking overwhelming directional momentum. Therefore, today's marginal pullback appears to reflect a period of indecision rather than a strong bearish shift.",
+    "change_pct": -0.3,
     "technicalIndicators": {
       "rsi": [
-        [
-          1754092800000,
-          null
-        ],
         [
           1754179200000,
           null
@@ -747,13 +743,13 @@
         [
           1769644800000,
           56.75
+        ],
+        [
+          1769731200000,
+          53.94
         ]
       ],
       "mfi": [
-        [
-          1754092800000,
-          null
-        ],
         [
           1754179200000,
           null
@@ -1473,13 +1469,13 @@
         [
           1769644800000,
           58.04
+        ],
+        [
+          1769731200000,
+          50.65
         ]
       ],
       "obv": [
-        [
-          1754092800000,
-          null
-        ],
         [
           1754179200000,
           null
@@ -2199,6 +2195,10 @@
         [
           1769644800000,
           1222103468.0
+        ],
+        [
+          1769731200000,
+          1137462544.0
         ]
       ]
     },
@@ -2207,7 +2207,7 @@
       1.59,
       -0.33,
       -0.37,
-      0.72,
+      0.41,
       null,
       null,
       null,
