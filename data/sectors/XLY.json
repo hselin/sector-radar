@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, including retail, automotive, hotels, restaurants, leisure, and entertainment, which are generally sensitive to economic cycles.",
-    "marketSizeUSD": "6.8T",
+    "description": "The Consumer Discretionary sector comprises companies that produce goods and services considered non-essential, which consumers buy when they have disposable income.",
+    "marketSizeUSD": "5.5T",
     "constituentCount": 56,
     "topHoldings": [
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1331,
-  "change_pct": 0.01,
-  "insights": "The Consumer Discretionary sector closed today with a nearly flat performance, showing a modest 0.01% change. Despite this daily stability, key technical indicators suggest underlying weakness and a lack of buying conviction. The Relative Strength Index (RSI) at 31.47 is nearing oversold territory, while the Money Flow Index (MFI) at 34.34 indicates limited money flowing into the sector. This combination implies that while the sector saw minimal price movement today, it remains under pressure from recent selling activity or a period of consolidation, failing to attract significant new capital as indicated by these momentum and volume-based oscillators.",
+  "market_weight": 0.1017,
+  "change_pct": -0.8,
+  "insights": "The Consumer Discretionary sector experienced a modest decline of -0.80% today, reflecting a day of negative sentiment. Key technical indicators largely support this downward momentum: the Relative Strength Index (RSI) at 32.37 and the Money Flow Index (MFI) at 33.22 both indicate increasing selling pressure, with the sector approaching oversold conditions and suggesting a notable outflow of capital. The On-Balance Volume (OBV) at 49418585, in conjunction with the negative price movement, implies that today's selling was accompanied by volume, further validating the bearish sentiment and the sector's weakening technical position.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1754179200000,
-        null
-      ],
-      [
-        1754265600000,
-        46.99
-      ],
-      [
-        1754352000000,
-        47.55
-      ],
-      [
-        1754438400000,
-        55.69
-      ],
       [
         1754524800000,
         55.55
@@ -747,25 +731,25 @@
       [
         1769731200000,
         31.47
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        49.07
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        56.17
+        1769990400000,
+        34.03
       ],
       [
-        1754438400000,
-        57.17
-      ],
+        1770076800000,
+        32.37
+      ]
+    ],
+    "mfi": [
       [
         1754524800000,
         57.4
@@ -1473,25 +1457,25 @@
       [
         1769731200000,
         34.34
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        6017100.0
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        11527900.0
+        1769990400000,
+        34.1
       ],
       [
-        1754438400000,
-        17392300.0
-      ],
+        1770076800000,
+        33.22
+      ]
+    ],
+    "obv": [
       [
         1754524800000,
         11328500.0
@@ -2199,6 +2183,22 @@
       [
         1769731200000,
         53035753.0
+      ],
+      [
+        1769817600000,
+        null
+      ],
+      [
+        1769904000000,
+        null
+      ],
+      [
+        1769990400000,
+        61518753.0
+      ],
+      [
+        1770076800000,
+        49418585.0
       ]
     ]
   },
@@ -2208,7 +2208,7 @@
     -1.72,
     0.67,
     -1.56,
-    null,
+    -0.17,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector includes companies involved in banking, diversified financial services, insurance, real estate, and capital markets.",
-    "marketSizeUSD": "6.0T",
+    "description": "The Financials sector encompasses a wide range of companies that provide financial services, including banks, diversified financial services, insurance, real estate, and capital markets.",
+    "marketSizeUSD": "5.9T",
     "constituentCount": 68,
     "topHoldings": [
       {
@@ -14,32 +14,16 @@
         "symbol": "JPM"
       },
       {
-        "name": "Bank of America Corp.",
-        "symbol": "BAC"
+        "name": "Visa Inc.",
+        "symbol": "V"
       }
     ]
   },
-  "market_weight": 0.1174,
-  "change_pct": -0.15,
-  "insights": "The Financials sector experienced a marginal decline of -0.15% today, reflecting a largely subdued trading session. Key technical indicators suggest a neutral to slightly bearish sentiment. The Relative Strength Index (RSI) at 44.00 sits in neutral territory but leans slightly towards weakness, indicating neither strong overbought nor oversold conditions. Reinforcing this, the Money Flow Index (MFI) at 39.75 suggests a modest outflow of funds from the sector, consistent with the day's negative performance. While the On-Balance Volume (OBV) at 220,732,430 represents the cumulative buying/selling pressure at this level, its specific daily trend would offer further confirmation of the underlying volume dynamics supporting this slight pullback.",
+  "market_weight": 0.1091,
+  "change_pct": -0.93,
+  "insights": "The Financials sector experienced a moderate decline today, closing down -0.93%, reflecting general selling pressure. Technical indicators largely align with this movement, showing the Relative Strength Index (RSI) at 45.37 and the Money Flow Index (MFI) at 47.36. Both metrics are below the neutral 50-level, suggesting a weakening in price momentum and a net outflow of funds, consistent with the day's decline, though neither signals an oversold condition. The On-Balance Volume (OBV) stands at 202,585,373; in the context of today's price drop, a corresponding decrease in OBV would confirm that selling volume outweighed buying volume, reinforcing the observed bearish sentiment for the day.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1754179200000,
-        null
-      ],
-      [
-        1754265600000,
-        46.74
-      ],
-      [
-        1754352000000,
-        44.82
-      ],
-      [
-        1754438400000,
-        47.59
-      ],
       [
         1754524800000,
         42.29
@@ -747,25 +731,25 @@
       [
         1769731200000,
         44.0
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        52.04
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        53.33
+        1769990400000,
+        49.82
       ],
       [
-        1754438400000,
-        52.03
-      ],
+        1770076800000,
+        45.37
+      ]
+    ],
+    "mfi": [
       [
         1754524800000,
         45.12
@@ -1473,25 +1457,25 @@
       [
         1769731200000,
         39.75
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        -85677200.0
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        -119228200.0
+        1769990400000,
+        46.64
       ],
       [
-        1754438400000,
-        -85029500.0
-      ],
+        1770076800000,
+        47.36
+      ]
+    ],
+    "obv": [
       [
         1754524800000,
         -128132700.0
@@ -2199,6 +2183,22 @@
       [
         1769731200000,
         220732430.0
+      ],
+      [
+        1769817600000,
+        null
+      ],
+      [
+        1769904000000,
+        null
+      ],
+      [
+        1769990400000,
+        268763930.0
+      ],
+      [
+        1770076800000,
+        202585373.0
       ]
     ]
   },
@@ -2208,7 +2208,7 @@
     -2.32,
     -2.53,
     0.76,
-    null,
+    0.13,
     null,
     null,
     null,

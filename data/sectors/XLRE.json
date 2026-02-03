@@ -1,45 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector includes companies that own, develop, and manage real estate, encompassing Equity REITs and Real Estate Management & Development firms.",
-    "marketSizeUSD": "2.0T",
-    "constituentCount": 31,
+    "description": "The Real Estate GICS sector comprises equity REITs and other companies engaged in real estate development and management, excluding mortgage REITs and real estate services.",
+    "marketSizeUSD": "2.8T",
+    "constituentCount": 32,
     "topHoldings": [
       {
-        "name": "Prologis Inc.",
+        "name": "Prologis, Inc.",
         "symbol": "PLD"
-      },
-      {
-        "name": "Equinix, Inc.",
-        "symbol": "EQIX"
       },
       {
         "name": "American Tower Corporation",
         "symbol": "AMT"
+      },
+      {
+        "name": "Equinix, Inc.",
+        "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.0391,
-  "change_pct": 0.15,
-  "insights": "The Real Estate sector posted a modest gain of 0.15% today, reflecting a slight positive sentiment. Technical indicators suggest this movement is supported by underlying momentum and money flow, yet without signalling overextension. Specifically, the RSI at 55.50 indicates continued, albeit moderate, bullish momentum, remaining well within neutral territory. The MFI at 62.14 corroborates this, pointing to sustained money inflow into the sector, albeit not aggressively overbought. The robust OBV reading of 61,966,802, in conjunction with today's positive close, further supports that buying volume has generally outpaced selling volume, underpinning the sector's current upward trajectory.",
+  "market_weight": 0.0518,
+  "change_pct": -0.37,
+  "insights": "The Real Estate sector experienced a modest decline of -0.37% today. This minor dip appears to be occurring within a largely neutral technical environment, as indicated by key momentum and money flow metrics. The Relative Strength Index (RSI) at 46.72 and the Money Flow Index (MFI) at 49.32 both hover near the 50-mark, suggesting a lack of strong conviction from buyers or sellers and indicating balanced pressure rather than strong directional momentum. While the price moved slightly lower, these indicators do not signal significant bearish momentum or heavy money outflow for the day, implying the sector is currently consolidating without strong directional bias, as further supported by the On-Balance Volume (OBV) which, at 44031644, doesn't suggest an extreme shift in cumulative volume flow on this particular day.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1754179200000,
-        null
-      ],
-      [
-        1754265600000,
-        46.87
-      ],
-      [
-        1754352000000,
-        48.57
-      ],
-      [
-        1754438400000,
-        44.71
-      ],
       [
         1754524800000,
         46.79
@@ -747,25 +731,25 @@
       [
         1769731200000,
         55.5
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        61.26
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        60.41
+        1769990400000,
+        48.69
       ],
       [
-        1754438400000,
-        52.7
-      ],
+        1770076800000,
+        46.72
+      ]
+    ],
+    "mfi": [
       [
         1754524800000,
         46.68
@@ -1473,25 +1457,25 @@
       [
         1769731200000,
         62.14
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        19951100.0
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        26216400.0
+        1769990400000,
+        55.58
       ],
       [
-        1754438400000,
-        18646900.0
-      ],
+        1770076800000,
+        49.32
+      ]
+    ],
+    "obv": [
       [
         1754524800000,
         25076500.0
@@ -2199,6 +2183,22 @@
       [
         1769731200000,
         61966802.0
+      ],
+      [
+        1769817600000,
+        null
+      ],
+      [
+        1769904000000,
+        null
+      ],
+      [
+        1769990400000,
+        52579902.0
+      ],
+      [
+        1770076800000,
+        44031644.0
       ]
     ]
   },
@@ -2208,7 +2208,7 @@
     4.25,
     -2.3,
     0.42,
-    null,
+    -1.5,
     null,
     null,
     null,

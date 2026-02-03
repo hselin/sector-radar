@@ -1,8 +1,8 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies involved in telecommunications, media, entertainment, and interactive services.",
-    "marketSizeUSD": "4.4T",
+    "description": "The Communication Services sector includes companies involved in telecommunications, media, entertainment, and interactive media and services.",
+    "marketSizeUSD": "7.0T",
     "constituentCount": 23,
     "topHoldings": [
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0861,
-  "change_pct": 0.27,
-  "insights": "The Communication Services sector posted a modest daily gain of 0.27%, reflecting positive, albeit limited, upward momentum. Its RSI at 64.68 indicates strong buying pressure and that the sector is approaching overbought conditions, suggesting it may be getting extended. However, the MFI at 44.99 points to moderate-to-weak money flow, implying that while price has appreciated, the movement might not be fully supported by robust volume-weighted inflows. The positive OBV of 178,546,606 confirms net buying volume for the day, aligning with the modest price increase, but the MFI suggests caution regarding the underlying strength of capital entering the sector for sustained momentum.",
+  "market_weight": 0.1294,
+  "change_pct": -1.61,
+  "insights": "The Communication Services sector experienced a notable daily decline of -1.61% today. Despite this pullback, key technical indicators suggest the underlying momentum remains relatively balanced. The Relative Strength Index (RSI) at 52.39 and the Money Flow Index (MFI) at 51.44 both hover near their midpoints, indicating neither overbought nor oversold conditions and a generally neutral money flow. While the sector saw selling pressure, these neutral readings suggest the dip was not accompanied by extreme directional conviction, with the On-Balance Volume (OBV) at 162,845,318 reflecting cumulative volume that aligns with a neutral overall trend rather than strong capitulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1754179200000,
-        null
-      ],
-      [
-        1754265600000,
-        57.81
-      ],
-      [
-        1754352000000,
-        53.57
-      ],
-      [
-        1754438400000,
-        55.3
-      ],
       [
         1754524800000,
         52.92
@@ -747,25 +731,25 @@
       [
         1769731200000,
         64.68
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        54.26
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        61.49
+        1769990400000,
+        62.11
       ],
       [
-        1754438400000,
-        55.87
-      ],
+        1770076800000,
+        52.39
+      ]
+    ],
+    "mfi": [
       [
         1754524800000,
         55.41
@@ -1473,25 +1457,25 @@
       [
         1769731200000,
         44.99
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        132335000.0
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        126560900.0
+        1769990400000,
+        51.75
       ],
       [
-        1754438400000,
-        131701900.0
-      ],
+        1770076800000,
+        51.44
+      ]
+    ],
+    "obv": [
       [
         1754524800000,
         125453600.0
@@ -2199,6 +2183,22 @@
       [
         1769731200000,
         178546606.0
+      ],
+      [
+        1769817600000,
+        null
+      ],
+      [
+        1769904000000,
+        null
+      ],
+      [
+        1769990400000,
+        170894806.0
+      ],
+      [
+        1770076800000,
+        162845318.0
       ]
     ]
   },
@@ -2208,7 +2208,7 @@
     -2.32,
     1.55,
     2.71,
-    null,
+    -1.98,
     null,
     null,
     null,

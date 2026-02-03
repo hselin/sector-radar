@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, and other consumable fuels.",
-    "marketSizeUSD": "1.9T",
+    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil and gas products, as well as those providing equipment and services to the energy industry.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0372,
-  "change_pct": 1.03,
-  "insights": "The Energy sector posted a positive gain of 1.03% today, reflecting a bullish sentiment. Technical indicators largely support this upward trend: the Relative Strength Index (RSI) at 53.38 is in neutral territory, leaning slightly bullish with room for further upside without being overbought. More notably, the Money Flow Index (MFI) at 73.53 indicates strong money inflow and buying pressure, nearing the overbought threshold. The On-Balance Volume (OBV) at 828,531,773 reflects sustained accumulation, reinforcing the positive price action and underlying strength in the sector.",
+  "market_weight": 0.0333,
+  "change_pct": 3.24,
+  "insights": "The Energy sector showed strong performance today, posting a significant 3.24% gain. This robust daily movement is supported by key technical indicators: the Relative Strength Index (RSI) at 55.80 indicates strong, but not yet overextended, bullish momentum, suggesting there could be further room for growth. The Money Flow Index (MFI) at 71.42 highlights substantial capital inflows into the sector, reinforcing buying conviction, though it's nearing overbought territory which warrants monitoring. Furthermore, the positive On-Balance Volume (OBV) confirms that today's price rally is backed by strong buying volume, lending credibility to the upward move.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1754179200000,
-        null
-      ],
-      [
-        1754265600000,
-        44.42
-      ],
-      [
-        1754352000000,
-        44.97
-      ],
-      [
-        1754438400000,
-        41.76
-      ],
       [
         1754524800000,
         40.46
@@ -747,25 +731,25 @@
       [
         1769731200000,
         53.38
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        49.18
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        49.69
+        1769990400000,
+        48.27
       ],
       [
-        1754438400000,
-        58.19
-      ],
+        1770076800000,
+        55.8
+      ]
+    ],
+    "mfi": [
       [
         1754524800000,
         47.02
@@ -1473,25 +1457,25 @@
       [
         1769731200000,
         73.53
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        131847900.0
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        147554700.0
+        1769990400000,
+        69.93
       ],
       [
-        1754438400000,
-        128430000.0
-      ],
+        1770076800000,
+        71.42
+      ]
+    ],
+    "obv": [
       [
         1754524800000,
         110909600.0
@@ -2199,6 +2183,22 @@
       [
         1769731200000,
         828531773.0
+      ],
+      [
+        1769817600000,
+        null
+      ],
+      [
+        1769904000000,
+        null
+      ],
+      [
+        1769990400000,
+        767051873.0
+      ],
+      [
+        1770076800000,
+        848902648.0
       ]
     ]
   },
@@ -2208,7 +2208,7 @@
     2.24,
     3.12,
     3.75,
-    null,
+    1.25,
     null,
     null,
     null,

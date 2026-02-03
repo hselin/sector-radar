@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and sell essential goods and services, such as food, beverages, household products, and tobacco, which are considered non-discretionary and have stable demand.",
-    "marketSizeUSD": "3.8T",
-    "constituentCount": 33,
+    "description": "The Consumer Staples sector comprises companies that manufacture and sell essential products and services, including food, beverages, household goods, personal care items, and tobacco.",
+    "marketSizeUSD": "2.9T",
+    "constituentCount": 34,
     "topHoldings": [
       {
         "name": "Walmart Inc.",
@@ -14,32 +14,16 @@
         "symbol": "PG"
       },
       {
-        "name": "The Coca-Cola Co.",
-        "symbol": "KO"
+        "name": "Costco Wholesale Corp.",
+        "symbol": "COST"
       }
     ]
   },
-  "market_weight": 0.0744,
-  "change_pct": 1.67,
-  "insights": "The Consumer Staples sector saw robust performance today, rising 1.67%, driven by strong buying activity as evidenced by positive On-Balance Volume (OBV). However, key technical indicators like the Relative Strength Index (RSI) at 69.11 and Money Flow Index (MFI) at 78.24 are signaling the sector is nearing, or within, overbought conditions. While this indicates strong money flow and conviction behind today's move, investors should exercise caution as these elevated readings often precede a period of consolidation or a potential pullback.",
+  "market_weight": 0.0536,
+  "change_pct": 1.62,
+  "insights": "The Consumer Staples sector posted a strong daily gain of 1.62%, indicating robust investor confidence today. This upward momentum is significantly supported by the Money Flow Index (MFI) at 79.98 and a high On-Balance Volume (OBV) of 203,110,888, both confirming substantial capital inflow and strong buying volume accompanying the price increase. However, the Relative Strength Index (RSI) at 77.39 signals that the sector is now firmly in overbought territory, suggesting that while momentum is currently strong, the recent rally may be extended and could face a period of consolidation or a slight pullback in the near term.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1754179200000,
-        null
-      ],
-      [
-        1754265600000,
-        46.65
-      ],
-      [
-        1754352000000,
-        46.01
-      ],
-      [
-        1754438400000,
-        55.46
-      ],
       [
         1754524800000,
         59.57
@@ -747,25 +731,25 @@
       [
         1769731200000,
         69.11
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        56.6
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        63.49
+        1769990400000,
+        73.09
       ],
       [
-        1754438400000,
-        63.33
-      ],
+        1770076800000,
+        77.39
+      ]
+    ],
+    "mfi": [
       [
         1754524800000,
         63.89
@@ -1473,25 +1457,25 @@
       [
         1769731200000,
         78.24
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1754179200000,
+        1769817600000,
         null
       ],
       [
-        1754265600000,
-        45708600.0
+        1769904000000,
+        null
       ],
       [
-        1754352000000,
-        30645700.0
+        1769990400000,
+        78.85
       ],
       [
-        1754438400000,
-        46688900.0
-      ],
+        1770076800000,
+        79.98
+      ]
+    ],
+    "obv": [
       [
         1754524800000,
         62673000.0
@@ -2199,6 +2183,22 @@
       [
         1769731200000,
         144058945.0
+      ],
+      [
+        1769817600000,
+        null
+      ],
+      [
+        1769904000000,
+        null
+      ],
+      [
+        1769990400000,
+        170100645.0
+      ],
+      [
+        1770076800000,
+        203110888.0
       ]
     ]
   },
@@ -2208,7 +2208,7 @@
     3.66,
     0.91,
     0.74,
-    null,
+    2.84,
     null,
     null,
     null,
