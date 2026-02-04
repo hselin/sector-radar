@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector comprises companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, and packaging.",
-    "marketSizeUSD": "1.2T",
+    "description": "The Materials sector encompasses companies engaged in discovering, developing, and processing raw materials, including those involved in industries such as chemicals, construction materials, glass, paper, forest products, metals, and mining.",
+    "marketSizeUSD": "1.9T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co",
+        "name": "Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc",
+        "name": "Ecolab Inc.",
         "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0222,
-  "change_pct": 2.11,
-  "insights": "The Materials sector demonstrated robust performance today, advancing 2.11%. Technical indicators largely support this positive movement: the Relative Strength Index (RSI) at 50.33 indicates a neutral price momentum, suggesting the sector is neither overbought nor oversold despite today's rally. Crucially, the Money Flow Index (MFI) at 68.67 points to significant buying pressure and strong capital inflow, validating the robust price appreciation. Furthermore, the On-Balance Volume (OBV) at 147,684,842 indicates sustained buying interest, corroborating the positive price movement. Overall, the sector's gains appear well-supported by active participation and healthy money flow.",
+  "market_weight": 0.0347,
+  "change_pct": 2.35,
+  "insights": "The Materials sector exhibited robust performance today, posting a strong gain of 2.35%. This positive daily movement is well-supported by key technical indicators. The Relative Strength Index (RSI) at 56.92 suggests healthy upward momentum within a bullish zone, indicating strength without being overbought. Concurrently, the Money Flow Index (MFI) at 71.34 signals significant buying pressure and substantial money flowing into the sector, reinforcing the price appreciation. The On-Balance Volume (OBV) at 183,548,524 further confirms that this rally was accompanied by strong volume participation, lending credibility to the upward trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1754524800000,
-        43.93
-      ],
       [
         1754611200000,
         46.12
@@ -747,13 +743,13 @@
       [
         1770076800000,
         50.33
+      ],
+      [
+        1770163200000,
+        56.92
       ]
     ],
     "mfi": [
-      [
-        1754524800000,
-        42.88
-      ],
       [
         1754611200000,
         42.71
@@ -1473,13 +1469,13 @@
       [
         1770076800000,
         68.67
+      ],
+      [
+        1770163200000,
+        71.34
       ]
     ],
     "obv": [
-      [
-        1754524800000,
-        -4817900.0
-      ],
       [
         1754611200000,
         301737.0
@@ -2199,6 +2195,10 @@
       [
         1770076800000,
         147684842.0
+      ],
+      [
+        1770163200000,
+        183548524.0
       ]
     ]
   },
@@ -2208,7 +2208,7 @@
     0.85,
     2.65,
     -1.38,
-    2.9,
+    5.32,
     null,
     null,
     null,

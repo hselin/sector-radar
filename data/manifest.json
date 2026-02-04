@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-03T21:25:56.583066Z",
+  "lastUpdated": "2026-02-04T21:20:27.838523Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader market concluded the session with a moderate decline of 0.86% today. Despite this downturn, key technical indicators suggest a prevailing state of balanced momentum and cautious sentiment. The Relative Strength Index (RSI) at 50.11 and the Money Flow Index (MFI) at 49.96 both hover near the neutral 50-mark, indicating an absence of strong buying or selling pressure, and a largely even distribution of money flow. The substantial On-Balance Volume (OBV) figure of 1,110,841,621 highlights significant underlying trading activity; however, without its daily trend, the neutral RSI and MFI suggest the day's decline was more a function of a lack of conviction from buyers rather than aggressive, volume-backed selling, hinting at indecision rather than a decisive bearish shift.",
-    "change_pct": -0.86,
+    "commentary": "The stock market experienced a modest decline today, closing down -0.47%, indicating a slightly negative sentiment among investors. Key technical indicators reinforce this cautious outlook: the Relative Strength Index (RSI) at 46.55, sitting in the lower-neutral range, suggests weakening positive momentum without yet signaling oversold conditions. Similarly, the Money Flow Index (MFI) at 49.43, just below the neutral 50-mark, indicates balanced money flow but with a slight leaning towards outflows, reinforcing the subdued sentiment. While the On-Balance Volume (OBV) at 1,013,236,715 reflects cumulative volume, its trend in conjunction with the price decline would further suggest whether selling pressure is being accompanied by significant volume or if momentum is simply fading without strong conviction in either direction. Collectively, these figures point to a market experiencing some profit-taking or a general lack of strong buying conviction, leading to a mild pullback and cautious momentum.",
+    "change_pct": -0.47,
     "technicalIndicators": {
       "rsi": [
-        [
-          1754524800000,
-          58.17
-        ],
         [
           1754611200000,
           62.59
@@ -747,13 +743,13 @@
         [
           1770076800000,
           50.11
+        ],
+        [
+          1770163200000,
+          46.55
         ]
       ],
       "mfi": [
-        [
-          1754524800000,
-          50.89
-        ],
         [
           1754611200000,
           50.94
@@ -1473,13 +1469,13 @@
         [
           1770076800000,
           49.96
+        ],
+        [
+          1770163200000,
+          49.43
         ]
       ],
       "obv": [
-        [
-          1754524800000,
-          382046100.0
-        ],
         [
           1754611200000,
           445743899.0
@@ -2199,6 +2195,10 @@
         [
           1770076800000,
           1110841621.0
+        ],
+        [
+          1770163200000,
+          1013236715.0
         ]
       ]
     },
@@ -2208,7 +2208,7 @@
       -0.33,
       -0.37,
       0.41,
-      -0.37,
+      -0.84,
       null,
       null,
       null,
