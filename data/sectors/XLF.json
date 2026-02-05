@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.1077,
-  "change_pct": 0.8,
-  "insights": "The Financials sector posted a positive performance today, advancing 0.80%. This gain is generally supported by the technical indicators; the Money Flow Index (MFI) at 56.46 suggests a net inflow of capital, reinforcing the buying interest behind the price increase. The Relative Strength Index (RSI) at 49.54 indicates the sector is currently in a neutral momentum zone, not exhibiting overbought conditions despite the day's rally, which could imply potential for further movement. While the On-Balance Volume (OBV) at 261,166,598 reflects a significant cumulative volume, its specific daily change would confirm the exact extent to which today's move was backed by new buying pressure.",
+  "change_pct": -1.23,
+  "insights": "The Financials sector experienced a notable daily decline of -1.23%, indicating a clear negative sentiment for the day. Technical indicators confirm this trend; the Relative Strength Index (RSI) at 43.98 suggests a loss of upward momentum and a bearish bias, yet remains above oversold levels. Similarly, the Money Flow Index (MFI) at 48.39 reinforces moderate capital outflows, aligning with the price weakness. While the On-Balance Volume (OBV) stands at 203,978,043, the day's price action, coupled with these momentum indicators, strongly implies that selling pressure dominated today's trading, moving the sector further away from strong buying interest without yet reaching extreme oversold conditions.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1754611200000,
-        47.5
-      ],
       [
         1754697600000,
         null
@@ -747,13 +743,13 @@
       [
         1770163200000,
         49.54
+      ],
+      [
+        1770249600000,
+        43.98
       ]
     ],
     "mfi": [
-      [
-        1754611200000,
-        45.32
-      ],
       [
         1754697600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1770163200000,
         56.46
+      ],
+      [
+        1770249600000,
+        48.39
       ]
     ],
     "obv": [
-      [
-        1754611200000,
-        -88678129.0
-      ],
       [
         1754697600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1770163200000,
         261166598.0
+      ],
+      [
+        1770249600000,
+        203978043.0
       ]
     ]
   },
@@ -2208,7 +2208,7 @@
     -2.32,
     -2.53,
     0.76,
-    0.94,
+    -0.3,
     null,
     null,
     null,
