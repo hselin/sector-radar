@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-05T21:17:42.582949Z",
+  "lastUpdated": "2026-02-06T21:18:11.226627Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a notable decline today, closing down -1.28%. Technical indicators suggest strengthening bearish sentiment and weakening momentum. The Relative Strength Index (RSI) at 38.58, while not yet in oversold territory, indicates increasing selling pressure and a loss of upward momentum. Similarly, the Money Flow Index (MFI) at 41.63 corroborates this, showing a net outflow of funds from the market. While On-Balance Volume (OBV) at 903,065,309 reflects cumulative buying/selling pressure over time, its current state, coupled with the other indicators and price action, reinforces the notion that sellers are currently in control, suggesting a potential for continued pressure or consolidation in the near term.",
-    "change_pct": -1.28,
+    "commentary": "The stock market experienced a robust session today, climbing a notable 1.95%. Despite this strong daily performance, key technical indicators suggest a more nuanced picture for underlying momentum. The Relative Strength Index (RSI) at 51.92 is comfortably in neutral territory, indicating the market is not yet overbought from this rally. Similarly, the Money Flow Index (MFI) at 48.28 also reflects relatively balanced money flow, rather than an aggressive, overzealous influx. The substantial On-Balance Volume (OBV) reading of 984,609,066 points to significant cumulative buying pressure over time, and a strong up-day like today would ideally see this trend continue. Overall, while daily sentiment was clearly positive, these technicals suggest the market's rally, though strong, is not yet overextended and potentially has room for further upside without immediate signs of overheating.",
+    "change_pct": 1.95,
     "technicalIndicators": {
       "rsi": [
-        [
-          1754697600000,
-          null
-        ],
         [
           1754784000000,
           null
@@ -747,13 +743,13 @@
         [
           1770249600000,
           38.58
+        ],
+        [
+          1770336000000,
+          51.92
         ]
       ],
       "mfi": [
-        [
-          1754697600000,
-          null
-        ],
         [
           1754784000000,
           null
@@ -1473,13 +1469,13 @@
         [
           1770249600000,
           41.63
+        ],
+        [
+          1770336000000,
+          48.28
         ]
       ],
       "obv": [
-        [
-          1754697600000,
-          null
-        ],
         [
           1754784000000,
           null
@@ -2199,6 +2195,10 @@
         [
           1770249600000,
           903065309.0
+        ],
+        [
+          1770336000000,
+          984609066.0
         ]
       ]
     },
@@ -2208,7 +2208,7 @@
       -0.33,
       -0.37,
       0.41,
-      -2.1,
+      -0.2,
       null,
       null,
       null,
