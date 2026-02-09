@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.1004,
-  "change_pct": 0.32,
-  "insights": "The Consumer Discretionary sector registered a modest 0.32% gain today. However, key technical indicators suggest underlying weakness despite this positive daily movement. The Relative Strength Index (RSI) at 28.51 and the Money Flow Index (MFI) at 22.95 are both deep in oversold territory, signaling that the sector has experienced significant selling pressure and money outflows recently. While today's slight uptick could indicate a nascent attempt at stabilization, these oversold conditions suggest the sector is either due for a technical rebound following its declines or continues to grapple with a lack of robust buying interest, despite the positive absolute value of the On-Balance Volume (OBV) at 43673555, which typically requires trend analysis for deeper insights.",
+  "change_pct": -0.32,
+  "insights": "The Consumer Discretionary sector experienced a modest decline today, finishing down 0.32%. This downward movement is technically reinforced by key indicators: the Relative Strength Index (RSI) at 27.93 and the Money Flow Index (MFI) at 30.25, both positioning the sector firmly in oversold territory. This indicates persistent selling pressure dominated the session, with money flowing out of the sector. The On-Balance Volume (OBV) of 32,723,760, while requiring historical context for a trend, aligns with the negative price action and momentum readings by reflecting cumulative selling pressure for the session.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1754784000000,
-        null
-      ],
-      [
-        1754870400000,
-        57.26
-      ],
-      [
-        1754956800000,
-        61.31
-      ],
       [
         1755043200000,
         65.86
@@ -747,21 +735,21 @@
       [
         1770336000000,
         28.51
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1754784000000,
+        1770422400000,
         null
       ],
       [
-        1754870400000,
-        57.16
+        1770508800000,
+        null
       ],
       [
-        1754956800000,
-        57.08
-      ],
+        1770595200000,
+        27.93
+      ]
+    ],
+    "mfi": [
       [
         1755043200000,
         65.23
@@ -1473,21 +1461,21 @@
       [
         1770336000000,
         22.95
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1754784000000,
+        1770422400000,
         null
       ],
       [
-        1754870400000,
-        21225787.0
+        1770508800000,
+        null
       ],
       [
-        1754956800000,
-        26106459.0
-      ],
+        1770595200000,
+        30.25
+      ]
+    ],
+    "obv": [
       [
         1755043200000,
         32376920.0
@@ -2199,6 +2187,18 @@
       [
         1770336000000,
         43673555.0
+      ],
+      [
+        1770422400000,
+        null
+      ],
+      [
+        1770508800000,
+        null
+      ],
+      [
+        1770595200000,
+        32723760.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     0.67,
     -1.56,
     -2.7,
-    null,
+    -0.32,
     null,
     null,
     null,
