@@ -1,8 +1,8 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies involved in telecommunications, media, entertainment, and interactive media and services.",
-    "marketSizeUSD": "7.0T",
+    "description": "The Communication Services sector comprises companies that provide telecommunication services, entertainment, interactive media, and other information and communication technology services.",
+    "marketSizeUSD": "6.8T",
     "constituentCount": 23,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms, Inc.",
+        "name": "Meta Platforms Inc.",
         "symbol": "META"
       },
       {
-        "name": "Netflix, Inc.",
+        "name": "Netflix Inc.",
         "symbol": "NFLX"
       }
     ]
   },
-  "market_weight": 0.1277,
-  "change_pct": 0.96,
-  "insights": "The Communication Services sector recorded a modest gain of 0.96% today, indicating positive, albeit not dramatic, daily performance. Technical indicators suggest this upward movement occurred within a balanced market; the Relative Strength Index (RSI) at 49.48 and Money Flow Index (MFI) at 52.80 both reside near their neutral midpoints, signaling the sector is neither overbought nor oversold, nor experiencing excessive money inflows. While the On-Balance Volume (OBV) of 137,030,871 confirms that buying volume during the session outpaced selling volume, these neutral momentum readings suggest the sector's positive trajectory was more measured, lacking strong directional conviction or a significant surge in investor sentiment.",
+  "market_weight": 0.1243,
+  "change_pct": 0.6,
+  "insights": "The Communication Services sector posted a modest gain of 0.60% today, supported by its key technical indicators. The RSI at 52.48 and MFI at 52.05 both register slightly above the neutral 50-mark, indicating mild positive momentum and money inflow without suggesting an overbought condition. Furthermore, the positive price movement was substantiated by an increasing OBV, confirming that net buying volume accompanied the sector's daily advance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755043200000,
-        67.41
-      ],
       [
         1755129600000,
         67.68
@@ -747,13 +743,13 @@
       [
         1770595200000,
         49.48
+      ],
+      [
+        1770681600000,
+        52.48
       ]
     ],
     "mfi": [
-      [
-        1755043200000,
-        58.18
-      ],
       [
         1755129600000,
         65.19
@@ -1473,13 +1469,13 @@
       [
         1770595200000,
         52.8
+      ],
+      [
+        1770681600000,
+        52.05
       ]
     ],
     "obv": [
-      [
-        1755043200000,
-        151440674.0
-      ],
       [
         1755129600000,
         156552919.0
@@ -2199,6 +2195,10 @@
       [
         1770595200000,
         137030871.0
+      ],
+      [
+        1770681600000,
+        142859754.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     1.55,
     2.71,
     -3.62,
-    0.96,
+    1.56,
     null,
     null,
     null,

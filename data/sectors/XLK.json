@@ -1,33 +1,29 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies involved in the development, production, and distribution of technology hardware, software, semiconductors, and IT services.",
-    "marketSizeUSD": "15T",
+    "description": "The Information Technology GICS sector includes companies primarily engaged in software, IT services, semiconductors, semiconductor equipment, and technology hardware & equipment.",
+    "marketSizeUSD": "14.5T",
     "constituentCount": 67,
     "topHoldings": [
-      {
-        "name": "Microsoft Corporation",
-        "symbol": "MSFT"
-      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
       },
       {
-        "name": "NVIDIA Corporation",
+        "name": "Microsoft Corp.",
+        "symbol": "MSFT"
+      },
+      {
+        "name": "NVIDIA Corp.",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.2737,
-  "change_pct": 1.6,
-  "insights": "The Information Technology sector posted a strong performance today, recording a 1.60% gain, reflecting significant positive momentum. Despite this robust daily advance, key technical indicators suggest the rally is not yet overextended. The Relative Strength Index (RSI) at 41.00 and the Money Flow Index (MFI) at 47.83 both remain in neutral territory, well below overbought levels, indicating potential room for further upward movement without an immediate risk of a significant reversal. The On-Balance Volume (OBV) at 289,885,724, a cumulative measure, supports the upward price action by reflecting substantial buying volume accompanying the appreciation, confirming the validity of today's positive move.",
+  "market_weight": 0.2651,
+  "change_pct": -0.53,
+  "insights": "The Information Technology sector experienced a slight downturn today, closing down -0.53%. This modest decline is consistent with its key technical indicators: the Relative Strength Index (RSI) at 40.08 and the Money Flow Index (MFI) at 47.00 both sit below the neutral 50-mark, indicating a weakening of buying momentum and a slight net outflow of funds, respectively. While not signaling an oversold condition, these readings suggest that the day's negative price action was accompanied by a lack of strong demand. The On-Balance Volume (OBV) reading, currently at 267,772,524, would reflect this downward price movement by generally decreasing for the day, confirming that the selling pressure was present and corroborated by volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755043200000,
-        65.83
-      ],
       [
         1755129600000,
         64.38
@@ -747,13 +743,13 @@
       [
         1770595200000,
         41.0
+      ],
+      [
+        1770681600000,
+        40.08
       ]
     ],
     "mfi": [
-      [
-        1755043200000,
-        59.43
-      ],
       [
         1755129600000,
         52.46
@@ -1473,13 +1469,13 @@
       [
         1770595200000,
         47.83
+      ],
+      [
+        1770681600000,
+        47.0
       ]
     ],
     "obv": [
-      [
-        1755043200000,
-        122907562.0
-      ],
       [
         1755129600000,
         115172428.0
@@ -2199,6 +2195,10 @@
       [
         1770595200000,
         289885724.0
+      ],
+      [
+        1770681600000,
+        267772524.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     -0.37,
     -0.83,
     -1.95,
-    1.6,
+    1.06,
     null,
     null,
     null,

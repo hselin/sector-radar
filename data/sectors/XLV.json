@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in medical products, services, research, and insurance, aiming to improve global health outcomes.",
-    "marketSizeUSD": "6.5T",
-    "constituentCount": 65,
+    "description": "The Health Care sector includes companies that provide medical services, manufacture pharmaceuticals and medical equipment, and operate healthcare facilities.",
+    "marketSizeUSD": "6.8T",
+    "constituentCount": 67,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1186,
-  "change_pct": -0.84,
-  "insights": "The Health Care sector experienced a modest decline of 0.84% today. Despite this pullback, key technical indicators suggest a largely neutral short-term landscape. The Relative Strength Index (RSI) at 51.49 and the Money Flow Index (MFI) at 48.16 are both situated near their respective mid-points, indicating that the sector is neither significantly overbought nor oversold, and money flow is relatively balanced over the recent period, rather than showing strong conviction selling. While the On-Balance Volume (OBV) at 97,733,273 reflects substantial historical accumulation, today's price decrease would imply a slight reduction in this cumulative metric, suggesting that selling pressure was present but not overwhelmingly strong enough to push momentum indicators into extreme territories.",
+  "market_weight": 0.1243,
+  "change_pct": -0.63,
+  "insights": "The Health Care sector posted a modest decline of -0.63% today, navigating a period of generally neutral technical momentum. The Relative Strength Index (RSI) at 48.54 and the Money Flow Index (MFI) at 40.98 both reside in the mid-range, slightly below the 50-mark, suggesting neither significant overbought nor oversold conditions, and indicating that the day's downward move was not accompanied by extreme money outflow or strong selling conviction. The On-Balance Volume (OBV) at 86,801,250 represents significant cumulative volume, and while its specific daily change would confirm whether selling volume predominated during today's price drop, the other indicators suggest the dip occurred without a dramatic shift in underlying sentiment or aggressive capitulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755043200000,
-        51.7
-      ],
       [
         1755129600000,
         53.63
@@ -747,13 +743,13 @@
       [
         1770595200000,
         51.49
+      ],
+      [
+        1770681600000,
+        48.54
       ]
     ],
     "mfi": [
-      [
-        1755043200000,
-        49.35
-      ],
       [
         1755129600000,
         50.65
@@ -1473,13 +1469,13 @@
       [
         1770595200000,
         48.16
+      ],
+      [
+        1770681600000,
+        40.98
       ]
     ],
     "obv": [
-      [
-        1755043200000,
-        -25633532.0
-      ],
       [
         1755129600000,
         -10255133.0
@@ -2199,6 +2195,10 @@
       [
         1770595200000,
         97733273.0
+      ],
+      [
+        1770681600000,
+        86801250.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     1.09,
     -1.7,
     1.85,
-    -0.84,
+    -1.47,
     null,
     null,
     null,

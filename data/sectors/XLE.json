@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil and gas products, as well as those providing equipment and services to the energy industry.",
-    "marketSizeUSD": "1.8T",
+    "description": "The Energy GICS sector includes companies engaged in the exploration, development, production, refining, marketing, storage, and transportation of oil, natural gas, coal, and other consumable fuels, as well as those providing energy equipment and services.",
+    "marketSizeUSD": "4.0T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0328,
-  "change_pct": 0.73,
-  "insights": "The Energy sector recorded a positive day, climbing 0.73%. Technical indicators suggest robust underlying momentum, with the Relative Strength Index (RSI) at 62.21 indicating strong buying interest that is not yet overextended. However, the Money Flow Index (MFI) at 71.15 points to significant capital inflow, pushing the sector into overbought territory on a daily basis, which could signal a potential for short-term consolidation. Furthermore, the On-Balance Volume (OBV) at 952,902,216, given today's upward price movement, confirms that this gain was supported by substantial trading volume, reinforcing the validity of the day's appreciation.",
+  "market_weight": 0.0731,
+  "change_pct": -0.11,
+  "insights": "The Energy sector experienced a largely flat day, declining marginally by -0.11%. Despite this slight dip, technical indicators suggest underlying strength. The Relative Strength Index (RSI) at 61.85 indicates healthy buying momentum without being overbought, while the Money Flow Index (MFI) at 70.25 points to significant money continuing to flow into the sector, approaching an overbought condition. The On-Balance Volume (OBV) at 921,472,416 reflects sustained volume activity. This combination suggests that today's minor price decline did not significantly deter the recent positive buying interest, though the elevated MFI warrants observation for potential short-term consolidation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755043200000,
-        48.55
-      ],
       [
         1755129600000,
         48.15
@@ -747,13 +743,13 @@
       [
         1770595200000,
         62.21
+      ],
+      [
+        1770681600000,
+        61.85
       ]
     ],
     "mfi": [
-      [
-        1755043200000,
-        48.99
-      ],
       [
         1755129600000,
         49.51
@@ -1473,13 +1469,13 @@
       [
         1770595200000,
         71.15
+      ],
+      [
+        1770681600000,
+        70.25
       ]
     ],
     "obv": [
-      [
-        1755043200000,
-        146495618.0
-      ],
       [
         1755129600000,
         134026035.0
@@ -2199,6 +2195,10 @@
       [
         1770595200000,
         952902216.0
+      ],
+      [
+        1770681600000,
+        921472416.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     3.12,
     3.75,
     4.35,
-    0.73,
+    0.62,
     null,
     null,
     null,

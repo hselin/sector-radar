@@ -1,9 +1,9 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector comprises equity REITs and other companies engaged in real estate development and management, excluding mortgage REITs and real estate services.",
-    "marketSizeUSD": "2.8T",
-    "constituentCount": 32,
+    "description": "The Real Estate sector encompasses companies primarily engaged in the ownership, development, and management of real estate, including Real Estate Investment Trusts (REITs) and real estate management and development firms.",
+    "marketSizeUSD": "2.5T",
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "Prologis, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0511,
-  "change_pct": 0.62,
-  "insights": "The Real Estate sector posted a modest gain of 0.62% today, indicating slight positive momentum. The Relative Strength Index (RSI) at 62.47 suggests strengthening bullish momentum without entering overbought territory, implying there may be room for further upside. However, the Money Flow Index (MFI) at 41.18, below the neutral 50-mark, indicates a lack of robust buying conviction or potentially underlying outflows despite the price uptick. The On-Balance Volume (OBV) at 57,105,388, a cumulative measure, generally confirms that buying pressure has outweighed selling pressure over time, and for today's positive move, a reinforcing uptick in OBV would validate the price action with volume support.",
+  "market_weight": 0.0457,
+  "change_pct": 1.4,
+  "insights": "The Real Estate sector posted a solid 1.40% gain today, reflecting strong upward momentum. Its Relative Strength Index (RSI) at 67.16 indicates robust buying interest approaching overbought territory. However, the Money Flow Index (MFI) sitting at a neutral 49.94 suggests that while prices rose, the volume-weighted money flow wasn't overwhelmingly strong in either direction, potentially indicating a rally more driven by price than a broad surge of capital. The substantial On-Balance Volume (OBV) of 67,537,083, assuming it increased today, would typically confirm that this price appreciation is supported by accumulating buying pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755043200000,
-        45.63
-      ],
       [
         1755129600000,
         42.31
@@ -747,13 +743,13 @@
       [
         1770595200000,
         62.47
+      ],
+      [
+        1770681600000,
+        67.16
       ]
     ],
     "mfi": [
-      [
-        1755043200000,
-        26.92
-      ],
       [
         1755129600000,
         26.16
@@ -1473,13 +1469,13 @@
       [
         1770595200000,
         41.18
+      ],
+      [
+        1770681600000,
+        49.94
       ]
     ],
     "obv": [
-      [
-        1755043200000,
-        25010704.0
-      ],
       [
         1755129600000,
         17092022.0
@@ -2199,6 +2195,10 @@
       [
         1770595200000,
         57105388.0
+      ],
+      [
+        1770681600000,
+        67537083.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     -2.3,
     0.42,
     1.35,
-    0.62,
+    2.02,
     null,
     null,
     null,

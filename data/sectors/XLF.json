@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses a wide range of companies that provide financial services, including banks, diversified financial services, insurance, real estate, and capital markets.",
-    "marketSizeUSD": "5.9T",
+    "description": "The Financials sector encompasses companies primarily engaged in banking, insurance, diversified financial services, real estate, and capital markets.",
+    "marketSizeUSD": "5.7T",
     "constituentCount": 68,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1077,
-  "change_pct": -0.59,
-  "insights": "The Financials sector saw a modest pullback today, declining by -0.59%. Key technical indicators reflect a largely neutral sentiment, with the Relative Strength Index (RSI) at 49.69 and the Money Flow Index (MFI) at 51.14 both hovering around the mid-point. This suggests neither overbought nor oversold conditions, indicating balanced buying and selling pressure despite the slight daily price dip. The On-Balance Volume (OBV) at 224,344,925, while reflecting significant cumulative trading activity, without its daily change, supports the idea that today's movement was a minor adjustment rather than a strong directional shift driven by overwhelming conviction volume.",
+  "market_weight": 0.1042,
+  "change_pct": -0.76,
+  "insights": "The Financials sector posted a daily decline of -0.76%, indicating a modest pullback today. This movement is supported by technical indicators: the Relative Strength Index (RSI) at 46.43 and the Money Flow Index (MFI) at 43.20 are both below the neutral 50-mark, suggesting that selling pressure currently outweighs buying interest and money is generally flowing out of the sector. While the On-Balance Volume (OBV) stands at 167,363,062, representing significant cumulative volume, its current level, coupled with the negative price action and bearish momentum indicators, suggests a cautious sentiment and potential for continued weakness in the near term.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755043200000,
-        56.34
-      ],
       [
         1755129600000,
         58.51
@@ -747,13 +743,13 @@
       [
         1770595200000,
         49.69
+      ],
+      [
+        1770681600000,
+        46.43
       ]
     ],
     "mfi": [
-      [
-        1755043200000,
-        46.3
-      ],
       [
         1755129600000,
         46.86
@@ -1473,13 +1469,13 @@
       [
         1770595200000,
         51.14
+      ],
+      [
+        1770681600000,
+        43.2
       ]
     ],
     "obv": [
-      [
-        1755043200000,
-        -39704221.0
-      ],
       [
         1755129600000,
         -4861869.0
@@ -2199,6 +2195,10 @@
       [
         1770595200000,
         224344925.0
+      ],
+      [
+        1770681600000,
+        167363062.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     -2.53,
     0.76,
     1.5,
-    -0.59,
+    -1.35,
     null,
     null,
     null,

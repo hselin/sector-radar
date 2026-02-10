@@ -1,17 +1,17 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that manufacture and distribute capital goods, provide commercial services and supplies, and offer transportation services.",
-    "marketSizeUSD": "4.1T",
+    "description": "The Industrials sector comprises companies involved in capital goods, commercial and professional services, and transportation.",
+    "marketSizeUSD": "3.8T",
     "constituentCount": 74,
     "topHoldings": [
       {
-        "name": "Union Pacific Corporation",
-        "symbol": "UNP"
+        "name": "GE Aerospace",
+        "symbol": "GE"
       },
       {
-        "name": "RTX Corporation",
-        "symbol": "RTX"
+        "name": "Caterpillar Inc.",
+        "symbol": "CAT"
       },
       {
         "name": "Honeywell International Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0748,
-  "change_pct": 0.3,
-  "insights": "The Industrials sector closed up 0.30% today, reflecting a modest positive movement. This daily gain pushes its Relative Strength Index (RSI) to 73.31, indicating strong buying momentum that is now bordering on overbought conditions, which could suggest a potential for short-term consolidation. Complementing this, the Money Flow Index (MFI) at 66.90 confirms a healthy influx of capital into the sector, reinforcing the buying interest observed. The On-Balance Volume (OBV) at 199,886,111 further underscores significant accumulated buying pressure, aligning with the positive price action, although the elevated RSI warrants close monitoring for potential mean reversion.",
+  "market_weight": 0.0695,
+  "change_pct": 0.14,
+  "insights": "The Industrials sector posted a modest gain of 0.14% today, signaling a relatively flat yet positive trading session. Technically, the sector appears to be showing signs of potential overextension; its Relative Strength Index (RSI) at 73.66 is firmly in overbought territory, suggesting that recent bullish momentum may be difficult to sustain and could lead to a near-term consolidation or pullback. The Money Flow Index (MFI) at 66.01 corroborates significant capital inflows into the sector, though it's not yet as extremely overbought as the RSI. Finally, the On-Balance Volume (OBV) at 208,633,634, in conjunction with the positive price movement, indicates that buying interest was supported by corresponding volume, generally confirming the day's slight upward trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755043200000,
-        59.13
-      ],
       [
         1755129600000,
         52.39
@@ -747,13 +743,13 @@
       [
         1770595200000,
         73.31
+      ],
+      [
+        1770681600000,
+        73.66
       ]
     ],
     "mfi": [
-      [
-        1755043200000,
-        52.89
-      ],
       [
         1755129600000,
         47.25
@@ -1473,13 +1469,13 @@
       [
         1770595200000,
         66.9
+      ],
+      [
+        1770681600000,
+        66.01
       ]
     ],
     "obv": [
-      [
-        1755043200000,
-        15771181.0
-      ],
       [
         1755129600000,
         6294917.0
@@ -2199,6 +2195,10 @@
       [
         1770595200000,
         199886111.0
+      ],
+      [
+        1770681600000,
+        208633634.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     -1.61,
     0.75,
     4.7,
-    0.3,
+    0.44,
     null,
     null,
     null,

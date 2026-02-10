@@ -1,8 +1,8 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities GICS sector comprises companies that provide essential services such as electricity, natural gas, water, and includes independent power producers, often operating as regulated monopolies.",
-    "marketSizeUSD": "1.4T",
+    "description": "The Utilities sector encompasses companies providing essential services such as electricity, natural gas, water, and other public utility infrastructure and services.",
+    "marketSizeUSD": "1.2T",
     "constituentCount": 30,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0255,
-  "change_pct": 0.3,
-  "insights": "The Utilities sector posted a modest gain of 0.30% today, reflecting a slight positive momentum. Technical indicators present a nuanced picture: The Relative Strength Index (RSI) at 37.48 suggests the sector is leaning towards oversold conditions, indicating potential underlying weakness despite today's small advance. The Money Flow Index (MFI) at 50.14 points to a relatively neutral money flow, consistent with the sector's marginal price movement. The On-Balance Volume (OBV) of 196,697,077 indicates that buying volume marginally outweighed selling volume today, providing some support for the sector's slight price appreciation.",
+  "market_weight": 0.0219,
+  "change_pct": 1.69,
+  "insights": "The Utilities sector demonstrated a robust performance today, posting a notable 1.69% gain. Key technical indicators support this positive movement: the Relative Strength Index (RSI) at 45.10 suggests the sector is in neutral territory, not yet indicating overbought conditions despite today's advance. The Money Flow Index (MFI) at 58.80 further reinforces this, signaling a healthy inflow of capital. Moreover, the On-Balance Volume (OBV) at 231,298,160, rising in tandem with the price increase, confirms that today's rally was backed by significant buying volume, lending credibility to the day's positive momentum.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755043200000,
-        62.11
-      ],
       [
         1755129600000,
         57.44
@@ -747,13 +743,13 @@
       [
         1770595200000,
         37.48
+      ],
+      [
+        1770681600000,
+        45.1
       ]
     ],
     "mfi": [
-      [
-        1755043200000,
-        73.64
-      ],
       [
         1755129600000,
         68.17
@@ -1473,13 +1469,13 @@
       [
         1770595200000,
         50.14
+      ],
+      [
+        1770681600000,
+        58.8
       ]
     ],
     "obv": [
-      [
-        1755043200000,
-        155067642.0
-      ],
       [
         1755129600000,
         145705444.0
@@ -2199,6 +2195,10 @@
       [
         1770595200000,
         196697077.0
+      ],
+      [
+        1770681600000,
+        231298160.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     -1.96,
     1.65,
     0.23,
-    0.3,
+    2.0,
     null,
     null,
     null,
