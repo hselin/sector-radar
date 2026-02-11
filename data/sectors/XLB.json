@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies engaged in discovering, developing, and processing raw materials, including those involved in industries such as chemicals, construction materials, glass, paper, forest products, metals, and mining.",
-    "marketSizeUSD": "1.9T",
+    "description": "The Materials sector encompasses companies engaged in discovering, developing, and processing raw materials, including chemicals, construction materials, metals and mining, paper and forest products, and containers and packaging.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Company",
+        "name": "The Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0347,
-  "change_pct": 1.39,
-  "insights": "The Materials sector exhibited strong performance today, rising by 1.39%. This upward movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 60.15 suggests solid bullish momentum without being overbought, indicating potential for continued strength. The Money Flow Index (MFI) at 73.15 points to significant money inflow into the sector, affirming strong buying interest, while the high On-Balance Volume (OBV) of 202,907,576 implies that today's positive price action is supported by considerable accumulation, reinforcing the sector's overall upward trajectory.",
+  "market_weight": 0.0312,
+  "change_pct": 1.35,
+  "insights": "The Materials sector exhibited robust performance today with a strong 1.35% gain. This upward movement is well-supported by technical indicators: an RSI of 63.00 signals strong positive momentum without being immediately overbought, while the MFI at 74.29 indicates significant capital inflow, nearing overbought conditions. The substantial On-Balance Volume (OBV) of 227,719,040 further validates that today's price appreciation is backed by strong buying interest and considerable trading activity, reinforcing a clear bullish daily trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755129600000,
-        53.3
-      ],
       [
         1755216000000,
         53.3
@@ -747,13 +743,13 @@
       [
         1770681600000,
         60.15
+      ],
+      [
+        1770768000000,
+        63.0
       ]
     ],
     "mfi": [
-      [
-        1755129600000,
-        37.16
-      ],
       [
         1755216000000,
         44.04
@@ -1473,13 +1469,13 @@
       [
         1770681600000,
         73.15
+      ],
+      [
+        1770768000000,
+        74.29
       ]
     ],
     "obv": [
-      [
-        1755129600000,
-        975903.0
-      ],
       [
         1755216000000,
         975903.0
@@ -2199,6 +2195,10 @@
       [
         1770681600000,
         202907576.0
+      ],
+      [
+        1770768000000,
+        227719040.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     2.65,
     -1.38,
     4.55,
-    2.71,
+    4.1,
     null,
     null,
     null,

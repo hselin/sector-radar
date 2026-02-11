@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1042,
-  "change_pct": -0.76,
-  "insights": "The Financials sector posted a daily decline of -0.76%, indicating a modest pullback today. This movement is supported by technical indicators: the Relative Strength Index (RSI) at 46.43 and the Money Flow Index (MFI) at 43.20 are both below the neutral 50-mark, suggesting that selling pressure currently outweighs buying interest and money is generally flowing out of the sector. While the On-Balance Volume (OBV) stands at 167,363,062, representing significant cumulative volume, its current level, coupled with the negative price action and bearish momentum indicators, suggests a cautious sentiment and potential for continued weakness in the near term.",
+  "market_weight": 0.1046,
+  "change_pct": -1.48,
+  "insights": "The Financials sector experienced a notable downturn today, declining by 1.48%, reflecting broad selling pressure across its constituents. Technical indicators reinforce this negative sentiment: the Relative Strength Index (RSI) at 40.86, while not yet oversold, signals weakening buying momentum. Concurrently, the Money Flow Index (MFI) at 35.58 is approaching oversold territory, indicating a clear outflow of capital from the sector. The On-Balance Volume (OBV) at 109,425,780, in conjunction with the daily price drop, suggests that selling volume dominated, further validating the day's negative performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755129600000,
-        58.51
-      ],
       [
         1755216000000,
         52.36
@@ -747,13 +743,13 @@
       [
         1770681600000,
         46.43
+      ],
+      [
+        1770768000000,
+        40.86
       ]
     ],
     "mfi": [
-      [
-        1755129600000,
-        46.86
-      ],
       [
         1755216000000,
         45.46
@@ -1473,13 +1469,13 @@
       [
         1770681600000,
         43.2
+      ],
+      [
+        1770768000000,
+        35.58
       ]
     ],
     "obv": [
-      [
-        1755129600000,
-        -4861869.0
-      ],
       [
         1755216000000,
         -50918529.0
@@ -2199,6 +2195,10 @@
       [
         1770681600000,
         167363062.0
+      ],
+      [
+        1770768000000,
+        109425780.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     -2.53,
     0.76,
     1.5,
-    -1.35,
+    -2.8,
     null,
     null,
     null,
