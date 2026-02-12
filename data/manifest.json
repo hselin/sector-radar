@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-11T21:23:34.544920Z",
+  "lastUpdated": "2026-02-12T21:20:18.419641Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced an exceptionally flat session today, registering a marginal decline of just -0.02%. This negligible movement is largely corroborated by key technical indicators, which reflect a market in equilibrium. The Relative Strength Index (RSI) at 52.73 and the Money Flow Index (MFI) at 47.23 both sit very near their neutral 50-levels, suggesting a balanced momentum and money flow without strong buying or selling pressure. While the On-Balance Volume (OBV) maintains a high cumulative value, the overall sentiment appears indecisive, with no clear directional momentum dominating the trading day.",
-    "change_pct": -0.02,
+    "commentary": "The stock market experienced a notable decline today, closing down -1.55%, signaling a significant shift in investor sentiment. The Relative Strength Index (RSI) at 43.36 indicates weakening momentum, sitting below the neutral 50-level and suggesting increased bearish sentiment without yet reaching oversold conditions. This is corroborated by the Money Flow Index (MFI) at 39.95, which points to significant money outflow and further reinforces the prevailing selling pressure. The On-Balance Volume (OBV) at 808,471,273, coupled with the significant market drop, suggests that selling pressure was accompanied by considerable volume, validating the downward price movement. Collectively, these indicators paint a picture of weakening market momentum and a noticeable shift towards bearish sentiment, with selling pressure supported by significant money outflow and volume.",
+    "change_pct": -1.55,
     "technicalIndicators": {
       "rsi": [
-        [
-          1755216000000,
-          65.51
-        ],
         [
           1755302400000,
           null
@@ -747,13 +743,13 @@
         [
           1770768000000,
           52.73
+        ],
+        [
+          1770854400000,
+          43.36
         ]
       ],
       "mfi": [
-        [
-          1755216000000,
-          44.06
-        ],
         [
           1755302400000,
           null
@@ -1473,13 +1469,13 @@
         [
           1770768000000,
           47.23
+        ],
+        [
+          1770854400000,
+          39.95
         ]
       ],
       "obv": [
-        [
-          1755216000000,
-          496503384.0
-        ],
         [
           1755302400000,
           null
@@ -2199,6 +2195,10 @@
         [
           1770768000000,
           917276521.0
+        ],
+        [
+          1770854400000,
+          808471273.0
         ]
       ]
     },
@@ -2209,7 +2209,7 @@
       -0.37,
       0.41,
       -0.2,
-      0.2,
+      -1.35,
       null,
       null,
       null,

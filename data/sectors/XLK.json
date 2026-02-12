@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.2661,
-  "change_pct": 0.29,
-  "insights": "The Information Technology sector registered a modest gain of 0.29% today. However, key technical indicators suggest this upward movement lacked strong conviction. The Relative Strength Index (RSI) at 40.87 and the Money Flow Index (MFI) at 42.34 both reside in neutral territory, below 50, indicating a lack of strong buying momentum or significant money inflow into the sector. While the On-Balance Volume (OBV) at 286,270,514 reflects substantial cumulative volume, the subdued readings in RSI and MFI imply that today's marginal price appreciation was not backed by overwhelmingly robust demand, suggesting a somewhat neutral underlying trend despite the positive daily close.",
+  "change_pct": -2.65,
+  "insights": "The Information Technology sector experienced a notable downturn today, declining by -2.65%. This negative movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 36.23 and the Money Flow Index (MFI) at 40.32 both signal increasing selling pressure and capital outflow from the sector, approaching oversold conditions but not yet firmly there. The On-Balance Volume (OBV) at 254,674,430, a cumulative measure of buying and selling pressure, reinforces the bearish sentiment, reflecting that today's selling volume likely outweighed buying volume, contributing to the significant price depreciation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755216000000,
-        59.44
-      ],
       [
         1755302400000,
         null
@@ -747,13 +743,13 @@
       [
         1770768000000,
         40.87
+      ],
+      [
+        1770854400000,
+        36.23
       ]
     ],
     "mfi": [
-      [
-        1755216000000,
-        45.58
-      ],
       [
         1755302400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1770768000000,
         42.34
+      ],
+      [
+        1770854400000,
+        40.32
       ]
     ],
     "obv": [
-      [
-        1755216000000,
-        108492000.0
-      ],
       [
         1755302400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1770768000000,
         286270514.0
+      ],
+      [
+        1770854400000,
+        254674430.0
       ]
     ]
   },
@@ -2209,7 +2209,7 @@
     -0.37,
     -0.83,
     -1.95,
-    1.35,
+    -1.33,
     null,
     null,
     null,
