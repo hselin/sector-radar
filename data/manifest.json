@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-12T21:20:18.419641Z",
+  "lastUpdated": "2026-02-13T21:21:39.046278Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a notable decline today, closing down -1.55%, signaling a significant shift in investor sentiment. The Relative Strength Index (RSI) at 43.36 indicates weakening momentum, sitting below the neutral 50-level and suggesting increased bearish sentiment without yet reaching oversold conditions. This is corroborated by the Money Flow Index (MFI) at 39.95, which points to significant money outflow and further reinforces the prevailing selling pressure. The On-Balance Volume (OBV) at 808,471,273, coupled with the significant market drop, suggests that selling pressure was accompanied by considerable volume, validating the downward price movement. Collectively, these indicators paint a picture of weakening market momentum and a noticeable shift towards bearish sentiment, with selling pressure supported by significant money outflow and volume.",
-    "change_pct": -1.55,
+    "commentary": "The stock market concluded a nearly flat session, posting a marginal gain of 0.07%. This slight uptick was accompanied by technical indicators suggesting underlying caution rather than strong conviction. The Relative Strength Index (RSI) at 43.83 and the Money Flow Index (MFI) at 34.23 both register below their neutral 50-marks, indicating a lack of robust buying pressure and a potential drift towards bearish sentiment, with the MFI specifically pointing to money flowing out of the market. While On-Balance Volume (OBV) shows a substantial cumulative figure, the collective signal from these indicators suggests that despite the minimal price appreciation, overall market momentum remains subdued, reflecting investor hesitancy and an absence of strong directional commitment.",
+    "change_pct": 0.07,
     "technicalIndicators": {
       "rsi": [
-        [
-          1755302400000,
-          null
-        ],
         [
           1755388800000,
           null
@@ -747,13 +743,13 @@
         [
           1770854400000,
           43.36
+        ],
+        [
+          1770940800000,
+          43.83
         ]
       ],
       "mfi": [
-        [
-          1755302400000,
-          null
-        ],
         [
           1755388800000,
           null
@@ -1473,13 +1469,13 @@
         [
           1770854400000,
           39.95
+        ],
+        [
+          1770940800000,
+          34.23
         ]
       ],
       "obv": [
-        [
-          1755302400000,
-          null
-        ],
         [
           1755388800000,
           null
@@ -2199,6 +2195,10 @@
         [
           1770854400000,
           808471273.0
+        ],
+        [
+          1770940800000,
+          894319023.0
         ]
       ]
     },
@@ -2209,7 +2209,7 @@
       -0.37,
       0.41,
       -0.2,
-      -1.35,
+      -1.29,
       null,
       null,
       null,
