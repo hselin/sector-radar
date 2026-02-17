@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector includes companies that provide medical services, manufacture pharmaceuticals and medical equipment, and operate healthcare facilities.",
-    "marketSizeUSD": "6.8T",
-    "constituentCount": 67,
+    "description": "The Health Care sector encompasses companies involved in pharmaceuticals, biotechnology, medical devices, healthcare equipment, and the provision of healthcare services.",
+    "marketSizeUSD": "6.0T",
+    "constituentCount": 65,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1248,
-  "change_pct": 1.07,
-  "insights": "The Health Care sector demonstrated a solid performance today, gaining 1.07%. Its Relative Strength Index (RSI) at 55.52 indicates moderate buying momentum, suggesting the sector is not yet overbought and has room for potential upside. However, the Money Flow Index (MFI) at 46.23, being slightly below the neutral 50-mark, suggests that while price rose, the volume-weighted money flow into the sector was somewhat subdued compared to the price action. The substantial On-Balance Volume (OBV) of 94,742,133, assuming it increased with today's positive movement, generally confirms sustained buying interest over time, lending credibility to the sector's current positive trajectory.",
+  "market_weight": 0.117,
+  "change_pct": -0.16,
+  "insights": "The Health Care sector experienced a marginal decline of -0.16% today, indicating a largely stable but slightly negative daily performance. Key technical indicators reinforce this lack of strong directional momentum: the RSI at 54.59 and MFI at 52.91 both reside in neutral territory (between 30-70), suggesting a balanced state between buying and selling pressure with no significant overbought or oversold conditions emerging. The On-Balance Volume (OBV) at 79,878,006, without prior daily context for its change, generally reflects the cumulative volume, and its current level does not present a strong divergence that would contradict the overall neutral sentiment. Collectively, these metrics suggest that despite today's slight dip, the sector largely consolidated, lacking strong conviction from either bulls or bears.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755388800000,
-        null
-      ],
-      [
-        1755475200000,
-        58.37
-      ],
-      [
-        1755561600000,
-        60.56
-      ],
-      [
-        1755648000000,
-        62.38
-      ],
       [
         1755734400000,
         60.51
@@ -747,25 +731,25 @@
       [
         1770940800000,
         55.52
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        62.3
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        62.67
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        72.9
-      ],
+        1771286400000,
+        54.59
+      ]
+    ],
+    "mfi": [
       [
         1755734400000,
         75.26
@@ -1473,25 +1457,25 @@
       [
         1770940800000,
         46.23
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        -8892604.0
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        4680348.0
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        19235650.0
-      ],
+        1771286400000,
+        52.91
+      ]
+    ],
+    "obv": [
       [
         1755734400000,
         6023350.0
@@ -2199,6 +2183,22 @@
       [
         1770940800000,
         94742133.0
+      ],
+      [
+        1771027200000,
+        null
+      ],
+      [
+        1771113600000,
+        null
+      ],
+      [
+        1771200000000,
+        null
+      ],
+      [
+        1771286400000,
+        79878006.0
       ]
     ]
   },
@@ -2210,7 +2210,7 @@
     -1.7,
     1.85,
     0.01,
-    null,
+    -0.16,
     null,
     null,
     null,

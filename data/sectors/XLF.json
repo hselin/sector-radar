@@ -1,13 +1,13 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies primarily engaged in banking, insurance, diversified financial services, real estate, and capital markets.",
-    "marketSizeUSD": "5.7T",
-    "constituentCount": 68,
+    "description": "The Financials sector encompasses a broad range of companies providing banking, insurance, diversified financial services, real estate, and capital markets products and services.",
+    "marketSizeUSD": "5.6T",
+    "constituentCount": 73,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
-        "symbol": "BRK.B"
+        "symbol": "BRK.A"
       },
       {
         "name": "JPMorgan Chase & Co.",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1046,
-  "change_pct": -0.06,
-  "insights": "The Financials sector experienced a marginal decline today, closing down -0.06%, which on its own suggests a relatively flat session. However, the technical indicators reveal a more pronounced underlying weakness. The Relative Strength Index (RSI) at 34.72 indicates the sector is nearing oversold conditions, reflecting recent downward momentum. Reinforcing this, the Money Flow Index (MFI) at 28.32 is firmly in oversold territory, suggesting a significant outflow of capital from the sector. Finally, the substantially negative On-Balance Volume (OBV) reading of -40,899,421 confirms that selling pressure significantly outweighed buying interest during the day, validating the minor price dip with strong underlying volume trends. Collectively, these indicators suggest that despite today's minimal price depreciation, the sector is experiencing significant underlying selling pressure and capital outflows, indicating persistent weakness beneath the surface.",
+  "market_weight": 0.1092,
+  "change_pct": 1.05,
+  "insights": "The Financials sector experienced a positive day, climbing 1.05%. However, a closer examination of key technical indicators suggests this gain may lack strong underlying conviction. The Relative Strength Index (RSI) at 39.95 and the Money Flow Index (MFI) at 34.63 both remain below the neutral 50-mark, indicating that despite today's price rise, buying momentum is not strong and there's a lack of significant money flowing into the sector. While the On-Balance Volume (OBV) at 12,940,748 reflects cumulative volume, the subdued RSI and MFI readings caution that today's upward movement may be a short-term bounce rather than the start of a robust, broadly supported rally, pointing to potential fragility in the immediate outlook.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755388800000,
-        null
-      ],
-      [
-        1755475200000,
-        52.75
-      ],
-      [
-        1755561600000,
-        53.76
-      ],
-      [
-        1755648000000,
-        56.48
-      ],
       [
         1755734400000,
         54.32
@@ -747,25 +731,25 @@
       [
         1770940800000,
         34.72
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        46.54
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        52.25
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        60.39
-      ],
+        1771286400000,
+        39.95
+      ]
+    ],
+    "mfi": [
       [
         1755734400000,
         64.4
@@ -1473,25 +1457,25 @@
       [
         1770940800000,
         28.32
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        -25591970.0
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        -1159842.0
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        37892868.0
-      ],
+        1771286400000,
+        34.63
+      ]
+    ],
+    "obv": [
       [
         1755734400000,
         9013097.0
@@ -2199,6 +2183,22 @@
       [
         1770940800000,
         -40899421.0
+      ],
+      [
+        1771027200000,
+        null
+      ],
+      [
+        1771113600000,
+        null
+      ],
+      [
+        1771200000000,
+        null
+      ],
+      [
+        1771286400000,
+        12940748.0
       ]
     ]
   },
@@ -2210,7 +2210,7 @@
     0.76,
     1.5,
     -4.79,
-    null,
+    1.05,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy GICS sector includes companies engaged in the exploration, development, production, refining, marketing, storage, and transportation of oil, natural gas, coal, and other consumable fuels, as well as those providing energy equipment and services.",
-    "marketSizeUSD": "4.0T",
+    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, and marketing of oil, gas, and other consumable fuels.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0734,
-  "change_pct": 0.69,
-  "insights": "The Energy sector experienced a modest positive performance today, climbing 0.69%. This movement is supported by its key technical indicators: the Relative Strength Index (RSI) at 62.05 and the Money Flow Index (MFI) at 61.56 both indicate a healthy level of buying momentum, without yet suggesting the sector is overbought. The significant On-Balance Volume (OBV) of 960,537,485 further reinforces this, implying sustained cumulative buying interest and confirming volume support for the day's positive price action.",
+  "market_weight": 0.0351,
+  "change_pct": -1.07,
+  "insights": "The Energy sector experienced a modest decline of -1.07% today. Despite this pullback, key technical indicators suggest underlying resilience rather than a strong bearish shift. The Relative Strength Index (RSI) at 58.66 and Money Flow Index (MFI) at 55.96 both remain in neutral to slightly bullish territory, indicating that momentum and money flow are not severely deteriorating and may signal potential buying interest on dips. Furthermore, the substantial On-Balance Volume (OBV) of 911,085,196 reflects a history of significant cumulative buying pressure, implying sustained investor participation in the sector over time, which could provide support against deeper corrections.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755388800000,
-        null
-      ],
-      [
-        1755475200000,
-        45.36
-      ],
-      [
-        1755561600000,
-        45.56
-      ],
-      [
-        1755648000000,
-        50.2
-      ],
       [
         1755734400000,
         53.74
@@ -747,25 +731,25 @@
       [
         1770940800000,
         62.05
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        44.0
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        50.13
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        56.34
-      ],
+        1771286400000,
+        58.66
+      ]
+    ],
+    "mfi": [
       [
         1755734400000,
         64.54
@@ -1473,25 +1457,25 @@
       [
         1770940800000,
         61.56
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        121719978.0
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        134540684.0
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        148518966.0
-      ],
+        1771286400000,
+        55.96
+      ]
+    ],
+    "obv": [
       [
         1755734400000,
         159501927.0
@@ -2199,6 +2183,22 @@
       [
         1770940800000,
         960537485.0
+      ],
+      [
+        1771027200000,
+        null
+      ],
+      [
+        1771113600000,
+        null
+      ],
+      [
+        1771200000000,
+        null
+      ],
+      [
+        1771286400000,
+        911085196.0
       ]
     ]
   },
@@ -2210,7 +2210,7 @@
     3.75,
     4.35,
     2.05,
-    null,
+    -1.07,
     null,
     null,
     null,

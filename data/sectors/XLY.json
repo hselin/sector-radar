@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, which consumers purchase when they have disposable income.",
-    "marketSizeUSD": "5.5T",
-    "constituentCount": 54,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, often purchased when consumers have disposable income, including retail, automotive, leisure, and entertainment industries.",
+    "marketSizeUSD": "7.5T",
+    "constituentCount": 56,
     "topHoldings": [
       {
         "name": "Amazon.com Inc.",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1009,
-  "change_pct": 0.04,
-  "insights": "The Consumer Discretionary sector saw a negligible 0.04% gain today, indicating a largely flat trading session. Despite this minimal positive movement, key technical indicators suggest the sector remains under significant pressure and is deeply oversold. Both the Relative Strength Index (RSI) at 27.48 and the Money Flow Index (MFI) at 17.89 are well below their respective 30 and 20 thresholds, signaling extreme oversold conditions. This implies that while the sector barely moved today, it has experienced substantial selling recently, potentially setting the stage for a technical rebound, though today's On-Balance Volume (OBV) at 26335927, without a comparison point, doesn't yet confirm a definitive shift in buying momentum to reverse the prevailing downtrend.",
+  "market_weight": 0.1462,
+  "change_pct": -0.12,
+  "insights": "The Consumer Discretionary sector registered a minor decline of -0.12% today, yet key technical indicators reveal significant underlying dynamics. Both the Relative Strength Index (RSI) at 27.23 and the Money Flow Index (MFI) at 17.34 are deeply in oversold territory, signaling that the sector has experienced substantial selling pressure and significant capital outflow recently. While today's daily movement was minimal, these extremely low indicator readings suggest a pervasive bearish sentiment has dominated recent price action, positioning the sector for either a potential technical rebound from oversold levels or sustained weakness if selling pressure persists, with the On-Balance Volume (OBV) at 167,196,93 also reflecting this cumulative selling pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755388800000,
-        null
-      ],
-      [
-        1755475200000,
-        65.12
-      ],
-      [
-        1755561600000,
-        64.78
-      ],
-      [
-        1755648000000,
-        58.11
-      ],
       [
         1755734400000,
         54.51
@@ -747,25 +731,25 @@
       [
         1770940800000,
         27.48
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        70.88
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        78.8
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        77.88
-      ],
+        1771286400000,
+        27.23
+      ]
+    ],
+    "mfi": [
       [
         1755734400000,
         83.64
@@ -1473,25 +1457,25 @@
       [
         1770940800000,
         17.89
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        26789981.0
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        20896878.0
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        13245132.0
-      ],
+        1771286400000,
+        17.34
+      ]
+    ],
+    "obv": [
       [
         1755734400000,
         8186627.0
@@ -2199,6 +2183,22 @@
       [
         1770940800000,
         26335927.0
+      ],
+      [
+        1771027200000,
+        null
+      ],
+      [
+        1771113600000,
+        null
+      ],
+      [
+        1771200000000,
+        null
+      ],
+      [
+        1771286400000,
+        16719693.0
       ]
     ]
   },
@@ -2210,7 +2210,7 @@
     -1.56,
     -2.7,
     -1.48,
-    null,
+    -0.12,
     null,
     null,
     null,

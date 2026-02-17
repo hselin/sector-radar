@@ -1,45 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector encompasses companies primarily engaged in the ownership, development, and management of real estate, including Real Estate Investment Trusts (REITs) and real estate management and development firms.",
-    "marketSizeUSD": "2.5T",
-    "constituentCount": 31,
+    "description": "This sector includes companies primarily engaged in the ownership, development, and management of real estate, predominantly comprising Real Estate Investment Trusts (REITs) that invest in diverse property types such as industrial, residential, retail, office, healthcare, and specialized properties like data centers and communications towers.",
+    "marketSizeUSD": "1.3T",
+    "constituentCount": 32,
     "topHoldings": [
       {
-        "name": "Prologis, Inc.",
+        "name": "Prologis Inc.",
         "symbol": "PLD"
       },
       {
-        "name": "American Tower Corporation",
-        "symbol": "AMT"
+        "name": "Equinix Inc.",
+        "symbol": "EQIX"
       },
       {
-        "name": "Equinix, Inc.",
-        "symbol": "EQIX"
+        "name": "American Tower Corp.",
+        "symbol": "AMT"
       }
     ]
   },
-  "market_weight": 0.0459,
-  "change_pct": 1.47,
-  "insights": "The Real Estate sector demonstrated robust performance today with a notable 1.47% gain, driven by significant buying interest. Key technical indicators corroborate this bullish momentum: an RSI of 71.76 places the sector firmly in overbought territory, signaling intense upward pressure, while the MFI at 69.61 confirms substantial money flow into the sector. The high OBV of 82,168,049 further supports this strong price appreciation, indicating that the move is backed by considerable trading volume and market participation, though the overbought signals suggest potential for near-term consolidation after such a strong daily advance.",
+  "market_weight": 0.0253,
+  "change_pct": 1.01,
+  "insights": "The Real Estate sector demonstrated robust performance today, posting a 1.01% gain. This strong upward momentum is reflected in its key technical indicators: the Relative Strength Index (RSI) at 74.45 and Money Flow Index (MFI) at 74.83 both indicate significant buying pressure, pushing the sector into overbought conditions. The On-Balance Volume (OBV) reading of 91,767,822, in conjunction with today's price increase, suggests that this positive price action is supported by strong buying volume, reinforcing the current bullish trend but also signaling potential for near-term consolidation or a pullback given the extended overbought readings.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755388800000,
-        null
-      ],
-      [
-        1755475200000,
-        41.81
-      ],
-      [
-        1755561600000,
-        51.23
-      ],
-      [
-        1755648000000,
-        53.02
-      ],
       [
         1755734400000,
         51.12
@@ -747,25 +731,25 @@
       [
         1770940800000,
         71.76
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        23.31
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        31.08
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        39.69
-      ],
+        1771286400000,
+        74.45
+      ]
+    ],
+    "mfi": [
       [
         1755734400000,
         41.35
@@ -1473,25 +1457,25 @@
       [
         1770940800000,
         69.61
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        18280093.0
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        25081444.0
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        32105515.0
-      ],
+        1771286400000,
+        74.83
+      ]
+    ],
+    "obv": [
       [
         1755734400000,
         26333437.0
@@ -2199,6 +2183,22 @@
       [
         1770940800000,
         82168049.0
+      ],
+      [
+        1771027200000,
+        null
+      ],
+      [
+        1771113600000,
+        null
+      ],
+      [
+        1771200000000,
+        null
+      ],
+      [
+        1771286400000,
+        91767822.0
       ]
     ]
   },
@@ -2210,7 +2210,7 @@
     0.42,
     1.35,
     3.6,
-    null,
+    1.01,
     null,
     null,
     null,

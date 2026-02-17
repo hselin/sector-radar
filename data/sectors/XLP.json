@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that manufacture and sell essential products and services, such as food, beverages, household goods, and personal care products, which consumers purchase regularly regardless of economic cycles.",
-    "marketSizeUSD": "2.0T",
-    "constituentCount": 36,
+    "description": "The Consumer Staples sector includes companies that produce and sell essential goods and services that people need regardless of economic conditions.",
+    "marketSizeUSD": "4.0T",
+    "constituentCount": 37,
     "topHoldings": [
       {
         "name": "Walmart Inc.",
@@ -14,32 +14,16 @@
         "symbol": "PG"
       },
       {
-        "name": "The Coca-Cola Company",
-        "symbol": "KO"
+        "name": "Costco Wholesale Corp.",
+        "symbol": "COST"
       }
     ]
   },
-  "market_weight": 0.0367,
-  "change_pct": 0.33,
-  "insights": "The Consumer Staples sector posted a modest gain of 0.33% today, suggesting underlying buying interest. However, key technical indicators signal caution. The Relative Strength Index (RSI) at 80.63 and Money Flow Index (MFI) at 78.74 both reside deep within overbought territory, indicating that the sector may be experiencing excessive buying pressure and could be due for a near-term pullback or consolidation. While the high On-Balance Volume (OBV) of 270,343,121 confirms strong buying conviction behind today's positive movement, investors should be wary of potential mean reversion given the stretched momentum readings.",
+  "market_weight": 0.078,
+  "change_pct": -1.43,
+  "insights": "The Consumer Staples sector experienced a noticeable decline of -1.43% today, indicating selling pressure. Despite this daily dip, key technical indicators suggest the sector remains in a strong, albeit potentially overheated, state. The Relative Strength Index (RSI) at 69.79 is on the cusp of overbought territory, while the Money Flow Index (MFI) at 71.55 clearly indicates overbought conditions, suggesting recent aggressive money inflows. Coupled with a high On-Balance Volume (OBV) of 240,916,308, this daily movement appears to be a natural pullback or profit-taking event from previously elevated levels rather than a significant shift in the underlying bullish trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755388800000,
-        null
-      ],
-      [
-        1755475200000,
-        53.89
-      ],
-      [
-        1755561600000,
-        60.69
-      ],
-      [
-        1755648000000,
-        63.89
-      ],
       [
         1755734400000,
         56.04
@@ -747,25 +731,25 @@
       [
         1770940800000,
         80.63
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        59.26
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        66.16
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        75.13
-      ],
+        1771286400000,
+        69.79
+      ]
+    ],
+    "mfi": [
       [
         1755734400000,
         65.49
@@ -1473,25 +1457,25 @@
       [
         1770940800000,
         78.74
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        66991046.0
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        80082191.0
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        104065660.0
-      ],
+        1771286400000,
+        71.55
+      ]
+    ],
+    "obv": [
       [
         1755734400000,
         85940533.0
@@ -2199,6 +2183,22 @@
       [
         1770940800000,
         270343121.0
+      ],
+      [
+        1771027200000,
+        null
+      ],
+      [
+        1771113600000,
+        null
+      ],
+      [
+        1771200000000,
+        null
+      ],
+      [
+        1771286400000,
+        240916308.0
       ]
     ]
   },
@@ -2210,7 +2210,7 @@
     0.74,
     5.32,
     1.77,
-    null,
+    -1.43,
     null,
     null,
     null,

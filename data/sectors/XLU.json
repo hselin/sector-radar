@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies providing essential services such as electricity, natural gas, water, and other public utility infrastructure and services.",
+    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, water, and other public utility services, often characterized by stable demand and regulatory oversight.",
     "marketSizeUSD": "1.2T",
-    "constituentCount": 30,
+    "constituentCount": 29,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.022,
-  "change_pct": 2.76,
-  "insights": "The Utilities sector exhibited strong bullish momentum today, gaining a significant 2.76%. This upward movement is well-supported by key technical indicators: The Relative Strength Index (RSI) at 62.21 suggests robust buying interest without yet reaching overbought conditions, while the Money Flow Index (MFI) at 74.88 signals substantial capital inflow and strong accumulation, nearing the overbought threshold. Furthermore, the high On-Balance Volume (OBV) of 344,495,435 confirms that today's price appreciation was backed by considerable trading volume, reinforcing the validity of this positive daily performance.",
+  "market_weight": 0.0234,
+  "change_pct": -0.24,
+  "insights": "The Utilities sector saw a modest decline of -0.24% today, indicating a slight pullback or consolidation. Despite this minor dip, key technical indicators suggest underlying strength and robust investor interest. The Relative Strength Index (RSI) at 61.18 points to healthy bullish momentum, while the Money Flow Index (MFI) at 75.14 signals significant money inflow, nearing overbought conditions due to strong buying pressure. The high On-Balance Volume (OBV) of 312,352,987 further confirms a history of cumulative buying, implying that today's slight negative movement was likely a minor pause or a \"buy the dip\" opportunity within a broader upward trend, with demand absorbing selling pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755388800000,
-        null
-      ],
-      [
-        1755475200000,
-        52.81
-      ],
-      [
-        1755561600000,
-        57.85
-      ],
-      [
-        1755648000000,
-        58.37
-      ],
       [
         1755734400000,
         53.7
@@ -747,25 +731,25 @@
       [
         1770940800000,
         62.21
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        61.66
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        60.38
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        59.14
-      ],
+        1771286400000,
+        61.18
+      ]
+    ],
+    "mfi": [
       [
         1755734400000,
         50.94
@@ -1473,25 +1457,25 @@
       [
         1770940800000,
         74.88
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1755388800000,
+        1771027200000,
         null
       ],
       [
-        1755475200000,
-        122899447.0
+        1771113600000,
+        null
       ],
       [
-        1755561600000,
-        131111857.0
+        1771200000000,
+        null
       ],
       [
-        1755648000000,
-        141187596.0
-      ],
+        1771286400000,
+        75.14
+      ]
+    ],
+    "obv": [
       [
         1755734400000,
         133080395.0
@@ -2199,6 +2183,22 @@
       [
         1770940800000,
         344495435.0
+      ],
+      [
+        1771027200000,
+        null
+      ],
+      [
+        1771113600000,
+        null
+      ],
+      [
+        1771200000000,
+        null
+      ],
+      [
+        1771286400000,
+        312352987.0
       ]
     ]
   },
@@ -2210,7 +2210,7 @@
     1.65,
     0.23,
     7.27,
-    null,
+    -0.24,
     null,
     null,
     null,
