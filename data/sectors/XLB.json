@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies engaged in discovering, developing, and processing raw materials, including chemicals, construction materials, metals and mining, paper and forest products, and containers and packaging.",
-    "marketSizeUSD": "1.7T",
+    "description": "The Materials sector encompasses companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, packaging, metals, and mining.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LIN"
       },
       {
-        "name": "The Sherwin-Williams Company",
+        "name": "Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0331,
-  "change_pct": -1.14,
-  "insights": "The Materials sector experienced a moderate decline of -1.14% today. Despite this pullback, key technical indicators suggest the move may be a temporary consolidation rather than a strong reversal. The Relative Strength Index (RSI) at 56.34 and Money Flow Index (MFI) at 57.72 both remain in neutral-to-slightly bullish territory, indicating that underlying momentum and money flow haven't turned decisively negative following today's dip. Furthermore, the robust On-Balance Volume (OBV) at 198,605,884 reflects significant cumulative buying pressure, suggesting today's selling hasn't substantially eroded the sector's overall accumulation trend.",
+  "market_weight": 0.035,
+  "change_pct": 0.61,
+  "insights": "The Materials sector posted a modest gain of 0.61% today, reflecting underlying positive sentiment. Technical indicators generally support this upward movement: an RSI of 57.83 suggests positive momentum without being overbought, indicating healthy buying interest. This is complemented by an MFI of 61.55, which further confirms capital inflow supporting the price appreciation. The substantial OBV figure of 209,505,185 indicates that today's positive price movement was accompanied by significant trading volume, reinforcing the constructive nature of the gain. Overall, the technicals align with the positive daily performance, showing healthy, albeit not excessive, demand.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755734400000,
-        54.89
-      ],
       [
         1755820800000,
         62.49
@@ -747,13 +743,13 @@
       [
         1771286400000,
         56.34
+      ],
+      [
+        1771372800000,
+        57.83
       ]
     ],
     "mfi": [
-      [
-        1755734400000,
-        73.66
-      ],
       [
         1755820800000,
         73.17
@@ -1473,13 +1469,13 @@
       [
         1771286400000,
         57.72
+      ],
+      [
+        1771372800000,
+        61.55
       ]
     ],
     "obv": [
-      [
-        1755734400000,
-        15290622.0
-      ],
       [
         1755820800000,
         20980742.0
@@ -2199,6 +2195,10 @@
       [
         1771286400000,
         198605884.0
+      ],
+      [
+        1771372800000,
+        209505185.0
       ]
     ]
   },
@@ -2210,7 +2210,7 @@
     -1.38,
     4.55,
     3.49,
-    -1.14,
+    -0.54,
     null,
     null,
     null,

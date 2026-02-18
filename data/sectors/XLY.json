@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1462,
-  "change_pct": -0.12,
-  "insights": "The Consumer Discretionary sector registered a minor decline of -0.12% today, yet key technical indicators reveal significant underlying dynamics. Both the Relative Strength Index (RSI) at 27.23 and the Money Flow Index (MFI) at 17.34 are deeply in oversold territory, signaling that the sector has experienced substantial selling pressure and significant capital outflow recently. While today's daily movement was minimal, these extremely low indicator readings suggest a pervasive bearish sentiment has dominated recent price action, positioning the sector for either a potential technical rebound from oversold levels or sustained weakness if selling pressure persists, with the On-Balance Volume (OBV) at 167,196,93 also reflecting this cumulative selling pressure.",
+  "market_weight": 0.1459,
+  "change_pct": 0.84,
+  "insights": "The Consumer Discretionary sector posted a modest gain of 0.84% today, offering some positive movement. However, a deeper look at key technical indicators suggests this upturn might lack robust underlying support. The Relative Strength Index (RSI) at 31.88 is approaching oversold territory, while the Money Flow Index (MFI) at 22.77 is firmly within oversold conditions, indicating significant underlying selling pressure and weak money flow into the sector despite today's price increase. The On-Balance Volume (OBV) at 25946596 represents the cumulative volume flow, and while today's positive close would contribute to this number, the combined message from the momentum and money flow indicators implies that today's upward movement may be a temporary bounce rather than a sign of a strong reversal or renewed buying conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755734400000,
-        54.51
-      ],
       [
         1755820800000,
         66.03
@@ -747,13 +743,13 @@
       [
         1771286400000,
         27.23
+      ],
+      [
+        1771372800000,
+        31.88
       ]
     ],
     "mfi": [
-      [
-        1755734400000,
-        83.64
-      ],
       [
         1755820800000,
         83.95
@@ -1473,13 +1469,13 @@
       [
         1771286400000,
         17.34
+      ],
+      [
+        1771372800000,
+        22.77
       ]
     ],
     "obv": [
-      [
-        1755734400000,
-        8186627.0
-      ],
       [
         1755820800000,
         15651280.0
@@ -2199,6 +2195,10 @@
       [
         1771286400000,
         16719693.0
+      ],
+      [
+        1771372800000,
+        25946596.0
       ]
     ]
   },
@@ -2210,7 +2210,7 @@
     -1.56,
     -2.7,
     -1.48,
-    -0.12,
+    0.72,
     null,
     null,
     null,
