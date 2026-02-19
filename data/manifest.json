@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-18T21:23:42.639510Z",
+  "lastUpdated": "2026-02-19T21:18:41.171677Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market closed with a modest 0.50% gain today, yet underlying technical indicators suggest a more cautious sentiment. The Relative Strength Index (RSI) at 48.54 is neutral, indicating balanced buying and selling pressure without strong overbought or oversold conditions. However, the Money Flow Index (MFI) at 29.93, teetering near the oversold threshold, signals a weakening money flow into the market, suggesting that despite today's positive price action, there might be underlying selling pressure or a lack of strong conviction from buyers, potentially indicating a cautious market sentiment. While On-Balance Volume (OBV) at 1,036,856,032 represents significant cumulative trading activity, without its prior trend, it's difficult to confirm the conviction behind today's move, but the MFI's weakness suggests that momentum, particularly on a volume-weighted basis, is not strongly supportive of sustained upward movement.",
-    "change_pct": 0.5,
+    "commentary": "Today's stock market concluded with a modest decline of -0.26%, suggesting a day of slight profit-taking or indecision rather than a strong directional move. Technical indicators, however, paint a more nuanced picture of underlying sentiment and momentum. The Relative Strength Index (RSI) at 46.83, just below the neutral 50-mark, indicates weakening buying momentum without being oversold. More notably, the Money Flow Index (MFI) at 30.92 signals significant capital outflows, approaching oversold conditions and suggesting a distinct lack of conviction from buyers on a volume-weighted basis. While On-Balance Volume (OBV) tracks cumulative buying and selling pressure, its current absolute value alone doesn't provide a directional signal without prior data; however, the MFI strongly suggests that selling interest is outweighing buying interest. Overall, while the daily price change was small, the MFI points to deteriorating market breadth and potential for continued subdued performance in the near term.",
+    "change_pct": -0.26,
     "technicalIndicators": {
       "rsi": [
-        [
-          1755820800000,
-          63.2
-        ],
         [
           1755907200000,
           null
@@ -747,13 +743,13 @@
         [
           1771372800000,
           48.54
+        ],
+        [
+          1771459200000,
+          46.83
         ]
       ],
       "mfi": [
-        [
-          1755820800000,
-          51.56
-        ],
         [
           1755907200000,
           null
@@ -1473,13 +1469,13 @@
         [
           1771372800000,
           29.93
+        ],
+        [
+          1771459200000,
+          30.92
         ]
       ],
       "obv": [
-        [
-          1755820800000,
-          337209151.0
-        ],
         [
           1755907200000,
           null
@@ -2199,6 +2195,10 @@
         [
           1771372800000,
           1036856032.0
+        ],
+        [
+          1771459200000,
+          982136763.0
         ]
       ]
     },
@@ -2210,7 +2210,7 @@
       0.41,
       -0.2,
       -1.29,
-      0.67,
+      0.4,
       null,
       null,
       null,
