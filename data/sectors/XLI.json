@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.072,
-  "change_pct": 0.74,
-  "insights": "The Industrials sector posted a solid performance today, rising 0.74%. This upward momentum is underpinned by strong buying interest, as evidenced by a healthy Money Flow Index (MFI) of 67.68, indicating significant capital inflow. The On-Balance Volume (OBV) at 232,210,529 further corroborates this, with climbing volume confirming the price appreciation. However, the Relative Strength Index (RSI) at 72.74 suggests the sector is entering overbought territory, implying that while current strength is notable, a short-term consolidation or potential pullback could be on the horizon if momentum wanes.",
+  "change_pct": 0.52,
+  "insights": "The Industrials sector advanced 0.52% today, demonstrating positive, albeit modest, daily momentum. However, key technical indicators suggest a degree of caution. The Relative Strength Index (RSI) at 74.21 and the Money Flow Index (MFI) at 73.73 both signal that the sector is in overbought territory, indicating that the recent buying pressure, supported by a significant On-Balance Volume (OBV) of 244,550,240, may have pushed prices to levels where a short-term consolidation or pullback could be anticipated despite today's gain.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1755907200000,
-        null
-      ],
       [
         1755993600000,
         null
@@ -747,13 +743,13 @@
       [
         1771459200000,
         72.74
+      ],
+      [
+        1771545600000,
+        74.21
       ]
     ],
     "mfi": [
-      [
-        1755907200000,
-        null
-      ],
       [
         1755993600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1771459200000,
         67.68
+      ],
+      [
+        1771545600000,
+        73.73
       ]
     ],
     "obv": [
-      [
-        1755907200000,
-        null
-      ],
       [
         1755993600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1771459200000,
         232210529.0
+      ],
+      [
+        1771545600000,
+        244550240.0
       ]
     ]
   },
@@ -2210,7 +2210,7 @@
     0.75,
     4.7,
     0.57,
-    1.25,
+    1.77,
     null,
     null,
     null,

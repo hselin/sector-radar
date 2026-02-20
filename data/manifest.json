@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-19T21:18:41.171677Z",
+  "lastUpdated": "2026-02-20T21:14:29.947088Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Today's stock market concluded with a modest decline of -0.26%, suggesting a day of slight profit-taking or indecision rather than a strong directional move. Technical indicators, however, paint a more nuanced picture of underlying sentiment and momentum. The Relative Strength Index (RSI) at 46.83, just below the neutral 50-mark, indicates weakening buying momentum without being oversold. More notably, the Money Flow Index (MFI) at 30.92 signals significant capital outflows, approaching oversold conditions and suggesting a distinct lack of conviction from buyers on a volume-weighted basis. While On-Balance Volume (OBV) tracks cumulative buying and selling pressure, its current absolute value alone doesn't provide a directional signal without prior data; however, the MFI strongly suggests that selling interest is outweighing buying interest. Overall, while the daily price change was small, the MFI points to deteriorating market breadth and potential for continued subdued performance in the near term.",
-    "change_pct": -0.26,
+    "commentary": "The broader stock market experienced a modest gain today, closing up 0.72%, suggesting positive sentiment for the session. Technical indicators present a somewhat mixed picture: the Relative Strength Index (RSI) at 51.83 indicates the market is neither overbought nor oversold, hovering near neutral territory. However, the Money Flow Index (MFI) at 38.71 points to comparatively weaker buying pressure when accounting for volume, suggesting the price gain might not be backed by strong institutional accumulation. In contrast, On-Balance Volume (OBV) registering 1,074,575,621 suggests that buying volume likely outpaced selling volume for the day, generally confirming the positive price action. Collectively, these figures suggest a cautiously optimistic market with positive daily momentum, but perhaps lacking strong underlying conviction or robust buying enthusiasm, as hinted by the MFI.",
+    "change_pct": 0.72,
     "technicalIndicators": {
       "rsi": [
-        [
-          1755907200000,
-          null
-        ],
         [
           1755993600000,
           null
@@ -747,13 +743,13 @@
         [
           1771459200000,
           46.83
+        ],
+        [
+          1771545600000,
+          51.83
         ]
       ],
       "mfi": [
-        [
-          1755907200000,
-          null
-        ],
         [
           1755993600000,
           null
@@ -1473,13 +1469,13 @@
         [
           1771459200000,
           30.92
+        ],
+        [
+          1771545600000,
+          38.71
         ]
       ],
       "obv": [
-        [
-          1755907200000,
-          null
-        ],
         [
           1755993600000,
           null
@@ -2199,6 +2195,10 @@
         [
           1771459200000,
           982136763.0
+        ],
+        [
+          1771545600000,
+          1074575621.0
         ]
       ]
     },
@@ -2210,7 +2210,7 @@
       0.41,
       -0.2,
       -1.29,
-      0.4,
+      1.13,
       null,
       null,
       null,
