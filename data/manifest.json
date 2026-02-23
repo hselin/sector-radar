@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-22T21:11:19.773721Z",
+  "lastUpdated": "2026-02-23T21:27:02.536088Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market closed with a positive daily change of 0.72%, indicating a generally bullish sentiment for the session. Technical indicators offer a nuanced view: The Relative Strength Index (RSI) at 51.83 hovers close to the neutral 50-mark, suggesting a relatively balanced momentum without strong overbought or oversold conditions. However, the Money Flow Index (MFI) at 38.71, sitting below the neutral 50-level and closer to oversold territory, implies that while prices advanced, the volume-weighted buying pressure may not be as robust, potentially signaling some underlying caution or a lack of strong conviction from broader money flows behind the rally. Conversely, the On-Balance Volume (OBV) at 1074575621, having likely increased given the day's positive price action, suggests that buying volume did accompany the upward move, providing some support to the daily gains. Overall, while the market ended positively, the MFI suggests that investors should be vigilant about the underlying strength and conviction of this upward trend.",
-    "change_pct": 0.72,
+    "commentary": "The stock market experienced a notable decline today, closing down 1.02%, indicating a clear session of selling pressure. This pullback is further elucidated by key technical indicators: the Relative Strength Index (RSI) at 45.30 suggests a loss of upward momentum, though it remains above oversold levels. More significantly, the Money Flow Index (MFI) at 31.75 points to considerable capital outflow from the market and is nearing oversold territory, reflecting bearish sentiment. Coupled with the On-Balance Volume (OBV) at 992,758,418, which implies that the day's price decline was supported by substantial selling volume, the overall market sentiment appears cautious to negative, with momentum clearly shifted downwards.",
+    "change_pct": -1.02,
     "technicalIndicators": {
       "rsi": [
-        [
-          1755993600000,
-          null
-        ],
-        [
-          1756080000000,
-          59.22
-        ],
-        [
-          1756166400000,
-          61.68
-        ],
         [
           1756252800000,
           63.0
@@ -747,21 +735,21 @@
         [
           1771545600000,
           51.83
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1755993600000,
+          1771632000000,
           null
         ],
         [
-          1756080000000,
-          58.32
+          1771718400000,
+          null
         ],
         [
-          1756166400000,
-          57.73
-        ],
+          1771804800000,
+          45.3
+        ]
+      ],
+      "mfi": [
         [
           1756252800000,
           56.47
@@ -1473,21 +1461,21 @@
         [
           1771545600000,
           38.71
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1755993600000,
+          1771632000000,
           null
         ],
         [
-          1756080000000,
-          286646204.0
+          1771718400000,
+          null
         ],
         [
-          1756166400000,
-          337524207.0
-        ],
+          1771804800000,
+          31.75
+        ]
+      ],
+      "obv": [
         [
           1756252800000,
           385467233.0
@@ -2199,6 +2187,18 @@
         [
           1771545600000,
           1074575621.0
+        ],
+        [
+          1771632000000,
+          null
+        ],
+        [
+          1771718400000,
+          null
+        ],
+        [
+          1771804800000,
+          992758418.0
         ]
       ]
     },
@@ -2211,7 +2211,7 @@
       -0.2,
       -1.29,
       1.13,
-      null,
+      -1.02,
       null,
       null,
       null,
