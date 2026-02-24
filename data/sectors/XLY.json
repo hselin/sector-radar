@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, often purchased when consumers have disposable income, including retail, automotive, leisure, and entertainment industries.",
-    "marketSizeUSD": "7.5T",
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, which consumers typically purchase when they have disposable income.",
+    "marketSizeUSD": "6.2T",
     "constituentCount": 56,
     "topHoldings": [
       {
@@ -14,20 +14,16 @@
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot Inc.",
+        "name": "The Home Depot, Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1459,
-  "change_pct": -2.1,
-  "insights": "The Consumer Discretionary sector experienced a significant downturn today, declining by -2.10%. This sharp sell-off is strongly corroborated by key technical indicators: the Relative Strength Index (RSI) at 30.51 is nearing the oversold threshold, while the Money Flow Index (MFI) at 25.65 explicitly indicates substantial capital outflow and an increasingly oversold condition for the sector. The On-Balance Volume (OBV) standing at 17580142, in conjunction with the price depreciation and the highly bearish momentum indicators, reinforces the presence of significant selling pressure and confirms the negative sentiment dominating the sector today.",
+  "market_weight": 0.1067,
+  "change_pct": 1.52,
+  "insights": "The Consumer Discretionary sector experienced a solid daily gain of 1.52%, indicating renewed investor interest today. However, key technical indicators suggest this rally may be occurring from a weaker underlying position. The Relative Strength Index (RSI) at 37.61 and Money Flow Index (MFI) at 32.15 both remain below the neutral 50-mark, indicating the sector is not yet overbought and could be bouncing from a previously oversold or weak sentiment level. While the On-Balance Volume (OBV) of 28484753 confirms that today's price increase was accompanied by positive volume, supporting the daily move, investors should note that the broader money flow and momentum, as suggested by RSI and MFI, are still relatively subdued, implying today's strength might be a short-term rebound rather than a confirmed trend reversal without further confirmation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756252800000,
-        66.41
-      ],
       [
         1756339200000,
         67.02
@@ -747,13 +743,13 @@
       [
         1771804800000,
         30.51
+      ],
+      [
+        1771891200000,
+        37.61
       ]
     ],
     "mfi": [
-      [
-        1756252800000,
-        83.55
-      ],
       [
         1756339200000,
         77.87
@@ -1473,13 +1469,13 @@
       [
         1771804800000,
         25.65
+      ],
+      [
+        1771891200000,
+        32.15
       ]
     ],
     "obv": [
-      [
-        1756252800000,
-        20510719.0
-      ],
       [
         1756339200000,
         24616390.0
@@ -2199,6 +2195,10 @@
       [
         1771804800000,
         17580142.0
+      ],
+      [
+        1771891200000,
+        28484753.0
       ]
     ]
   },
@@ -2211,7 +2211,7 @@
     -2.7,
     -1.48,
     1.1,
-    -2.1,
+    -0.61,
     null,
     null,
     null,

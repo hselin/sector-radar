@@ -1,13 +1,13 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses a broad range of companies providing banking, insurance, diversified financial services, real estate, and capital markets products and services.",
-    "marketSizeUSD": "5.6T",
-    "constituentCount": 73,
+    "description": "The Financials sector encompasses companies engaged in banking, diversified financial services, insurance, and capital markets activities.",
+    "marketSizeUSD": "6.5T",
+    "constituentCount": 67,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
-        "symbol": "BRK.A"
+        "symbol": "BRK.B"
       },
       {
         "name": "JPMorgan Chase & Co.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1089,
-  "change_pct": -3.34,
-  "insights": "The Financials sector experienced a significant downturn today, declining by -3.34%, reflecting strong bearish sentiment. This price action is corroborated by key technical indicators: the Relative Strength Index (RSI) at 33.84 and the Money Flow Index (MFI) at 32.27 both indicate the sector is approaching oversold territory, suggesting the recent sell-off has been intense but could be nearing a short-term exhaustion point for sellers. Furthermore, the On-Balance Volume (OBV) of -19,845,340 confirms that today's substantial price decline was accompanied by a significant net outflow of volume, lending credibility to the downward movement and underscoring pervasive selling pressure within the sector.",
+  "market_weight": 0.1119,
+  "change_pct": 0.49,
+  "insights": "The Financials sector experienced a modest 0.49% gain today, but key technical indicators point to underlying bearish sentiment. The Relative Strength Index (RSI) at 36.05 and Money Flow Index (MFI) at 32.53 both indicate prevailing selling pressure and money outflow, trending towards oversold territory despite the day's positive price movement. This suggests that today's slight advance may lack strong buying conviction, with the On-Balance Volume (OBV) of 43171977 not strongly contradicting the cautious outlook from the momentum oscillators.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756252800000,
-        62.68
-      ],
       [
         1756339200000,
         63.27
@@ -747,13 +743,13 @@
       [
         1771804800000,
         33.84
+      ],
+      [
+        1771891200000,
+        36.05
       ]
     ],
     "mfi": [
-      [
-        1756252800000,
-        74.17
-      ],
       [
         1756339200000,
         73.66
@@ -1473,13 +1469,13 @@
       [
         1771804800000,
         32.27
+      ],
+      [
+        1771891200000,
+        32.53
       ]
     ],
     "obv": [
-      [
-        1756252800000,
-        97765193.0
-      ],
       [
         1756339200000,
         126533602.0
@@ -2199,6 +2195,10 @@
       [
         1771804800000,
         -19845340.0
+      ],
+      [
+        1771891200000,
+        43171977.0
       ]
     ]
   },
@@ -2211,7 +2211,7 @@
     1.5,
     -4.79,
     1.6,
-    -3.34,
+    -2.87,
     null,
     null,
     null,

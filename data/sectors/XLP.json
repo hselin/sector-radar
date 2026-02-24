@@ -1,33 +1,29 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that produce and sell essential goods and services that people need regardless of economic conditions.",
-    "marketSizeUSD": "4.0T",
-    "constituentCount": 37,
+    "description": "The Consumer Staples sector comprises companies that produce and distribute essential goods and services, such as food, beverages, household products, and personal care items, which consumers purchase regularly regardless of economic conditions.",
+    "marketSizeUSD": "2.6T",
+    "constituentCount": 33,
     "topHoldings": [
-      {
-        "name": "Walmart Inc.",
-        "symbol": "WMT"
-      },
       {
         "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
-        "name": "Costco Wholesale Corp.",
-        "symbol": "COST"
+        "name": "The Coca-Cola Company",
+        "symbol": "KO"
+      },
+      {
+        "name": "PepsiCo, Inc.",
+        "symbol": "PEP"
       }
     ]
   },
-  "market_weight": 0.0778,
-  "change_pct": 1.26,
-  "insights": "The Consumer Staples sector demonstrated robust performance today, rising 1.26%. This strong daily upward movement has pushed its Relative Strength Index (RSI) to 70.60, indicating the sector is now in overbought territory, suggesting strong recent buying pressure that may precede a near-term consolidation. The Money Flow Index (MFI) at 65.40 further confirms significant capital inflow and strong buying interest backing today's gains. Moreover, the high On-Balance Volume (OBV) reading of 241,482,432 supports this price action, suggesting the positive momentum is well-supported by active participation, yet the overbought RSI warrants monitoring for potential mean reversion.",
+  "market_weight": 0.0448,
+  "change_pct": 0.83,
+  "insights": "The Consumer Staples sector posted a positive performance today, gaining 0.83%, reflecting consistent buying interest. This upward movement is underscored by a Money Flow Index (MFI) of 64.21, indicating significant capital inflow into the sector, and an On-Balance Volume (OBV) of 261,027,383, which suggests strong accumulated buying pressure validating the price trend. However, the Relative Strength Index (RSI) at 73.02 firmly places the sector in overbought territory, signaling that while current momentum is robust, a period of consolidation or a potential pullback may be on the horizon as the sector appears technically extended.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756252800000,
-        42.91
-      ],
       [
         1756339200000,
         39.56
@@ -747,13 +743,13 @@
       [
         1771804800000,
         70.6
+      ],
+      [
+        1771891200000,
+        73.02
       ]
     ],
     "mfi": [
-      [
-        1756252800000,
-        49.06
-      ],
       [
         1756339200000,
         42.56
@@ -1473,13 +1469,13 @@
       [
         1771804800000,
         65.4
+      ],
+      [
+        1771891200000,
+        64.21
       ]
     ],
     "obv": [
-      [
-        1756252800000,
-        59571195.0
-      ],
       [
         1756339200000,
         45083832.0
@@ -2199,6 +2195,10 @@
       [
         1771804800000,
         241482432.0
+      ],
+      [
+        1771891200000,
+        261027383.0
       ]
     ]
   },
@@ -2211,7 +2211,7 @@
     5.32,
     1.77,
     -1.81,
-    1.26,
+    2.11,
     null,
     null,
     null,

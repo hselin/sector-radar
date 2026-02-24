@@ -1,33 +1,29 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies engaged in the development of software, provision of IT services, and manufacture of semiconductors, communications equipment, and technology hardware.",
+    "description": "The Information Technology sector encompasses companies involved in the production of software, provision of IT services, and manufacture of technology hardware and equipment.",
     "marketSizeUSD": "14.5T",
-    "constituentCount": 68,
+    "constituentCount": 67,
     "topHoldings": [
+      {
+        "name": "Microsoft Corporation",
+        "symbol": "MSFT"
+      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
       },
       {
-        "name": "Microsoft Corp.",
-        "symbol": "MSFT"
-      },
-      {
-        "name": "NVIDIA Corp.",
+        "name": "NVIDIA Corporation",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.2821,
-  "change_pct": -1.67,
-  "insights": "The Information Technology sector experienced a notable decline of -1.67% today, with key technical indicators reflecting significant bearish momentum. The Relative Strength Index (RSI) at 37.06 and Money Flow Index (MFI) at 30.99 both indicate strong selling pressure and capital outflow from the sector, pushing it towards oversold conditions. This suggests that today's price drop was driven by increasing downward momentum and a lack of buying interest. While On-Balance Volume (OBV) stands at 253,945,919, its current position, coupled with the low RSI and MFI on a down day, implies that the sector's decline was accompanied by meaningful volume, reinforcing the conviction behind the sell-off.",
+  "market_weight": 0.2496,
+  "change_pct": 1.27,
+  "insights": "The Information Technology sector demonstrated a robust performance today, gaining 1.27%, indicating positive investor sentiment. Despite this upward movement, key technical indicators suggest a measured advance rather than an overheated market. The Relative Strength Index (RSI) at 41.26 and the Money Flow Index (MFI) at 36.41 both remain below the neutral 50-mark, signaling that the sector is not overbought and still has room for potential upside without immediate risk of a reversal due to excessive buying pressure or money inflows. The On-Balance Volume (OBV) of 266,908,612 confirms that today's price increase was supported by buying volume, indicating the move was legitimate, but the momentum and money flow metrics suggest a more cautious or developing recovery phase.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756252800000,
-        55.9
-      ],
       [
         1756339200000,
         59.45
@@ -747,13 +743,13 @@
       [
         1771804800000,
         37.06
+      ],
+      [
+        1771891200000,
+        41.26
       ]
     ],
     "mfi": [
-      [
-        1756252800000,
-        58.41
-      ],
       [
         1756339200000,
         58.74
@@ -1473,13 +1469,13 @@
       [
         1771804800000,
         30.99
+      ],
+      [
+        1771891200000,
+        36.41
       ]
     ],
     "obv": [
-      [
-        1756252800000,
-        99708258.0
-      ],
       [
         1756339200000,
         105896506.0
@@ -2199,6 +2195,10 @@
       [
         1771804800000,
         253945919.0
+      ],
+      [
+        1771891200000,
+        266908612.0
       ]
     ]
   },
@@ -2211,7 +2211,7 @@
     -1.95,
     -1.06,
     0.95,
-    -1.67,
+    -0.42,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in pharmaceuticals, biotechnology, medical devices, healthcare equipment, and the provision of healthcare services.",
-    "marketSizeUSD": "6.0T",
-    "constituentCount": 65,
+    "description": "The Health Care sector encompasses companies that provide medical services, manufacture medical equipment or pharmaceuticals, and offer various health care-related products and services.",
+    "marketSizeUSD": "7.5T",
+    "constituentCount": 64,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1167,
-  "change_pct": 1.11,
-  "insights": "The Healthcare sector demonstrated positive momentum today, closing up 1.11%. Its Relative Strength Index (RSI) at 57.81 suggests healthy buying interest, indicating the sector is gaining strength without yet being overbought. The Money Flow Index (MFI) at 48.63 is relatively neutral, indicating a balanced inflow and outflow of capital despite the daily price appreciation, perhaps pointing to sustained rather than impulsive buying. Finally, the On-Balance Volume (OBV) registering at 84,868,657, combined with the daily gain, confirms that buying volume has largely outpaced selling volume, affirming underlying accumulation.",
+  "market_weight": 0.1291,
+  "change_pct": -0.42,
+  "insights": "The Health Care sector experienced a modest decline of -0.42% today. Despite this slight daily pullback, its key technical indicators suggest a more nuanced picture. The Relative Strength Index (RSI) at 55.04 and Money Flow Index (MFI) at 50.59 are both near their neutral 50-mark, indicating that underlying momentum and money flow are not showing strong conviction in either direction. While the On-Balance Volume (OBV) would reflect a subtraction of volume on today's down day, the neutral RSI and MFI suggest that this decline is likely a minor price correction within a relatively balanced trading environment, rather than signaling a significant shift towards a bearish trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756252800000,
-        57.78
-      ],
       [
         1756339200000,
         55.61
@@ -747,13 +743,13 @@
       [
         1771804800000,
         57.81
+      ],
+      [
+        1771891200000,
+        55.04
       ]
     ],
     "mfi": [
-      [
-        1756252800000,
-        86.92
-      ],
       [
         1756339200000,
         81.54
@@ -1473,13 +1469,13 @@
       [
         1771804800000,
         48.63
+      ],
+      [
+        1771891200000,
+        50.59
       ]
     ],
     "obv": [
-      [
-        1756252800000,
-        10313956.0
-      ],
       [
         1756339200000,
         1156463.0
@@ -2199,6 +2195,10 @@
       [
         1771804800000,
         84868657.0
+      ],
+      [
+        1771891200000,
+        72793176.0
       ]
     ]
   },
@@ -2211,7 +2211,7 @@
     1.85,
     0.01,
     -0.55,
-    1.11,
+    0.68,
     null,
     null,
     null,

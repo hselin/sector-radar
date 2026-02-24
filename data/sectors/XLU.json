@@ -1,8 +1,8 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, water, and other public utility services, often characterized by stable demand and regulatory oversight.",
-    "marketSizeUSD": "1.2T",
+    "description": "The Utilities sector encompasses companies involved in the generation, transmission, and distribution of electricity, natural gas, and water, alongside multi-utilities and independent power producers and energy traders.",
+    "marketSizeUSD": "1.1T",
     "constituentCount": 29,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0233,
-  "change_pct": 0.73,
-  "insights": "The Utilities sector experienced a positive session today, posting a gain of 0.73%, indicating a modest recovery or continued upward trend. This movement is technically supported by a Relative Strength Index (RSI) of 61.18, suggesting strengthening buying momentum without yet entering extreme overbought conditions. However, the Money Flow Index (MFI) at 81.30 is notably high, signalling significant money inflow and pushing the sector into overbought territory on this metric, which could imply the potential for consolidation or a short-term pullback. The On-Balance Volume (OBV) confirming the positive price action suggests that today's gains were accompanied by underlying buying interest, adding conviction to the upward move despite the MFI's cautionary signal.",
+  "market_weight": 0.0189,
+  "change_pct": 1.11,
+  "insights": "The Utilities sector experienced a robust session today, climbing by 1.11%. This upward momentum appears well-supported by key technical indicators. The Relative Strength Index (RSI) at 64.25 suggests strong buying interest, approaching overbought conditions but indicating healthy upward traction rather than extreme overextension. More significantly, the Money Flow Index (MFI) at 81.14 is firmly in overbought territory, signaling a substantial inflow of capital and considerable buying pressure within the sector. The On-Balance Volume (OBV) of 387,075,490 further corroborates this positive trend, indicating that today's price gain was accompanied by strong accumulative volume, reinforcing the validity of the sector's upward movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756252800000,
-        50.97
-      ],
       [
         1756339200000,
         46.27
@@ -747,13 +743,13 @@
       [
         1771804800000,
         61.18
+      ],
+      [
+        1771891200000,
+        64.25
       ]
     ],
     "mfi": [
-      [
-        1756252800000,
-        50.07
-      ],
       [
         1756339200000,
         43.59
@@ -1473,13 +1469,13 @@
       [
         1771804800000,
         81.3
+      ],
+      [
+        1771891200000,
+        81.14
       ]
     ],
     "obv": [
-      [
-        1756252800000,
-        151233977.0
-      ],
       [
         1756339200000,
         143212204.0
@@ -2199,6 +2195,10 @@
       [
         1771804800000,
         358398761.0
+      ],
+      [
+        1771891200000,
+        387075490.0
       ]
     ]
   },
@@ -2211,7 +2211,7 @@
     0.23,
     7.27,
     -0.34,
-    0.73,
+    1.86,
     null,
     null,
     null,
