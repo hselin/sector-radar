@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-02-25T21:22:08.902545Z",
+  "lastUpdated": "2026-02-26T21:21:35.606466Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a positive session today, advancing 0.82% and signaling a constructive end to the day. From a technical perspective, the Relative Strength Index (RSI) at 54.93 suggests a healthy, albeit not overheated, bullish momentum, indicating balanced buying pressure without entering overbought territory. However, the Money Flow Index (MFI) at 45.14, being slightly below the neutral 50-mark, hints at a degree of underlying caution in money flows, suggesting that while prices rose, the conviction from significant capital inflows might not be overwhelmingly robust. The substantial On-Balance Volume (OBV) figure of 1,107,627,002, in conjunction with the market's gain, broadly confirms that buying volume outpaced selling volume today, supporting the positive price action and overall market sentiment.",
-    "change_pct": 0.82,
+    "commentary": "The broader stock market experienced a modest decline today, closing down -0.53%, signaling a cautious sentiment among investors. Technical indicators reinforce this nuanced picture: the Relative Strength Index (RSI) at 51.43 sits very close to the neutral 50-mark, suggesting a lack of strong conviction or clear directional momentum from either buyers or sellers. Further, the Money Flow Index (MFI) at 46.93, being below 50, indicates a slight net outflow of funds, pointing to underlying selling pressure or reduced buying interest. While the On-Balance Volume (OBV) at its current level (1039759410) reflects cumulative volume activity, in conjunction with the MFI and modest price drop, it implies that today's slight downtick was likely accompanied by some selling pressure, preventing any significant bullish follow-through. Overall, the market appears to be in a phase of consolidation with slightly bearish leanings rather than a decisive directional move.",
+    "change_pct": -0.53,
     "technicalIndicators": {
       "rsi": [
-        [
-          1756425600000,
-          59.15
-        ],
         [
           1756512000000,
           null
@@ -747,13 +743,13 @@
         [
           1771977600000,
           54.93
+        ],
+        [
+          1772064000000,
+          51.43
         ]
       ],
       "mfi": [
-        [
-          1756425600000,
-          48.9
-        ],
         [
           1756512000000,
           null
@@ -1473,13 +1469,13 @@
         [
           1771977600000,
           45.14
+        ],
+        [
+          1772064000000,
+          46.93
         ]
       ],
       "obv": [
-        [
-          1756425600000,
-          376377388.0
-        ],
         [
           1756512000000,
           null
@@ -2199,6 +2195,10 @@
         [
           1771977600000,
           1107627002.0
+        ],
+        [
+          1772064000000,
+          1039759410.0
         ]
       ]
     },
@@ -2211,7 +2211,7 @@
       -0.2,
       -1.29,
       1.13,
-      0.52,
+      -0.01,
       null,
       null,
       null,
