@@ -1,13 +1,13 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies involved in the generation, transmission, and distribution of electricity, natural gas, and water, alongside multi-utilities and independent power producers and energy traders.",
-    "marketSizeUSD": "1.1T",
+    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, gas, and water, as well as those involved in renewable energy and multi-utilities.",
+    "marketSizeUSD": "1.3T",
     "constituentCount": 29,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
-        "symbol": "NEE"
+        "symbol": "NEER"
       },
       {
         "name": "Duke Energy Corporation",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.019,
-  "change_pct": -0.75,
-  "insights": "The Utilities sector experienced a modest decline today, closing down 0.75%, suggesting a minor pullback or consolidation. Technical indicators reveal a nuanced picture: the Relative Strength Index (RSI) at 62.55 indicates the sector retains underlying strength from recent periods and is approaching, but not yet in, overbought territory. However, the Money Flow Index (MFI) at a highly elevated 85.29 points strongly to significant overbought conditions, suggesting that today's negative movement is likely driven by profit-taking as money flows out following substantial recent inflows. The large On-Balance Volume (OBV) of 385,165,423 confirms considerable cumulative buying interest has built up over time, but today's selling pressure would have likely caused a slight reduction, reinforcing the short-term bearish sentiment for the session.",
+  "market_weight": 0.0236,
+  "change_pct": -0.62,
+  "insights": "The Utilities sector experienced a modest decline today, shedding -0.62%. Despite this slight pullback, key technical indicators suggest underlying strength and significant investor interest. The Relative Strength Index (RSI) at 59.43 indicates solid bullish momentum without being overbought, while the Money Flow Index (MFI) at 73.31 points to strong money inflows, potentially reflecting either buyers stepping in on the dip or recent profit-taking against a backdrop of overall accumulation. The high On-Balance Volume (OBV) of 325813218 further supports a sustained pattern of buying volume, suggesting that today's daily movement may represent minor profit-taking within a broader trend of positive investor sentiment and accumulation for the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756857600000,
-        40.92
-      ],
       [
         1756944000000,
         40.24
@@ -747,13 +743,13 @@
       [
         1772409600000,
         62.55
+      ],
+      [
+        1772496000000,
+        59.43
       ]
     ],
     "mfi": [
-      [
-        1756857600000,
-        28.04
-      ],
       [
         1756944000000,
         36.04
@@ -1473,13 +1469,13 @@
       [
         1772409600000,
         85.29
+      ],
+      [
+        1772496000000,
+        73.31
       ]
     ],
     "obv": [
-      [
-        1756857600000,
-        114543547.0
-      ],
       [
         1756944000000,
         103365950.0
@@ -2199,6 +2195,10 @@
       [
         1772409600000,
         385165423.0
+      ],
+      [
+        1772496000000,
+        325813218.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     7.27,
     -0.34,
     3.0,
-    -0.75,
+    -1.37,
     null,
     null,
     null,

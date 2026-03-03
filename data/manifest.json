@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-02T21:21:13.518846Z",
+  "lastUpdated": "2026-03-03T21:24:49.310678Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader stock market experienced a largely flat trading day, closing up a mere 0.05%. Key technical indicators suggest a nuanced market sentiment: the Relative Strength Index (RSI) at 48.76 points to a neutral market, devoid of strong overbought or oversold pressures. However, the Money Flow Index (MFI) at 32.35, while not deeply oversold, indicates a subtle outflow of capital or reduced buying enthusiasm. The On-Balance Volume (OBV) at 1,051,921,882 reflects significant cumulative trading interest. Collectively, these figures suggest a market lacking strong directional conviction, with a slight underlying caution or reduced speculative appetite influencing capital flows, despite the minimal price movement.",
-    "change_pct": 0.05,
+    "commentary": "The stock market experienced a modest decline today, closing down 0.88%, with key technical indicators pointing to an increasingly cautious sentiment. The Relative Strength Index (RSI) at 43.48 is below the neutral 50-mark, indicating that bullish momentum is waning and potentially signaling growing bearish pressure. Further supporting this, the Money Flow Index (MFI) at a low 25.57 suggests significant capital outflow from the market, bordering on oversold territory and underscoring a prevailing lack of buying interest. While On-Balance Volume (OBV) at 953,288,613 is a high cumulative figure, in conjunction with today's price action and the other momentum indicators, it implies that recent volume has predominantly sided with sellers, indicating distribution rather than accumulation. Collectively, these signals suggest negative momentum is gaining traction as investors exhibit a preference for capital preservation or profit-taking.",
+    "change_pct": -0.88,
     "technicalIndicators": {
       "rsi": [
-        [
-          1756857600000,
-          56.47
-        ],
         [
           1756944000000,
           61.44
@@ -747,13 +743,13 @@
         [
           1772409600000,
           48.76
+        ],
+        [
+          1772496000000,
+          43.48
         ]
       ],
       "mfi": [
-        [
-          1756857600000,
-          41.93
-        ],
         [
           1756944000000,
           48.85
@@ -1473,13 +1469,13 @@
         [
           1772409600000,
           32.35
+        ],
+        [
+          1772496000000,
+          25.57
         ]
       ],
       "obv": [
-        [
-          1756857600000,
-          375226882.0
-        ],
         [
           1756944000000,
           439928629.0
@@ -2199,6 +2195,10 @@
         [
           1772409600000,
           1051921882.0
+        ],
+        [
+          1772496000000,
+          953288613.0
         ]
       ]
     },
@@ -2212,7 +2212,7 @@
       -1.29,
       1.13,
       -0.5,
-      0.05,
+      -0.83,
       null,
       null,
       null,

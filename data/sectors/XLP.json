@@ -1,33 +1,29 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and distribute essential goods and services, such as food, beverages, household products, and personal care items, which consumers purchase regularly regardless of economic conditions.",
-    "marketSizeUSD": "2.6T",
-    "constituentCount": 33,
+    "description": "The Consumer Staples sector includes companies involved in the manufacturing and distribution of essential goods and services that consumers need regularly, regardless of economic conditions.",
+    "marketSizeUSD": "4.1T",
+    "constituentCount": 35,
     "topHoldings": [
       {
-        "name": "Procter & Gamble Co.",
+        "name": "Walmart Inc.",
+        "symbol": "WMT"
+      },
+      {
+        "name": "Procter & Gamble Company",
         "symbol": "PG"
       },
       {
         "name": "The Coca-Cola Company",
         "symbol": "KO"
-      },
-      {
-        "name": "PepsiCo, Inc.",
-        "symbol": "PEP"
       }
     ]
   },
-  "market_weight": 0.0449,
-  "change_pct": -1.42,
-  "insights": "The Consumer Staples sector experienced a noticeable decline of -1.42% today, suggesting investors took profits or rotated out of the typically defensive group. Despite this daily dip, the Relative Strength Index (RSI) at 60.99 indicates the sector still maintains some underlying relative strength, remaining above the neutral 50-mark and well away from oversold conditions, implying that today's movement might be a pullback rather than a significant reversal of a broader trend. The Money Flow Index (MFI) at 52.01 further supports a relatively balanced money flow, suggesting the selling pressure, while present, was not driven by overwhelming, volume-backed capitulation. The high On-Balance Volume (OBV) of 218,197,260 reflects a substantial cumulative volume baseline, with today's negative volume being accounted for within this larger context, but not necessarily indicating a sustained downtrend in money flow based on just one day's data.",
+  "market_weight": 0.0743,
+  "change_pct": -1.07,
+  "insights": "The Consumer Staples sector saw a moderate decline today, falling by -1.07%, indicative of some selling pressure. Despite this daily dip, the Relative Strength Index (RSI) at 55.19 suggests the sector retains a slightly bullish short-term momentum, remaining above the neutral 50-mark and not signaling an oversold condition. Concurrently, the Money Flow Index (MFI) at 49.66, hovering just below 50, confirms that money flow is neutral to slightly negative, aligning with the day's price decrease. The On-Balance Volume (OBV) of 183,682,549, while a substantial cumulative figure, likely decreased today, further reinforcing that selling volume outpaced buying volume during this negative session.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756857600000,
-        42.96
-      ],
       [
         1756944000000,
         43.48
@@ -747,13 +743,13 @@
       [
         1772409600000,
         60.99
+      ],
+      [
+        1772496000000,
+        55.19
       ]
     ],
     "mfi": [
-      [
-        1756857600000,
-        50.07
-      ],
       [
         1756944000000,
         55.83
@@ -1473,13 +1469,13 @@
       [
         1772409600000,
         52.01
+      ],
+      [
+        1772496000000,
+        49.66
       ]
     ],
     "obv": [
-      [
-        1756857600000,
-        29671863.0
-      ],
       [
         1756944000000,
         42339100.0
@@ -2199,6 +2195,10 @@
       [
         1772409600000,
         218197260.0
+      ],
+      [
+        1772496000000,
+        183682549.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     1.77,
     -1.81,
     2.4,
-    -1.42,
+    -2.47,
     null,
     null,
     null,

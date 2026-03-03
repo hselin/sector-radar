@@ -1,33 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector comprises companies that own, develop, manage, or lease real estate, primarily consisting of Equity Real Estate Investment Trusts (REITs) and Real Estate Management & Development firms.",
-    "marketSizeUSD": "$1.7T",
-    "constituentCount": 30,
+    "description": "The Real Estate GICS sector encompasses companies primarily engaged in the ownership, development, and management of real estate, including Equity REITs and real estate management and development firms.",
+    "marketSizeUSD": "3.2T",
+    "constituentCount": 32,
     "topHoldings": [
       {
-        "name": "Prologis Inc.",
+        "name": "Prologis Inc",
         "symbol": "PLD"
       },
       {
-        "name": "Equinix Inc.",
-        "symbol": "EQIX"
+        "name": "American Tower Corp",
+        "symbol": "AMT"
       },
       {
-        "name": "American Tower Corporation",
-        "symbol": "AMT"
+        "name": "Equinix Inc",
+        "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.0294,
-  "change_pct": 0.18,
-  "insights": "The Real Estate sector experienced a modest gain today, up 0.18%. Its Relative Strength Index (RSI) at 67.08 and Money Flow Index (MFI) at 66.39 both indicate strong buying momentum, pushing the sector close to overbought territory. On-Balance Volume (OBV) stands at 123,565,931, which confirms that today's positive price movement was supported by significant buying volume. While demand remains robust, the elevated RSI and MFI suggest that the sector might be nearing a point of short-term consolidation or pullback after its recent strength.",
+  "market_weight": 0.058,
+  "change_pct": -0.52,
+  "insights": "The Real Estate sector experienced a slight dip today, closing down 0.52%. Despite this minor pullback, key technical indicators suggest underlying resilience: the Relative Strength Index (RSI) at 63.00 and Money Flow Index (MFI) at 58.60 both indicate sustained buying momentum and positive money flow into the sector, remaining below overbought thresholds. The On-Balance Volume (OBV) at 111,393,784 reflects a significant cumulative volume, suggesting that today's small decline could be more of a minor consolidation rather than a strong bearish reversal, given the persistent investor interest implied by the other momentum indicators.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756857600000,
-        46.28
-      ],
       [
         1756944000000,
         49.94
@@ -747,13 +743,13 @@
       [
         1772409600000,
         67.08
+      ],
+      [
+        1772496000000,
+        63.0
       ]
     ],
     "mfi": [
-      [
-        1756857600000,
-        43.65
-      ],
       [
         1756944000000,
         52.01
@@ -1473,13 +1469,13 @@
       [
         1772409600000,
         66.39
+      ],
+      [
+        1772496000000,
+        58.6
       ]
     ],
     "obv": [
-      [
-        1756857600000,
-        14253745.0
-      ],
       [
         1756944000000,
         20241973.0
@@ -2199,6 +2195,10 @@
       [
         1772409600000,
         123565931.0
+      ],
+      [
+        1772496000000,
+        111393784.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     3.6,
     0.11,
     0.67,
-    0.18,
+    -0.34,
     null,
     null,
     null,

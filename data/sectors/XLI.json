@@ -1,16 +1,16 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that manufacture machinery, provide commercial services and supplies, and offer transportation services.",
-    "marketSizeUSD": "4.0T",
-    "constituentCount": 74,
+    "description": "The Industrials sector comprises companies involved in manufacturing and distributing capital goods, providing commercial and professional services, and offering transportation services.",
+    "marketSizeUSD": "5.0T",
+    "constituentCount": 78,
     "topHoldings": [
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "General Electric Company",
+        "name": "General Electric Co.",
         "symbol": "GE"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0691,
-  "change_pct": 0.99,
-  "insights": "The Industrials sector posted a strong 0.99% gain today, indicative of solid positive sentiment. The Relative Strength Index (RSI) at 69.57 signals robust upward momentum, now approaching overbought territory which could imply potential short-term consolidation. Complementing this, the Money Flow Index (MFI) at 62.26 shows positive money flow into the sector, confirming investor interest. The substantial On-Balance Volume (OBV) of 276,533,975 reinforces that this price appreciation was supported by significant buying volume, underscoring conviction in today's upward movement despite the elevated RSI.",
+  "market_weight": 0.0906,
+  "change_pct": -1.93,
+  "insights": "The Industrials sector experienced a notable pullback today, declining by -1.93%. Despite this daily underperformance, key technical indicators suggest the move may not indicate a significant reversal of underlying strength. The Relative Strength Index (RSI) at 57.89 and Money Flow Index (MFI) at 53.94 both remain above the neutral 50-mark. This indicates that while selling pressure was evident today, the sector is not yet in oversold territory, and there may be residual positive momentum or interest from prior periods holding the general sentiment. On-Balance Volume (OBV) at 256,393,131 reflects significant cumulative interest, and would have seen a daily decrease consistent with today's price drop, confirming sellers were in control for the session. In essence, while the sector saw profit-taking or broad market weakness, the technical posture suggests it's not deeply distressed, maintaining some room before becoming technically oversold.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756857600000,
-        43.77
-      ],
       [
         1756944000000,
         50.83
@@ -747,13 +743,13 @@
       [
         1772409600000,
         69.57
+      ],
+      [
+        1772496000000,
+        57.89
       ]
     ],
     "mfi": [
-      [
-        1756857600000,
-        38.8
-      ],
       [
         1756944000000,
         47.11
@@ -1473,13 +1469,13 @@
       [
         1772409600000,
         62.26
+      ],
+      [
+        1772496000000,
+        53.94
       ]
     ],
     "obv": [
-      [
-        1756857600000,
-        -22890259.0
-      ],
       [
         1756944000000,
         -12746673.0
@@ -2199,6 +2195,10 @@
       [
         1772409600000,
         276533975.0
+      ],
+      [
+        1772496000000,
+        256393131.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     0.57,
     1.77,
     -0.06,
-    0.99,
+    -0.96,
     null,
     null,
     null,

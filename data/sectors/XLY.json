@@ -1,16 +1,16 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, which consumers typically purchase when they have disposable income.",
-    "marketSizeUSD": "6.2T",
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose demand is highly sensitive to the business cycle and consumer income.",
+    "marketSizeUSD": "7.1T",
     "constituentCount": 56,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc.",
+        "name": "Amazon.com, Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc.",
+        "name": "Tesla, Inc.",
         "symbol": "TSLA"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1071,
-  "change_pct": -1.22,
-  "insights": "The Consumer Discretionary sector experienced a notable decline of -1.22% today, reflecting significant selling pressure. This weakness is further corroborated by its key technical indicators: the Relative Strength Index (RSI) at 34.57 and the Money Flow Index (MFI) at 33.59, both indicating strong bearish momentum and approaching oversold territory, suggesting capital is actively flowing out of the sector. The On-Balance Volume (OBV) at 1133126, when viewed alongside the price decline, typically implies that selling volume outpaced buying volume, confirming the negative sentiment that drove today's downturn and highlighting continued investor apprehension.",
+  "market_weight": 0.1286,
+  "change_pct": -0.94,
+  "insights": "The Consumer Discretionary sector experienced a notable downturn today, declining by 0.94%. This downward movement is corroborated by key technical indicators, which reflect significant selling pressure. The Relative Strength Index (RSI) at 32.03 and the Money Flow Index (MFI) at 26.07 both indicate that the sector is approaching oversold territory, signaling weakening momentum and sustained selling interest. Furthermore, the On-Balance Volume (OBV) of -18,589,210 confirms that selling volume decisively outweighed buying volume throughout the day, reinforcing the bearish sentiment behind the sector's price depreciation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756857600000,
-        57.26
-      ],
       [
         1756944000000,
         64.54
@@ -747,13 +743,13 @@
       [
         1772409600000,
         34.57
+      ],
+      [
+        1772496000000,
+        32.03
       ]
     ],
     "mfi": [
-      [
-        1756857600000,
-        62.55
-      ],
       [
         1756944000000,
         65.55
@@ -1473,13 +1469,13 @@
       [
         1772409600000,
         33.59
+      ],
+      [
+        1772496000000,
+        26.07
       ]
     ],
     "obv": [
-      [
-        1756857600000,
-        18336584.0
-      ],
       [
         1756944000000,
         30626727.0
@@ -2199,6 +2195,10 @@
       [
         1772409600000,
         1133126.0
+      ],
+      [
+        1772496000000,
+        -18589210.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     -1.48,
     1.1,
     -0.52,
-    -1.22,
+    -2.15,
     null,
     null,
     null,

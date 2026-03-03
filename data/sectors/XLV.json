@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies that provide medical services, manufacture medical equipment or pharmaceuticals, and offer various health care-related products and services.",
-    "marketSizeUSD": "7.5T",
+    "description": "The Health Care sector encompasses companies involved in developing, manufacturing, and marketing healthcare products, providing medical services, and operating healthcare facilities.",
+    "marketSizeUSD": "6.5T",
     "constituentCount": 64,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Incorporated",
+        "name": "UnitedHealth Group Inc.",
         "symbol": "UNH"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1295,
-  "change_pct": -1.02,
-  "insights": "The Health Care sector experienced a moderate pullback today, declining by 1.02%. This daily movement, while negative, doesn't yet signal a strong shift in underlying momentum based on key technicals. The Relative Strength Index (RSI) at 55.26 indicates the sector remains in a neutral range, notably above oversold levels despite today's decline. Similarly, the Money Flow Index (MFI) at 47.93 points to a slight net outflow of capital, confirming the price drop but not suggesting aggressive selling pressure. On-Balance Volume (OBV) at 44,325,831 provides a cumulative view, but its daily change would be key to gauging the conviction behind today's price action.",
+  "market_weight": 0.1178,
+  "change_pct": -1.1,
+  "insights": "The Health Care sector closed down -1.10% today, reflecting a broad-based decline. Its key technical indicators suggest this movement is indicative of weakening momentum rather than an extreme event. The RSI at 49.08 points to neutral-to-slightly-bearish momentum, well above oversold levels, implying there isn't strong buying pressure emerging yet. This is further supported by the MFI at 45.48, signaling moderate money outflow rather than capitulation. The substantial OBV figure reflects significant trading activity, and in the context of today's price drop, indicates that selling volume likely outweighed buying volume during the session.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756857600000,
-        56.18
-      ],
       [
         1756944000000,
         57.97
@@ -747,13 +743,13 @@
       [
         1772409600000,
         55.26
+      ],
+      [
+        1772496000000,
+        49.08
       ]
     ],
     "mfi": [
-      [
-        1756857600000,
-        73.04
-      ],
       [
         1756944000000,
         72.52
@@ -1473,13 +1469,13 @@
       [
         1772409600000,
         47.93
+      ],
+      [
+        1772496000000,
+        45.48
       ]
     ],
     "obv": [
-      [
-        1756857600000,
-        10939547.0
-      ],
       [
         1756944000000,
         22711852.0
@@ -2199,6 +2195,10 @@
       [
         1772409600000,
         44325831.0
+      ],
+      [
+        1772496000000,
+        22938376.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     0.01,
     -0.55,
     2.15,
-    -1.02,
+    -2.12,
     null,
     null,
     null,
