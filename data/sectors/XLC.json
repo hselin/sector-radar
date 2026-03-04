@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0815,
-  "change_pct": 0.1,
-  "insights": "The Communication Services sector recorded a modest 0.10% gain today, reflecting largely flat performance. Its RSI at 57.13 suggests a mild bullish sentiment without being overbought, aligning with the slight upward movement. However, the MFI at 46.83, registering below 50, points to a slight net outflow of money, potentially indicating a lack of strong conviction behind the day's minor positive price action. The OBV, at 153,119,877, reflects that today's trading volume contributed positively to the cumulative balance due to the sector's daily gain.",
+  "market_weight": 0.0821,
+  "change_pct": 0.68,
+  "insights": "The Communication Services sector posted a modest gain of 0.68% today, indicating positive sentiment. Key technical indicators support this upward movement: the RSI at 60.47 suggests healthy bullish momentum without being overbought, while the MFI at 54.14 indicates money is flowing into the sector. The substantial OBV of 161,255,552 points to strong cumulative buying pressure, likely reflecting that buying volume outpaced selling volume, reinforcing the day's positive price action.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756944000000,
-        72.06
-      ],
       [
         1757030400000,
         73.86
@@ -747,13 +743,13 @@
       [
         1772496000000,
         57.13
+      ],
+      [
+        1772582400000,
+        60.47
       ]
     ],
     "mfi": [
-      [
-        1756944000000,
-        55.28
-      ],
       [
         1757030400000,
         55.24
@@ -1473,13 +1469,13 @@
       [
         1772496000000,
         46.83
+      ],
+      [
+        1772582400000,
+        54.14
       ]
     ],
     "obv": [
-      [
-        1756944000000,
-        156808658.0
-      ],
       [
         1757030400000,
         162131395.0
@@ -2199,6 +2195,10 @@
       [
         1772496000000,
         153119877.0
+      ],
+      [
+        1772582400000,
+        161255552.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     -1.03,
     1.93,
     1.09,
-    -0.06,
+    0.61,
     null,
     null,
     null,

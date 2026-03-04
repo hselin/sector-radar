@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector includes companies engaged in the discovery, development, and processing of raw materials such as chemicals, construction materials, metals, mining, paper, and forest products.",
-    "marketSizeUSD": "1.6T",
+    "description": "The Materials sector encompasses companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, paper, and forest products.",
+    "marketSizeUSD": "1.2T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.029,
-  "change_pct": -2.44,
-  "insights": "The Materials sector experienced a significant downturn today, falling by -2.44%. This bearish price action is largely supported by its key technical indicators: The Relative Strength Index (RSI) at 47.51, now comfortably below the neutral 50-level, signifies weakening upward momentum and increasing selling pressure. More notably, the Money Flow Index (MFI) at 30.85 is approaching oversold territory, strongly suggesting a considerable outflow of capital from the sector. While the On-Balance Volume (OBV) at 160,653,386 provides a cumulative measure of buying and selling pressure, such a substantial daily price decline would typically be accompanied by net selling volume, further reinforcing the current negative sentiment.",
+  "market_weight": 0.0219,
+  "change_pct": -0.06,
+  "insights": "The Materials sector saw a largely flat performance today with a minor decline of -0.06%, indicating minimal price movement. Technically, the Relative Strength Index (RSI) at 47.30 is in neutral territory, suggesting a lack of strong momentum in either direction. More notably, the Money Flow Index (MFI) at 28.52 indicates a significant outflow of capital, approaching oversold conditions and signaling a current lack of buying interest despite the small price dip. The On-Balance Volume (OBV) at 143,539,590 represents the cumulative buying and selling pressure, and while its daily change would offer more granular insight, the low MFI reinforces a general weakening of underlying demand.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1756944000000,
-        54.72
-      ],
       [
         1757030400000,
         58.26
@@ -747,13 +743,13 @@
       [
         1772496000000,
         47.51
+      ],
+      [
+        1772582400000,
+        47.3
       ]
     ],
     "mfi": [
-      [
-        1756944000000,
-        57.99
-      ],
       [
         1757030400000,
         57.8
@@ -1473,13 +1469,13 @@
       [
         1772496000000,
         30.85
+      ],
+      [
+        1772582400000,
+        28.52
       ]
     ],
     "obv": [
-      [
-        1756944000000,
-        22218103.0
-      ],
       [
         1757030400000,
         29744265.0
@@ -2199,6 +2195,10 @@
       [
         1772496000000,
         160653386.0
+      ],
+      [
+        1772582400000,
+        143539590.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     3.49,
     -0.66,
     0.85,
-    -2.73,
+    -2.79,
     null,
     null,
     null,
