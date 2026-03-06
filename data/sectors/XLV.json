@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.1186,
-  "change_pct": -2.0,
-  "insights": "The Health Care sector experienced a notable downturn today, declining 2.00%, signaling strong selling pressure. This movement is corroborated by key technical indicators: both the RSI (40.70) and MFI (41.41) are situated below the neutral 50-mark. This indicates weakening positive momentum and a net outflow of capital from the sector, although it is not yet in deeply oversold territory, suggesting potential for continued weakness. The On-Balance Volume (OBV) at 14,362,450, being a cumulative measure, would have decreased today given the negative price action, further confirming that the decline was accompanied by significant selling volume. Collectively, the indicators point to strong negative sentiment and a lack of immediate buying interest.",
+  "change_pct": -0.72,
+  "insights": "The Health Care sector experienced a modest decline today, closing down 0.72%. Technical indicators reinforce this negative sentiment: the Relative Strength Index (RSI) at 38.01 suggests the sector is approaching oversold territory, indicating weakening upward momentum. The Money Flow Index (MFI) at 33.51 further points to a net outflow of capital from the sector, as investors were net sellers. This is further corroborated by a significantly negative On-Balance Volume (OBV) of -1,581,843, which confirms that today's downward price action was accompanied by substantial selling volume, suggesting conviction behind the decline.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757116800000,
-        null
-      ],
       [
         1757203200000,
         null
@@ -747,13 +743,13 @@
       [
         1772668800000,
         40.7
+      ],
+      [
+        1772755200000,
+        38.01
       ]
     ],
     "mfi": [
-      [
-        1757116800000,
-        null
-      ],
       [
         1757203200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1772668800000,
         41.41
+      ],
+      [
+        1772755200000,
+        33.51
       ]
     ],
     "obv": [
-      [
-        1757116800000,
-        null
-      ],
       [
         1757203200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1772668800000,
         14362450.0
+      ],
+      [
+        1772755200000,
+        -1581843.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     0.01,
     -0.55,
     2.15,
-    -3.91,
+    -4.6,
     null,
     null,
     null,

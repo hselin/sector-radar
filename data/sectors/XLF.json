@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0949,
-  "change_pct": -0.49,
-  "insights": "The Financials sector concluded the day down -0.49%, indicating a slight pullback in performance. This downward movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 41.35 and the Money Flow Index (MFI) at 36.72 both suggest weakening momentum and a net outflow of capital from the sector, though neither yet indicates an oversold condition. Furthermore, the significantly negative On-Balance Volume (OBV) of -88,631,173 reinforces the presence of dominant selling pressure, as volume on down days significantly outweighed volume on up days, confirming sellers were in control throughout today's session.",
+  "change_pct": -1.35,
+  "insights": "The Financials sector experienced a notable decline of -1.35% today, reflecting broad selling pressure. Key technical indicators reinforce this bearish sentiment: the Relative Strength Index (RSI) at 37.33 points to weakening momentum approaching oversold conditions, while the Money Flow Index (MFI) at 36.10 suggests capital continues to flow out of the sector. Furthermore, the significantly negative On-Balance Volume (OBV) of -161,114,242 validates substantial selling pressure and distribution throughout the day, correlating directly with the sector's downward movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757116800000,
-        null
-      ],
       [
         1757203200000,
         null
@@ -747,13 +743,13 @@
       [
         1772668800000,
         41.35
+      ],
+      [
+        1772755200000,
+        37.33
       ]
     ],
     "mfi": [
-      [
-        1757116800000,
-        null
-      ],
       [
         1757203200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1772668800000,
         36.72
+      ],
+      [
+        1772755200000,
+        36.1
       ]
     ],
     "obv": [
-      [
-        1757116800000,
-        null
-      ],
       [
         1757203200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1772668800000,
         -88631173.0
+      ],
+      [
+        1772755200000,
+        -161114242.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     -4.79,
     1.6,
     -2.07,
-    -0.29,
+    -1.63,
     null,
     null,
     null,

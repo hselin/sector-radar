@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0219,
-  "change_pct": -2.1,
-  "insights": "The Materials sector experienced a notable downturn today, declining by 2.10%. Key technical indicators support this bearish sentiment: the Relative Strength Index (RSI) at 40.38 signals weakening momentum and a lack of buying enthusiasm, moving further below the neutral 50-mark. Concurrently, the Money Flow Index (MFI) at 30.06, nearing the oversold threshold of 20, corroborates significant capital outflow and strong selling pressure. While the On-Balance Volume (OBV) stands at a substantial 125,190,296, indicating overall long-term accumulation, today's price action and these momentum readings suggest a short-term increase in selling pressure and waning investor confidence for the sector.",
+  "change_pct": -1.91,
+  "insights": "The Materials sector experienced a notable decline today, falling -1.91%. This downward movement is technically reinforced by key indicators: the RSI at 35.41 and MFI at 29.78 both signal weakening momentum and significant money outflow, approaching oversold territory. Concurrently, the OBV at 102,454,537, in the context of today's price drop, strongly suggests that selling volume outweighed buying volume, confirming the bearish sentiment. Overall, today's performance indicates strong selling pressure and a lack of buying conviction in the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757116800000,
-        null
-      ],
       [
         1757203200000,
         null
@@ -747,13 +743,13 @@
       [
         1772668800000,
         40.38
+      ],
+      [
+        1772755200000,
+        35.41
       ]
     ],
     "mfi": [
-      [
-        1757116800000,
-        null
-      ],
       [
         1757203200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1772668800000,
         30.06
+      ],
+      [
+        1772755200000,
+        29.78
       ]
     ],
     "obv": [
-      [
-        1757116800000,
-        null
-      ],
       [
         1757203200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1772668800000,
         125190296.0
+      ],
+      [
+        1772755200000,
+        102454537.0
       ]
     ]
   },
@@ -2212,7 +2212,7 @@
     3.49,
     -0.66,
     0.85,
-    -4.83,
+    -6.65,
     null,
     null,
     null,
