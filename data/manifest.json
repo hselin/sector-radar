@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-03-07T21:08:45.391053Z",
+  "lastUpdated": "2026-03-08T21:10:27.357888Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "47.5T",
-      "constituentCount": 500,
+      "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, serving as a key benchmark for the U.S. equity market.",
+      "marketSizeUSD": "45T",
+      "constituentCount": 503,
       "topHoldings": [
         {
           "name": "Microsoft Corporation",
@@ -15,12 +15,12 @@
           "symbol": "AAPL"
         },
         {
-          "name": "NVIDIA Corporation",
+          "name": "Nvidia Corporation",
           "symbol": "NVDA"
         }
       ]
     },
-    "commentary": "The stock market experienced a notable decline today, falling by -1.33%. This sell-off aligns with key technical indicators that point to prevailing negative sentiment and weakening momentum. The Relative Strength Index (RSI) at 38.58 and the Money Flow Index (MFI) at 32.16 both suggest that selling pressure is dominant, with money flowing out of the market and buying interest waning, though neither indicator has yet reached deeply oversold territory. While the On-Balance Volume (OBV) at 828,798,054 provides a cumulative measure of buying and selling pressure, its behavior in conjunction with the price decline suggests a lack of robust demand. Overall, the market's current technical posture indicates a cautious-to-bearish sentiment with momentum firmly favoring sellers.",
+    "commentary": "The market experienced a notable downturn today, closing down 1.33%, reflecting broad-based selling pressure. Key technical indicators reinforce this bearish sentiment: the Relative Strength Index (RSI) at 38.58 and the Money Flow Index (MFI) at 32.16 both signal increasing selling pressure and a significant outflow of money from the market. While not yet in deeply oversold territory, these figures suggest bearish momentum is gaining traction. The On-Balance Volume (OBV), at 828,798,054, further supports this by implying that distribution is outweighing accumulation, thereby confirming the current downtrend and negative sentiment among investors. Collectively, these indicators point to a market grappling with weakening bullish conviction and a clear shift towards negative momentum.",
     "change_pct": -1.33,
     "technicalIndicators": {
       "rsi": [
