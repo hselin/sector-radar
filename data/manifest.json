@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-08T21:10:27.357888Z",
+  "lastUpdated": "2026-03-09T21:18:57.508270Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, serving as a key benchmark for the U.S. equity market.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The market experienced a notable downturn today, closing down 1.33%, reflecting broad-based selling pressure. Key technical indicators reinforce this bearish sentiment: the Relative Strength Index (RSI) at 38.58 and the Money Flow Index (MFI) at 32.16 both signal increasing selling pressure and a significant outflow of money from the market. While not yet in deeply oversold territory, these figures suggest bearish momentum is gaining traction. The On-Balance Volume (OBV), at 828,798,054, further supports this by implying that distribution is outweighing accumulation, thereby confirming the current downtrend and negative sentiment among investors. Collectively, these indicators point to a market grappling with weakening bullish conviction and a clear shift towards negative momentum.",
-    "change_pct": -1.33,
+    "commentary": "The overall stock market experienced a modest positive day, closing up 0.84%. However, key technical indicators suggest a nuanced market sentiment. The Relative Strength Index (RSI) at 44.16 and the Money Flow Index (MFI) at 40.09 are both below 50. This indicates that despite the price increase, underlying bullish momentum and the strength of buying pressure, as reflected by money flow, remain somewhat subdued. These figures suggest that while prices moved higher, the rally may lack strong conviction or broad participation, implying that the upward movement might not be fully supported by robust internal market strength, which would ideally be confirmed by an increase in On-Balance Volume (OBV) alongside the price rise.",
+    "change_pct": 0.84,
     "technicalIndicators": {
       "rsi": [
-        [
-          1757203200000,
-          null
-        ],
-        [
-          1757289600000,
-          60.39
-        ],
-        [
-          1757376000000,
-          61.8
-        ],
         [
           1757462400000,
           63.54
@@ -747,21 +735,21 @@
         [
           1772755200000,
           38.58
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1757203200000,
+          1772841600000,
           null
         ],
         [
-          1757289600000,
-          63.19
+          1772928000000,
+          null
         ],
         [
-          1757376000000,
-          70.17
-        ],
+          1773014400000,
+          44.16
+        ]
+      ],
+      "mfi": [
         [
           1757462400000,
           79.51
@@ -1473,21 +1461,21 @@
         [
           1772755200000,
           32.16
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1757203200000,
+          1772841600000,
           null
         ],
         [
-          1757289600000,
-          418614002.0
+          1772928000000,
+          null
         ],
         [
-          1757376000000,
-          484747902.0
-        ],
+          1773014400000,
+          40.09
+        ]
+      ],
+      "obv": [
         [
           1757462400000,
           562782402.0
@@ -2199,6 +2187,18 @@
         [
           1772755200000,
           828798054.0
+        ],
+        [
+          1772841600000,
+          null
+        ],
+        [
+          1772928000000,
+          null
+        ],
+        [
+          1773014400000,
+          920865984.0
         ]
       ]
     },
@@ -2213,7 +2213,7 @@
       1.13,
       -0.5,
       -1.95,
-      null,
+      0.84,
       null,
       null,
       null,
