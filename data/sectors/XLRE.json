@@ -1,37 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector encompasses companies primarily engaged in the ownership, development, and management of real estate, including Equity REITs and real estate management and development firms.",
-    "marketSizeUSD": "3.2T",
+    "description": "The Real Estate GICS sector primarily includes Equity Real Estate Investment Trusts (REITs) and other companies engaged in real estate management, development, and operations.",
+    "marketSizeUSD": "1.5T",
     "constituentCount": 32,
     "topHoldings": [
       {
-        "name": "Prologis Inc",
+        "name": "Prologis, Inc.",
         "symbol": "PLD"
       },
       {
-        "name": "American Tower Corp",
+        "name": "American Tower Corporation",
         "symbol": "AMT"
       },
       {
-        "name": "Equinix Inc",
+        "name": "Equinix, Inc.",
         "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.0584,
-  "change_pct": 0.21,
-  "insights": "The Real Estate sector posted a modest gain of 0.21% today. Its Relative Strength Index (RSI) at 51.28 indicates a largely neutral momentum, slightly favoring buyers but well within non-overbought/oversold territory. However, the Money Flow Index (MFI) at 31.86 suggests a notable outflow of capital, signaling underlying selling pressure or a lack of conviction from buyers despite the minor price appreciation. The On-Balance Volume (OBV) stands at 109,543,846, reflecting the cumulative volume flow. Overall, while the sector saw a slight positive movement, the technical indicators, particularly the MFI, suggest this appreciation may not be fully supported by robust capital inflow.",
+  "market_weight": 0.0322,
+  "change_pct": -1.19,
+  "insights": "The Real Estate sector experienced a notable downturn today, falling by -1.19%. This bearish price action is supported by key technical indicators: the Relative Strength Index (RSI) at 43.61 signals weakening momentum, moving further away from overbought conditions, while the Money Flow Index (MFI) at 39.55 indicates a clear outflow of capital from the sector. The On-Balance Volume (OBV) registering 92,042,262 suggests that this decline was accompanied by substantial trading activity, lending credence to the pronounced selling pressure observed today.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757462400000,
-        50.71
-      ],
-      [
-        1757548800000,
-        58.91
-      ],
       [
         1757635200000,
         56.1
@@ -747,17 +739,17 @@
       [
         1773014400000,
         51.28
+      ],
+      [
+        1773100800000,
+        50.41
+      ],
+      [
+        1773187200000,
+        43.61
       ]
     ],
     "mfi": [
-      [
-        1757462400000,
-        46.33
-      ],
-      [
-        1757548800000,
-        52.41
-      ],
       [
         1757635200000,
         49.76
@@ -1473,17 +1465,17 @@
       [
         1773014400000,
         31.86
+      ],
+      [
+        1773100800000,
+        39.65
+      ],
+      [
+        1773187200000,
+        39.55
       ]
     ],
     "obv": [
-      [
-        1757462400000,
-        9546471.0
-      ],
-      [
-        1757548800000,
-        13151371.0
-      ],
       [
         1757635200000,
         10636271.0
@@ -2199,6 +2191,14 @@
       [
         1773014400000,
         109543846.0
+      ],
+      [
+        1773100800000,
+        99106521.0
+      ],
+      [
+        1773187200000,
+        92042262.0
       ]
     ]
   },
@@ -2213,7 +2213,7 @@
     0.11,
     0.67,
     -2.17,
-    0.21,
+    -1.12,
     null,
     null,
     null,

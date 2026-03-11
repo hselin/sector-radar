@@ -1,12 +1,12 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses a diverse range of companies that provide financial services, including banking, insurance, diversified financial services, and capital markets.",
-    "marketSizeUSD": "5.2T",
+    "description": "The Financials GICS sector includes companies involved in banking, diversified financial services, insurance, capital markets, and real estate, providing a wide range of financial products and services.",
+    "marketSizeUSD": "5.8T",
     "constituentCount": 68,
     "topHoldings": [
       {
-        "name": "Berkshire Hathaway Inc. Class B",
+        "name": "Berkshire Hathaway Inc.",
         "symbol": "BRK.B"
       },
       {
@@ -14,24 +14,16 @@
         "symbol": "JPM"
       },
       {
-        "name": "Bank of America Corp.",
-        "symbol": "BAC"
+        "name": "Visa Inc.",
+        "symbol": "V"
       }
     ]
   },
-  "market_weight": 0.0949,
-  "change_pct": -0.45,
-  "insights": "The Financials sector experienced a modest decline today, closing down 0.45%. Technical indicators point towards weakening momentum and significant selling pressure, with the Relative Strength Index (RSI) at 36.07 approaching oversold territory and the Money Flow Index (MFI) at 29.04 confirming substantial capital outflows from the sector. The highly negative On-Balance Volume (OBV) of -239,202,079 further reinforces that selling volume has consistently outweighed buying volume, indicating persistent bearish sentiment and aligning with today's downward movement.",
+  "market_weight": 0.1245,
+  "change_pct": -0.84,
+  "insights": "The Financials sector experienced a notable decline today, dropping 0.84%. This downturn is further reinforced by its key technical indicators, which signal increasing bearish momentum. The Relative Strength Index (RSI) at 32.38 is approaching oversold territory, suggesting significant selling pressure, while the Money Flow Index (MFI) at 30.60 indicates capital is actively flowing out of the sector. The substantial negative On-Balance Volume (OBV) of -365,927,268 further confirms that today's price depreciation was accompanied by heavy selling volume, underscoring the current weakness and lack of buying interest in the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757462400000,
-        51.25
-      ],
-      [
-        1757548800000,
-        59.63
-      ],
       [
         1757635200000,
         56.85
@@ -747,17 +739,17 @@
       [
         1773014400000,
         36.07
+      ],
+      [
+        1773100800000,
+        34.6
+      ],
+      [
+        1773187200000,
+        32.38
       ]
     ],
     "mfi": [
-      [
-        1757462400000,
-        48.38
-      ],
-      [
-        1757548800000,
-        54.6
-      ],
       [
         1757635200000,
         52.74
@@ -1473,17 +1465,17 @@
       [
         1773014400000,
         29.04
+      ],
+      [
+        1773100800000,
+        30.93
+      ],
+      [
+        1773187200000,
+        30.6
       ]
     ],
     "obv": [
-      [
-        1757462400000,
-        118002254.0
-      ],
-      [
-        1757548800000,
-        154637654.0
-      ],
       [
         1757635200000,
         128931754.0
@@ -2199,6 +2191,14 @@
       [
         1773014400000,
         -239202079.0
+      ],
+      [
+        1773100800000,
+        -309969712.0
+      ],
+      [
+        1773187200000,
+        -365927268.0
       ]
     ]
   },
@@ -2213,7 +2213,7 @@
     1.6,
     -2.07,
     -1.63,
-    -0.45,
+    -1.82,
     null,
     null,
     null,

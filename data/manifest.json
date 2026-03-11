@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-09T21:18:57.508270Z",
+  "lastUpdated": "2026-03-11T21:19:59.156848Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, serving as a key benchmark for the U.S. equity market.",
@@ -20,18 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a modest positive day, closing up 0.84%. However, key technical indicators suggest a nuanced market sentiment. The Relative Strength Index (RSI) at 44.16 and the Money Flow Index (MFI) at 40.09 are both below 50. This indicates that despite the price increase, underlying bullish momentum and the strength of buying pressure, as reflected by money flow, remain somewhat subdued. These figures suggest that while prices moved higher, the rally may lack strong conviction or broad participation, implying that the upward movement might not be fully supported by robust internal market strength, which would ideally be confirmed by an increase in On-Balance Volume (OBV) alongside the price rise.",
-    "change_pct": 0.84,
+    "commentary": "The overall stock market experienced a marginal decline of -0.13% today, indicating a relatively quiet session with little directional conviction. Key technical indicators suggest a somewhat cautious sentiment and a lack of robust momentum. The Relative Strength Index (RSI) at 42.68 and the Money Flow Index (MFI) at 40.41 both reside in neutral territory, though leaning slightly towards the lower end of their typical ranges, which generally signals a lack of strong buying pressure entering the market and reflects somewhat subdued money flow. The On-Balance Volume (OBV) at 772,192,828, in conjunction with the minor price dip, suggests that while some selling occurred, it wasn't accompanied by overwhelmingly strong volume distribution, implying a hesitant market rather than one undergoing a significant directional shift fueled by strong conviction. Overall, the market appears to be in a consolidative phase, awaiting clearer catalysts.",
+    "change_pct": -0.13,
     "technicalIndicators": {
       "rsi": [
-        [
-          1757462400000,
-          63.54
-        ],
-        [
-          1757548800000,
-          68.07
-        ],
         [
           1757635200000,
           67.7
@@ -747,17 +739,17 @@
         [
           1773014400000,
           44.16
+        ],
+        [
+          1773100800000,
+          43.34
+        ],
+        [
+          1773187200000,
+          42.68
         ]
       ],
       "mfi": [
-        [
-          1757462400000,
-          79.51
-        ],
-        [
-          1757548800000,
-          85.27
-        ],
         [
           1757635200000,
           85.12
@@ -1473,17 +1465,17 @@
         [
           1773014400000,
           40.09
+        ],
+        [
+          1773100800000,
+          40.84
+        ],
+        [
+          1773187200000,
+          40.41
         ]
       ],
       "obv": [
-        [
-          1757462400000,
-          562782402.0
-        ],
-        [
-          1757548800000,
-          632716802.0
-        ],
         [
           1757635200000,
           559936702.0
@@ -2199,6 +2191,14 @@
         [
           1773014400000,
           920865984.0
+        ],
+        [
+          1773100800000,
+          839484584.0
+        ],
+        [
+          1773187200000,
+          772192828.0
         ]
       ]
     },
@@ -2213,7 +2213,7 @@
       1.13,
       -0.5,
       -1.95,
-      0.84,
+      0.55,
       null,
       null,
       null,

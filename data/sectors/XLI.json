@@ -1,37 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector comprises companies involved in manufacturing and distributing capital goods, providing commercial and professional services, and offering transportation services.",
-    "marketSizeUSD": "5.0T",
-    "constituentCount": 78,
+    "description": "The Industrials GICS sector comprises companies involved in the production of capital goods, the provision of commercial and professional services, and the operation of transportation infrastructure and services.",
+    "marketSizeUSD": "4.3T",
+    "constituentCount": 75,
     "topHoldings": [
+      {
+        "name": "General Electric Company",
+        "symbol": "GE"
+      },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "General Electric Co.",
-        "symbol": "GE"
-      },
-      {
-        "name": "Honeywell International Inc.",
-        "symbol": "HON"
+        "name": "Union Pacific Corporation",
+        "symbol": "UNP"
       }
     ]
   },
-  "market_weight": 0.0912,
-  "change_pct": 0.6,
-  "insights": "The Industrials sector registered a modest gain of 0.60% today, indicating a positive but not overly enthusiastic trading session. Its Relative Strength Index (RSI) at 46.61 places it firmly in neutral territory, suggesting neither strong overbought nor oversold conditions, and lacking immediate bullish momentum. The Money Flow Index (MFI) at 43.72, being slightly below the 50-mark, implies that money flow, despite the price uptick, is somewhat subdued and not indicating aggressive new capital inflow. Concurrently, the On-Balance Volume (OBV) at 245,663,037 reflects the day's positive price action, where buying volume generally outpaced selling volume to support the modest increase. Overall, while the sector closed higher, key technical indicators suggest a more balanced or even slightly cautious underlying sentiment rather than a decisive shift in momentum.",
+  "market_weight": 0.0923,
+  "change_pct": -0.31,
+  "insights": "The Industrials sector experienced a modest pullback today, declining by -0.31%. Technically, the RSI at 43.45 indicates the sector is in neutral territory but leaning towards underlying selling pressure rather than strong buying momentum, while the MFI at 38.88 further corroborates this by suggesting money flow out of the sector is outweighing inflows, though neither points to an immediate oversold condition. The OBV at 214,755,968, given today's lower close, implies that the price depreciation was accompanied by net selling volume, reinforcing the day's negative sentiment without signaling extreme capitulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757462400000,
-        50.68
-      ],
-      [
-        1757548800000,
-        56.01
-      ],
       [
         1757635200000,
         50.98
@@ -747,17 +739,17 @@
       [
         1773014400000,
         46.61
+      ],
+      [
+        1773100800000,
+        44.61
+      ],
+      [
+        1773187200000,
+        43.45
       ]
     ],
     "mfi": [
-      [
-        1757462400000,
-        48.04
-      ],
-      [
-        1757548800000,
-        56.62
-      ],
       [
         1757635200000,
         50.56
@@ -1473,17 +1465,17 @@
       [
         1773014400000,
         43.72
+      ],
+      [
+        1773100800000,
+        45.23
+      ],
+      [
+        1773187200000,
+        38.88
       ]
     ],
     "obv": [
-      [
-        1757462400000,
-        -13542047.0
-      ],
-      [
-        1757548800000,
-        4278553.0
-      ],
       [
         1757635200000,
         -4628947.0
@@ -2199,6 +2191,14 @@
       [
         1773014400000,
         245663037.0
+      ],
+      [
+        1773100800000,
+        228977091.0
+      ],
+      [
+        1773187200000,
+        214755968.0
       ]
     ]
   },
@@ -2213,7 +2213,7 @@
     1.77,
     -0.06,
     -4.08,
-    0.6,
+    -0.25,
     null,
     null,
     null,

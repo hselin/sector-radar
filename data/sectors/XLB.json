@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, paper, and forest products.",
-    "marketSizeUSD": "1.2T",
+    "description": "The Materials sector encompasses companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, and forest products, along with containers and packaging.",
+    "marketSizeUSD": "1.1T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -14,24 +14,16 @@
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc.",
-        "symbol": "ECL"
+        "name": "Freeport-McMoRan Inc.",
+        "symbol": "FCX"
       }
     ]
   },
-  "market_weight": 0.0219,
-  "change_pct": 0.26,
-  "insights": "The Materials sector posted a modest 0.26% gain today, yet key technical indicators suggest underlying weakness. The Relative Strength Index (RSI) at 36.54 and Money Flow Index (MFI) at 29.42 both indicate the sector is approaching or within oversold territory, pointing to recent selling pressure and limited buying conviction. While the On-Balance Volume (OBV) standing at 124,875,324 confirms that today's positive close saw buying volume slightly outweigh selling volume, the overall momentum and money flow metrics imply that the current upward movement may be fragile against a backdrop of technical softness.",
+  "market_weight": 0.0236,
+  "change_pct": -0.08,
+  "insights": "The Materials sector closed today with a marginal -0.08% decline, indicating a largely flat session with slight downward pressure. This performance is consistent with the key technical indicators: the Relative Strength Index (RSI) at 35.75 and the Money Flow Index (MFI) at 32.32. Both values are in the lower end of their respective ranges, approaching oversold territory, which suggests weakening momentum and a lack of significant buying interest or prevailing selling pressure. While the On-Balance Volume (OBV) at 93,246,721 provides a snapshot, its absolute value needs historical trend for full interpretation; however, the daily price dip combined with the other indicators implies that any trading volume today did not signify strong accumulation, rather reinforcing the current soft sentiment in the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757462400000,
-        49.56
-      ],
-      [
-        1757548800000,
-        59.65
-      ],
       [
         1757635200000,
         53.96
@@ -747,17 +739,17 @@
       [
         1773014400000,
         36.54
+      ],
+      [
+        1773100800000,
+        35.97
+      ],
+      [
+        1773187200000,
+        35.75
       ]
     ],
     "mfi": [
-      [
-        1757462400000,
-        41.26
-      ],
-      [
-        1757548800000,
-        40.9
-      ],
       [
         1757635200000,
         33.68
@@ -1473,17 +1465,17 @@
       [
         1773014400000,
         29.42
+      ],
+      [
+        1773100800000,
+        31.46
+      ],
+      [
+        1773187200000,
+        32.32
       ]
     ],
     "obv": [
-      [
-        1757462400000,
-        35826765.0
-      ],
-      [
-        1757548800000,
-        41669365.0
-      ],
       [
         1757635200000,
         36134665.0
@@ -2199,6 +2191,14 @@
       [
         1773014400000,
         124875324.0
+      ],
+      [
+        1773100800000,
+        105789799.0
+      ],
+      [
+        1773187200000,
+        93246721.0
       ]
     ]
   },
@@ -2213,7 +2213,7 @@
     -0.66,
     0.85,
     -6.65,
-    0.26,
+    -0.04,
     null,
     null,
     null,

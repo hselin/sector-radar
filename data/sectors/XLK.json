@@ -1,9 +1,9 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies involved in software, hardware, semiconductors, and IT services, driving innovation and digital transformation across industries.",
+    "description": "The Information Technology Sector encompasses companies involved in software and services, technology hardware and equipment, and semiconductors and semiconductor equipment.",
     "marketSizeUSD": "14.5T",
-    "constituentCount": 67,
+    "constituentCount": 68,
     "topHoldings": [
       {
         "name": "Microsoft Corp.",
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2646,
-  "change_pct": 1.81,
-  "insights": "The Information Technology sector exhibited a robust performance today, posting a gain of 1.81%. Despite this positive daily movement, key technical indicators suggest a measured recovery. The Relative Strength Index (RSI) at 45.33 and the Money Flow Index (MFI) at 44.99 both remain below the 50-level, indicating that while prices advanced, the sector is not yet overbought, and money flow, though positive today, isn't showing signs of strong speculative excess. This suggests the daily gain may be a healthy rally or absorption of previous weakness, with potential room for further upside before encountering strong resistance from an overextended position. The On-Balance Volume (OBV) at 270010171 would have increased in conjunction with today's price appreciation, reflecting the net buying volume supporting the observed upward move.",
+  "market_weight": 0.3112,
+  "change_pct": 0.48,
+  "insights": "The Information Technology sector posted a modest 0.48% gain today, indicating slight positive momentum. Its key technical indicators reflect a balanced market: the Relative Strength Index (RSI) at 46.85 and Money Flow Index (MFI) at 52.55 are both firmly in neutral territory, suggesting neither overbought nor oversold conditions prevail and that buying and selling pressures are currently in equilibrium. The On-Balance Volume (OBV) at 283,883,828, in conjunction with the positive daily change, indicates that today's trading volume largely supported the upward price movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757462400000,
-        64.03
-      ],
-      [
-        1757548800000,
-        65.26
-      ],
       [
         1757635200000,
         64.79
@@ -747,17 +739,17 @@
       [
         1773014400000,
         45.33
+      ],
+      [
+        1773100800000,
+        45.33
+      ],
+      [
+        1773187200000,
+        46.85
       ]
     ],
     "mfi": [
-      [
-        1757462400000,
-        78.45
-      ],
-      [
-        1757548800000,
-        79.21
-      ],
       [
         1757635200000,
         73.35
@@ -1473,17 +1465,17 @@
       [
         1773014400000,
         44.99
+      ],
+      [
+        1773100800000,
+        47.36
+      ],
+      [
+        1773187200000,
+        52.55
       ]
     ],
     "obv": [
-      [
-        1757462400000,
-        160175531.0
-      ],
-      [
-        1757548800000,
-        171890131.0
-      ],
       [
         1757635200000,
         164084031.0
@@ -2199,6 +2191,14 @@
       [
         1773014400000,
         270010171.0
+      ],
+      [
+        1773100800000,
+        270010171.0
+      ],
+      [
+        1773187200000,
+        283883828.0
       ]
     ]
   },
@@ -2213,7 +2213,7 @@
     0.95,
     -1.52,
     -1.07,
-    1.81,
+    2.3,
     null,
     null,
     null,

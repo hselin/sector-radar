@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, and other consumable fuels, along with related services and equipment.",
-    "marketSizeUSD": "2.2T",
+    "description": "The Energy sector comprises companies engaged in the exploration, development, production, refining, and marketing of oil and natural gas, as well as those providing energy equipment and services.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0401,
-  "change_pct": -0.44,
-  "insights": "The Energy sector experienced a modest decline today, falling -0.44%. Despite this slight dip, key technical indicators suggest a degree of underlying strength. The Relative Strength Index (RSI) at 62.98 and Money Flow Index (MFI) at 56.76 both indicate that while momentum is positive and money continues to flow into the sector, it is not yet in overheated, overbought territory that typically precedes sharp pullbacks. The substantial On-Balance Volume (OBV) of 1,043,460,243 further supports a prevailing accumulation trend, suggesting that today's minor pullback may be a brief consolidation rather than a reversal of a broader upward trajectory. Overall, the sector appears to be consolidating recent gains with healthy underlying support.",
+  "market_weight": 0.0386,
+  "change_pct": 2.48,
+  "insights": "The Energy sector experienced a robust performance today, posting a significant 2.48% gain, indicating strong bullish sentiment. The Relative Strength Index (RSI) at 64.05 supports this upward momentum, reflecting substantial buying interest without yet hitting extreme overbought levels, which could suggest further room for appreciation. However, the Money Flow Index (MFI) at 48.72, hovering near neutral, indicates that while prices rose, the volume-weighted money flow wasn't overwhelmingly strong to fully confirm the intensity of the rally. The high On-Balance Volume (OBV) figure of 1,003,168,578 reinforces a pattern of cumulative buying pressure, generally aligning with the sector's positive trajectory.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757462400000,
-        57.81
-      ],
-      [
-        1757548800000,
-        57.9
-      ],
       [
         1757635200000,
         54.74
@@ -747,17 +739,17 @@
       [
         1773014400000,
         62.98
+      ],
+      [
+        1773100800000,
+        57.0
+      ],
+      [
+        1773187200000,
+        64.05
       ]
     ],
     "mfi": [
-      [
-        1757462400000,
-        53.43
-      ],
-      [
-        1757548800000,
-        53.86
-      ],
       [
         1757635200000,
         52.95
@@ -1473,17 +1465,17 @@
       [
         1773014400000,
         56.76
+      ],
+      [
+        1773100800000,
+        49.34
+      ],
+      [
+        1773187200000,
+        48.72
       ]
     ],
     "obv": [
-      [
-        1757462400000,
-        214443483.0
-      ],
-      [
-        1757548800000,
-        227031883.0
-      ],
       [
         1757635200000,
         215882983.0
@@ -2199,6 +2191,14 @@
       [
         1773014400000,
         1043460243.0
+      ],
+      [
+        1773100800000,
+        954786727.0
+      ],
+      [
+        1773187200000,
+        1003168578.0
       ]
     ]
   },
@@ -2213,7 +2213,7 @@
     1.03,
     1.86,
     1.16,
-    -0.44,
+    0.72,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose demand is highly sensitive to the business cycle and consumer income.",
-    "marketSizeUSD": "7.1T",
-    "constituentCount": 56,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, often purchased when consumers have disposable income.",
+    "marketSizeUSD": "4.7T",
+    "constituentCount": 57,
     "topHoldings": [
       {
         "name": "Amazon.com, Inc.",
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1296,
-  "change_pct": 0.12,
-  "insights": "The Consumer Discretionary sector saw a modest gain of 0.12% today, suggesting a relatively flat daily performance. However, key technical indicators reveal a nuanced underlying sentiment. The Relative Strength Index (RSI) at 36.62 and the Money Flow Index (MFI) at 39.26 are both trending below their neutral 50-marks, indicating subdued buying momentum and a lack of significant capital inflow despite the slight price increase. While the On-Balance Volume (OBV) of 9,735,845 likely edged up in line with the positive price movement, the low RSI and MFI readings suggest that today's marginal gain may not be underpinned by strong conviction from buyers, implying potential for continued consolidation or underlying weakness.",
+  "market_weight": 0.1009,
+  "change_pct": -0.26,
+  "insights": "The Consumer Discretionary sector experienced a modest decline of -0.26% today, a movement that aligns with underlying bearish technical signals. The Relative Strength Index (RSI) at 35.41 and Money Flow Index (MFI) at 39.62 both indicate persistent selling pressure and negative money flow, nearing their respective oversold thresholds. Complementing this, the significantly negative On-Balance Volume (OBV) reinforces that selling volume is substantially outweighing buying volume, suggesting that today's marginal price drop is underpinned by sustained, broad-based weakness in the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757462400000,
-        56.65
-      ],
-      [
-        1757548800000,
-        64.41
-      ],
       [
         1757635200000,
         66.18
@@ -747,17 +739,17 @@
       [
         1773014400000,
         36.62
+      ],
+      [
+        1773100800000,
+        36.23
+      ],
+      [
+        1773187200000,
+        35.41
       ]
     ],
     "mfi": [
-      [
-        1757462400000,
-        64.24
-      ],
-      [
-        1757548800000,
-        69.97
-      ],
       [
         1757635200000,
         69.16
@@ -1473,17 +1465,17 @@
       [
         1773014400000,
         39.26
+      ],
+      [
+        1773100800000,
+        40.0
+      ],
+      [
+        1773187200000,
+        39.62
       ]
     ],
     "obv": [
-      [
-        1757462400000,
-        9692415.0
-      ],
-      [
-        1757548800000,
-        17916815.0
-      ],
       [
         1757635200000,
         22418215.0
@@ -2199,6 +2191,14 @@
       [
         1773014400000,
         9735845.0
+      ],
+      [
+        1773100800000,
+        -1869673.0
+      ],
+      [
+        1773187200000,
+        -12823176.0
       ]
     ]
   },
@@ -2213,7 +2213,7 @@
     1.1,
     -0.52,
     -2.05,
-    0.12,
+    -0.27,
     null,
     null,
     null,
