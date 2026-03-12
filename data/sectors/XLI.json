@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0923,
-  "change_pct": -0.31,
-  "insights": "The Industrials sector experienced a modest pullback today, declining by -0.31%. Technically, the RSI at 43.45 indicates the sector is in neutral territory but leaning towards underlying selling pressure rather than strong buying momentum, while the MFI at 38.88 further corroborates this by suggesting money flow out of the sector is outweighing inflows, though neither points to an immediate oversold condition. The OBV at 214,755,968, given today's lower close, implies that the price depreciation was accompanied by net selling volume, reinforcing the day's negative sentiment without signaling extreme capitulation.",
+  "change_pct": -2.51,
+  "insights": "The Industrials sector experienced significant selling pressure today, declining by -2.51%. Technical indicators reinforce this bearish sentiment: the Relative Strength Index (RSI) at 35.50 is nearing oversold territory, signaling weakening momentum, while the Money Flow Index (MFI) at 32.69 confirms substantial capital outflow from the sector. Both indicators suggest sustained selling interest, though not yet at typical levels that might trigger an immediate rebound. The high On-Balance Volume (OBV) of 199062806 indicates considerable trading activity, with the pronounced daily price drop suggesting that this volume predominantly facilitated today's negative performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757635200000,
-        50.98
-      ],
       [
         1757721600000,
         null
@@ -747,13 +743,13 @@
       [
         1773187200000,
         43.45
+      ],
+      [
+        1773273600000,
+        35.5
       ]
     ],
     "mfi": [
-      [
-        1757635200000,
-        50.56
-      ],
       [
         1757721600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1773187200000,
         38.88
+      ],
+      [
+        1773273600000,
+        32.69
       ]
     ],
     "obv": [
-      [
-        1757635200000,
-        -4628947.0
-      ],
       [
         1757721600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1773187200000,
         214755968.0
+      ],
+      [
+        1773273600000,
+        199062806.0
       ]
     ]
   },
@@ -2213,7 +2213,7 @@
     1.77,
     -0.06,
     -4.08,
-    -0.25,
+    -2.75,
     null,
     null,
     null,

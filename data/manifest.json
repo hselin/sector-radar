@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-11T21:19:59.156848Z",
+  "lastUpdated": "2026-03-12T21:20:14.214324Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, serving as a key benchmark for the U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a marginal decline of -0.13% today, indicating a relatively quiet session with little directional conviction. Key technical indicators suggest a somewhat cautious sentiment and a lack of robust momentum. The Relative Strength Index (RSI) at 42.68 and the Money Flow Index (MFI) at 40.41 both reside in neutral territory, though leaning slightly towards the lower end of their typical ranges, which generally signals a lack of strong buying pressure entering the market and reflects somewhat subdued money flow. The On-Balance Volume (OBV) at 772,192,828, in conjunction with the minor price dip, suggests that while some selling occurred, it wasn't accompanied by overwhelmingly strong volume distribution, implying a hesitant market rather than one undergoing a significant directional shift fueled by strong conviction. Overall, the market appears to be in a consolidative phase, awaiting clearer catalysts.",
-    "change_pct": -0.13,
+    "commentary": "The overall stock market experienced a significant downturn today, dropping by -1.52%, reflecting strong bearish sentiment. Key technical indicators reinforce this outlook: the Relative Strength Index (RSI) at 35.59 and the Money Flow Index (MFI) at 31.67 both indicate robust selling pressure, with money flowing out of the market and momentum firmly negative, approaching oversold thresholds. While On-Balance Volume (OBV) is a cumulative indicator, its value, combined with the sharp price decline and the signals from RSI and MFI, suggests that today's significant selling was likely backed by considerable volume, underscoring the conviction behind the downside move. This confluence of factors points to a market dominated by strong negative momentum and growing investor apprehension.",
+    "change_pct": -1.52,
     "technicalIndicators": {
       "rsi": [
-        [
-          1757635200000,
-          67.7
-        ],
         [
           1757721600000,
           null
@@ -747,13 +743,13 @@
         [
           1773187200000,
           42.68
+        ],
+        [
+          1773273600000,
+          35.59
         ]
       ],
       "mfi": [
-        [
-          1757635200000,
-          85.12
-        ],
         [
           1757721600000,
           null
@@ -1473,13 +1469,13 @@
         [
           1773187200000,
           40.41
+        ],
+        [
+          1773273600000,
+          31.67
         ]
       ],
       "obv": [
-        [
-          1757635200000,
-          559936702.0
-        ],
         [
           1757721600000,
           null
@@ -2199,6 +2195,10 @@
         [
           1773187200000,
           772192828.0
+        ],
+        [
+          1773273600000,
+          664286266.0
         ]
       ]
     },
@@ -2213,7 +2213,7 @@
       1.13,
       -0.5,
       -1.95,
-      0.55,
+      -0.98,
       null,
       null,
       null,

@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0322,
-  "change_pct": -1.19,
-  "insights": "The Real Estate sector experienced a notable downturn today, falling by -1.19%. This bearish price action is supported by key technical indicators: the Relative Strength Index (RSI) at 43.61 signals weakening momentum, moving further away from overbought conditions, while the Money Flow Index (MFI) at 39.55 indicates a clear outflow of capital from the sector. The On-Balance Volume (OBV) registering 92,042,262 suggests that this decline was accompanied by substantial trading activity, lending credence to the pronounced selling pressure observed today.",
+  "change_pct": -0.64,
+  "insights": "The Real Estate sector experienced a modest decline of -0.64% today, signaling some bearish sentiment. Technical indicators support this: the Relative Strength Index (RSI) at 40.50 suggests weakening momentum and a bearish tilt, though it's not yet in oversold territory, while the Money Flow Index (MFI) at 34.44 indicates a notable outflow of capital from the sector, reinforcing the selling pressure. The On-Balance Volume (OBV) at 85,556,419, when observed with the price dip, generally implies that volume is accompanying the downward price movement, confirming the prevailing weakness for the day.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757635200000,
-        56.1
-      ],
       [
         1757721600000,
         null
@@ -747,13 +743,13 @@
       [
         1773187200000,
         43.61
+      ],
+      [
+        1773273600000,
+        40.5
       ]
     ],
     "mfi": [
-      [
-        1757635200000,
-        49.76
-      ],
       [
         1757721600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1773187200000,
         39.55
+      ],
+      [
+        1773273600000,
+        34.44
       ]
     ],
     "obv": [
-      [
-        1757635200000,
-        10636271.0
-      ],
       [
         1757721600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1773187200000,
         92042262.0
+      ],
+      [
+        1773273600000,
+        85556419.0
       ]
     ]
   },
@@ -2213,7 +2213,7 @@
     0.11,
     0.67,
     -2.17,
-    -1.12,
+    -1.75,
     null,
     null,
     null,
