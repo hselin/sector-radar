@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-12T21:20:14.214324Z",
+  "lastUpdated": "2026-03-13T21:20:20.145242Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index of 500 of the largest publicly traded companies in the United States, serving as a key benchmark for the U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a significant downturn today, dropping by -1.52%, reflecting strong bearish sentiment. Key technical indicators reinforce this outlook: the Relative Strength Index (RSI) at 35.59 and the Money Flow Index (MFI) at 31.67 both indicate robust selling pressure, with money flowing out of the market and momentum firmly negative, approaching oversold thresholds. While On-Balance Volume (OBV) is a cumulative indicator, its value, combined with the sharp price decline and the signals from RSI and MFI, suggests that today's significant selling was likely backed by considerable volume, underscoring the conviction behind the downside move. This confluence of factors points to a market dominated by strong negative momentum and growing investor apprehension.",
-    "change_pct": -1.52,
+    "commentary": "The broader market concluded the day with a modest decline of 0.57%, accompanied by technical indicators that paint a picture of building bearish sentiment. The Relative Strength Index (RSI) at 33.39, while not yet officially oversold, is trending lower and nearing that critical threshold, a notion further supported by the Money Flow Index (MFI) at 31.70, which likewise suggests significant capital outflow and increasing selling pressure. This overall sentiment is underscored by the high On-Balance Volume (OBV) level, reflecting the cumulative effect of trading activity during this period of decline. Collectively, these signals point towards a market grappling with weakening momentum and a prevailing bearish sentiment, hinting that further downward pressure could materialize if these trends persist.",
+    "change_pct": -0.57,
     "technicalIndicators": {
       "rsi": [
-        [
-          1757721600000,
-          null
-        ],
         [
           1757808000000,
           null
@@ -747,13 +743,13 @@
         [
           1773273600000,
           35.59
+        ],
+        [
+          1773360000000,
+          33.39
         ]
       ],
       "mfi": [
-        [
-          1757721600000,
-          null
-        ],
         [
           1757808000000,
           null
@@ -1473,13 +1469,13 @@
         [
           1773273600000,
           31.67
+        ],
+        [
+          1773360000000,
+          31.7
         ]
       ],
       "obv": [
-        [
-          1757721600000,
-          null
-        ],
         [
           1757808000000,
           null
@@ -2199,6 +2195,10 @@
         [
           1773273600000,
           664286266.0
+        ],
+        [
+          1773360000000,
+          581212756.0
         ]
       ]
     },
@@ -2213,7 +2213,7 @@
       1.13,
       -0.5,
       -1.95,
-      -0.98,
+      -1.54,
       null,
       null,
       null,

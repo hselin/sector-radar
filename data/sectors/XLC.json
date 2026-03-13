@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0858,
-  "change_pct": -1.48,
-  "insights": "The Communication Services sector experienced a noticeable downturn today, declining by -1.48%. This negative movement is reinforced by key technical indicators: the Relative Strength Index (RSI) at 41.16 and Money Flow Index (MFI) at 42.40 both signal prevailing selling pressure and capital outflow, although neither indicates oversold conditions yet. The On-Balance Volume (OBV) at 129,003,739, a cumulative measure, suggests that today's price decline was supported by considerable selling volume, further validating the sector's negative performance.",
+  "change_pct": -0.71,
+  "insights": "The Communication Services sector posted a modest decline of -0.71% today. This daily movement aligns with bearish signals from key technical indicators: the Relative Strength Index (RSI) at 37.78 and Money Flow Index (MFI) at 41.34 both sit below their respective neutral 50-marks, indicating increasing selling momentum and money flowing out of the sector, though not yet in deeply oversold territory. The On-Balance Volume (OBV) at 117,384,072 reflects the cumulative buying and selling pressure, generally consistent with the current price action and overall weakening sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1757721600000,
-        null
-      ],
       [
         1757808000000,
         null
@@ -747,13 +743,13 @@
       [
         1773273600000,
         41.16
+      ],
+      [
+        1773360000000,
+        37.78
       ]
     ],
     "mfi": [
-      [
-        1757721600000,
-        null
-      ],
       [
         1757808000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1773273600000,
         42.4
+      ],
+      [
+        1773360000000,
+        41.34
       ]
     ],
     "obv": [
-      [
-        1757721600000,
-        null
-      ],
       [
         1757808000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1773273600000,
         129003739.0
+      ],
+      [
+        1773360000000,
+        117384072.0
       ]
     ]
   },
@@ -2213,7 +2213,7 @@
     1.93,
     1.09,
     -0.51,
-    -1.86,
+    -2.56,
     null,
     null,
     null,
