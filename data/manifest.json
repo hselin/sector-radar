@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-15T21:12:45.543026Z",
+  "lastUpdated": "2026-03-16T21:23:50.229460Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, weighted by market capitalization.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market saw a modest decline of -0.57% today, indicating a cautious sentiment among investors. Key technical indicators further reflect this weakening position: the Relative Strength Index (RSI) at 33.39 is nearing oversold territory, while the Money Flow Index (MFI) at 31.70 also points to significant money outflow, reinforcing the increasing selling pressure. Although On-Balance Volume (OBV) requires historical context for complete trend analysis, its current level alongside the low RSI and MFI suggests that recent trading has been characterized by distribution rather than accumulation. Collectively, these figures point to prevailing bearish sentiment and weakening momentum, indicating that sellers have largely controlled the recent price action.",
-    "change_pct": -0.57,
+    "commentary": "The overall stock market posted a strong performance today, climbing 1.02%, indicating a clear positive sentiment for the session. However, key technical indicators suggest a more nuanced picture regarding underlying momentum. The Relative Strength Index (RSI) at 40.46 and Money Flow Index (MFI) at 32.60 both reside in neutral-to-weaker territory, well below overbought thresholds. This implies that while prices advanced significantly, the broader buying momentum and money flow are not yet exceptionally robust, suggesting that the rally isn't driven by overwhelming conviction or experiencing extreme price pressure. The On-Balance Volume (OBV) figure, while a single data point here, generally indicates that today's price appreciation was supported by participation, consistent with the positive daily close. In summary, the market closed firmly higher, yet these indicators collectively suggest that while positive, momentum isn't in an overheated state, potentially allowing for further movement but also reflecting a measured level of market engagement.",
+    "change_pct": 1.02,
     "technicalIndicators": {
       "rsi": [
-        [
-          1757808000000,
-          null
-        ],
-        [
-          1757894400000,
-          70.43
-        ],
-        [
-          1757980800000,
-          68.8
-        ],
         [
           1758067200000,
           67.29
@@ -747,21 +735,21 @@
         [
           1773360000000,
           33.39
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1757808000000,
+          1773446400000,
           null
         ],
         [
-          1757894400000,
-          85.36
+          1773532800000,
+          null
         ],
         [
-          1757980800000,
-          78.9
-        ],
+          1773619200000,
+          40.46
+        ]
+      ],
+      "mfi": [
         [
           1758067200000,
           69.67
@@ -1473,21 +1461,21 @@
         [
           1773360000000,
           31.7
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1757808000000,
+          1773446400000,
           null
         ],
         [
-          1757894400000,
-          623709102.0
+          1773532800000,
+          null
         ],
         [
-          1757980800000,
-          562540102.0
-        ],
+          1773619200000,
+          32.6
+        ]
+      ],
+      "obv": [
         [
           1758067200000,
           460587902.0
@@ -2199,6 +2187,18 @@
         [
           1773360000000,
           581212756.0
+        ],
+        [
+          1773446400000,
+          null
+        ],
+        [
+          1773532800000,
+          null
+        ],
+        [
+          1773619200000,
+          662466630.0
         ]
       ]
     },
@@ -2214,7 +2214,7 @@
       -0.5,
       -1.95,
       -1.54,
-      null,
+      1.02,
       null,
       null,
       null,
