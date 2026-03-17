@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies engaged in the exploration, development, production, refining, and marketing of oil and natural gas, as well as those providing energy equipment and services.",
-    "marketSizeUSD": "1.8T",
+    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, and marketing of oil and gas, alongside those involved in integrated power and renewable energy.",
+    "marketSizeUSD": "2.9T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0386,
-  "change_pct": 0.35,
-  "insights": "The Energy sector recorded a modest gain of 0.35% today, reflecting underlying positive sentiment. Technically, the Relative Strength Index (RSI) at 68.00 indicates strong buying momentum, positioning the sector near the overbought threshold but not yet signaling an immediate reversal, suggesting potential for continued upward pressure. The Money Flow Index (MFI) at 54.23 further supports this, showing a healthy net inflow of capital into the sector. Additionally, the On-Balance Volume (OBV) at 1,152,977,681, combined with the day's positive price action, implies that buying volume likely outpaced selling volume, reinforcing the validity of the sector's daily uptick.",
+  "market_weight": 0.0481,
+  "change_pct": 1.05,
+  "insights": "The Energy sector demonstrated a robust performance today, posting a gain of 1.05%. This positive movement is supported by key technical indicators, with the Relative Strength Index (RSI) at 70.55 signaling that the sector is entering overbought territory, indicative of strong buying momentum and recent price appreciation. The Money Flow Index (MFI) at 57.96 suggests a healthy inflow of capital supporting the current price trend, albeit not yet at extreme levels. Furthermore, the On-Balance Volume (OBV) of 1,193,041,329, likely reflecting an increase, confirms that this price advance is accompanied by significant accumulation, lending credibility to the upward movement despite the potential for short-term consolidation implied by the elevated RSI.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758067200000,
-        60.72
-      ],
       [
         1758153600000,
         58.88
@@ -747,13 +743,13 @@
       [
         1773619200000,
         68.0
+      ],
+      [
+        1773705600000,
+        70.55
       ]
     ],
     "mfi": [
-      [
-        1758067200000,
-        54.86
-      ],
       [
         1758153600000,
         48.66
@@ -1473,13 +1469,13 @@
       [
         1773619200000,
         54.23
+      ],
+      [
+        1773705600000,
+        57.96
       ]
     ],
     "obv": [
-      [
-        1758067200000,
-        238057983.0
-      ],
       [
         1758153600000,
         223701483.0
@@ -2199,6 +2195,10 @@
       [
         1773619200000,
         1152977681.0
+      ],
+      [
+        1773705600000,
+        1193041329.0
       ]
     ]
   },
@@ -2214,7 +2214,7 @@
     1.86,
     1.16,
     2.0,
-    0.35,
+    1.4,
     null,
     null,
     null,

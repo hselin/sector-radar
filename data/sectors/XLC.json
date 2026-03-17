@@ -1,8 +1,8 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment content, interactive media, and other communication-related services.",
-    "marketSizeUSD": "4.0T",
+    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment, interactive media, and other communication-related services.",
+    "marketSizeUSD": "4.5T",
     "constituentCount": 23,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0858,
-  "change_pct": 0.77,
-  "insights": "The Communication Services sector posted a modest gain of 0.77% today, signaling a slight positive movement. However, key technical indicators suggest a cautious underlying tone: the Relative Strength Index (RSI) at 43.17 and the Money Flow Index (MFI) at 46.65 are both below their neutral 50-levels, indicating that despite the daily uptick, buying pressure is not strongly dominating selling pressure, and money flow leans slightly negative. While the On-Balance Volume (OBV) at 124,490,217 reflects the accumulation of volume on today's positive move, the subdued RSI and MFI imply this advance may lack strong conviction, suggesting that sustained upward momentum might be challenged without stronger underlying support.",
+  "market_weight": 0.0747,
+  "change_pct": 0.03,
+  "insights": "The Communication Services sector posted an essentially flat performance today, registering a marginal gain of 0.03%. Technical indicators reflect this subdued activity, with the Relative Strength Index (RSI) at 43.41 and the Money Flow Index (MFI) at 47.52 both indicating neutral to slightly bearish momentum and money flow, staying comfortably above oversold levels and below overbought thresholds. The On-Balance Volume (OBV) at 132,769,056, in the context of a nearly unchanged price, suggests that buying and selling pressures were largely balanced, consistent with the minimal daily price movement and a lack of significant conviction from either bulls or bears.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758067200000,
-        77.31
-      ],
       [
         1758153600000,
         77.51
@@ -747,13 +743,13 @@
       [
         1773619200000,
         43.17
+      ],
+      [
+        1773705600000,
+        43.41
       ]
     ],
     "mfi": [
-      [
-        1758067200000,
-        75.35
-      ],
       [
         1758153600000,
         75.79
@@ -1473,13 +1469,13 @@
       [
         1773619200000,
         46.65
+      ],
+      [
+        1773705600000,
+        47.52
       ]
     ],
     "obv": [
-      [
-        1758067200000,
-        198471595.0
-      ],
       [
         1758153600000,
         204494295.0
@@ -2199,6 +2195,10 @@
       [
         1773619200000,
         124490217.0
+      ],
+      [
+        1773705600000,
+        132769056.0
       ]
     ]
   },
@@ -2214,7 +2214,7 @@
     1.09,
     -0.51,
     -2.56,
-    0.77,
+    0.8,
     null,
     null,
     null,

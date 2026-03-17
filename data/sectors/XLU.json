@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies providing essential services like electricity, natural gas, and water, often characterized by stable demand and regulatory oversight.",
-    "marketSizeUSD": "$1.4T",
-    "constituentCount": 30,
+    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, as well as those involved in renewable energy and independent power production.",
+    "marketSizeUSD": "1.1T",
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -14,20 +14,16 @@
         "symbol": "DUK"
       },
       {
-        "name": "The Southern Company",
+        "name": "Southern Company",
         "symbol": "SO"
       }
     ]
   },
-  "market_weight": 0.03,
-  "change_pct": 0.64,
-  "insights": "The Utilities sector posted a modest gain of 0.64% today, indicating a positive but non-volatile session. This upward movement is supported by the key technical indicators: the Relative Strength Index (RSI) at 59.03 suggests bullish momentum is present without entering overbought conditions, while the Money Flow Index (MFI) at 52.98 also indicates a healthy, albeit not aggressive, positive money flow into the sector. The On-Balance Volume (OBV), confirming an increase in value due to the positive close, further reinforces that buying pressure outpaced selling pressure during the day, aligning with the sector's price appreciation.",
+  "market_weight": 0.0183,
+  "change_pct": -0.28,
+  "insights": "The Utilities sector posted a modest decline of -0.28% today, indicating a slight pullback. Despite this daily dip, key technical indicators suggest a relatively balanced underlying sentiment: the RSI at 57.44 and MFI at 52.64 both reside above their midpoints but remain well below overbought thresholds, implying momentum and money flow are somewhat positive but not extended. The substantial positive OBV value of 338,396,773, while a cumulative measure, generally reflects sustained historical buying interest, suggesting that today's minor price weakness may not signify a significant shift in the broader accumulation trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758067200000,
-        48.11
-      ],
       [
         1758153600000,
         48.55
@@ -747,13 +743,13 @@
       [
         1773619200000,
         59.03
+      ],
+      [
+        1773705600000,
+        57.44
       ]
     ],
     "mfi": [
-      [
-        1758067200000,
-        46.27
-      ],
       [
         1758153600000,
         44.96
@@ -1473,13 +1469,13 @@
       [
         1773619200000,
         52.98
+      ],
+      [
+        1773705600000,
+        52.64
       ]
     ],
     "obv": [
-      [
-        1758067200000,
-        136749537.0
-      ],
       [
         1758153600000,
         149401037.0
@@ -2199,6 +2195,10 @@
       [
         1773619200000,
         356804841.0
+      ],
+      [
+        1773705600000,
+        338396773.0
       ]
     ]
   },
@@ -2214,7 +2214,7 @@
     3.0,
     -2.07,
     0.47,
-    0.64,
+    0.36,
     null,
     null,
     null,

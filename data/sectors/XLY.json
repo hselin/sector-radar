@@ -1,33 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, often purchased when consumers have disposable income.",
-    "marketSizeUSD": "4.7T",
-    "constituentCount": 57,
+    "description": "The Consumer Discretionary sector comprises companies that sell non-essential goods and services, whose demand is sensitive to the business cycle and consumer income.",
+    "marketSizeUSD": "8.0T",
+    "constituentCount": 54,
     "topHoldings": [
       {
-        "name": "Amazon.com, Inc.",
+        "name": "Amazon.com Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla, Inc.",
+        "name": "Tesla Inc.",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot, Inc.",
+        "name": "The Home Depot Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1009,
-  "change_pct": 1.21,
-  "insights": "The Consumer Discretionary sector posted a positive daily performance, rising 1.21%. However, underlying technical indicators suggest this could be a short-term bounce rather than a sustained trend reversal. The Relative Strength Index (RSI) at 34.38 and Money Flow Index (MFI) at 31.59 both sit in the lower end of their ranges, indicating weak buying momentum and limited capital inflow despite today's gains, suggesting the sector is still approaching oversold territory. Furthermore, the significantly negative On-Balance Volume (OBV) of -27,332,175 points to a sustained period of institutional distribution, suggesting that while today saw price appreciation, the broader trend of accumulation remains negative.",
+  "market_weight": 0.1328,
+  "change_pct": 0.87,
+  "insights": "Today, the Consumer Discretionary sector posted a modest gain of 0.87%. However, this daily advance appears to lack strong underlying conviction based on key technical indicators. The RSI at 38.76 and MFI at 30.69 both indicate the sector is approaching oversold conditions with notably weak money flow, suggesting buying interest remains limited. Furthermore, the significantly negative OBV of -20.65 million points to persistent selling pressure dominating recent trading volume, implying today's positive movement may be more of a technical rebound than a fundamental shift supported by robust accumulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758067200000,
-        69.0
-      ],
       [
         1758153600000,
         65.72
@@ -747,13 +743,13 @@
       [
         1773619200000,
         34.38
+      ],
+      [
+        1773705600000,
+        38.76
       ]
     ],
     "mfi": [
-      [
-        1758067200000,
-        63.26
-      ],
       [
         1758153600000,
         62.41
@@ -1473,13 +1469,13 @@
       [
         1773619200000,
         31.59
+      ],
+      [
+        1773705600000,
+        30.69
       ]
     ],
     "obv": [
-      [
-        1758067200000,
-        25980015.0
-      ],
       [
         1758153600000,
         20570115.0
@@ -2199,6 +2195,10 @@
       [
         1773619200000,
         -27332175.0
+      ],
+      [
+        1773705600000,
+        -20654433.0
       ]
     ]
   },
@@ -2214,7 +2214,7 @@
     -0.52,
     -2.05,
     -3.14,
-    1.21,
+    2.09,
     null,
     null,
     null,

@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology Sector encompasses companies involved in software and services, technology hardware and equipment, and semiconductors and semiconductor equipment.",
+    "description": "The Information Technology sector includes companies that produce software, hardware, semiconductors, and provide IT services.",
     "marketSizeUSD": "14.5T",
-    "constituentCount": 68,
+    "constituentCount": 67,
     "topHoldings": [
-      {
-        "name": "Microsoft Corp.",
-        "symbol": "MSFT"
-      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
+      },
+      {
+        "name": "Microsoft Corp.",
+        "symbol": "MSFT"
       },
       {
         "name": "NVIDIA Corp.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.3112,
-  "change_pct": 1.45,
-  "insights": "The Information Technology sector exhibited a solid performance today, rising by 1.45%. Despite this positive movement, key technical indicators suggest a degree of moderation in current buying enthusiasm; both the Relative Strength Index (RSI) at 45.02 and Money Flow Index (MFI) at 45.87 reside in neutral territory, indicating the sector is not yet overbought and the daily gain did not trigger excessive buying pressure or money inflow. However, the On-Balance Volume (OBV) at 258,932,852 reflects sustained underlying buying interest over time, suggesting that accumulation has been present, supporting the current positive momentum without signaling immediate overextension.",
+  "market_weight": 0.2407,
+  "change_pct": 0.55,
+  "insights": "The Information Technology sector posted a modest gain of 0.55% today. Despite this positive price movement, key technical indicators suggest a nuanced market sentiment: the Relative Strength Index (RSI) at 46.81 and Money Flow Index (MFI) at 45.59 are both below the 50-threshold, indicating a lack of strong bullish momentum or aggressive money inflow behind the day's rise. The significant On-Balance Volume (OBV) of 270,866,461, while reflecting substantial cumulative buying interest historically, in this daily context suggests that today's increase occurred without a notable surge in buying pressure, pointing to a relatively quiet but positive session rather than a conviction-driven rally.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758067200000,
-        62.95
-      ],
       [
         1758153600000,
         69.42
@@ -747,13 +743,13 @@
       [
         1773619200000,
         45.02
+      ],
+      [
+        1773705600000,
+        46.81
       ]
     ],
     "mfi": [
-      [
-        1758067200000,
-        68.38
-      ],
       [
         1758153600000,
         69.39
@@ -1473,13 +1469,13 @@
       [
         1773619200000,
         45.87
+      ],
+      [
+        1773705600000,
+        45.59
       ]
     ],
     "obv": [
-      [
-        1758067200000,
-        154703031.0
-      ],
       [
         1758153600000,
         165144331.0
@@ -2199,6 +2195,10 @@
       [
         1773619200000,
         258932852.0
+      ],
+      [
+        1773705600000,
+        270866461.0
       ]
     ]
   },
@@ -2214,7 +2214,7 @@
     -1.52,
     -1.07,
     -0.34,
-    1.45,
+    2.0,
     null,
     null,
     null,

@@ -1,17 +1,17 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials GICS sector comprises companies involved in the production of capital goods, the provision of commercial and professional services, and the operation of transportation infrastructure and services.",
-    "marketSizeUSD": "4.3T",
-    "constituentCount": 75,
+    "description": "The Industrials sector comprises companies involved in manufacturing capital goods, providing commercial and professional services, and offering transportation services.",
+    "marketSizeUSD": "4.0T",
+    "constituentCount": 73,
     "topHoldings": [
-      {
-        "name": "General Electric Company",
-        "symbol": "GE"
-      },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
+      },
+      {
+        "name": "General Electric Company",
+        "symbol": "GE"
       },
       {
         "name": "Union Pacific Corporation",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0923,
-  "change_pct": 0.86,
-  "insights": "The Industrials sector posted a modest gain of 0.86% today, yet key technical indicators suggest a cautious interpretation of this positive movement. Both the Relative Strength Index (RSI) at 38.75 and the Money Flow Index (MFI) at 32.41 are well below the 50-mark, signaling a lack of strong buying momentum and potentially persistent selling pressure or capital outflow despite the daily price appreciation. While the On-Balance Volume (OBV) stands at 194,317,817, reflecting cumulative volume, the subdued readings from RSI and MFI imply that today's rally may lack robust buying conviction, hinting at potential underlying weakness or a period of consolidation rather than a strong reversal.",
+  "market_weight": 0.0664,
+  "change_pct": 0.26,
+  "insights": "The Industrials sector posted a modest gain of 0.26% today, indicating a relatively subdued trading session. Key technical indicators suggest that this slight upward movement lacked strong underlying conviction. The Relative Strength Index (RSI) at 40.04 and Money Flow Index (MFI) at 37.79 both sit below the neutral 50-mark, signaling weakening momentum and net outflows of money, respectively, despite the marginal price increase. While the On-Balance Volume (OBV) stands at 207,080,072, its current level in conjunction with the other indicators implies that today's positive close was not driven by robust buying pressure, suggesting momentum remains subdued.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758067200000,
-        48.85
-      ],
       [
         1758153600000,
         55.04
@@ -747,13 +743,13 @@
       [
         1773619200000,
         38.75
+      ],
+      [
+        1773705600000,
+        40.04
       ]
     ],
     "mfi": [
-      [
-        1758067200000,
-        44.57
-      ],
       [
         1758153600000,
         46.51
@@ -1473,13 +1469,13 @@
       [
         1773619200000,
         32.41
+      ],
+      [
+        1773705600000,
+        37.79
       ]
     ],
     "obv": [
-      [
-        1758067200000,
-        -18101647.0
-      ],
       [
         1758153600000,
         -5029847.0
@@ -2199,6 +2195,10 @@
       [
         1773619200000,
         194317817.0
+      ],
+      [
+        1773705600000,
+        207080072.0
       ]
     ]
   },
@@ -2214,7 +2214,7 @@
     -0.06,
     -4.08,
     -3.1,
-    0.86,
+    1.12,
     null,
     null,
     null,

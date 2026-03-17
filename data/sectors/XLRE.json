@@ -1,12 +1,12 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector primarily includes Equity Real Estate Investment Trusts (REITs) and other companies engaged in real estate management, development, and operations.",
-    "marketSizeUSD": "1.5T",
-    "constituentCount": 32,
+    "description": "The Real Estate sector includes companies that own, develop, and manage residential, commercial, and industrial properties, primarily through Real Estate Investment Trusts (REITs).",
+    "marketSizeUSD": "1.15T",
+    "constituentCount": 31,
     "topHoldings": [
       {
-        "name": "Prologis, Inc.",
+        "name": "Prologis Inc.",
         "symbol": "PLD"
       },
       {
@@ -14,20 +14,16 @@
         "symbol": "AMT"
       },
       {
-        "name": "Equinix, Inc.",
+        "name": "Equinix Inc.",
         "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.0322,
-  "change_pct": 0.78,
-  "insights": "The Real Estate sector demonstrated a slight upward movement today, posting a gain of 0.78%. Technical indicators suggest this occurred within a balanced momentum environment, as the RSI at 47.46 indicates neither overbought nor oversold conditions. The MFI at 41.18, slightly below the neutral 50-mark, implies that while prices rose, the associated money flow was not overwhelmingly strong. However, a robust OBV reading of 102,397,778, accompanying the positive price move, indicates that volume supported today's gain, affirming sustained buying interest beneath the surface despite the moderate overall momentum.",
+  "market_weight": 0.0191,
+  "change_pct": 0.33,
+  "insights": "The Real Estate sector experienced a modest gain of 0.33% today, with its technical indicators reflecting a predominantly neutral market sentiment. The Relative Strength Index (RSI) at 49.52 signals neither overbought nor oversold conditions, indicating a current lack of strong directional momentum. Complementing this, the Money Flow Index (MFI) at 46.46 suggests a slight net outflow of funds, implying that today's positive price action wasn't supported by robust new capital inflows. While the On-Balance Volume (OBV) at 107,813,708 provides a cumulative view of volume-backed price changes, its context alongside the other indicators suggests that the modest upward movement occurred without overwhelming buying conviction or significant volume accumulation. Overall, the sector's daily movement points to a relatively balanced day with a slight upward bias, but tempered by moderate underlying demand.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758067200000,
-        51.35
-      ],
       [
         1758153600000,
         51.8
@@ -747,13 +743,13 @@
       [
         1773619200000,
         47.46
+      ],
+      [
+        1773705600000,
+        49.52
       ]
     ],
     "mfi": [
-      [
-        1758067200000,
-        52.1
-      ],
       [
         1758153600000,
         51.42
@@ -1473,13 +1469,13 @@
       [
         1773619200000,
         41.18
+      ],
+      [
+        1773705600000,
+        46.46
       ]
     ],
     "obv": [
-      [
-        1758067200000,
-        -5953129.0
-      ],
       [
         1758153600000,
         -791129.0
@@ -2199,6 +2195,10 @@
       [
         1773619200000,
         102397778.0
+      ],
+      [
+        1773705600000,
+        107813708.0
       ]
     ]
   },
@@ -2214,7 +2214,7 @@
     0.67,
     -2.17,
     -1.49,
-    0.78,
+    1.11,
     null,
     null,
     null,

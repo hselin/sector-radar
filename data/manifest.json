@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-16T21:23:50.229460Z",
+  "lastUpdated": "2026-03-17T21:28:03.242055Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, weighted by market capitalization.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market posted a strong performance today, climbing 1.02%, indicating a clear positive sentiment for the session. However, key technical indicators suggest a more nuanced picture regarding underlying momentum. The Relative Strength Index (RSI) at 40.46 and Money Flow Index (MFI) at 32.60 both reside in neutral-to-weaker territory, well below overbought thresholds. This implies that while prices advanced significantly, the broader buying momentum and money flow are not yet exceptionally robust, suggesting that the rally isn't driven by overwhelming conviction or experiencing extreme price pressure. The On-Balance Volume (OBV) figure, while a single data point here, generally indicates that today's price appreciation was supported by participation, consistent with the positive daily close. In summary, the market closed firmly higher, yet these indicators collectively suggest that while positive, momentum isn't in an overheated state, potentially allowing for further movement but also reflecting a measured level of market engagement.",
-    "change_pct": 1.02,
+    "commentary": "The overall stock market posted a modest 0.26% gain today, suggesting a relatively quiet session with slight upward pressure. However, a deeper look at key technical indicators reveals a nuanced picture regarding underlying sentiment and momentum. The Relative Strength Index (RSI) at 42.18, remaining below the neutral 50-mark, indicates a lack of robust buying conviction and suggests the market is not overbought but rather drifting with weak underlying strength. This is further corroborated by a Money Flow Index (MFI) of 33.34, which is approaching oversold territory and signals weak money flow into the market, suggesting a notable absence of investor enthusiasm and potential selling pressure. While On-Balance Volume (OBV) at 727,336,672 reflects substantial cumulative trading activity, the prevailing message from RSI and MFI is that despite today's modest price uptick, underlying market sentiment lacks strong bullish momentum and leans towards weakness, implying caution for sustained upward movement.",
+    "change_pct": 0.26,
     "technicalIndicators": {
       "rsi": [
-        [
-          1758067200000,
-          67.29
-        ],
         [
           1758153600000,
           69.96
@@ -747,13 +743,13 @@
         [
           1773619200000,
           40.46
+        ],
+        [
+          1773705600000,
+          42.18
         ]
       ],
       "mfi": [
-        [
-          1758067200000,
-          69.67
-        ],
         [
           1758153600000,
           70.7
@@ -1473,13 +1469,13 @@
         [
           1773619200000,
           32.6
+        ],
+        [
+          1773705600000,
+          33.34
         ]
       ],
       "obv": [
-        [
-          1758067200000,
-          460587902.0
-        ],
         [
           1758153600000,
           551047102.0
@@ -2199,6 +2195,10 @@
         [
           1773619200000,
           662466630.0
+        ],
+        [
+          1773705600000,
+          727336672.0
         ]
       ]
     },
@@ -2214,7 +2214,7 @@
       -0.5,
       -1.95,
       -1.54,
-      1.02,
+      1.28,
       null,
       null,
       null,
