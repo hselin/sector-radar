@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-17T21:28:03.242055Z",
+  "lastUpdated": "2026-03-18T21:22:29.675386Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, weighted by market capitalization.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market posted a modest 0.26% gain today, suggesting a relatively quiet session with slight upward pressure. However, a deeper look at key technical indicators reveals a nuanced picture regarding underlying sentiment and momentum. The Relative Strength Index (RSI) at 42.18, remaining below the neutral 50-mark, indicates a lack of robust buying conviction and suggests the market is not overbought but rather drifting with weak underlying strength. This is further corroborated by a Money Flow Index (MFI) of 33.34, which is approaching oversold territory and signals weak money flow into the market, suggesting a notable absence of investor enthusiasm and potential selling pressure. While On-Balance Volume (OBV) at 727,336,672 reflects substantial cumulative trading activity, the prevailing message from RSI and MFI is that despite today's modest price uptick, underlying market sentiment lacks strong bullish momentum and leans towards weakness, implying caution for sustained upward movement.",
-    "change_pct": 0.26,
+    "commentary": "The overall stock market experienced a notable decline today, closing down 1.40%. Technically, both the Relative Strength Index (RSI) at 36.18 and the Money Flow Index (MFI) at 33.05 are trending lower, approaching oversold levels. This suggests strong bearish momentum and significant capital outflow, reflecting deteriorating market sentiment and intense selling pressure. The On-Balance Volume (OBV), when viewed in conjunction with the price action, likely confirms that this selling pressure was accompanied by significant volume. Overall, these indicators collectively paint a picture of a market firmly under bearish control, characterized by a strong preference for selling and a potential for continued downside in the near term.",
+    "change_pct": -1.4,
     "technicalIndicators": {
       "rsi": [
-        [
-          1758153600000,
-          69.96
-        ],
         [
           1758240000000,
           71.15
@@ -747,13 +743,13 @@
         [
           1773705600000,
           42.18
+        ],
+        [
+          1773792000000,
+          36.18
         ]
       ],
       "mfi": [
-        [
-          1758153600000,
-          70.7
-        ],
         [
           1758240000000,
           77.87
@@ -1473,13 +1469,13 @@
         [
           1773705600000,
           33.34
+        ],
+        [
+          1773792000000,
+          33.05
         ]
       ],
       "obv": [
-        [
-          1758153600000,
-          551047102.0
-        ],
         [
           1758240000000,
           648992702.0
@@ -2199,6 +2195,10 @@
         [
           1773705600000,
           727336672.0
+        ],
+        [
+          1773792000000,
+          646426644.0
         ]
       ]
     },
@@ -2214,7 +2214,7 @@
       -0.5,
       -1.95,
       -1.54,
-      1.28,
+      -0.13,
       null,
       null,
       null,
