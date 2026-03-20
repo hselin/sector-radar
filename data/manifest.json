@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-19T21:21:36.824189Z",
+  "lastUpdated": "2026-03-20T21:17:58.631247Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, weighted by market capitalization.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader stock market experienced a modest decline today, closing down -0.25%. Key technical indicators suggest a prevailing cautious-to-negative market sentiment with momentum favoring sellers. The Relative Strength Index (RSI) at 35.24 and the Money Flow Index (MFI) at 32.09 are both approaching oversold territory (typically below 30/20 respectively), indicating persistent selling pressure and a lack of strong buying conviction in the market. The On-Balance Volume (OBV) at 536,359,252, while reflecting cumulative trading activity, does not contradict this weakening picture, suggesting that the recent selling pressure is not being met with significant underlying buying volume. Overall, these figures point to a market grappling with weakening technical strength and a bearish undertone, despite the relatively minor price drop.",
-    "change_pct": -0.25,
+    "commentary": "The stock market experienced a significant downturn today, closing down 1.70%, signaling a strong bearish sentiment dominating the trading session. Technical indicators further reinforce this negative momentum: the Relative Strength Index (RSI) at 29.54 and the Money Flow Index (MFI) at 30.86 both sit firmly in oversold territory. This suggests that the selling pressure has been intense and widespread, indicating a significant outflow of capital from the market and a prevailing sense of investor fear or capitulation. While oversold conditions can sometimes precede a short-term rebound, they primarily highlight the robust downward trend and underlying weakness. The On-Balance Volume (OBV), currently at 398,075,738, likely confirms that the day's losses were accompanied by substantial volume, adding conviction to the market's decline.",
+    "change_pct": -1.7,
     "technicalIndicators": {
       "rsi": [
-        [
-          1758326400000,
-          null
-        ],
         [
           1758412800000,
           null
@@ -747,13 +743,13 @@
         [
           1773878400000,
           35.24
+        ],
+        [
+          1773964800000,
+          29.54
         ]
       ],
       "mfi": [
-        [
-          1758326400000,
-          null
-        ],
         [
           1758412800000,
           null
@@ -1473,13 +1469,13 @@
         [
           1773878400000,
           32.09
+        ],
+        [
+          1773964800000,
+          30.86
         ]
       ],
       "obv": [
-        [
-          1758326400000,
-          null
-        ],
         [
           1758412800000,
           null
@@ -2199,6 +2195,10 @@
         [
           1773878400000,
           536359252.0
+        ],
+        [
+          1773964800000,
+          398075738.0
         ]
       ]
     },
@@ -2214,7 +2214,7 @@
       -0.5,
       -1.95,
       -1.54,
-      -0.38,
+      -2.07,
       null,
       null,
       null,
