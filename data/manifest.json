@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-03-21T21:10:57.205229Z",
+  "lastUpdated": "2026-03-22T21:11:44.346925Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, weighted by market capitalization.",
-      "marketSizeUSD": "47T",
+      "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "48T",
       "constituentCount": 503,
       "topHoldings": [
         {
-          "name": "Microsoft Corporation",
-          "symbol": "MSFT"
-        },
-        {
           "name": "Apple Inc.",
           "symbol": "AAPL"
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbol": "MSFT"
         },
         {
           "name": "NVIDIA Corporation",
@@ -20,7 +20,7 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a notable decline today, registering a -1.70% daily change, indicating broad-based selling pressure. Key technical indicators reinforce this bearish sentiment: the Relative Strength Index (RSI) at 29.54 and the Money Flow Index (MFI) at 30.86 are both firmly in oversold territory. This combination signals significant selling pressure, a strong outflow of capital, and very weak buying interest, suggesting deeply pessimistic market sentiment and strong downward momentum. The On-Balance Volume (OBV) at 398,075,738 further suggests this heavy selling was accompanied by significant trading volume, although the extreme oversold conditions might hint at a potential technical rebound in the very near term as sellers become exhausted.",
+    "commentary": "The stock market experienced a notable pullback today, declining 1.70%. This substantial movement is corroborated by key technical indicators that paint a clear picture of market sentiment and momentum. The Relative Strength Index (RSI) at 29.54 and Money Flow Index (MFI) at 30.86 are both firmly in oversold territory, suggesting intense selling pressure and a pervasive bearish sentiment among investors. The elevated On-Balance Volume (OBV) figure further confirms that this downturn is supported by significant trading activity, underscoring robust downward momentum. Collectively, these metrics point to a market currently dominated by fear and widespread investor capitulation, indicating potential for continued volatility or a possible technical bounce from oversold levels in the near term.",
     "change_pct": -1.7,
     "technicalIndicators": {
       "rsi": [
