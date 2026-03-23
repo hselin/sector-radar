@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-22T21:11:44.346925Z",
+  "lastUpdated": "2026-03-23T21:22:34.258757Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a notable pullback today, declining 1.70%. This substantial movement is corroborated by key technical indicators that paint a clear picture of market sentiment and momentum. The Relative Strength Index (RSI) at 29.54 and Money Flow Index (MFI) at 30.86 are both firmly in oversold territory, suggesting intense selling pressure and a pervasive bearish sentiment among investors. The elevated On-Balance Volume (OBV) figure further confirms that this downturn is supported by significant trading activity, underscoring robust downward momentum. Collectively, these metrics point to a market currently dominated by fear and widespread investor capitulation, indicating potential for continued volatility or a possible technical bounce from oversold levels in the near term.",
-    "change_pct": -1.7,
+    "commentary": "The overall stock market posted a solid performance today, rising 1.05%, suggesting a positive close despite some nuanced signals from key technical indicators regarding underlying sentiment and momentum. The Relative Strength Index (RSI) at 36.27 and Money Flow Index (MFI) at 39.84 both reside below the neutral 50-mark. While not yet in deeply oversold territory, these readings suggest that despite today's gain, buying pressure might lack strong conviction or broad participation, indicating a somewhat subdued momentum build-up rather than a strong, enthusiastic surge. The On-Balance Volume (OBV) at 523,279,517 indicates significant cumulative trading activity, but without the context of its daily change, it primarily confirms active trading rather than definitively affirming whether today's upward move was strongly supported by net buying volume. Overall, while the market closed firmly higher, the technicals hint at potentially cautious underlying sentiment, with momentum building slowly rather than aggressively.",
+    "change_pct": 1.05,
     "technicalIndicators": {
       "rsi": [
-        [
-          1758412800000,
-          null
-        ],
-        [
-          1758499200000,
-          73.59
-        ],
-        [
-          1758585600000,
-          66.56
-        ],
         [
           1758672000000,
           62.81
@@ -747,21 +735,21 @@
         [
           1773964800000,
           29.54
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1758412800000,
+          1774051200000,
           null
         ],
         [
-          1758499200000,
-          84.43
+          1774137600000,
+          null
         ],
         [
-          1758585600000,
-          76.89
-        ],
+          1774224000000,
+          36.27
+        ]
+      ],
+      "mfi": [
         [
           1758672000000,
           70.59
@@ -1473,21 +1461,21 @@
         [
           1773964800000,
           30.86
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1758412800000,
+          1774051200000,
           null
         ],
         [
-          1758499200000,
-          718444902.0
+          1774137600000,
+          null
         ],
         [
-          1758585600000,
-          636736002.0
-        ],
+          1774224000000,
+          39.84
+        ]
+      ],
+      "obv": [
         [
           1758672000000,
           568653802.0
@@ -2199,6 +2187,18 @@
         [
           1773964800000,
           398075738.0
+        ],
+        [
+          1774051200000,
+          null
+        ],
+        [
+          1774137600000,
+          null
+        ],
+        [
+          1774224000000,
+          523279517.0
         ]
       ]
     },
@@ -2215,7 +2215,7 @@
       -1.95,
       -1.54,
       -2.07,
-      null,
+      1.05,
       null,
       null,
       null,
