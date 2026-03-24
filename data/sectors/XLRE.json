@@ -1,12 +1,12 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector includes companies that own, develop, and manage residential, commercial, and industrial properties, primarily through Real Estate Investment Trusts (REITs).",
-    "marketSizeUSD": "1.15T",
+    "description": "The Real Estate sector comprises companies that own, develop, and manage income-generating real estate, including Real Estate Investment Trusts (REITs), but excludes mortgage REITs.",
+    "marketSizeUSD": "1.6T",
     "constituentCount": 31,
     "topHoldings": [
       {
-        "name": "Prologis Inc.",
+        "name": "Prologis, Inc.",
         "symbol": "PLD"
       },
       {
@@ -14,20 +14,16 @@
         "symbol": "AMT"
       },
       {
-        "name": "Equinix Inc.",
+        "name": "Equinix, Inc.",
         "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.0182,
-  "change_pct": 0.07,
-  "insights": "The Real Estate sector posted a negligible daily gain of 0.07% today, reflecting a largely flat performance. Key technical indicators suggest underlying weakness; the Relative Strength Index (RSI) at 29.45 and Money Flow Index (MFI) at 31.22 both indicate the sector is in or approaching oversold conditions, signaling persistent recent selling pressure or a notable lack of strong buying interest. While the On-Balance Volume (OBV) at 91,903,728 reflects substantial cumulative trading activity, its context with the low RSI and MFI suggests that despite today's marginal positive movement, the sector continues to operate under bearish sentiment with potential for either a technical rebound or further consolidation if fresh capital doesn't enter.",
+  "market_weight": 0.0319,
+  "change_pct": -0.81,
+  "insights": "The Real Estate sector experienced a notable downturn today, declining by -0.81%. This negative movement is strongly supported by key technical indicators signaling significant selling pressure. The Relative Strength Index (RSI) at 27.32 and the Money Flow Index (MFI) at 24.89 both firmly place the sector in oversold territory, suggesting that the recent price drop has been substantial and potentially indicates an exhaustion of sellers in the near term or highlights a period of intense bearish sentiment. While the On-Balance Volume (OBV) stands at 82,038,210, its specific trend requires historical comparison, but in conjunction with the deeply oversold RSI and MFI, it underscores that this daily decline was accompanied by meaningful selling volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758672000000,
-        44.85
-      ],
       [
         1758758400000,
         43.51
@@ -747,13 +743,13 @@
       [
         1774224000000,
         29.45
+      ],
+      [
+        1774310400000,
+        27.32
       ]
     ],
     "mfi": [
-      [
-        1758672000000,
-        45.45
-      ],
       [
         1758758400000,
         38.47
@@ -1473,13 +1469,13 @@
       [
         1774224000000,
         31.22
+      ],
+      [
+        1774310400000,
+        24.89
       ]
     ],
     "obv": [
-      [
-        1758672000000,
-        -11897129.0
-      ],
       [
         1758758400000,
         -15456629.0
@@ -2199,6 +2195,10 @@
       [
         1774224000000,
         91903728.0
+      ],
+      [
+        1774310400000,
+        82038210.0
       ]
     ]
   },
@@ -2215,7 +2215,7 @@
     -2.17,
     -1.49,
     -3.93,
-    0.07,
+    -0.74,
     null,
     null,
     null,

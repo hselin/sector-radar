@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, and marketing of oil and gas, alongside those involved in integrated power and renewable energy.",
-    "marketSizeUSD": "2.9T",
+    "description": "The Energy GICS sector encompasses companies primarily engaged in the exploration, production, refining, marketing, storage, and transportation of oil, gas, and other consumable fuels, as well as those providing related equipment and services.",
+    "marketSizeUSD": "2.0T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0458,
-  "change_pct": 0.54,
-  "insights": "The Energy sector experienced a modest gain of 0.54% today, indicating a continuation of positive, albeit tempered, momentum. Technical indicators reveal a strong underlying trend: the Relative Strength Index (RSI) at 74.20 is firmly in overbought territory, suggesting the sector may be due for a short-term consolidation or a potential pullback following a period of sustained appreciation. Supporting the daily price action, the Money Flow Index (MFI) at 59.97 confirms a healthy influx of capital, while the On-Balance Volume (OBV) at 1,217,507,414 reflects a significant cumulative buying pressure. While the positive money flow and price increase are encouraging, the elevated RSI advises caution regarding immediate upside potential without a potential re-evaluation of current price levels.",
+  "market_weight": 0.0398,
+  "change_pct": 2.03,
+  "insights": "The Energy sector experienced a robust daily rally, advancing 2.03% today. This significant upward movement has pushed its Relative Strength Index (RSI) to 78.29, firmly placing the sector in overbought territory and signaling rapid price appreciation. Concurrently, the Money Flow Index (MFI) at 67.04 confirms substantial capital inflow supporting these gains, while the large On-Balance Volume (OBV) of 1,266,386,658 further validates the strong price action with considerable buying pressure accompanying the move.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758672000000,
-        59.43
-      ],
       [
         1758758400000,
         62.38
@@ -747,13 +743,13 @@
       [
         1774224000000,
         74.2
+      ],
+      [
+        1774310400000,
+        78.29
       ]
     ],
     "mfi": [
-      [
-        1758672000000,
-        58.91
-      ],
       [
         1758758400000,
         68.36
@@ -1473,13 +1469,13 @@
       [
         1774224000000,
         59.97
+      ],
+      [
+        1774310400000,
+        67.04
       ]
     ],
     "obv": [
-      [
-        1758672000000,
-        237271183.0
-      ],
       [
         1758758400000,
         253214783.0
@@ -2199,6 +2195,10 @@
       [
         1774224000000,
         1217507414.0
+      ],
+      [
+        1774310400000,
+        1266386658.0
       ]
     ]
   },
@@ -2215,7 +2215,7 @@
     1.16,
     2.0,
     2.79,
-    0.54,
+    2.58,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that manufacture and sell essential goods and services, such as food, beverages, tobacco, household products, and personal care items, which are generally in consistent demand regardless of economic cycles.",
-    "marketSizeUSD": "12.5T",
+    "description": "The Consumer Staples sector comprises companies that manufacture and distribute essential products and services that consumers purchase regularly, regardless of economic conditions.",
+    "marketSizeUSD": "3.1T",
     "constituentCount": 34,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1973,
-  "change_pct": -0.14,
-  "insights": "The Consumer Staples sector experienced a slight dip today, closing down 0.14%. This modest decline is accompanied by key technical indicators suggesting the sector is entering oversold territory. Specifically, the Relative Strength Index (RSI) at 28.69 and the Money Flow Index (MFI) at 24.79 are both well below the typical 30-mark threshold, indicating a strong short-term selling pressure that has pushed prices to potentially unsustainable lows. While On-Balance Volume (OBV) stands at 60,482,321, the combined low RSI and MFI values imply that sellers are currently dominant, potentially setting the stage for a price stabilization or technical rebound if underlying fundamentals remain sound.",
+  "market_weight": 0.0618,
+  "change_pct": -0.09,
+  "insights": "The Consumer Staples sector experienced a marginal decline of -0.09% today. While the daily price movement was minimal, key technical indicators suggest an underlying bearish sentiment and a potentially oversold condition. The Relative Strength Index (RSI) at 28.46 and the Money Flow Index (MFI) at 25.56 both fall well into oversold territory (typically below 30/20 respectively), indicating sustained selling pressure and an outflow of capital from the sector over the recent period. On-Balance Volume (OBV) at 45,950,901, which tracks cumulative buying and selling pressure, without its daily change, supports the notion of recent significant transactional activity that has contributed to this oversold state, suggesting that despite the small daily dip, the sector is struggling to find buying support.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758672000000,
-        36.85
-      ],
       [
         1758758400000,
         32.83
@@ -747,13 +743,13 @@
       [
         1774224000000,
         28.69
+      ],
+      [
+        1774310400000,
+        28.46
       ]
     ],
     "mfi": [
-      [
-        1758672000000,
-        36.27
-      ],
       [
         1758758400000,
         27.52
@@ -1473,13 +1469,13 @@
       [
         1774224000000,
         24.79
+      ],
+      [
+        1774310400000,
+        25.56
       ]
     ],
     "obv": [
-      [
-        1758672000000,
-        35502127.0
-      ],
       [
         1758758400000,
         23456027.0
@@ -2199,6 +2195,10 @@
       [
         1774224000000,
         60482321.0
+      ],
+      [
+        1774310400000,
+        45950901.0
       ]
     ]
   },
@@ -2215,7 +2215,7 @@
     -4.69,
     -1.2,
     -4.07,
-    -0.14,
+    -0.22,
     null,
     null,
     null,

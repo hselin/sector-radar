@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector includes companies that produce software, hardware, semiconductors, and provide IT services.",
+    "description": "The Information Technology sector encompasses companies primarily involved in software, IT services, semiconductors, and technology hardware and equipment.",
     "marketSizeUSD": "14.5T",
-    "constituentCount": 67,
+    "constituentCount": 68,
     "topHoldings": [
-      {
-        "name": "Apple Inc.",
-        "symbol": "AAPL"
-      },
       {
         "name": "Microsoft Corp.",
         "symbol": "MSFT"
+      },
+      {
+        "name": "Apple Inc.",
+        "symbol": "AAPL"
       },
       {
         "name": "NVIDIA Corp.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2289,
-  "change_pct": 1.23,
-  "insights": "The Information Technology sector posted a solid performance today, climbing 1.23%. While the Relative Strength Index (RSI) at 43.18 suggests the sector isn't overbought and has room to run, the Money Flow Index (MFI) at 56.22 indicates a healthy inflow of capital into IT stocks, supporting the day's positive price action. The robust On-Balance Volume (OBV) of 274,914,347 further confirms that today's gains were accompanied by significant buying pressure, reinforcing the strength behind the sector's advance.",
+  "market_weight": 0.2888,
+  "change_pct": -0.58,
+  "insights": "The Information Technology sector posted a slight decline today, down -0.58%. Technically, the Relative Strength Index (RSI) at 41.66 suggests that while the sector is not in oversold territory, its short-term momentum is leaning neutral to slightly bearish. The Money Flow Index (MFI) at 50.24 indicates a balanced money flow, implying that today's modest price dip was not accompanied by a significant net outflow of capital from the sector. The On-Balance Volume (OBV) stands at 258,167,018, reflecting the cumulative volume; however, without its daily change, we cannot definitively assess if today's price movement was confirmed or diverged by volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758672000000,
-        65.67
-      ],
       [
         1758758400000,
         64.52
@@ -747,13 +743,13 @@
       [
         1774224000000,
         43.18
+      ],
+      [
+        1774310400000,
+        41.66
       ]
     ],
     "mfi": [
-      [
-        1758672000000,
-        69.59
-      ],
       [
         1758758400000,
         59.45
@@ -1473,13 +1469,13 @@
       [
         1774224000000,
         56.22
+      ],
+      [
+        1774310400000,
+        50.24
       ]
     ],
     "obv": [
-      [
-        1758672000000,
-        165901631.0
-      ],
       [
         1758758400000,
         155226831.0
@@ -2199,6 +2195,10 @@
       [
         1774224000000,
         274914347.0
+      ],
+      [
+        1774310400000,
+        258167018.0
       ]
     ]
   },
@@ -2215,7 +2215,7 @@
     -1.07,
     -0.34,
     -1.1,
-    1.23,
+    0.64,
     null,
     null,
     null,

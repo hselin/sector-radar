@@ -1,33 +1,29 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies engaged in banking, insurance, capital markets, diversified financial services, and related financial activities, providing monetary, investment, and risk management solutions.",
-    "marketSizeUSD": "5.8T",
-    "constituentCount": 68,
+    "description": "The Financials sector includes companies involved in banking, diversified financial services, insurance, capital markets, and real estate, providing a wide array of financial products and services to consumers and businesses.",
+    "marketSizeUSD": "5.0T",
+    "constituentCount": 67,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
         "symbol": "BRK.B"
       },
       {
-        "name": "Visa Inc.",
-        "symbol": "V"
-      },
-      {
         "name": "JPMorgan Chase & Co.",
         "symbol": "JPM"
+      },
+      {
+        "name": "Visa Inc.",
+        "symbol": "V"
       }
     ]
   },
-  "market_weight": 0.0916,
-  "change_pct": 0.39,
-  "insights": "The Financials sector posted a modest gain of 0.39% today. However, key technical indicators suggest underlying caution; the RSI at 36.76 indicates the sector is not overbought but remains in a weaker momentum trend, while the MFI at 49.29 points to a relatively neutral money flow, not strongly confirming today's positive price action with robust buying conviction. Most notably, the significantly negative OBV of -123,975,848 suggests that despite today's slight uptick, selling pressure has predominantly outweighed buying pressure over the recent period, indicating persistent underlying weakness that is not yet fully reversed.",
+  "market_weight": 0.0996,
+  "change_pct": 0.02,
+  "insights": "The Financials sector posted an essentially flat performance today with a minor 0.02% gain, signaling a lack of strong directional conviction among investors. However, key technical indicators suggest underlying bearish sentiment; the Relative Strength Index (RSI) at 36.88 and Money Flow Index (MFI) at 43.64 are both below their neutral 50-marks, indicating weakening buying momentum and potential capital outflow. Furthermore, the significantly negative On-Balance Volume (OBV) of -80,730,324 strongly reinforces that selling volume has largely outpaced buying volume, implying that this minimal positive price change was not supported by robust demand and the sector may still face headwinds.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758672000000,
-        51.63
-      ],
       [
         1758758400000,
         49.73
@@ -747,13 +743,13 @@
       [
         1774224000000,
         36.76
+      ],
+      [
+        1774310400000,
+        36.88
       ]
     ],
     "mfi": [
-      [
-        1758672000000,
-        41.49
-      ],
       [
         1758758400000,
         44.34
@@ -1473,13 +1469,13 @@
       [
         1774224000000,
         49.29
+      ],
+      [
+        1774310400000,
+        43.64
       ]
     ],
     "obv": [
-      [
-        1758672000000,
-        114858554.0
-      ],
       [
         1758758400000,
         90101054.0
@@ -2199,6 +2195,10 @@
       [
         1774224000000,
         -123975848.0
+      ],
+      [
+        1774310400000,
+        -80730324.0
       ]
     ]
   },
@@ -2215,7 +2215,7 @@
     -1.63,
     -3.3,
     0.39,
-    0.39,
+    0.41,
     null,
     null,
     null,

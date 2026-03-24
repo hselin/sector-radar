@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that sell non-essential goods and services, whose demand is sensitive to the business cycle and consumer income.",
-    "marketSizeUSD": "8.0T",
+    "description": "The Consumer Discretionary sector encompasses companies that provide non-essential goods and services, whose demand is highly sensitive to the business cycle and consumer income.",
+    "marketSizeUSD": "5.8T",
     "constituentCount": 54,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1263,
-  "change_pct": 2.21,
-  "insights": "The Consumer Discretionary sector demonstrated a strong daily performance, advancing by 2.21% today. While this indicates robust buying interest for the session, key technical indicators suggest the move warrants careful interpretation. The RSI at 36.82 and MFI at 40.79 indicate the sector is not overbought and potentially recovering from previous declines, with money flow yet to show strong, sustained accumulation. However, the deeply negative OBV of -41,328,021 points to a persistent underlying selling pressure over time, suggesting that today's notable price gain, while positive, is not yet fully confirmed by a corresponding shift in long-term buying volume and could represent a short-term rebound or a recovery attempt within a broader context.",
+  "market_weight": 0.1155,
+  "change_pct": -0.4,
+  "insights": "The Consumer Discretionary sector experienced a modest decline of -0.40% today, signaling continued underlying weakness. This sentiment is reinforced by key technical indicators: the Relative Strength Index (RSI) at 35.87 and the Money Flow Index (MFI) at 34.33 both indicate persistent selling pressure and money flowing out of the sector, approaching oversold conditions. The significantly negative On-Balance Volume (OBV) of -50,314,677 further corroborates this by suggesting that selling volume has consistently outweighed buying volume over a sustained period, reinforcing the sector's current bearish momentum despite today's relatively small price movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758672000000,
-        60.25
-      ],
       [
         1758758400000,
         51.9
@@ -747,13 +743,13 @@
       [
         1774224000000,
         36.82
+      ],
+      [
+        1774310400000,
+        35.87
       ]
     ],
     "mfi": [
-      [
-        1758672000000,
-        60.65
-      ],
       [
         1758758400000,
         50.0
@@ -1473,13 +1469,13 @@
       [
         1774224000000,
         40.79
+      ],
+      [
+        1774310400000,
+        34.33
       ]
     ],
     "obv": [
-      [
-        1758672000000,
-        20799215.0
-      ],
       [
         1758758400000,
         15003815.0
@@ -2199,6 +2195,10 @@
       [
         1774224000000,
         -41328021.0
+      ],
+      [
+        1774310400000,
+        -50314677.0
       ]
     ]
   },
@@ -2215,7 +2215,7 @@
     -2.05,
     -3.14,
     -2.81,
-    2.21,
+    1.8,
     null,
     null,
     null,

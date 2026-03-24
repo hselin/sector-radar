@@ -1,33 +1,29 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment, interactive media, and other communication-related services.",
-    "marketSizeUSD": "4.5T",
-    "constituentCount": 23,
+    "description": "The Communication Services sector encompasses companies primarily involved in providing telecommunications, media, entertainment, and interactive services.",
+    "marketSizeUSD": "4.3T",
+    "constituentCount": 24,
     "topHoldings": [
       {
         "name": "Alphabet Inc.",
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms, Inc.",
+        "name": "Meta Platforms Inc.",
         "symbol": "META"
       },
       {
-        "name": "Netflix, Inc.",
+        "name": "Netflix Inc.",
         "symbol": "NFLX"
       }
     ]
   },
-  "market_weight": 0.071,
-  "change_pct": 0.43,
-  "insights": "The Communication Services sector saw a modest gain of 0.43% today. However, underlying technicals suggest a cautious outlook, as the Relative Strength Index (RSI) at 34.73 and Money Flow Index (MFI) at 35.72 both indicate weakening momentum and net money outflow, nearing oversold conditions. Despite the small price uptick, these indicators suggest that today's movement lacked strong buying conviction and occurred within a broader context of bearish sentiment, while the On-Balance Volume (OBV) at 114,102,958 does not contradict this lack of aggressive accumulation.",
+  "market_weight": 0.0857,
+  "change_pct": -1.4,
+  "insights": "The Communication Services sector experienced a notable decline of -1.40% today, with technical indicators reflecting pronounced short-term weakness. The Relative Strength Index (RSI) at 29.76 signals the sector is now firmly oversold, a sentiment reinforced by the Money Flow Index (MFI) at 29.05, which indicates substantial money outflow and robust selling pressure. While the On-Balance Volume (OBV) of 105,874,003 suggests prior accumulation, today's price drop implies selling volume dominated, contributing to the overall negative momentum. This combination points to a sector under considerable pressure and technically deeply oversold in the immediate term.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758672000000,
-        63.48
-      ],
       [
         1758758400000,
         60.76
@@ -747,13 +743,13 @@
       [
         1774224000000,
         34.73
+      ],
+      [
+        1774310400000,
+        29.76
       ]
     ],
     "mfi": [
-      [
-        1758672000000,
-        70.46
-      ],
       [
         1758758400000,
         65.77
@@ -1473,13 +1469,13 @@
       [
         1774224000000,
         35.72
+      ],
+      [
+        1774310400000,
+        29.05
       ]
     ],
     "obv": [
-      [
-        1758672000000,
-        194402795.0
-      ],
       [
         1758758400000,
         190616095.0
@@ -2199,6 +2195,10 @@
       [
         1774224000000,
         114102958.0
+      ],
+      [
+        1774310400000,
+        105874003.0
       ]
     ]
   },
@@ -2215,7 +2215,7 @@
     -0.51,
     -2.56,
     -1.94,
-    0.43,
+    -0.98,
     null,
     null,
     null,

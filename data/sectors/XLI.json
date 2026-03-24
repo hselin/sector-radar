@@ -1,33 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector comprises companies involved in manufacturing capital goods, providing commercial and professional services, and offering transportation services.",
-    "marketSizeUSD": "4.0T",
-    "constituentCount": 73,
+    "description": "The Industrials sector includes companies that produce capital goods, provide commercial and industrial services, and engage in various forms of transportation.",
+    "marketSizeUSD": "3.9T",
+    "constituentCount": 75,
     "topHoldings": [
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "General Electric Company",
-        "symbol": "GE"
+        "name": "Union Pacific Corp.",
+        "symbol": "UNP"
       },
       {
-        "name": "Union Pacific Corporation",
-        "symbol": "UNP"
+        "name": "RTX Corporation",
+        "symbol": "RTX"
       }
     ]
   },
-  "market_weight": 0.0631,
-  "change_pct": 0.85,
-  "insights": "The Industrials sector registered a modest gain of 0.85% today, indicating a positive daily sentiment. However, a deeper look at its technical indicators suggests underlying weakness despite the daily uptick. The Relative Strength Index (RSI) at 35.92 and the Money Flow Index (MFI) at 32.10 are both in the lower range, indicating that the sector has been experiencing recent selling pressure or consolidation and is not currently overbought. Today's positive movement could represent a bounce from these subdued levels, but the low MFI suggests that overall money flow into the sector remains relatively weak. The On-Balance Volume (OBV) at 179,330,020 would have seen an increase today, affirming that buying volume accompanied this price rise, yet the broader momentum indicators caution against overly bullish interpretations without sustained follow-through.",
+  "market_weight": 0.0777,
+  "change_pct": 0.58,
+  "insights": "The Industrials sector posted a modest 0.58% gain today, yet key technical indicators suggest underlying caution. The Relative Strength Index (RSI) at 38.88 sits below the neutral 50-mark, indicating a lack of strong buying momentum despite today's positive close. More notably, the Money Flow Index (MFI) at 25.89 is firmly in oversold territory, signaling significant money outflow and persistent selling pressure over recent periods. While the On-Balance Volume (OBV) shows a substantial cumulative buying volume (193,388,513), the weak MFI and RSI suggest that today's positive movement might be a short-term bounce or an isolated gain amidst prevailing underlying weakness rather than a conviction-backed rally.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758672000000,
-        51.96
-      ],
       [
         1758758400000,
         47.25
@@ -747,13 +743,13 @@
       [
         1774224000000,
         35.92
+      ],
+      [
+        1774310400000,
+        38.88
       ]
     ],
     "mfi": [
-      [
-        1758672000000,
-        54.36
-      ],
       [
         1758758400000,
         57.86
@@ -1473,13 +1469,13 @@
       [
         1774224000000,
         32.1
+      ],
+      [
+        1774310400000,
+        25.89
       ]
     ],
     "obv": [
-      [
-        1758672000000,
-        710853.0
-      ],
       [
         1758758400000,
         -6434947.0
@@ -2199,6 +2195,10 @@
       [
         1774224000000,
         179330020.0
+      ],
+      [
+        1774310400000,
+        193388513.0
       ]
     ]
   },
@@ -2215,7 +2215,7 @@
     -4.08,
     -3.1,
     -1.81,
-    0.85,
+    1.44,
     null,
     null,
     null,
