@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector comprises companies involved in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, and paper products.",
-    "marketSizeUSD": "1.9T",
+    "description": "The Materials sector includes companies that discover, develop, and process raw materials, encompassing industries like chemicals, construction materials, metals and mining, paper and forest products, and containers and packaging.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Company",
+        "name": "The Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0378,
-  "change_pct": 1.89,
-  "insights": "The Materials sector posted a robust performance today, advancing by 1.89%. Despite this solid daily gain, key technical indicators suggest the sector is not yet in overbought territory and may be emerging from a period of weakness. The Relative Strength Index (RSI) at 38.44 and Money Flow Index (MFI) at 33.84 both remain below the neutral 50-level, indicating that while today's rally was strong, broader momentum and money flow sentiment have not yet decisively shifted to fully bullish, or that the sector is experiencing a bounce from prior selling pressure. The On-Balance Volume (OBV) at 60,438,786 confirms accumulation on today's positive price action, suggesting buying interest supported the daily move, but the overall context points to a sector potentially recovering from recent dips rather than entering an overextended phase.",
+  "market_weight": 0.0364,
+  "change_pct": 1.98,
+  "insights": "The Materials sector demonstrated a robust performance today with a 1.98% gain. Despite this strong daily advance, key technical indicators suggest the rally is not yet overextended; the Relative Strength Index (RSI) at 45.97 remains in neutral territory, well below overbought levels, indicating potential for further upward movement without immediate reversal signals. Similarly, the Money Flow Index (MFI) at 40.41 is also in a neutral zone, suggesting that while money is flowing into the sector, it's not at an unsustainable pace. The On-Balance Volume (OBV) at 75,454,375, a cumulative measure of buying and selling pressure, would have likely increased today, confirming that the price rise was supported by net positive volume, lending credence to the daily gain.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1758758400000,
-        33.18
-      ],
       [
         1758844800000,
         40.79
@@ -747,13 +743,13 @@
       [
         1774310400000,
         38.44
+      ],
+      [
+        1774396800000,
+        45.97
       ]
     ],
     "mfi": [
-      [
-        1758758400000,
-        30.73
-      ],
       [
         1758844800000,
         37.64
@@ -1473,13 +1469,13 @@
       [
         1774310400000,
         33.84
+      ],
+      [
+        1774396800000,
+        40.41
       ]
     ],
     "obv": [
-      [
-        1758758400000,
-        5385465.0
-      ],
       [
         1758844800000,
         10357765.0
@@ -2199,6 +2195,10 @@
       [
         1774310400000,
         60438786.0
+      ],
+      [
+        1774396800000,
+        75454375.0
       ]
     ]
   },
@@ -2215,7 +2215,7 @@
     -6.65,
     -1.34,
     -4.49,
-    3.13,
+    5.17,
     null,
     null,
     null,
