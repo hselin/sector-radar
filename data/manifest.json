@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-26T21:19:48.609330Z",
+  "lastUpdated": "2026-03-27T21:21:30.142441Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a significant pullback today, registering a -1.79% daily change. Technical indicators largely confirm a deteriorating sentiment and momentum. The Relative Strength Index (RSI) at 32.51 is approaching oversold territory, signaling weakening bullish momentum and intensifying selling pressure. Similarly, the Money Flow Index (MFI) at 40.91 indicates net capital outflow, reinforcing bearish sentiment and a lack of significant buying interest. While the On-Balance Volume (OBV) stands at 421,318,656, the overall picture suggests a market under considerable pressure, with sentiment firmly on the bearish side as it nears a potential inflection point where a technical rebound might be considered, though not yet confirmed.",
-    "change_pct": -1.79,
+    "commentary": "The stock market experienced a notable decline today, dropping by 1.71%. This significant pullback is underscored by several key technical indicators suggesting strong bearish sentiment and downward momentum. The Relative Strength Index (RSI) at 28.03 and the Money Flow Index (MFI) at 33.86 both fall into deeply oversold territory, indicating that selling pressure has been substantial and money is actively flowing out of the market. While the On-Balance Volume (OBV) at 328,554,848 represents significant cumulative trading activity, its absolute value in isolation doesn't provide specific directional confirmation without historical context. However, the clear signals from the RSI and MFI collectively point to a market currently dominated by sellers, reflecting a prevailing pessimistic outlook and significant downward momentum.",
+    "change_pct": -1.71,
     "technicalIndicators": {
       "rsi": [
-        [
-          1758931200000,
-          null
-        ],
         [
           1759017600000,
           null
@@ -747,13 +743,13 @@
         [
           1774483200000,
           32.51
+        ],
+        [
+          1774569600000,
+          28.03
         ]
       ],
       "mfi": [
-        [
-          1758931200000,
-          null
-        ],
         [
           1759017600000,
           null
@@ -1473,13 +1469,13 @@
         [
           1774483200000,
           40.91
+        ],
+        [
+          1774569600000,
+          33.86
         ]
       ],
       "obv": [
-        [
-          1758931200000,
-          null
-        ],
         [
           1759017600000,
           null
@@ -2199,6 +2195,10 @@
         [
           1774483200000,
           421318656.0
+        ],
+        [
+          1774569600000,
+          328554848.0
         ]
       ]
     },
@@ -2215,7 +2215,7 @@
       -1.95,
       -1.54,
       -2.07,
-      -0.54,
+      -2.23,
       null,
       null,
       null,
