@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.1275,
-  "change_pct": -1.7,
-  "insights": "The Health Care sector experienced a notable downturn today, declining by 1.70%. This sharp decline was strongly corroborated by key technical indicators: both the RSI at 27.04 and MFI at 21.10 are deep within oversold territory, signaling significant bearish momentum and substantial money outflow from the sector. Furthermore, the significantly negative OBV reading of -96,715,384 confirms that the price depreciation was accompanied by heavy selling volume, adding conviction to the downtrend. Collectively, these metrics indicate a sector under considerable selling pressure, albeit reaching levels that *could* precede a technical bounce given the extreme oversold conditions.",
+  "change_pct": 0.39,
+  "insights": "Despite a modest daily gain of 0.39% today, the Health Care sector exhibits significant underlying weakness according to its key technical indicators. The Relative Strength Index (RSI) at 29.59 and the Money Flow Index (MFI) at 13.17 both indicate deeply oversold conditions and substantial money outflow, suggesting recent sustained selling pressure has pushed valuations lower. This is further corroborated by a highly negative On-Balance Volume (OBV) of -81926982, signaling that volume on down days has overwhelmingly outweighed volume on up days. While technically ripe for a potential rebound due to oversold levels, the overall momentum and money flow dynamics suggest caution, as bears appear to remain in control.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759017600000,
-        null
-      ],
-      [
-        1759104000000,
-        47.67
-      ],
-      [
-        1759190400000,
-        59.59
-      ],
       [
         1759276800000,
         69.44
@@ -747,21 +735,21 @@
       [
         1774569600000,
         27.04
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1759017600000,
+        1774656000000,
         null
       ],
       [
-        1759104000000,
-        42.7
+        1774742400000,
+        null
       ],
       [
-        1759190400000,
-        52.98
-      ],
+        1774828800000,
+        29.59
+      ]
+    ],
+    "mfi": [
       [
         1759276800000,
         55.11
@@ -1473,21 +1461,21 @@
       [
         1774569600000,
         21.1
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1759017600000,
+        1774656000000,
         null
       ],
       [
-        1759104000000,
-        23272147.0
+        1774742400000,
+        null
       ],
       [
-        1759190400000,
-        42585647.0
-      ],
+        1774828800000,
+        13.17
+      ]
+    ],
+    "obv": [
       [
         1759276800000,
         66243547.0
@@ -2199,6 +2187,18 @@
       [
         1774569600000,
         -96715384.0
+      ],
+      [
+        1774656000000,
+        null
+      ],
+      [
+        1774742400000,
+        null
+      ],
+      [
+        1774828800000,
+        -81926982.0
       ]
     ]
   },
@@ -2216,7 +2216,7 @@
     -1.97,
     -2.98,
     -1.42,
-    null,
+    0.39,
     null,
     null,
     null,

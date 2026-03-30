@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-29T21:14:17.419435Z",
+  "lastUpdated": "2026-03-30T21:25:47.881288Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a significant decline today, falling by -1.71%, indicating a strong bearish session. Key technical indicators reinforce this negative sentiment: the Relative Strength Index (RSI) at 28.03 is deep in oversold territory, suggesting intense selling pressure that could eventually lead to a short-term bounce, but currently reflects extreme weakness. Similarly, the Money Flow Index (MFI) at 33.86 confirms money is flowing out of the market, nearing oversold conditions and highlighting widespread selling. While the On-Balance Volume (OBV) of 328,554,848's daily change isn't provided, its magnitude on such a down day typically signifies substantial selling volume behind the price decline. Collectively, these figures point to a market dominated by strong bearish momentum and negative sentiment, with prices potentially stretched to the downside.",
-    "change_pct": -1.71,
+    "commentary": "Overall, the stock market experienced a modest decline of -0.33% today, with key technical indicators painting a clear picture of strong selling pressure and bearish sentiment. The Relative Strength Index (RSI) at 27.25 and Money Flow Index (MFI) at 27.36 are both deep in oversold territory (below 30), signaling a significant outflow of capital and a pronounced lack of buying interest. While the On-Balance Volume (OBV) reflects current volume dynamics, its context alongside these oversold signals suggests recent volume has been predominantly bearish, further confirming the downside momentum. This confluence of data indicates market sentiment is firmly in bear territory, though such oversold conditions can sometimes precede a short-term technical rebound.",
+    "change_pct": -0.33,
     "technicalIndicators": {
       "rsi": [
-        [
-          1759017600000,
-          null
-        ],
-        [
-          1759104000000,
-          63.71
-        ],
-        [
-          1759190400000,
-          66.11
-        ],
         [
           1759276800000,
           68.18
@@ -747,21 +735,21 @@
         [
           1774569600000,
           28.03
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1759017600000,
+          1774656000000,
           null
         ],
         [
-          1759104000000,
-          62.99
+          1774742400000,
+          null
         ],
         [
-          1759190400000,
-          63.32
-        ],
+          1774828800000,
+          27.25
+        ]
+      ],
+      "mfi": [
         [
           1759276800000,
           63.45
@@ -1473,21 +1461,21 @@
         [
           1774569600000,
           33.86
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1759017600000,
+          1774656000000,
           null
         ],
         [
-          1759104000000,
-          621709902.0
+          1774742400000,
+          null
         ],
         [
-          1759190400000,
-          707997902.0
-        ],
+          1774828800000,
+          27.36
+        ]
+      ],
+      "obv": [
         [
           1759276800000,
           780543302.0
@@ -2199,6 +2187,18 @@
         [
           1774569600000,
           328554848.0
+        ],
+        [
+          1774656000000,
+          null
+        ],
+        [
+          1774742400000,
+          null
+        ],
+        [
+          1774828800000,
+          236078619.0
         ]
       ]
     },
@@ -2216,7 +2216,7 @@
       -1.54,
       -2.07,
       -2.23,
-      null,
+      -0.33,
       null,
       null,
       null,
