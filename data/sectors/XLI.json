@@ -1,33 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that produce capital goods, provide commercial and industrial services, and engage in various forms of transportation.",
-    "marketSizeUSD": "3.9T",
-    "constituentCount": 75,
+    "description": "The Industrials sector includes companies that manufacture and distribute capital goods, provide commercial and industrial services, and offer transportation services.",
+    "marketSizeUSD": "4.2T",
+    "constituentCount": 74,
     "topHoldings": [
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "Union Pacific Corp.",
-        "symbol": "UNP"
+        "name": "GE Aerospace",
+        "symbol": "GE"
       },
       {
-        "name": "RTX Corporation",
-        "symbol": "RTX"
+        "name": "Honeywell International Inc.",
+        "symbol": "HON"
       }
     ]
   },
-  "market_weight": 0.0789,
-  "change_pct": -1.63,
-  "insights": "The Industrials sector experienced a notable decline of -1.63% today, reflecting significant selling pressure. Key technical indicators reinforce this weakness: the Relative Strength Index (RSI) at 28.46 and Money Flow Index (MFI) at 26.53 both signal the sector has entered technically oversold conditions, indicating a substantial outflow of capital. While On-Balance Volume (OBV) stands at 158,959,230, its underlying downward trajectory today, coupled with the oversold momentum indicators, suggests the price depreciation was accompanied by considerable selling volume, confirming the bearish sentiment for the day.",
+  "market_weight": 0.0829,
+  "change_pct": 3.27,
+  "insights": "The Industrials sector demonstrated strong momentum today, closing up an impressive 3.27%. Technically, the Relative Strength Index (RSI) at 41.83 suggests the sector is not yet overbought, indicating potential for further upside despite the sharp daily move. However, the Money Flow Index (MFI) at 33.88, while showing an uptick in buying interest, suggests that money flow hasn't reached deeply aggressive accumulation levels yet, hinting at a potentially nascent stage for broader inflows. The robust On-Balance Volume (OBV) of 174,743,402 generally confirms that today's price surge was accompanied by supportive buying volume. This combination points to a strong daily rally that isn't immediately overextended by momentum, but warrants continued observation of sustained money flow.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759276800000,
-        57.4
-      ],
       [
         1759363200000,
         58.94
@@ -747,13 +743,13 @@
       [
         1774828800000,
         28.46
+      ],
+      [
+        1774915200000,
+        41.83
       ]
     ],
     "mfi": [
-      [
-        1759276800000,
-        51.3
-      ],
       [
         1759363200000,
         58.51
@@ -1473,13 +1469,13 @@
       [
         1774828800000,
         26.53
+      ],
+      [
+        1774915200000,
+        33.88
       ]
     ],
     "obv": [
-      [
-        1759276800000,
-        7159353.0
-      ],
       [
         1759363200000,
         15654753.0
@@ -2199,6 +2195,10 @@
       [
         1774828800000,
         158959230.0
+      ],
+      [
+        1774915200000,
+        174743402.0
       ]
     ]
   },
@@ -2216,7 +2216,7 @@
     -3.1,
     -1.81,
     -1.53,
-    -1.63,
+    1.59,
     null,
     null,
     null,

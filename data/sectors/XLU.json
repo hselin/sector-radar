@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector includes companies primarily engaged in the generation, transmission, and distribution of electricity, gas, and water, alongside renewable energy producers.",
-    "marketSizeUSD": "1.1T",
-    "constituentCount": 29,
+    "description": "The Utilities sector encompasses companies providing essential services like electricity, natural gas, water, and sometimes renewable energy, characterized by stable demand and regulatory oversight.",
+    "marketSizeUSD": "1.45T",
+    "constituentCount": 30,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0223,
-  "change_pct": 0.72,
-  "insights": "The Utilities sector posted a modest gain of 0.72% today, indicating a positive but not exceptionally strong daily performance. From a technical perspective, the Relative Strength Index (RSI) at 49.15 and Money Flow Index (MFI) at 52.88 both hover near the neutral 50 mark, suggesting that despite the daily advance, the sector is neither significantly overbought nor oversold, and money flow is only slightly positive. The positive price movement likely corresponded with an increase in On-Balance Volume (OBV), confirming that buying interest supported today's upward move without indicating a strong, new directional trend or aggressive accumulation.",
+  "market_weight": 0.0286,
+  "change_pct": -0.07,
+  "insights": "Today, the Utilities sector demonstrated remarkable stability with a marginal decline of -0.07%. This largely neutral daily movement is consistently reflected in its key technical indicators: the Relative Strength Index (RSI) at 48.85 and the Money Flow Index (MFI) at 49.84 both hover around the 50-mark, indicating balanced momentum and money flow with no strong overbought or oversold conditions. While the On-Balance Volume (OBV) stands at 341,403,121, signifying substantial cumulative buying pressure historically, the near-flat price action suggests any daily change in OBV was negligible, reinforcing the theme of subdued activity and a lack of significant directional conviction for the sector today.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759276800000,
-        67.69
-      ],
       [
         1759363200000,
         66.22
@@ -747,13 +743,13 @@
       [
         1774828800000,
         49.15
+      ],
+      [
+        1774915200000,
+        48.85
       ]
     ],
     "mfi": [
-      [
-        1759276800000,
-        70.49
-      ],
       [
         1759363200000,
         63.02
@@ -1473,13 +1469,13 @@
       [
         1774828800000,
         52.88
+      ],
+      [
+        1774915200000,
+        49.84
       ]
     ],
     "obv": [
-      [
-        1759276800000,
-        220150837.0
-      ],
       [
         1759363200000,
         208826537.0
@@ -2199,6 +2195,10 @@
       [
         1774828800000,
         384082451.0
+      ],
+      [
+        1774915200000,
+        341403121.0
       ]
     ]
   },
@@ -2216,7 +2216,7 @@
     0.47,
     -4.92,
     2.11,
-    0.72,
+    0.66,
     null,
     null,
     null,

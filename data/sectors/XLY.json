@@ -1,33 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses companies that provide non-essential goods and services, whose demand is highly sensitive to the business cycle and consumer income.",
-    "marketSizeUSD": "5.8T",
-    "constituentCount": 54,
+    "description": "The Consumer Discretionary sector comprises companies that sell non-essential goods and services, which consumers purchase when they have disposable income.",
+    "marketSizeUSD": "5.0T",
+    "constituentCount": 55,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc.",
+        "name": "Amazon.com, Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc.",
+        "name": "Tesla, Inc.",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot Inc.",
+        "name": "The Home Depot, Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1174,
-  "change_pct": -0.02,
-  "insights": "The Consumer Discretionary sector saw a largely flat day, declining a marginal -0.02%. Despite this minimal daily movement, key technical indicators point to persistent underlying weakness. Both the RSI at 29.79 and MFI at 27.11 are firmly in oversold territory, signaling significant recent selling pressure and money outflow. The substantially negative OBV further reinforces that selling volume has largely dominated, suggesting that today's flat performance may represent a temporary pause amidst a period of sustained bearish sentiment rather than a definitive reversal.",
+  "market_weight": 0.0987,
+  "change_pct": 3.14,
+  "insights": "The Consumer Discretionary sector posted a strong daily performance, advancing by 3.14%, indicating significant buying interest today. However, key technical indicators suggest this rally may be occurring within a broader context of underlying weakness. The Relative Strength Index (RSI) at 41.34 and Money Flow Index (MFI) at 37.71 are both below the neutral 50-mark, suggesting that despite today's gain, the sector's momentum and money flow over the typical look-back period remain relatively subdued, not yet signaling strong conviction buying or an escape from a weaker trend. Furthermore, the significantly negative On-Balance Volume (OBV) of -51,289,844 indicates that volume on down days has substantially outweighed volume on up days cumulatively, reinforcing that distribution has generally outpaced accumulation, even with today's positive price action.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759276800000,
-        59.95
-      ],
       [
         1759363200000,
         55.67
@@ -747,13 +743,13 @@
       [
         1774828800000,
         29.79
+      ],
+      [
+        1774915200000,
+        41.34
       ]
     ],
     "mfi": [
-      [
-        1759276800000,
-        54.29
-      ],
       [
         1759363200000,
         47.39
@@ -1473,13 +1469,13 @@
       [
         1774828800000,
         27.11
+      ],
+      [
+        1774915200000,
+        37.71
       ]
     ],
     "obv": [
-      [
-        1759276800000,
-        24638815.0
-      ],
       [
         1759363200000,
         18043115.0
@@ -2199,6 +2195,10 @@
       [
         1774828800000,
         -69625801.0
+      ],
+      [
+        1774915200000,
+        -51289844.0
       ]
     ]
   },
@@ -2216,7 +2216,7 @@
     -3.14,
     -2.81,
     -1.91,
-    -0.02,
+    3.12,
     null,
     null,
     null,

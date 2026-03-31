@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-30T21:25:47.881288Z",
+  "lastUpdated": "2026-03-31T21:27:58.086690Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Overall, the stock market experienced a modest decline of -0.33% today, with key technical indicators painting a clear picture of strong selling pressure and bearish sentiment. The Relative Strength Index (RSI) at 27.25 and Money Flow Index (MFI) at 27.36 are both deep in oversold territory (below 30), signaling a significant outflow of capital and a pronounced lack of buying interest. While the On-Balance Volume (OBV) reflects current volume dynamics, its context alongside these oversold signals suggests recent volume has been predominantly bearish, further confirming the downside momentum. This confluence of data indicates market sentiment is firmly in bear territory, though such oversold conditions can sometimes precede a short-term technical rebound.",
-    "change_pct": -0.33,
+    "commentary": "Commentary could not be generated due to a persistent network error.",
+    "change_pct": 2.91,
     "technicalIndicators": {
       "rsi": [
-        [
-          1759276800000,
-          68.18
-        ],
         [
           1759363200000,
           68.87
@@ -747,13 +743,13 @@
         [
           1774828800000,
           27.25
+        ],
+        [
+          1774915200000,
+          42.24
         ]
       ],
       "mfi": [
-        [
-          1759276800000,
-          63.45
-        ],
         [
           1759363200000,
           62.95
@@ -1473,13 +1469,13 @@
         [
           1774828800000,
           27.36
+        ],
+        [
+          1774915200000,
+          36.44
         ]
       ],
       "obv": [
-        [
-          1759276800000,
-          780543302.0
-        ],
         [
           1759363200000,
           837439302.0
@@ -2199,6 +2195,10 @@
         [
           1774828800000,
           236078619.0
+        ],
+        [
+          1774915200000,
+          387255945.0
         ]
       ]
     },
@@ -2216,7 +2216,7 @@
       -1.54,
       -2.07,
       -2.23,
-      -0.33,
+      2.56,
       null,
       null,
       null,

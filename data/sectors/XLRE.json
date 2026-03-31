@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector comprises companies that own, develop, and manage income-generating real estate, including Real Estate Investment Trusts (REITs), but excludes mortgage REITs.",
-    "marketSizeUSD": "1.6T",
+    "description": "The Real Estate GICS sector primarily comprises Equity Real Estate Investment Trusts (REITs) and other companies engaged in real estate management, development, and operation.",
+    "marketSizeUSD": "1.3T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0324,
-  "change_pct": 0.5,
-  "insights": "Today, the Real Estate sector showed a modest positive movement with a 0.50% gain. However, this minor uptick appears to be a counter-trend within a broader context of technical weakness. The Relative Strength Index (RSI) at 29.44 and the Money Flow Index (MFI) at 26.04 both indicate the sector is deeply oversold, suggesting sustained selling pressure and a lack of significant capital inflow despite the day's marginal gain. The On-Balance Volume (OBV) of 92,933,206 reflects the cumulative buying and selling pressure, and when viewed with the other indicators, highlights that while the sector saw a slight recovery today, the underlying sentiment remains cautious and points to an oversold condition.",
+  "market_weight": 0.0257,
+  "change_pct": 1.54,
+  "insights": "The Real Estate sector posted a strong 1.54% gain today, signaling positive daily sentiment. However, a deeper look at key technical indicators suggests a more complex trend. The Relative Strength Index (RSI) at 39.77 and Money Flow Index (MFI) at 34.33 both reside in the lower-neutral territory, indicating that despite today's rally, the sector is not yet experiencing strong, sustained buying momentum or significant money inflow over a broader period, and remains far from overbought conditions. The On-Balance Volume (OBV) of 106,273,165, which would have increased today, confirms that the positive price movement was supported by volume, lending credence to the day's upward push, though the other indicators caution against extrapolating a robust, long-term bullish trend without further confirmation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759276800000,
-        53.83
-      ],
       [
         1759363200000,
         49.93
@@ -747,13 +743,13 @@
       [
         1774828800000,
         29.44
+      ],
+      [
+        1774915200000,
+        39.77
       ]
     ],
     "mfi": [
-      [
-        1759276800000,
-        49.15
-      ],
       [
         1759363200000,
         42.53
@@ -1473,13 +1469,13 @@
       [
         1774828800000,
         26.04
+      ],
+      [
+        1774915200000,
+        34.33
       ]
     ],
     "obv": [
-      [
-        1759276800000,
-        -4188529.0
-      ],
       [
         1759363200000,
         -10580129.0
@@ -2199,6 +2195,10 @@
       [
         1774828800000,
         92933206.0
+      ],
+      [
+        1774915200000,
+        106273165.0
       ]
     ]
   },
@@ -2216,7 +2216,7 @@
     -1.49,
     -3.93,
     -1.43,
-    0.5,
+    2.05,
     null,
     null,
     null,
