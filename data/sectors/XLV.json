@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector includes companies involved in pharmaceuticals, biotechnology, life sciences tools & services, healthcare equipment & supplies, and healthcare providers & services.",
-    "marketSizeUSD": "6.3T",
-    "constituentCount": 64,
+    "description": "The Health Care GICS sector comprises companies that provide medical services or facilities, manufacture medical equipment and supplies, or develop pharmaceuticals and biotechnology products.",
+    "marketSizeUSD": "7.5T",
+    "constituentCount": 65,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group",
+        "name": "UnitedHealth Group Incorporated",
         "symbol": "UNH"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1244,
-  "change_pct": 1.94,
-  "insights": "The Health Care sector posted a strong daily gain of 1.94%, reflecting positive sentiment today. However, key technical indicators present a more nuanced picture. The Relative Strength Index (RSI) at 40.69 suggests the sector is not yet overbought despite the day's rally, indicating potential room for further upside from a momentum perspective. Conversely, the Money Flow Index (MFI) at 20.79 signals deeply oversold money flow, and the significantly negative On-Balance Volume (OBV) of -64,198,670 implies that today's price advance may not be fully supported by robust institutional buying volume, suggesting underlying weakness persists and today's move could be a short-term rebound rather than a confirmation of a sustained uptrend.",
+  "market_weight": 0.1463,
+  "change_pct": 0.76,
+  "insights": "The Health Care sector posted a modest 0.76% gain today, yet key technical indicators suggest underlying weakness. The RSI at 44.48 indicates a lack of strong bullish momentum, while the MFI at 28.22 points to significant money outflow, nearing oversold conditions. Furthermore, the deeply negative OBV confirms persistent selling pressure despite today's price uptick. Collectively, these indicators suggest that while the sector saw a daily rise, it is battling significant bearish sentiment and volume trends.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759363200000,
-        68.27
-      ],
       [
         1759449600000,
         71.3
@@ -747,13 +743,13 @@
       [
         1774915200000,
         40.69
+      ],
+      [
+        1775001600000,
+        44.48
       ]
     ],
     "mfi": [
-      [
-        1759363200000,
-        62.68
-      ],
       [
         1759449600000,
         69.95
@@ -1473,13 +1469,13 @@
       [
         1774915200000,
         20.79
+      ],
+      [
+        1775001600000,
+        28.22
       ]
     ],
     "obv": [
-      [
-        1759363200000,
-        51067347.0
-      ],
       [
         1759449600000,
         66896547.0
@@ -2199,6 +2195,10 @@
       [
         1774915200000,
         -64198670.0
+      ],
+      [
+        1775001600000,
+        -47329630.0
       ]
     ]
   },
@@ -2216,7 +2216,7 @@
     -1.97,
     -2.98,
     -1.42,
-    2.34,
+    3.12,
     null,
     null,
     null,

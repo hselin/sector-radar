@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector includes companies that discover, develop, and process raw materials, encompassing industries like chemicals, construction materials, metals and mining, paper and forest products, and containers and packaging.",
-    "marketSizeUSD": "1.8T",
+    "description": "The Materials sector includes companies that convert raw materials into a diverse range of products, encompassing industries like chemicals, construction materials, metals & mining, paper & forest products, and packaging.",
+    "marketSizeUSD": "1.2T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LIN"
       },
       {
-        "name": "The Sherwin-Williams Company",
+        "name": "Sherwin-Williams Co",
         "symbol": "SHW"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0355,
-  "change_pct": 1.79,
-  "insights": "The Materials sector exhibited strong positive momentum today, advancing by 1.79%. Technically, the Relative Strength Index (RSI) at 51.13 suggests the sector is in a neutral range, indicating that today's robust gain has not yet pushed it into overbought territory. This positive price action is further supported by a healthy Money Flow Index (MFI) of 56.41, signaling positive capital inflow, while the On-Balance Volume (OBV) at 87,992,640 confirms significant buying interest driving the sector's substantial daily performance.",
+  "market_weight": 0.0234,
+  "change_pct": 0.98,
+  "insights": "The Materials sector posted a positive performance today, gaining 0.98%. Key technical indicators support this upward movement without signaling an overheated market. The Relative Strength Index (RSI) at 54.43 and Money Flow Index (MFI) at 56.54 both sit above their neutral 50-marks, indicating sustained, albeit moderate, buying interest and positive money flow into the sector. Furthermore, the On-Balance Volume (OBV) at 107,926,301 suggests that today's price appreciation was accompanied by healthy volume, reinforcing the validity of the gain. Overall, the sector's daily movement appears well-supported by underlying technical strength.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759363200000,
-        47.74
-      ],
       [
         1759449600000,
         48.64
@@ -747,13 +743,13 @@
       [
         1774915200000,
         51.13
+      ],
+      [
+        1775001600000,
+        54.43
       ]
     ],
     "mfi": [
-      [
-        1759363200000,
-        49.53
-      ],
       [
         1759449600000,
         55.85
@@ -1473,13 +1469,13 @@
       [
         1774915200000,
         56.41
+      ],
+      [
+        1775001600000,
+        56.54
       ]
     ],
     "obv": [
-      [
-        1759363200000,
-        18213265.0
-      ],
       [
         1759449600000,
         23127065.0
@@ -2199,6 +2195,10 @@
       [
         1774915200000,
         87992640.0
+      ],
+      [
+        1775001600000,
+        107926301.0
       ]
     ]
   },
@@ -2216,7 +2216,7 @@
     -1.34,
     -4.49,
     4.11,
-    2.17,
+    3.17,
     null,
     null,
     null,

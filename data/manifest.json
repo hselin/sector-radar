@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-03-31T21:27:58.086690Z",
+  "lastUpdated": "2026-04-01T21:27:02.605579Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Commentary could not be generated due to a persistent network error.",
-    "change_pct": 2.91,
+    "commentary": "The overall stock market posted a solid gain of 0.75% today, indicating a broad positive sentiment across equities. However, key technical indicators suggest a nuanced view on underlying momentum. The Relative Strength Index (RSI) at 45.47 and the Money Flow Index (MFI) at 43.71, both holding below the 50-level, indicate that while prices moved higher, the buying pressure and money flow are not exceptionally strong, hovering in neutral to slightly weaker territory. This suggests that today's upward movement might lack robust conviction from broader market participation, potentially indicating a market prone to consolidation rather than a strong directional breakout, despite the significant cumulative volume reflected by the On-Balance Volume (OBV) at 482,639,021.",
+    "change_pct": 0.75,
     "technicalIndicators": {
       "rsi": [
-        [
-          1759363200000,
-          68.87
-        ],
         [
           1759449600000,
           68.85
@@ -747,13 +743,13 @@
         [
           1774915200000,
           42.24
+        ],
+        [
+          1775001600000,
+          45.47
         ]
       ],
       "mfi": [
-        [
-          1759363200000,
-          62.95
-        ],
         [
           1759449600000,
           63.21
@@ -1473,13 +1469,13 @@
         [
           1774915200000,
           36.44
+        ],
+        [
+          1775001600000,
+          43.71
         ]
       ],
       "obv": [
-        [
-          1759363200000,
-          837439302.0
-        ],
         [
           1759449600000,
           766944902.0
@@ -2199,6 +2195,10 @@
         [
           1774915200000,
           387255945.0
+        ],
+        [
+          1775001600000,
+          482639021.0
         ]
       ]
     },
@@ -2216,7 +2216,7 @@
       -1.54,
       -2.07,
       -2.23,
-      2.56,
+      3.34,
       null,
       null,
       null,
