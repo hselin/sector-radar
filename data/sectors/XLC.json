@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0839,
-  "change_pct": 0.34,
-  "insights": "The Communication Services sector posted a modest gain of 0.34% today; however, key technical indicators suggest a nuanced picture. The Relative Strength Index (RSI) at 42.58 and Money Flow Index (MFI) at 46.09 both hover below the neutral 50-mark. This indicates that despite the daily uptick, there isn't strong buying momentum or significant money inflow driving the sector's performance, suggesting underlying caution or consolidation rather than a decisive upward move. The On-Balance Volume (OBV) at 119,354,869 reflects daily buying and selling pressure, and its context with the other indicators implies today's positive price action lacked robust volume confirmation or strong conviction.",
+  "change_pct": 0.41,
+  "insights": "The Communication Services sector registered a modest 0.41% gain today. However, key technical indicators suggest this uptick lacks strong conviction. The Relative Strength Index (RSI) at 44.47 and Money Flow Index (MFI) at 48.62 both remain below the neutral 50-mark, indicating momentum is balanced to slightly weak and money flow is not strongly bullish. While the On-Balance Volume (OBV) at 124,928,425 signifies substantial cumulative trading, its daily change would be key to confirm volume support for today's modest price appreciation. In summary, the sector closed slightly higher, but without strong technical confirmation of building upward momentum.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759449600000,
-        52.68
-      ],
       [
         1759536000000,
         null
@@ -747,13 +743,13 @@
       [
         1775001600000,
         42.58
+      ],
+      [
+        1775088000000,
+        44.47
       ]
     ],
     "mfi": [
-      [
-        1759449600000,
-        44.35
-      ],
       [
         1759536000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1775001600000,
         46.09
+      ],
+      [
+        1775088000000,
+        48.62
       ]
     ],
     "obv": [
-      [
-        1759449600000,
-        182474495.0
-      ],
       [
         1759536000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1775001600000,
         119354869.0
+      ],
+      [
+        1775088000000,
+        124928425.0
       ]
     ]
   },
@@ -2216,7 +2216,7 @@
     -2.56,
     -1.94,
     -4.62,
-    3.92,
+    4.35,
     null,
     null,
     null,
