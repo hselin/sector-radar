@@ -1,11 +1,15 @@
 {
-  "lastUpdated": "2026-04-04T21:13:52.640686Z",
+  "lastUpdated": "2026-04-05T21:14:15.294180Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
+      "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
       "marketSizeUSD": "48T",
-      "constituentCount": 503,
+      "constituentCount": 500,
       "topHoldings": [
+        {
+          "name": "NVIDIA Corporation",
+          "symbol": "NVDA"
+        },
         {
           "name": "Microsoft Corporation",
           "symbol": "MSFT"
@@ -13,14 +17,10 @@
         {
           "name": "Apple Inc.",
           "symbol": "AAPL"
-        },
-        {
-          "name": "NVIDIA Corporation",
-          "symbol": "NVDA"
         }
       ]
     },
-    "commentary": "The overall stock market saw a largely flat session today, closing with a marginal gain of 0.09%, indicating a lack of strong directional conviction. Key technical indicators reflect this equilibrium: the Relative Strength Index (RSI) at 45.86 and the Money Flow Index (MFI) at 44.24 both reside firmly in neutral territory, suggesting balanced momentum without any significant overbought or oversold conditions. While the On-Balance Volume (OBV) of 550,623,082 maintains a high positive value, hinting at underlying demand and accumulation over time, the current sentiment points towards a consolidation phase where buyers and sellers are in a delicate balance, awaiting fresh catalysts.",
+    "commentary": "The stock market concluded the day with a marginal gain of 0.09%, indicating a largely flat session characterized by investor indecision. Key technical indicators reflect this neutral sentiment. The Relative Strength Index (RSI) at 45.86 and the Money Flow Index (MFI) at 44.24 both hover in the neutral range, slightly below the 50-mark. This suggests a market lacking strong directional momentum, with neither significant buying nor selling pressure currently dominating, hinting at a mild lean towards waning buying interest or a slight increase in selling pressure without reaching oversold conditions. While the On-Balance Volume (OBV) registered at 550,623,082, without historical context, it primarily serves as a cumulative data point, further underscoring the current market's consolidation phase rather than a clear trend.",
     "change_pct": 0.09,
     "technicalIndicators": {
       "rsi": [
