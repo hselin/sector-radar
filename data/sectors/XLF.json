@@ -1,33 +1,29 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials GICS sector encompasses companies engaged in banking, diversified financial services, insurance, capital markets, and real estate, facilitating monetary and transactional services across the economy.",
-    "marketSizeUSD": "5.8T",
-    "constituentCount": 73,
+    "description": "The Financials sector encompasses a broad range of companies providing banking, insurance, investment, and real estate services, as well as diversified financial activities.",
+    "marketSizeUSD": "18T",
+    "constituentCount": 68,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
         "symbol": "BRK.B"
       },
       {
-        "name": "Visa Inc.",
-        "symbol": "V"
-      },
-      {
         "name": "JPMorgan Chase & Co.",
         "symbol": "JPM"
+      },
+      {
+        "name": "Visa Inc.",
+        "symbol": "V"
       }
     ]
   },
-  "market_weight": 0.1132,
-  "change_pct": 0.71,
-  "insights": "The Financials sector posted a modest positive performance today, gaining 0.71%. Technically, the Relative Strength Index (RSI) at 49.81 places the sector in a neutral zone, indicating it is neither overbought nor oversold and suggesting no immediate strong directional bias from momentum exhaustion. However, the Money Flow Index (MFI) at 62.14 suggests positive money flow into the sector, lending support to the day's price increase. Concurrently, the On-Balance Volume (OBV) confirming this positive price action with corresponding buying volume suggests the modest advance is being supported by genuine participation.",
+  "market_weight": 0.2857,
+  "change_pct": 0.0,
+  "insights": "The Financials sector today concluded with a perfectly flat performance, registering a 0.00% change, reflecting a day of balanced supply and demand. Technical indicators largely corroborate this equilibrium; the Relative Strength Index (RSI) is positioned neutrally at 49.81, suggesting neither overbought nor oversold conditions currently prevail. However, the Money Flow Index (MFI) at 61.36, being above the 50-mark, indicates a moderate inflow of money into the sector, hinting at some underlying buying interest despite the lack of price movement. The On-Balance Volume (OBV) at 153,052,348, considered alongside the positive MFI, suggests that while the price remained stagnant, there might have been subtle volume accumulation, potentially signifying a consolidation phase with an underlying bid within the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759881600000,
-        48.89
-      ],
       [
         1759968000000,
         46.19
@@ -747,13 +743,13 @@
       [
         1775433600000,
         49.81
+      ],
+      [
+        1775520000000,
+        49.81
       ]
     ],
     "mfi": [
-      [
-        1759881600000,
-        33.56
-      ],
       [
         1759968000000,
         34.64
@@ -1473,13 +1469,13 @@
       [
         1775433600000,
         62.14
+      ],
+      [
+        1775520000000,
+        61.36
       ]
     ],
     "obv": [
-      [
-        1759881600000,
-        47917354.0
-      ],
       [
         1759968000000,
         13994954.0
@@ -2199,6 +2195,10 @@
       [
         1775433600000,
         121828272.0
+      ],
+      [
+        1775520000000,
+        153052348.0
       ]
     ]
   },

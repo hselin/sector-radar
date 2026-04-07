@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies providing essential services like electricity, natural gas, water, and sometimes renewable energy, characterized by stable demand and regulatory oversight.",
-    "marketSizeUSD": "1.45T",
-    "constituentCount": 30,
+    "description": "The Utilities sector comprises companies that provide essential services such as electricity, natural gas, water, and often includes regulated power producers, distributors, and independent power companies.",
+    "marketSizeUSD": "1.6T",
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0283,
-  "change_pct": -0.37,
-  "insights": "The Utilities sector experienced a slight decline today, moving down -0.37%, indicating a minor pullback rather than a significant shift. Technical indicators suggest a relatively balanced yet mildly cautious sentiment. The Relative Strength Index (RSI) at 51.64 hovers near the neutral midpoint, signaling that the sector is neither strongly overbought nor oversold. However, the Money Flow Index (MFI) at 43.79, being below 50, suggests a slight prevalence of money flowing out, aligning with the modest price dip and implying mild selling pressure. While the On-Balance Volume (OBV) figure of 374,978,826 alone doesn't detail daily movement, the combined indicators suggest the sector's slight decline occurred without aggressive distribution, maintaining a somewhat stable underlying volume trend amidst mild profit-taking or decreased buying interest.",
+  "market_weight": 0.0254,
+  "change_pct": 0.22,
+  "insights": "The Utilities sector posted a modest gain of 0.22% today, reflecting a slight positive sentiment. Technical indicators present a nuanced view: the Relative Strength Index (RSI) at 52.80 suggests the sector is in a neutral zone, slightly favoring buyers but far from overbought, which aligns with the small daily price increment. However, the Money Flow Index (MFI) at 39.40 indicates relatively weak money inflow, suggesting that today's price gains were not supported by strong buying volume. The On-Balance Volume (OBV) at 387,868,313, when considered alongside the low MFI, further implies that while the sector saw a slight price uptick, it lacked robust, volume-backed conviction from institutional money.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759881600000,
-        77.0
-      ],
       [
         1759968000000,
         74.69
@@ -747,13 +743,13 @@
       [
         1775433600000,
         51.64
+      ],
+      [
+        1775520000000,
+        52.8
       ]
     ],
     "mfi": [
-      [
-        1759881600000,
-        86.3
-      ],
       [
         1759968000000,
         86.4
@@ -1473,13 +1469,13 @@
       [
         1775433600000,
         43.79
+      ],
+      [
+        1775520000000,
+        39.4
       ]
     ],
     "obv": [
-      [
-        1759881600000,
-        257751337.0
-      ],
       [
         1759968000000,
         246972637.0
@@ -2199,6 +2195,10 @@
       [
         1775433600000,
         374978826.0
+      ],
+      [
+        1775520000000,
+        387868313.0
       ]
     ]
   },
@@ -2217,7 +2217,7 @@
     -4.92,
     2.11,
     1.65,
-    -0.37,
+    -0.15,
     null,
     null,
     null,

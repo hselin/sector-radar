@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that sell non-essential goods and services, which consumers purchase when they have disposable income.",
-    "marketSizeUSD": "5.0T",
-    "constituentCount": 55,
+    "description": "The Consumer Discretionary GICS sector comprises companies that provide non-essential goods and services, including retail, automotive, hotels, restaurants, and leisure.",
+    "marketSizeUSD": "4.9T",
+    "constituentCount": 59,
     "topHoldings": [
       {
         "name": "Amazon.com, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0976,
-  "change_pct": 0.82,
-  "insights": "The Consumer Discretionary sector posted a modest gain of 0.82% today, indicating some positive daily price action. However, a deeper look at technical indicators suggests this movement may lack strong underlying conviction: both the RSI at 42.91 and MFI at 46.37 are below 50, placing them in neutral-to-weak territory and signaling that momentum and money flow are not robust. Furthermore, the significantly negative OBV of -39,189,908 points to persistent overall selling pressure dominating buying volume over time, suggesting today's uplift may be a short-term price movement against a backdrop of continued volume-based weakness.",
+  "market_weight": 0.0778,
+  "change_pct": -1.16,
+  "insights": "The Consumer Discretionary sector experienced a notable decline of -1.16% today, indicating a challenging session for related equities. This downward movement is technically supported by key indicators: the Relative Strength Index (RSI) at 40.07 suggests weakening momentum, trending towards oversold conditions, while the Money Flow Index (MFI) at 41.30 corroborates this with indications of net money flowing out of the sector. Furthermore, the significant negative On-Balance Volume (OBV) reading of -48,081,634 strongly confirms that today's price drop was accompanied by considerable selling pressure and net volume outflow, validating the session's bearish sentiment with strong conviction from sellers.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759881600000,
-        48.8
-      ],
       [
         1759968000000,
         46.5
@@ -747,13 +743,13 @@
       [
         1775433600000,
         42.91
+      ],
+      [
+        1775520000000,
+        40.07
       ]
     ],
     "mfi": [
-      [
-        1759881600000,
-        40.53
-      ],
       [
         1759968000000,
         33.3
@@ -1473,13 +1469,13 @@
       [
         1775433600000,
         46.37
+      ],
+      [
+        1775520000000,
+        41.3
       ]
     ],
     "obv": [
-      [
-        1759881600000,
-        12950415.0
-      ],
       [
         1759968000000,
         8071615.0
@@ -2199,6 +2195,10 @@
       [
         1775433600000,
         -39189908.0
+      ],
+      [
+        1775520000000,
+        -48081634.0
       ]
     ]
   },
@@ -2217,7 +2217,7 @@
     -2.81,
     -1.91,
     2.34,
-    0.82,
+    -0.35,
     null,
     null,
     null,

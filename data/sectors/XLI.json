@@ -1,16 +1,16 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that manufacture and distribute capital goods, provide commercial and industrial services, and offer transportation services.",
-    "marketSizeUSD": "4.2T",
-    "constituentCount": 74,
+    "description": "The Industrials sector includes companies that produce capital goods, provide commercial and professional services, and offer transportation services.",
+    "marketSizeUSD": "3.7T",
+    "constituentCount": 75,
     "topHoldings": [
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "GE Aerospace",
+        "name": "General Electric Company",
         "symbol": "GE"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.082,
-  "change_pct": 0.51,
-  "insights": "The Industrials sector registered a modest gain of 0.51% today, indicating slight positive sentiment but lacking strong conviction. Key technical indicators suggest this advance may not be broadly supported by overwhelming buying pressure; the Relative Strength Index (RSI) at 48.00 and Money Flow Index (MFI) at 41.54 both reside in neutral territory, leaning towards slightly weaker momentum rather than robust inflows. While On-Balance Volume (OBV) stands at 187,365,602, the sub-50 readings for RSI and MFI suggest the day's positive price movement was not accompanied by significant new capital entering the sector, implying a day of consolidation with a positive bias rather than a strong directional breakout.",
+  "market_weight": 0.0587,
+  "change_pct": -0.2,
+  "insights": "The Industrials sector concluded today with a modest decline of -0.20%, signaling a largely neutral session with a slight bearish bias. Technical indicators largely corroborate this subdued performance: The RSI at 47.34 sits comfortably in neutral territory, suggesting neither overbought nor oversold conditions and a lack of strong momentum in either direction. However, the MFI at 35.60, trending towards the lower end of its range, points to a slight prevalence of money flowing out of the sector, hinting at some underlying selling pressure despite the minimal price movement. While the OBV at 177,521,263 reflects significant historical accumulation, today's negative price action would have contributed a slight decrease to this cumulative volume, aligning with the day's mild negative sentiment rather than a decisive shift.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759881600000,
-        62.46
-      ],
       [
         1759968000000,
         51.11
@@ -747,13 +743,13 @@
       [
         1775433600000,
         48.0
+      ],
+      [
+        1775520000000,
+        47.34
       ]
     ],
     "mfi": [
-      [
-        1759881600000,
-        65.18
-      ],
       [
         1759968000000,
         56.77
@@ -1473,13 +1469,13 @@
       [
         1775433600000,
         41.54
+      ],
+      [
+        1775520000000,
+        35.6
       ]
     ],
     "obv": [
-      [
-        1759881600000,
-        28427653.0
-      ],
       [
         1759968000000,
         18676453.0
@@ -2199,6 +2195,10 @@
       [
         1775433600000,
         187365602.0
+      ],
+      [
+        1775520000000,
+        177521263.0
       ]
     ]
   },
@@ -2217,7 +2217,7 @@
     -1.81,
     -1.53,
     2.87,
-    0.51,
+    0.31,
     null,
     null,
     null,

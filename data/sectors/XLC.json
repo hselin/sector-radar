@@ -1,33 +1,29 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies that provide telecommunication services, media and entertainment content, and interactive media and services.",
-    "marketSizeUSD": "4.3T",
+    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment, interactive media, and other communication-related services.",
+    "marketSizeUSD": "4.8T",
     "constituentCount": 23,
     "topHoldings": [
       {
-        "name": "Meta Platforms, Inc.",
-        "symbol": "META"
-      },
-      {
-        "name": "Alphabet Inc. (Class A)",
+        "name": "Alphabet Inc.",
         "symbol": "GOOGL"
       },
       {
-        "name": "Alphabet Inc. (Class C)",
-        "symbol": "GOOG"
+        "name": "Meta Platforms Inc.",
+        "symbol": "META"
+      },
+      {
+        "name": "Netflix Inc.",
+        "symbol": "NFLX"
       }
     ]
   },
-  "market_weight": 0.0839,
+  "market_weight": 0.0762,
   "change_pct": 0.05,
-  "insights": "The Communication Services sector saw a largely flat trading day, posting a minimal gain of 0.05%. This muted price action is consistent with its key technical indicators: both the RSI at 44.73 and MFI at 47.00 are hovering slightly below the neutral 50-mark, indicating a lack of strong buying momentum or significant money inflow and suggesting a neutral-to-slightly bearish sentiment. While the On-Balance Volume (OBV) at 128,675,089 reflects current cumulative buying pressure, the slight positive daily price change implies a modest net accumulation of volume for the day, though not enough to significantly shift the indecisive picture painted by the momentum oscillators. Overall, the sector appears to be consolidating without clear directional conviction from either buyers or sellers.",
+  "insights": "The Communication Services sector experienced a largely flat trading day, posting a modest gain of 0.05%. Technical indicators reflect this subdued activity; the Relative Strength Index (RSI) at 45.00 is firmly in the neutral zone, indicating neither overbought nor oversold conditions, and suggesting balanced momentum. Similarly, the Money Flow Index (MFI) at 40.95 points to limited money inflow, consistent with a lack of strong conviction from investors. While the On-Balance Volume (OBV) stands at 132,974,807, its value, likely showing only minor daily fluctuation given the price change, would mildly affirm the day's muted buying pressure rather than signaling significant accumulation or distribution. Overall, the sector's performance today suggests a period of consolidation with minimal directional momentum.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759881600000,
-        47.48
-      ],
       [
         1759968000000,
         43.67
@@ -747,13 +743,13 @@
       [
         1775433600000,
         44.73
+      ],
+      [
+        1775520000000,
+        45.0
       ]
     ],
     "mfi": [
-      [
-        1759881600000,
-        36.11
-      ],
       [
         1759968000000,
         28.9
@@ -1473,13 +1469,13 @@
       [
         1775433600000,
         47.0
+      ],
+      [
+        1775520000000,
+        40.95
       ]
     ],
     "obv": [
-      [
-        1759881600000,
-        177567295.0
-      ],
       [
         1759968000000,
         173533495.0
@@ -2199,6 +2195,10 @@
       [
         1775433600000,
         128675089.0
+      ],
+      [
+        1775520000000,
+        132974807.0
       ]
     ]
   },
@@ -2217,7 +2217,7 @@
     -1.94,
     -4.62,
     4.35,
-    0.05,
+    0.11,
     null,
     null,
     null,

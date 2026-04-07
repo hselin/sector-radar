@@ -1,7 +1,7 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector primarily comprises Equity Real Estate Investment Trusts (REITs) and other companies engaged in real estate management, development, and operation.",
+    "description": "The Real Estate GICS sector primarily comprises Equity Real Estate Investment Trusts (REITs) that own, develop, and manage income-generating properties, alongside Real Estate Management & Development companies, excluding mortgage REITs.",
     "marketSizeUSD": "1.3T",
     "constituentCount": 31,
     "topHoldings": [
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0254,
-  "change_pct": 0.36,
-  "insights": "The Real Estate sector experienced a modest gain of 0.36% today, closing slightly higher. However, key technical indicators suggest this upward movement lacked strong conviction: the Relative Strength Index (RSI) at 52.03 resides in neutral territory, indicating no significant momentum. More notably, the Money Flow Index (MFI) at 38.69 points to a continued net outflow of funds, suggesting that selling pressure persisted despite the price uptick. While On-Balance Volume (OBV) registers at 129,448,837, its quality in supporting the day's gain is tempered by the weak MFI, implying the sector's daily appreciation was likely driven by cautious buying rather than robust, broad-based investor interest.",
+  "market_weight": 0.0206,
+  "change_pct": -0.1,
+  "insights": "The Real Estate sector experienced a largely flat trading session today, with a minimal -0.10% decline. Technical indicators paint a nuanced picture: the Relative Strength Index (RSI) at 51.51 suggests near-neutral momentum, lacking strong directional conviction. More notably, the Money Flow Index (MFI) at 34.73 indicates a clear underlying outflow of capital, suggesting subtle selling pressure despite the minimal price change. The On-Balance Volume (OBV) at 124,120,866, as a cumulative measure, would reflect this mild distribution, aligning with the day's slight negative movement and indicating that selling volume likely edged out buying volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759881600000,
-        40.94
-      ],
       [
         1759968000000,
         38.4
@@ -747,13 +743,13 @@
       [
         1775433600000,
         52.03
+      ],
+      [
+        1775520000000,
+        51.51
       ]
     ],
     "mfi": [
-      [
-        1759881600000,
-        38.94
-      ],
       [
         1759968000000,
         39.47
@@ -1473,13 +1469,13 @@
       [
         1775433600000,
         38.69
+      ],
+      [
+        1775520000000,
+        34.73
       ]
     ],
     "obv": [
-      [
-        1759881600000,
-        -22681829.0
-      ],
       [
         1759968000000,
         -27198929.0
@@ -2199,6 +2195,10 @@
       [
         1775433600000,
         129448837.0
+      ],
+      [
+        1775520000000,
+        124120866.0
       ]
     ]
   },
@@ -2217,7 +2217,7 @@
     -3.93,
     -1.43,
     4.0,
-    0.36,
+    0.26,
     null,
     null,
     null,

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-06T21:23:20.756013Z",
+  "lastUpdated": "2026-04-07T21:31:12.500700Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a modest gain of 0.47%, indicating a generally positive but not exceptionally strong trading session. Key technical indicators suggest a nuanced sentiment: the Relative Strength Index (RSI) at 47.98 and the Money Flow Index (MFI) at 42.23 both register slightly below the neutral 50-mark. This proximity to neutral, yet leaning slightly lower, implies that while prices advanced, the underlying buying momentum and money flow are not overwhelmingly robust and suggest a more balanced, or even consolidating, market sentiment rather than strong conviction. The On-Balance Volume (OBV) at 585898400, in conjunction with the positive price movement, generally confirms participation accompanying the price rise, but the momentum oscillators point towards cautious optimism rather than aggressive buying.",
-    "change_pct": 0.47,
+    "commentary": "The overall stock market experienced a nearly flat performance today, registering a marginal gain of 0.04%, indicative of a cautious and largely directionless session. Technical analysis reveals a nuanced picture of sentiment and momentum: the Relative Strength Index (RSI) at 48.18 hovers near the neutral centerline, suggesting no immediate overbought or oversold conditions and balanced price action. However, the Money Flow Index (MFI) at 37.29 signals notably weak buying pressure and a potential money outflow, pointing to a bearish tilt in short-term sentiment and a lack of conviction among buyers. While the On-Balance Volume (OBV) stands at a substantial cumulative 649,338,811, the combination of negligible price movement and a subdued MFI suggests that current market momentum is weak, with investors demonstrating hesitancy rather than strong directional commitment.",
+    "change_pct": 0.04,
     "technicalIndicators": {
       "rsi": [
-        [
-          1759881600000,
-          69.7
-        ],
         [
           1759968000000,
           65.72
@@ -747,13 +743,13 @@
         [
           1775433600000,
           47.98
+        ],
+        [
+          1775520000000,
+          48.18
         ]
       ],
       "mfi": [
-        [
-          1759881600000,
-          69.66
-        ],
         [
           1759968000000,
           61.97
@@ -1473,13 +1469,13 @@
         [
           1775433600000,
           42.23
+        ],
+        [
+          1775520000000,
+          37.29
         ]
       ],
       "obv": [
-        [
-          1759881600000,
-          810250302.0
-        ],
         [
           1759968000000,
           743748402.0
@@ -2199,6 +2195,10 @@
         [
           1775433600000,
           585898400.0
+        ],
+        [
+          1775520000000,
+          649338811.0
         ]
       ]
     },
@@ -2217,7 +2217,7 @@
       -2.07,
       -2.23,
       3.43,
-      0.47,
+      0.52,
       null,
       null,
       null,
