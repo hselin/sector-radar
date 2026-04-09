@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-07T21:31:12.500700Z",
+  "lastUpdated": "2026-04-09T21:30:31.794458Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,18 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a nearly flat performance today, registering a marginal gain of 0.04%, indicative of a cautious and largely directionless session. Technical analysis reveals a nuanced picture of sentiment and momentum: the Relative Strength Index (RSI) at 48.18 hovers near the neutral centerline, suggesting no immediate overbought or oversold conditions and balanced price action. However, the Money Flow Index (MFI) at 37.29 signals notably weak buying pressure and a potential money outflow, pointing to a bearish tilt in short-term sentiment and a lack of conviction among buyers. While the On-Balance Volume (OBV) stands at a substantial cumulative 649,338,811, the combination of negligible price movement and a subdued MFI suggests that current market momentum is weak, with investors demonstrating hesitancy rather than strong directional commitment.",
-    "change_pct": 0.04,
+    "commentary": "The stock market closed the day with a modest but positive gain of 0.58%, signaling a generally favorable session for equities. Technical indicators provide a nuanced view of market sentiment and momentum. The Relative Strength Index (RSI) at 60.32 suggests healthy bullish momentum is in play, with the market not yet in overbought territory, implying potential for further upside. However, the Money Flow Index (MFI) at 50.46 indicates near-neutral money flow, suggesting that while prices are rising, the conviction or pace of new capital entering the market might be only marginally positive. The substantial On-Balance Volume (OBV) of 799213083, consistent with the day's upward price movement, broadly confirms that buying pressure is outpacing selling, providing underlying support to the current trend despite some mixed signals on the strength of capital inflow.",
+    "change_pct": 0.58,
     "technicalIndicators": {
       "rsi": [
-        [
-          1759968000000,
-          65.72
-        ],
-        [
-          1760054400000,
-          41.82
-        ],
         [
           1760140800000,
           null
@@ -747,17 +739,17 @@
         [
           1775520000000,
           48.18
+        ],
+        [
+          1775606400000,
+          58.37
+        ],
+        [
+          1775692800000,
+          60.32
         ]
       ],
       "mfi": [
-        [
-          1759968000000,
-          61.97
-        ],
-        [
-          1760054400000,
-          50.46
-        ],
         [
           1760140800000,
           null
@@ -1473,17 +1465,17 @@
         [
           1775520000000,
           37.29
+        ],
+        [
+          1775606400000,
+          44.11
+        ],
+        [
+          1775692800000,
+          50.46
         ]
       ],
       "obv": [
-        [
-          1759968000000,
-          743748402.0
-        ],
-        [
-          1760054400000,
-          584325802.0
-        ],
         [
           1760140800000,
           null
@@ -2199,6 +2191,14 @@
         [
           1775520000000,
           649338811.0
+        ],
+        [
+          1775606400000,
+          742944911.0
+        ],
+        [
+          1775692800000,
+          799213083.0
         ]
       ]
     },
@@ -2217,7 +2217,7 @@
       -2.07,
       -2.23,
       3.43,
-      0.52,
+      3.67,
       null,
       null,
       null,

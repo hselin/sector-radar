@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector includes companies that convert raw materials into a diverse range of products, encompassing industries like chemicals, construction materials, metals & mining, paper & forest products, and packaging.",
-    "marketSizeUSD": "1.2T",
+    "description": "The Materials sector comprises companies involved in discovering, developing, and processing raw materials such as chemicals, construction materials, glass, paper, forest products, metals, and mining.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co",
+        "name": "The Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.019,
-  "change_pct": -0.28,
-  "insights": "The Materials sector experienced a modest decline of -0.28% today, indicating slight selling pressure but no significant directional shift. Key technical indicators largely support a neutral underlying sentiment: the Relative Strength Index (RSI) at 51.26 and the Money Flow Index (MFI) at 53.88 are both near their midpoints, suggesting the sector is neither overbought nor oversold, and money flow is balanced, not strongly confirming the daily price dip as a significant trend. The substantial On-Balance Volume (OBV) at 75,457,933 reflects significant cumulative buying interest over time, hinting at potential underlying support, though its specific daily change relative to today's price action would provide more immediate insight into confirmation or divergence.",
+  "market_weight": 0.029,
+  "change_pct": -0.15,
+  "insights": "The Materials sector experienced a largely flat day, with a marginal decline of -0.15%. Despite this slight dip, technical indicators suggest underlying strength and persistent investor interest. The Relative Strength Index (RSI) at 61.54 indicates the sector remains in a strong territory without being overbought, while the Money Flow Index (MFI) at a robust 69.28 highlights significant capital inflow, nearing overbought conditions. The substantial On-Balance Volume (OBV) of 82 million further confirms healthy trading activity. This combination implies that today's minor price correction likely occurred within an ongoing context of positive momentum and buying pressure for the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759968000000,
-        42.17
-      ],
-      [
-        1760054400000,
-        34.28
-      ],
       [
         1760140800000,
         null
@@ -747,17 +739,17 @@
       [
         1775520000000,
         51.26
+      ],
+      [
+        1775606400000,
+        62.26
+      ],
+      [
+        1775692800000,
+        61.54
       ]
     ],
     "mfi": [
-      [
-        1759968000000,
-        47.28
-      ],
-      [
-        1760054400000,
-        43.5
-      ],
       [
         1760140800000,
         null
@@ -1473,17 +1465,17 @@
       [
         1775520000000,
         53.88
+      ],
+      [
+        1775606400000,
+        60.94
+      ],
+      [
+        1775692800000,
+        69.28
       ]
     ],
     "obv": [
-      [
-        1759968000000,
-        12479965.0
-      ],
-      [
-        1760054400000,
-        1348665.0
-      ],
       [
         1760140800000,
         null
@@ -2199,6 +2191,14 @@
       [
         1775520000000,
         75457933.0
+      ],
+      [
+        1775606400000,
+        89643709.0
+      ],
+      [
+        1775692800000,
+        82015492.0
       ]
     ]
   },
@@ -2217,7 +2217,7 @@
     -4.49,
     4.11,
     3.07,
-    -0.65,
+    2.5,
     null,
     null,
     null,

@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector comprises companies that provide medical services or facilities, manufacture medical equipment and supplies, or develop pharmaceuticals and biotechnology products.",
-    "marketSizeUSD": "7.5T",
+    "description": "The Health Care sector comprises companies that provide medical services, manufacture medical equipment or drugs, or provide other health care-related services.",
+    "marketSizeUSD": "5.9T",
     "constituentCount": 65,
     "topHoldings": [
       {
-        "name": "Eli Lilly and Company",
+        "name": "Eli Lilly and Co",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Incorporated",
+        "name": "UnitedHealth Group Inc.",
         "symbol": "UNH"
       },
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.119,
-  "change_pct": 0.2,
-  "insights": "The Health Care sector posted a modest gain of 0.20% today. However, key technical indicators suggest a degree of underlying weakness despite the positive price movement. The Relative Strength Index (RSI) at 41.85 indicates a lack of strong buying momentum, remaining in the weaker half of the neutral zone. More notably, the Money Flow Index (MFI) at 24.47 points to significant money outflow and selling pressure. This sentiment is further reinforced by the substantially negative On-Balance Volume (OBV) of -55,652,060, suggesting that selling volume has largely outweighed buying volume. This divergence between a slight price increase and strong indications of money leaving the sector implies that today's positive movement may lack strong conviction and broad market support.",
+  "market_weight": 0.0952,
+  "change_pct": -0.23,
+  "insights": "The Health Care sector registered a modest decline of -0.23% today. Technically, the Relative Strength Index (RSI) at 51.03 indicates neutral price momentum, suggesting neither overbought nor oversold conditions despite the slight dip. However, the Money Flow Index (MFI) at 34.02 points towards capital actively exiting the sector, signaling underlying selling pressure that aligns with the negative daily movement. This is further corroborated by the significantly negative On-Balance Volume (OBV) of -53,952,834, which suggests that selling volume largely outweighed buying volume, reinforcing the bearish sentiment observed in today's trading.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1759968000000,
-        67.53
-      ],
-      [
-        1760054400000,
-        58.18
-      ],
       [
         1760140800000,
         null
@@ -747,17 +739,17 @@
       [
         1775520000000,
         41.85
+      ],
+      [
+        1775606400000,
+        52.09
+      ],
+      [
+        1775692800000,
+        51.03
       ]
     ],
     "mfi": [
-      [
-        1759968000000,
-        63.31
-      ],
-      [
-        1760054400000,
-        61.85
-      ],
       [
         1760140800000,
         null
@@ -1473,17 +1465,17 @@
       [
         1775520000000,
         24.47
+      ],
+      [
+        1775606400000,
+        29.19
+      ],
+      [
+        1775692800000,
+        34.02
       ]
     ],
     "obv": [
-      [
-        1759968000000,
-        67764147.0
-      ],
-      [
-        1760054400000,
-        54414047.0
-      ],
       [
         1760140800000,
         null
@@ -2199,6 +2191,14 @@
       [
         1775520000000,
         -55652060.0
+      ],
+      [
+        1775606400000,
+        -47595465.0
+      ],
+      [
+        1775692800000,
+        -53952834.0
       ]
     ]
   },
@@ -2217,7 +2217,7 @@
     -2.98,
     -1.42,
     2.48,
-    -0.16,
+    1.72,
     null,
     null,
     null,
