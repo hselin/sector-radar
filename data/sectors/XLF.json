@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.2903,
-  "change_pct": 0.25,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "change_pct": -1.09,
+  "insights": "The Financials sector saw a notable 1.09% decline today, indicating a period of selling pressure. However, underlying technical indicators suggest a more complex picture: while the RSI at 55.74 indicates momentum is still above neutral but not overbought, implying that the broader trend isn't necessarily collapsing, the Money Flow Index (MFI) at 67.39 is robust, signaling continued significant capital inflows into the sector despite today's price weakness. This suggests the daily dip could be a temporary pullback within a context of sustained buying interest. The high On-Balance Volume (OBV) of 164,633,818 reflects active cumulative trading pressure, further reinforcing the notion that strong interest persists despite the day's negative performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760140800000,
-        null
-      ],
       [
         1760227200000,
         null
@@ -747,13 +743,13 @@
       [
         1775692800000,
         61.53
+      ],
+      [
+        1775779200000,
+        55.74
       ]
     ],
     "mfi": [
-      [
-        1760140800000,
-        null
-      ],
       [
         1760227200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1775692800000,
         74.37
+      ],
+      [
+        1775779200000,
+        67.39
       ]
     ],
     "obv": [
-      [
-        1760140800000,
-        null
-      ],
       [
         1760227200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1775692800000,
         199654544.0
+      ],
+      [
+        1775779200000,
+        164633818.0
       ]
     ]
   },
@@ -2217,7 +2217,7 @@
     0.39,
     -2.59,
     3.6,
-    3.63,
+    2.5,
     null,
     null,
     null,
