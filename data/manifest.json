@@ -1,15 +1,11 @@
 {
-  "lastUpdated": "2026-04-11T21:14:11.335517Z",
+  "lastUpdated": "2026-04-12T21:15:55.138149Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "48T",
-      "constituentCount": 500,
+      "description": "A market-capitalization-weighted index comprising 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "47T",
+      "constituentCount": 503,
       "topHoldings": [
-        {
-          "name": "NVIDIA Corporation",
-          "symbol": "NVDA"
-        },
         {
           "name": "Microsoft Corporation",
           "symbol": "MSFT"
@@ -17,10 +13,14 @@
         {
           "name": "Apple Inc.",
           "symbol": "AAPL"
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "symbol": "NVDA"
         }
       ]
     },
-    "commentary": "The overall stock market experienced a marginal decline today, closing down a mere -0.07%, suggesting a largely unchanged or consolidative session. Despite this slight dip, key technical indicators point to a resilient underlying sentiment and positive momentum. The Relative Strength Index (RSI) at 59.97 and the Money Flow Index (MFI) at 58.09 are both comfortably in the upper-mid range, indicating healthy buying interest and sustained money flow into the market without showing signs of being overbought. This suggests that while prices saw a fractional pullback, the underlying demand remains robust. The On-Balance Volume (OBV) also reflects ongoing accumulation and underlying support, implying that broader market participation is constructive and any selling pressure was likely minor or profit-taking rather than a significant shift in sentiment. Overall, the market appears to be maintaining a generally bullish bias, consolidating recent moves rather than reversing direction.",
+    "commentary": "The broader stock market closed relatively flat today, posting a marginal decline of -0.07%. Key technical indicators suggest a moderately strong, yet not overheated, underlying market momentum. With the Relative Strength Index (RSI) at 59.97 and the Money Flow Index (MFI) at 58.09, both are in bullish territory but comfortably below overbought levels, indicating sustained buying interest and positive money flow without showing signs of extreme euphoria or imminent correction. The high On-Balance Volume (OBV) of 757,606,562 further reinforces cumulative buying pressure over time. Overall, market sentiment appears consolidative rather than decisively directional, with underlying strength despite the day's negligible negative close.",
     "change_pct": -0.07,
     "technicalIndicators": {
       "rsi": [
