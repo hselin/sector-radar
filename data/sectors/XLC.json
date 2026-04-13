@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.0774,
-  "change_pct": -0.28,
-  "insights": "The Communication Services sector experienced a modest decline of -0.28% today, indicating slight profit-taking or minor bearish pressure. Despite this minor price weakness, key technical indicators present a mixed but resilient picture: the Relative Strength Index (RSI) at 53.49 places the sector in neutral territory, avoiding both overbought and oversold conditions. More notably, the Money Flow Index (MFI) at 60.10 suggests a moderate net inflow of money into the sector, hinting at underlying buying interest even as prices softened. While On-Balance Volume (OBV) at 138,416,810 reflects active trading, the combination of a slight price dip with positive money flow (MFI) suggests potential consolidation or accumulation rather than a strong bearish trend for the day.",
+  "change_pct": 0.76,
+  "insights": "The Communication Services sector registered a positive performance today with a gain of 0.76%, reflecting generally bullish sentiment. Technical indicators support this upward movement: The RSI at 56.81 is in a healthy, neutral-to-bullish zone, suggesting momentum without being overbought and potential for continued appreciation. Similarly, the MFI at 58.63 indicates positive money flow into the sector, corroborating buying interest. While the OBV at 143,418,385 is a cumulative figure, its positive contribution on an up day confirms that today's price increase was largely supported by significant buying volume, lending conviction to the sector's daily performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760227200000,
-        null
-      ],
-      [
-        1760313600000,
-        40.96
-      ],
-      [
-        1760400000000,
-        45.33
-      ],
       [
         1760486400000,
         49.66
@@ -747,21 +735,21 @@
       [
         1775779200000,
         53.49
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1760227200000,
+        1775865600000,
         null
       ],
       [
-        1760313600000,
-        34.0
+        1775952000000,
+        null
       ],
       [
-        1760400000000,
-        40.65
-      ],
+        1776038400000,
+        56.81
+      ]
+    ],
+    "mfi": [
       [
         1760486400000,
         46.21
@@ -1473,21 +1461,21 @@
       [
         1775779200000,
         60.1
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1760227200000,
+        1775865600000,
         null
       ],
       [
-        1760313600000,
-        169431395.0
+        1775952000000,
+        null
       ],
       [
-        1760400000000,
-        174019295.0
-      ],
+        1776038400000,
+        58.63
+      ]
+    ],
+    "obv": [
       [
         1760486400000,
         178122795.0
@@ -2199,6 +2187,18 @@
       [
         1775779200000,
         138416810.0
+      ],
+      [
+        1775865600000,
+        null
+      ],
+      [
+        1775952000000,
+        null
+      ],
+      [
+        1776038400000,
+        143418385.0
       ]
     ]
   },
@@ -2218,7 +2218,7 @@
     -4.62,
     4.35,
     2.01,
-    null,
+    0.76,
     null,
     null,
     null,
