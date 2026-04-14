@@ -1,9 +1,9 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment, interactive media, and other communication-related services.",
-    "marketSizeUSD": "4.8T",
-    "constituentCount": 23,
+    "description": "The Communication Services sector includes companies that provide telecommunication services, interactive media, and entertainment content and services.",
+    "marketSizeUSD": "4.5T",
+    "constituentCount": 21,
     "topHoldings": [
       {
         "name": "Alphabet Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0774,
-  "change_pct": 0.76,
-  "insights": "The Communication Services sector registered a positive performance today with a gain of 0.76%, reflecting generally bullish sentiment. Technical indicators support this upward movement: The RSI at 56.81 is in a healthy, neutral-to-bullish zone, suggesting momentum without being overbought and potential for continued appreciation. Similarly, the MFI at 58.63 indicates positive money flow into the sector, corroborating buying interest. While the OBV at 143,418,385 is a cumulative figure, its positive contribution on an up day confirms that today's price increase was largely supported by significant buying volume, lending conviction to the sector's daily performance.",
+  "market_weight": 0.0908,
+  "change_pct": 1.52,
+  "insights": "Today, the Communication Services sector demonstrated robust performance with a 1.52% gain, supported by strong technical indicators. The Relative Strength Index (RSI) at 62.56 and the Money Flow Index (MFI) at 66.87 both reflect significant buying momentum and healthy capital inflow into the sector, indicating sustained bullish sentiment without being immediately overbought. Furthermore, the substantial On-Balance Volume (OBV) of 148,775,034 confirms that this positive price appreciation is backed by strong buying volume, reinforcing the conviction behind today's upward movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760486400000,
-        49.66
-      ],
       [
         1760572800000,
         43.96
@@ -747,13 +743,13 @@
       [
         1776038400000,
         56.81
+      ],
+      [
+        1776124800000,
+        62.56
       ]
     ],
     "mfi": [
-      [
-        1760486400000,
-        46.21
-      ],
       [
         1760572800000,
         37.14
@@ -1473,13 +1469,13 @@
       [
         1776038400000,
         58.63
+      ],
+      [
+        1776124800000,
+        66.87
       ]
     ],
     "obv": [
-      [
-        1760486400000,
-        178122795.0
-      ],
       [
         1760572800000,
         173439995.0
@@ -2199,6 +2195,10 @@
       [
         1776038400000,
         143418385.0
+      ],
+      [
+        1776124800000,
+        148775034.0
       ]
     ]
   },
@@ -2218,7 +2218,7 @@
     -4.62,
     4.35,
     2.01,
-    0.76,
+    2.29,
     null,
     null,
     null,

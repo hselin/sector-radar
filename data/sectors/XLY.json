@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary GICS sector comprises companies that provide non-essential goods and services, including retail, automotive, hotels, restaurants, and leisure.",
-    "marketSizeUSD": "4.9T",
-    "constituentCount": 59,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose sales are highly sensitive to economic cycles and consumer spending power.",
+    "marketSizeUSD": "5.2T",
+    "constituentCount": 52,
     "topHoldings": [
       {
         "name": "Amazon.com, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.079,
-  "change_pct": 0.91,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.1049,
+  "change_pct": 2.21,
+  "insights": "The Consumer Discretionary sector posted a strong rally today, gaining 2.21%. This positive momentum is affirmed by its key technical indicators: the Relative Strength Index (RSI) at 61.57 and the Money Flow Index (MFI) at 66.49, both signaling healthy buying interest and positive money flow into the sector without yet reaching overbought conditions. However, the On-Balance Volume (OBV) at -7,604,235 presents a contrasting signal; despite today's significant price appreciation, the deeply negative OBV indicates that cumulative selling pressure has consistently outweighed buying volume over the observed period, suggesting that while today's performance was robust, it occurs within a broader context of net outflows, which could raise questions about the sustainability of the upward trend without more consistent volume accumulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760486400000,
-        47.79
-      ],
       [
         1760572800000,
         44.07
@@ -747,13 +743,13 @@
       [
         1776038400000,
         56.23
+      ],
+      [
+        1776124800000,
+        61.57
       ]
     ],
     "mfi": [
-      [
-        1760486400000,
-        46.04
-      ],
       [
         1760572800000,
         39.46
@@ -1473,13 +1469,13 @@
       [
         1776038400000,
         60.0
+      ],
+      [
+        1776124800000,
+        66.49
       ]
     ],
     "obv": [
-      [
-        1760486400000,
-        16197415.0
-      ],
       [
         1760572800000,
         9679015.0
@@ -2199,6 +2195,10 @@
       [
         1776038400000,
         -15631603.0
+      ],
+      [
+        1776124800000,
+        -7604235.0
       ]
     ]
   },
@@ -2218,7 +2218,7 @@
     -1.91,
     2.34,
     4.38,
-    0.91,
+    3.14,
     null,
     null,
     null,

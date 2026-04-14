@@ -1,33 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that produce capital goods, provide commercial and professional services, and offer transportation services.",
-    "marketSizeUSD": "3.7T",
-    "constituentCount": 75,
+    "description": "The Industrials GICS sector comprises companies involved in aerospace & defense, construction & engineering, electrical equipment, industrial machinery, professional services, commercial services & supplies, and transportation.",
+    "marketSizeUSD": "4.87T",
+    "constituentCount": 73,
     "topHoldings": [
+      {
+        "name": "GE Aerospace",
+        "symbol": "GE"
+      },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "General Electric Company",
-        "symbol": "GE"
-      },
-      {
-        "name": "Honeywell International Inc.",
-        "symbol": "HON"
+        "name": "RTX Corporation",
+        "symbol": "RTX"
       }
     ]
   },
-  "market_weight": 0.0597,
-  "change_pct": 0.71,
-  "insights": "The Industrials sector posted a solid 0.71% gain today, reflecting positive investor sentiment. This upward momentum is supported by the Relative Strength Index (RSI) at 61.56, which indicates increasing bullish strength without yet reaching overbought levels, suggesting potential for further appreciation. The Money Flow Index (MFI) at 51.62, while slightly positive, points to relatively balanced money flow with a lean towards inflows, confirming buyer interest without overwhelming conviction. Furthermore, the On-Balance Volume (OBV) at 199,969,244 implies an accumulation of volume on this positive price day, providing a bullish confirmation that the price increase is supported by active buying pressure.",
+  "market_weight": 0.0982,
+  "change_pct": 0.36,
+  "insights": "The Industrials sector posted a modest gain of 0.36% today, signaling positive daily momentum. This upward movement is supported by its key technical indicators: the RSI at 62.51 suggests healthy buying interest and strength, yet remains below overbought levels, potentially indicating room for further appreciation. Concurrently, the MFI at 57.96 reinforces this sentiment by confirming a net inflow of money into the sector, validating the price increase with participant capital. The substantial positive OBV figure further reinforces the price action, indicating that buying volume generally outpaced selling volume during the day, aligning with the sector's upward trajectory.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760486400000,
-        49.53
-      ],
       [
         1760572800000,
         46.37
@@ -747,13 +743,13 @@
       [
         1776038400000,
         61.56
+      ],
+      [
+        1776124800000,
+        62.51
       ]
     ],
     "mfi": [
-      [
-        1760486400000,
-        61.83
-      ],
       [
         1760572800000,
         54.32
@@ -1473,13 +1469,13 @@
       [
         1776038400000,
         51.62
+      ],
+      [
+        1776124800000,
+        57.96
       ]
     ],
     "obv": [
-      [
-        1760486400000,
-        6082653.0
-      ],
       [
         1760572800000,
         -7713747.0
@@ -2199,6 +2195,10 @@
       [
         1776038400000,
         199969244.0
+      ],
+      [
+        1776124800000,
+        205385354.0
       ]
     ]
   },
@@ -2218,7 +2218,7 @@
     -1.53,
     2.87,
     4.73,
-    0.71,
+    1.07,
     null,
     null,
     null,

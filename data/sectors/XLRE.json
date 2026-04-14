@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector primarily comprises Equity Real Estate Investment Trusts (REITs) that own, develop, and manage income-generating properties, alongside Real Estate Management & Development companies, excluding mortgage REITs.",
-    "marketSizeUSD": "1.3T",
+    "description": "The Real Estate sector encompasses companies that own, develop, manage, or lease real estate properties, including Equity REITs and real estate management and development companies.",
+    "marketSizeUSD": "1.5T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.021,
-  "change_pct": 0.47,
-  "insights": "The Real Estate sector posted a modest gain of 0.47% today, indicating a positive but contained daily performance. Key technical indicators support this upward movement, with the Relative Strength Index (RSI) at 64.71 and the Money Flow Index (MFI) at 60.67 both signaling strong buying interest and positive money flow into the sector, approaching bullish momentum without yet reaching overbought conditions. A substantial On-Balance Volume (OBV) of 144,000,056 further corroborates that buying volume significantly outpaced selling volume, lending credibility to today's price appreciation.",
+  "market_weight": 0.0303,
+  "change_pct": 0.95,
+  "insights": "The Real Estate sector posted a solid **0.95% gain today**, reflecting notable positive sentiment. This upward movement is strongly supported by technical indicators: the **RSI at 68.16** and **MFI at 67.86** both signal robust buying momentum and significant money flow into the sector, indicating strong conviction behind today's price action. While these levels are approaching overbought territory, suggesting potential for consolidation in the near term, they currently affirm sustained investor interest. The **OBV at 148,788,047** further reinforces that this price appreciation is backed by substantial volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760486400000,
-        53.59
-      ],
       [
         1760572800000,
         51.68
@@ -747,13 +743,13 @@
       [
         1776038400000,
         64.71
+      ],
+      [
+        1776124800000,
+        68.16
       ]
     ],
     "mfi": [
-      [
-        1760486400000,
-        46.3
-      ],
       [
         1760572800000,
         49.97
@@ -1473,13 +1469,13 @@
       [
         1776038400000,
         60.67
+      ],
+      [
+        1776124800000,
+        67.86
       ]
     ],
     "obv": [
-      [
-        1760486400000,
-        -15468429.0
-      ],
       [
         1760572800000,
         -24911629.0
@@ -2199,6 +2195,10 @@
       [
         1776038400000,
         144000056.0
+      ],
+      [
+        1776124800000,
+        148788047.0
       ]
     ]
   },
@@ -2218,7 +2218,7 @@
     -1.43,
     4.0,
     2.91,
-    0.47,
+    1.42,
     null,
     null,
     null,

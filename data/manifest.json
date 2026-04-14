@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T21:31:32.792904Z",
+  "lastUpdated": "2026-04-14T21:32:26.814836Z",
   "overallMarket": {
     "profile": {
       "description": "A market-capitalization-weighted index comprising 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Commentary could not be generated due to a persistent network error.",
-    "change_pct": 0.98,
+    "commentary": "The stock market posted a robust gain today, advancing by 1.22%. This strong performance is corroborated by key technical indicators, which offer insights into prevailing sentiment and momentum. The Relative Strength Index (RSI) at 67.10 and the Money Flow Index (MFI) at 62.92 both suggest significant buying pressure and solid upward momentum. While not yet in extreme overbought territory, these levels indicate that the market is experiencing strong bullish sentiment, with capital actively flowing into equities. The On-Balance Volume (OBV) at 871,229,272, reflecting today's positive price action, further confirms this buying interest, as volume on up days adds to its cumulative total. Collectively, these figures point to a market driven by optimism and strong participation from buyers, reinforcing the day's positive price action.",
+    "change_pct": 1.22,
     "technicalIndicators": {
       "rsi": [
-        [
-          1760486400000,
-          54.11
-        ],
         [
           1760572800000,
           49.49
@@ -747,13 +743,13 @@
         [
           1776038400000,
           63.35
+        ],
+        [
+          1776124800000,
+          67.1
         ]
       ],
       "mfi": [
-        [
-          1760486400000,
-          64.67
-        ],
         [
           1760572800000,
           56.25
@@ -1473,13 +1469,13 @@
         [
           1776038400000,
           55.48
+        ],
+        [
+          1776124800000,
+          62.92
         ]
       ],
       "obv": [
-        [
-          1760486400000,
-          656809302.0
-        ],
         [
           1760572800000,
           546246002.0
@@ -2199,6 +2195,10 @@
         [
           1776038400000,
           811344441.0
+        ],
+        [
+          1776124800000,
+          871229272.0
         ]
       ]
     },
@@ -2218,7 +2218,7 @@
       -2.23,
       3.43,
       3.6,
-      0.98,
+      2.21,
       null,
       null,
       null,

@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector comprises companies that provide essential services such as electricity, natural gas, water, and often includes regulated power producers, distributors, and independent power companies.",
-    "marketSizeUSD": "1.6T",
-    "constituentCount": 31,
+    "description": "The Utilities sector comprises companies that provide essential services such as electricity, natural gas, water, and sewage, often operating as regulated monopolies.",
+    "marketSizeUSD": "~1.2T",
+    "constituentCount": 29,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0258,
-  "change_pct": -1.21,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.0,
+  "change_pct": 0.17,
+  "insights": "The Utilities sector concluded the day with a modest 0.17% gain, reflecting a largely neutral trading session. Both the Relative Strength Index (RSI) at 52.58 and the Money Flow Index (MFI) at 53.00 reside firmly in the mid-range, indicating a balanced sentiment with neither strong buying nor selling pressure dominating the market. The On-Balance Volume (OBV) at 422,013,407, while a cumulative metric, supports this stability by suggesting that today's marginal price increase was accompanied by some, albeit subdued, buying interest, maintaining a generally positive underlying volume trend without signaling a significant shift in momentum.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760486400000,
-        79.65
-      ],
       [
         1760572800000,
         70.66
@@ -747,13 +743,13 @@
       [
         1776038400000,
         51.69
+      ],
+      [
+        1776124800000,
+        52.58
       ]
     ],
     "mfi": [
-      [
-        1760486400000,
-        85.02
-      ],
       [
         1760572800000,
         76.27
@@ -1473,13 +1469,13 @@
       [
         1776038400000,
         60.89
+      ],
+      [
+        1776124800000,
+        53.0
       ]
     ],
     "obv": [
-      [
-        1760486400000,
-        263090737.0
-      ],
       [
         1760572800000,
         248531237.0
@@ -2199,6 +2195,10 @@
       [
         1776038400000,
         396919860.0
+      ],
+      [
+        1776124800000,
+        422013407.0
       ]
     ]
   },
@@ -2218,7 +2218,7 @@
     2.11,
     1.65,
     1.34,
-    -1.21,
+    -1.04,
     null,
     null,
     null,
