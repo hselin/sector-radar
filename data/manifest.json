@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-14T21:32:26.814836Z",
+  "lastUpdated": "2026-04-15T21:29:44.627054Z",
   "overallMarket": {
     "profile": {
       "description": "A market-capitalization-weighted index comprising 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market posted a robust gain today, advancing by 1.22%. This strong performance is corroborated by key technical indicators, which offer insights into prevailing sentiment and momentum. The Relative Strength Index (RSI) at 67.10 and the Money Flow Index (MFI) at 62.92 both suggest significant buying pressure and solid upward momentum. While not yet in extreme overbought territory, these levels indicate that the market is experiencing strong bullish sentiment, with capital actively flowing into equities. The On-Balance Volume (OBV) at 871,229,272, reflecting today's positive price action, further confirms this buying interest, as volume on up days adds to its cumulative total. Collectively, these figures point to a market driven by optimism and strong participation from buyers, reinforcing the day's positive price action.",
-    "change_pct": 1.22,
+    "commentary": "The overall stock market demonstrated a positive performance today, closing up 0.79%. Key technical indicators suggest robust bullish sentiment and strong upward momentum. The Relative Strength Index (RSI) at 69.33 indicates significant buying pressure, approaching overbought territory and signaling a potentially mature rally. This is further corroborated by the Money Flow Index (MFI) at 62.04, which confirms healthy capital inflow supporting the advance. The substantial On-Balance Volume (OBV) reading reinforces that today's gains were backed by considerable trading volume. While the elevated RSI suggests the market's strong run might be nearing a point where consolidation or a minor pullback could occur, current momentum remains firmly positive and driven by confident buying.",
+    "change_pct": 0.79,
     "technicalIndicators": {
       "rsi": [
-        [
-          1760572800000,
-          49.49
-        ],
         [
           1760659200000,
           53.06
@@ -747,13 +743,13 @@
         [
           1776124800000,
           67.1
+        ],
+        [
+          1776211200000,
+          69.33
         ]
       ],
       "mfi": [
-        [
-          1760572800000,
-          56.25
-        ],
         [
           1760659200000,
           57.12
@@ -1473,13 +1469,13 @@
         [
           1776124800000,
           62.92
+        ],
+        [
+          1776211200000,
+          62.04
         ]
       ],
       "obv": [
-        [
-          1760572800000,
-          546246002.0
-        ],
         [
           1760659200000,
           642746902.0
@@ -2199,6 +2195,10 @@
         [
           1776124800000,
           871229272.0
+        ],
+        [
+          1776211200000,
+          928664480.0
         ]
       ]
     },
@@ -2218,7 +2218,7 @@
       -2.23,
       3.43,
       3.6,
-      2.21,
+      3.01,
       null,
       null,
       null,

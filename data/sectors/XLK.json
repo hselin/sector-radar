@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2925,
+  "market_weight": 0.2931,
   "change_pct": 1.6,
-  "insights": "The Information Technology sector exhibited a strong performance today, advancing 1.60%. This robust daily gain is underscored by key technical indicators: the Relative Strength Index (RSI) at 67.44 indicates significant buying momentum, nearing overbought territory and reflecting strong investor enthusiasm. The Money Flow Index (MFI) at 58.20 further confirms a healthy inflow of capital into the sector, validating the price appreciation. Concurrently, the On-Balance Volume (OBV) at 341,546,056, when considered alongside the positive price action, suggests that today's upward movement was supported by strong accumulation, reinforcing a bullish sentiment for the sector.",
+  "insights": "The Information Technology sector demonstrated robust performance today, posting a solid 1.60% gain driven by strong buying interest. Technical indicators largely support this bullish momentum, with the Relative Strength Index (RSI) at 70.25 indicating the sector is currently in overbought territory, reflecting significant upward pressure. The Money Flow Index (MFI) at 57.57 further confirms positive net money flow into the sector, while the On-Balance Volume (OBV), with its implied increase alongside the price rise, validates this movement with strong accumulation. While the high RSI suggests the possibility of short-term consolidation, today's action clearly signals strong investor conviction and positive sentiment within the IT sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760572800000,
-        56.26
-      ],
       [
         1760659200000,
         56.85
@@ -747,13 +743,13 @@
       [
         1776124800000,
         67.44
+      ],
+      [
+        1776211200000,
+        70.25
       ]
     ],
     "mfi": [
-      [
-        1760572800000,
-        63.31
-      ],
       [
         1760659200000,
         55.83
@@ -1473,13 +1469,13 @@
       [
         1776124800000,
         58.2
+      ],
+      [
+        1776211200000,
+        57.57
       ]
     ],
     "obv": [
-      [
-        1760572800000,
-        188939831.0
-      ],
       [
         1760659200000,
         201695631.0
@@ -2199,6 +2195,10 @@
       [
         1776124800000,
         341546056.0
+      ],
+      [
+        1776211200000,
+        351719049.0
       ]
     ]
   },
@@ -2218,7 +2218,7 @@
     -3.97,
     4.67,
     4.88,
-    3.73,
+    5.38,
     null,
     null,
     null,
