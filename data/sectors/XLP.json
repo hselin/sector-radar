@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0566,
-  "change_pct": -0.5,
-  "insights": "The Consumer Staples sector experienced a modest decline of -0.50% today, indicating slight bearish pressure. Technically, the Relative Strength Index (RSI) at 39.64 suggests weakening momentum, nearing oversold conditions without being deeply extended. The Money Flow Index (MFI) at 51.07, however, shows relatively neutral money flow, implying that while prices dipped, there wasn't a significant net outflow of capital on volume. The On-Balance Volume (OBV) at 77,601,912, consistent with today's price depreciation, generally reflects that selling volume likely edged out buying volume during the session.",
+  "market_weight": 0.0573,
+  "change_pct": 0.46,
+  "insights": "Commentary could not be generated due to a persistent network error.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760659200000,
-        56.81
-      ],
       [
         1760745600000,
         null
@@ -747,13 +743,13 @@
       [
         1776211200000,
         39.64
+      ],
+      [
+        1776297600000,
+        42.2
       ]
     ],
     "mfi": [
-      [
-        1760659200000,
-        60.43
-      ],
       [
         1760745600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1776211200000,
         51.07
+      ],
+      [
+        1776297600000,
+        50.87
       ]
     ],
     "obv": [
-      [
-        1760659200000,
-        80286827.0
-      ],
       [
         1760745600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1776211200000,
         77601912.0
+      ],
+      [
+        1776297600000,
+        90873637.0
       ]
     ]
   },
@@ -2218,7 +2218,7 @@
     0.6,
     0.13,
     0.59,
-    -1.59,
+    -1.14,
     null,
     null,
     null,

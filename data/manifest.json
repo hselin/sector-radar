@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T21:29:44.627054Z",
+  "lastUpdated": "2026-04-16T21:29:04.929934Z",
   "overallMarket": {
     "profile": {
       "description": "A market-capitalization-weighted index comprising 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market demonstrated a positive performance today, closing up 0.79%. Key technical indicators suggest robust bullish sentiment and strong upward momentum. The Relative Strength Index (RSI) at 69.33 indicates significant buying pressure, approaching overbought territory and signaling a potentially mature rally. This is further corroborated by the Money Flow Index (MFI) at 62.04, which confirms healthy capital inflow supporting the advance. The substantial On-Balance Volume (OBV) reading reinforces that today's gains were backed by considerable trading volume. While the elevated RSI suggests the market's strong run might be nearing a point where consolidation or a minor pullback could occur, current momentum remains firmly positive and driven by confident buying.",
-    "change_pct": 0.79,
+    "commentary": "The overall stock market experienced a modestly positive day, closing up 0.25%. This relatively minor gain occurred amidst strong underlying momentum, as indicated by key technical indicators. The Relative Strength Index (RSI) at 70.01 suggests the market is currently in overbought territory, signaling robust buying pressure and potentially hinting at a near-term consolidation or pullback. Complementing this, the Money Flow Index (MFI) at 69.39 indicates significant capital inflow, confirming strong buying interest backed by volume. Furthermore, the high On-Balance Volume (OBV) of 972,104,231 reinforces a pattern of sustained accumulation over time. In summary, market sentiment remains largely bullish with strong momentum, but the elevated RSI warrants close monitoring for potential overextension.",
+    "change_pct": 0.25,
     "technicalIndicators": {
       "rsi": [
-        [
-          1760659200000,
-          53.06
-        ],
         [
           1760745600000,
           null
@@ -747,13 +743,13 @@
         [
           1776211200000,
           69.33
+        ],
+        [
+          1776297600000,
+          70.01
         ]
       ],
       "mfi": [
-        [
-          1760659200000,
-          57.12
-        ],
         [
           1760745600000,
           null
@@ -1473,13 +1469,13 @@
         [
           1776211200000,
           62.04
+        ],
+        [
+          1776297600000,
+          69.39
         ]
       ],
       "obv": [
-        [
-          1760659200000,
-          642746902.0
-        ],
         [
           1760745600000,
           null
@@ -2199,6 +2195,10 @@
         [
           1776211200000,
           928664480.0
+        ],
+        [
+          1776297600000,
+          972104231.0
         ]
       ]
     },
@@ -2218,7 +2218,7 @@
       -2.23,
       3.43,
       3.6,
-      3.01,
+      3.27,
       null,
       null,
       null,

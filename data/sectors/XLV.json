@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector comprises companies that provide medical services, manufacture medical equipment or drugs, or provide other health care-related services.",
-    "marketSizeUSD": "5.9T",
-    "constituentCount": 65,
+    "description": "The Health Care sector comprises companies involved in providing medical services, manufacturing medical products, research and development in biotechnology, and producing pharmaceuticals and medical equipment.",
+    "marketSizeUSD": "5.3T",
+    "constituentCount": 64,
     "topHoldings": [
       {
         "name": "Eli Lilly and Co",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Inc.",
+        "name": "UnitedHealth Group Inc",
         "symbol": "UNH"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1193,
-  "change_pct": -0.71,
-  "insights": "The Health Care sector saw a modest decline of -0.71% today, indicating a session dominated by sellers. Technical indicators largely support this downward movement: the RSI at 46.79 suggests weakening momentum below the neutral 50-mark, while the MFI at 39.61 explicitly points to net money outflows from the sector. The significant negative OBV figure of -52,345,195 further underscores this sentiment, confirming that substantial selling pressure outweighed buying activity throughout the day and reflecting underlying weakness.",
+  "market_weight": 0.1085,
+  "change_pct": -0.79,
+  "insights": "The Health Care sector registered a moderate decline of 0.79% today, a movement broadly supported by key technical indicators. The Relative Strength Index (RSI) at 43.49 and the Money Flow Index (MFI) at 40.89 are both positioned below their respective midpoints, suggesting a build-up of selling pressure and a net outflow of capital, though neither indicates an oversold condition yet. Crucially, the significantly negative On-Balance Volume (OBV) of -61,040,476 confirms that today's price drop was accompanied by considerable selling volume, lending conviction to the bearish sentiment and indicating momentum favoring the downside.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760659200000,
-        61.54
-      ],
       [
         1760745600000,
         null
@@ -747,13 +743,13 @@
       [
         1776211200000,
         46.79
+      ],
+      [
+        1776297600000,
+        43.49
       ]
     ],
     "mfi": [
-      [
-        1760659200000,
-        62.69
-      ],
       [
         1760745600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1776211200000,
         39.61
+      ],
+      [
+        1776297600000,
+        40.89
       ]
     ],
     "obv": [
-      [
-        1760659200000,
-        60428047.0
-      ],
       [
         1760745600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1776211200000,
         -52345195.0
+      ],
+      [
+        1776297600000,
+        -61040476.0
       ]
     ]
   },
@@ -2218,7 +2218,7 @@
     -1.42,
     2.48,
     0.34,
-    0.31,
+    -0.48,
     null,
     null,
     null,
