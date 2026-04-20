@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.0552,
-  "change_pct": -2.76,
-  "insights": "The Energy sector experienced a notable decline of -2.76% today, with technical indicators reinforcing the bearish sentiment. Both the Relative Strength Index (RSI) at 36.62 and the Money Flow Index (MFI) at 34.81 indicate strong selling pressure and a significant outflow of money from the sector, pushing it towards oversold conditions. While the On-Balance Volume (OBV) at 931,494,602 is a cumulative measure typically reflecting broader accumulation, today's sharp price drop suggests that selling volume substantially outweighed buying volume, contributing to the sector's underperformance and indicating a dominant bearish momentum in the immediate term.",
+  "change_pct": 0.09,
+  "insights": "Commentary could not be generated due to a persistent network error.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760832000000,
-        null
-      ],
-      [
-        1760918400000,
-        45.69
-      ],
-      [
-        1761004800000,
-        44.82
-      ],
       [
         1761091200000,
         50.45
@@ -747,21 +735,21 @@
       [
         1776384000000,
         36.62
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1760832000000,
+        1776470400000,
         null
       ],
       [
-        1760918400000,
-        46.0
+        1776556800000,
+        null
       ],
       [
-        1761004800000,
-        45.63
-      ],
+        1776643200000,
+        36.94
+      ]
+    ],
+    "mfi": [
       [
         1761091200000,
         54.5
@@ -1473,21 +1461,21 @@
       [
         1776384000000,
         34.81
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1760832000000,
+        1776470400000,
         null
       ],
       [
-        1760918400000,
-        202946483.0
+        1776556800000,
+        null
       ],
       [
-        1761004800000,
-        190003883.0
-      ],
+        1776643200000,
+        33.16
+      ]
+    ],
+    "obv": [
       [
         1761091200000,
         206410883.0
@@ -2199,6 +2187,18 @@
       [
         1776384000000,
         931494602.0
+      ],
+      [
+        1776470400000,
+        null
+      ],
+      [
+        1776556800000,
+        null
+      ],
+      [
+        1776643200000,
+        966567772.0
       ]
     ]
   },
@@ -2219,7 +2219,7 @@
     -5.29,
     -3.9,
     -3.37,
-    null,
+    0.09,
     null,
     null,
     null,

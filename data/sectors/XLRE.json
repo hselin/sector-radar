@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.0307,
-  "change_pct": 1.53,
-  "insights": "The Real Estate sector demonstrated robust performance today, climbing an impressive 1.53%, indicating strong investor confidence and buying interest. This upward momentum is strongly corroborated by the key technical indicators: the Relative Strength Index (RSI) at 75.40 signals the sector is entering overbought territory, while an exceptionally high Money Flow Index (MFI) of 94.08 underscores a significant influx of capital and aggressive buying pressure. The substantial On-Balance Volume (OBV) of 153,786,762 confirms that this positive price movement was well-supported by volume, although the elevated RSI and MFI readings suggest the sector may be experiencing short-term overextension, potentially warranting caution or a period of consolidation.",
+  "change_pct": 0.36,
+  "insights": "The Real Estate sector registered a modest gain of 0.36% today, yet key technical indicators paint a picture of significant overbought conditions. The Relative Strength Index (RSI) at 76.32 and the Money Flow Index (MFI) at 93.49 both sit well above the typical \"overbought\" thresholds, indicating strong buying pressure and potentially unsustainable upward momentum in the near term. This intense inflow of capital and accumulation is further supported by a high On-Balance Volume (OBV) of 157,350,227, suggesting that while the positive movement is backed by substantial buying, the sector may be ripe for a consolidation or pullback given its current extended state.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1760832000000,
-        null
-      ],
-      [
-        1760918400000,
-        60.37
-      ],
-      [
-        1761004800000,
-        58.25
-      ],
       [
         1761091200000,
         60.44
@@ -747,21 +735,21 @@
       [
         1776384000000,
         75.4
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1760832000000,
+        1776470400000,
         null
       ],
       [
-        1760918400000,
-        53.41
+        1776556800000,
+        null
       ],
       [
-        1761004800000,
-        53.46
-      ],
+        1776643200000,
+        76.32
+      ]
+    ],
+    "mfi": [
       [
         1761091200000,
         60.82
@@ -1473,21 +1461,21 @@
       [
         1776384000000,
         94.08
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1760832000000,
+        1776470400000,
         null
       ],
       [
-        1760918400000,
-        -10627029.0
+        1776556800000,
+        null
       ],
       [
-        1761004800000,
-        -17514729.0
-      ],
+        1776643200000,
+        93.49
+      ]
+    ],
+    "obv": [
       [
         1761091200000,
         -9759429.0
@@ -2199,6 +2187,18 @@
       [
         1776384000000,
         153786762.0
+      ],
+      [
+        1776470400000,
+        null
+      ],
+      [
+        1776556800000,
+        null
+      ],
+      [
+        1776643200000,
+        157350227.0
       ]
     ]
   },
@@ -2219,7 +2219,7 @@
     4.0,
     2.91,
     3.88,
-    null,
+    0.36,
     null,
     null,
     null,
