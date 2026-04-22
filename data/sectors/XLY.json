@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose sales are highly sensitive to economic cycles and consumer spending power.",
-    "marketSizeUSD": "5.2T",
-    "constituentCount": 52,
+    "description": "The Consumer Discretionary sector encompasses companies that provide non-essential goods and services, including retail, automotive, hotels, restaurants, leisure, and media.",
+    "marketSizeUSD": "6.5T",
+    "constituentCount": 57,
     "topHoldings": [
       {
         "name": "Amazon.com, Inc.",
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1064,
-  "change_pct": -0.45,
-  "insights": "The Consumer Discretionary sector registered a marginal decline of -0.45% today, indicating a slight pullback. Despite this daily dip, key technical indicators suggest the sector has experienced robust performance recently: the RSI at 66.01 shows strong buying momentum, while the MFI at 81.72 signals the sector is currently in overbought territory. This combination suggests that today's decline might represent minor profit-taking or a temporary cooling-off period following a sustained period of capital inflow and price appreciation, as the negative OBV change of -674637 reflects selling pressure on today's down move.",
+  "market_weight": 0.1295,
+  "change_pct": -0.03,
+  "insights": "The Consumer Discretionary sector experienced a virtually flat day, declining a mere -0.03%. While the Relative Strength Index (RSI) at 62.87 and Money Flow Index (MFI) at 66.37 both suggest sustained underlying strength and continued investor interest, indicating the sector is not yet overbought, the On-Balance Volume (OBV) of -13,149,751 reveals that today's slight price dip was driven by net selling pressure. This combination points to a day of minor consolidation or profit-taking amidst generally positive momentum, with selling volume slightly outweighing buying volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761091200000,
-        52.45
-      ],
-      [
-        1761177600000,
-        54.24
-      ],
       [
         1761264000000,
         52.82
@@ -747,17 +739,17 @@
       [
         1776643200000,
         66.01
+      ],
+      [
+        1776729600000,
+        63.01
+      ],
+      [
+        1776816000000,
+        62.87
       ]
     ],
     "mfi": [
-      [
-        1761091200000,
-        44.97
-      ],
-      [
-        1761177600000,
-        45.73
-      ],
       [
         1761264000000,
         44.32
@@ -1473,17 +1465,17 @@
       [
         1776643200000,
         81.72
+      ],
+      [
+        1776729600000,
+        73.59
+      ],
+      [
+        1776816000000,
+        66.37
       ]
     ],
     "obv": [
-      [
-        1761091200000,
-        17704615.0
-      ],
-      [
-        1761177600000,
-        23348015.0
-      ],
       [
         1761264000000,
         20107215.0
@@ -2199,6 +2191,14 @@
       [
         1776643200000,
         -674637.0
+      ],
+      [
+        1776729600000,
+        -7890398.0
+      ],
+      [
+        1776816000000,
+        -13149751.0
       ]
     ]
   },
@@ -2219,7 +2219,7 @@
     2.34,
     4.38,
     6.66,
-    -0.45,
+    -1.23,
     null,
     null,
     null,

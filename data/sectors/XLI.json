@@ -1,37 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials GICS sector comprises companies involved in aerospace & defense, construction & engineering, electrical equipment, industrial machinery, professional services, commercial services & supplies, and transportation.",
-    "marketSizeUSD": "4.87T",
+    "description": "The Industrials sector encompasses companies providing industrial products and services, including aerospace & defense, construction, machinery, commercial services & supplies, transportation, and professional services.",
+    "marketSizeUSD": "4.7T",
     "constituentCount": 73,
     "topHoldings": [
-      {
-        "name": "GE Aerospace",
-        "symbol": "GE"
-      },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "RTX Corporation",
-        "symbol": "RTX"
+        "name": "General Electric Company",
+        "symbol": "GE"
+      },
+      {
+        "name": "Union Pacific Corporation",
+        "symbol": "UNP"
       }
     ]
   },
-  "market_weight": 0.0997,
-  "change_pct": 0.22,
-  "insights": "The Industrials sector posted a modest gain of 0.22% today, indicating slight positive momentum. This sentiment is further supported by key technical indicators: the Relative Strength Index (RSI) at 61.32 and the Money Flow Index (MFI) at 64.05. Both metrics, being above 50 but below typical overbought thresholds, suggest healthy buying interest and positive money flow into the sector, without indicating an imminent pullback due to excessive buying. The substantial On-Balance Volume (OBV) figure of 198,030,473 further corroborates the underlying accumulation of shares, suggesting that the modest daily price increase is backed by consistent buying pressure.",
+  "market_weight": 0.0936,
+  "change_pct": -0.23,
+  "insights": "The Industrials sector experienced a modest decline of -0.23% today, signaling a minor day of consolidation rather than a significant shift. Technically, the Relative Strength Index (RSI) at 54.38 suggests that despite this slight dip, underlying momentum remains somewhat positive and is not in overbought territory. However, the Money Flow Index (MFI) at 44.64 points to a minor net outflow of funds, aligning with the day's negative price action. The On-Balance Volume (OBV) decreased today, confirming that the modest selling was accompanied by volume. Overall, the sector demonstrated mild, controlled weakness today, with no strong directional conviction from the presented indicators.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761091200000,
-        50.17
-      ],
-      [
-        1761177600000,
-        55.68
-      ],
       [
         1761264000000,
         56.03
@@ -747,17 +739,17 @@
       [
         1776643200000,
         61.32
+      ],
+      [
+        1776729600000,
+        55.32
+      ],
+      [
+        1776816000000,
+        54.38
       ]
     ],
     "mfi": [
-      [
-        1761091200000,
-        47.86
-      ],
-      [
-        1761177600000,
-        48.05
-      ],
       [
         1761264000000,
         48.27
@@ -1473,17 +1465,17 @@
       [
         1776643200000,
         64.05
+      ],
+      [
+        1776729600000,
+        55.34
+      ],
+      [
+        1776816000000,
+        44.64
       ]
     ],
     "obv": [
-      [
-        1761091200000,
-        9262253.0
-      ],
-      [
-        1761177600000,
-        17297453.0
-      ],
       [
         1761264000000,
         24799853.0
@@ -2199,6 +2191,14 @@
       [
         1776643200000,
         198030473.0
+      ],
+      [
+        1776729600000,
+        189287146.0
+      ],
+      [
+        1776816000000,
+        178727635.0
       ]
     ]
   },
@@ -2219,7 +2219,7 @@
     2.87,
     4.73,
     1.16,
-    0.22,
+    -1.42,
     null,
     null,
     null,

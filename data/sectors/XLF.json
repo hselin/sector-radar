@@ -1,37 +1,29 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials GICS sector includes companies involved in banking, diversified financial services, insurance, capital markets, consumer finance, and mortgage real estate investment trusts.",
-    "marketSizeUSD": "5.8T",
-    "constituentCount": 68,
+    "description": "The Financials sector encompasses a broad range of companies involved in banking, diversified financial services, insurance, and real estate, providing services such as lending, asset management, and risk mitigation.",
+    "marketSizeUSD": "5.9T",
+    "constituentCount": 69,
     "topHoldings": [
       {
-        "name": "Berkshire Hathaway Inc. Class B",
+        "name": "Berkshire Hathaway Inc. (Class B)",
         "symbol": "BRK.B"
-      },
-      {
-        "name": "Visa Inc.",
-        "symbol": "V"
       },
       {
         "name": "JPMorgan Chase & Co.",
         "symbol": "JPM"
+      },
+      {
+        "name": "Bank of America Corporation",
+        "symbol": "BAC"
       }
     ]
   },
-  "market_weight": 0.1187,
-  "change_pct": 0.38,
-  "insights": "The Financials sector experienced a modest gain today, closing up 0.38%. Key technical indicators suggest robust buying interest; its Relative Strength Index (RSI) at 67.24 indicates strong momentum nearing overbought conditions, while the Money Flow Index (MFI) at 82.06 is firmly in overbought territory, signaling significant capital inflow. The On-Balance Volume (OBV) at 311,150,583 further corroborates this trend, reflecting sustained buying pressure and accumulation in the sector, despite the relatively small daily price increase.",
+  "market_weight": 0.1175,
+  "change_pct": -0.17,
+  "insights": "The Financials sector experienced a marginal dip of -0.17% today, yet underlying technical indicators suggest persistent investor interest. The Relative Strength Index (RSI) at 62.08 indicates healthy bullish momentum, staying out of overbought territory, while the Money Flow Index (MFI) at 72.47 points to significant buying pressure and capital inflow into the sector. Furthermore, the robust On-Balance Volume (OBV) of 245,634,953 suggests that despite today's minor price decline, accumulation largely outpaced distribution, hinting at potential resilience and continued investor confidence in the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761091200000,
-        43.51
-      ],
-      [
-        1761177600000,
-        44.72
-      ],
       [
         1761264000000,
         50.64
@@ -747,17 +739,17 @@
       [
         1776643200000,
         67.24
+      ],
+      [
+        1776729600000,
+        63.18
+      ],
+      [
+        1776816000000,
+        62.08
       ]
     ],
     "mfi": [
-      [
-        1761091200000,
-        37.5
-      ],
-      [
-        1761177600000,
-        37.17
-      ],
       [
         1761264000000,
         42.29
@@ -1473,17 +1465,17 @@
       [
         1776643200000,
         82.06
+      ],
+      [
+        1776729600000,
+        80.39
+      ],
+      [
+        1776816000000,
+        72.47
       ]
     ],
     "obv": [
-      [
-        1761091200000,
-        -35953346.0
-      ],
-      [
-        1761177600000,
-        -6469646.0
-      ],
       [
         1761264000000,
         25478154.0
@@ -2199,6 +2191,14 @@
       [
         1776643200000,
         311150583.0
+      ],
+      [
+        1776729600000,
+        277215724.0
+      ],
+      [
+        1776816000000,
+        245634953.0
       ]
     ]
   },
@@ -2219,7 +2219,7 @@
     3.6,
     2.5,
     3.27,
-    0.38,
+    -0.42,
     null,
     null,
     null,

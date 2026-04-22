@@ -1,37 +1,29 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies that provide telecommunication services, interactive media, and entertainment content and services.",
-    "marketSizeUSD": "4.5T",
-    "constituentCount": 21,
+    "description": "The Communication Services sector encompasses companies that provide a broad range of telecommunication services, media and entertainment content, and interactive media & services.",
+    "marketSizeUSD": "5.6T",
+    "constituentCount": 23,
     "topHoldings": [
       {
         "name": "Alphabet Inc.",
         "symbol": "GOOGL"
       },
       {
-        "name": "Meta Platforms Inc.",
+        "name": "Meta Platforms, Inc.",
         "symbol": "META"
       },
       {
-        "name": "Netflix Inc.",
+        "name": "Netflix, Inc.",
         "symbol": "NFLX"
       }
     ]
   },
-  "market_weight": 0.0921,
-  "change_pct": -0.29,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.1116,
+  "change_pct": 0.61,
+  "insights": "The Communication Services sector posted a modest gain of 0.61% today, reflecting continued investor interest. Technical indicators largely support this positive movement: The Relative Strength Index (RSI) at 61.42 suggests strong buying momentum without yet entering overbought territory, indicating potential for further upside. Concurrently, the Money Flow Index (MFI) at 64.81 confirms healthy capital inflow into the sector, while the On-Balance Volume (OBV) of 156,609,276 reinforces that buying volume is outweighing selling volume, validating today's price appreciation and suggesting sustained positive sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761091200000,
-        50.66
-      ],
-      [
-        1761177600000,
-        48.81
-      ],
       [
         1761264000000,
         50.31
@@ -747,17 +739,17 @@
       [
         1776643200000,
         67.39
+      ],
+      [
+        1776729600000,
+        59.1
+      ],
+      [
+        1776816000000,
+        61.42
       ]
     ],
     "mfi": [
-      [
-        1761091200000,
-        53.37
-      ],
-      [
-        1761177600000,
-        48.07
-      ],
       [
         1761264000000,
         54.76
@@ -1473,17 +1465,17 @@
       [
         1776643200000,
         80.64
+      ],
+      [
+        1776729600000,
+        72.62
+      ],
+      [
+        1776816000000,
+        64.81
       ]
     ],
     "obv": [
-      [
-        1761091200000,
-        183480395.0
-      ],
-      [
-        1761177600000,
-        179873195.0
-      ],
       [
         1761264000000,
         184631195.0
@@ -2199,6 +2191,14 @@
       [
         1776643200000,
         157370441.0
+      ],
+      [
+        1776729600000,
+        153532588.0
+      ],
+      [
+        1776816000000,
+        156609276.0
       ]
     ]
   },
@@ -2219,7 +2219,7 @@
     4.35,
     2.01,
     4.52,
-    -0.29,
+    -1.02,
     null,
     null,
     null,

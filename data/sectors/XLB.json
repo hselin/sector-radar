@@ -1,7 +1,7 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector includes companies that engage in the discovery, development, and processing of raw materials, including mining, chemicals, construction materials, paper & forest products, and containers & packaging.",
+    "description": "The Materials sector encompasses companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, and packaging.",
     "marketSizeUSD": "1.7T",
     "constituentCount": 28,
     "topHoldings": [
@@ -10,28 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "The Sherwin-Williams Company",
+        "name": "Sherwin-Williams Co",
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc.",
-        "symbol": "ECL"
+        "name": "Air Products and Chemicals Inc.",
+        "symbol": "APD"
       }
     ]
   },
-  "market_weight": 0.0348,
-  "change_pct": 0.67,
-  "insights": "The Materials sector posted a positive gain of 0.67% today, indicating a modest uptick. This upward movement is supported by its technical indicators: the Relative Strength Index (RSI) at 62.28 and the Money Flow Index (MFI) at 58.60 both signal healthy buying momentum and increasing money inflow, respectively, without entering overbought territory. The On-Balance Volume (OBV) of 101,325,127 further corroborates the price increase, suggesting that today's gains were accompanied by robust buying volume.",
+  "market_weight": 0.0339,
+  "change_pct": 0.12,
+  "insights": "The Materials sector posted a modest gain of 0.12% today, indicating slight positive sentiment. The Relative Strength Index (RSI) at 57.92 suggests moderate positive momentum, leaning slightly bullish but well below overbought conditions, leaving room for potential upward movement. However, the Money Flow Index (MFI) at 40.98, below the neutral 50-mark, points to a net outflow of money from the sector despite the price uptick, which could signal weaker conviction behind today's gain. The On-Balance Volume (OBV) at 98,674,759, a cumulative indicator, would ideally show an increase in line with the positive price movement to confirm strong buying pressure, but without prior values, it primarily reflects historical cumulative volume. In summary, today's marginal gain appears driven by moderate momentum but with underlying money flow weakness, suggesting a cautious stance among investors.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761091200000,
-        45.15
-      ],
-      [
-        1761177600000,
-        51.23
-      ],
       [
         1761264000000,
         49.18
@@ -747,17 +739,17 @@
       [
         1776643200000,
         62.28
+      ],
+      [
+        1776729600000,
+        57.46
+      ],
+      [
+        1776816000000,
+        57.92
       ]
     ],
     "mfi": [
-      [
-        1761091200000,
-        38.07
-      ],
-      [
-        1761177600000,
-        38.36
-      ],
       [
         1761264000000,
         37.37
@@ -1473,17 +1465,17 @@
       [
         1776643200000,
         58.6
+      ],
+      [
+        1776729600000,
+        49.98
+      ],
+      [
+        1776816000000,
+        40.98
       ]
     ],
     "obv": [
-      [
-        1761091200000,
-        -12652635.0
-      ],
-      [
-        1761177600000,
-        -7311335.0
-      ],
       [
         1761264000000,
         -14036535.0
@@ -2199,6 +2191,14 @@
       [
         1776643200000,
         101325127.0
+      ],
+      [
+        1776729600000,
+        91874757.0
+      ],
+      [
+        1776816000000,
+        98674759.0
       ]
     ]
   },
@@ -2219,7 +2219,7 @@
     3.07,
     3.07,
     -0.15,
-    0.67,
+    -0.1,
     null,
     null,
     null,

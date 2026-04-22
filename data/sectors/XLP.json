@@ -1,37 +1,29 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and distribute essential goods and services that people need regardless of economic conditions.",
-    "marketSizeUSD": "2.8T",
-    "constituentCount": 34,
+    "description": "The Consumer Staples sector comprises companies that manufacture and distribute essential products and services that consumers need regularly, irrespective of economic cycles.",
+    "marketSizeUSD": "2.7T",
+    "constituentCount": 37,
     "topHoldings": [
       {
-        "name": "Procter & Gamble Co.",
+        "name": "Procter & Gamble Company",
         "symbol": "PG"
       },
       {
-        "name": "Coca-Cola Co.",
+        "name": "The Coca-Cola Company",
         "symbol": "KO"
       },
       {
-        "name": "PepsiCo Inc.",
+        "name": "PepsiCo, Inc.",
         "symbol": "PEP"
       }
     ]
   },
-  "market_weight": 0.0573,
-  "change_pct": -0.08,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.0538,
+  "change_pct": 0.33,
+  "insights": "The Consumer Staples sector recorded a modest 0.33% gain today, indicating slight positive momentum. Technical indicators present a balanced picture: the Relative Strength Index (RSI) at 47.01 suggests a largely neutral market sentiment, neither overbought nor oversold, which aligns with the sector's contained daily movement. However, the Money Flow Index (MFI) at 60.28 indicates that money is actively flowing into the sector, providing underlying support for the day's positive close. While the On-Balance Volume (OBV) stands at a substantial 94,111,642, its expected upward tick today would confirm buying pressure, reinforcing the slight price appreciation despite the overall market equilibrium suggested by the RSI.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761091200000,
-        56.24
-      ],
-      [
-        1761177600000,
-        52.61
-      ],
       [
         1761264000000,
         50.28
@@ -747,17 +739,17 @@
       [
         1776643200000,
         48.33
+      ],
+      [
+        1776729600000,
+        45.2
+      ],
+      [
+        1776816000000,
+        47.01
       ]
     ],
     "mfi": [
-      [
-        1761091200000,
-        63.92
-      ],
-      [
-        1761177600000,
-        58.35
-      ],
       [
         1761264000000,
         57.62
@@ -1473,17 +1465,17 @@
       [
         1776643200000,
         46.05
+      ],
+      [
+        1776729600000,
+        48.66
+      ],
+      [
+        1776816000000,
+        60.28
       ]
     ],
     "obv": [
-      [
-        1761091200000,
-        63107627.0
-      ],
-      [
-        1761177600000,
-        52298127.0
-      ],
       [
         1761264000000,
         39562627.0
@@ -2199,6 +2191,14 @@
       [
         1776643200000,
         93679449.0
+      ],
+      [
+        1776729600000,
+        84980076.0
+      ],
+      [
+        1776816000000,
+        94111642.0
       ]
     ]
   },
@@ -2219,7 +2219,7 @@
     0.13,
     0.59,
     0.11,
-    -0.08,
+    -0.42,
     null,
     null,
     null,

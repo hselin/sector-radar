@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-20T21:30:45.713472Z",
+  "lastUpdated": "2026-04-22T21:29:40.221156Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices.",
@@ -20,18 +20,10 @@
         }
       ]
     },
-    "commentary": "Commentary could not be generated due to a persistent network error.",
-    "change_pct": -0.2,
+    "commentary": "Today, the overall stock market demonstrated robust performance, closing up 1.01%. This positive momentum is underscored by key technical indicators; the Relative Strength Index (RSI) at 70.40 and the Money Flow Index (MFI) at 70.77 both reside firmly in overbought territory, indicating exceptionally strong buying pressure and bullish sentiment. The robust On-Balance Volume (OBV) further reinforces this accumulation trend, confirming that the upward movement is backed by substantial investor participation. Collectively, these figures paint a picture of highly confident bullish sentiment and strong upward momentum, though the elevated overbought readings suggest vigilance for potential short-term consolidation or a pullback.",
+    "change_pct": 1.01,
     "technicalIndicators": {
       "rsi": [
-        [
-          1761091200000,
-          54.87
-        ],
-        [
-          1761177600000,
-          58.3
-        ],
         [
           1761264000000,
           62.54
@@ -747,17 +739,17 @@
         [
           1776643200000,
           71.81
+        ],
+        [
+          1776729600000,
+          67.37
+        ],
+        [
+          1776816000000,
+          70.4
         ]
       ],
       "mfi": [
-        [
-          1761091200000,
-          49.36
-        ],
-        [
-          1761177600000,
-          49.14
-        ],
         [
           1761264000000,
           50.05
@@ -1473,17 +1465,17 @@
         [
           1776643200000,
           81.58
+        ],
+        [
+          1776729600000,
+          72.48
+        ],
+        [
+          1776816000000,
+          70.77
         ]
       ],
       "obv": [
-        [
-          1761091200000,
-          566427302.0
-        ],
-        [
-          1761177600000,
-          632031802.0
-        ],
         [
           1761264000000,
           706388302.0
@@ -2199,6 +2191,14 @@
         [
           1776643200000,
           1000659201.0
+        ],
+        [
+          1776729600000,
+          941717801.0
+        ],
+        [
+          1776816000000,
+          982788393.0
         ]
       ]
     },
@@ -2219,7 +2219,7 @@
       3.43,
       3.6,
       4.52,
-      -0.2,
+      0.15,
       null,
       null,
       null,
