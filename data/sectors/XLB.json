@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0339,
-  "change_pct": 0.12,
-  "insights": "The Materials sector posted a modest gain of 0.12% today, indicating slight positive sentiment. The Relative Strength Index (RSI) at 57.92 suggests moderate positive momentum, leaning slightly bullish but well below overbought conditions, leaving room for potential upward movement. However, the Money Flow Index (MFI) at 40.98, below the neutral 50-mark, points to a net outflow of money from the sector despite the price uptick, which could signal weaker conviction behind today's gain. The On-Balance Volume (OBV) at 98,674,759, a cumulative indicator, would ideally show an increase in line with the positive price movement to confirm strong buying pressure, but without prior values, it primarily reflects historical cumulative volume. In summary, today's marginal gain appears driven by moderate momentum but with underlying money flow weakness, suggesting a cautious stance among investors.",
+  "market_weight": 0.0323,
+  "change_pct": 0.21,
+  "insights": "The Materials sector posted a modest gain of 0.21% today, with technical indicators presenting a nuanced picture. The Relative Strength Index (RSI) at 58.64 suggests positive momentum is present and healthy, without nearing overbought conditions. However, the Money Flow Index (MFI) at 46.36, lingering just below the 50-mark, indicates that the capital inflow supporting this daily gain is not particularly strong, potentially signaling a lack of robust buying conviction despite the slight price increase. The On-Balance Volume (OBV) at 92,410,333 confirms accumulated buying interest over time, generally aligning with the positive daily close, but the MFI suggests caution regarding the sustainability of stronger upward moves without more significant capital commitment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761264000000,
-        49.18
-      ],
-      [
-        1761350400000,
-        null
-      ],
       [
         1761436800000,
         null
@@ -747,17 +739,17 @@
       [
         1776816000000,
         57.92
+      ],
+      [
+        1776902400000,
+        57.7
+      ],
+      [
+        1776988800000,
+        58.64
       ]
     ],
     "mfi": [
-      [
-        1761264000000,
-        37.37
-      ],
-      [
-        1761350400000,
-        null
-      ],
       [
         1761436800000,
         null
@@ -1473,17 +1465,17 @@
       [
         1776816000000,
         40.98
+      ],
+      [
+        1776902400000,
+        40.92
+      ],
+      [
+        1776988800000,
+        46.36
       ]
     ],
     "obv": [
-      [
-        1761264000000,
-        -14036535.0
-      ],
-      [
-        1761350400000,
-        null
-      ],
       [
         1761436800000,
         null
@@ -2199,6 +2191,14 @@
       [
         1776816000000,
         98674759.0
+      ],
+      [
+        1776902400000,
+        85025307.0
+      ],
+      [
+        1776988800000,
+        92410333.0
       ]
     ]
   },
@@ -2219,7 +2219,7 @@
     3.07,
     3.07,
     -0.15,
-    -0.1,
+    0.08,
     null,
     null,
     null,

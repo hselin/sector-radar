@@ -1,16 +1,16 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector comprises companies involved in providing medical services, manufacturing medical products, research and development in biotechnology, and producing pharmaceuticals and medical equipment.",
-    "marketSizeUSD": "5.3T",
-    "constituentCount": 64,
+    "description": "The Health Care GICS sector comprises companies that provide medical services, manufacture medical equipment or drugs, and offer other healthcare-related products and services.",
+    "marketSizeUSD": "7.8T",
+    "constituentCount": 65,
     "topHoldings": [
       {
-        "name": "Eli Lilly and Co",
+        "name": "Eli Lilly and Company",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Inc",
+        "name": "UnitedHealth Group Incorporated",
         "symbol": "UNH"
       },
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1056,
-  "change_pct": 0.32,
-  "insights": "The Health Care sector posted a modest gain of 0.32% today; however, key technical indicators suggest underlying weakness. The Relative Strength Index (RSI) at 44.24 indicates neutral-to-bearish momentum, while the Money Flow Index (MFI) at 28.13 is nearing oversold territory, signaling a notable outflow of capital from the sector. Furthermore, the significantly negative On-Balance Volume (OBV) confirms persistent selling pressure. This combination suggests that today's slight positive movement lacks strong buying conviction and the sector remains under fundamental selling pressure, despite the daily uptick.",
+  "market_weight": 0.148,
+  "change_pct": -1.41,
+  "insights": "The Healthcare sector saw a notable decline of -1.41% today, indicating a challenging session. This bearish movement is further reinforced by key technical indicators: the RSI at 38.50 and MFI at 28.92 both suggest increasing selling pressure and significant money outflow, approaching oversold territory. The negative On-Balance Volume (OBV) of -74,921,928 confirms strong distribution, indicating that selling volume significantly outpaced buying volume during the decline, underlining the prevailing negative sentiment for the day.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761264000000,
-        69.43
-      ],
-      [
-        1761350400000,
-        null
-      ],
       [
         1761436800000,
         null
@@ -747,17 +739,17 @@
       [
         1776816000000,
         44.24
+      ],
+      [
+        1776902400000,
+        43.85
+      ],
+      [
+        1776988800000,
+        38.5
       ]
     ],
     "mfi": [
-      [
-        1761264000000,
-        55.05
-      ],
-      [
-        1761350400000,
-        null
-      ],
       [
         1761436800000,
         null
@@ -1473,17 +1465,17 @@
       [
         1776816000000,
         28.13
+      ],
+      [
+        1776902400000,
+        29.09
+      ],
+      [
+        1776988800000,
+        28.92
       ]
     ],
     "obv": [
-      [
-        1761264000000,
-        91518547.0
-      ],
-      [
-        1761350400000,
-        null
-      ],
       [
         1761436800000,
         null
@@ -2199,6 +2191,14 @@
       [
         1776816000000,
         -59457622.0
+      ],
+      [
+        1776902400000,
+        -66991267.0
+      ],
+      [
+        1776988800000,
+        -74921928.0
       ]
     ]
   },
@@ -2219,7 +2219,7 @@
     2.48,
     0.34,
     1.01,
-    -1.63,
+    -3.1,
     null,
     null,
     null,
