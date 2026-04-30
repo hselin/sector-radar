@@ -1,12 +1,12 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that manufacture and distribute essential products and services that consumers need regularly, irrespective of economic cycles.",
-    "marketSizeUSD": "2.7T",
-    "constituentCount": 37,
+    "description": "The Consumer Staples sector includes companies that produce and distribute essential goods and services such as food, beverages, tobacco, household products, and personal care products, which are generally in consistent demand.",
+    "marketSizeUSD": "2.8T",
+    "constituentCount": 34,
     "topHoldings": [
       {
-        "name": "Procter & Gamble Company",
+        "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0512,
-  "change_pct": -1.07,
-  "insights": "The Consumer Staples sector experienced a modest decline of 1.07% today, signaling some defensive rotation or profit-taking. Key technical indicators paint a nuanced picture: The Relative Strength Index (RSI) at 48.13 remains in neutral territory, suggesting the sector is neither overbought nor oversold despite today's dip, leaving room for further movement. The Money Flow Index (MFI) at 59.00, however, while above the neutral 50-mark, implies that underlying money flow has retained a somewhat positive bias, potentially indicating resilient buying interest on previous pullbacks, even as prices softened today. Finally, the On-Balance Volume (OBV) reading of 84,449,820, a cumulative indicator of buying and selling pressure, generally confirms that today's volume contributed to its current level, without showing a significant divergence that would immediately signal a strong reversal.",
+  "market_weight": 0.0475,
+  "change_pct": 1.68,
+  "insights": "The Consumer Staples sector experienced a robust daily gain of 1.68%, indicating a resurgence in investor interest for this typically defensive segment. This positive momentum is supported by key technical indicators: The Relative Strength Index (RSI) at 58.74 and Money Flow Index (MFI) at 59.19 both signal increasing buying pressure and positive money flow into the sector. Crucially, while showing strength, neither indicator is yet in overbought territory, suggesting the rally may have further room. Concurrently, the significant OBV reading implies that today's price appreciation was accompanied by strong volume, lending credibility and conviction to the upward movement. Collectively, these signals suggest a healthy, conviction-backed positive session for Consumer Staples.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761696000000,
-        33.48
-      ],
-      [
-        1761782400000,
-        33.1
-      ],
-      [
-        1761868800000,
-        32.01
-      ],
       [
         1761955200000,
         null
@@ -747,21 +735,21 @@
       [
         1777248000000,
         48.13
+      ],
+      [
+        1777334400000,
+        52.43
+      ],
+      [
+        1777420800000,
+        51.44
+      ],
+      [
+        1777507200000,
+        58.74
       ]
     ],
     "mfi": [
-      [
-        1761696000000,
-        43.14
-      ],
-      [
-        1761782400000,
-        33.11
-      ],
-      [
-        1761868800000,
-        32.82
-      ],
       [
         1761955200000,
         null
@@ -1473,21 +1461,21 @@
       [
         1777248000000,
         59.0
+      ],
+      [
+        1777334400000,
+        58.16
+      ],
+      [
+        1777420800000,
+        50.29
+      ],
+      [
+        1777507200000,
+        59.19
       ]
     ],
     "obv": [
-      [
-        1761696000000,
-        24725727.0
-      ],
-      [
-        1761782400000,
-        7360927.0
-      ],
-      [
-        1761868800000,
-        -7297273.0
-      ],
       [
         1761955200000,
         null
@@ -2199,6 +2187,18 @@
       [
         1777248000000,
         84449820.0
+      ],
+      [
+        1777334400000,
+        93610236.0
+      ],
+      [
+        1777420800000,
+        81552173.0
+      ],
+      [
+        1777507200000,
+        96907801.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     0.59,
     0.11,
     0.93,
-    -1.07,
+    1.3,
     null,
     null,
     null,

@@ -1,17 +1,17 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies providing industrial products and services, including aerospace & defense, construction, machinery, commercial services & supplies, transportation, and professional services.",
-    "marketSizeUSD": "4.7T",
-    "constituentCount": 73,
+    "description": "The Industrials sector encompasses companies engaged in the manufacture of capital goods, provision of commercial services, and delivery of transportation services.",
+    "marketSizeUSD": "3.5T",
+    "constituentCount": 72,
     "topHoldings": [
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "General Electric Company",
-        "symbol": "GE"
+        "name": "Honeywell International Inc.",
+        "symbol": "HON"
       },
       {
         "name": "Union Pacific Corporation",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0892,
-  "change_pct": 0.02,
-  "insights": "The Industrials sector experienced an exceptionally flat trading day, inching up a mere 0.02%. This minimal movement is echoed by its technical indicators; the Relative Strength Index (RSI) at 56.12 resides firmly in neutral territory, indicating balanced buying and selling pressure without strong directional momentum. Similarly, the Money Flow Index (MFI) at 49.89 is nearly perfectly neutral, suggesting an equilibrium in money flow with no significant net capital inflows or outflows driving prices today. While the On-Balance Volume (OBV) stands at a high absolute level of 191,615,878, its likely minor daily tick higher, consistent with the negligible price gain, does not signal any aggressive accumulation or distribution, underscoring the sector's current lack of conviction.",
+  "market_weight": 0.0594,
+  "change_pct": 2.74,
+  "insights": "The Industrials sector exhibited robust performance today, surging by 2.74%, signaling strong positive momentum. The Relative Strength Index (RSI) at 59.08 supports this, indicating healthy buying pressure without yet reaching overbought territory, suggesting potential for further gains. However, the Money Flow Index (MFI) at 37.21 presents a notable divergence; despite the significant price increase, the underlying volume-weighted money flow suggests that the buying might not be as broad-based or sustained as the price action alone implies. Meanwhile, the On-Balance Volume (OBV) at 185,771,291 would have seen a substantial increase today, generally confirming the upward price movement from a cumulative volume perspective, though the MFI warrants careful monitoring for sustained conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761696000000,
-        55.58
-      ],
-      [
-        1761782400000,
-        54.08
-      ],
-      [
-        1761868800000,
-        55.32
-      ],
       [
         1761955200000,
         null
@@ -747,21 +735,21 @@
       [
         1777248000000,
         56.12
+      ],
+      [
+        1777334400000,
+        52.39
+      ],
+      [
+        1777420800000,
+        49.94
+      ],
+      [
+        1777507200000,
+        59.08
       ]
     ],
     "mfi": [
-      [
-        1761696000000,
-        55.94
-      ],
-      [
-        1761782400000,
-        68.45
-      ],
-      [
-        1761868800000,
-        61.31
-      ],
       [
         1761955200000,
         null
@@ -1473,21 +1461,21 @@
       [
         1777248000000,
         49.89
+      ],
+      [
+        1777334400000,
+        40.83
+      ],
+      [
+        1777420800000,
+        34.06
+      ],
+      [
+        1777507200000,
+        37.21
       ]
     ],
     "obv": [
-      [
-        1761696000000,
-        38046153.0
-      ],
-      [
-        1761782400000,
-        26206153.0
-      ],
-      [
-        1761868800000,
-        36620953.0
-      ],
       [
         1761955200000,
         null
@@ -2199,6 +2187,18 @@
       [
         1777248000000,
         191615878.0
+      ],
+      [
+        1777334400000,
+        182631284.0
+      ],
+      [
+        1777420800000,
+        174798609.0
+      ],
+      [
+        1777507200000,
+        185771291.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     4.73,
     1.16,
     -0.6,
-    0.02,
+    1.22,
     null,
     null,
     null,

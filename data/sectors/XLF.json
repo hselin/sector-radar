@@ -1,12 +1,12 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses a broad range of companies involved in banking, diversified financial services, insurance, and real estate, providing services such as lending, asset management, and risk mitigation.",
-    "marketSizeUSD": "5.9T",
-    "constituentCount": 69,
+    "description": "The Financials sector encompasses companies engaged in banking, diversified financial services, insurance, real estate, and consumer finance.",
+    "marketSizeUSD": "12.0T",
+    "constituentCount": 68,
     "topHoldings": [
       {
-        "name": "Berkshire Hathaway Inc. (Class B)",
+        "name": "Berkshire Hathaway Inc.",
         "symbol": "BRK.B"
       },
       {
@@ -14,28 +14,16 @@
         "symbol": "JPM"
       },
       {
-        "name": "Bank of America Corporation",
-        "symbol": "BAC"
+        "name": "Visa Inc.",
+        "symbol": "V"
       }
     ]
   },
-  "market_weight": 0.112,
-  "change_pct": 0.76,
-  "insights": "The Financials sector posted a modest gain of 0.76% today, indicating positive sentiment. This upward movement is supported by constructive technical indicators: the Relative Strength Index (RSI) at 56.52 suggests healthy buying momentum without being overextended, leaving room for potential further appreciation. More notably, the Money Flow Index (MFI) at 65.45 indicates significant money inflow into the sector, lending conviction to today's price action. Coupled with a likely increase in On-Balance Volume (OBV) reflecting greater buying pressure on an up day, these indicators collectively suggest underlying strength drove the sector's performance today.",
+  "market_weight": 0.2037,
+  "change_pct": 0.4,
+  "insights": "The Financials sector posted a modest gain of 0.40% today, signaling continued, albeit cautious, investor interest. This positive movement is supported by constructive technical indicators: the Relative Strength Index (RSI) at 59.51 suggests healthy bullish momentum without being overbought, while the Money Flow Index (MFI) at 58.55 confirms positive capital inflows into the sector. The On-Balance Volume (OBV) reading of 275,754,902, in conjunction with the daily gain, indicates that today's buying was likely supported by adequate volume, reinforcing the underlying strength and suggesting the advance was not on thin trading.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761696000000,
-        41.43
-      ],
-      [
-        1761782400000,
-        42.95
-      ],
-      [
-        1761868800000,
-        44.5
-      ],
       [
         1761955200000,
         null
@@ -747,21 +735,21 @@
       [
         1777248000000,
         56.52
+      ],
+      [
+        1777334400000,
+        56.87
+      ],
+      [
+        1777420800000,
+        57.53
+      ],
+      [
+        1777507200000,
+        59.51
       ]
     ],
     "mfi": [
-      [
-        1761696000000,
-        39.77
-      ],
-      [
-        1761782400000,
-        48.94
-      ],
-      [
-        1761868800000,
-        48.9
-      ],
       [
         1761955200000,
         null
@@ -1473,21 +1461,21 @@
       [
         1777248000000,
         65.45
+      ],
+      [
+        1777334400000,
+        63.67
+      ],
+      [
+        1777420800000,
+        58.04
+      ],
+      [
+        1777507200000,
+        58.55
       ]
     ],
     "obv": [
-      [
-        1761696000000,
-        -42862046.0
-      ],
-      [
-        1761782400000,
-        5706654.0
-      ],
-      [
-        1761868800000,
-        46129754.0
-      ],
       [
         1761955200000,
         null
@@ -2199,6 +2187,18 @@
       [
         1777248000000,
         199445124.0
+      ],
+      [
+        1777334400000,
+        223248500.0
+      ],
+      [
+        1777420800000,
+        245165907.0
+      ],
+      [
+        1777507200000,
+        275754902.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     2.5,
     3.27,
     -1.93,
-    0.76,
+    1.38,
     null,
     null,
     null,

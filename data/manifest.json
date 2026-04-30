@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-27T21:34:42.834660Z",
+  "lastUpdated": "2026-04-30T21:33:14.011491Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index representing the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a modest gain today, closing up 0.17%. Key technical indicators reveal a market exhibiting strong bullish momentum and sentiment. The Relative Strength Index (RSI) at 70.68 and Money Flow Index (MFI) at 78.82 both sit firmly in overbought territory, suggesting significant buying pressure and robust capital inflows. The substantial On-Balance Volume (OBV) further supports this, indicating that buying volume is confirming the upward price movement. Collectively, these figures point to a dominant bullish sentiment and strong momentum, although the elevated RSI and MFI suggest the market may be technically overextended, potentially warranting caution for a near-term consolidation or pullback.",
-    "change_pct": 0.17,
+    "commentary": "Today, the stock market posted a solid 0.99% gain, reflecting strong positive momentum. Key technical indicators largely corroborate this bullish sentiment: The Relative Strength Index (RSI) at 70.51 suggests the market is entering overbought territory, indicative of robust buying pressure but also potentially signaling a near-term pause or consolidation. Supporting this, the Money Flow Index (MFI) at 65.68 confirms healthy capital inflows, while the substantial On-Balance Volume (OBV) further corroborates that this uptrend is supported by significant buying interest. Collectively, these figures point to strong upward momentum driven by confident buyers, though the elevated RSI warrants monitoring for potential profit-taking.",
+    "change_pct": 0.99,
     "technicalIndicators": {
       "rsi": [
-        [
-          1761696000000,
-          68.95
-        ],
-        [
-          1761782400000,
-          59.63
-        ],
-        [
-          1761868800000,
-          61.29
-        ],
         [
           1761955200000,
           null
@@ -747,21 +735,21 @@
         [
           1777248000000,
           70.68
+        ],
+        [
+          1777334400000,
+          67.1
+        ],
+        [
+          1777420800000,
+          66.98
+        ],
+        [
+          1777507200000,
+          70.51
         ]
       ],
       "mfi": [
-        [
-          1761696000000,
-          55.12
-        ],
-        [
-          1761782400000,
-          59.15
-        ],
-        [
-          1761868800000,
-          59.53
-        ],
         [
           1761955200000,
           null
@@ -1473,21 +1461,21 @@
         [
           1777248000000,
           78.82
+        ],
+        [
+          1777334400000,
+          71.16
+        ],
+        [
+          1777420800000,
+          64.49
+        ],
+        [
+          1777507200000,
+          65.68
         ]
       ],
       "obv": [
-        [
-          1761696000000,
-          917123302.0
-        ],
-        [
-          1761782400000,
-          840787502.0
-        ],
-        [
-          1761868800000,
-          927906902.0
-        ],
         [
           1761955200000,
           null
@@ -2199,6 +2187,18 @@
         [
           1777248000000,
           1003846065.0
+        ],
+        [
+          1777334400000,
+          960728665.0
+        ],
+        [
+          1777420800000,
+          918869465.0
+        ],
+        [
+          1777507200000,
+          981690550.0
         ]
       ]
     },
@@ -2220,7 +2220,7 @@
       3.6,
       4.52,
       0.54,
-      0.17,
+      0.66,
       null,
       null,
       null,

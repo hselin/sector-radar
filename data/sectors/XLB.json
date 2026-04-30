@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, and packaging.",
-    "marketSizeUSD": "1.7T",
+    "description": "The Materials sector encompasses companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, paper, forest products, and packaging.",
+    "marketSizeUSD": "1.1T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,32 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co",
+        "name": "Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
-        "name": "Air Products and Chemicals Inc.",
-        "symbol": "APD"
+        "name": "Freeport-McMoRan Inc.",
+        "symbol": "FCX"
       }
     ]
   },
-  "market_weight": 0.0323,
-  "change_pct": -0.27,
-  "insights": "The Materials sector registered a modest decline of -0.27% today, indicating a slight daily pullback. Despite this minor dip, key technical indicators suggest a relatively balanced underlying sentiment. The Relative Strength Index (RSI) at 56.90 and Money Flow Index (MFI) at 52.44 both reside just above their respective neutral 50-levels, implying that while there was a slight price retreat, momentum is not strongly bearish, and money flow remains balanced to slightly positive, rather than signaling significant selling pressure or capital flight. The high On-Balance Volume (OBV) of 84,387,391 reflects sustained historical buying interest, suggesting today's minor move is likely consolidation.",
+  "market_weight": 0.0187,
+  "change_pct": 1.0,
+  "insights": "The Materials sector posted a solid 1.00% gain today, indicating positive momentum. While the RSI at 52.95 remains in neutral territory, suggesting the rally was not overextended, and the OBV at 83,657,611 confirms positive net volume supported the price advance, the MFI at 42.63 suggests money flow lagged the price action. This could imply that despite the daily gain, the underlying buying conviction was not exceptionally robust, warranting cautious observation of follow-through.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761696000000,
-        40.35
-      ],
-      [
-        1761782400000,
-        35.54
-      ],
-      [
-        1761868800000,
-        33.69
-      ],
       [
         1761955200000,
         null
@@ -747,21 +735,21 @@
       [
         1777248000000,
         56.9
+      ],
+      [
+        1777334400000,
+        52.37
+      ],
+      [
+        1777420800000,
+        47.64
+      ],
+      [
+        1777507200000,
+        52.95
       ]
     ],
     "mfi": [
-      [
-        1761696000000,
-        35.99
-      ],
-      [
-        1761782400000,
-        36.33
-      ],
-      [
-        1761868800000,
-        28.93
-      ],
       [
         1761955200000,
         null
@@ -1473,21 +1461,21 @@
       [
         1777248000000,
         52.44
+      ],
+      [
+        1777334400000,
+        44.2
+      ],
+      [
+        1777420800000,
+        38.88
+      ],
+      [
+        1777507200000,
+        42.63
       ]
     ],
     "obv": [
-      [
-        1761696000000,
-        -23975135.0
-      ],
-      [
-        1761782400000,
-        -34374435.0
-      ],
-      [
-        1761868800000,
-        -43137835.0
-      ],
       [
         1761955200000,
         null
@@ -2199,6 +2187,18 @@
       [
         1777248000000,
         84387391.0
+      ],
+      [
+        1777334400000,
+        75400986.0
+      ],
+      [
+        1777420800000,
+        68375737.0
+      ],
+      [
+        1777507200000,
+        83657611.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     3.07,
     -0.15,
     0.08,
-    -0.27,
+    -0.87,
     null,
     null,
     null,

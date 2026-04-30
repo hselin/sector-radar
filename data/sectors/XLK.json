@@ -1,41 +1,29 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies primarily involved in software, IT services, and technology hardware and equipment, providing essential products and services for digital infrastructure and innovation.",
-    "marketSizeUSD": "13.5T",
-    "constituentCount": 68,
+    "description": "The Information Technology GICS sector comprises companies primarily engaged in software, IT services, and technology hardware & equipment.",
+    "marketSizeUSD": "14.5T",
+    "constituentCount": 66,
     "topHoldings": [
+      {
+        "name": "Microsoft Corporation",
+        "symbol": "MSFT"
+      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
       },
       {
-        "name": "Microsoft Corp",
-        "symbol": "MSFT"
-      },
-      {
-        "name": "NVIDIA Corp",
+        "name": "NVIDIA Corporation",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.2562,
-  "change_pct": 0.22,
-  "insights": "The Information Technology sector posted a modest gain of 0.22% today, but key technical indicators signal strong, potentially extended buying pressure. The Relative Strength Index (RSI) at 76.12 and the Money Flow Index (MFI) at 81.10 are both deep in overbought territory, indicating the sector may be due for a consolidation or pullback despite the daily uplift. The substantial On-Balance Volume (OBV) of 416,206,732 further suggests that this upward momentum has been accompanied by significant volume, validating the robust money inflow but also underscoring the stretched nature of the current rally.",
+  "market_weight": 0.2462,
+  "change_pct": 0.25,
+  "insights": "The Information Technology sector advanced a modest 0.25% today, reflecting underlying robust momentum. Its Relative Strength Index (RSI) at 70.58 and Money Flow Index (MFI) at 79.57 both sit in overbought territory, signaling persistent strong buying pressure and significant money inflow into the sector. The substantial On-Balance Volume (OBV) of 423,705,760 further corroborates this sustained positive sentiment by indicating a cumulative increase in buying volume. While today's price action was modest, these elevated indicators suggest the sector has experienced considerable upward momentum, potentially flagging a need for near-term consolidation despite the continued positive activity.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761696000000,
-        73.1
-      ],
-      [
-        1761782400000,
-        66.49
-      ],
-      [
-        1761868800000,
-        66.74
-      ],
       [
         1761955200000,
         null
@@ -747,21 +735,21 @@
       [
         1777248000000,
         76.12
+      ],
+      [
+        1777334400000,
+        68.66
+      ],
+      [
+        1777420800000,
+        70.12
+      ],
+      [
+        1777507200000,
+        70.58
       ]
     ],
     "mfi": [
-      [
-        1761696000000,
-        59.82
-      ],
-      [
-        1761782400000,
-        65.16
-      ],
-      [
-        1761868800000,
-        57.97
-      ],
       [
         1761955200000,
         null
@@ -1473,21 +1461,21 @@
       [
         1777248000000,
         81.1
+      ],
+      [
+        1777334400000,
+        74.21
+      ],
+      [
+        1777420800000,
+        79.44
+      ],
+      [
+        1777507200000,
+        79.57
       ]
     ],
     "obv": [
-      [
-        1761696000000,
-        243494231.0
-      ],
-      [
-        1761782400000,
-        233884931.0
-      ],
-      [
-        1761868800000,
-        242036331.0
-      ],
       [
         1761955200000,
         null
@@ -2199,6 +2187,18 @@
       [
         1777248000000,
         416206732.0
+      ],
+      [
+        1777334400000,
+        406993900.0
+      ],
+      [
+        1777420800000,
+        414442447.0
+      ],
+      [
+        1777507200000,
+        423705760.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     4.88,
     8.22,
     3.8,
-    0.22,
+    -0.45,
     null,
     null,
     null,

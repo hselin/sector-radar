@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses companies that provide non-essential goods and services, including retail, automotive, hotels, restaurants, leisure, and media.",
-    "marketSizeUSD": "6.5T",
-    "constituentCount": 57,
+    "description": "The Consumer Discretionary sector encompasses companies that provide non-essential goods and services, which consumers purchase with their disposable income, including retail, automotive, hotels, entertainment, and durable goods.",
+    "marketSizeUSD": "6.0T",
+    "constituentCount": 56,
     "topHoldings": [
       {
         "name": "Amazon.com, Inc.",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1233,
-  "change_pct": -0.72,
-  "insights": "The Consumer Discretionary sector experienced a modest pullback today, declining by -0.72%. Despite this daily dip, technical indicators present a nuanced view: the Relative Strength Index (RSI) at 58.01 and the Money Flow Index (MFI) at 67.58 both suggest underlying relative strength and significant money flow into the sector, with the MFI approaching overbought territory. This implies today's movement could be a minor correction or profit-taking amidst broader bullish sentiment. Conversely, the On-Balance Volume (OBV) at -21,985,437 indicates that selling volume has generally outweighed buying volume over its calculation period, aligning with the sector's negative performance today.",
+  "market_weight": 0.1019,
+  "change_pct": 1.29,
+  "insights": "The Consumer Discretionary sector exhibited strong performance today, climbing 1.29%. Its Relative Strength Index (RSI) at 58.78 indicates healthy bullish momentum without entering overbought territory, suggesting room for further upside. The Money Flow Index (MFI) at 52.45 remains largely neutral, indicating balanced money flow rather than an aggressive influx. However, the On-Balance Volume (OBV) registering -27,346,949 presents a notable divergence; despite the positive price action, this negative OBV suggests that the upward movement may not have been fully supported by strong buying volume, warranting close monitoring of future volume trends to confirm the sustainability of today's gains.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761696000000,
-        54.19
-      ],
-      [
-        1761782400000,
-        44.5
-      ],
-      [
-        1761868800000,
-        54.52
-      ],
       [
         1761955200000,
         null
@@ -747,21 +735,21 @@
       [
         1777248000000,
         58.01
+      ],
+      [
+        1777334400000,
+        55.19
+      ],
+      [
+        1777420800000,
+        54.6
+      ],
+      [
+        1777507200000,
+        58.78
       ]
     ],
     "mfi": [
-      [
-        1761696000000,
-        56.62
-      ],
-      [
-        1761782400000,
-        58.88
-      ],
-      [
-        1761868800000,
-        59.68
-      ],
       [
         1761955200000,
         null
@@ -1473,21 +1461,21 @@
       [
         1777248000000,
         67.58
+      ],
+      [
+        1777334400000,
+        58.06
+      ],
+      [
+        1777420800000,
+        50.37
+      ],
+      [
+        1777507200000,
+        52.45
       ]
     ],
     "obv": [
-      [
-        1761696000000,
-        22778815.0
-      ],
-      [
-        1761782400000,
-        16852115.0
-      ],
-      [
-        1761868800000,
-        23559315.0
-      ],
       [
         1761955200000,
         null
@@ -2199,6 +2187,18 @@
       [
         1777248000000,
         -21985437.0
+      ],
+      [
+        1777334400000,
+        -28725689.0
+      ],
+      [
+        1777420800000,
+        -36866780.0
+      ],
+      [
+        1777507200000,
+        -27346949.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     4.38,
     6.66,
     -1.43,
-    -0.72,
+    -0.29,
     null,
     null,
     null,

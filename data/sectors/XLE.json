@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies that primarily engage in the exploration, development, production, refining, and marketing of oil, natural gas, and other consumable fuels, as well as those providing equipment and services to these industries.",
-    "marketSizeUSD": "1.7T",
-    "constituentCount": 21,
+    "description": "The Energy sector comprises companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, and other consumable fuels.",
+    "marketSizeUSD": "2.5T",
+    "constituentCount": 23,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0323,
-  "change_pct": -0.18,
-  "insights": "The Energy sector experienced a marginal decline of -0.18% today, indicating a relatively flat session with a slight bearish tilt. Key technical indicators largely reinforce this neutral-to-slightly-bearish sentiment without signaling strong directional conviction. Both the Relative Strength Index (RSI) at 47.21 and the Money Flow Index (MFI) at 47.66 reside just below the 50-mark, suggesting a slight preponderance of selling pressure and money outflow, respectively, which aligns with the sector's minor price dip. However, these levels are well within neutral territory, suggesting no significant overbought/oversold conditions or strong momentum shifts. The On-Balance Volume (OBV) at 1,008,162,042 represents a substantial accumulated volume base, and while its specific daily change is not provided, the overall subdued movement in price implies a lack of aggressive, volume-driven action today.",
+  "market_weight": 0.0424,
+  "change_pct": 1.05,
+  "insights": "The Energy sector experienced a strong day, advancing by 1.05%. This positive performance is underscored by its technical indicators: the Relative Strength Index (RSI) at 61.97 and Money Flow Index (MFI) at 63.10 both suggest robust buying momentum and healthy capital inflow, without yet indicating overbought conditions. The substantial On-Balance Volume (OBV) of 1,123,257,927 further confirms that this price appreciation is supported by significant cumulative buying pressure, reinforcing the observed bullish sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761696000000,
-        50.9
-      ],
-      [
-        1761782400000,
-        48.39
-      ],
-      [
-        1761868800000,
-        51.56
-      ],
       [
         1761955200000,
         null
@@ -747,21 +735,21 @@
       [
         1777248000000,
         47.21
+      ],
+      [
+        1777334400000,
+        52.8
+      ],
+      [
+        1777420800000,
+        59.32
+      ],
+      [
+        1777507200000,
+        61.97
       ]
     ],
     "mfi": [
-      [
-        1761696000000,
-        58.69
-      ],
-      [
-        1761782400000,
-        62.43
-      ],
-      [
-        1761868800000,
-        62.9
-      ],
       [
         1761955200000,
         null
@@ -1473,21 +1461,21 @@
       [
         1777248000000,
         47.66
+      ],
+      [
+        1777334400000,
+        57.24
+      ],
+      [
+        1777420800000,
+        56.22
+      ],
+      [
+        1777507200000,
+        63.1
       ]
     ],
     "obv": [
-      [
-        1761696000000,
-        231434983.0
-      ],
-      [
-        1761782400000,
-        221103283.0
-      ],
-      [
-        1761868800000,
-        234595383.0
-      ],
       [
         1761955200000,
         null
@@ -2199,6 +2187,18 @@
       [
         1777248000000,
         1008162042.0
+      ],
+      [
+        1777334400000,
+        1047178476.0
+      ],
+      [
+        1777420800000,
+        1087422024.0
+      ],
+      [
+        1777507200000,
+        1123257927.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     -3.9,
     -3.37,
     3.36,
-    -0.18,
+    4.89,
     null,
     null,
     null,

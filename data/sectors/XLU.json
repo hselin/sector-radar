@@ -1,8 +1,8 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector includes companies that generate, transmit, and distribute electricity, natural gas, and water, as well as providers of other public services.",
-    "marketSizeUSD": "1.3T",
+    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, along with other related services.",
+    "marketSizeUSD": "1.5T",
     "constituentCount": 29,
     "topHoldings": [
       {
@@ -10,32 +10,20 @@
         "symbol": "NEE"
       },
       {
-        "name": "The Southern Company",
-        "symbol": "SO"
-      },
-      {
         "name": "Duke Energy Corporation",
         "symbol": "DUK"
+      },
+      {
+        "name": "The Southern Company",
+        "symbol": "SO"
       }
     ]
   },
-  "market_weight": 0.0247,
-  "change_pct": 0.02,
-  "insights": "The Utilities sector concluded the day with a marginal gain of 0.02%, reflecting an exceptionally flat trading session. Technical indicators largely corroborate this lack of strong directional momentum: the Relative Strength Index (RSI) at 51.48 sits just above the neutral 50-mark, indicating a balanced sentiment with slightly more buying pressure but no significant trend. The Money Flow Index (MFI) at 46.40 suggests a slight outflow of money, yet remains close to the equilibrium point. The On-Balance Volume (OBV) at 416,640,987, in the context of this negligible price change, implies that net buying and selling volume were largely offsetting, underscoring the sector's quiet and indecisive daily performance.",
+  "market_weight": 0.0255,
+  "change_pct": 2.56,
+  "insights": "The Utilities sector experienced a notable surge today, closing up a significant 2.56%. This strong bullish momentum is supported by an RSI of 57.14, indicating robust buying interest without yet reaching overbought levels. However, the Money Flow Index (MFI) at 40.76 suggests that while prices advanced, the overall volume-weighted money flow into the sector might not have been as vigorous, or perhaps tapered, presenting a slight divergence. The high On-Balance Volume (OBV) of 439,376,982 reflects substantial cumulative buying pressure over time, which today's price action likely reinforced, but the MFI warrants observation for sustained conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761696000000,
-        53.35
-      ],
-      [
-        1761782400000,
-        50.78
-      ],
-      [
-        1761868800000,
-        46.81
-      ],
       [
         1761955200000,
         null
@@ -747,21 +735,21 @@
       [
         1777248000000,
         51.48
+      ],
+      [
+        1777334400000,
+        52.11
+      ],
+      [
+        1777420800000,
+        45.97
+      ],
+      [
+        1777507200000,
+        57.14
       ]
     ],
     "mfi": [
-      [
-        1761696000000,
-        34.92
-      ],
-      [
-        1761782400000,
-        35.44
-      ],
-      [
-        1761868800000,
-        29.09
-      ],
       [
         1761955200000,
         null
@@ -1473,21 +1461,21 @@
       [
         1777248000000,
         46.4
+      ],
+      [
+        1777334400000,
+        40.55
+      ],
+      [
+        1777420800000,
+        33.4
+      ],
+      [
+        1777507200000,
+        40.76
       ]
     ],
     "obv": [
-      [
-        1761696000000,
-        192656737.0
-      ],
-      [
-        1761782400000,
-        183221337.0
-      ],
-      [
-        1761868800000,
-        174004337.0
-      ],
       [
         1761955200000,
         null
@@ -2199,6 +2187,18 @@
       [
         1777248000000,
         416640987.0
+      ],
+      [
+        1777334400000,
+        429637062.0
+      ],
+      [
+        1777420800000,
+        417005309.0
+      ],
+      [
+        1777507200000,
+        439376982.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     1.34,
     -1.7,
     0.04,
-    0.02,
+    1.45,
     null,
     null,
     null,
