@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector comprises companies that provide medical services, manufacture medical equipment or drugs, and offer other healthcare-related products and services.",
-    "marketSizeUSD": "7.8T",
-    "constituentCount": 65,
+    "description": "The Health Care sector encompasses companies involved in providing medical services, manufacturing medical equipment and pharmaceuticals, and offering other health-related products and services.",
+    "marketSizeUSD": "7.7T",
+    "constituentCount": 68,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1324,
-  "change_pct": 2.21,
-  "insights": "The Health Care sector demonstrated strong performance today, gaining 2.21%. However, the technical indicators present a nuanced view. While the Relative Strength Index (RSI) at 47.40 suggests the sector is not yet overbought and has room for potential upside momentum, the Money Flow Index (MFI) at 24.37 indicates significant money outflow, hovering in oversold territory. This, coupled with a substantially negative On-Balance Volume (OBV) of -73,085,229, suggests that despite today's price appreciation, underlying buying pressure and consistent money inflow are weak, implying that the robust daily gain may be a short-term bounce rather than a broadly supported reversal or the start of a sustained uptrend.",
+  "market_weight": 0.131,
+  "change_pct": -0.57,
+  "insights": "The Health Care sector saw a modest decline of -0.57% today, reflecting a slight pullback. This downward movement is consistent with its key technical indicators: the RSI at 45.10 suggests weakening momentum and a bearish tilt, though not yet indicating oversold conditions. More significantly, the MFI at 31.31 points to considerable money outflow from the sector, approaching oversold levels and indicating strong selling pressure. The substantial negative OBV further reinforces this, confirming that selling volume has outweighed buying volume, contributing to the sector's depreciation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761955200000,
-        null
-      ],
       [
         1762041600000,
         null
@@ -747,13 +743,13 @@
       [
         1777507200000,
         47.4
+      ],
+      [
+        1777593600000,
+        45.1
       ]
     ],
     "mfi": [
-      [
-        1761955200000,
-        null
-      ],
       [
         1762041600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1777507200000,
         24.37
+      ],
+      [
+        1777593600000,
+        31.31
       ]
     ],
     "obv": [
-      [
-        1761955200000,
-        null
-      ],
       [
         1762041600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1777507200000,
         -73085229.0
+      ],
+      [
+        1777593600000,
+        -81829515.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     0.34,
     1.01,
     -3.1,
-    1.26,
+    0.68,
     null,
     null,
     null,

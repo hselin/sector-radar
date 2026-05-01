@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0187,
-  "change_pct": 1.0,
-  "insights": "The Materials sector posted a solid 1.00% gain today, indicating positive momentum. While the RSI at 52.95 remains in neutral territory, suggesting the rally was not overextended, and the OBV at 83,657,611 confirms positive net volume supported the price advance, the MFI at 42.63 suggests money flow lagged the price action. This could imply that despite the daily gain, the underlying buying conviction was not exceptionally robust, warranting cautious observation of follow-through.",
+  "change_pct": -0.23,
+  "insights": "The Materials sector registered a marginal decline today, falling -0.23%. Technical indicators paint a largely neutral picture; the Relative Strength Index (RSI) at 51.62 and Money Flow Index (MFI) at 49.17 both sit near the 50-mark, indicating a lack of significant overbought or oversold conditions and balanced money flow within the sector. While the On-Balance Volume (OBV) at 74,311,731 provides a snapshot, its current level, in conjunction with the neutral RSI and MFI, suggests the day's slight price dip was not driven by strong, confirming selling pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761955200000,
-        null
-      ],
       [
         1762041600000,
         null
@@ -747,13 +743,13 @@
       [
         1777507200000,
         52.95
+      ],
+      [
+        1777593600000,
+        51.62
       ]
     ],
     "mfi": [
-      [
-        1761955200000,
-        null
-      ],
       [
         1762041600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1777507200000,
         42.63
+      ],
+      [
+        1777593600000,
+        49.17
       ]
     ],
     "obv": [
-      [
-        1761955200000,
-        null
-      ],
       [
         1762041600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1777507200000,
         83657611.0
+      ],
+      [
+        1777593600000,
+        74311731.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     3.07,
     -0.15,
     0.08,
-    -0.87,
+    -1.1,
     null,
     null,
     null,

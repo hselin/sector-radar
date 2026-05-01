@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0424,
-  "change_pct": 1.05,
-  "insights": "The Energy sector experienced a strong day, advancing by 1.05%. This positive performance is underscored by its technical indicators: the Relative Strength Index (RSI) at 61.97 and Money Flow Index (MFI) at 63.10 both suggest robust buying momentum and healthy capital inflow, without yet indicating overbought conditions. The substantial On-Balance Volume (OBV) of 1,123,257,927 further confirms that this price appreciation is supported by significant cumulative buying pressure, reinforcing the observed bullish sentiment.",
+  "market_weight": 0.0425,
+  "change_pct": -1.34,
+  "insights": "The Energy sector experienced a notable pullback today, declining by -1.34%. Despite this daily downturn, key technical indicators suggest that the underlying momentum remains relatively neutral to slightly positive rather than signaling an immediate bearish shift. Both the Relative Strength Index (RSI) at 56.82 and the Money Flow Index (MFI) at 56.37 are positioned in mid-range territory, well above oversold levels, indicating that while selling pressure was present, it has not yet led to significant capital outflows or pushed the sector into a deeply bearish momentum. The On-Balance Volume (OBV) at 1088157177, while an absolute value, would typically see a corresponding decrease on a day with negative price action, confirming that selling volume likely accompanied today's move; however, the stable RSI and MFI imply some resilience below the surface, suggesting this might be a corrective dip rather than the start of a sustained downtrend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1761955200000,
-        null
-      ],
       [
         1762041600000,
         null
@@ -747,13 +743,13 @@
       [
         1777507200000,
         61.97
+      ],
+      [
+        1777593600000,
+        56.82
       ]
     ],
     "mfi": [
-      [
-        1761955200000,
-        null
-      ],
       [
         1762041600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1777507200000,
         63.1
+      ],
+      [
+        1777593600000,
+        56.37
       ]
     ],
     "obv": [
-      [
-        1761955200000,
-        null
-      ],
       [
         1762041600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1777507200000,
         1123257927.0
+      ],
+      [
+        1777593600000,
+        1088157177.0
       ]
     ]
   },
@@ -2220,7 +2220,7 @@
     -3.9,
     -3.37,
     3.36,
-    4.89,
+    3.48,
     null,
     null,
     null,
