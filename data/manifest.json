@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-03T21:21:37.968118Z",
+  "lastUpdated": "2026-05-04T21:35:04.428313Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market saw modest gains today, advancing by 0.28%. This positive movement was accompanied by key technical indicators suggesting an increasingly bullish, albeit potentially stretched, market sentiment and strong momentum. The Relative Strength Index (RSI) at 71.43 indicates the market is in overbought territory, signaling robust buying pressure that may warrant caution for short-term sustainability. Reinforcing this, the Money Flow Index (MFI) at 65.02 points to significant capital inflow, confirming conviction behind the upward price action. Furthermore, the substantial On-Balance Volume (OBV) reading of 1,019,388,656 suggests that today's price gains were well-supported by buying volume. Collectively, these figures illustrate strong upward momentum driven by confident buyers, yet the elevated RSI hints at the potential for a period of consolidation or a pullback.",
-    "change_pct": 0.28,
+    "commentary": "The overall stock market experienced a slight pullback today, closing down 0.37%. This minor decline comes amidst mixed signals from key technical indicators regarding market sentiment and momentum. The Relative Strength Index (RSI) at 68.37 is approaching overbought territory (above 70), suggesting that recent upward momentum has been strong and might be nearing a point of potential exhaustion or consolidation. However, the Money Flow Index (MFI) at 57.36, remaining above 50, indicates that despite today's dip, there is still net money flowing into the market, reflecting persistent underlying buying interest. The On-Balance Volume (OBV) at 971,367,188, a high positive value, generally points to significant accumulation over time, reinforcing the idea of underlying demand. In summary, while the market took a small breather, the technicals broadly suggest strong underlying demand, though caution may be warranted given the elevated RSI.",
+    "change_pct": -0.37,
     "technicalIndicators": {
       "rsi": [
-        [
-          1762041600000,
-          null
-        ],
-        [
-          1762128000000,
-          62.26
-        ],
-        [
-          1762214400000,
-          53.37
-        ],
         [
           1762300800000,
           55.24
@@ -747,21 +735,21 @@
         [
           1777593600000,
           71.43
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1762041600000,
+          1777680000000,
           null
         ],
         [
-          1762128000000,
-          66.46
+          1777766400000,
+          null
         ],
         [
-          1762214400000,
-          59.4
-        ],
+          1777852800000,
+          68.37
+        ]
+      ],
+      "mfi": [
         [
           1762300800000,
           68.47
@@ -1473,21 +1461,21 @@
         [
           1777593600000,
           65.02
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1762041600000,
+          1777680000000,
           null
         ],
         [
-          1762128000000,
-          979434110.0
+          1777766400000,
+          null
         ],
         [
-          1762214400000,
-          909773396.0
-        ],
+          1777852800000,
+          57.36
+        ]
+      ],
+      "obv": [
         [
           1762300800000,
           973177272.0
@@ -2199,6 +2187,18 @@
         [
           1777593600000,
           1019388656.0
+        ],
+        [
+          1777680000000,
+          null
+        ],
+        [
+          1777766400000,
+          null
+        ],
+        [
+          1777852800000,
+          971367188.0
         ]
       ]
     },
@@ -2221,7 +2221,7 @@
       4.52,
       0.54,
       0.94,
-      null,
+      -0.37,
       null,
       null,
       null,
