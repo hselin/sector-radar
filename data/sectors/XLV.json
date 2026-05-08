@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in providing medical services, manufacturing medical equipment and pharmaceuticals, and offering other health-related products and services.",
-    "marketSizeUSD": "7.7T",
+    "description": "The Health Care GICS sector includes companies that provide medical services or facilities, manufacture medical equipment and supplies, or develop and produce pharmaceuticals and biotechnology products.",
+    "marketSizeUSD": "6.7T",
     "constituentCount": 68,
     "topHoldings": [
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.131,
-  "change_pct": -0.3,
-  "insights": "The Health Care sector experienced a modest decline of -0.30% today, reflecting a prevailing cautious sentiment among investors. Technical indicators reinforce this view, with the Relative Strength Index (RSI) at 43.91 suggesting that sellers held a slight edge, though the sector is not yet in an oversold condition. More significantly, the Money Flow Index (MFI) at 24.00 indicates substantial money outflow, pointing to notable selling pressure and a reluctance of new capital to enter. This selling pressure is further supported by the On-Balance Volume (OBV), which, despite its large negative value, reinforces the notion that selling volume is currently outweighing buying volume, confirming underlying weakness beyond the day's relatively small price movement.",
+  "market_weight": 0.1409,
+  "change_pct": -0.85,
+  "insights": "The Health Care sector experienced a -0.85% decline today, with technical indicators reinforcing a bearish short-term outlook. The RSI at 40.38 signals weakening momentum, while the MFI at 30.57 indicates a significant outflow of capital, approaching oversold conditions. Furthermore, the substantial negative On-Balance Volume (OBV) confirms that this price depreciation was supported by notable selling pressure and volume. Collectively, these indicators suggest the sector is currently experiencing genuine downward momentum driven by strong sell-side activity.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1762300800000,
-        62.93
-      ],
-      [
-        1762387200000,
-        64.1
-      ],
-      [
-        1762473600000,
-        64.95
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -747,25 +731,25 @@
       [
         1777852800000,
         43.91
+      ],
+      [
+        1777939200000,
+        45.94
+      ],
+      [
+        1778025600000,
+        46.31
+      ],
+      [
+        1778112000000,
+        44.11
+      ],
+      [
+        1778198400000,
+        40.38
       ]
     ],
     "mfi": [
-      [
-        1762300800000,
-        66.95
-      ],
-      [
-        1762387200000,
-        68.15
-      ],
-      [
-        1762473600000,
-        69.38
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1777852800000,
         24.0
+      ],
+      [
+        1777939200000,
+        29.7
+      ],
+      [
+        1778025600000,
+        37.86
+      ],
+      [
+        1778112000000,
+        31.23
+      ],
+      [
+        1778198400000,
+        30.57
       ]
     ],
     "obv": [
-      [
-        1762300800000,
-        114378534.0
-      ],
-      [
-        1762387200000,
-        127606761.0
-      ],
-      [
-        1762473600000,
-        141740476.0
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1777852800000,
         -92699105.0
+      ],
+      [
+        1777939200000,
+        -85529522.0
+      ],
+      [
+        1778025600000,
+        -74970793.0
+      ],
+      [
+        1778112000000,
+        -82388158.0
+      ],
+      [
+        1778198400000,
+        -91540940.0
       ]
     ]
   },
@@ -2221,7 +2221,7 @@
     1.01,
     -3.1,
     0.68,
-    -0.3,
+    -1.15,
     null,
     null,
     null,

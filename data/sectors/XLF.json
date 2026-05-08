@@ -1,45 +1,29 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies engaged in banking, diversified financial services, insurance, real estate, and consumer finance.",
-    "marketSizeUSD": "12.0T",
-    "constituentCount": 68,
+    "description": "The Financials sector encompasses a broad range of companies engaged in banking, diversified financial services, insurance, and real estate activities.",
+    "marketSizeUSD": "6.5T",
+    "constituentCount": 67,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
         "symbol": "BRK.B"
       },
       {
-        "name": "JPMorgan Chase & Co.",
-        "symbol": "JPM"
-      },
-      {
         "name": "Visa Inc.",
         "symbol": "V"
+      },
+      {
+        "name": "JPMorgan Chase & Co.",
+        "symbol": "JPM"
       }
     ]
   },
-  "market_weight": 0.2041,
-  "change_pct": -0.65,
-  "insights": "The Financials sector concluded today with a modest decline of -0.65%, indicating some profit-taking or slight bearish sentiment. Despite this daily dip, key technical indicators suggest a largely neutral market sentiment. The Relative Strength Index (RSI) at 52.29 and the Money Flow Index (MFI) at 50.17 are both hovering very close to the equilibrium 50-mark. This implies that while prices retreated, there wasn't a strong surge in selling momentum or significant money outflow, nor was there a substantial volume to contradict the price drop. The On-Balance Volume (OBV) at 192,860,971, in conjunction with these neutral momentum readings, suggests that the day's volume action was consistent with a minor pullback rather than a decisive directional shift.",
+  "market_weight": 0.1367,
+  "change_pct": -0.6,
+  "insights": "The Financials sector registered a modest decline of -0.60% today, reflecting a slight bearish sentiment. Its Relative Strength Index (RSI) at 47.48 indicates momentum is leaning bearish but remains within neutral territory, suggesting the sector is not yet oversold. However, the Money Flow Index (MFI) at 35.76 points to a more significant outflow of capital, signaling increased selling pressure when accounting for volume. The On-Balance Volume (OBV) of 195,794,021, having likely decreased given the price drop, further supports the notion of net selling interest. Overall, these technicals suggest consistent, albeit not extreme, selling pressure and capital reallocation out of the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1762300800000,
-        47.53
-      ],
-      [
-        1762387200000,
-        45.76
-      ],
-      [
-        1762473600000,
-        50.17
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -747,25 +731,25 @@
       [
         1777852800000,
         52.29
+      ],
+      [
+        1777939200000,
+        52.41
+      ],
+      [
+        1778025600000,
+        55.34
+      ],
+      [
+        1778112000000,
+        51.39
+      ],
+      [
+        1778198400000,
+        47.48
       ]
     ],
     "mfi": [
-      [
-        1762300800000,
-        50.85
-      ],
-      [
-        1762387200000,
-        51.82
-      ],
-      [
-        1762473600000,
-        52.24
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1777852800000,
         50.17
+      ],
+      [
+        1777939200000,
+        43.35
+      ],
+      [
+        1778025600000,
+        45.05
+      ],
+      [
+        1778112000000,
+        35.96
+      ],
+      [
+        1778198400000,
+        35.76
       ]
     ],
     "obv": [
-      [
-        1762300800000,
-        88166744.0
-      ],
-      [
-        1762387200000,
-        46775554.0
-      ],
-      [
-        1762473600000,
-        91269604.0
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1777852800000,
         192860971.0
+      ],
+      [
+        1777939200000,
+        220167709.0
+      ],
+      [
+        1778025600000,
+        259185854.0
+      ],
+      [
+        1778112000000,
+        224003779.0
+      ],
+      [
+        1778198400000,
+        195794021.0
       ]
     ]
   },
@@ -2221,7 +2221,7 @@
     3.27,
     -1.93,
     0.97,
-    -0.65,
+    -1.31,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that produce and distribute essential goods and services such as food, beverages, tobacco, household products, and personal care products, which are generally in consistent demand.",
-    "marketSizeUSD": "2.8T",
-    "constituentCount": 34,
+    "description": "The Consumer Staples sector comprises companies that produce and sell essential goods and services, such as food, beverages, household products, and personal care items, which are generally in demand regardless of economic conditions.",
+    "marketSizeUSD": "2.5T",
+    "constituentCount": 33,
     "topHoldings": [
       {
         "name": "Procter & Gamble Co.",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0476,
-  "change_pct": -0.75,
-  "insights": "The Consumer Staples sector experienced a modest decline of -0.75% today. While this indicates a minor pullback, the sector's Relative Strength Index (RSI) at 53.63 suggests neutral-to-slightly bullish momentum, avoiding overbought or oversold extremes. More notably, the Money Flow Index (MFI) at 65.53 is relatively strong, indicating continued money inflow and underlying buying interest despite the daily price drop, hinting at accumulation. The substantial On-Balance Volume (OBV) further supports a history of consistent buying pressure. Overall, today's dip appears to be a minor price correction within a context of underlying resilience and sustained investor interest in the sector.",
+  "market_weight": 0.0526,
+  "change_pct": 0.24,
+  "insights": "The Consumer Staples sector posted a modest 0.24% gain today, reflecting underlying strength supported by its technical indicators. The Relative Strength Index (RSI) at 56.67 indicates moderate buying interest without reaching overbought levels, suggesting potential for further upside. This positive sentiment is reinforced by the Money Flow Index (MFI) at 65.44, signaling robust money inflow into the sector. Furthermore, the substantial On-Balance Volume (OBV) registering 93,642,371, in conjunction with the daily price increase, confirms that today's movement was supported by healthy buying volume. Overall, the technical picture points to constructive buying pressure, well-supported by capital flow, without showing signs of immediate overextension.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1762300800000,
-        32.01
-      ],
-      [
-        1762387200000,
-        30.25
-      ],
-      [
-        1762473600000,
-        41.72
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -747,25 +731,25 @@
       [
         1777852800000,
         53.63
+      ],
+      [
+        1777939200000,
+        56.42
+      ],
+      [
+        1778025600000,
+        57.38
+      ],
+      [
+        1778112000000,
+        55.48
+      ],
+      [
+        1778198400000,
+        56.67
       ]
     ],
     "mfi": [
-      [
-        1762300800000,
-        28.5
-      ],
-      [
-        1762387200000,
-        21.51
-      ],
-      [
-        1762473600000,
-        22.48
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1777852800000,
         65.53
+      ],
+      [
+        1777939200000,
+        72.24
+      ],
+      [
+        1778025600000,
+        71.83
+      ],
+      [
+        1778112000000,
+        65.18
+      ],
+      [
+        1778198400000,
+        65.44
       ]
     ],
     "obv": [
-      [
-        1762300800000,
-        -20748728.0
-      ],
-      [
-        1762387200000,
-        -35649958.0
-      ],
-      [
-        1762473600000,
-        -19476289.0
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1777852800000,
         71442341.0
+      ],
+      [
+        1777939200000,
+        82309214.0
+      ],
+      [
+        1778025600000,
+        92825043.0
+      ],
+      [
+        1778112000000,
+        83321264.0
+      ],
+      [
+        1778198400000,
+        93642371.0
       ]
     ]
   },
@@ -2221,7 +2221,7 @@
     0.11,
     0.93,
     1.13,
-    -0.75,
+    0.01,
     null,
     null,
     null,

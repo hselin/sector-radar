@@ -1,45 +1,29 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies primarily engaged in the generation, transmission, and distribution of electricity, natural gas, and water, along with other related services.",
+    "description": "The Utilities GICS sector comprises companies that provide electricity, natural gas, water, and other essential services, often characterized by stable demand and regulatory oversight.",
     "marketSizeUSD": "1.5T",
-    "constituentCount": 29,
+    "constituentCount": 30,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
         "symbol": "NEE"
       },
       {
-        "name": "Duke Energy Corporation",
-        "symbol": "DUK"
+        "name": "Southern Company",
+        "symbol": "SO"
       },
       {
-        "name": "The Southern Company",
-        "symbol": "SO"
+        "name": "Duke Energy Corporation",
+        "symbol": "DUK"
       }
     ]
   },
-  "market_weight": 0.0255,
-  "change_pct": -0.39,
-  "insights": "The Utilities sector saw a modest decline of -0.39% today, indicating a largely neutral trading session with a slight downward bias. Technical indicators reinforce this sentiment: the Relative Strength Index (RSI) at 52.23 is firmly in neutral territory, suggesting neither overbought nor oversold conditions. Similarly, the Money Flow Index (MFI) at 48.12, while slightly below the 50-mark, indicates a marginally negative money flow, aligning with the small price dip but not signaling significant selling pressure. The On-Balance Volume (OBV) standing at 405,861,684 reflects substantial cumulative trading activity, and when viewed with the other neutral indicators, suggests the day's slight price decrease occurred without overwhelming volume support from sellers, maintaining a relatively balanced outlook for the sector.",
+  "market_weight": 0.0315,
+  "change_pct": -0.89,
+  "insights": "The Utilities sector registered a modest decline of -0.89% today, indicating a shift in investor sentiment. Key technical indicators reinforce this weakening trend: the Relative Strength Index (RSI) at 37.79 suggests bearish momentum, nearing oversold conditions, while the Money Flow Index (MFI) at 43.91 confirms a net outflow of money from the sector. The On-Balance Volume (OBV) of 338,143,937, when viewed alongside the daily price drop and the momentum indicators, implies that selling pressure likely dominated today's trading, contributing to the negative performance and validating the current downward movement in the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1762300800000,
-        45.22
-      ],
-      [
-        1762387200000,
-        42.73
-      ],
-      [
-        1762473600000,
-        52.14
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -747,25 +731,25 @@
       [
         1777852800000,
         52.23
+      ],
+      [
+        1777939200000,
+        52.23
+      ],
+      [
+        1778025600000,
+        45.68
+      ],
+      [
+        1778112000000,
+        40.76
+      ],
+      [
+        1778198400000,
+        37.79
       ]
     ],
     "mfi": [
-      [
-        1762300800000,
-        22.85
-      ],
-      [
-        1762387200000,
-        22.84
-      ],
-      [
-        1762473600000,
-        22.12
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1777852800000,
         48.12
+      ],
+      [
+        1777939200000,
+        55.73
+      ],
+      [
+        1778025600000,
+        45.45
+      ],
+      [
+        1778112000000,
+        44.49
+      ],
+      [
+        1778198400000,
+        43.91
       ]
     ],
     "obv": [
-      [
-        1762300800000,
-        184966926.0
-      ],
-      [
-        1762387200000,
-        173613979.0
-      ],
-      [
-        1762473600000,
-        185377356.0
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1777852800000,
         405861684.0
+      ],
+      [
+        1777939200000,
+        405861684.0
+      ],
+      [
+        1778025600000,
+        379679291.0
+      ],
+      [
+        1778112000000,
+        356217722.0
+      ],
+      [
+        1778198400000,
+        338143937.0
       ]
     ]
   },
@@ -2221,7 +2221,7 @@
     -1.7,
     0.04,
     0.8,
-    -0.39,
+    -3.93,
     null,
     null,
     null,

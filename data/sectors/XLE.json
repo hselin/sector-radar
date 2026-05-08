@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, and other consumable fuels.",
-    "marketSizeUSD": "2.5T",
-    "constituentCount": 23,
+    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, gas, coal, and consumable fuels, as well as companies providing services to these industries.",
+    "marketSizeUSD": "1.8T",
+    "constituentCount": 21,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0425,
-  "change_pct": 0.92,
-  "insights": "The Energy sector posted a solid performance today, gaining 0.92%, supported by healthy technical indicators. The Relative Strength Index (RSI) at 59.28 indicates strong momentum without being overbought, suggesting continued buying interest with room for further appreciation. This positive sentiment is corroborated by the Money Flow Index (MFI) at 65.17, which confirms significant capital inflows into the sector. Furthermore, the On-Balance Volume (OBV) of 1,124,839,517, alongside the positive price action, signifies that today's gains were well-supported by robust buying volume, lending credibility to the upward movement.",
+  "market_weight": 0.0379,
+  "change_pct": -0.45,
+  "insights": "The Energy sector experienced a modest decline of -0.45% today, reflecting a slight pullback. Despite this daily dip, the technical indicators present a mixed but not overtly bearish picture: the Relative Strength Index (RSI) at 40.50 suggests weakening short-term momentum, moving away from overbought territory. However, the Money Flow Index (MFI) at 66.29, well above the 50-mark, indicates that money is still actively flowing into the sector, suggesting underlying buying interest despite the price depreciation. The significant On-Balance Volume (OBV) further supports the notion of persistent investor engagement, implying that today's slight decline may be more of a temporary consolidation rather than a sustained capitulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1762300800000,
-        47.94
-      ],
-      [
-        1762387200000,
-        52.46
-      ],
-      [
-        1762473600000,
-        58.39
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -747,25 +731,25 @@
       [
         1777852800000,
         59.28
+      ],
+      [
+        1777939200000,
+        59.56
+      ],
+      [
+        1778025600000,
+        45.89
+      ],
+      [
+        1778112000000,
+        41.49
+      ],
+      [
+        1778198400000,
+        40.5
       ]
     ],
     "mfi": [
-      [
-        1762300800000,
-        63.47
-      ],
-      [
-        1762387200000,
-        64.24
-      ],
-      [
-        1762473600000,
-        65.07
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1777852800000,
         65.17
+      ],
+      [
+        1777939200000,
+        71.31
+      ],
+      [
+        1778025600000,
+        62.71
+      ],
+      [
+        1778112000000,
+        66.64
+      ],
+      [
+        1778198400000,
+        66.29
       ]
     ],
     "obv": [
-      [
-        1762300800000,
-        243115610.0
-      ],
-      [
-        1762387200000,
-        258725337.0
-      ],
-      [
-        1762473600000,
-        275446128.0
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1777852800000,
         1124839517.0
+      ],
+      [
+        1777939200000,
+        1151599095.0
+      ],
+      [
+        1778025600000,
+        1094994880.0
+      ],
+      [
+        1778112000000,
+        1042394601.0
+      ],
+      [
+        1778198400000,
+        1013442774.0
       ]
     ]
   },
@@ -2221,7 +2221,7 @@
     -3.37,
     3.36,
     3.48,
-    0.92,
+    -5.35,
     null,
     null,
     null,

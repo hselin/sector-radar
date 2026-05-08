@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies involved in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, paper, forest products, and packaging.",
-    "marketSizeUSD": "1.1T",
+    "description": "The Materials sector encompasses companies engaged in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, and packaging.",
+    "marketSizeUSD": "850B",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -14,32 +14,16 @@
         "symbol": "SHW"
       },
       {
-        "name": "Freeport-McMoRan Inc.",
-        "symbol": "FCX"
+        "name": "Ecolab Inc.",
+        "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0187,
-  "change_pct": -1.36,
-  "insights": "The Materials sector experienced a notable pullback today, declining by -1.36%. From a technical perspective, the Relative Strength Index (RSI) at 44.61 and the Money Flow Index (MFI) at 48.64 both reside in neutral territory, suggesting that despite today's negative performance, the sector is neither significantly overbought nor oversold. This indicates that the selling pressure was moderate and did not push the sector to extreme momentum levels. The On-Balance Volume (OBV) stands at 64,277,172, reflecting the cumulative buying and selling pressure. While the absolute OBV figure doesn't provide daily trend context without comparison, the neutral RSI and MFI imply that today's dip was a correction within a broader range, rather than a capitulation event or a strong directional shift based on these momentum indicators.",
+  "market_weight": 0.0179,
+  "change_pct": 0.37,
+  "insights": "The Materials sector registered a modest gain of 0.37% today, signaling slight positive momentum. The Relative Strength Index (RSI) at 52.35 confirms this, sitting near neutral territory and indicating the sector is neither overbought nor oversold, with room for further movement. However, the Money Flow Index (MFI) at 44.26 suggests a slightly negative money flow, implying that despite the price uptick, buying pressure on volume may not have been robust or some distribution occurred. The On-Balance Volume (OBV) would have increased in line with the positive price action, providing some confirmation of the upward move, but the MFI tempers enthusiasm, suggesting today's gain might lack strong conviction from a volume perspective.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1762300800000,
-        34.2
-      ],
-      [
-        1762387200000,
-        32.53
-      ],
-      [
-        1762473600000,
-        40.15
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -747,25 +731,25 @@
       [
         1777852800000,
         44.61
+      ],
+      [
+        1777939200000,
+        53.21
+      ],
+      [
+        1778025600000,
+        59.92
+      ],
+      [
+        1778112000000,
+        50.9
+      ],
+      [
+        1778198400000,
+        52.35
       ]
     ],
     "mfi": [
-      [
-        1762300800000,
-        23.56
-      ],
-      [
-        1762387200000,
-        22.78
-      ],
-      [
-        1762473600000,
-        25.56
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1777852800000,
         48.64
+      ],
+      [
+        1777939200000,
+        59.67
+      ],
+      [
+        1778025600000,
+        59.05
+      ],
+      [
+        1778112000000,
+        50.06
+      ],
+      [
+        1778198400000,
+        44.26
       ]
     ],
     "obv": [
-      [
-        1762300800000,
-        -55424617.0
-      ],
-      [
-        1762387200000,
-        -65750441.0
-      ],
-      [
-        1762473600000,
-        -57220265.0
-      ],
-      [
-        1762560000000,
-        null
-      ],
       [
         1762646400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1777852800000,
         64277172.0
+      ],
+      [
+        1777939200000,
+        74919106.0
+      ],
+      [
+        1778025600000,
+        84853789.0
+      ],
+      [
+        1778112000000,
+        71830251.0
+      ],
+      [
+        1778198400000,
+        79335346.0
       ]
     ]
   },
@@ -2221,7 +2221,7 @@
     -0.15,
     0.08,
     -1.1,
-    -1.36,
+    0.47,
     null,
     null,
     null,
