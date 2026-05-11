@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T21:23:23.428050Z",
+  "lastUpdated": "2026-05-11T21:40:27.362195Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market posted a solid performance today, gaining 0.83%. This advance was accompanied by key technical indicators suggesting robust momentum and increasingly bullish sentiment. The Relative Strength Index (RSI) at 75.33 is firmly in overbought territory, indicating strong buying pressure but also potentially signaling that the market's current upward trend may be becoming stretched and prone to consolidation or a pullback in the near term. Reinforcing this strength, the Money Flow Index (MFI) at 62.52 demonstrates healthy capital inflows, confirming that the rally is supported by active buying. Furthermore, the On-Balance Volume (OBV) at 1055936222 suggests sustained accumulation over time. Collectively, these figures point to a market driven by strong positive momentum and confident investor sentiment, though the high RSI warrants watchful monitoring for signs of overheating.",
-    "change_pct": 0.83,
+    "commentary": "The overall stock market experienced a modest gain today, closing up 0.23%, indicating a cautiously positive trading session. However, key technical indicators suggest a market exhibiting strong bullish momentum, potentially nearing overbought conditions. The Relative Strength Index (RSI) at 75.98 and the Money Flow Index (MFI) at 70.74 both sit well above the 70 threshold, signaling significant buying pressure and robust money inflow into equities. This strong upward trajectory and accumulation of buying volume are further supported by a high On-Balance Volume (OBV) of 1,098,617,548. While these figures collectively point to a strong underlying bullish sentiment and powerful upward momentum, the elevated RSI and MFI readings warrant vigilance, as they often precede a period of consolidation or a potential near-term price correction.",
+    "change_pct": 0.23,
     "technicalIndicators": {
       "rsi": [
-        [
-          1762646400000,
-          null
-        ],
-        [
-          1762732800000,
-          57.72
-        ],
-        [
-          1762819200000,
-          58.8
-        ],
         [
           1762905600000,
           59.11
@@ -747,21 +735,21 @@
         [
           1778198400000,
           75.33
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1762646400000,
+          1778284800000,
           null
         ],
         [
-          1762732800000,
-          53.18
+          1778371200000,
+          null
         ],
         [
-          1762819200000,
-          59.87
-        ],
+          1778457600000,
+          75.98
+        ]
+      ],
+      "mfi": [
         [
           1762905600000,
           59.48
@@ -1473,21 +1461,21 @@
         [
           1778198400000,
           62.52
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1762646400000,
+          1778284800000,
           null
         ],
         [
-          1762732800000,
-          1062390303.0
+          1778371200000,
+          null
         ],
         [
-          1762819200000,
-          1113692926.0
-        ],
+          1778457600000,
+          70.74
+        ]
+      ],
+      "obv": [
         [
           1762905600000,
           1168410509.0
@@ -2199,6 +2187,18 @@
         [
           1778198400000,
           1055936222.0
+        ],
+        [
+          1778284800000,
+          null
+        ],
+        [
+          1778371200000,
+          null
+        ],
+        [
+          1778457600000,
+          1098617548.0
         ]
       ]
     },
@@ -2222,7 +2222,7 @@
       0.54,
       0.94,
       2.35,
-      null,
+      0.23,
       null,
       null,
       null,
