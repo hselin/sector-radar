@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T21:40:27.362195Z",
+  "lastUpdated": "2026-05-12T21:41:03.811855Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a modest gain today, closing up 0.23%, indicating a cautiously positive trading session. However, key technical indicators suggest a market exhibiting strong bullish momentum, potentially nearing overbought conditions. The Relative Strength Index (RSI) at 75.98 and the Money Flow Index (MFI) at 70.74 both sit well above the 70 threshold, signaling significant buying pressure and robust money inflow into equities. This strong upward trajectory and accumulation of buying volume are further supported by a high On-Balance Volume (OBV) of 1,098,617,548. While these figures collectively point to a strong underlying bullish sentiment and powerful upward momentum, the elevated RSI and MFI readings warrant vigilance, as they often precede a period of consolidation or a potential near-term price correction.",
-    "change_pct": 0.23,
+    "commentary": "The overall stock market experienced a marginal dip of -0.15% today, indicating a relatively flat session following recent movements. However, key technical indicators suggest a complex picture regarding underlying sentiment and momentum. The Relative Strength Index (RSI) at 74.58 points to an overextended condition, firmly placing the market in overbought territory and often signaling investor exuberance that may precede consolidation or a pullback. Supporting this, the Money Flow Index (MFI) at 63.07, while still positive, indicates that money is flowing into the market, albeit potentially with less intensity than the price action suggests at current overbought levels. Furthermore, a high On-Balance Volume (OBV) of 1045848891 implies sustained buying pressure and underlying accumulation, suggesting a resilient bullish sentiment despite the daily price dip. Collectively, these figures suggest that while the market is taking a slight breather, the bullish momentum has been strong, potentially making it vulnerable to profit-taking or a period of consolidation, even as underlying demand persists.",
+    "change_pct": -0.15,
     "technicalIndicators": {
       "rsi": [
-        [
-          1762905600000,
-          59.11
-        ],
         [
           1762992000000,
           48.31
@@ -747,13 +743,13 @@
         [
           1778457600000,
           75.98
+        ],
+        [
+          1778544000000,
+          74.58
         ]
       ],
       "mfi": [
-        [
-          1762905600000,
-          59.48
-        ],
         [
           1762992000000,
           51.21
@@ -1473,13 +1469,13 @@
         [
           1778457600000,
           70.74
+        ],
+        [
+          1778544000000,
+          63.07
         ]
       ],
       "obv": [
-        [
-          1762905600000,
-          1168410509.0
-        ],
         [
           1762992000000,
           1080342385.0
@@ -2199,6 +2195,10 @@
         [
           1778457600000,
           1098617548.0
+        ],
+        [
+          1778544000000,
+          1045848891.0
         ]
       ]
     },
@@ -2222,7 +2222,7 @@
       0.54,
       0.94,
       2.35,
-      0.23,
+      0.08,
       null,
       null,
       null,
