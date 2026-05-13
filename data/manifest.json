@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T21:41:03.811855Z",
+  "lastUpdated": "2026-05-13T21:43:20.749109Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a marginal dip of -0.15% today, indicating a relatively flat session following recent movements. However, key technical indicators suggest a complex picture regarding underlying sentiment and momentum. The Relative Strength Index (RSI) at 74.58 points to an overextended condition, firmly placing the market in overbought territory and often signaling investor exuberance that may precede consolidation or a pullback. Supporting this, the Money Flow Index (MFI) at 63.07, while still positive, indicates that money is flowing into the market, albeit potentially with less intensity than the price action suggests at current overbought levels. Furthermore, a high On-Balance Volume (OBV) of 1045848891 implies sustained buying pressure and underlying accumulation, suggesting a resilient bullish sentiment despite the daily price dip. Collectively, these figures suggest that while the market is taking a slight breather, the bullish momentum has been strong, potentially making it vulnerable to profit-taking or a period of consolidation, even as underlying demand persists.",
-    "change_pct": -0.15,
+    "commentary": "The stock market closed with a modest gain of 0.56% today, signaling continued positive momentum. Key technical indicators highlight strong investor sentiment: the Relative Strength Index (RSI) at 76.31 and Money Flow Index (MFI) at 70.79 both indicate the market is firmly in overbought territory. This suggests robust buying pressure and enthusiastic participation, confirming strong positive momentum, but also implies that the market might be technically extended and could be due for a period of consolidation or a slight pullback. The elevated On-Balance Volume (OBV) further supports the strength of the current uptrend, as rising prices are being backed by significant trading volume, reinforcing the positive sentiment.",
+    "change_pct": 0.56,
     "technicalIndicators": {
       "rsi": [
-        [
-          1762992000000,
-          48.31
-        ],
         [
           1763078400000,
           48.17
@@ -747,13 +743,13 @@
         [
           1778544000000,
           74.58
+        ],
+        [
+          1778630400000,
+          76.31
         ]
       ],
       "mfi": [
-        [
-          1762992000000,
-          51.21
-        ],
         [
           1763078400000,
           43.63
@@ -1473,13 +1469,13 @@
         [
           1778544000000,
           63.07
+        ],
+        [
+          1778630400000,
+          70.79
         ]
       ],
       "obv": [
-        [
-          1762992000000,
-          1080342385.0
-        ],
         [
           1763078400000,
           989025453.0
@@ -2199,6 +2195,10 @@
         [
           1778544000000,
           1045848891.0
+        ],
+        [
+          1778630400000,
+          1083349447.0
         ]
       ]
     },
@@ -2222,7 +2222,7 @@
       0.54,
       0.94,
       2.35,
-      0.08,
+      0.64,
       null,
       null,
       null,
