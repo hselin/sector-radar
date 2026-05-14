@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0524,
-  "change_pct": 0.33,
-  "insights": "The Consumer Staples sector registered a modest gain of 0.33% today, signaling slight positive momentum. Its Relative Strength Index (RSI) at 58.63 suggests healthy upward momentum without being in overbought territory, while the Money Flow Index (MFI) of 65.40 reinforces consistent capital inflow into the sector. The On-Balance Volume (OBV) of 108,069,633 further confirms that the day's positive movement was supported by genuine buying pressure, indicating stable sentiment rather than speculative exuberance.",
+  "market_weight": 0.0463,
+  "change_pct": 0.31,
+  "insights": "The Consumer Staples sector registered a modest gain of 0.31% today, indicating a positive but steady daily performance. This movement was well-supported by key technical indicators; the Relative Strength Index (RSI) at 60.03 and the Money Flow Index (MFI) at 64.50 both suggest healthy buying momentum and positive money flow into the sector, respectively, without signaling overbought conditions. Furthermore, the On-Balance Volume (OBV) at 114,666,626 implies that today's price appreciation was accompanied by significant net buying volume, reinforcing the validity and strength of the daily advance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763078400000,
-        47.19
-      ],
       [
         1763164800000,
         null
@@ -747,13 +743,13 @@
       [
         1778630400000,
         58.63
+      ],
+      [
+        1778716800000,
+        60.03
       ]
     ],
     "mfi": [
-      [
-        1763078400000,
-        29.69
-      ],
       [
         1763164800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1778630400000,
         65.4
+      ],
+      [
+        1778716800000,
+        64.5
       ]
     ],
     "obv": [
-      [
-        1763078400000,
-        -26253338.0
-      ],
       [
         1763164800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1778630400000,
         108069633.0
+      ],
+      [
+        1778716800000,
+        114666626.0
       ]
     ]
   },
@@ -2222,7 +2222,7 @@
     0.93,
     1.13,
     0.01,
-    0.64,
+    0.95,
     null,
     null,
     null,

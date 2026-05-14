@@ -1,33 +1,29 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector includes companies that own, develop, and manage real estate, primarily composed of Equity Real Estate Investment Trusts (REITs) and Real Estate Management & Development companies.",
-    "marketSizeUSD": "1.2T",
+    "description": "The Real Estate sector primarily comprises companies that own, develop, and manage income-generating real estate properties, including Equity Real Estate Investment Trusts (REITs), but excludes mortgage REITs.",
+    "marketSizeUSD": "3.5T",
     "constituentCount": 31,
     "topHoldings": [
       {
-        "name": "Prologis Inc.",
+        "name": "Prologis, Inc.",
         "symbol": "PLD"
       },
       {
-        "name": "Equinix Inc.",
+        "name": "Equinix, Inc.",
         "symbol": "EQIX"
       },
       {
-        "name": "American Tower Corp.",
-        "symbol": "AMT"
+        "name": "Crown Castle Inc.",
+        "symbol": "CCI"
       }
     ]
   },
-  "market_weight": 0.0251,
-  "change_pct": -0.83,
-  "insights": "The Real Estate sector experienced a modest decline of -0.83% today. Technically, the Relative Strength Index (RSI) at 56.15 indicates the sector remains in a neutral-to-slightly-bullish territory, not suggesting an oversold condition despite the day's dip. However, the Money Flow Index (MFI) at 48.25 points to a slight net outflow of capital, aligning with the negative price action. The On-Balance Volume (OBV) at 148,925,803 reflects significant cumulative volume, though its directional change would be crucial for confirming the underlying conviction or lack thereof behind today's specific movement.",
+  "market_weight": 0.0648,
+  "change_pct": -0.68,
+  "insights": "The Real Estate sector experienced a modest decline today, falling by 0.68%. Technical indicators present a mixed but slightly bearish short-term outlook. The Relative Strength Index (RSI) at 52.02 remains near neutral, indicating balanced buying and selling pressure despite the daily dip. However, the Money Flow Index (MFI) at 43.04 points to more capital flowing out of the sector than into it, aligning with the negative price action and suggesting underlying selling pressure. The On-Balance Volume (OBV) at 144,353,322, when coupled with the negative MFI and daily price drop, reinforces the notion that selling volume has recently outweighed buying volume, contributing to the sector's current valuation trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763078400000,
-        43.83
-      ],
       [
         1763164800000,
         null
@@ -747,13 +743,13 @@
       [
         1778630400000,
         56.15
+      ],
+      [
+        1778716800000,
+        52.02
       ]
     ],
     "mfi": [
-      [
-        1763078400000,
-        27.27
-      ],
       [
         1763164800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1778630400000,
         48.25
+      ],
+      [
+        1778716800000,
+        43.04
       ]
     ],
     "obv": [
-      [
-        1763078400000,
-        -29232781.0
-      ],
       [
         1763164800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1778630400000,
         148925803.0
+      ],
+      [
+        1778716800000,
+        144353322.0
       ]
     ]
   },
@@ -2222,7 +2222,7 @@
     -1.46,
     1.12,
     0.2,
-    -0.45,
+    -1.13,
     null,
     null,
     null,

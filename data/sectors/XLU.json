@@ -1,7 +1,7 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities GICS sector comprises companies that provide electricity, natural gas, water, and other essential services, often characterized by stable demand and regulatory oversight.",
+    "description": "The Utilities sector encompasses companies providing essential services such as electricity, natural gas, water, and sewage, often operating as regulated monopolies.",
     "marketSizeUSD": "1.5T",
     "constituentCount": 30,
     "topHoldings": [
@@ -10,24 +10,20 @@
         "symbol": "NEE"
       },
       {
-        "name": "Southern Company",
-        "symbol": "SO"
-      },
-      {
         "name": "Duke Energy Corporation",
         "symbol": "DUK"
+      },
+      {
+        "name": "The Southern Company",
+        "symbol": "SO"
       }
     ]
   },
-  "market_weight": 0.0314,
-  "change_pct": -1.15,
-  "insights": "The Utilities sector experienced a downturn today, falling by -1.15%. Technical indicators suggest this movement aligns with weakening momentum: the Relative Strength Index (RSI) at 38.87 indicates bearish sentiment, well below the neutral 50-mark and moving away from overbought conditions. While the Money Flow Index (MFI) at 51.03 sits near neutral, suggesting that the day's price decline wasn't necessarily accompanied by extreme volume-driven selling, it still reflects a lack of strong buying interest. The On-Balance Volume (OBV) stands at 361,035,253, representing cumulative buying/selling pressure; in conjunction with the subdued RSI, the overall picture points to the sector being under modest, albeit not extreme, selling pressure today.",
+  "market_weight": 0.0278,
+  "change_pct": 0.51,
+  "insights": "The Utilities sector posted a modest gain of 0.51% today. Technical indicators largely reflect a neutral market stance, with the Relative Strength Index (RSI) at 41.59 and the Money Flow Index (MFI) at 49.83. These values suggest the sector is neither overbought nor oversold, and money flow is balanced, indicating a lack of strong directional momentum. The On-Balance Volume (OBV) at 378,981,767 confirms that today's positive price movement was supported by underlying buying interest, rather than being a low-volume anomaly. Overall, the sector appears to be consolidating with moderate activity following its slight advance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763078400000,
-        45.17
-      ],
       [
         1763164800000,
         null
@@ -747,13 +743,13 @@
       [
         1778630400000,
         38.87
+      ],
+      [
+        1778716800000,
+        41.59
       ]
     ],
     "mfi": [
-      [
-        1763078400000,
-        31.96
-      ],
       [
         1763164800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1778630400000,
         51.03
+      ],
+      [
+        1778716800000,
+        49.83
       ]
     ],
     "obv": [
-      [
-        1763078400000,
-        190350197.0
-      ],
       [
         1763164800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1778630400000,
         361035253.0
+      ],
+      [
+        1778716800000,
+        378981767.0
       ]
     ]
   },
@@ -2222,7 +2222,7 @@
     0.04,
     0.8,
     -3.93,
-    -0.11,
+    0.4,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses a broad range of companies engaged in banking, diversified financial services, insurance, and real estate activities.",
-    "marketSizeUSD": "6.5T",
+    "description": "The Financials sector comprises companies engaged in banking, diversified financial services, insurance, real estate, and consumer finance, facilitating money management, lending, and investment.",
+    "marketSizeUSD": "5T",
     "constituentCount": 67,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "BRK.B"
       },
       {
-        "name": "Visa Inc.",
-        "symbol": "V"
-      },
-      {
         "name": "JPMorgan Chase & Co.",
         "symbol": "JPM"
+      },
+      {
+        "name": "Visa Inc.",
+        "symbol": "V"
       }
     ]
   },
-  "market_weight": 0.1361,
-  "change_pct": -1.14,
-  "insights": "The Financials sector faced a challenging day, declining by 1.14%. This downturn is reflected in key technical indicators: the Relative Strength Index (RSI) at 44.92 suggests weakening buying momentum, moving further away from bullish territory without yet indicating oversold conditions. Concurrently, the Money Flow Index (MFI) at 38.14 strongly indicates that more capital is flowing out of the sector than into it, confirming significant selling pressure. While the On-Balance Volume (OBV) at 175,897,019 reflects a cumulative volume, today's price drop combined with the MFI's reading implies that net selling volume likely dominated the trading session, reinforcing the bearish sentiment for the day.",
+  "market_weight": 0.0926,
+  "change_pct": 0.59,
+  "insights": "The Financials sector posted a modest gain of 0.59% today, indicating slight positive momentum. Key technical indicators suggest a day of consolidation rather than strong directional conviction. The Relative Strength Index (RSI) at 48.79 and Money Flow Index (MFI) at 45.30 both reside comfortably in neutral territory, indicating balanced momentum and money flow without significant overbought or oversold conditions. While the On-Balance Volume (OBV) figure of 212,569,331 implies that volume generally supported the day's positive price action, the overall picture points to a relatively subdued trading session with no immediate signs of a strong breakout or pronounced shift in market sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763078400000,
-        45.95
-      ],
       [
         1763164800000,
         null
@@ -747,13 +743,13 @@
       [
         1778630400000,
         44.92
+      ],
+      [
+        1778716800000,
+        48.79
       ]
     ],
     "mfi": [
-      [
-        1763078400000,
-        48.41
-      ],
       [
         1763164800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1778630400000,
         38.14
+      ],
+      [
+        1778716800000,
+        45.3
       ]
     ],
     "obv": [
-      [
-        1763078400000,
-        113254606.0
-      ],
       [
         1763164800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1778630400000,
         175897019.0
+      ],
+      [
+        1778716800000,
+        212569331.0
       ]
     ]
   },
@@ -2222,7 +2222,7 @@
     -1.93,
     0.97,
     -1.31,
-    -0.49,
+    0.1,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that produce non-essential goods and services, which consumers purchase with their disposable income.",
-    "marketSizeUSD": "4.6T",
-    "constituentCount": 55,
+    "description": "The Consumer Discretionary sector includes companies that provide non-essential goods and services that consumers purchase when they have discretionary income.",
+    "marketSizeUSD": "8.5T",
+    "constituentCount": 57,
     "topHoldings": [
       {
         "name": "Amazon.com Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0963,
-  "change_pct": 0.36,
-  "insights": "The Consumer Discretionary sector posted a modest 0.36% gain today, reflecting a degree of positive momentum. Both the Relative Strength Index (RSI) at 55.90 and Money Flow Index (MFI) at 58.14 reside in neutral-to-slightly bullish territory, indicating some upward pressure and money flow supporting the daily advance. However, the On-Balance Volume (OBV) at -4,001,036 suggests that cumulative buying volume has been significantly outweighed by selling pressure over a period, implying that today's minor price increase may not be supported by robust, sustained buying conviction relative to recent trends.",
+  "market_weight": 0.1574,
+  "change_pct": -0.04,
+  "insights": "The Consumer Discretionary sector experienced a largely flat day, registering a minimal decline of -0.04%. Key technical indicators suggest a nuanced picture: the Relative Strength Index (RSI) at 55.67 and Money Flow Index (MFI) at 58.29 both reside in neutral territory, leaning slightly bullish, indicating no strong overbought or oversold conditions and moderate underlying demand. However, the negative On-Balance Volume (OBV) of -9,891,624 suggests that despite the negligible price movement, there was a slight net selling volume for the day, implying a minor lean towards distribution offsetting any buying interest.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763078400000,
-        41.19
-      ],
       [
         1763164800000,
         null
@@ -747,13 +743,13 @@
       [
         1778630400000,
         55.9
+      ],
+      [
+        1778716800000,
+        55.67
       ]
     ],
     "mfi": [
-      [
-        1763078400000,
-        41.45
-      ],
       [
         1763164800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1778630400000,
         58.14
+      ],
+      [
+        1778716800000,
+        58.29
       ]
     ],
     "obv": [
-      [
-        1763078400000,
-        20504400.0
-      ],
       [
         1763164800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1778630400000,
         -4001036.0
+      ],
+      [
+        1778716800000,
+        -9891624.0
       ]
     ]
   },
@@ -2222,7 +2222,7 @@
     -1.43,
     -0.05,
     1.32,
-    -1.23,
+    -1.27,
     null,
     null,
     null,

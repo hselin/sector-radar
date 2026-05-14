@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies engaged in discovering, developing, and processing raw materials, including chemicals, construction materials, metals, mining, and packaging.",
-    "marketSizeUSD": "850B",
+    "description": "The Materials GICS sector encompasses companies engaged in the discovery, development, and processing of raw materials, such as chemicals, construction materials, metals, mining, and paper.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0178,
-  "change_pct": -0.15,
-  "insights": "The Materials sector experienced a largely neutral trading day, posting a marginal decline of -0.15%. Technical indicators confirm this lack of strong directional momentum: the Relative Strength Index (RSI) at 55.32 and Money Flow Index (MFI) at 57.82 are both in healthy, neutral territory, indicating a balanced flow of money and no immediate overbought or oversold concerns. The substantial On-Balance Volume (OBV) of 69,243,176 reflects continued significant participation and accumulated buying pressure over time, suggesting that today's slight dip was a minor fluctuation within a broadly supported sector rather than a signal of weakening underlying sentiment.",
+  "market_weight": 0.0333,
+  "change_pct": -0.75,
+  "insights": "The Materials sector registered a modest decline of 0.75% today. Despite this slight pullback in price, key technical indicators suggest a relatively balanced market sentiment. The Relative Strength Index (RSI) at 51.65 and the Money Flow Index (MFI) at 51.03 both reside firmly in the neutral zone, indicating neither significant overbought nor oversold conditions and suggesting that the day's selling pressure was not accompanied by an overwhelming shift in volume-backed momentum. The On-Balance Volume (OBV) at 58,540,550 reflects the cumulative volume activity, and in conjunction with the neutral RSI and MFI, the daily price dip appears to be more of a minor adjustment within a steady trading range rather than a strong bearish signal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763078400000,
-        46.11
-      ],
       [
         1763164800000,
         null
@@ -747,13 +743,13 @@
       [
         1778630400000,
         55.32
+      ],
+      [
+        1778716800000,
+        51.65
       ]
     ],
     "mfi": [
-      [
-        1763078400000,
-        36.28
-      ],
       [
         1763164800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1778630400000,
         57.82
+      ],
+      [
+        1778716800000,
+        51.03
       ]
     ],
     "obv": [
-      [
-        1763078400000,
-        -52867449.0
-      ],
       [
         1763164800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1778630400000,
         69243176.0
+      ],
+      [
+        1778716800000,
+        58540550.0
       ]
     ]
   },
@@ -2222,7 +2222,7 @@
     0.08,
     -1.1,
     0.47,
-    0.91,
+    0.16,
     null,
     null,
     null,

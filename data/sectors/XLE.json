@@ -1,16 +1,16 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, gas, coal, and consumable fuels, as well as companies providing services to these industries.",
-    "marketSizeUSD": "1.8T",
+    "description": "The Energy sector encompasses companies primarily engaged in the exploration, production, refining, and marketing of oil and gas, as well as those involved in coal and other consumable fuels and energy equipment and services.",
+    "marketSizeUSD": "2.2T",
     "constituentCount": 21,
     "topHoldings": [
       {
-        "name": "Exxon Mobil Corporation",
+        "name": "Exxon Mobil Corp",
         "symbol": "XOM"
       },
       {
-        "name": "Chevron Corporation",
+        "name": "Chevron Corp",
         "symbol": "CVX"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0377,
-  "change_pct": 0.1,
-  "insights": "The Energy sector experienced a largely flat trading day, posting a marginal gain of just 0.10%. Technical indicators reflect this muted price action while suggesting some underlying positive sentiment. The Relative Strength Index (RSI) at 50.56 remains firmly in neutral territory, indicating neither overbought nor oversold conditions and confirming the lack of strong directional momentum. However, the Money Flow Index (MFI) at 60.70 suggests a moderate level of money flowing into the sector and some buying pressure, despite the stagnant price. The On-Balance Volume (OBV) of 1,103,877,425, a cumulative measure of buying and selling pressure, would need a comparative prior day's value for a definitive trend analysis, but generally, a stable OBV alongside a positive MFI would support the idea of quiet accumulation despite minimal price movement.",
+  "market_weight": 0.0407,
+  "change_pct": 0.76,
+  "insights": "The Energy sector experienced a modest positive day, closing up 0.76%, indicating a slight bullish sentiment among investors. Technical indicators generally support this upward movement: the Relative Strength Index (RSI) at 52.78 suggests healthy, non-overbought momentum with a slight bullish bias. More notably, the Money Flow Index (MFI) at 66.84 points to significant money inflow into the sector, underscoring strong buying interest and validating the price appreciation. The On-Balance Volume (OBV) of 1,127,230,034, given the positive price action, implies accumulation, with buying volume outpacing selling volume, further corroborating today's gain.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763078400000,
-        64.68
-      ],
       [
         1763164800000,
         null
@@ -747,13 +743,13 @@
       [
         1778630400000,
         50.56
+      ],
+      [
+        1778716800000,
+        52.78
       ]
     ],
     "mfi": [
-      [
-        1763078400000,
-        69.53
-      ],
       [
         1763164800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1778630400000,
         60.7
+      ],
+      [
+        1778716800000,
+        66.84
       ]
     ],
     "obv": [
-      [
-        1763078400000,
-        327324609.0
-      ],
       [
         1763164800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1778630400000,
         1103877425.0
+      ],
+      [
+        1778716800000,
+        1127230034.0
       ]
     ]
   },
@@ -2222,7 +2222,7 @@
     3.36,
     3.48,
     -5.35,
-    3.46,
+    4.25,
     null,
     null,
     null,
