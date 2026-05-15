@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-14T21:40:47.644744Z",
+  "lastUpdated": "2026-05-15T21:34:17.926399Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market posted a positive performance today, gaining 0.79%. Delving into key technical indicators, the Relative Strength Index (RSI) at 78.55 suggests the market is deeply in overbought territory, potentially signaling an unsustainable upward trend or increased risk of a near-term pullback. Similarly, the Money Flow Index (MFI) at 70.90 indicates strong buying pressure and significant capital flowing into the market, reinforcing the bullish momentum but also hinting at high investor enthusiasm. The On-Balance Volume (OBV) confirming the price action suggests that the upward move is backed by substantial buying interest, indicating healthy underlying momentum. In aggregate, while strong demand and positive sentiment are evident, the elevated RSI introduces a cautionary note regarding potential short-term overheating.",
-    "change_pct": 0.79,
+    "commentary": "The stock market experienced a notable decline today, closing down 1.20% amidst profit-taking. Despite this sell-off, key technical indicators suggest the market was in an overbought state with strong underlying momentum leading into today's session. The Relative Strength Index (RSI) at 67.94 and the Money Flow Index (MFI) at 62.98 both indicate significant buying pressure and capital inflow in the recent past, suggesting that investor sentiment was predominantly bullish. The robust On-Balance Volume (OBV) figure further supports the notion of substantial prior accumulation. Collectively, these figures imply that today's negative performance could be a temporary correction or profit-taking event within a market that has recently been experiencing strong, albeit potentially overheated, upward momentum, rather than an immediate reversal of the broader trend.",
+    "change_pct": -1.2,
     "technicalIndicators": {
       "rsi": [
-        [
-          1763164800000,
-          null
-        ],
         [
           1763251200000,
           null
@@ -747,13 +743,13 @@
         [
           1778716800000,
           78.55
+        ],
+        [
+          1778803200000,
+          67.94
         ]
       ],
       "mfi": [
-        [
-          1763164800000,
-          null
-        ],
         [
           1763251200000,
           null
@@ -1473,13 +1469,13 @@
         [
           1778716800000,
           70.9
+        ],
+        [
+          1778803200000,
+          62.98
         ]
       ],
       "obv": [
-        [
-          1763164800000,
-          null
-        ],
         [
           1763251200000,
           null
@@ -2199,6 +2195,10 @@
         [
           1778716800000,
           1128133086.0
+        ],
+        [
+          1778803200000,
+          1068552708.0
         ]
       ]
     },
@@ -2222,7 +2222,7 @@
       0.54,
       0.94,
       2.35,
-      1.43,
+      0.21,
       null,
       null,
       null,
