@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T21:24:34.090747Z",
+  "lastUpdated": "2026-05-18T21:38:48.864788Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index representing 500 of the largest publicly traded companies in the United States, widely regarded as a benchmark for the overall U.S. equity market.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a notable pullback today, declining by 1.20%. Despite this selling pressure, key technical indicators suggest underlying bullish momentum and sentiment remain relatively firm. The Relative Strength Index (RSI) at 67.94 and Money Flow Index (MFI) at 62.98 are both elevated, indicating that the market has experienced significant strength and positive money flow recently, pushing it close to overbought conditions. This suggests that while today's dip might be interpreted as profit-taking or a healthy consolidation, the market, prior to or despite today's action, has been operating at robust levels, potentially making it vulnerable to further corrections should selling persist from these elevated points, yet not signaling an immediate collapse given the sustained money flow implied by MFI and the cumulative volume strength suggested by the high OBV reading.",
-    "change_pct": -1.2,
+    "commentary": "The stock market concluded the day marginally lower, posting a slight dip of -0.07%, suggesting a day of consolidation rather than a significant directional move. Despite this minimal decline, key technical indicators point towards underlying strength and positive momentum. The Relative Strength Index (RSI) at 67.37, while not yet in overbought territory (typically above 70), indicates robust buying pressure and a strong recent uptrend, suggesting bullish sentiment prevails but warrants monitoring for potential short-term exhaustion. Further reinforcing this sentiment, the Money Flow Index (MFI) at 63.04 signifies healthy capital inflow into the market, confirming that buying interest remains strong. The On-Balance Volume (OBV) at 1027616478 represents the cumulative buying and selling pressure; in conjunction with the other indicators, it implies that despite today's negligible movement, the broader market continues to experience underlying demand. Collectively, these figures suggest that market sentiment remains broadly positive with sustained momentum, though the elevated RSI might hint at a market that is consolidating after recent gains and could be nearing a point where a pause or minor pullback might occur.",
+    "change_pct": -0.07,
     "technicalIndicators": {
       "rsi": [
-        [
-          1763251200000,
-          null
-        ],
-        [
-          1763337600000,
-          43.12
-        ],
-        [
-          1763424000000,
-          39.15
-        ],
         [
           1763510400000,
           41.87
@@ -747,21 +735,21 @@
         [
           1778803200000,
           67.94
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1763251200000,
+          1778889600000,
           null
         ],
         [
-          1763337600000,
-          36.88
+          1778976000000,
+          null
         ],
         [
-          1763424000000,
-          36.03
-        ],
+          1779062400000,
+          67.37
+        ]
+      ],
+      "mfi": [
         [
           1763510400000,
           43.51
@@ -1473,21 +1461,21 @@
         [
           1778803200000,
           62.98
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1763251200000,
+          1778889600000,
           null
         ],
         [
-          1763337600000,
-          908172621.0
+          1778976000000,
+          null
         ],
         [
-          1763424000000,
-          793705121.0
-        ],
+          1779062400000,
+          63.04
+        ]
+      ],
+      "obv": [
         [
           1763510400000,
           877135625.0
@@ -2199,6 +2187,18 @@
         [
           1778803200000,
           1068552708.0
+        ],
+        [
+          1778889600000,
+          null
+        ],
+        [
+          1778976000000,
+          null
+        ],
+        [
+          1779062400000,
+          1027616478.0
         ]
       ]
     },
@@ -2223,7 +2223,7 @@
       0.94,
       2.35,
       0.21,
-      null,
+      -0.07,
       null,
       null,
       null,
