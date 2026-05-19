@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0327,
-  "change_pct": -0.16,
-  "insights": "The Materials sector experienced a minor decline today, closing down -0.16%. Technical indicators reflect this subdued sentiment; the Relative Strength Index (RSI) at 40.77 suggests slight bearish momentum but is far from oversold, while the Money Flow Index (MFI) at 43.83 indicates a moderate outflow of capital. The On-Balance Volume (OBV) at 36,842,885, in conjunction with these readings, points to a lack of significant buying conviction, aligning with the sector's marginal daily weakness rather than a strong directional move.",
+  "market_weight": 0.0315,
+  "change_pct": -2.35,
+  "insights": "The Materials sector experienced a significant decline of -2.35% today, reflecting strong bearish momentum. Technical indicators largely support this downtrend: the RSI at 34.03 suggests the sector is approaching oversold territory, indicating aggressive selling pressure. The MFI at 42.59 corroborates this by confirming a net outflow of capital, signifying diminishing buying interest. While OBV (25231749) represents cumulative volume, today's price drop would have seen it decrease, further underscoring the prevailing selling pressure and lack of conviction among buyers.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763510400000,
-        41.95
-      ],
       [
         1763596800000,
         36.44
@@ -747,13 +743,13 @@
       [
         1779062400000,
         40.77
+      ],
+      [
+        1779148800000,
+        34.03
       ]
     ],
     "mfi": [
-      [
-        1763510400000,
-        37.83
-      ],
       [
         1763596800000,
         37.1
@@ -1473,13 +1469,13 @@
       [
         1779062400000,
         43.83
+      ],
+      [
+        1779148800000,
+        42.59
       ]
     ],
     "obv": [
-      [
-        1763510400000,
-        -42198307.0
-      ],
       [
         1763596800000,
         -53296574.0
@@ -2199,6 +2195,10 @@
       [
         1779062400000,
         36842885.0
+      ],
+      [
+        1779148800000,
+        25231749.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     -1.1,
     0.47,
     -2.5,
-    -0.16,
+    -2.5,
     null,
     null,
     null,

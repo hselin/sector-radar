@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0907,
-  "change_pct": 1.25,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.0876,
+  "change_pct": -1.24,
+  "insights": "The Financials sector experienced a notable decline today, falling by -1.24%. Technical indicators reinforce the bearish sentiment, with the Relative Strength Index (RSI) at 46.97 reflecting weakening momentum, though not yet oversold conditions. More significantly, the Money Flow Index (MFI) at 39.43 points to capital actively flowing out of the sector, supporting the price drop. The On-Balance Volume (OBV) at 180,305,642, when considered with the price decline and MFI outflow, suggests that the selling pressure was supported by corresponding volume, validating today's negative performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763510400000,
-        39.6
-      ],
       [
         1763596800000,
         36.3
@@ -747,13 +743,13 @@
       [
         1779062400000,
         54.15
+      ],
+      [
+        1779148800000,
+        46.97
       ]
     ],
     "mfi": [
-      [
-        1763510400000,
-        45.34
-      ],
       [
         1763596800000,
         53.78
@@ -1473,13 +1469,13 @@
       [
         1779062400000,
         40.53
+      ],
+      [
+        1779148800000,
+        39.43
       ]
     ],
     "obv": [
-      [
-        1763510400000,
-        25144714.0
-      ],
       [
         1763596800000,
         -43997951.0
@@ -2199,6 +2195,10 @@
       [
         1779062400000,
         215779623.0
+      ],
+      [
+        1779148800000,
+        180305642.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     0.97,
     -1.31,
     -0.27,
-    1.25,
+    0.0,
     null,
     null,
     null,

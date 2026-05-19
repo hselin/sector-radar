@@ -1,33 +1,29 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies primarily involved in the production of software, hardware, and semiconductors, alongside those offering IT services and equipment.",
-    "marketSizeUSD": "14.5T",
-    "constituentCount": 65,
+    "description": "The Information Technology sector comprises companies engaged in the production of software, hardware, and semiconductors, as well as the provision of technology services.",
+    "marketSizeUSD": "16.5T",
+    "constituentCount": 68,
     "topHoldings": [
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
       },
       {
-        "name": "Microsoft Corporation",
+        "name": "Microsoft Corp.",
         "symbol": "MSFT"
       },
       {
-        "name": "NVIDIA Corporation",
+        "name": "NVIDIA Corp.",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.2632,
-  "change_pct": -1.08,
-  "insights": "The Information Technology sector saw a modest pullback today, declining by -1.08%. Despite this daily dip, key technical indicators suggest a sector that has been experiencing strong upward momentum: the Relative Strength Index (RSI) at 68.13 and the Money Flow Index (MFI) at 68.37 both sit near the 70-mark, indicating the sector was approaching overbought territory, potentially triggering today's profit-taking. However, the robust On-Balance Volume (OBV) of 446,001,802, which reflects cumulative buying pressure, suggests that today's movement is likely a short-term correction within a broader, well-supported accumulation trend, rather than a significant reversal of sentiment.",
+  "market_weight": 0.289,
+  "change_pct": -0.64,
+  "insights": "The Information Technology sector experienced a modest decline of 0.64% today, marking a slight pullback. Despite this daily dip, key technical indicators suggest a stronger underlying sentiment and recent accumulation. The Relative Strength Index (RSI) at 65.65 and the Money Flow Index (MFI) at 60.59 both indicate elevated buying interest and positive money flow into the sector, approaching but not yet reaching overbought levels, which suggests sustained momentum prior to today's retreat. Furthermore, the On-Balance Volume (OBV) registering 430,367,487 points to persistent buying pressure over time. Collectively, today's slight decline appears to be a minor consolidation within a sector that technicals suggest has been experiencing strong demand.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763510400000,
-        41.24
-      ],
       [
         1763596800000,
         34.29
@@ -747,13 +743,13 @@
       [
         1779062400000,
         68.13
+      ],
+      [
+        1779148800000,
+        65.65
       ]
     ],
     "mfi": [
-      [
-        1763510400000,
-        24.56
-      ],
       [
         1763596800000,
         21.77
@@ -1473,13 +1469,13 @@
       [
         1779062400000,
         68.37
+      ],
+      [
+        1779148800000,
+        60.59
       ]
     ],
     "obv": [
-      [
-        1763510400000,
-        216119406.0
-      ],
       [
         1763596800000,
         187987385.0
@@ -2199,6 +2195,10 @@
       [
         1779062400000,
         446001802.0
+      ],
+      [
+        1779148800000,
+        430367487.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     1.03,
     8.43,
     0.42,
-    -1.08,
+    -1.71,
     null,
     null,
     null,

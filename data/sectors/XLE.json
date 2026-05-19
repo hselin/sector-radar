@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0399,
-  "change_pct": 1.92,
-  "insights": "The Energy sector exhibited robust performance today, climbing 1.92%, indicating strong investor interest. This upward movement is well-supported by key technical indicators: the Relative Strength Index (RSI) at 63.29 and the Money Flow Index (MFI) at 67.15 both signal significant buying momentum, with capital clearly flowing into the sector, though not yet reaching extreme overbought conditions that might suggest an imminent reversal. Furthermore, the On-Balance Volume (OBV) of 1,200,895,304 confirms that today's price appreciation was driven by a substantial excess of buying volume over selling volume, lending credibility to the daily gain and suggesting the positive trend has strong underlying support.",
+  "market_weight": 0.0385,
+  "change_pct": 1.17,
+  "insights": "The Energy sector showed strong positive momentum today, advancing by 1.17%. This upward movement is reinforced by key technical indicators: the Relative Strength Index (RSI) at 65.71 and the Money Flow Index (MFI) at 66.60 both signal increasing buying pressure and robust investor interest, though they are nearing the threshold of overbought conditions. The On-Balance Volume (OBV) of 1,231,785,650 further confirms that this price appreciation was accompanied by significant net buying volume, indicating conviction behind today's rally.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763510400000,
-        53.02
-      ],
       [
         1763596800000,
         48.71
@@ -747,13 +743,13 @@
       [
         1779062400000,
         63.29
+      ],
+      [
+        1779148800000,
+        65.71
       ]
     ],
     "mfi": [
-      [
-        1763510400000,
-        56.84
-      ],
       [
         1763596800000,
         58.04
@@ -1473,13 +1469,13 @@
       [
         1779062400000,
         67.15
+      ],
+      [
+        1779148800000,
+        66.6
       ]
     ],
     "obv": [
-      [
-        1763510400000,
-        307286701.0
-      ],
       [
         1763596800000,
         287775671.0
@@ -2199,6 +2195,10 @@
       [
         1779062400000,
         1200895304.0
+      ],
+      [
+        1779148800000,
+        1231785650.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     3.48,
     -5.35,
     6.71,
-    1.92,
+    3.11,
     null,
     null,
     null,

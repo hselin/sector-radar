@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-18T21:38:48.864788Z",
+  "lastUpdated": "2026-05-19T21:43:48.882725Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index representing 500 of the largest publicly traded companies in the United States, widely regarded as a benchmark for the overall U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day marginally lower, posting a slight dip of -0.07%, suggesting a day of consolidation rather than a significant directional move. Despite this minimal decline, key technical indicators point towards underlying strength and positive momentum. The Relative Strength Index (RSI) at 67.37, while not yet in overbought territory (typically above 70), indicates robust buying pressure and a strong recent uptrend, suggesting bullish sentiment prevails but warrants monitoring for potential short-term exhaustion. Further reinforcing this sentiment, the Money Flow Index (MFI) at 63.04 signifies healthy capital inflow into the market, confirming that buying interest remains strong. The On-Balance Volume (OBV) at 1027616478 represents the cumulative buying and selling pressure; in conjunction with the other indicators, it implies that despite today's negligible movement, the broader market continues to experience underlying demand. Collectively, these figures suggest that market sentiment remains broadly positive with sustained momentum, though the elevated RSI might hint at a market that is consolidating after recent gains and could be nearing a point where a pause or minor pullback might occur.",
-    "change_pct": -0.07,
+    "commentary": "The stock market experienced a moderate downturn today, closing down by 0.67%. Despite this daily dip, key technical indicators suggest a degree of underlying resilience. The Relative Strength Index (RSI) at 62.09 indicates that momentum remains in a moderately bullish zone, well above the neutral 50-mark but not yet signaling overbought conditions. Similarly, the Money Flow Index (MFI) at 61.89 corroborates this, suggesting that money is still flowing into the market on balance, indicating sustained buying interest despite the price decline. The high On-Balance Volume (OBV) reading further implies that despite today's selling, there hasn't been significant volume capitulation, reinforcing a longer-term accumulation trend. Overall, while the market saw a pullback, sentiment appears to retain underlying strength, suggesting today's move might be more of a temporary correction within an ongoing positive momentum.",
+    "change_pct": -0.67,
     "technicalIndicators": {
       "rsi": [
-        [
-          1763510400000,
-          41.87
-        ],
         [
           1763596800000,
           35.33
@@ -747,13 +743,13 @@
         [
           1779062400000,
           67.37
+        ],
+        [
+          1779148800000,
+          62.09
         ]
       ],
       "mfi": [
-        [
-          1763510400000,
-          43.51
-        ],
         [
           1763596800000,
           33.39
@@ -1473,13 +1469,13 @@
         [
           1779062400000,
           63.04
+        ],
+        [
+          1779148800000,
+          61.89
         ]
       ],
       "obv": [
-        [
-          1763510400000,
-          877135625.0
-        ],
         [
           1763596800000,
           724526608.0
@@ -2199,6 +2195,10 @@
         [
           1779062400000,
           1027616478.0
+        ],
+        [
+          1779148800000,
+          975033633.0
         ]
       ]
     },
@@ -2223,7 +2223,7 @@
       0.94,
       2.35,
       0.21,
-      -0.07,
+      -0.74,
       null,
       null,
       null,
