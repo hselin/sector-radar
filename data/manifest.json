@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-19T21:43:48.882725Z",
+  "lastUpdated": "2026-05-20T21:45:37.539816Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index representing 500 of the largest publicly traded companies in the United States, widely regarded as a benchmark for the overall U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a moderate downturn today, closing down by 0.67%. Despite this daily dip, key technical indicators suggest a degree of underlying resilience. The Relative Strength Index (RSI) at 62.09 indicates that momentum remains in a moderately bullish zone, well above the neutral 50-mark but not yet signaling overbought conditions. Similarly, the Money Flow Index (MFI) at 61.89 corroborates this, suggesting that money is still flowing into the market on balance, indicating sustained buying interest despite the price decline. The high On-Balance Volume (OBV) reading further implies that despite today's selling, there hasn't been significant volume capitulation, reinforcing a longer-term accumulation trend. Overall, while the market saw a pullback, sentiment appears to retain underlying strength, suggesting today's move might be more of a temporary correction within an ongoing positive momentum.",
-    "change_pct": -0.67,
+    "commentary": "The overall stock market experienced a robust performance today, closing up by a notable 1.02%. Key technical indicators confirm a strong bullish sentiment: the Relative Strength Index (RSI) at 66.42 suggests significant buying momentum, nearing overbought territory but still below the extreme. Similarly, the Money Flow Index (MFI) at 60.96 indicates a healthy inflow of capital into the market, reinforcing the positive sentiment and participation. Finally, the On-Balance Volume (OBV), showing a large positive figure, would likely have registered an increase today, which, combined with the rising prices, typically signals strong accumulation and validates the upward trend. Collectively, these figures point to a market driven by strong buying interest and positive momentum, though the elevated RSI warrants watching for potential short-term overextension.",
+    "change_pct": 1.02,
     "technicalIndicators": {
       "rsi": [
-        [
-          1763596800000,
-          35.33
-        ],
         [
           1763683200000,
           41.58
@@ -747,13 +743,13 @@
         [
           1779148800000,
           62.09
+        ],
+        [
+          1779235200000,
+          66.42
         ]
       ],
       "mfi": [
-        [
-          1763596800000,
-          33.39
-        ],
         [
           1763683200000,
           27.33
@@ -1473,13 +1469,13 @@
         [
           1779148800000,
           61.89
+        ],
+        [
+          1779235200000,
+          60.96
         ]
       ],
       "obv": [
-        [
-          1763596800000,
-          724526608.0
-        ],
         [
           1763683200000,
           840143965.0
@@ -2199,6 +2195,10 @@
         [
           1779148800000,
           975033633.0
+        ],
+        [
+          1779235200000,
+          1020118757.0
         ]
       ]
     },
@@ -2223,7 +2223,7 @@
       0.94,
       2.35,
       0.21,
-      -0.74,
+      0.28,
       null,
       null,
       null,

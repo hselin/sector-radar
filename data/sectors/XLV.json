@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1191,
-  "change_pct": 1.1,
-  "insights": "The Health Care sector experienced a positive day, posting a solid 1.10% gain. Its RSI at 54.71 indicates healthy upward momentum without being overbought, suggesting continued room for appreciation. This positive sentiment is further reinforced by the MFI at 62.00, which points to significant money flowing into the sector, supporting the price increase with active buying interest. However, the deeply negative On-Balance Volume (OBV) of -70,032,026 suggests that, despite today's uptick, cumulative buying pressure has not consistently outpaced selling pressure over a longer timeframe, potentially indicating an underlying struggle for sustained upward conviction or historical weakness in volume accumulation that bears watching.",
+  "market_weight": 0.1166,
+  "change_pct": -0.13,
+  "insights": "The Health Care sector experienced a marginal decline of -0.13% today, indicating a relatively flat performance with a slight downward bias. The RSI at 53.97 suggests the sector is in neutral territory, leaning slightly towards bullish momentum without being overbought. The MFI at 61.72 indicates that money is generally flowing into the sector, implying underlying buying interest despite the fractional price drop. However, the significantly negative OBV reflects net selling pressure on this particular day, consistent with the small price decrease as selling volume outweighed buying volume, hinting at minor profit-taking or consolidation within an otherwise stable to mildly positive technical backdrop.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763596800000,
-        68.32
-      ],
       [
         1763683200000,
         75.99
@@ -747,13 +743,13 @@
       [
         1779148800000,
         54.71
+      ],
+      [
+        1779235200000,
+        53.97
       ]
     ],
     "mfi": [
-      [
-        1763596800000,
-        74.41
-      ],
       [
         1763683200000,
         75.98
@@ -1473,13 +1469,13 @@
       [
         1779148800000,
         62.0
+      ],
+      [
+        1779235200000,
+        61.72
       ]
     ],
     "obv": [
-      [
-        1763596800000,
-        112936585.0
-      ],
       [
         1763683200000,
         137820426.0
@@ -2199,6 +2195,10 @@
       [
         1779148800000,
         -70032026.0
+      ],
+      [
+        1779235200000,
+        -80535654.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     0.68,
     -1.15,
     1.12,
-    1.53,
+    1.4,
     null,
     null,
     null,
