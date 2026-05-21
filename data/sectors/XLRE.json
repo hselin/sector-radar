@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector primarily comprises companies that own, develop, and manage income-generating real estate properties, including Equity Real Estate Investment Trusts (REITs), but excludes mortgage REITs.",
-    "marketSizeUSD": "3.5T",
+    "description": "The Real Estate GICS sector encompasses companies primarily engaged in the ownership, development, and management of real estate, including Equity Real Estate Investment Trusts (REITs) and real estate management and development firms.",
+    "marketSizeUSD": "1.4T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "PLD"
       },
       {
-        "name": "Equinix, Inc.",
-        "symbol": "EQIX"
+        "name": "American Tower Corporation",
+        "symbol": "AMT"
       },
       {
-        "name": "Crown Castle Inc.",
-        "symbol": "CCI"
+        "name": "Equinix, Inc.",
+        "symbol": "EQIX"
       }
     ]
   },
-  "market_weight": 0.06,
-  "change_pct": 1.12,
-  "insights": "The Real Estate sector demonstrated a positive performance today, advancing by 1.12%. The Relative Strength Index (RSI) at 57.39 indicates positive momentum without being overbought, suggesting potential for further upside before encountering significant selling pressure. However, the Money Flow Index (MFI) at 48.15, just below the neutral 50-mark, implies that while prices rose, the underlying money flow isn't overwhelmingly strong on the buying side, suggesting a somewhat mixed picture regarding volume-driven conviction. The On-Balance Volume (OBV) of 153,256,238, having increased today consistent with the positive close, corroborates the buying interest accompanying the price advance, though the MFI suggests monitoring the conviction behind future volume.",
+  "market_weight": 0.0255,
+  "change_pct": 0.16,
+  "insights": "The Real Estate sector saw a modest gain of 0.16% today, indicating slight upward momentum. Its Relative Strength Index (RSI) at 58.06 suggests healthy buying pressure, staying comfortably above the neutral 50-mark without entering overbought territory. Conversely, the Money Flow Index (MFI) at 45.23, slightly below 50, points to mild net outflows or a lack of strong conviction from buyers, suggesting some hesitancy despite the price increase. The high On-Balance Volume (OBV) of 156,775,157 indicates significant cumulative volume and established underlying interest, and its current level, aligning with the positive daily close, implies volume generally supported the day's slight price appreciation. Overall, the sector exhibits a slight positive bias, but mixed money flow signals suggest a cautious environment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763683200000,
-        46.23
-      ],
       [
         1763769600000,
         null
@@ -747,13 +743,13 @@
       [
         1779235200000,
         57.39
+      ],
+      [
+        1779321600000,
+        58.06
       ]
     ],
     "mfi": [
-      [
-        1763683200000,
-        44.06
-      ],
       [
         1763769600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779235200000,
         48.15
+      ],
+      [
+        1779321600000,
+        45.23
       ]
     ],
     "obv": [
-      [
-        1763683200000,
-        -34824818.0
-      ],
       [
         1763769600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779235200000,
         153256238.0
+      ],
+      [
+        1779321600000,
+        156775157.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     1.12,
     0.2,
     -2.66,
-    2.78,
+    2.94,
     null,
     null,
     null,

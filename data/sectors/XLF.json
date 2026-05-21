@@ -1,9 +1,9 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector comprises companies engaged in banking, diversified financial services, insurance, real estate, and consumer finance, facilitating money management, lending, and investment.",
+    "description": "The Financials sector encompasses companies engaged in banking, diversified financial services, insurance, capital markets, and real estate, providing a wide range of monetary and investment services to individuals and institutions.",
     "marketSizeUSD": "5T",
-    "constituentCount": 67,
+    "constituentCount": 68,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0858,
-  "change_pct": 1.1,
-  "insights": "The Financials sector posted a solid gain of 1.10% today, reflecting positive investor sentiment. Technically, the Relative Strength Index (RSI) at 52.86 indicates mild buying pressure, supporting the daily price increase without suggesting the sector is overbought. However, the Money Flow Index (MFI) at 46.99, slightly below the neutral 50-mark, suggests that while prices advanced, the buying pressure might not be fully supported by robust money inflow, potentially signaling some underlying caution or profit-taking despite the positive price movement. The On-Balance Volume (OBV) at 222,442,577, likely moving higher in tandem with the price, generally confirms the trend by reflecting cumulative buying interest.",
+  "market_weight": 0.0909,
+  "change_pct": 0.14,
+  "insights": "The Financials sector posted a modest gain of 0.14% today, indicating a relatively quiet session with slight positive momentum. Technical indicators offer a nuanced view: the Relative Strength Index (RSI) at 53.56 suggests mild bullish sentiment, remaining in neutral territory and not indicating overbought conditions. However, the Money Flow Index (MFI) at 45.96 points to a slight outflow of capital, suggesting that the day's positive movement may not be underpinned by strong buying conviction. The On-Balance Volume (OBV) at 251,943,108 reflects significant cumulative buying/selling pressure, though its daily change would be needed to definitively confirm volume support for today's price action.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763683200000,
-        42.73
-      ],
       [
         1763769600000,
         null
@@ -747,13 +743,13 @@
       [
         1779235200000,
         52.86
+      ],
+      [
+        1779321600000,
+        53.56
       ]
     ],
     "mfi": [
-      [
-        1763683200000,
-        61.15
-      ],
       [
         1763769600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779235200000,
         46.99
+      ],
+      [
+        1779321600000,
+        45.96
       ]
     ],
     "obv": [
-      [
-        1763683200000,
-        22232451.0
-      ],
       [
         1763769600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779235200000,
         222442577.0
+      ],
+      [
+        1779321600000,
+        251943108.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     0.97,
     -1.31,
     -0.27,
-    1.1,
+    1.23,
     null,
     null,
     null,

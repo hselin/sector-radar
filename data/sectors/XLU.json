@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies providing essential services such as electricity, natural gas, water, and sewage, often operating as regulated monopolies.",
+    "description": "The Utilities sector encompasses companies providing essential services such as electricity generation and distribution, natural gas distribution, water, and sewage.",
     "marketSizeUSD": "1.5T",
-    "constituentCount": 30,
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0257,
-  "change_pct": 0.38,
-  "insights": "The Utilities sector posted a modest 0.38% gain today, indicating a stable but not strongly bullish session. Despite the positive daily movement, key technical indicators like the Relative Strength Index (RSI) at 41.75 and the Money Flow Index (MFI) at 45.72 both remain below the neutral 50-mark, suggesting underlying buying momentum and money flow are not robust. While the On-Balance Volume (OBV) stands at 426,244,366, its position below key momentum thresholds (RSI, MFI) suggests that today's modest price appreciation was not driven by strong accumulative volume, reflecting a generally neutral to slightly cautious underlying sentiment despite the positive daily close.",
+  "market_weight": 0.0273,
+  "change_pct": 1.1,
+  "insights": "The Utilities sector posted a solid 1.10% gain today, indicating a positive sentiment for the typically defensive segment. However, key technical indicators suggest a nuanced picture: the Relative Strength Index (RSI) at 47.05 and the Money Flow Index (MFI) at 46.01 both hover below the neutral 50-mark, suggesting that despite today's price appreciation, underlying momentum remains moderate, and significant new money flow into the sector hasn't been overwhelmingly strong. Conversely, the substantial On-Balance Volume (OBV) of 444,088,185 indicates that buying pressure has been accumulating, providing some volume confirmation for the sector's positive daily performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763683200000,
-        41.52
-      ],
       [
         1763769600000,
         null
@@ -747,13 +743,13 @@
       [
         1779235200000,
         41.75
+      ],
+      [
+        1779321600000,
+        47.05
       ]
     ],
     "mfi": [
-      [
-        1763683200000,
-        46.8
-      ],
       [
         1763769600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779235200000,
         45.72
+      ],
+      [
+        1779321600000,
+        46.01
       ]
     ],
     "obv": [
-      [
-        1763683200000,
-        178376944.0
-      ],
       [
         1763769600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779235200000,
         426244366.0
+      ],
+      [
+        1779321600000,
+        444088185.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     0.8,
     -3.93,
     -1.9,
-    1.46,
+    2.58,
     null,
     null,
     null,

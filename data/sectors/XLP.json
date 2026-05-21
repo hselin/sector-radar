@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.06,
-  "change_pct": -0.66,
-  "insights": "The Consumer Staples sector concluded today with a modest decline of -0.66%. Despite this daily dip, key technical indicators suggest underlying resilience: the Relative Strength Index (RSI) at 60.02 and the Money Flow Index (MFI) at 62.71 both remain above the neutral 50-mark, indicating sustained bullish momentum and positive money flow into the sector, respectively, without entering overbought territory. The On-Balance Volume (OBV) at 111,167,621 reflects significant cumulative volume; while a down day would typically lead to a decrease in OBV, its current level, combined with the other indicators, suggests that today's price weakness may not be signaling a significant shift in the broader trend or a strong wave of selling pressure.",
+  "market_weight": 0.0636,
+  "change_pct": -1.01,
+  "insights": "The Consumer Staples sector experienced a noticeable pullback today, declining 1.01%, indicating selling pressure. Despite this daily dip, key technical indicators suggest a relatively neutral underlying sentiment; the Relative Strength Index (RSI) at 53.65 and Money Flow Index (MFI) at 54.63 both hover slightly above the neutral 50-mark. This implies that while today saw price weakness, the sector is not currently in extreme overbought or oversold territory, nor does it reflect strong negative money flow over a broader period. The On-Balance Volume (OBV) stands at 98,349,995, signifying substantial cumulative trading activity, though its specific daily change would be needed to confirm if today's price drop was accompanied by significant selling volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763683200000,
-        54.13
-      ],
       [
         1763769600000,
         null
@@ -747,13 +743,13 @@
       [
         1779235200000,
         60.02
+      ],
+      [
+        1779321600000,
+        53.65
       ]
     ],
     "mfi": [
-      [
-        1763683200000,
-        55.06
-      ],
       [
         1763769600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779235200000,
         62.71
+      ],
+      [
+        1779321600000,
+        54.63
       ]
     ],
     "obv": [
-      [
-        1763683200000,
-        5362676.0
-      ],
       [
         1763769600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779235200000,
         111167621.0
+      ],
+      [
+        1779321600000,
+        98349995.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     1.13,
     0.01,
     0.55,
-    1.04,
+    0.02,
     null,
     null,
     null,

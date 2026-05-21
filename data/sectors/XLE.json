@@ -1,16 +1,16 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector encompasses companies primarily engaged in the exploration, production, refining, and marketing of oil and gas, as well as those involved in coal and other consumable fuels and energy equipment and services.",
-    "marketSizeUSD": "2.2T",
+    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, and marketing of oil and gas, as well as those providing drilling, equipment, and energy-related services.",
+    "marketSizeUSD": "2.0T",
     "constituentCount": 21,
     "topHoldings": [
       {
-        "name": "Exxon Mobil Corp",
+        "name": "Exxon Mobil Corporation",
         "symbol": "XOM"
       },
       {
-        "name": "Chevron Corp",
+        "name": "Chevron Corporation",
         "symbol": "CVX"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0377,
-  "change_pct": -2.43,
-  "insights": "The Energy sector experienced a notable downturn today, declining by -2.43%. Despite this sharp daily retreat, key technical indicators suggest the underlying momentum is not signaling extreme weakness. The Relative Strength Index (RSI) at 57.19 and Money Flow Index (MFI) at 56.32 both remain in neutral territory, slightly above the 50-mark. This indicates that while today's selling pressure was significant, it hasn't pushed the sector into an oversold condition, nor does it suggest a wholesale flight of capital. The On-Balance Volume (OBV) at 1,172,820,066 reflects the cumulative buying and selling pressure, and while a down day would typically see this decrease, the other indicators suggest the sector still holds some latent strength above immediate oversold conditions.",
+  "market_weight": 0.0364,
+  "change_pct": -1.12,
+  "insights": "The Energy sector experienced a modest decline of -1.12% today. Despite this daily dip, key technical indicators suggest the underlying sentiment remains relatively balanced. The Relative Strength Index (RSI) at 53.82 indicates neutral momentum, avoiding both overbought and oversold territories. Furthermore, the Money Flow Index (MFI) at 55.38 suggests that despite the price decrease, there's still a net inflow of capital into the sector, hinting at underlying buying interest. The robust On-Balance Volume (OBV) level further supports a history of accumulation, suggesting that today's selling pressure might not be indicative of a significant shift in the broader trend. Overall, while performance was negative today, the technicals imply this was more of a minor pullback rather than a strong bearish signal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763683200000,
-        51.04
-      ],
       [
         1763769600000,
         null
@@ -747,13 +743,13 @@
       [
         1779235200000,
         57.19
+      ],
+      [
+        1779321600000,
+        53.82
       ]
     ],
     "mfi": [
-      [
-        1763683200000,
-        56.08
-      ],
       [
         1763769600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779235200000,
         56.32
+      ],
+      [
+        1779321600000,
+        55.38
       ]
     ],
     "obv": [
-      [
-        1763683200000,
-        306346432.0
-      ],
       [
         1763769600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779235200000,
         1172820066.0
+      ],
+      [
+        1779321600000,
+        1129517439.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     3.48,
     -5.35,
     6.71,
-    0.61,
+    -0.52,
     null,
     null,
     null,

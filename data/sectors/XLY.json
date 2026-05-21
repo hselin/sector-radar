@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector includes companies that provide non-essential goods and services that consumers purchase when they have discretionary income.",
-    "marketSizeUSD": "8.5T",
-    "constituentCount": 57,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose demand is highly sensitive to the business cycle and consumer income levels.",
+    "marketSizeUSD": "7.4T",
+    "constituentCount": 53,
     "topHoldings": [
       {
         "name": "Amazon.com Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1458,
-  "change_pct": 2.53,
-  "insights": "The Consumer Discretionary sector displayed robust performance today, posting a significant gain of 2.53%. Technical indicators suggest this strong daily movement is occurring without immediate signs of overextension: the Relative Strength Index (RSI) at 52.80 and Money Flow Index (MFI) at 55.82 both sit in neutral territory, indicating healthy buying interest and money inflow without reaching overbought levels. However, the On-Balance Volume (OBV) registering at -26,897,229 suggests that despite today's strong uptick, the cumulative volume on down days has historically outweighed volume on up days, implying that while today was positive, there might still be underlying selling pressure or a need for sustained buying to significantly shift the longer-term volume trend.",
+  "market_weight": 0.1345,
+  "change_pct": 0.64,
+  "insights": "The Consumer Discretionary sector registered a positive performance today, gaining 0.64%. Technical indicators suggest this movement is supported by moderate, healthy momentum; the Relative Strength Index (RSI) at 55.24 and Money Flow Index (MFI) at 53.54 are both in neutral territory, slightly above the 50-mark, indicating balanced but favorable buying interest without reaching overbought conditions. However, the On-Balance Volume (OBV) sitting at -20,122,475 suggests that while today's price action was positive, the broader cumulative volume trend indicates selling pressure has historically dominated buying pressure, potentially raising questions about the conviction behind sustained upward movements despite today's uptick.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763683200000,
-        39.12
-      ],
       [
         1763769600000,
         null
@@ -747,13 +743,13 @@
       [
         1779235200000,
         52.8
+      ],
+      [
+        1779321600000,
+        55.24
       ]
     ],
     "mfi": [
-      [
-        1763683200000,
-        24.99
-      ],
       [
         1763769600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779235200000,
         55.82
+      ],
+      [
+        1779321600000,
+        53.54
       ]
     ],
     "obv": [
-      [
-        1763683200000,
-        1749530.0
-      ],
       [
         1763769600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779235200000,
         -26897229.0
+      ],
+      [
+        1779321600000,
+        -20122475.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     -0.05,
     1.32,
     -3.05,
-    1.21,
+    1.86,
     null,
     null,
     null,

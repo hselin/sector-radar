@@ -1,12 +1,12 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment, interactive media, and other communication-related services.",
-    "marketSizeUSD": "4.0T",
+    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment (including film, television, and publishing), and interactive media and services.",
+    "marketSizeUSD": "4.8T",
     "constituentCount": 23,
     "topHoldings": [
       {
-        "name": "Alphabet Inc.",
+        "name": "Alphabet Inc. Class A",
         "symbol": "GOOGL"
       },
       {
@@ -14,20 +14,16 @@
         "symbol": "META"
       },
       {
-        "name": "Netflix, Inc.",
+        "name": "Netflix Inc.",
         "symbol": "NFLX"
       }
     ]
   },
-  "market_weight": 0.0686,
-  "change_pct": 0.22,
-  "insights": "Today, the Communication Services sector recorded a marginal 0.22% gain, indicating a slightly positive yet subdued performance. Technical indicators suggest a largely indecisive trading day: the Relative Strength Index (RSI) at 50.02 points to precisely neutral momentum, reflecting neither overbought nor oversold conditions and no strong directional bias. Meanwhile, the Money Flow Index (MFI) at 43.25 leans towards a slight net outflow of money, hinting that buying interest may not be robust despite the small price increase. The On-Balance Volume (OBV) stands at 161,040,462, reflecting cumulative trading activity, but without its prior daily value, its specific contribution to today's buying or selling pressure cannot be definitively ascertained, aligning with the overall lack of strong conviction shown by the other indicators for the day.",
+  "market_weight": 0.0873,
+  "change_pct": 0.0,
+  "insights": "The Communication Services sector closed flat today with a 0.00% change, reflecting a market in equilibrium. The Relative Strength Index (RSI) at 50.02 is virtually at the neutral midpoint, confirming a balance between buying and selling pressure and a lack of clear momentum. While the Money Flow Index (MFI) at 40.89 suggests a slight, though not significant, lean towards capital outflow, it isn't indicating strong selling pressure. The On-Balance Volume (OBV) at 165,884,998, in conjunction with the unchanged price, implies that there was no significant net accumulation or distribution volume driving the sector's valuation today, reinforcing the theme of indecision and consolidation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763683200000,
-        44.34
-      ],
       [
         1763769600000,
         null
@@ -747,13 +743,13 @@
       [
         1779235200000,
         50.02
+      ],
+      [
+        1779321600000,
+        50.02
       ]
     ],
     "mfi": [
-      [
-        1763683200000,
-        49.3
-      ],
       [
         1763769600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779235200000,
         43.25
+      ],
+      [
+        1779321600000,
+        40.89
       ]
     ],
     "obv": [
-      [
-        1763683200000,
-        150265663.0
-      ],
       [
         1763769600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779235200000,
         161040462.0
+      ],
+      [
+        1779321600000,
+        165884998.0
       ]
     ]
   },

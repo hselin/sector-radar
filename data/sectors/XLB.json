@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials GICS sector encompasses companies engaged in the discovery, development, and processing of raw materials, such as chemicals, construction materials, metals, mining, and paper.",
-    "marketSizeUSD": "1.8T",
+    "description": "The Materials sector includes companies that discover, develop, and process raw materials used in various industries, encompassing chemicals, construction materials, metals, mining, paper, and packaging.",
+    "marketSizeUSD": "1.1T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Company",
+        "name": "Sherwin-Williams Co",
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc.",
+        "name": "Ecolab Inc",
         "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0309,
-  "change_pct": 1.39,
-  "insights": "The Materials sector posted a solid performance today with a gain of 1.39%. This positive movement is supported by technical indicators that suggest underlying strength without immediate signs of overextension. The Relative Strength Index (RSI) at 40.17 and the Money Flow Index (MFI) at 44.22 both indicate that the sector is not currently in overbought territory, suggesting potential room for further appreciation before encountering significant momentum-driven selling pressure. The On-Balance Volume (OBV) at 45,553,499, while an absolute value, reflects accumulated buying pressure and, in the context of today's gain, implies positive volume support for the price increase.",
+  "market_weight": 0.02,
+  "change_pct": 0.6,
+  "insights": "The Materials sector posted a modest 0.60% gain today. Despite this positive price movement, key technical indicators suggest a nuanced outlook. The Relative Strength Index (RSI) at 42.70 and Money Flow Index (MFI) at 44.37 both reside below the neutral 50-mark, indicating that underlying buying momentum and capital inflow remain somewhat subdued over the recent period. This suggests today's increase might reflect more of a consolidation or minor rebound rather than a robust surge. The On-Balance Volume (OBV) at 55,628,635 confirms significant cumulative volume activity, with today's positive close contributing to it, yet the momentum oscillators counsel caution regarding sustained upward pressure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763683200000,
-        47.6
-      ],
       [
         1763769600000,
         null
@@ -747,13 +743,13 @@
       [
         1779235200000,
         40.17
+      ],
+      [
+        1779321600000,
+        42.7
       ]
     ],
     "mfi": [
-      [
-        1763683200000,
-        45.82
-      ],
       [
         1763769600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779235200000,
         44.22
+      ],
+      [
+        1779321600000,
+        44.37
       ]
     ],
     "obv": [
-      [
-        1763683200000,
-        -43307273.0
-      ],
       [
         1763769600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779235200000,
         45553499.0
+      ],
+      [
+        1779321600000,
+        55628635.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     -1.1,
     0.47,
     -2.5,
-    -1.15,
+    -0.56,
     null,
     null,
     null,
