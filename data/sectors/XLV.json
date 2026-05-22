@@ -1,17 +1,17 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector encompasses companies providing medical services, manufacturing pharmaceuticals and medical equipment, and developing biotechnology.",
-    "marketSizeUSD": "6.8T",
-    "constituentCount": 65,
+    "description": "The Health Care sector comprises companies that develop, manufacture, and distribute health care products and services, including pharmaceuticals, biotechnology, medical devices, health care providers, and related services.",
+    "marketSizeUSD": "6.5T",
+    "constituentCount": 66,
     "topHoldings": [
-      {
-        "name": "UnitedHealth Group",
-        "symbol": "UNH"
-      },
       {
         "name": "Eli Lilly and Company",
         "symbol": "LLY"
+      },
+      {
+        "name": "UnitedHealth Group Incorporated",
+        "symbol": "UNH"
       },
       {
         "name": "Johnson & Johnson",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1236,
-  "change_pct": 0.69,
-  "insights": "The Health Care sector advanced by 0.69% today, indicating positive short-term momentum. The Relative Strength Index (RSI) at 57.28 suggests the sector is gaining strength without being overbought, while the Money Flow Index (MFI) at 61.17 corroborates this, showing a healthy influx of capital. However, the On-Balance Volume (OBV) at -73,809,574 presents a cautionary signal; this significantly negative figure implies that, over a longer period, selling volume has generally outweighed buying volume, suggesting that while today's gain is positive, underlying accumulation might be weak or the current rally lacks broad, sustained volumetric support.",
+  "market_weight": 0.1204,
+  "change_pct": 1.17,
+  "insights": "The Healthcare sector experienced a notable 1.17% gain today, signaling strong positive sentiment. The RSI at 62.26 and MFI at 68.22 both reflect robust bullish momentum and significant money flow into the sector, while remaining below overbought thresholds, suggesting potential for continued strength. However, the significantly negative OBV of -67,397,425 indicates cumulative net selling pressure over the tracked period, suggesting today's positive movement, while strong on price, may not yet be fully supported by robust, sustained buying volume over a broader timeframe.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763769600000,
-        null
-      ],
       [
         1763856000000,
         null
@@ -747,13 +743,13 @@
       [
         1779321600000,
         57.28
+      ],
+      [
+        1779408000000,
+        62.26
       ]
     ],
     "mfi": [
-      [
-        1763769600000,
-        null
-      ],
       [
         1763856000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779321600000,
         61.17
+      ],
+      [
+        1779408000000,
+        68.22
       ]
     ],
     "obv": [
-      [
-        1763769600000,
-        null
-      ],
       [
         1763856000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779321600000,
         -73809574.0
+      ],
+      [
+        1779408000000,
+        -67397425.0
       ]
     ]
   },
@@ -2223,7 +2223,7 @@
     0.68,
     -1.15,
     1.12,
-    2.1,
+    3.3,
     null,
     null,
     null,
