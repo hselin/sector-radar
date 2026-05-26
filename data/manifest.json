@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T21:31:47.468689Z",
+  "lastUpdated": "2026-05-26T21:42:48.843469Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States, representing a significant portion of the U.S. equity market.",
@@ -20,26 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market posted a modest gain of 0.39% today, reflecting continued positive sentiment. Technical indicators suggest strong underlying momentum, with the Relative Strength Index (RSI) at 68.78 and the Money Flow Index (MFI) at 67.91. Both readings are approaching the traditional overbought threshold of 70, indicating robust buying pressure and significant money inflow into the market. Concurrently, the On-Balance Volume (OBV) at 1,097,521,517 supports this view, suggesting that buying volume continues to outpace selling volume. While these figures confirm strong bullish sentiment and momentum, their proximity to overbought levels warrants attention, as it could signal a potential for short-term consolidation or a pullback.",
-    "change_pct": 0.39,
+    "commentary": "The overall stock market exhibited a positive session today, closing up 0.66%, indicating a solid day for equities. Key technical indicators reinforce this strength but also introduce a note of caution regarding its sustainability. The Relative Strength Index (RSI) at 71.28 suggests the market is currently in overbought territory, signaling strong bullish momentum but also potential for a near-term pullback or consolidation. This sentiment is further supported by the Money Flow Index (MFI) at 67.93, which confirms significant capital inflows and robust buying interest. Additionally, the On-Balance Volume (OBV) at 1,133,498,877 underscores that today's upward movement was accompanied by substantial buying volume, validating the price action. Collectively, these figures point to prevalent bullish sentiment and strong upward momentum, though the elevated RSI might hint that the market is becoming extended after recent gains.",
+    "change_pct": 0.66,
     "technicalIndicators": {
       "rsi": [
-        [
-          1763856000000,
-          null
-        ],
-        [
-          1763942400000,
-          49.44
-        ],
-        [
-          1764028800000,
-          53.82
-        ],
-        [
-          1764115200000,
-          56.83
-        ],
         [
           1764201600000,
           null
@@ -747,25 +731,25 @@
         [
           1779408000000,
           68.78
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1763856000000,
+          1779494400000,
           null
         ],
         [
-          1763942400000,
-          32.95
+          1779580800000,
+          null
         ],
         [
-          1764028800000,
-          33.42
+          1779667200000,
+          null
         ],
         [
-          1764115200000,
-          39.21
-        ],
+          1779753600000,
+          71.28
+        ]
+      ],
+      "mfi": [
         [
           1764201600000,
           null
@@ -1473,25 +1457,25 @@
         [
           1779408000000,
           67.91
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1763856000000,
+          1779494400000,
           null
         ],
         [
-          1763942400000,
-          906689137.0
+          1779580800000,
+          null
         ],
         [
-          1764028800000,
-          979184250.0
+          1779667200000,
+          null
         ],
         [
-          1764115200000,
-          1044475801.0
-        ],
+          1779753600000,
+          67.93
+        ]
+      ],
+      "obv": [
         [
           1764201600000,
           null
@@ -2199,6 +2183,22 @@
         [
           1779408000000,
           1097521517.0
+        ],
+        [
+          1779494400000,
+          null
+        ],
+        [
+          1779580800000,
+          null
+        ],
+        [
+          1779667200000,
+          null
+        ],
+        [
+          1779753600000,
+          1133498877.0
         ]
       ]
     },
@@ -2224,7 +2224,7 @@
       2.35,
       0.21,
       0.88,
-      null,
+      0.66,
       null,
       null,
       null,

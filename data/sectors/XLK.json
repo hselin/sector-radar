@@ -1,45 +1,29 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises companies engaged in the production of software, hardware, and semiconductors, as well as the provision of technology services.",
-    "marketSizeUSD": "16.5T",
-    "constituentCount": 68,
+    "description": "The Information Technology sector comprises companies that primarily develop software, provide IT services, or manufacture technology hardware and equipment.",
+    "marketSizeUSD": "15T",
+    "constituentCount": 67,
     "topHoldings": [
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
       },
       {
-        "name": "Microsoft Corp.",
+        "name": "Microsoft Corporation",
         "symbol": "MSFT"
       },
       {
-        "name": "NVIDIA Corp.",
+        "name": "NVIDIA Corporation",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.3056,
-  "change_pct": 1.0,
-  "insights": "The Information Technology sector posted a solid 1.00% gain today, signaling strong positive momentum. The Relative Strength Index (RSI) at 72.82 indicates the sector is currently in overbought territory, suggesting robust buying interest and a powerful upward trend, though it also implies a potential for a near-term pullback or consolidation. This upward movement is further supported by healthy money flow into the sector, as evidenced by the Money Flow Index (MFI) at 62.25. The high On-Balance Volume (OBV) of 464,470,521 reinforces that buying pressure is significantly outweighing selling pressure, confirming the strength of today's price action.",
+  "market_weight": 0.2857,
+  "change_pct": 2.63,
+  "insights": "The Information Technology sector posted a robust performance today, advancing a significant 2.63%. This strong daily ascent is corroborated by a high Relative Strength Index (RSI) of 76.66, which indicates substantial buying momentum, pushing the sector into overbought conditions and potentially signaling a short-term need for consolidation. The Money Flow Index (MFI) at 63.26 further supports this positive trend with healthy capital inflow, while the On-Balance Volume (OBV) of 476,918,383 confirms that this upward price movement was indeed backed by considerable trading volume. Overall, the sector saw strong, conviction-backed gains today, albeit with signs of potential near-term overextension.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1763856000000,
-        null
-      ],
-      [
-        1763942400000,
-        43.78
-      ],
-      [
-        1764028800000,
-        44.53
-      ],
-      [
-        1764115200000,
-        48.18
-      ],
       [
         1764201600000,
         null
@@ -747,25 +731,25 @@
       [
         1779408000000,
         72.82
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1763856000000,
+        1779494400000,
         null
       ],
       [
-        1763942400000,
-        20.83
+        1779580800000,
+        null
       ],
       [
-        1764028800000,
-        20.49
+        1779667200000,
+        null
       ],
       [
-        1764115200000,
-        24.76
-      ],
+        1779753600000,
+        76.66
+      ]
+    ],
+    "mfi": [
       [
         1764201600000,
         null
@@ -1473,25 +1457,25 @@
       [
         1779408000000,
         62.25
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1763856000000,
+        1779494400000,
         null
       ],
       [
-        1763942400000,
-        219315016.0
+        1779580800000,
+        null
       ],
       [
-        1764028800000,
-        229663391.0
+        1779667200000,
+        null
       ],
       [
-        1764115200000,
-        235997331.0
-      ],
+        1779753600000,
+        63.26
+      ]
+    ],
+    "obv": [
       [
         1764201600000,
         null
@@ -2199,6 +2183,22 @@
       [
         1779408000000,
         464470521.0
+      ],
+      [
+        1779494400000,
+        null
+      ],
+      [
+        1779580800000,
+        null
+      ],
+      [
+        1779667200000,
+        null
+      ],
+      [
+        1779753600000,
+        476918383.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     8.43,
     0.42,
     2.34,
-    null,
+    2.63,
     null,
     null,
     null,
