@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T21:42:48.843469Z",
+  "lastUpdated": "2026-05-27T21:45:09.975970Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States, representing a significant portion of the U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market exhibited a positive session today, closing up 0.66%, indicating a solid day for equities. Key technical indicators reinforce this strength but also introduce a note of caution regarding its sustainability. The Relative Strength Index (RSI) at 71.28 suggests the market is currently in overbought territory, signaling strong bullish momentum but also potential for a near-term pullback or consolidation. This sentiment is further supported by the Money Flow Index (MFI) at 67.93, which confirms significant capital inflows and robust buying interest. Additionally, the On-Balance Volume (OBV) at 1,133,498,877 underscores that today's upward movement was accompanied by substantial buying volume, validating the price action. Collectively, these figures point to prevalent bullish sentiment and strong upward momentum, though the elevated RSI might hint that the market is becoming extended after recent gains.",
-    "change_pct": 0.66,
+    "commentary": "The overall stock market experienced a negligible change today, ending down a mere 0.02%. Despite this flat daily performance, key technical indicators suggest a nuanced picture of underlying sentiment and momentum. The Relative Strength Index (RSI) at 71.12 is firmly in overbought territory, indicating that recent upward price momentum has been very strong and the market may be due for a short-term consolidation or pullback. Complementing this, the Money Flow Index (MFI) at 60.75, while positive and showing continued capital inflow, is less extreme than the RSI, perhaps suggesting a slight moderation in the intensity of buying interest relative to recent price appreciation. Furthermore, the robust On-Balance Volume (OBV) reading implies significant cumulative buying pressure over time, providing underlying support to current price levels. Collectively, these figures point to a market that has enjoyed strong bullish momentum, with positive sentiment, but with a growing technical signal that a period of cooling off or profit-taking could be on the horizon.",
+    "change_pct": -0.02,
     "technicalIndicators": {
       "rsi": [
-        [
-          1764201600000,
-          null
-        ],
         [
           1764288000000,
           59.07
@@ -747,13 +743,13 @@
         [
           1779753600000,
           71.28
+        ],
+        [
+          1779840000000,
+          71.12
         ]
       ],
       "mfi": [
-        [
-          1764201600000,
-          null
-        ],
         [
           1764288000000,
           44.5
@@ -1473,13 +1469,13 @@
         [
           1779753600000,
           67.93
+        ],
+        [
+          1779840000000,
+          60.75
         ]
       ],
       "obv": [
-        [
-          1764201600000,
-          null
-        ],
         [
           1764288000000,
           1084849173.0
@@ -2199,6 +2195,10 @@
         [
           1779753600000,
           1133498877.0
+        ],
+        [
+          1779840000000,
+          1092488931.0
         ]
       ]
     },
@@ -2224,7 +2224,7 @@
       2.35,
       0.21,
       0.88,
-      0.66,
+      0.65,
       null,
       null,
       null,

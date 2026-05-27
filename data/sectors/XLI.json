@@ -1,17 +1,17 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that produce capital goods, provide commercial services and supplies, and offer transportation services.",
-    "marketSizeUSD": "5.0T",
-    "constituentCount": 72,
+    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing industrial and commercial services, and offering various transportation services, including aerospace, defense, construction, machinery, and logistics.",
+    "marketSizeUSD": "4.2T",
+    "constituentCount": 74,
     "topHoldings": [
       {
         "name": "GE Aerospace",
         "symbol": "GE"
       },
       {
-        "name": "Honeywell International Inc.",
-        "symbol": "HON"
+        "name": "Caterpillar Inc.",
+        "symbol": "CAT"
       },
       {
         "name": "Union Pacific Corporation",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0952,
-  "change_pct": 1.47,
-  "insights": "The Industrials sector exhibited strong performance today, advancing by 1.47%. This positive movement is supported by technical indicators: the Relative Strength Index (RSI) at 55.61 suggests healthy upward momentum without entering overbought territory, indicating potential for continued strength. While the Money Flow Index (MFI) at 50.92 indicates relatively balanced money flow, it doesn't detract from the positive price action, implying the gains were not driven by extreme capital inflows but rather steady interest. The substantial On-Balance Volume (OBV) at 162,874,812 further corroborates underlying accumulation, reflecting buying interest driving the sector's gains.",
+  "market_weight": 0.0812,
+  "change_pct": -0.0,
+  "insights": "The Industrials sector experienced a remarkably flat trading day, closing with a -0.00% change, indicating a strong equilibrium between buying and selling pressures. This neutrality is largely reflected in its key technical indicators: the RSI at 55.61 suggests a mild underlying bullish momentum, slightly above the neutral 50-mark but not indicative of overbought conditions. Complementing this, the MFI at 49.42 points to an extremely balanced money flow, hovering just below the neutral threshold and confirming the lack of significant volume-driven conviction. Given the stagnant price action, the OBV (155,508,149) effectively signals a day where buying and selling volumes were in balance, preventing any significant price trend from forming. Overall, the sector appears to be in a period of consolidation, awaiting a clearer catalyst for its next directional move.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764201600000,
-        null
-      ],
       [
         1764288000000,
         55.32
@@ -747,13 +743,13 @@
       [
         1779753600000,
         55.61
+      ],
+      [
+        1779840000000,
+        55.61
       ]
     ],
     "mfi": [
-      [
-        1764201600000,
-        null
-      ],
       [
         1764288000000,
         41.95
@@ -1473,13 +1469,13 @@
       [
         1779753600000,
         50.92
+      ],
+      [
+        1779840000000,
+        49.42
       ]
     ],
     "obv": [
-      [
-        1764201600000,
-        null
-      ],
       [
         1764288000000,
         64254983.0
@@ -2199,6 +2195,10 @@
       [
         1779753600000,
         162874812.0
+      ],
+      [
+        1779840000000,
+        155508149.0
       ]
     ]
   },

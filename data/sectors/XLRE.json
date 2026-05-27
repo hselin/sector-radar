@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0267,
-  "change_pct": 0.34,
-  "insights": "The Real Estate sector closed with a modest gain of 0.34% today, indicating underlying positive sentiment. Technical indicators largely support this upward movement: the RSI at 60.21 and MFI at 58.94 both suggest growing bullish momentum and positive money flow into the sector, respectively, without yet entering overbought territory. Furthermore, the high OBV of 164,473,279 confirms that today's price appreciation was backed by significant buying volume, reinforcing the conviction behind the sector's daily performance.",
+  "market_weight": 0.0271,
+  "change_pct": -0.18,
+  "insights": "The Real Estate sector recorded a marginal decline of -0.18% today, indicating a relatively stable but slightly negative daily performance. Despite this slight dip, key technical indicators suggest underlying resilience: the Relative Strength Index (RSI) at 58.94 and the Money Flow Index (MFI) at 57.85 both reside in neutral-to-bullish territory (above 50 but not overbought), suggesting that buying interest and capital inflow remain moderately strong and are not signaling a significant sell-off. The On-Balance Volume (OBV) at 161,050,740 reflects cumulative buying/selling pressure, and while its trend is key, its current level, alongside the RSI and MFI, indicates that the sector's momentum has not significantly deteriorated despite today's fractional price movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764201600000,
-        null
-      ],
       [
         1764288000000,
         56.5
@@ -747,13 +743,13 @@
       [
         1779753600000,
         60.21
+      ],
+      [
+        1779840000000,
+        58.94
       ]
     ],
     "mfi": [
-      [
-        1764201600000,
-        null
-      ],
       [
         1764288000000,
         47.05
@@ -1473,13 +1469,13 @@
       [
         1779753600000,
         58.94
+      ],
+      [
+        1779840000000,
+        57.85
       ]
     ],
     "obv": [
-      [
-        1764201600000,
-        null
-      ],
       [
         1764288000000,
         -14051941.0
@@ -2199,6 +2195,10 @@
       [
         1779753600000,
         164473279.0
+      ],
+      [
+        1779840000000,
+        161050740.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     0.2,
     -2.66,
     3.08,
-    0.34,
+    0.16,
     null,
     null,
     null,
