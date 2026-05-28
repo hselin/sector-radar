@@ -1,16 +1,16 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies primarily engaged in the exploration, production, refining, and marketing of oil and gas, as well as those providing drilling, equipment, and energy-related services.",
-    "marketSizeUSD": "2.0T",
+    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil, gas, and consumable fuels, alongside those providing energy equipment and services.",
+    "marketSizeUSD": "1.8T",
     "constituentCount": 21,
     "topHoldings": [
       {
-        "name": "Exxon Mobil Corporation",
+        "name": "Exxon Mobil Corp",
         "symbol": "XOM"
       },
       {
-        "name": "Chevron Corporation",
+        "name": "Chevron Corp",
         "symbol": "CVX"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0387,
-  "change_pct": -1.49,
-  "insights": "The Energy sector experienced a notable decline today, shedding 1.49%. This downward movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 44.14 and the Money Flow Index (MFI) at 42.56. Both indicators, being below 50, suggest a bearish tilt with waning buying momentum and increasing selling pressure, although they do not yet indicate deeply oversold conditions. The On-Balance Volume (OBV) stands at 1,086,540,665, reflecting significant cumulative trading activity; a daily decrease in OBV alongside the price drop would further validate the conviction behind today's selling pressure, confirming a short-term weakening trend in the sector.",
+  "market_weight": 0.0222,
+  "change_pct": -0.07,
+  "insights": "The Energy sector experienced a largely flat trading day, posting a marginal decline of -0.07%. Technically, the Relative Strength Index (RSI) at 43.98 suggests a slight bearish momentum, though it remains well above oversold levels, indicating no extreme selling pressure. Conversely, the Money Flow Index (MFI) at 51.61 points to a slightly positive money flow into the sector, suggesting some underlying buying interest or stability despite the minor price dip. The On-Balance Volume (OBV), reflecting cumulative buying and selling pressure, stands at 1,040,269,474, supporting a narrative of general consolidation today rather than a strong directional move in either direction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764288000000,
-        55.65
-      ],
       [
         1764374400000,
         null
@@ -747,13 +743,13 @@
       [
         1779840000000,
         44.14
+      ],
+      [
+        1779926400000,
+        43.98
       ]
     ],
     "mfi": [
-      [
-        1764288000000,
-        47.64
-      ],
       [
         1764374400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779840000000,
         42.56
+      ],
+      [
+        1779926400000,
+        51.61
       ]
     ],
     "obv": [
-      [
-        1764288000000,
-        296935820.0
-      ],
       [
         1764374400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779840000000,
         1086540665.0
+      ],
+      [
+        1779926400000,
+        1040269474.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     -5.35,
     6.71,
     0.08,
-    -4.2,
+    -4.27,
     null,
     null,
     null,

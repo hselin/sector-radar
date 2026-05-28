@@ -1,9 +1,9 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose demand is highly sensitive to the business cycle and consumer income levels.",
-    "marketSizeUSD": "7.4T",
-    "constituentCount": 53,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose demand is sensitive to the business cycle and consumer income.",
+    "marketSizeUSD": "7.0T",
+    "constituentCount": 54,
     "topHoldings": [
       {
         "name": "Amazon.com Inc.",
@@ -14,20 +14,16 @@
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot, Inc.",
+        "name": "The Home Depot Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1431,
-  "change_pct": 1.76,
-  "insights": "The Consumer Discretionary sector demonstrated strong positive momentum today, advancing 1.76%. This robust performance is technically supported across key indicators. The Relative Strength Index (RSI) at 63.75 indicates solid bullish momentum, not yet reaching overbought territory but reflecting significant buying pressure. Concurrently, the Money Flow Index (MFI) at 62.46 suggests substantial capital inflow into the sector, reinforcing genuine investor interest in today's rally. Furthermore, the On-Balance Volume (OBV) at 2853055, rising alongside the price, confirms accumulation, indicating that the upward movement is supported by strong underlying volume.",
+  "market_weight": 0.0863,
+  "change_pct": 0.42,
+  "insights": "The Consumer Discretionary sector posted a modest 0.42% gain today, reflecting underlying positive sentiment. The Relative Strength Index (RSI) at 65.07 indicates strong buying momentum, trending towards overbought but not yet in extreme territory. This upward price action is further supported by a healthy Money Flow Index (MFI) of 62.42, signifying active capital inflow into the sector. While the On-Balance Volume (OBV) of 10191928 reflects accumulated buying interest, the combined picture from RSI and MFI confirms current bullish momentum and sustained investor attention, suggesting the sector has genuine strength worth monitoring.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764288000000,
-        54.65
-      ],
       [
         1764374400000,
         null
@@ -747,13 +743,13 @@
       [
         1779840000000,
         63.75
+      ],
+      [
+        1779926400000,
+        65.07
       ]
     ],
     "mfi": [
-      [
-        1764288000000,
-        37.55
-      ],
       [
         1764374400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779840000000,
         62.46
+      ],
+      [
+        1779926400000,
+        62.42
       ]
     ],
     "obv": [
-      [
-        1764288000000,
-        18366615.0
-      ],
       [
         1764374400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779840000000,
         2853055.0
+      ],
+      [
+        1779926400000,
+        10191928.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     1.32,
     -3.05,
     2.27,
-    1.99,
+    2.42,
     null,
     null,
     null,

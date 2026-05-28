@@ -1,9 +1,9 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies providing essential services such as electricity generation and distribution, natural gas distribution, water, and sewage.",
-    "marketSizeUSD": "1.5T",
-    "constituentCount": 31,
+    "description": "The Utilities sector comprises companies that provide essential services such as electricity, natural gas, water, and sometimes waste treatment, often operating as regulated monopolies.",
+    "marketSizeUSD": "1.1T",
+    "constituentCount": 30,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.029,
-  "change_pct": -0.42,
-  "insights": "The Utilities sector registered a slight decline today, pulling back by 0.42%. Technical indicators suggest this movement reflects a relatively balanced market rather than strong directional momentum. The Relative Strength Index (RSI) at 48.33 is near the neutral 50-mark, indicating the sector is neither overbought nor oversold, suggesting the day's modest decline did not trigger significant selling pressure. Similarly, the Money Flow Index (MFI) at 52.40, while slightly above neutral, implies that capital flows remain somewhat balanced, preventing a sharper downturn. The On-Balance Volume (OBV) at 429,273,069 reflects cumulative buying and selling pressure over time; in the context of today's mild dip, its current level suggests that overall market participants are not aggressively exiting positions despite the slight price softening.",
+  "market_weight": 0.0136,
+  "change_pct": -1.13,
+  "insights": "The Utilities sector experienced a downturn today, falling by 1.13%. Technical indicators suggest weakening momentum, with the Relative Strength Index (RSI) at 43.39 indicating that sellers had control, though the sector is not yet in deeply oversold territory. Interestingly, the Money Flow Index (MFI) at 53.20, slightly above the neutral 50 mark, suggests that despite the price dip, there wasn't a significant capital exodus, potentially indicating some underlying resilience or a less panicked selling than the price movement alone might imply. However, the On-Balance Volume (OBV) at 409,892,790 would have likely registered a decrease today, reinforcing that the price decline was accompanied by discernible selling volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764288000000,
-        59.54
-      ],
       [
         1764374400000,
         null
@@ -747,13 +743,13 @@
       [
         1779840000000,
         48.33
+      ],
+      [
+        1779926400000,
+        43.39
       ]
     ],
     "mfi": [
-      [
-        1764288000000,
-        58.35
-      ],
       [
         1764374400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779840000000,
         52.4
+      ],
+      [
+        1779926400000,
+        53.2
       ]
     ],
     "obv": [
-      [
-        1764288000000,
-        191139739.0
-      ],
       [
         1764374400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779840000000,
         429273069.0
+      ],
+      [
+        1779926400000,
+        409892790.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     -3.93,
     -1.9,
     3.37,
-    -0.46,
+    -1.59,
     null,
     null,
     null,

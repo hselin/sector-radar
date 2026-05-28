@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies engaged in banking, diversified financial services, insurance, capital markets, and real estate, providing a wide range of monetary and investment services to individuals and institutions.",
-    "marketSizeUSD": "5T",
+    "description": "The Financials sector comprises companies involved in banking, investment services, insurance, consumer finance, and real estate, providing a wide range of monetary and asset management services.",
+    "marketSizeUSD": "35T",
     "constituentCount": 68,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0967,
-  "change_pct": -0.83,
-  "insights": "The Financials sector experienced a modest decline of -0.83% today, signaling a somewhat subdued trading session. Technical indicators suggest a relatively balanced market despite the dip, with the Relative Strength Index (RSI) at 49.31 and Money Flow Index (MFI) at 44.31 both hovering near their neutral midpoints. This indicates that while the sector closed lower, the movement was not driven by extreme momentum or significant capitulation in money flow, but rather a lack of strong conviction from either buyers or sellers. The current On-Balance Volume (OBV) at 205,387,432, in conjunction with the neutral RSI and MFI readings, suggests that today's selling pressure was not accompanied by unusually heavy or panicked volume, consistent with the overall balanced yet slightly negative daily performance.",
+  "market_weight": 0.4316,
+  "change_pct": -0.29,
+  "insights": "The Financials sector experienced a slight decline of -0.29% today, indicating a modest pullback in investor sentiment. Technical indicators support this observed weakness, with the Relative Strength Index (RSI) at 47.60 and the Money Flow Index (MFI) at 43.87. Both metrics, residing below the 50-mark, suggest a cooling of buying momentum and a net outflow of capital, respectively, without signaling oversold conditions. The On-Balance Volume (OBV) stands at 165,135,748; in the context of the day's minor price depreciation and the other indicators, it suggests that the slight selling pressure was not met with substantial volume-backed buying interest.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764288000000,
-        58.13
-      ],
       [
         1764374400000,
         null
@@ -747,13 +743,13 @@
       [
         1779840000000,
         49.31
+      ],
+      [
+        1779926400000,
+        47.6
       ]
     ],
     "mfi": [
-      [
-        1764288000000,
-        65.73
-      ],
       [
         1764374400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779840000000,
         44.31
+      ],
+      [
+        1779926400000,
+        43.87
       ]
     ],
     "obv": [
-      [
-        1764288000000,
-        158862876.0
-      ],
       [
         1764374400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779840000000,
         205387432.0
+      ],
+      [
+        1779926400000,
+        165135748.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     -1.31,
     -0.27,
     1.64,
-    -1.0,
+    -1.29,
     null,
     null,
     null,

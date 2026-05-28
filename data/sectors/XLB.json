@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector includes companies that discover, develop, and process raw materials used in various industries, encompassing chemicals, construction materials, metals, mining, paper, and packaging.",
-    "marketSizeUSD": "1.1T",
+    "description": "The Materials sector encompasses companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, containers and packaging, metals and mining, and paper and forest products.",
+    "marketSizeUSD": "1.6T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co",
+        "name": "Sherwin-Williams Co.",
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc",
-        "symbol": "ECL"
+        "name": "Freeport-McMoRan Inc.",
+        "symbol": "FCX"
       }
     ]
   },
-  "market_weight": 0.0213,
-  "change_pct": 0.37,
-  "insights": "The Materials sector registered a modest gain of 0.37% today. Technically, the RSI at 51.81 indicates neutral-to-slightly positive momentum, suggesting the upward move was not driven by strong buying enthusiasm. Conversely, the MFI at 48.43, just below the neutral 50 mark, points to a slightly cautious money flow, implying that while prices edged higher, the volume-weighted buying interest wasn't exceptionally strong. The cumulative OBV figure of 79,231,349, in conjunction with the positive price action, suggests that buying volume likely outpaced selling volume for the day, contributing to the modest sector increase without signaling a definitive trend shift.",
+  "market_weight": 0.0197,
+  "change_pct": 0.35,
+  "insights": "The Materials sector posted a modest gain of 0.35% today, indicating slight positive momentum. Technical indicators largely suggest a balanced market sentiment: the Relative Strength Index (RSI) at 53.15 positions the sector in neutral territory with a slight lean towards buying interest, avoiding overbought conditions. Concurrently, the Money Flow Index (MFI) at 49.36 indicates money flow was near equilibrium, potentially suggesting the day's positive price movement lacked robust buying conviction. While the On-Balance Volume (OBV) stands at 89,693,773, a positive daily price change would ideally be accompanied by an increase in this cumulative indicator, confirming that buying pressure supported the modest advance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764288000000,
-        60.81
-      ],
       [
         1764374400000,
         null
@@ -747,13 +743,13 @@
       [
         1779840000000,
         51.81
+      ],
+      [
+        1779926400000,
+        53.15
       ]
     ],
     "mfi": [
-      [
-        1764288000000,
-        56.98
-      ],
       [
         1764374400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779840000000,
         48.43
+      ],
+      [
+        1779926400000,
+        49.36
       ]
     ],
     "obv": [
-      [
-        1764288000000,
-        -23167163.0
-      ],
       [
         1764374400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779840000000,
         79231349.0
+      ],
+      [
+        1779926400000,
+        89693773.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     0.47,
     -2.5,
     -0.02,
-    1.77,
+    2.13,
     null,
     null,
     null,

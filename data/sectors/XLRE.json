@@ -1,9 +1,9 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector encompasses companies primarily engaged in the ownership, development, and management of real estate, including Equity Real Estate Investment Trusts (REITs) and real estate management and development firms.",
-    "marketSizeUSD": "1.4T",
-    "constituentCount": 31,
+    "description": "The Real Estate GICS sector includes companies that own, operate, develop, and manage real estate, predominantly through Real Estate Investment Trusts (REITs).",
+    "marketSizeUSD": "1.1T",
+    "constituentCount": 32,
     "topHoldings": [
       {
         "name": "Prologis, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0271,
-  "change_pct": -0.18,
-  "insights": "The Real Estate sector recorded a marginal decline of -0.18% today, indicating a relatively stable but slightly negative daily performance. Despite this slight dip, key technical indicators suggest underlying resilience: the Relative Strength Index (RSI) at 58.94 and the Money Flow Index (MFI) at 57.85 both reside in neutral-to-bullish territory (above 50 but not overbought), suggesting that buying interest and capital inflow remain moderately strong and are not signaling a significant sell-off. The On-Balance Volume (OBV) at 161,050,740 reflects cumulative buying/selling pressure, and while its trend is key, its current level, alongside the RSI and MFI, indicates that the sector's momentum has not significantly deteriorated despite today's fractional price movement.",
+  "market_weight": 0.0136,
+  "change_pct": -0.49,
+  "insights": "The Real Estate sector experienced a minor pullback today, declining by -0.49%. Despite this daily dip, key technical indicators suggest a resilient underlying sentiment. The Relative Strength Index (RSI) at 55.50 indicates neutral to slightly constructive momentum, staying clear of overbought or oversold conditions. Similarly, the Money Flow Index (MFI) at 61.52 reflects moderate money inflow into the sector, suggesting sustained buying interest or accumulation even as prices softened. The On-Balance Volume (OBV) stands at a robust 157,780,444, reflecting significant accumulated volume pressure which, combined with the other metrics, implies that today's minor decline was not indicative of a widespread capital flight or a significant deterioration in demand.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764288000000,
-        56.5
-      ],
       [
         1764374400000,
         null
@@ -747,13 +743,13 @@
       [
         1779840000000,
         58.94
+      ],
+      [
+        1779926400000,
+        55.5
       ]
     ],
     "mfi": [
-      [
-        1764288000000,
-        47.05
-      ],
       [
         1764374400000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779840000000,
         57.85
+      ],
+      [
+        1779926400000,
+        61.52
       ]
     ],
     "obv": [
-      [
-        1764288000000,
-        -14051941.0
-      ],
       [
         1764374400000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779840000000,
         161050740.0
+      ],
+      [
+        1779926400000,
+        157780444.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     0.2,
     -2.66,
     3.08,
-    0.16,
+    -0.34,
     null,
     null,
     null,

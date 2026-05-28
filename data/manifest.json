@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T21:45:09.975970Z",
+  "lastUpdated": "2026-05-28T21:53:02.299405Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States, representing a significant portion of the U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a negligible change today, ending down a mere 0.02%. Despite this flat daily performance, key technical indicators suggest a nuanced picture of underlying sentiment and momentum. The Relative Strength Index (RSI) at 71.12 is firmly in overbought territory, indicating that recent upward price momentum has been very strong and the market may be due for a short-term consolidation or pullback. Complementing this, the Money Flow Index (MFI) at 60.75, while positive and showing continued capital inflow, is less extreme than the RSI, perhaps suggesting a slight moderation in the intensity of buying interest relative to recent price appreciation. Furthermore, the robust On-Balance Volume (OBV) reading implies significant cumulative buying pressure over time, providing underlying support to current price levels. Collectively, these figures point to a market that has enjoyed strong bullish momentum, with positive sentiment, but with a growing technical signal that a period of cooling off or profit-taking could be on the horizon.",
-    "change_pct": -0.02,
+    "commentary": "The broader stock market experienced a modest gain today, closing up 0.55%, driven by sustained buying interest. However, technical indicators present a nuanced picture of market sentiment and momentum. The Relative Strength Index (RSI) at 73.20 signals that the market is in overbought territory, suggesting strong recent upward momentum but also hinting that the market could be due for a consolidation or pullback in the near term. Complementing this, the Money Flow Index (MFI) at 59.77 indicates healthy money inflows, confirming investor conviction, while the large positive On-Balance Volume (OBV) figure suggests that today's price increase was accompanied by significant volume, lending credence to the buying pressure. Collectively, these figures point to robust positive sentiment and strong upward momentum, yet the elevated RSI advises caution, indicating a market that might be stretched.",
+    "change_pct": 0.55,
     "technicalIndicators": {
       "rsi": [
-        [
-          1764288000000,
-          59.07
-        ],
         [
           1764374400000,
           null
@@ -747,13 +743,13 @@
         [
           1779840000000,
           71.12
+        ],
+        [
+          1779926400000,
+          73.2
         ]
       ],
       "mfi": [
-        [
-          1764288000000,
-          44.5
-        ],
         [
           1764374400000,
           null
@@ -1473,13 +1469,13 @@
         [
           1779840000000,
           60.75
+        ],
+        [
+          1779926400000,
+          59.77
         ]
       ],
       "obv": [
-        [
-          1764288000000,
-          1084849173.0
-        ],
         [
           1764374400000,
           null
@@ -2199,6 +2195,10 @@
         [
           1779840000000,
           1092488931.0
+        ],
+        [
+          1779926400000,
+          1127835693.0
         ]
       ]
     },
@@ -2224,7 +2224,7 @@
       2.35,
       0.21,
       0.88,
-      0.65,
+      1.2,
       null,
       null,
       null,
