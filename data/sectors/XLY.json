@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0863,
-  "change_pct": 0.42,
-  "insights": "The Consumer Discretionary sector posted a modest 0.42% gain today, reflecting underlying positive sentiment. The Relative Strength Index (RSI) at 65.07 indicates strong buying momentum, trending towards overbought but not yet in extreme territory. This upward price action is further supported by a healthy Money Flow Index (MFI) of 62.42, signifying active capital inflow into the sector. While the On-Balance Volume (OBV) of 10191928 reflects accumulated buying interest, the combined picture from RSI and MFI confirms current bullish momentum and sustained investor attention, suggesting the sector has genuine strength worth monitoring.",
+  "change_pct": -0.97,
+  "insights": "The Consumer Discretionary sector experienced a slight pullback today, declining by -0.97%. Despite this daily dip, key technical indicators suggest a nuanced picture. The Relative Strength Index (RSI) at 59.62 and Money Flow Index (MFI) at 56.39 both sit comfortably above the neutral 50-mark, indicating that while there was a mild sell-off today, the sector is not yet oversold and still exhibits underlying positive momentum and money flow from previous periods. The On-Balance Volume (OBV) at 4109442, a cumulative indicator of buying and selling pressure, suggests that overall buying interest remains substantial despite today's modest price decline, implying the dip could be a temporary consolidation rather than a strong reversal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764374400000,
-        null
-      ],
       [
         1764460800000,
         null
@@ -747,13 +743,13 @@
       [
         1779926400000,
         65.07
+      ],
+      [
+        1780012800000,
+        59.62
       ]
     ],
     "mfi": [
-      [
-        1764374400000,
-        null
-      ],
       [
         1764460800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779926400000,
         62.42
+      ],
+      [
+        1780012800000,
+        56.39
       ]
     ],
     "obv": [
-      [
-        1764374400000,
-        null
-      ],
       [
         1764460800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779926400000,
         10191928.0
+      ],
+      [
+        1780012800000,
+        4109442.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     1.32,
     -3.05,
     2.27,
-    2.42,
+    1.42,
     null,
     null,
     null,

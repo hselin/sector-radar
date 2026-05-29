@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector comprises companies that develop, manufacture, and distribute health care products and services, including pharmaceuticals, biotechnology, medical devices, health care providers, and related services.",
-    "marketSizeUSD": "6.5T",
-    "constituentCount": 66,
+    "description": "The Health Care sector encompasses companies involved in medical products and services, including pharmaceuticals, biotechnology, medical devices, healthcare equipment, and healthcare providers.",
+    "marketSizeUSD": "5.5T",
+    "constituentCount": 64,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0801,
-  "change_pct": 1.4,
-  "insights": "The Health Care sector showed strong performance today with a 1.40% gain, reflecting significant positive momentum. The Relative Strength Index (RSI) at 63.21 indicates building buying pressure, while the Money Flow Index (MFI) at 69.41 reinforces this with substantial money flowing into the sector, suggesting investor conviction behind the daily rally. However, the On-Balance Volume (OBV) at -53,802,686, a cumulative measure, suggests that despite today's strength, the broader volume trend has been more skewed towards distribution over time, indicating that sustained, broad-based buying support may still be a developing factor for the sector.",
+  "market_weight": 0.0678,
+  "change_pct": -0.93,
+  "insights": "The Health Care sector experienced a modest decline of -0.93% today. While the Relative Strength Index (RSI) at 57.56 and Money Flow Index (MFI) at 67.11 suggest underlying momentum and money flow remain relatively stable and not yet in oversold territory, the significant negative On-Balance Volume (OBV) of -66,990,846 clearly indicates that today's downward move was accompanied by substantial selling pressure on volume. This suggests that while broader momentum isn't severely broken, today's pullback was driven by genuine selling interest rather than just light profit-taking.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764374400000,
-        null
-      ],
       [
         1764460800000,
         null
@@ -747,13 +743,13 @@
       [
         1779926400000,
         63.21
+      ],
+      [
+        1780012800000,
+        57.56
       ]
     ],
     "mfi": [
-      [
-        1764374400000,
-        null
-      ],
       [
         1764460800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779926400000,
         69.41
+      ],
+      [
+        1780012800000,
+        67.11
       ]
     ],
     "obv": [
-      [
-        1764374400000,
-        null
-      ],
       [
         1764460800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779926400000,
         -53802686.0
+      ],
+      [
+        1780012800000,
+        -66990846.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     -1.15,
     1.12,
     3.3,
-    0.66,
+    -0.28,
     null,
     null,
     null,

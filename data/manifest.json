@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-28T21:53:02.299405Z",
+  "lastUpdated": "2026-05-29T21:46:26.216750Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States, representing a significant portion of the U.S. equity market.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader stock market experienced a modest gain today, closing up 0.55%, driven by sustained buying interest. However, technical indicators present a nuanced picture of market sentiment and momentum. The Relative Strength Index (RSI) at 73.20 signals that the market is in overbought territory, suggesting strong recent upward momentum but also hinting that the market could be due for a consolidation or pullback in the near term. Complementing this, the Money Flow Index (MFI) at 59.77 indicates healthy money inflows, confirming investor conviction, while the large positive On-Balance Volume (OBV) figure suggests that today's price increase was accompanied by significant volume, lending credence to the buying pressure. Collectively, these figures point to robust positive sentiment and strong upward momentum, yet the elevated RSI advises caution, indicating a market that might be stretched.",
-    "change_pct": 0.55,
+    "commentary": "The overall stock market posted a modest gain of 0.25% today, with key technical indicators revealing nuanced market sentiment and momentum. The Relative Strength Index (RSI) at 74.12 is deep into overbought territory, suggesting strong recent upward momentum but also potentially indicating that the market is due for a consolidation or pullback in the near term. Complementing this, the Money Flow Index (MFI) at 60.40 indicates healthy buying pressure, as capital continues to flow into the market, supporting the positive price action. While the On-Balance Volume (OBV) stands at a high 1,182,189,887, reflecting sustained accumulation over time, the combined picture suggests an optimistic market with robust buying momentum, yet the elevated RSI signals that this bullish sentiment may be becoming extended, warranting cautious monitoring for potential shifts.",
+    "change_pct": 0.25,
     "technicalIndicators": {
       "rsi": [
-        [
-          1764374400000,
-          null
-        ],
         [
           1764460800000,
           null
@@ -747,13 +743,13 @@
         [
           1779926400000,
           73.2
+        ],
+        [
+          1780012800000,
+          74.12
         ]
       ],
       "mfi": [
-        [
-          1764374400000,
-          null
-        ],
         [
           1764460800000,
           null
@@ -1473,13 +1469,13 @@
         [
           1779926400000,
           59.77
+        ],
+        [
+          1780012800000,
+          60.4
         ]
       ],
       "obv": [
-        [
-          1764374400000,
-          null
-        ],
         [
           1764460800000,
           null
@@ -2199,6 +2195,10 @@
         [
           1779926400000,
           1127835693.0
+        ],
+        [
+          1780012800000,
+          1182189887.0
         ]
       ]
     },
@@ -2224,7 +2224,7 @@
       2.35,
       0.21,
       0.88,
-      1.2,
+      1.45,
       null,
       null,
       null,

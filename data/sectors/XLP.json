@@ -1,17 +1,17 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and sell essential products and services that consumers are unlikely to cut back on, even during economic downturns, such as food, beverages, household goods, and personal care items.",
-    "marketSizeUSD": "2.8T",
-    "constituentCount": 37,
+    "description": "The Consumer Staples sector comprises companies that produce and sell essential goods and services, such as food, beverages, tobacco, household products, and personal care products, which are generally non-cyclical.",
+    "marketSizeUSD": "3.8T",
+    "constituentCount": 33,
     "topHoldings": [
       {
-        "name": "Walmart Inc.",
-        "symbol": "WMT"
+        "name": "Procter & Gamble Co.",
+        "symbol": "PG"
       },
       {
-        "name": "The Procter & Gamble Company",
-        "symbol": "PG"
+        "name": "PepsiCo, Inc.",
+        "symbol": "PEP"
       },
       {
         "name": "The Coca-Cola Company",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0345,
-  "change_pct": -0.18,
-  "insights": "The Consumer Staples sector experienced a marginal decline of -0.18% today, indicating a largely stable yet slightly negative trading session. Technical indicators present a mixed picture: the Relative Strength Index (RSI) at 51.69 suggests neutral momentum, with the sector neither overbought nor oversold. Conversely, the Money Flow Index (MFI) at 60.78 points to moderate capital inflow, indicating underlying buying interest despite the slight price dip. The On-Balance Volume (OBV) stands at 102,748,507, a cumulative measure reflecting overall volume-based pressure; however, without its daily change, it primarily signals ongoing market participation rather than a strong immediate directional impetus for today's modest movement.",
+  "market_weight": 0.0469,
+  "change_pct": -1.8,
+  "insights": "The Consumer Staples sector experienced a notable decline today, falling -1.80%, indicating a shift away from defensive assets. The Relative Strength Index (RSI) at 43.07 suggests weakening momentum, moving further from overbought territory but not yet signaling oversold conditions. Concurrently, the Money Flow Index (MFI) at 53.10, while still slightly above the neutral 50-level, indicates relatively balanced money flow despite the price drop, potentially hinting at some underlying buying interest on weakness or a lack of overwhelming selling pressure. The On-Balance Volume (OBV) at 89,795,561 reflects the cumulative volume activity, but without a prior day's value, it primarily confirms active trading rather than providing a direct directional signal for today's specific movement in the context of the price decline.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764374400000,
-        null
-      ],
       [
         1764460800000,
         null
@@ -747,13 +743,13 @@
       [
         1779926400000,
         51.69
+      ],
+      [
+        1780012800000,
+        43.07
       ]
     ],
     "mfi": [
-      [
-        1764374400000,
-        null
-      ],
       [
         1764460800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1779926400000,
         60.78
+      ],
+      [
+        1780012800000,
+        53.1
       ]
     ],
     "obv": [
-      [
-        1764374400000,
-        null
-      ],
       [
         1764460800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1779926400000,
         102748507.0
+      ],
+      [
+        1780012800000,
+        89795561.0
       ]
     ]
   },
@@ -2224,7 +2224,7 @@
     0.01,
     0.55,
     0.19,
-    -0.44,
+    -2.23,
     null,
     null,
     null,
