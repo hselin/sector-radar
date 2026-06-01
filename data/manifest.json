@@ -1,23 +1,29 @@
 {
-  "lastUpdated": "2026-05-31T21:27:04.337271Z",
+  "lastUpdated": "2026-06-01T22:14:00.658125Z",
   "overallMarket": {
-    "profile": null,
-    "commentary": "The overall stock market posted a modest gain of 0.25% today. Despite the small price increase, key technical indicators suggest robust, potentially exuberant, bullish sentiment and momentum. The Relative Strength Index (RSI) at 74.12 places the market firmly in overbought territory, signaling strong buying pressure and elevated investor confidence, though this also hints at a potential for a near-term consolidation or pullback. This bullishness is further supported by the Money Flow Index (MFI) at 60.40, indicating healthy capital inflow, and a high On-Balance Volume (OBV) reading, confirming sustained accumulation. These combined signals suggest that while today's gains were slight, underlying demand and positive market conviction remain exceptionally strong.",
-    "change_pct": 0.25,
+    "profile": {
+      "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "48T",
+      "constituentCount": 500,
+      "topHoldings": [
+        {
+          "name": "Microsoft Corporation",
+          "symbol": "MSFT"
+        },
+        {
+          "name": "Apple Inc.",
+          "symbol": "AAPL"
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "symbol": "NVDA"
+        }
+      ]
+    },
+    "commentary": "The overall stock market posted a modest gain of 0.27% today, reflecting a slightly positive trading session. However, key technical indicators suggest caution: the Relative Strength Index (RSI) at 75.12 places the market firmly in overbought territory, signaling that the recent upward momentum may be stretched and a short-term pullback or consolidation could be imminent. While the Money Flow Index (MFI) at 60.19 and a significant On-Balance Volume (OBV) indicate that positive money flow and buying interest are present, supporting the day's advance, the elevated RSI suggests a market driven by strong, potentially exuberant, bullish sentiment that bears close watching for signs of exhaustion.",
+    "change_pct": 0.27,
     "technicalIndicators": {
       "rsi": [
-        [
-          1764460800000,
-          null
-        ],
-        [
-          1764547200000,
-          56.4
-        ],
-        [
-          1764633600000,
-          57.18
-        ],
         [
           1764720000000,
           58.82
@@ -729,21 +735,21 @@
         [
           1780012800000,
           74.12
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1764460800000,
+          1780099200000,
           null
         ],
         [
-          1764547200000,
-          38.67
+          1780185600000,
+          null
         ],
         [
-          1764633600000,
-          38.94
-        ],
+          1780272000000,
+          75.12
+        ]
+      ],
+      "mfi": [
         [
           1764720000000,
           38.78
@@ -1455,21 +1461,21 @@
         [
           1780012800000,
           60.4
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1764460800000,
+          1780099200000,
           null
         ],
         [
-          1764547200000,
-          1030152606.0
+          1780185600000,
+          null
         ],
         [
-          1764633600000,
-          1086445917.0
-        ],
+          1780272000000,
+          60.19
+        ]
+      ],
+      "obv": [
         [
           1764720000000,
           1138308466.0
@@ -2181,6 +2187,18 @@
         [
           1780012800000,
           1182189887.0
+        ],
+        [
+          1780099200000,
+          null
+        ],
+        [
+          1780185600000,
+          null
+        ],
+        [
+          1780272000000,
+          1220629063.0
         ]
       ]
     },
@@ -2207,7 +2225,7 @@
       0.21,
       0.88,
       1.45,
-      null,
+      0.27,
       null,
       null,
       null,

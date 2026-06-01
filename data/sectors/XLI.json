@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.0518,
-  "change_pct": -0.39,
-  "insights": "The Industrials sector experienced a modest decline today, shedding -0.39%. Technical indicators suggest this movement was largely contained and lacked strong conviction. Both the RSI (52.47) and MFI (50.23) are hovering near their respective midpoints, indicating neutral short-term momentum and balanced money flow without strong buying or selling pressure driving today's slight pullback. The high On-Balance Volume (OBV) at 147,962,215 generally reflects historical accumulation, suggesting that today's minor price dip was not accompanied by significant widespread capitulation or a strong shift in the broader trend of buying interest.",
+  "change_pct": -0.42,
+  "insights": "The Industrials sector posted a modest decline of -0.42% today, indicating slight selling pressure. Technical indicators present a nuanced view: the Relative Strength Index (RSI) at 50.49 suggests a largely neutral momentum, with the sector neither overbought nor oversold, implying today's dip isn't part of an extreme trend. However, the Money Flow Index (MFI) at 44.00 confirms a net outflow of cash from the sector, aligning with today's negative price action. The On-Balance Volume (OBV) of 140,678,495, while tracking cumulative volume-backed price movements, needs historical context for definitive trend analysis; however, a daily decline would typically correlate with a decrease in OBV if selling volume was significant. Overall, today's minor pullback appears driven by net money outflow rather than an aggressive shift in underlying momentum.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764460800000,
-        null
-      ],
-      [
-        1764547200000,
-        47.59
-      ],
-      [
-        1764633600000,
-        51.69
-      ],
       [
         1764720000000,
         56.1
@@ -747,21 +735,21 @@
       [
         1780012800000,
         52.47
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1764460800000,
+        1780099200000,
         null
       ],
       [
-        1764547200000,
-        36.22
+        1780185600000,
+        null
       ],
       [
-        1764633600000,
-        36.53
-      ],
+        1780272000000,
+        50.49
+      ]
+    ],
+    "mfi": [
       [
         1764720000000,
         36.27
@@ -1473,21 +1461,21 @@
       [
         1780012800000,
         50.23
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1764460800000,
+        1780099200000,
         null
       ],
       [
-        1764547200000,
-        53853761.0
+        1780185600000,
+        null
       ],
       [
-        1764633600000,
-        63438574.0
-      ],
+        1780272000000,
+        44.0
+      ]
+    ],
+    "obv": [
       [
         1764720000000,
         72265130.0
@@ -2199,6 +2187,18 @@
       [
         1780012800000,
         147962215.0
+      ],
+      [
+        1780099200000,
+        null
+      ],
+      [
+        1780185600000,
+        null
+      ],
+      [
+        1780272000000,
+        140678495.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     -1.04,
     0.22,
     0.79,
-    null,
+    -0.42,
     null,
     null,
     null,

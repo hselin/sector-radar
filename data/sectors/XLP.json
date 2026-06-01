@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.0469,
-  "change_pct": -1.8,
-  "insights": "The Consumer Staples sector experienced a notable decline today, falling -1.80%, indicating a shift away from defensive assets. The Relative Strength Index (RSI) at 43.07 suggests weakening momentum, moving further from overbought territory but not yet signaling oversold conditions. Concurrently, the Money Flow Index (MFI) at 53.10, while still slightly above the neutral 50-level, indicates relatively balanced money flow despite the price drop, potentially hinting at some underlying buying interest on weakness or a lack of overwhelming selling pressure. The On-Balance Volume (OBV) at 89,795,561 reflects the cumulative volume activity, but without a prior day's value, it primarily confirms active trading rather than providing a direct directional signal for today's specific movement in the context of the price decline.",
+  "change_pct": -1.06,
+  "insights": "The Consumer Staples sector experienced a notable decline of -1.06% today, indicating a broad-based selling pressure within this typically defensive segment. Technical indicators largely confirm this bearish sentiment: the Relative Strength Index (RSI) at 39.01 is trending lower and approaching oversold territory, signaling weakening momentum and increased selling interest. The Money Flow Index (MFI) at 50.33 suggests money flow is relatively neutral to slightly negative, not yet indicating strong capitulation but also not showing significant buying support despite the price drop. Finally, the On-Balance Volume (OBV) of 69,860,800, without historical context, generally confirms the downward price action, implying selling volume outweighed buying volume for the day. Overall, the sector demonstrated clear weakness, with momentum indicators reflecting a prevailing bearish tone.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764460800000,
-        null
-      ],
-      [
-        1764547200000,
-        60.96
-      ],
-      [
-        1764633600000,
-        56.68
-      ],
       [
         1764720000000,
         57.06
@@ -747,21 +735,21 @@
       [
         1780012800000,
         43.07
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1764460800000,
+        1780099200000,
         null
       ],
       [
-        1764547200000,
-        66.94
+        1780185600000,
+        null
       ],
       [
-        1764633600000,
-        57.66
-      ],
+        1780272000000,
+        39.01
+      ]
+    ],
+    "mfi": [
       [
         1764720000000,
         58.5
@@ -1473,21 +1461,21 @@
       [
         1780012800000,
         53.1
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1764460800000,
+        1780099200000,
         null
       ],
       [
-        1764547200000,
-        9884124.0
+        1780185600000,
+        null
       ],
       [
-        1764633600000,
-        -10142735.0
-      ],
+        1780272000000,
+        50.33
+      ]
+    ],
+    "obv": [
       [
         1764720000000,
         4396138.0
@@ -2199,6 +2187,18 @@
       [
         1780012800000,
         89795561.0
+      ],
+      [
+        1780099200000,
+        null
+      ],
+      [
+        1780185600000,
+        null
+      ],
+      [
+        1780272000000,
+        69860800.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     0.55,
     0.19,
     -2.23,
-    null,
+    -1.06,
     null,
     null,
     null,
