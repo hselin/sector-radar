@@ -1,8 +1,8 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises companies that primarily develop software, provide IT services, or manufacture technology hardware and equipment.",
-    "marketSizeUSD": "15T",
+    "description": "The Information Technology sector includes companies involved in software, IT services, semiconductors, technology hardware, and equipment.",
+    "marketSizeUSD": "15.8T",
     "constituentCount": 67,
     "topHoldings": [
       {
@@ -10,24 +10,20 @@
         "symbol": "AAPL"
       },
       {
-        "name": "Microsoft Corporation",
+        "name": "Microsoft Corp.",
         "symbol": "MSFT"
       },
       {
-        "name": "NVIDIA Corporation",
+        "name": "NVIDIA Corp.",
         "symbol": "NVDA"
       }
     ]
   },
-  "market_weight": 0.185,
-  "change_pct": 2.48,
-  "insights": "The Information Technology sector demonstrated robust performance today, gaining a significant 2.48%. This strong daily surge has pushed its Relative Strength Index (RSI) to 82.33, indicating the sector is currently in overbought territory, suggesting that while momentum is exceptionally strong, it may be due for a period of consolidation or a slight pullback. While the Money Flow Index (MFI) at 60.20 suggests continued positive money flow into the sector, reinforcing buying interest, the On-Balance Volume (OBV) of 509,498,260 further confirms that this substantial price appreciation was backed by significant buying pressure and accumulation. Overall, the sector exhibits strong bullish momentum, but with technical signs pointing to a potentially stretched rally in the very short term.",
+  "market_weight": 0.1929,
+  "change_pct": 1.25,
+  "insights": "The Information Technology sector demonstrated robust performance today, climbing 1.25%. This strong daily appreciation is supported by a healthy Money Flow Index (MFI) of 67.57, indicating significant capital inflow, and a substantial On-Balance Volume (OBV) of 519,383,916, confirming the uptrend was backed by strong buying volume. However, the Relative Strength Index (RSI) at 83.53 places the sector firmly in overbought territory, suggesting that while momentum is currently strong, the likelihood of a near-term consolidation or pullback has increased as the sector may be stretching its immediate upside.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764720000000,
-        54.94
-      ],
       [
         1764806400000,
         56.24
@@ -747,13 +743,13 @@
       [
         1780272000000,
         82.33
+      ],
+      [
+        1780358400000,
+        83.53
       ]
     ],
     "mfi": [
-      [
-        1764720000000,
-        27.68
-      ],
       [
         1764806400000,
         31.63
@@ -1473,13 +1469,13 @@
       [
         1780272000000,
         60.2
+      ],
+      [
+        1780358400000,
+        67.57
       ]
     ],
     "obv": [
-      [
-        1764720000000,
-        258452138.0
-      ],
       [
         1764806400000,
         262799028.0
@@ -2199,6 +2195,10 @@
       [
         1780272000000,
         509498260.0
+      ],
+      [
+        1780358400000,
+        519383916.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     0.42,
     2.34,
     5.89,
-    2.48,
+    3.76,
     null,
     null,
     null,

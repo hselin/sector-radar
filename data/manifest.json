@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T22:14:00.658125Z",
+  "lastUpdated": "2026-06-02T22:07:01.551759Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market posted a modest gain of 0.27% today, reflecting a slightly positive trading session. However, key technical indicators suggest caution: the Relative Strength Index (RSI) at 75.12 places the market firmly in overbought territory, signaling that the recent upward momentum may be stretched and a short-term pullback or consolidation could be imminent. While the Money Flow Index (MFI) at 60.19 and a significant On-Balance Volume (OBV) indicate that positive money flow and buying interest are present, supporting the day's advance, the elevated RSI suggests a market driven by strong, potentially exuberant, bullish sentiment that bears close watching for signs of exhaustion.",
-    "change_pct": 0.27,
+    "commentary": "The overall stock market experienced a modest gain today, closing up 0.14%, reflecting a generally positive but subdued session. Key technical indicators, however, paint a picture of strong underlying momentum. The Relative Strength Index (RSI) at 75.62 places the market firmly in overbought territory, suggesting persistent buying pressure and robust bullish sentiment, but also raising a flag for potential short-term profit-taking or consolidation. This strong buying interest is corroborated by the Money Flow Index (MFI) at 67.35, indicating healthy capital inflows into the market. Concurrently, the On-Balance Volume (OBV), which would have increased with today's positive close, further confirms that buying volume continues to outpace selling volume, validating the upward price movement. In summary, market sentiment remains decidedly bullish with significant momentum, though the elevated RSI advises caution regarding the market's currently overextended state.",
+    "change_pct": 0.14,
     "technicalIndicators": {
       "rsi": [
-        [
-          1764720000000,
-          58.82
-        ],
         [
           1764806400000,
           59.24
@@ -747,13 +743,13 @@
         [
           1780272000000,
           75.12
+        ],
+        [
+          1780358400000,
+          75.62
         ]
       ],
       "mfi": [
-        [
-          1764720000000,
-          38.78
-        ],
         [
           1764806400000,
           45.15
@@ -1473,13 +1469,13 @@
         [
           1780272000000,
           60.19
+        ],
+        [
+          1780358400000,
+          67.35
         ]
       ],
       "obv": [
-        [
-          1764720000000,
-          1138308466.0
-        ],
         [
           1764806400000,
           1195477440.0
@@ -2199,6 +2195,10 @@
         [
           1780272000000,
           1220629063.0
+        ],
+        [
+          1780358400000,
+          1247580332.0
         ]
       ]
     },
@@ -2225,7 +2225,7 @@
       0.21,
       0.88,
       1.45,
-      0.27,
+      0.41,
       null,
       null,
       null,

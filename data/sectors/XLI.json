@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0518,
-  "change_pct": -0.42,
-  "insights": "The Industrials sector posted a modest decline of -0.42% today, indicating slight selling pressure. Technical indicators present a nuanced view: the Relative Strength Index (RSI) at 50.49 suggests a largely neutral momentum, with the sector neither overbought nor oversold, implying today's dip isn't part of an extreme trend. However, the Money Flow Index (MFI) at 44.00 confirms a net outflow of cash from the sector, aligning with today's negative price action. The On-Balance Volume (OBV) of 140,678,495, while tracking cumulative volume-backed price movements, needs historical context for definitive trend analysis; however, a daily decline would typically correlate with a decrease in OBV if selling volume was significant. Overall, today's minor pullback appears driven by net money outflow rather than an aggressive shift in underlying momentum.",
+  "market_weight": 0.0513,
+  "change_pct": 1.04,
+  "insights": "The Industrials sector displayed a solid performance today, rising 1.04%. Key technical indicators suggest this positive movement is part of a healthy trend without immediate signs of being overextended. The Relative Strength Index (RSI) at 54.97 and the Money Flow Index (MFI) at 51.50 are both in neutral territory, indicating the sector is neither overbought nor oversold, thus allowing for potential continued upside or consolidation. The On-Balance Volume (OBV) at 149,272,340, in conjunction with the price increase, typically confirms that buying volume is supporting the upward price momentum.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764720000000,
-        56.1
-      ],
       [
         1764806400000,
         58.29
@@ -747,13 +743,13 @@
       [
         1780272000000,
         50.49
+      ],
+      [
+        1780358400000,
+        54.97
       ]
     ],
     "mfi": [
-      [
-        1764720000000,
-        36.27
-      ],
       [
         1764806400000,
         42.47
@@ -1473,13 +1469,13 @@
       [
         1780272000000,
         44.0
+      ],
+      [
+        1780358400000,
+        51.5
       ]
     ],
     "obv": [
-      [
-        1764720000000,
-        72265130.0
-      ],
       [
         1764806400000,
         80954448.0
@@ -2199,6 +2195,10 @@
       [
         1780272000000,
         140678495.0
+      ],
+      [
+        1780358400000,
+        149272340.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     -1.04,
     0.22,
     0.79,
-    -0.42,
+    0.61,
     null,
     null,
     null,
