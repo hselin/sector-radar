@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T22:07:01.551759Z",
+  "lastUpdated": "2026-06-03T22:07:46.061033Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a modest gain today, closing up 0.14%, reflecting a generally positive but subdued session. Key technical indicators, however, paint a picture of strong underlying momentum. The Relative Strength Index (RSI) at 75.62 places the market firmly in overbought territory, suggesting persistent buying pressure and robust bullish sentiment, but also raising a flag for potential short-term profit-taking or consolidation. This strong buying interest is corroborated by the Money Flow Index (MFI) at 67.35, indicating healthy capital inflows into the market. Concurrently, the On-Balance Volume (OBV), which would have increased with today's positive close, further confirms that buying volume continues to outpace selling volume, validating the upward price movement. In summary, market sentiment remains decidedly bullish with significant momentum, though the elevated RSI advises caution regarding the market's currently overextended state.",
-    "change_pct": 0.14,
+    "commentary": "The stock market experienced a modest decline today, closing down -0.70%, signaling a minor pause in recent activity. Despite this daily dip, key technical indicators suggest underlying market strength and persistent bullish sentiment. The Relative Strength Index (RSI) at 67.91, nearing the overbought threshold, indicates that recent upward momentum has been significant, implying a potentially healthy consolidation after strong gains. Similarly, the Money Flow Index (MFI) at 60.32 suggests that capital continues to flow into the market, supporting current price levels rather than retreating significantly. The substantial On-Balance Volume (OBV) reading of 1,203,859,098 further reinforces a pattern of underlying accumulation. Collectively, these figures suggest that while the market saw a slight pullback, the prevailing sentiment remains largely positive, with momentum still tilted towards the upside, potentially indicating a healthy breather within a broader uptrend rather than a significant shift in direction.",
+    "change_pct": -0.7,
     "technicalIndicators": {
       "rsi": [
-        [
-          1764806400000,
-          59.24
-        ],
         [
           1764892800000,
           60.11
@@ -747,13 +743,13 @@
         [
           1780358400000,
           75.62
+        ],
+        [
+          1780444800000,
+          67.91
         ]
       ],
       "mfi": [
-        [
-          1764806400000,
-          45.15
-        ],
         [
           1764892800000,
           51.95
@@ -1473,13 +1469,13 @@
         [
           1780358400000,
           67.35
+        ],
+        [
+          1780444800000,
+          60.32
         ]
       ],
       "obv": [
-        [
-          1764806400000,
-          1195477440.0
-        ],
         [
           1764892800000,
           1251244267.0
@@ -2199,6 +2195,10 @@
         [
           1780358400000,
           1247580332.0
+        ],
+        [
+          1780444800000,
+          1203859098.0
         ]
       ]
     },
@@ -2225,7 +2225,7 @@
       0.21,
       0.88,
       1.45,
-      0.41,
+      -0.3,
       null,
       null,
       null,

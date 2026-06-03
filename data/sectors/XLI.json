@@ -1,9 +1,9 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing industrial and commercial services, and offering various transportation services, including aerospace, defense, construction, machinery, and logistics.",
-    "marketSizeUSD": "4.2T",
-    "constituentCount": 74,
+    "description": "The Industrials sector comprises companies involved in manufacturing capital goods, providing commercial services, and offering transportation services, including aerospace & defense, construction, machinery, logistics, and professional services.",
+    "marketSizeUSD": "4.3T",
+    "constituentCount": 75,
     "topHoldings": [
       {
         "name": "GE Aerospace",
@@ -14,20 +14,16 @@
         "symbol": "CAT"
       },
       {
-        "name": "Union Pacific Corporation",
-        "symbol": "UNP"
+        "name": "Honeywell International Inc.",
+        "symbol": "HON"
       }
     ]
   },
-  "market_weight": 0.0513,
-  "change_pct": 1.04,
-  "insights": "The Industrials sector displayed a solid performance today, rising 1.04%. Key technical indicators suggest this positive movement is part of a healthy trend without immediate signs of being overextended. The Relative Strength Index (RSI) at 54.97 and the Money Flow Index (MFI) at 51.50 are both in neutral territory, indicating the sector is neither overbought nor oversold, thus allowing for potential continued upside or consolidation. The On-Balance Volume (OBV) at 149,272,340, in conjunction with the price increase, typically confirms that buying volume is supporting the upward price momentum.",
+  "market_weight": 0.0524,
+  "change_pct": -0.08,
+  "insights": "The Industrials sector experienced a marginal decline of -0.08% today, signaling a largely flat trading session without strong directional conviction. Technical indicators corroborate this lack of significant movement: the Relative Strength Index (RSI) at 54.56 and Money Flow Index (MFI) at 57.53 both reside in neutral territory, suggesting balanced buying and selling pressure and money flow, without signaling overbought or oversold conditions. The stable On-Balance Volume (OBV) of 142,441,306, in conjunction with the minimal price change, further reinforces a day of consolidation rather than a decisive trend formation for the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764806400000,
-        58.29
-      ],
       [
         1764892800000,
         56.59
@@ -747,13 +743,13 @@
       [
         1780358400000,
         54.97
+      ],
+      [
+        1780444800000,
+        54.56
       ]
     ],
     "mfi": [
-      [
-        1764806400000,
-        42.47
-      ],
       [
         1764892800000,
         43.74
@@ -1473,13 +1469,13 @@
       [
         1780358400000,
         51.5
+      ],
+      [
+        1780444800000,
+        57.53
       ]
     ],
     "obv": [
-      [
-        1764806400000,
-        80954448.0
-      ],
       [
         1764892800000,
         73007904.0
@@ -2199,6 +2195,10 @@
       [
         1780358400000,
         149272340.0
+      ],
+      [
+        1780444800000,
+        142441306.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     -1.04,
     0.22,
     0.79,
-    0.61,
+    0.53,
     null,
     null,
     null,
