@@ -1,37 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose demand is sensitive to the business cycle and consumer income.",
-    "marketSizeUSD": "7.0T",
-    "constituentCount": 54,
+    "description": "The Consumer Discretionary sector encompasses companies that sell non-essential goods and services, which consumers typically purchase when they have disposable income.",
+    "marketSizeUSD": "6.9T",
+    "constituentCount": 58,
     "topHoldings": [
       {
         "name": "Amazon.com Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc.",
+        "name": "Tesla, Inc.",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot Inc.",
+        "name": "The Home Depot, Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.0854,
-  "change_pct": -0.73,
-  "insights": "The Consumer Discretionary sector experienced a modest decline today, shedding -0.73%. Examining key technical indicators provides context: the RSI at 44.89 suggests weakening momentum leaning bearish but not yet oversold, while the MFI at 48.33 indicates a slight net outflow of funds from the sector. Furthermore, the negative OBV figure corroborates that this downward price movement was supported by notable selling volume. Collectively, these indicators point to underlying bearish pressure and a prevalence of sellers during today's trading session, despite the relatively moderate price drop.",
+  "market_weight": 0.1386,
+  "change_pct": -2.05,
+  "insights": "The Consumer Discretionary sector experienced a notable downturn today, falling by 2.05%. This decline is reinforced by key technical indicators: the Relative Strength Index (RSI) at 39.82 and Money Flow Index (MFI) at 49.09 both signal weakening momentum and a slight outflow of capital, though neither is yet in extreme oversold territory. Crucially, the significantly negative On-Balance Volume (OBV) of -23,209,701 strongly corroborates the price drop, indicating substantial selling pressure drove today's movement rather than merely a lack of buying interest.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764892800000,
-        11.16
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -747,17 +739,17 @@
       [
         1780444800000,
         44.89
+      ],
+      [
+        1780531200000,
+        46.9
+      ],
+      [
+        1780617600000,
+        39.82
       ]
     ],
     "mfi": [
-      [
-        1764892800000,
-        38.93
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -1473,17 +1465,17 @@
       [
         1780444800000,
         48.33
+      ],
+      [
+        1780531200000,
+        47.87
+      ],
+      [
+        1780617600000,
+        49.09
       ]
     ],
     "obv": [
-      [
-        1764892800000,
-        13321360.0
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -2199,6 +2191,14 @@
       [
         1780444800000,
         -20469086.0
+      ],
+      [
+        1780531200000,
+        -15510466.0
+      ],
+      [
+        1780617600000,
+        -23209701.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     -3.05,
     2.27,
     1.42,
-    -3.43,
+    -4.97,
     null,
     null,
     null,

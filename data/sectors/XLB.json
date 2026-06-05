@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, containers and packaging, metals and mining, and paper and forest products.",
-    "marketSizeUSD": "1.6T",
+    "description": "The Materials sector comprises companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, paper, and forest products.",
+    "marketSizeUSD": "1.5T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,28 +10,20 @@
         "symbol": "LIN"
       },
       {
-        "name": "Sherwin-Williams Co.",
+        "name": "The Sherwin-Williams Company",
         "symbol": "SHW"
       },
       {
-        "name": "Freeport-McMoRan Inc.",
-        "symbol": "FCX"
+        "name": "Ecolab Inc.",
+        "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0195,
-  "change_pct": 0.21,
-  "insights": "The Materials sector posted a modest 0.21% gain today, indicating a slight positive momentum rather than a strong directional move. Technical indicators support this neutral to slightly bullish stance, with both the RSI at 55.17 and MFI at 54.90 remaining comfortably within their mid-ranges, suggesting balanced price action and moderate money flow without approaching overbought conditions. The significant positive On-Balance Volume (OBV) of 86,452,006 further suggests sustained underlying buying pressure and accumulation, providing a volume-backed foundation for the day's marginal advance.",
+  "market_weight": 0.0301,
+  "change_pct": -1.92,
+  "insights": "The Materials sector experienced a notable downturn today, falling -1.92%, signaling clear bearish momentum as reflected by an RSI of 46.02, which is below the neutral 50-mark but not yet in oversold territory. Interestingly, the Money Flow Index (MFI) at 60.40 suggests that despite the price decline, there was still some capital inflow or underlying buying interest in the sector. The substantial On-Balance Volume (OBV) of 64,778,181, when viewed alongside the MFI, indicates that while profit-taking or selling pressure dominated the day's movement, there might be underlying accumulation or significant trading activity that could provide some support.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764892800000,
-        9.51
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -747,17 +739,17 @@
       [
         1780444800000,
         55.17
+      ],
+      [
+        1780531200000,
+        55.07
+      ],
+      [
+        1780617600000,
+        46.02
       ]
     ],
     "mfi": [
-      [
-        1764892800000,
-        53.84
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -1473,17 +1465,17 @@
       [
         1780444800000,
         54.9
+      ],
+      [
+        1780531200000,
+        60.84
+      ],
+      [
+        1780617600000,
+        60.4
       ]
     ],
     "obv": [
-      [
-        1764892800000,
-        -41629746.0
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -2199,6 +2191,14 @@
       [
         1780444800000,
         86452006.0
+      ],
+      [
+        1780531200000,
+        77145620.0
+      ],
+      [
+        1780617600000,
+        64778181.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     -2.5,
     -0.02,
     1.71,
-    0.94,
+    -1.02,
     null,
     null,
     null,

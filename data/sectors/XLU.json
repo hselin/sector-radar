@@ -1,37 +1,29 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector comprises companies that provide essential services such as electricity, natural gas, water, and sometimes waste treatment, often operating as regulated monopolies.",
-    "marketSizeUSD": "1.1T",
+    "description": "The Utilities sector includes companies that generate, transmit, and distribute electricity, natural gas, and water, along with other essential public services.",
+    "marketSizeUSD": "1.3T",
     "constituentCount": 30,
     "topHoldings": [
       {
-        "name": "NextEra Energy, Inc.",
+        "name": "NextEra Energy Inc.",
         "symbol": "NEE"
+      },
+      {
+        "name": "Southern Company",
+        "symbol": "SO"
       },
       {
         "name": "Duke Energy Corporation",
         "symbol": "DUK"
-      },
-      {
-        "name": "The Southern Company",
-        "symbol": "SO"
       }
     ]
   },
-  "market_weight": 0.0134,
-  "change_pct": -0.43,
-  "insights": "The Utilities sector saw a modest decline of 0.43% today. Analyzing key technical indicators, the Relative Strength Index (RSI) at 39.54 signals a bearish bias, approaching oversold territory and aligning with the day's price dip. Conversely, the Money Flow Index (MFI) at 51.71, slightly above the neutral 50-mark, suggests a mixed picture where buying volume has not been entirely overcome by selling volume despite the price decrease. The On-Balance Volume (OBV) stands at 364,766,226, which measures cumulative buying and selling pressure; its precise daily change relative to yesterday, crucial for confirming the strength of today's movement, is not discernible from this single data point.",
+  "market_weight": 0.0261,
+  "change_pct": 0.93,
+  "insights": "The Utilities sector posted a modest gain of 0.93% today, indicating positive sentiment. Key technical indicators suggest this advance was well-supported and not overextended: The Relative Strength Index (RSI) at 46.10 and the Money Flow Index (MFI) at 52.93 both reside in neutral territory, slightly above their respective midlines. This indicates a healthy, balanced buying interest without signaling immediate overbought conditions or excessive speculative inflows. Furthermore, the On-Balance Volume (OBV) at 404,288,156 confirms that the day's upward movement was backed by genuine underlying buying pressure, reinforcing the strength of the daily advance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764892800000,
-        6.03
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -747,17 +739,17 @@
       [
         1780444800000,
         39.54
+      ],
+      [
+        1780531200000,
+        41.96
+      ],
+      [
+        1780617600000,
+        46.1
       ]
     ],
     "mfi": [
-      [
-        1764892800000,
-        40.96
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -1473,17 +1465,17 @@
       [
         1780444800000,
         51.71
+      ],
+      [
+        1780531200000,
+        45.47
+      ],
+      [
+        1780617600000,
+        52.93
       ]
     ],
     "obv": [
-      [
-        1764892800000,
-        138959384.0
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -2199,6 +2191,14 @@
       [
         1780444800000,
         364766226.0
+      ],
+      [
+        1780531200000,
+        382943438.0
+      ],
+      [
+        1780617600000,
+        404288156.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     -1.9,
     3.37,
     -2.05,
-    -1.6,
+    -0.16,
     null,
     null,
     null,

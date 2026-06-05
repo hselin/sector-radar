@@ -1,16 +1,16 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil, gas, and consumable fuels, alongside those providing energy equipment and services.",
+    "description": "The Energy sector encompasses companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, and other consumable fuels.",
     "marketSizeUSD": "1.8T",
     "constituentCount": 21,
     "topHoldings": [
       {
-        "name": "Exxon Mobil Corp",
+        "name": "Exxon Mobil Corporation",
         "symbol": "XOM"
       },
       {
-        "name": "Chevron Corp",
+        "name": "Chevron Corporation",
         "symbol": "CVX"
       },
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.022,
-  "change_pct": 1.29,
-  "insights": "The Energy sector experienced a solid performance today, posting a gain of 1.29%. Its key technical indicators suggest a healthy, balanced advance. The Relative Strength Index (RSI) at 53.31 and Money Flow Index (MFI) at 53.22 both reside in the neutral zone, indicating that while there was positive momentum, the sector is neither overbought nor oversold, suggesting sustainability without immediate reversal risk. The On-Balance Volume (OBV) at 1,131,052,873, while an absolute value, implies persistent underlying buying interest, and today's positive price action likely contributed to this accumulation, confirming the demand behind the advance.",
+  "market_weight": 0.0361,
+  "change_pct": -1.84,
+  "insights": "The Energy sector experienced a notable decline today, falling 1.84%. This downward movement aligns with its key technical indicators: the Relative Strength Index (RSI) at 48.01, while near neutral, suggests a slight weakening of momentum below the 50-mark. Further, the Money Flow Index (MFI) at 43.34 indicates a net outflow of capital from the sector, consistent with the price depreciation. While the On-Balance Volume (OBV) value of 1,126,640,603 is a cumulative measure, the day's decline implies that selling volume likely outweighed buying volume, lending conviction to the negative price action. Overall, the technicals broadly support today's negative performance, suggesting a shift in short-term sentiment and money flow away from the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764892800000,
-        12.08
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -747,17 +739,17 @@
       [
         1780444800000,
         53.31
+      ],
+      [
+        1780531200000,
+        53.49
+      ],
+      [
+        1780617600000,
+        48.01
       ]
     ],
     "mfi": [
-      [
-        1764892800000,
-        38.43
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -1473,17 +1465,17 @@
       [
         1780444800000,
         53.22
+      ],
+      [
+        1780531200000,
+        48.98
+      ],
+      [
+        1780617600000,
+        43.34
       ]
     ],
     "obv": [
-      [
-        1764892800000,
-        300637756.0
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -2199,6 +2191,14 @@
       [
         1780444800000,
         1131052873.0
+      ],
+      [
+        1780531200000,
+        1154786019.0
+      ],
+      [
+        1780617600000,
+        1126640603.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     6.71,
     0.08,
     -5.38,
-    4.3,
+    2.45,
     null,
     null,
     null,

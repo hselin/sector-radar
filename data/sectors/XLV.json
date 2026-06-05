@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in medical products and services, including pharmaceuticals, biotechnology, medical devices, healthcare equipment, and healthcare providers.",
-    "marketSizeUSD": "5.5T",
-    "constituentCount": 64,
+    "description": "The Health Care GICS sector encompasses companies providing medical services, manufacturing pharmaceuticals and medical equipment, and operating healthcare facilities and managed care programs.",
+    "marketSizeUSD": "5.0T",
+    "constituentCount": 66,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0671,
-  "change_pct": 0.79,
-  "insights": "The Health Care sector registered a modest gain of 0.79% today, indicating a slightly positive trading session. Technical indicators suggest this upward movement occurred amidst relatively neutral, though slightly bullish, short-term sentiment. The Relative Strength Index (RSI) at 50.97 and Money Flow Index (MFI) at 54.74 both hover just above the neutral 50 mark, implying a balance between buying and selling pressure with a slight edge to buyers, but no significant momentum or overbought conditions. However, the deeply negative On-Balance Volume (OBV) at -81,695,139 indicates that over the longer term, volume on down days has significantly outweighed volume on up days, suggesting that despite today's price increase, underlying accumulation and sustained buying pressure remain a concern for the sector.",
+  "market_weight": 0.1004,
+  "change_pct": 0.61,
+  "insights": "The Health Care sector advanced by 0.61% today, reflecting positive daily momentum. This upward movement is supported by key technical indicators: the Relative Strength Index (RSI) at 63.95 and the Money Flow Index (MFI) at 65.99, both indicating strong buying interest and robust capital inflow, suggesting the sector is experiencing significant demand. However, the On-Balance Volume (OBV) stands at a substantial negative value of -48,402,553. While today was positive, this OBV level suggests that, historically, selling volume has significantly outpaced buying volume, implying that the sector may face underlying resistance to establishing a sustained rally despite current positive sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764892800000,
-        55.59
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -747,17 +739,17 @@
       [
         1780444800000,
         50.97
+      ],
+      [
+        1780531200000,
+        62.14
+      ],
+      [
+        1780617600000,
+        63.95
       ]
     ],
     "mfi": [
-      [
-        1764892800000,
-        54.95
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -1473,17 +1465,17 @@
       [
         1780444800000,
         54.74
+      ],
+      [
+        1780531200000,
+        56.47
+      ],
+      [
+        1780617600000,
+        65.99
       ]
     ],
     "obv": [
-      [
-        1764892800000,
-        111363972.0
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -2199,6 +2191,14 @@
       [
         1780444800000,
         -81695139.0
+      ],
+      [
+        1780531200000,
+        -69110572.0
+      ],
+      [
+        1780617600000,
+        -48402553.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     1.12,
     3.3,
     -0.28,
-    -1.28,
+    2.37,
     null,
     null,
     null,

@@ -1,37 +1,29 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector encompasses companies offering a diverse range of services including telecommunications, media & entertainment, and interactive media & services, primarily focusing on content and connectivity.",
-    "marketSizeUSD": "5T",
-    "constituentCount": 23,
+    "description": "The Communication Services GICS sector includes companies involved in telecommunication services, entertainment, interactive media, and other communication-related services.",
+    "marketSizeUSD": "4.5T",
+    "constituentCount": 24,
     "topHoldings": [
-      {
-        "name": "Alphabet Inc.",
-        "symbol": "GOOGL"
-      },
       {
         "name": "Meta Platforms, Inc.",
         "symbol": "META"
       },
       {
-        "name": "Netflix, Inc.",
-        "symbol": "NFLX"
+        "name": "Alphabet Inc. Class A",
+        "symbol": "GOOGL"
+      },
+      {
+        "name": "Alphabet Inc. Class C",
+        "symbol": "GOOG"
       }
     ]
   },
-  "market_weight": 0.061,
-  "change_pct": -1.31,
-  "insights": "The Communication Services sector experienced a notable decline of 1.31% today, indicating significant selling pressure. Both the Relative Strength Index (RSI) at 32.73 and the Money Flow Index (MFI) at 34.93 are approaching oversold territory, suggesting a strong outflow of capital and weakening momentum. This reinforces the bearish sentiment witnessed today, with the On-Balance Volume (OBV) confirming that the downward price movement was accompanied by considerable trading activity, further solidifying the day's negative performance and signaling a potential continuation of downward pressure unless buyer interest emerges soon.",
+  "market_weight": 0.0904,
+  "change_pct": -1.27,
+  "insights": "The Communication Services sector experienced a notable decline of -1.27% today, indicating broad selling pressure. This downward movement is strongly supported by key technical indicators: the Relative Strength Index (RSI) at 34.19 and the Money Flow Index (MFI) at 34.90. Both indicators are well below 50 and approaching the oversold threshold of 30, signaling significant negative momentum and a clear outflow of capital from the sector. While the On-Balance Volume (OBV) stands at 146,258,644, the persistently low RSI and MFI, coupled with the price decline, suggest a lack of significant buying volume to offset the selling, reinforcing the bearish sentiment observed in today's trading.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1764892800000,
-        64.12
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -747,17 +739,17 @@
       [
         1780444800000,
         32.73
+      ],
+      [
+        1780531200000,
+        38.95
+      ],
+      [
+        1780617600000,
+        34.19
       ]
     ],
     "mfi": [
-      [
-        1764892800000,
-        85.92
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -1473,17 +1465,17 @@
       [
         1780444800000,
         34.93
+      ],
+      [
+        1780531200000,
+        37.09
+      ],
+      [
+        1780617600000,
+        34.9
       ]
     ],
     "obv": [
-      [
-        1764892800000,
-        179932039.0
-      ],
-      [
-        1764979200000,
-        null
-      ],
       [
         1765065600000,
         null
@@ -2199,6 +2191,14 @@
       [
         1780444800000,
         149214054.0
+      ],
+      [
+        1780531200000,
+        155263678.0
+      ],
+      [
+        1780617600000,
+        146258644.0
       ]
     ]
   },
@@ -2225,7 +2225,7 @@
     -0.74,
     -0.53,
     0.2,
-    -3.12,
+    -3.47,
     null,
     null,
     null,

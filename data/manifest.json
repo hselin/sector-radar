@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T22:07:46.061033Z",
+  "lastUpdated": "2026-06-05T21:42:45.265219Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,18 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a modest decline today, closing down -0.70%, signaling a minor pause in recent activity. Despite this daily dip, key technical indicators suggest underlying market strength and persistent bullish sentiment. The Relative Strength Index (RSI) at 67.91, nearing the overbought threshold, indicates that recent upward momentum has been significant, implying a potentially healthy consolidation after strong gains. Similarly, the Money Flow Index (MFI) at 60.32 suggests that capital continues to flow into the market, supporting current price levels rather than retreating significantly. The substantial On-Balance Volume (OBV) reading of 1,203,859,098 further reinforces a pattern of underlying accumulation. Collectively, these figures suggest that while the market saw a slight pullback, the prevailing sentiment remains largely positive, with momentum still tilted towards the upside, potentially indicating a healthy breather within a broader uptrend rather than a significant shift in direction.",
-    "change_pct": -0.7,
+    "commentary": "The stock market experienced a significant downturn today, closing down -2.58% amidst broad selling pressure. Technical indicators present a mixed but cautious outlook: The Relative Strength Index (RSI) at 49.44 has moved firmly into neutral territory, indicating that while selling momentum is strong, the market is not yet oversold, suggesting potential for further downside if current pressures persist. The Money Flow Index (MFI) at 57.69, however, remains above 50, which might suggest that despite today's sharp sell-off, underlying buying interest or accumulation on price rallies is not entirely absent, hinting at some resilience in money flow. Concurrently, On-Balance Volume (OBV), a gauge of cumulative buying and selling pressure, would likely have registered a substantial decrease today, confirming the strong distribution and reinforcing the negative sentiment driving the market's momentum.",
+    "change_pct": -2.58,
     "technicalIndicators": {
       "rsi": [
-        [
-          1764892800000,
-          60.11
-        ],
-        [
-          1764979200000,
-          null
-        ],
         [
           1765065600000,
           null
@@ -747,17 +739,17 @@
         [
           1780444800000,
           67.91
+        ],
+        [
+          1780531200000,
+          69.69
+        ],
+        [
+          1780617600000,
+          49.44
         ]
       ],
       "mfi": [
-        [
-          1764892800000,
-          51.95
-        ],
-        [
-          1764979200000,
-          null
-        ],
         [
           1765065600000,
           null
@@ -1473,17 +1465,17 @@
         [
           1780444800000,
           60.32
+        ],
+        [
+          1780531200000,
+          60.7
+        ],
+        [
+          1780617600000,
+          57.69
         ]
       ],
       "obv": [
-        [
-          1764892800000,
-          1251244267.0
-        ],
-        [
-          1764979200000,
-          null
-        ],
         [
           1765065600000,
           null
@@ -2199,6 +2191,14 @@
         [
           1780444800000,
           1203859098.0
+        ],
+        [
+          1780531200000,
+          1253782098.0
+        ],
+        [
+          1780617600000,
+          1162717460.0
         ]
       ]
     },
@@ -2225,7 +2225,7 @@
       0.21,
       0.88,
       1.45,
-      -0.3,
+      -2.5,
       null,
       null,
       null,
