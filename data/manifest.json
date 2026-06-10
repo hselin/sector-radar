@@ -1,19 +1,29 @@
 {
-  "lastUpdated": "2026-06-08T21:44:22.462007Z",
+  "lastUpdated": "2026-06-10T21:52:09.266677Z",
   "overallMarket": {
-    "profile": null,
-    "commentary": "The overall stock market saw a marginal gain today, closing up 0.23%, indicating a rather subdued trading session. Key technical indicators reflect this cautious sentiment: the Relative Strength Index (RSI) at 50.76 sits firmly in neutral territory, suggesting a balance between buying and selling pressures without the market being overbought or oversold. The Money Flow Index (MFI) at 57.59, while slightly positive, indicates a modest influx of capital rather than strong conviction. Coupled with the On-Balance Volume (OBV), which confirms buying interest, these figures collectively suggest that momentum is largely subdued, with the market in a phase of consolidation rather than exhibiting a strong directional trend, pointing to a neutral to cautiously optimistic sentiment among investors.",
-    "change_pct": 0.23,
+    "profile": {
+      "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices.",
+      "marketSizeUSD": "47.0T",
+      "constituentCount": 503,
+      "topHoldings": [
+        {
+          "name": "Microsoft Corporation",
+          "symbol": "MSFT"
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "symbol": "NVDA"
+        },
+        {
+          "name": "Apple Inc.",
+          "symbol": "AAPL"
+        }
+      ]
+    },
+    "commentary": "The stock market concluded the day with a notable decline of 1.58%, reflecting a clear shift in market sentiment. Key technical indicators reinforce this bearish outlook: the Relative Strength Index (RSI) at 40.72 and Money Flow Index (MFI) at 47.12 both sit below the neutral 50-mark, suggesting prevailing negative momentum and a lack of strong buying interest. Importantly, neither indicator is yet in oversold territory (typically below 30/20 respectively), which implies the market may have further room to fall before finding significant technical support for a bounce. The robust On-Balance Volume (OBV) at 1,059,262,532, in conjunction with the price drop, further indicates that today's selling pressure was substantial and occurred on considerable volume. Overall, these figures collectively point to a market grappling with weakening momentum and a cautious, if not pessimistic, sentiment, suggesting potential for continued volatility or further downside without immediate technical support.",
+    "change_pct": -1.58,
     "technicalIndicators": {
       "rsi": [
-        [
-          1765324800000,
-          60.9
-        ],
-        [
-          1765411200000,
-          62.18
-        ],
         [
           1765497600000,
           53.58
@@ -729,17 +739,17 @@
         [
           1780876800000,
           50.76
+        ],
+        [
+          1780963200000,
+          48.97
+        ],
+        [
+          1781049600000,
+          40.72
         ]
       ],
       "mfi": [
-        [
-          1765324800000,
-          56.69
-        ],
-        [
-          1765411200000,
-          69.9
-        ],
         [
           1765497600000,
           70.98
@@ -1455,17 +1465,17 @@
         [
           1780876800000,
           57.59
+        ],
+        [
+          1780963200000,
+          54.62
+        ],
+        [
+          1781049600000,
+          47.12
         ]
       ],
       "obv": [
-        [
-          1765324800000,
-          1228551753.0
-        ],
-        [
-          1765411200000,
-          1302081396.0
-        ],
         [
           1765497600000,
           1203960797.0
@@ -2181,6 +2191,14 @@
         [
           1780876800000,
           1204541740.0
+        ],
+        [
+          1780963200000,
+          1117036240.0
+        ],
+        [
+          1781049600000,
+          1059262532.0
         ]
       ]
     },
@@ -2208,7 +2226,7 @@
       0.88,
       1.45,
       -2.5,
-      0.23,
+      -1.64,
       null,
       null,
       null,

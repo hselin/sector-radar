@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0361,
-  "change_pct": 1.14,
-  "insights": "The Energy sector recorded a solid positive performance today, gaining 1.14%. Its Relative Strength Index (RSI) at 51.30 suggests neutral momentum, indicating the sector is neither overbought nor oversold despite the daily rise. However, the Money Flow Index (MFI) at 41.69, being below 50, implies a slight underlying weakness in money flow relative to the positive price action, suggesting that buying interest may not be overwhelmingly strong, or there was some profit-taking within the day. The On-Balance Volume (OBV) at 1,152,308,371 is a cumulative measure of volume, and while its absolute value today is noted, its directional change relative to yesterday's value would be crucial to confirm if today's price increase was truly supported by robust buying volume.",
+  "market_weight": 0.0366,
+  "change_pct": 1.5,
+  "insights": "The Energy sector posted a solid 1.50% gain today, reflecting positive market sentiment. The Relative Strength Index (RSI) at 51.03 suggests that while momentum is positive, the sector is not yet in overbought territory, indicating a healthy, non-euphoric advance. However, the Money Flow Index (MFI) at 43.41, being below the 50-mark, suggests that while prices rose, the underlying money flow or buying pressure on a volume-weighted basis was somewhat subdued. The significant On-Balance Volume (OBV) of 1,142,792,887 confirms that today's price increase was supported by transactional volume, reinforcing the daily upward movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765324800000,
-        13.32
-      ],
-      [
-        1765411200000,
-        13.26
-      ],
       [
         1765497600000,
         13.12
@@ -747,17 +739,17 @@
       [
         1780876800000,
         51.3
+      ],
+      [
+        1780963200000,
+        46.76
+      ],
+      [
+        1781049600000,
+        51.03
       ]
     ],
     "mfi": [
-      [
-        1765324800000,
-        53.98
-      ],
-      [
-        1765411200000,
-        45.51
-      ],
       [
         1765497600000,
         46.12
@@ -1473,17 +1465,17 @@
       [
         1780876800000,
         41.69
+      ],
+      [
+        1780963200000,
+        34.81
+      ],
+      [
+        1781049600000,
+        43.41
       ]
     ],
     "obv": [
-      [
-        1765324800000,
-        317961523.0
-      ],
-      [
-        1765411200000,
-        293557381.0
-      ],
       [
         1765497600000,
         262137669.0
@@ -2199,6 +2191,14 @@
       [
         1780876800000,
         1152308371.0
+      ],
+      [
+        1780963200000,
+        1106390932.0
+      ],
+      [
+        1781049600000,
+        1142792887.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     0.08,
     -5.38,
     2.45,
-    1.14,
+    1.01,
     null,
     null,
     null,

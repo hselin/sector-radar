@@ -1,9 +1,9 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector includes companies involved in software, IT services, semiconductors, technology hardware, and equipment.",
-    "marketSizeUSD": "15.8T",
-    "constituentCount": 67,
+    "description": "The Information Technology sector comprises companies that offer software and services, semiconductors, technology hardware, storage, and peripherals, as well as communications equipment.",
+    "marketSizeUSD": "15.0T",
+    "constituentCount": 68,
     "topHoldings": [
       {
         "name": "Apple Inc.",
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.3173,
-  "change_pct": 2.15,
-  "insights": "The Information Technology sector demonstrated robust performance today, closing up 2.15%. This strong daily gain is supported by its technical indicators: the Relative Strength Index (RSI) at 56.11, while indicating positive momentum, remains well below overbought thresholds, suggesting room for further upside without immediate reversal pressure. Similarly, an MFI of 59.61 further confirms underlying buying interest with healthy money flow into the sector. The substantial On-Balance Volume (OBV) figure of 482,574,650, in conjunction with the strong price increase, suggests this positive movement was supported by significant accumulation, reinforcing the validity of today's upward trend.",
+  "market_weight": 0.3049,
+  "change_pct": -2.29,
+  "insights": "The Information Technology sector experienced a notable downturn today, declining by -2.29%. This selling pressure is reflected in its key technical indicators, which, while not signaling extreme oversold conditions, point to prevailing bearish sentiment. Both the Relative Strength Index (RSI) at 47.53 and Money Flow Index (MFI) at 48.23 sit slightly below the neutral 50-mark, indicating negative momentum and money flow but not yet at levels typically associated with capitulation or an immediate rebound. The On-Balance Volume (OBV) at 433,341,306 suggests that today's significant price decline was accompanied by active selling volume, reinforcing the day's negative performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765324800000,
-        12.73
-      ],
-      [
-        1765411200000,
-        12.65
-      ],
       [
         1765497600000,
         12.24
@@ -747,17 +739,17 @@
       [
         1780876800000,
         56.11
+      ],
+      [
+        1780963200000,
+        52.04
+      ],
+      [
+        1781049600000,
+        47.53
       ]
     ],
     "mfi": [
-      [
-        1765324800000,
-        41.17
-      ],
-      [
-        1765411200000,
-        51.26
-      ],
       [
         1765497600000,
         60.68
@@ -1473,17 +1465,17 @@
       [
         1780876800000,
         59.61
+      ],
+      [
+        1780963200000,
+        55.51
+      ],
+      [
+        1781049600000,
+        48.23
       ]
     ],
     "obv": [
-      [
-        1765324800000,
-        277539882.0
-      ],
-      [
-        1765411200000,
-        268372184.0
-      ],
       [
         1765497600000,
         254617322.0
@@ -2199,6 +2191,14 @@
       [
         1780876800000,
         482574650.0
+      ],
+      [
+        1780963200000,
+        452798685.0
+      ],
+      [
+        1781049600000,
+        433341306.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     2.34,
     5.89,
     -5.61,
-    2.15,
+    -2.04,
     null,
     null,
     null,

@@ -1,37 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector comprises companies involved in manufacturing capital goods, providing commercial services, and offering transportation services, including aerospace & defense, construction, machinery, logistics, and professional services.",
-    "marketSizeUSD": "4.3T",
-    "constituentCount": 75,
+    "description": "The Industrials sector includes companies that manufacture capital goods, provide commercial and professional services, and engage in various forms of transportation.",
+    "marketSizeUSD": "4.5T",
+    "constituentCount": 72,
     "topHoldings": [
       {
         "name": "GE Aerospace",
         "symbol": "GE"
       },
       {
-        "name": "Caterpillar Inc.",
-        "symbol": "CAT"
+        "name": "RTX Corporation",
+        "symbol": "RTX"
       },
       {
-        "name": "Honeywell International Inc.",
-        "symbol": "HON"
+        "name": "Caterpillar Inc.",
+        "symbol": "CAT"
       }
     ]
   },
-  "market_weight": 0.0863,
-  "change_pct": -0.32,
-  "insights": "The Industrials sector saw a slight daily pullback, declining by 0.32% today. Despite this modest dip, key technical indicators suggest underlying stability: the Relative Strength Index (RSI) at 52.05 indicates the sector is in a neutral zone, not overbought or oversold, while the Money Flow Index (MFI) at 58.34 suggests money flow remains moderately positive, preventing significant capital outflow. The substantial On-Balance Volume (OBV) of 135,005,204 reflects sustained buying interest over time, indicating today's minor price correction was likely a consolidation rather than a strong bearish shift.",
+  "market_weight": 0.0915,
+  "change_pct": -3.38,
+  "insights": "The Industrials sector experienced a notable downturn today, shedding 3.38%. From a technical perspective, the Relative Strength Index (RSI) at 42.89 indicates building bearish momentum, though the sector is not yet in oversold territory, suggesting potential for further price adjustments if negative sentiment persists. The Money Flow Index (MFI) at 54.66, hovering slightly above neutral, suggests that while today's price action was sharply negative, the broader money flow isn't yet signaling extreme capitulation. Finally, the On-Balance Volume (OBV) registering 130,617,042, having decreased with today's negative close, confirms that the bearish price action was indeed supported by significant selling volume, aligning price weakness with a notable outflow.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765324800000,
-        59.96
-      ],
-      [
-        1765411200000,
-        64.0
-      ],
       [
         1765497600000,
         60.02
@@ -747,17 +739,17 @@
       [
         1780876800000,
         52.05
+      ],
+      [
+        1780963200000,
+        56.86
+      ],
+      [
+        1781049600000,
+        42.89
       ]
     ],
     "mfi": [
-      [
-        1765324800000,
-        49.72
-      ],
-      [
-        1765411200000,
-        62.56
-      ],
       [
         1765497600000,
         75.62
@@ -1473,17 +1465,17 @@
       [
         1780876800000,
         58.34
+      ],
+      [
+        1780963200000,
+        66.02
+      ],
+      [
+        1781049600000,
+        54.66
       ]
     ],
     "obv": [
-      [
-        1765324800000,
-        72326867.0
-      ],
-      [
-        1765411200000,
-        82194714.0
-      ],
       [
         1765497600000,
         70394828.0
@@ -2199,6 +2191,14 @@
       [
         1780876800000,
         135005204.0
+      ],
+      [
+        1780963200000,
+        144452450.0
+      ],
+      [
+        1781049600000,
+        130617042.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     0.22,
     0.79,
     0.61,
-    -0.32,
+    -2.6,
     null,
     null,
     null,
