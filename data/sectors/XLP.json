@@ -1,37 +1,29 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that manufacture and sell essential products and services, such as food, beverages, tobacco, and household goods, which people are unwilling or unable to cut out of their budgets regardless of economic conditions.",
-    "marketSizeUSD": "2.7T",
-    "constituentCount": 33,
+    "description": "The Consumer Staples sector comprises companies that produce and sell essential products and services, such as food, beverages, household goods, and personal care items, which are consistently in demand regardless of economic cycles.",
+    "marketSizeUSD": "3.6T",
+    "constituentCount": 37,
     "topHoldings": [
       {
-        "name": "Procter & Gamble Company",
+        "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
-        "name": "Coca-Cola Company",
+        "name": "Coca-Cola Co.",
         "symbol": "KO"
       },
       {
-        "name": "PepsiCo, Inc.",
+        "name": "PepsiCo Inc.",
         "symbol": "PEP"
       }
     ]
   },
-  "market_weight": 0.0549,
-  "change_pct": 1.65,
-  "insights": "The Consumer Staples sector delivered a strong performance today, posting a gain of 1.65%. This positive price action is well-supported by key technical indicators. The Relative Strength Index (RSI) at 59.88 signals building buying momentum, remaining within a healthy range without yet reaching overbought conditions. Similarly, the Money Flow Index (MFI) at 54.62 indicates a net positive flow of funds into the sector, reinforcing investor confidence. The On-Balance Volume (OBV) reading of 89967683, in conjunction with the price increase, suggests that the upward move was accompanied by robust volume, validating the day's gains with broad participation.",
+  "market_weight": 0.0576,
+  "change_pct": 0.65,
+  "insights": "The Consumer Staples sector posted a moderate 0.65% gain today, indicating a positive but cautious investor sentiment. This upward movement is supported by key technical indicators: the Relative Strength Index (RSI) at 60.95 suggests increasing buying momentum without entering overbought territory, while the Money Flow Index (MFI) at 63.47 further corroborates positive capital inflow into the sector. Additionally, the substantial On-Balance Volume (OBV) level suggests that today's positive price movement was well-supported by underlying trading activity, lending credence to the sector's gains.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765497600000,
-        60.86
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -747,17 +739,17 @@
       [
         1781049600000,
         59.88
+      ],
+      [
+        1781136000000,
+        58.47
+      ],
+      [
+        1781222400000,
+        60.95
       ]
     ],
     "mfi": [
-      [
-        1765497600000,
-        68.06
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1781049600000,
         54.62
+      ],
+      [
+        1781136000000,
+        63.15
+      ],
+      [
+        1781222400000,
+        63.47
       ]
     ],
     "obv": [
-      [
-        1765497600000,
-        30656612.0
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1781049600000,
         89967683.0
+      ],
+      [
+        1781136000000,
+        71962873.0
+      ],
+      [
+        1781222400000,
+        81292928.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     0.19,
     -2.23,
     0.64,
-    2.46,
+    2.85,
     null,
     null,
     null,

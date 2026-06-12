@@ -1,37 +1,29 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care GICS sector encompasses companies providing medical services, manufacturing pharmaceuticals and medical equipment, and operating healthcare facilities and managed care programs.",
-    "marketSizeUSD": "5.0T",
-    "constituentCount": 66,
+    "description": "The Health Care sector includes companies that provide medical services and facilities, manufacture medical equipment and supplies, and produce pharmaceuticals and biotechnology products.",
+    "marketSizeUSD": "14.5T",
+    "constituentCount": 67,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Incorporated",
-        "symbol": "UNH"
-      },
-      {
         "name": "Johnson & Johnson",
         "symbol": "JNJ"
+      },
+      {
+        "name": "UnitedHealth Group Incorporated",
+        "symbol": "UNH"
       }
     ]
   },
-  "market_weight": 0.1016,
-  "change_pct": -1.11,
-  "insights": "The Health Care sector saw a notable decline today, shedding -1.11%. While momentum indicators like the Relative Strength Index (RSI) at 60.56 and Money Flow Index (MFI) at 57.56 suggest buying interest remains present but not in overbought territory, the significantly negative On-Balance Volume (OBV) of -57,622,674 indicates strong selling pressure accompanied by substantial volume. This implies that today's price drop was largely driven by robust distribution and significant investor outflows from the sector, despite potentially not being overextended on an oscillator basis.",
+  "market_weight": 0.232,
+  "change_pct": -0.18,
+  "insights": "The Health Care sector posted a slight daily decline, closing down -0.18%. Despite this marginal dip, key technical indicators suggest underlying resilience: the Relative Strength Index (RSI) at 62.13 and Money Flow Index (MFI) at 59.41 both indicate moderate buying interest and momentum, residing firmly above the neutral 50-mark without entering overbought territory. However, the On-Balance Volume (OBV) at -56,107,331 reflects net selling pressure for the day, consistent with the sector's modest price decrease, indicating that volume on down moves slightly outpaced volume on up moves during the session.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765497600000,
-        56.95
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -747,17 +739,17 @@
       [
         1781049600000,
         60.56
+      ],
+      [
+        1781136000000,
+        63.11
+      ],
+      [
+        1781222400000,
+        62.13
       ]
     ],
     "mfi": [
-      [
-        1765497600000,
-        54.8
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1781049600000,
         57.56
+      ],
+      [
+        1781136000000,
+        58.68
+      ],
+      [
+        1781222400000,
+        59.41
       ]
     ],
     "obv": [
-      [
-        1765497600000,
-        130809924.0
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1781049600000,
         -57622674.0
+      ],
+      [
+        1781136000000,
+        -47077154.0
+      ],
+      [
+        1781222400000,
+        -56107331.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     3.3,
     -0.28,
     2.37,
-    -0.1,
+    0.52,
     null,
     null,
     null,

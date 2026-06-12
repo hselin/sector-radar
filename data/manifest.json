@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-10T21:52:09.266677Z",
+  "lastUpdated": "2026-06-12T21:46:40.940864Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices.",
@@ -20,18 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market concluded the day with a notable decline of 1.58%, reflecting a clear shift in market sentiment. Key technical indicators reinforce this bearish outlook: the Relative Strength Index (RSI) at 40.72 and Money Flow Index (MFI) at 47.12 both sit below the neutral 50-mark, suggesting prevailing negative momentum and a lack of strong buying interest. Importantly, neither indicator is yet in oversold territory (typically below 30/20 respectively), which implies the market may have further room to fall before finding significant technical support for a bounce. The robust On-Balance Volume (OBV) at 1,059,262,532, in conjunction with the price drop, further indicates that today's selling pressure was substantial and occurred on considerable volume. Overall, these figures collectively point to a market grappling with weakening momentum and a cautious, if not pessimistic, sentiment, suggesting potential for continued volatility or further downside without immediate technical support.",
-    "change_pct": -1.58,
+    "commentary": "The stock market experienced a modest gain today, closing up 0.54%. Technical indicators suggest a largely neutral market sentiment with a slight positive bias. The Relative Strength Index (RSI) at 52.94 and the Money Flow Index (MFI) at 51.54 are both situated in mid-range territory, slightly above the 50-level, indicating balanced momentum and money flow without strong overbought or oversold conditions. This suggests that neither aggressive buying nor selling pressure dominated the day. On-Balance Volume (OBV) at 1,200,375,596, while best interpreted in trend, combined with the other metrics, points to a market that is consolidating its gains with underlying support but without exhibiting strong, decisive directional conviction from either bulls or bears.",
+    "change_pct": 0.54,
     "technicalIndicators": {
       "rsi": [
-        [
-          1765497600000,
-          53.58
-        ],
-        [
-          1765584000000,
-          null
-        ],
         [
           1765670400000,
           null
@@ -747,17 +739,17 @@
         [
           1781049600000,
           40.72
+        ],
+        [
+          1781136000000,
+          50.29
+        ],
+        [
+          1781222400000,
+          52.94
         ]
       ],
       "mfi": [
-        [
-          1765497600000,
-          70.98
-        ],
-        [
-          1765584000000,
-          null
-        ],
         [
           1765670400000,
           null
@@ -1473,17 +1465,17 @@
         [
           1781049600000,
           47.12
+        ],
+        [
+          1781136000000,
+          50.3
+        ],
+        [
+          1781222400000,
+          51.54
         ]
       ],
       "obv": [
-        [
-          1765497600000,
-          1203960797.0
-        ],
-        [
-          1765584000000,
-          null
-        ],
         [
           1765670400000,
           null
@@ -2199,6 +2191,14 @@
         [
           1781049600000,
           1059262532.0
+        ],
+        [
+          1781136000000,
+          1145593032.0
+        ],
+        [
+          1781222400000,
+          1200375596.0
         ]
       ]
     },
@@ -2226,7 +2226,7 @@
       0.88,
       1.45,
       -2.5,
-      -1.64,
+      0.57,
       null,
       null,
       null,

@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector encompasses companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, and other consumable fuels.",
-    "marketSizeUSD": "1.8T",
+    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, marketing, storage, and transportation of oil and gas, alongside those providing energy equipment and services.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0366,
-  "change_pct": 1.5,
-  "insights": "The Energy sector posted a solid 1.50% gain today, reflecting positive market sentiment. The Relative Strength Index (RSI) at 51.03 suggests that while momentum is positive, the sector is not yet in overbought territory, indicating a healthy, non-euphoric advance. However, the Money Flow Index (MFI) at 43.41, being below the 50-mark, suggests that while prices rose, the underlying money flow or buying pressure on a volume-weighted basis was somewhat subdued. The significant On-Balance Volume (OBV) of 1,142,792,887 confirms that today's price increase was supported by transactional volume, reinforcing the daily upward movement.",
+  "market_weight": 0.0272,
+  "change_pct": 0.75,
+  "insights": "The Energy sector experienced a modest positive movement today, closing up 0.75%. Technically, the Relative Strength Index (RSI) at 48.00 indicates a largely neutral sentiment, suggesting the sector is neither overbought nor oversold and lacks strong directional momentum on a longer timeframe. The Money Flow Index (MFI) at 44.82, while not severely negative, implies a slight lean towards money flowing out rather than into the sector on recent price strength. The On-Balance Volume (OBV) at 1,133,318,286 represents significant cumulative volume, but without its daily change, it's difficult to confirm if today's 0.75% rise was truly supported by strong buying volume or was a lower-conviction move. Overall, today's positive price action appears to be a minor uptick within a relatively balanced technical posture, lacking strong conviction from volume or momentum indicators.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765497600000,
-        13.12
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -747,17 +739,17 @@
       [
         1781049600000,
         51.03
+      ],
+      [
+        1781136000000,
+        45.83
+      ],
+      [
+        1781222400000,
+        48.0
       ]
     ],
     "mfi": [
-      [
-        1765497600000,
-        46.12
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1781049600000,
         43.41
+      ],
+      [
+        1781136000000,
+        43.77
+      ],
+      [
+        1781222400000,
+        44.82
       ]
     ],
     "obv": [
-      [
-        1765497600000,
-        262137669.0
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1781049600000,
         1142792887.0
+      ],
+      [
+        1781136000000,
+        1102549606.0
+      ],
+      [
+        1781222400000,
+        1133318286.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     0.08,
     -5.38,
     2.45,
-    1.01,
+    -0.21,
     null,
     null,
     null,

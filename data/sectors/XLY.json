@@ -1,12 +1,12 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses companies that sell non-essential goods and services, which consumers typically purchase when they have disposable income.",
-    "marketSizeUSD": "6.9T",
-    "constituentCount": 58,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, which consumers purchase with their disposable income, including retailers, auto manufacturers, hotels, restaurants, and entertainment services.",
+    "marketSizeUSD": "8.0T",
+    "constituentCount": 55,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc.",
+        "name": "Amazon.com, Inc.",
         "symbol": "AMZN"
       },
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1402,
-  "change_pct": -2.05,
-  "insights": "The Consumer Discretionary sector experienced a notable downturn today, falling -2.05%, reflecting strong selling pressure. Technical indicators largely support this bearish sentiment. The Relative Strength Index (RSI) at 37.30 indicates weakening momentum and approaches oversold conditions, suggesting further downside potential. The Money Flow Index (MFI) at 49.55, hovering around the neutral 50-mark, suggests money flow is relatively balanced but lacks strong buying support to counteract the decline. Crucially, the On-Balance Volume (OBV) registering a significant negative change of -16,527,150 corroborates the price action, indicating that today's decline was accompanied by substantial selling volume, lending conviction to the bearish move.",
+  "market_weight": 0.128,
+  "change_pct": 0.26,
+  "insights": "The Consumer Discretionary sector saw a modest gain of 0.26% today, but key technical indicators suggest a largely neutral market sentiment. The Relative Strength Index (RSI) at 48.21 and Money Flow Index (MFI) at 51.25 both reside near their midpoints, indicating neither overbought nor oversold conditions and a balanced flow of capital, suggesting a lack of strong directional conviction. While the sector was up, the On-Balance Volume (OBV) at -564673, reflecting a net negative volume flow, suggests that this modest price increase was not supported by significant buying pressure and may reflect underlying selling interest outweighing buying interest over the recent period, questioning the sustainability of upward momentum without stronger volume confirmation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765497600000,
-        13.05
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -747,17 +739,17 @@
       [
         1781049600000,
         37.3
+      ],
+      [
+        1781136000000,
+        47.26
+      ],
+      [
+        1781222400000,
+        48.21
       ]
     ],
     "mfi": [
-      [
-        1765497600000,
-        67.48
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1781049600000,
         49.55
+      ],
+      [
+        1781136000000,
+        50.2
+      ],
+      [
+        1781222400000,
+        51.25
       ]
     ],
     "obv": [
-      [
-        1765497600000,
-        29364798.0
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1781049600000,
         -16527150.0
+      ],
+      [
+        1781136000000,
+        -8205263.0
+      ],
+      [
+        1781222400000,
+        -564673.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     2.27,
     1.42,
     -4.97,
-    -1.19,
+    1.51,
     null,
     null,
     null,

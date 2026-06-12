@@ -1,9 +1,9 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector includes companies primarily engaged in the ownership, development, and management of income-producing real estate, predominantly through Equity Real Estate Investment Trusts (REITs) and real estate management and development firms.",
-    "marketSizeUSD": "1.3T",
-    "constituentCount": 30,
+    "description": "The Real Estate sector primarily comprises Equity REITs and other companies involved in the ownership, development, and management of real estate.",
+    "marketSizeUSD": "1.4T",
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "Prologis, Inc.",
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0264,
-  "change_pct": 0.04,
-  "insights": "The Real Estate sector registered a fractional gain of 0.04% today, signaling a quiet but positive trading session. Key technical indicators suggest a controlled increase in buying interest: the Relative Strength Index (RSI) at 59.02 and the Money Flow Index (MFI) at 61.29 both indicate growing money flow into the sector, yet remain below traditional overbought levels, suggesting potential for continued upward momentum without immediate overheating. Furthermore, the substantial On-Balance Volume (OBV) of 172,779,918, alongside the day's positive price movement, reinforces the notion that the modest gain was supported by significant accumulation and buying pressure.",
+  "market_weight": 0.0224,
+  "change_pct": 0.98,
+  "insights": "The Real Estate sector exhibited positive performance today, advancing by 0.98%. This upward movement is supported by key technical indicators; the Relative Strength Index (RSI) at 61.91 suggests growing bullish momentum without yet being overbought, indicating potential for further gains. Concurrently, the Money Flow Index (MFI) at 54.55 reinforces this sentiment, pointing to a net inflow of capital into the sector. The On-Balance Volume (OBV) at 171283739, while a cumulative figure, would have increased today given the price rise, confirming that the sector's positive daily movement was likely driven by genuine buying volume. Overall, the sector demonstrated healthy buying interest and sustained momentum today.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765497600000,
-        44.9
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -747,17 +739,17 @@
       [
         1781049600000,
         59.02
+      ],
+      [
+        1781136000000,
+        58.16
+      ],
+      [
+        1781222400000,
+        61.91
       ]
     ],
     "mfi": [
-      [
-        1765497600000,
-        58.2
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1781049600000,
         61.29
+      ],
+      [
+        1781136000000,
+        54.35
+      ],
+      [
+        1781222400000,
+        54.55
       ]
     ],
     "obv": [
-      [
-        1765497600000,
-        -34301045.0
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1781049600000,
         172779918.0
+      ],
+      [
+        1781136000000,
+        167337403.0
+      ],
+      [
+        1781222400000,
+        171283739.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     3.08,
     -1.28,
     1.61,
-    0.65,
+    1.48,
     null,
     null,
     null,

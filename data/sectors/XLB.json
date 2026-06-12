@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector comprises companies engaged in the discovery, development, and processing of raw materials, including chemicals, construction materials, metals, mining, paper, and forest products.",
-    "marketSizeUSD": "1.5T",
+    "description": "The Materials GICS sector includes companies engaged in discovering, developing, and processing raw materials such as chemicals, construction materials, metals, mining, and paper products.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LIN"
       },
       {
-        "name": "The Sherwin-Williams Company",
+        "name": "Sherwin-Williams Co",
         "symbol": "SHW"
       },
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0305,
-  "change_pct": -2.3,
-  "insights": "The Materials sector experienced a notable decline today, falling 2.30%. The Relative Strength Index (RSI) at 40.58 indicates weakening momentum and increasing selling pressure, though it is not yet in oversold territory, suggesting potential for further downward movement. The Money Flow Index (MFI) at 59.41, however, suggests that money flow isn't excessively bearish despite the price drop, potentially reflecting some underlying support or selective buying amidst the broader downtrend. While the absolute On-Balance Volume (OBV) at 57799456 reflects significant cumulative trading interest over time, without its daily change, it's challenging to precisely interpret the volume pressure accompanying today's specific 2.30% decline.",
+  "market_weight": 0.0272,
+  "change_pct": 1.87,
+  "insights": "The Materials sector demonstrated a strong performance today, advancing by 1.87%. This significant upside move was well-supported by key technical indicators, suggesting healthy underlying momentum. The Relative Strength Index (RSI) at 57.26 and the Money Flow Index (MFI) at 61.96 both indicate solid buying interest and capital inflow into the sector, without reaching overbought conditions that might signal an immediate reversal. Furthermore, the On-Balance Volume (OBV) of 85,075,348 confirms that today's robust price appreciation was accompanied by substantial buying volume, reinforcing the conviction behind the sector's positive daily movement.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765497600000,
-        13.02
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -747,17 +739,17 @@
       [
         1781049600000,
         40.58
+      ],
+      [
+        1781136000000,
+        52.01
+      ],
+      [
+        1781222400000,
+        57.26
       ]
     ],
     "mfi": [
-      [
-        1765497600000,
-        66.99
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1781049600000,
         59.41
+      ],
+      [
+        1781136000000,
+        59.97
+      ],
+      [
+        1781222400000,
+        61.96
       ]
     ],
     "obv": [
-      [
-        1765497600000,
-        -27455464.0
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1781049600000,
         57799456.0
+      ],
+      [
+        1781136000000,
+        70000485.0
+      ],
+      [
+        1781222400000,
+        85075348.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     -0.02,
     1.71,
     -1.02,
-    -2.03,
+    3.06,
     null,
     null,
     null,

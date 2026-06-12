@@ -1,12 +1,12 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector comprises companies involved in banking, investment services, insurance, and other diversified financial activities.",
-    "marketSizeUSD": "4.7T",
+    "description": "The Financials sector comprises companies engaged in banking, diversified financial services, insurance, and real estate, serving individuals, institutions, and governments.",
+    "marketSizeUSD": "5.9T",
     "constituentCount": 68,
     "topHoldings": [
       {
-        "name": "Berkshire Hathaway Inc.",
+        "name": "Berkshire Hathaway Inc. Class B",
         "symbol": "BRK.B"
       },
       {
@@ -14,24 +14,16 @@
         "symbol": "JPM"
       },
       {
-        "name": "Bank of America Corporation",
+        "name": "Bank of America Corp",
         "symbol": "BAC"
       }
     ]
   },
-  "market_weight": 0.0955,
-  "change_pct": -0.44,
-  "insights": "The Financials sector posted a modest decline of -0.44% today, indicating a minor pullback or consolidation rather than a significant sell-off. This movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 56.04 and Money Flow Index (MFI) at 50.98 both reside in neutral-to-slightly-bullish territory, suggesting balanced momentum and money flow without significant overbought or oversold conditions. The robust On-Balance Volume (OBV) at 225,867,020 reflects a history of sustained buying interest, implying that today's fractional loss did not result from substantial selling pressure and the underlying accumulation trend potentially remains intact.",
+  "market_weight": 0.0944,
+  "change_pct": 1.37,
+  "insights": "The Financials sector demonstrated strong performance today, closing with a gain of 1.37%. This upward movement is corroborated by its key technical indicators: the Relative Strength Index (RSI) at 64.94 signals robust buying momentum, approaching overbought conditions but not yet indicative of an immediate reversal. The Money Flow Index (MFI) at 54.62 confirms a healthy inflow of capital into the sector, supporting the price appreciation. Furthermore, a significant On-Balance Volume (OBV) of 317,036,802 suggests sustained accumulation, reinforcing the validity of today's bullish price action with strong underlying volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765497600000,
-        68.09
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -747,17 +739,17 @@
       [
         1781049600000,
         56.04
+      ],
+      [
+        1781136000000,
+        59.48
+      ],
+      [
+        1781222400000,
+        64.94
       ]
     ],
     "mfi": [
-      [
-        1765497600000,
-        83.34
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1781049600000,
         50.98
+      ],
+      [
+        1781136000000,
+        52.14
+      ],
+      [
+        1781222400000,
+        54.62
       ]
     ],
     "obv": [
-      [
-        1765497600000,
-        275725613.0
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1781049600000,
         225867020.0
+      ],
+      [
+        1781136000000,
+        266976330.0
+      ],
+      [
+        1781222400000,
+        317036802.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     1.64,
     -0.69,
     1.4,
-    -0.13,
+    1.99,
     null,
     null,
     null,

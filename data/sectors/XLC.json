@@ -1,37 +1,29 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services GICS sector includes companies involved in telecommunication services, entertainment, interactive media, and other communication-related services.",
-    "marketSizeUSD": "4.5T",
-    "constituentCount": 24,
+    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment content, interactive media, and various communication-related services and products.",
+    "marketSizeUSD": "4.9T",
+    "constituentCount": 21,
     "topHoldings": [
+      {
+        "name": "Alphabet Inc.",
+        "symbol": "GOOGL"
+      },
       {
         "name": "Meta Platforms, Inc.",
         "symbol": "META"
       },
       {
-        "name": "Alphabet Inc. Class A",
-        "symbol": "GOOGL"
-      },
-      {
-        "name": "Alphabet Inc. Class C",
-        "symbol": "GOOG"
+        "name": "Netflix, Inc.",
+        "symbol": "NFLX"
       }
     ]
   },
-  "market_weight": 0.0915,
+  "market_weight": 0.0784,
   "change_pct": -0.42,
-  "insights": "The Communication Services sector registered a modest decline of -0.42% today. The Relative Strength Index (RSI) at 33.32 indicates the sector is nearing oversold territory, reflecting recent downward momentum rather than extreme selling pressure. This sentiment is reinforced by the Money Flow Index (MFI) at 40.76, confirming a net outflow of money from the sector. While the On-Balance Volume (OBV) of 138,671,421 indicates substantial cumulative trading activity, the combined signal from RSI and MFI points to prevailing selling pressure and short-term weakness aligning with today's price drop.",
+  "insights": "The Communication Services sector experienced a modest 0.42% decline today. The Relative Strength Index (RSI) at 38.24 indicates the sector is exhibiting some underlying weakness but is not yet in oversold territory, suggesting potential for further price adjustments. Concurrently, the Money Flow Index (MFI) at 48.47 points to relatively balanced money flow, implying the day's decline wasn't driven by a significant exodus of funds. While the specific daily change in On-Balance Volume (OBV) isn't provided, its current level of 137,189,452 would typically reflect the day's negative price action, generally confirming seller dominance without indicating any strong bullish divergence. Overall, today's movement suggests a slight pullback with mild selling pressure, but without extreme market sentiment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765497600000,
-        59.09
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -747,17 +739,17 @@
       [
         1781049600000,
         33.32
+      ],
+      [
+        1781136000000,
+        39.98
+      ],
+      [
+        1781222400000,
+        38.24
       ]
     ],
     "mfi": [
-      [
-        1765497600000,
-        72.9
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1781049600000,
         40.76
+      ],
+      [
+        1781136000000,
+        41.39
+      ],
+      [
+        1781222400000,
+        48.47
       ]
     ],
     "obv": [
-      [
-        1765497600000,
-        172693978.0
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1781049600000,
         138671421.0
+      ],
+      [
+        1781136000000,
+        144600543.0
+      ],
+      [
+        1781222400000,
+        137189452.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     -0.53,
     0.2,
     -3.47,
-    -0.59,
+    -0.02,
     null,
     null,
     null,

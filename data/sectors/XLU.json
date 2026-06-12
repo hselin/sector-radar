@@ -1,37 +1,29 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector includes companies that generate, transmit, and distribute electricity, natural gas, and water, along with other essential public services.",
+    "description": "The Utilities sector encompasses companies that generate, transmit, and distribute electricity, natural gas, water, and provide other essential public services, often operating as regulated monopolies.",
     "marketSizeUSD": "1.3T",
     "constituentCount": 30,
     "topHoldings": [
       {
-        "name": "NextEra Energy Inc.",
+        "name": "NextEra Energy, Inc.",
         "symbol": "NEE"
-      },
-      {
-        "name": "Southern Company",
-        "symbol": "SO"
       },
       {
         "name": "Duke Energy Corporation",
         "symbol": "DUK"
+      },
+      {
+        "name": "The Southern Company",
+        "symbol": "SO"
       }
     ]
   },
-  "market_weight": 0.0264,
-  "change_pct": 0.05,
-  "insights": "The Utilities sector concluded today with a marginal gain of 0.05%, reflecting a largely stable and quiet trading session. Technically, the Relative Strength Index (RSI) at 44.56 places the sector firmly in neutral territory, indicating neither overbought nor oversold conditions and suggesting balanced momentum. Similarly, the Money Flow Index (MFI) at 54.98 points to a healthy, balanced flow of money into and out of the sector, without a strong directional bias. While the On-Balance Volume (OBV) at 423,322,531 represents significant cumulative buying pressure over time, today's minimal price movement in conjunction with these indicators suggests the sector is currently in a period of consolidation and low volatility, characteristic of its defensive nature, with no immediate strong directional conviction from investors.",
+  "market_weight": 0.0208,
+  "change_pct": 1.09,
+  "insights": "The Utilities sector experienced a positive day, climbing 1.09%. Its RSI of 49.86 indicates the sector remains in a neutral trading zone, with today's move not pushing it into overbought or oversold territory. The MFI at 55.41, coupled with the implied increase in OBV (given the positive price movement), suggests a healthy, albeit not aggressive, inflow of capital supporting the day's gains. Overall, today's performance appears to be a measured upward movement, supported by positive money flow without significant technical overextension, indicating a steady rather than speculative advance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765497600000,
-        6.75
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -747,17 +739,17 @@
       [
         1781049600000,
         44.56
+      ],
+      [
+        1781136000000,
+        45.07
+      ],
+      [
+        1781222400000,
+        49.86
       ]
     ],
     "mfi": [
-      [
-        1765497600000,
-        38.87
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1781049600000,
         54.98
+      ],
+      [
+        1781136000000,
+        55.02
+      ],
+      [
+        1781222400000,
+        55.41
       ]
     ],
     "obv": [
-      [
-        1765497600000,
-        119819799.0
-      ],
-      [
-        1765584000000,
-        null
-      ],
       [
         1765670400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1781049600000,
         423322531.0
+      ],
+      [
+        1781136000000,
+        441678270.0
+      ],
+      [
+        1781222400000,
+        458672293.0
       ]
     ]
   },
@@ -2226,7 +2226,7 @@
     3.37,
     -2.05,
     -0.16,
-    -0.79,
+    0.41,
     null,
     null,
     null,
