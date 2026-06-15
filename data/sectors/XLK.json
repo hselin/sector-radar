@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.24,
-  "change_pct": 0.87,
-  "insights": "The Information Technology sector posted a moderate gain of 0.87% today, with technical indicators suggesting a balanced yet positive underlying trend. The Relative Strength Index (RSI) at 55.79 indicates healthy positive momentum, comfortably above the neutral 50-mark without nearing overbought conditions, implying the sector's rally is sustainable. Similarly, the Money Flow Index (MFI) at 50.81 points to largely neutral money flow, suggesting that today's gains are occurring without extreme buying pressure or significant capital outflow. While the On-Balance Volume (OBV) stands at 465,979,659, its daily trend, which would further confirm volume accompanying price movements, is not discernible from this single data point. Overall, the sector's performance reflects a stable upward movement supported by non-extended technicals.",
+  "change_pct": 3.78,
+  "insights": "The Information Technology sector demonstrated robust performance today, surging by a significant 3.78%. This strong daily gain is well-supported by its key technical indicators: the Relative Strength Index (RSI) at 61.69 indicates solid buying momentum without yet reaching overbought levels, suggesting continued strength. The Money Flow Index (MFI) at 51.04 shows a slight net inflow of capital, consistent with the positive price action, while the On-Balance Volume (OBV) at 479,021,573 reflects substantial cumulative buying pressure, further reinforcing the sector's strong upward movement today.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1765670400000,
-        null
-      ],
-      [
-        1765756800000,
-        12.11
-      ],
-      [
-        1765843200000,
-        12.28
-      ],
       [
         1765929600000,
         11.93
@@ -747,21 +735,21 @@
       [
         1781222400000,
         55.79
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1765670400000,
+        1781308800000,
         null
       ],
       [
-        1765756800000,
-        52.11
+        1781395200000,
+        null
       ],
       [
-        1765843200000,
-        55.88
-      ],
+        1781481600000,
+        61.69
+      ]
+    ],
+    "mfi": [
       [
         1765929600000,
         45.24
@@ -1473,21 +1461,21 @@
       [
         1781222400000,
         50.81
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1765670400000,
+        1781308800000,
         null
       ],
       [
-        1765756800000,
-        245108367.0
+        1781395200000,
+        null
       ],
       [
-        1765843200000,
-        255353783.0
-      ],
+        1781481600000,
+        51.04
+      ]
+    ],
+    "obv": [
       [
         1765929600000,
         237866249.0
@@ -2199,6 +2187,18 @@
       [
         1781222400000,
         465979659.0
+      ],
+      [
+        1781308800000,
+        null
+      ],
+      [
+        1781395200000,
+        null
+      ],
+      [
+        1781481600000,
+        479021573.0
       ]
     ]
   },
@@ -2227,7 +2227,7 @@
     5.89,
     -5.61,
     2.5,
-    null,
+    3.78,
     null,
     null,
     null,
