@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T22:02:35.328476Z",
+  "lastUpdated": "2026-06-16T22:01:34.143329Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States, selected by S&P Dow Jones Indices.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a strong day, registering a significant gain of 1.76%, signaling a decisively positive shift in investor sentiment for the session. Examining key technical indicators, the Relative Strength Index (RSI) at 60.39 suggests healthy bullish momentum, with the market exhibiting strength without yet entering overbought territory, indicating potential for continued upside. The Money Flow Index (MFI) at 52.15, while positive, implies that money is flowing into the market at a steady rather than an extreme or frenzied pace. Finally, the substantial On-Balance Volume (OBV) figure of 1,245,473,644, accompanying this price increase, confirms that the rally was supported by meaningful buying pressure, reinforcing the bullish outlook for the day.",
-    "change_pct": 1.76,
+    "commentary": "Commentary could not be generated due to a persistent network error.",
+    "change_pct": -0.6,
     "technicalIndicators": {
       "rsi": [
-        [
-          1765929600000,
-          43.37
-        ],
         [
           1766016000000,
           48.62
@@ -747,13 +743,13 @@
         [
           1781481600000,
           60.39
+        ],
+        [
+          1781568000000,
+          57.05
         ]
       ],
       "mfi": [
-        [
-          1765929600000,
-          44.21
-        ],
         [
           1766016000000,
           47.52
@@ -1473,13 +1469,13 @@
         [
           1781481600000,
           52.15
+        ],
+        [
+          1781568000000,
+          50.76
         ]
       ],
       "obv": [
-        [
-          1765929600000,
-          934140610.0
-        ],
         [
           1766016000000,
           1033790294.0
@@ -2199,6 +2195,10 @@
         [
           1781481600000,
           1245473644.0
+        ],
+        [
+          1781568000000,
+          1184159107.0
         ]
       ]
     },
@@ -2227,7 +2227,7 @@
       1.45,
       -2.5,
       0.57,
-      1.76,
+      1.16,
       null,
       null,
       null,
