@@ -1,33 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies that manufacture capital goods, provide commercial and professional services, and engage in various forms of transportation.",
-    "marketSizeUSD": "4.5T",
-    "constituentCount": 72,
+    "description": "The Industrials sector comprises companies involved in aerospace and defense, industrial machinery, construction, engineering, commercial services, and transportation infrastructure.",
+    "marketSizeUSD": "3.5T",
+    "constituentCount": 71,
     "topHoldings": [
       {
         "name": "GE Aerospace",
         "symbol": "GE"
       },
       {
-        "name": "RTX Corporation",
-        "symbol": "RTX"
-      },
-      {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
+      },
+      {
+        "name": "RTX Corporation",
+        "symbol": "RTX"
       }
     ]
   },
-  "market_weight": 0.072,
-  "change_pct": 0.65,
-  "insights": "The Industrials sector posted a modest but resilient 0.65% gain today, with its technical indicators reflecting a healthy underlying momentum. The Relative Strength Index (RSI) at 61.63 suggests bullish sentiment and strong momentum, without yet indicating an overbought condition, implying potential for further upside. Concurrently, the Money Flow Index (MFI) at 57.05 confirms positive money flow into the sector, validating the price appreciation with genuine buying interest. Furthermore, the robust On-Balance Volume (OBV) of 164,544,422 reinforces sustained accumulation and strong investor participation supporting the daily movement, rather than just a fleeting rally.",
+  "market_weight": 0.0574,
+  "change_pct": -0.14,
+  "insights": "The Industrials sector saw a marginal decline of -0.14% today, suggesting a period of slight consolidation rather than a strong directional shift. Despite this minor dip, key technical indicators point to persistent underlying strength: the Relative Strength Index (RSI) at 61.01 and Money Flow Index (MFI) at 64.72 both remain comfortably in bullish territory (above 50), indicating healthy momentum and continued money flow into the sector without being overbought. The substantial On-Balance Volume (OBV) of 154,111,889 further supports sustained investor interest and accumulation, suggesting that today's small price pullback was likely met with buying activity rather than significant distribution.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766016000000,
-        51.42
-      ],
       [
         1766102400000,
         55.36
@@ -747,13 +743,13 @@
       [
         1781568000000,
         61.63
+      ],
+      [
+        1781654400000,
+        61.01
       ]
     ],
     "mfi": [
-      [
-        1766016000000,
-        52.84
-      ],
       [
         1766102400000,
         59.28
@@ -1473,13 +1469,13 @@
       [
         1781568000000,
         57.05
+      ],
+      [
+        1781654400000,
+        64.72
       ]
     ],
     "obv": [
-      [
-        1766016000000,
-        69366343.0
-      ],
       [
         1766102400000,
         75917383.0
@@ -2199,6 +2195,10 @@
       [
         1781568000000,
         164544422.0
+      ],
+      [
+        1781654400000,
+        154111889.0
       ]
     ]
   },
@@ -2227,7 +2227,7 @@
     0.79,
     0.61,
     1.15,
-    2.08,
+    1.94,
     null,
     null,
     null,

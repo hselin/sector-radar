@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises companies that offer software and services, semiconductors, technology hardware, storage, and peripherals, as well as communications equipment.",
-    "marketSizeUSD": "15.0T",
-    "constituentCount": 68,
+    "description": "The Information Technology GICS sector encompasses companies primarily engaged in the production of software, hardware, and semiconductors, as well as providing IT consulting and data processing services.",
+    "marketSizeUSD": "14.5T",
+    "constituentCount": 66,
     "topHoldings": [
-      {
-        "name": "Apple Inc.",
-        "symbol": "AAPL"
-      },
       {
         "name": "Microsoft Corp.",
         "symbol": "MSFT"
+      },
+      {
+        "name": "Apple Inc.",
+        "symbol": "AAPL"
       },
       {
         "name": "NVIDIA Corp.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.24,
-  "change_pct": -2.79,
-  "insights": "The Information Technology sector experienced a notable decline of -2.79% today, indicating a day of profit-taking or increased selling pressure. Despite this significant daily drop, key momentum indicators like the Relative Strength Index (RSI) at 55.58 and Money Flow Index (MFI) at 51.52 remain in neutral territory, slightly above their midpoints. This suggests that while today saw substantial selling, the sector is not yet signaling deeply oversold conditions or a massive, sustained outflow of money from a broader perspective, potentially indicating the decline could be a short-term pullback rather than a deeper, entrenched downtrend. The On-Balance Volume (OBV) would have decreased today, confirming that selling volume accompanied the price movement.",
+  "market_weight": 0.2377,
+  "change_pct": -0.34,
+  "insights": "The Information Technology sector experienced a modest decline today, posting a -0.34% change. Technical indicators suggest a largely neutral market posture; the Relative Strength Index (RSI) at 54.88 indicates the sector is neither overbought nor oversold, residing near the midpoint. Similarly, the Money Flow Index (MFI) at 45.94 points to balanced money flow, with a slight lean towards outflows consistent with the daily dip. The On-Balance Volume (OBV) at 454,722,777, a cumulative measure, remains significantly positive, implying that despite today's minor pullback, long-term buying pressure has robustly outweighed selling pressure, suggesting the day's decline was not accompanied by strong selling conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766016000000,
-        13.75
-      ],
       [
         1766102400000,
         16.38
@@ -747,13 +743,13 @@
       [
         1781568000000,
         55.58
+      ],
+      [
+        1781654400000,
+        54.88
       ]
     ],
     "mfi": [
-      [
-        1766016000000,
-        47.07
-      ],
       [
         1766102400000,
         47.19
@@ -1473,13 +1469,13 @@
       [
         1781568000000,
         51.52
+      ],
+      [
+        1781654400000,
+        45.94
       ]
     ],
     "obv": [
-      [
-        1766016000000,
-        249619073.0
-      ],
       [
         1766102400000,
         261910988.0
@@ -2199,6 +2195,10 @@
       [
         1781568000000,
         469095213.0
+      ],
+      [
+        1781654400000,
+        454722777.0
       ]
     ]
   },
@@ -2227,7 +2227,7 @@
     5.89,
     -5.61,
     2.5,
-    0.89,
+    0.54,
     null,
     null,
     null,
