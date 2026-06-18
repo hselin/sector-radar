@@ -1,12 +1,12 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector comprises companies engaged in banking, diversified financial services, insurance, and real estate, serving individuals, institutions, and governments.",
-    "marketSizeUSD": "5.9T",
+    "description": "The Financials sector includes companies engaged in banking, diversified financial services, insurance, and real estate activities.",
+    "marketSizeUSD": "4.8T",
     "constituentCount": 68,
     "topHoldings": [
       {
-        "name": "Berkshire Hathaway Inc. Class B",
+        "name": "Berkshire Hathaway Inc.",
         "symbol": "BRK.B"
       },
       {
@@ -14,20 +14,16 @@
         "symbol": "JPM"
       },
       {
-        "name": "Bank of America Corp",
+        "name": "Bank of America Corp.",
         "symbol": "BAC"
       }
     ]
   },
-  "market_weight": 0.0967,
-  "change_pct": -0.55,
-  "insights": "The Financials sector experienced a modest daily decline of -0.55% today. Despite this slight dip, key technical indicators suggest resilient underlying strength and continued investor interest. The Relative Strength Index (RSI) at 67.28 and the Money Flow Index (MFI) at 75.33 both indicate significant recent buying pressure, positioning the sector near overbought conditions. This strong capital inflow is further corroborated by a robust On-Balance Volume (OBV) of 342,429,442, suggesting that buyers continue to accumulate shares despite today's minor pullback. Overall, today's marginal negative movement appears to be a minor consolidation within a broader trend of strong investor engagement.",
+  "market_weight": 0.0804,
+  "change_pct": -0.89,
+  "insights": "The Financials sector saw a modest decline of -0.89% today, yet its key technical indicators suggest underlying strength. The Relative Strength Index (RSI) at 61.50 and Money Flow Index (MFI) at 68.70 both indicate continued bullish momentum and sustained buying interest, with money still actively flowing into the sector, approaching overbought conditions. Furthermore, the high On-Balance Volume (OBV) of 305,029,857 signals significant accumulation and buying pressure over time, suggesting today's dip might be a minor pullback within a broader, more positive trend rather than a reversal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766102400000,
-        64.6
-      ],
       [
         1766188800000,
         null
@@ -747,13 +743,13 @@
       [
         1781654400000,
         67.28
+      ],
+      [
+        1781740800000,
+        61.5
       ]
     ],
     "mfi": [
-      [
-        1766102400000,
-        76.2
-      ],
       [
         1766188800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1781654400000,
         75.33
+      ],
+      [
+        1781740800000,
+        68.7
       ]
     ],
     "obv": [
-      [
-        1766102400000,
-        283771504.0
-      ],
       [
         1766188800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1781654400000,
         342429442.0
+      ],
+      [
+        1781740800000,
+        305029857.0
       ]
     ]
   },
@@ -2227,7 +2227,7 @@
     -0.69,
     1.4,
     1.99,
-    1.33,
+    0.43,
     null,
     null,
     null,

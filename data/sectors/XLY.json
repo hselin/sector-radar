@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, which consumers purchase with their disposable income, including retailers, auto manufacturers, hotels, restaurants, and entertainment services.",
-    "marketSizeUSD": "8.0T",
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, which consumers purchase when they have disposable income.",
+    "marketSizeUSD": "$7.0T",
     "constituentCount": 55,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1311,
-  "change_pct": -2.51,
-  "insights": "The Consumer Discretionary sector experienced a notable decline of -2.51% today, signaling broad-based weakness. This downward movement is corroborated by key technical indicators: the Relative Strength Index (RSI) at 44.90 suggests weakening upward momentum, trending towards oversold conditions but still with room for further decline. Crucially, the Money Flow Index (MFI) at 34.72 indicates significant capital outflow from the sector, reinforcing the bearish sentiment. Further confirmation comes from the large negative On-Balance Volume (OBV) of -8,550,149, which points to substantial selling pressure accompanying today's price drop. Collectively, these metrics suggest the sector's decline was driven by active distribution and waning investor confidence.",
+  "market_weight": 0.1173,
+  "change_pct": 1.45,
+  "insights": "The Consumer Discretionary sector posted a solid 1.45% gain today, however, key technical indicators suggest a nuanced outlook. The RSI at 49.86 signals neutral momentum, neither overbought nor oversold. The MFI at 42.00, below the 50-mark, indicates that money flow, while not bearish, remains somewhat subdued despite the price advance. Furthermore, the significantly negative OBV of -289873 suggests that, over a broader period, cumulative selling volume has generally outweighed buying volume, implying today's positive movement may not be supported by robust, broad-based buying conviction just yet.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766102400000,
-        15.73
-      ],
       [
         1766188800000,
         null
@@ -747,13 +743,13 @@
       [
         1781654400000,
         44.9
+      ],
+      [
+        1781740800000,
+        49.86
       ]
     ],
     "mfi": [
-      [
-        1766102400000,
-        44.78
-      ],
       [
         1766188800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1781654400000,
         34.72
+      ],
+      [
+        1781740800000,
+        42.0
       ]
     ],
     "obv": [
-      [
-        1766102400000,
-        44784381.0
-      ],
       [
         1766188800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1781654400000,
         -8550149.0
+      ],
+      [
+        1781740800000,
+        -289873.0
       ]
     ]
   },
@@ -2227,7 +2227,7 @@
     1.42,
     -4.97,
     1.51,
-    -0.95,
+    0.48,
     null,
     null,
     null,

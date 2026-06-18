@@ -1,9 +1,9 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector primarily comprises Equity REITs and other companies involved in the ownership, development, and management of real estate.",
-    "marketSizeUSD": "1.4T",
-    "constituentCount": 31,
+    "description": "The Real Estate GICS sector encompasses companies that own, develop, and manage income-generating real estate properties, primarily including Equity Real Estate Investment Trusts (REITs) and other real estate management and development companies.",
+    "marketSizeUSD": "1.5T",
+    "constituentCount": 32,
     "topHoldings": [
       {
         "name": "Prologis, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.023,
-  "change_pct": -2.51,
-  "insights": "Today, the Real Estate sector experienced a notable downturn, shedding 2.51% of its value. This decline is corroborated by key technical indicators: the Relative Strength Index (RSI) at 46.27, while not yet in oversold territory, indicates weakening momentum and a lack of strong buying interest, pushing it below the neutral 50-mark. Similarly, the Money Flow Index (MFI) at 43.14 reinforces this sentiment, suggesting a net outflow of capital from the sector. The On-Balance Volume (OBV) at 158,447,236 reflects cumulative buying and selling pressure; for today's significant drop, a corresponding decrease in OBV would confirm that the selling was on robust volume, further solidifying the bearish outlook for the sector in the short term.",
+  "market_weight": 0.0251,
+  "change_pct": -0.25,
+  "insights": "The Real Estate sector registered a marginal decline of -0.25% today, indicating a day of mild weakness without strong directional conviction. Technical indicators support this neutral-to-slightly-bearish sentiment: the Relative Strength Index (RSI) at 45.29 and the Money Flow Index (MFI) at 43.59 are both in neutral territory, leaning slightly below the 50-mark, suggesting minor selling pressure but well above oversold conditions. The On-Balance Volume (OBV) at 152,719,238 reflects the cumulative buying and selling pressure, consistent with a minor price adjustment rather than a significant shift in the sector's underlying trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766102400000,
-        39.96
-      ],
       [
         1766188800000,
         null
@@ -747,13 +743,13 @@
       [
         1781654400000,
         46.27
+      ],
+      [
+        1781740800000,
+        45.29
       ]
     ],
     "mfi": [
-      [
-        1766102400000,
-        45.31
-      ],
       [
         1766188800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1781654400000,
         43.14
+      ],
+      [
+        1781740800000,
+        43.59
       ]
     ],
     "obv": [
-      [
-        1766102400000,
-        -42998957.0
-      ],
       [
         1766188800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1781654400000,
         158447236.0
+      ],
+      [
+        1781740800000,
+        152719238.0
       ]
     ]
   },
@@ -2227,7 +2227,7 @@
     -1.28,
     1.61,
     1.48,
-    -3.06,
+    -3.31,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "The Communication Services sector includes companies that provide telecommunication services, entertainment content, interactive media, and various communication-related services and products.",
-    "marketSizeUSD": "4.9T",
-    "constituentCount": 21,
+    "description": "This sector encompasses companies involved in telecommunication services, media, entertainment, and interactive media, providing content and communication pathways.",
+    "marketSizeUSD": "4.5T",
+    "constituentCount": 27,
     "topHoldings": [
       {
         "name": "Alphabet Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0803,
-  "change_pct": -2.78,
-  "insights": "The Communication Services sector experienced a notable downturn today, declining by -2.78%. This sharp decline pushed its Relative Strength Index (RSI) to 31.51, signaling the sector is approaching oversold territory and reflecting significant bearish momentum. Further confirming this selling pressure, the Money Flow Index (MFI) registered 39.98, indicating a clear outflow of capital from the sector. While the On-Balance Volume (OBV) stands at 142,280,653, its level in conjunction with the MFI suggests that this significant daily move was largely supported by selling volume. Collectively, these technical indicators highlight a broad-based weakness and strong negative sentiment driving today's performance.",
+  "market_weight": 0.0754,
+  "change_pct": 0.23,
+  "insights": "The Communication Services sector registered a modest gain of 0.23% today. However, key technical indicators suggest underlying weakness despite this slight positive movement. The Relative Strength Index (RSI) at 32.97 and Money Flow Index (MFI) at 37.28 are both nearing oversold conditions, indicating recent sustained selling pressure and a prevailing outflow of money from the sector. While the On-Balance Volume (OBV) at 153918956 reflects the cumulative buying/selling pressure, its context alongside the low RSI and MFI suggests that today's marginal positive performance may lack strong conviction or broad buying interest, pointing to a potential short-term bottoming process rather than a robust rebound.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766102400000,
-        57.46
-      ],
       [
         1766188800000,
         null
@@ -747,13 +743,13 @@
       [
         1781654400000,
         31.51
+      ],
+      [
+        1781740800000,
+        32.97
       ]
     ],
     "mfi": [
-      [
-        1766102400000,
-        63.6
-      ],
       [
         1766188800000,
         null
@@ -1473,13 +1469,13 @@
       [
         1781654400000,
         39.98
+      ],
+      [
+        1781740800000,
+        37.28
       ]
     ],
     "obv": [
-      [
-        1766102400000,
-        187048317.0
-      ],
       [
         1766188800000,
         null
@@ -2199,6 +2195,10 @@
       [
         1781654400000,
         142280653.0
+      ],
+      [
+        1781740800000,
+        153918956.0
       ]
     ]
   },
@@ -2227,7 +2227,7 @@
     0.2,
     -3.47,
     -0.02,
-    -2.19,
+    -1.97,
     null,
     null,
     null,

@@ -1,15 +1,29 @@
 {
-  "lastUpdated": "2026-06-17T21:49:53.463288Z",
+  "lastUpdated": "2026-06-18T21:54:27.553385Z",
   "overallMarket": {
-    "profile": null,
-    "commentary": "The broader market experienced a notable decline today, falling 1.25%, indicating a clear bearish sentiment. The Relative Strength Index (RSI) hovering just above 50 (at 50.74) suggests short-term momentum is neutral despite the downturn, not yet signaling deeply oversold conditions. Similarly, the Money Flow Index (MFI) at 43.39 confirms a prevalence of selling pressure, as money is flowing out, though it hasn't reached extreme oversold levels either. The significant On-Balance Volume (OBV) figure (1,099,108,035) reflects substantial cumulative trading activity, and on a down day like today, likely indicates that selling volume dominated buying volume, reinforcing the negative sentiment. Collectively, these indicators suggest the market is experiencing moderate selling pressure and a bearish sentiment, consistent with today's decline, implying potential for continued choppiness or further downside in the near term without immediate signals of a strong rebound from deeply oversold levels.",
-    "change_pct": -1.25,
+    "profile": {
+      "description": "The S&P 500 is a market-capitalization-weighted index comprising 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "48T",
+      "constituentCount": 503,
+      "topHoldings": [
+        {
+          "name": "Microsoft Corporation",
+          "symbol": "MSFT"
+        },
+        {
+          "name": "Apple Inc.",
+          "symbol": "AAPL"
+        },
+        {
+          "name": "NVIDIA Corporation",
+          "symbol": "NVDA"
+        }
+      ]
+    },
+    "commentary": "The stock market closed with a modest but positive 0.78% gain today, signaling a generally favorable session. Technical indicators present a mixed but cautiously optimistic sentiment: the Relative Strength Index (RSI) at 54.11 suggests slightly positive momentum without entering overbought territory, indicating potential for continued stability or further upside. Conversely, the Money Flow Index (MFI) at 44.26, being below the 50-mark, hints that the capital flowing into the market may not be as robust as the price action implies, potentially suggesting a lack of broad-based conviction or that the rally was not driven by significant new money inflows. The On-Balance Volume (OBV) at 1166973654, while a cumulative measure whose trend is key, would ideally show an upward trajectory to confirm the price advance with strong volume. Overall, while prices moved higher, the underlying money flow metrics suggest a rally that warrants careful monitoring for sustained conviction.",
+    "change_pct": 0.78,
     "technicalIndicators": {
       "rsi": [
-        [
-          1766102400000,
-          52.44
-        ],
         [
           1766188800000,
           null
@@ -729,13 +743,13 @@
         [
           1781654400000,
           50.74
+        ],
+        [
+          1781740800000,
+          54.11
         ]
       ],
       "mfi": [
-        [
-          1766102400000,
-          54.58
-        ],
         [
           1766188800000,
           null
@@ -1455,13 +1469,13 @@
         [
           1781654400000,
           43.39
+        ],
+        [
+          1781740800000,
+          44.26
         ]
       ],
       "obv": [
-        [
-          1766102400000,
-          1122305590.0
-        ],
         [
           1766188800000,
           null
@@ -2181,6 +2195,10 @@
         [
           1781654400000,
           1099108035.0
+        ],
+        [
+          1781740800000,
+          1166973654.0
         ]
       ]
     },
@@ -2209,7 +2227,7 @@
       1.45,
       -2.5,
       0.57,
-      -0.11,
+      0.67,
       null,
       null,
       null,
