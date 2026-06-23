@@ -1,17 +1,17 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that manufacture and sell essential products and services that people consistently need, regardless of economic conditions.",
+    "description": "The Consumer Staples GICS sector comprises companies that manufacture and sell essential products and services, such as food, beverages, tobacco, household goods, and personal care items, which consumers purchase regularly regardless of economic conditions.",
     "marketSizeUSD": "3.8T",
-    "constituentCount": 34,
+    "constituentCount": 38,
     "topHoldings": [
-      {
-        "name": "Walmart Inc.",
-        "symbol": "WMT"
-      },
       {
         "name": "Procter & Gamble Co.",
         "symbol": "PG"
+      },
+      {
+        "name": "PepsiCo, Inc.",
+        "symbol": "PEP"
       },
       {
         "name": "The Coca-Cola Company",
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0751,
-  "change_pct": -0.45,
-  "insights": "The Consumer Staples sector experienced a modest decline today, falling 0.45%. This slight downward movement is mirrored by the Relative Strength Index (RSI) at 45.55, indicating mild bearish momentum but remaining in a relatively neutral zone, not signaling oversold conditions. However, the Money Flow Index (MFI) at 55.70 suggests ongoing, albeit moderate, capital inflow into the sector, potentially indicating underlying buying interest despite the day's price dip. The On-Balance Volume (OBV) registers a positive cumulative total at 50,577,072, suggesting more volume on up days over time, though its daily change would be needed for a more precise short-term volume-driven insight into today's specific price-volume action.",
+  "market_weight": 0.0766,
+  "change_pct": 1.87,
+  "insights": "The Consumer Staples sector experienced a robust day, gaining 1.87%. This strong upward movement was supported by significant buying pressure, as indicated by the Money Flow Index (MFI) at 66.98, suggesting substantial capital inflow into the sector. The On-Balance Volume (OBV) at 54946277 further reflects the accumulation of volume behind this price appreciation. Despite today's strong rally, the Relative Strength Index (RSI) at 48.98 suggests the sector is not yet in overbought territory, indicating that momentum is strengthening but not immediately stretched.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766188800000,
-        null
-      ],
-      [
-        1766275200000,
-        null
-      ],
-      [
-        1766361600000,
-        45.05
-      ],
-      [
-        1766448000000,
-        42.41
-      ],
-      [
-        1766534400000,
-        47.92
-      ],
       [
         1766620800000,
         null
@@ -747,29 +727,29 @@
       [
         1781740800000,
         45.55
+      ],
+      [
+        1781827200000,
+        null
+      ],
+      [
+        1781913600000,
+        null
+      ],
+      [
+        1782000000000,
+        null
+      ],
+      [
+        1782086400000,
+        40.35
+      ],
+      [
+        1782172800000,
+        48.98
       ]
     ],
     "mfi": [
-      [
-        1766188800000,
-        null
-      ],
-      [
-        1766275200000,
-        null
-      ],
-      [
-        1766361600000,
-        59.86
-      ],
-      [
-        1766448000000,
-        54.06
-      ],
-      [
-        1766534400000,
-        59.81
-      ],
       [
         1766620800000,
         null
@@ -1473,29 +1453,29 @@
       [
         1781740800000,
         55.7
+      ],
+      [
+        1781827200000,
+        null
+      ],
+      [
+        1781913600000,
+        null
+      ],
+      [
+        1782000000000,
+        null
+      ],
+      [
+        1782086400000,
+        58.58
+      ],
+      [
+        1782172800000,
+        66.98
       ]
     ],
     "obv": [
-      [
-        1766188800000,
-        null
-      ],
-      [
-        1766275200000,
-        null
-      ],
-      [
-        1766361600000,
-        12223039.0
-      ],
-      [
-        1766448000000,
-        5297213.0
-      ],
-      [
-        1766534400000,
-        9688074.0
-      ],
       [
         1766620800000,
         null
@@ -2199,6 +2179,26 @@
       [
         1781740800000,
         50577072.0
+      ],
+      [
+        1781827200000,
+        null
+      ],
+      [
+        1781913600000,
+        null
+      ],
+      [
+        1782000000000,
+        null
+      ],
+      [
+        1782086400000,
+        40175455.0
+      ],
+      [
+        1782172800000,
+        54946277.0
       ]
     ]
   },
@@ -2228,7 +2228,7 @@
     0.64,
     2.85,
     -2.94,
-    null,
+    0.5,
     null,
     null,
     null,

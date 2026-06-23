@@ -1,49 +1,29 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector comprises companies involved in providing medical services, manufacturing medical equipment or drugs, and developing biotechnology, aiming to improve health outcomes and well-being.",
-    "marketSizeUSD": "5.9T",
-    "constituentCount": 64,
+    "description": "The Health Care sector encompasses companies that provide medical services, manufacture pharmaceuticals and medical equipment, or offer other health-related products and services.",
+    "marketSizeUSD": "4.8T",
+    "constituentCount": 66,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Incorporated",
-        "symbol": "UNH"
-      },
-      {
         "name": "Johnson & Johnson",
         "symbol": "JNJ"
+      },
+      {
+        "name": "UnitedHealth Group Incorporated",
+        "symbol": "UNH"
       }
     ]
   },
-  "market_weight": 0.1166,
-  "change_pct": -0.87,
-  "insights": "The Health Care sector experienced a modest decline of -0.87% today, signaling slight negative sentiment. Key technical indicators reflect this cautious performance: both the RSI at 47.71 and MFI at 47.15 hover around neutral levels, indicating the sector is neither significantly overbought nor oversold, with money flow appearing relatively balanced despite today's dip. However, the significantly negative On-Balance Volume (OBV) of -78,728,206 suggests that selling pressure, particularly on a volume-weighted basis, has persistently outweighed buying pressure, reinforcing the observed downward price movement and indicating a continued struggle for upward momentum.",
+  "market_weight": 0.0968,
+  "change_pct": 1.41,
+  "insights": "The Health Care sector demonstrated a positive performance today, advancing 1.41%. Its Relative Strength Index (RSI) at 55.68 suggests healthy upward momentum, indicating present buying interest without the sector being overbought. This is further supported by the Money Flow Index (MFI) at 61.06, which points to sustained capital inflow corroborating the price appreciation. While the On-Balance Volume (OBV) at -58,109,748 reflects a historical tendency of net distribution, today's move, backed by strong RSI and MFI, indicates a short-term positive shift in investor sentiment and momentum within the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766188800000,
-        null
-      ],
-      [
-        1766275200000,
-        null
-      ],
-      [
-        1766361600000,
-        58.41
-      ],
-      [
-        1766448000000,
-        57.23
-      ],
-      [
-        1766534400000,
-        59.67
-      ],
       [
         1766620800000,
         null
@@ -747,29 +727,29 @@
       [
         1781740800000,
         47.71
+      ],
+      [
+        1781827200000,
+        null
+      ],
+      [
+        1781913600000,
+        null
+      ],
+      [
+        1782000000000,
+        null
+      ],
+      [
+        1782086400000,
+        49.74
+      ],
+      [
+        1782172800000,
+        55.68
       ]
     ],
     "mfi": [
-      [
-        1766188800000,
-        null
-      ],
-      [
-        1766275200000,
-        null
-      ],
-      [
-        1766361600000,
-        54.51
-      ],
-      [
-        1766448000000,
-        53.0
-      ],
-      [
-        1766534400000,
-        58.85
-      ],
       [
         1766620800000,
         null
@@ -1473,29 +1453,29 @@
       [
         1781740800000,
         47.15
+      ],
+      [
+        1781827200000,
+        null
+      ],
+      [
+        1781913600000,
+        null
+      ],
+      [
+        1782000000000,
+        null
+      ],
+      [
+        1782086400000,
+        54.45
+      ],
+      [
+        1782172800000,
+        61.06
       ]
     ],
     "obv": [
-      [
-        1766188800000,
-        null
-      ],
-      [
-        1766275200000,
-        null
-      ],
-      [
-        1766361600000,
-        147581141.0
-      ],
-      [
-        1766448000000,
-        140512900.0
-      ],
-      [
-        1766534400000,
-        143587586.0
-      ],
       [
         1766620800000,
         null
@@ -2199,6 +2179,26 @@
       [
         1781740800000,
         -78728206.0
+      ],
+      [
+        1781827200000,
+        null
+      ],
+      [
+        1781913600000,
+        null
+      ],
+      [
+        1782000000000,
+        null
+      ],
+      [
+        1782086400000,
+        -67319150.0
+      ],
+      [
+        1782172800000,
+        -58109748.0
       ]
     ]
   },
@@ -2228,7 +2228,7 @@
     2.37,
     0.52,
     -2.87,
-    null,
+    1.86,
     null,
     null,
     null,

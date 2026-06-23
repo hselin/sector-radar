@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-21T21:37:18.054800Z",
+  "lastUpdated": "2026-06-23T21:45:41.799017Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index comprising 500 of the largest publicly traded companies in the United States.",
@@ -20,30 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a positive session, closing up 0.78%. Technical indicators suggest a somewhat mixed picture regarding underlying sentiment and momentum. The Relative Strength Index (RSI) at 54.11 hovers in neutral territory, indicating balanced buying and selling pressure without extremes. However, the Money Flow Index (MFI) at 44.26, below 50, suggests that while prices rose, the buying interest might not have been exceptionally strong or widely distributed across all trading volume, potentially hinting at less conviction in the day's advance. The On-Balance Volume (OBV) at 1,166,973,654, a cumulative measure of buying and selling pressure, generally reinforces price trends; on a positive day, a stable or rising OBV would typically confirm net buying volume, supporting the uptick. In summary, while the market advanced, the MFI prompts a cautious view on the underlying strength of the buying momentum, despite the positive close.",
-    "change_pct": 0.78,
+    "commentary": "The overall stock market experienced a notable decline today, closing down -1.45%, signaling a day dominated by selling pressure. Key technical indicators reinforce this bearish sentiment and weakening momentum. The Relative Strength Index (RSI) at 45.92, while not yet in oversold territory, indicates that momentum is clearly trending lower, moving away from bullish strength. More significantly, the Money Flow Index (MFI) at 34.47 suggests a considerable outflow of capital from the market, highlighting a distinct lack of buying interest and persistent selling pressure. While the On-Balance Volume (OBV) at 1,055,134,728 represents significant cumulative volume, the combination of today's price action and the other indicators strongly suggests that volume accompanied the day's decline, reinforcing the current bearish shift in market sentiment and momentum towards a more cautious, if not outright negative, outlook.",
+    "change_pct": -1.45,
     "technicalIndicators": {
       "rsi": [
-        [
-          1766188800000,
-          null
-        ],
-        [
-          1766275200000,
-          null
-        ],
-        [
-          1766361600000,
-          56.25
-        ],
-        [
-          1766448000000,
-          58.77
-        ],
-        [
-          1766534400000,
-          60.69
-        ],
         [
           1766620800000,
           null
@@ -747,29 +727,29 @@
         [
           1781740800000,
           54.11
+        ],
+        [
+          1781827200000,
+          null
+        ],
+        [
+          1781913600000,
+          null
+        ],
+        [
+          1782000000000,
+          null
+        ],
+        [
+          1782086400000,
+          52.54
+        ],
+        [
+          1782172800000,
+          45.92
         ]
       ],
       "mfi": [
-        [
-          1766188800000,
-          null
-        ],
-        [
-          1766275200000,
-          null
-        ],
-        [
-          1766361600000,
-          55.17
-        ],
-        [
-          1766448000000,
-          55.37
-        ],
-        [
-          1766534400000,
-          54.59
-        ],
         [
           1766620800000,
           null
@@ -1473,29 +1453,29 @@
         [
           1781740800000,
           44.26
+        ],
+        [
+          1781827200000,
+          null
+        ],
+        [
+          1781913600000,
+          null
+        ],
+        [
+          1782000000000,
+          null
+        ],
+        [
+          1782086400000,
+          39.23
+        ],
+        [
+          1782172800000,
+          34.47
         ]
       ],
       "obv": [
-        [
-          1766188800000,
-          null
-        ],
-        [
-          1766275200000,
-          null
-        ],
-        [
-          1766361600000,
-          1191862290.0
-        ],
-        [
-          1766448000000,
-          1248060480.0
-        ],
-        [
-          1766534400000,
-          1287058740.0
-        ],
         [
           1766620800000,
           null
@@ -2199,6 +2179,26 @@
         [
           1781740800000,
           1166973654.0
+        ],
+        [
+          1781827200000,
+          null
+        ],
+        [
+          1781913600000,
+          null
+        ],
+        [
+          1782000000000,
+          null
+        ],
+        [
+          1782086400000,
+          1120345554.0
+        ],
+        [
+          1782172800000,
+          1055134728.0
         ]
       ]
     },
@@ -2228,7 +2228,7 @@
       -2.5,
       0.57,
       0.67,
-      null,
+      -1.76,
       null,
       null,
       null,
