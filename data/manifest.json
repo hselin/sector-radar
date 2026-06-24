@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T21:45:41.799017Z",
+  "lastUpdated": "2026-06-24T21:41:36.207935Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index comprising 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The overall stock market experienced a notable decline today, closing down -1.45%, signaling a day dominated by selling pressure. Key technical indicators reinforce this bearish sentiment and weakening momentum. The Relative Strength Index (RSI) at 45.92, while not yet in oversold territory, indicates that momentum is clearly trending lower, moving away from bullish strength. More significantly, the Money Flow Index (MFI) at 34.47 suggests a considerable outflow of capital from the market, highlighting a distinct lack of buying interest and persistent selling pressure. While the On-Balance Volume (OBV) at 1,055,134,728 represents significant cumulative volume, the combination of today's price action and the other indicators strongly suggests that volume accompanied the day's decline, reinforcing the current bearish shift in market sentiment and momentum towards a more cautious, if not outright negative, outlook.",
-    "change_pct": -1.45,
+    "commentary": "The stock market closed today with a marginal decline of -0.05%, indicating an essentially flat trading session without strong directional conviction. Technical indicators suggest a cautious and consolidating sentiment: the Relative Strength Index (RSI) at 45.73 sits in the neutral zone, signaling neither overbought nor oversold conditions, and a current lack of strong momentum in either direction. More notably, the Money Flow Index (MFI) at 34.46, while not in oversold territory, leans towards the lower end of its neutral range, suggesting subdued buying interest and a potential net outflow of capital from the market. Despite this immediate weakness, the robust On-Balance Volume (OBV) at 1,009,785,705 reflects substantial cumulative buying pressure over the longer term, yet the current MFI reading implies that recent momentum is wavering, pointing towards a period of mild apprehension and consolidation among investors.",
+    "change_pct": -0.05,
     "technicalIndicators": {
       "rsi": [
-        [
-          1766620800000,
-          null
-        ],
         [
           1766707200000,
           60.52
@@ -747,13 +743,13 @@
         [
           1782172800000,
           45.92
+        ],
+        [
+          1782259200000,
+          45.73
         ]
       ],
       "mfi": [
-        [
-          1766620800000,
-          null
-        ],
         [
           1766707200000,
           53.83
@@ -1473,13 +1469,13 @@
         [
           1782172800000,
           34.47
+        ],
+        [
+          1782259200000,
+          34.46
         ]
       ],
       "obv": [
-        [
-          1766620800000,
-          null
-        ],
         [
           1766707200000,
           1248420819.0
@@ -2199,6 +2195,10 @@
         [
           1782172800000,
           1055134728.0
+        ],
+        [
+          1782259200000,
+          1009785705.0
         ]
       ]
     },
@@ -2228,7 +2228,7 @@
       -2.5,
       0.57,
       0.67,
-      -1.76,
+      -1.81,
       null,
       null,
       null,
