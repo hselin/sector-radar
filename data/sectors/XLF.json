@@ -1,9 +1,9 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector includes companies engaged in banking, diversified financial services, insurance, and real estate activities.",
-    "marketSizeUSD": "4.8T",
-    "constituentCount": 68,
+    "description": "The Financials GICS sector comprises companies engaged in banking, diversified financial services, insurance, and capital markets.",
+    "marketSizeUSD": "5.9T",
+    "constituentCount": 66,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
@@ -14,20 +14,16 @@
         "symbol": "JPM"
       },
       {
-        "name": "Bank of America Corp.",
-        "symbol": "BAC"
+        "name": "Visa Inc.",
+        "symbol": "V"
       }
     ]
   },
-  "market_weight": 0.096,
-  "change_pct": -0.3,
-  "insights": "The Financials sector posted a marginal decline of -0.30% today, indicating a slight pullback. Despite this minor dip, key technical indicators suggest underlying strength and significant investor interest. The Relative Strength Index (RSI) at 61.69 points to strong momentum, albeit approaching overbought territory, while the Money Flow Index (MFI) at 76.48 clearly signals overbought conditions, reflecting robust money inflow into the sector. The On-Balance Volume (OBV) of 332,983,734 confirms considerable cumulative volume participation. This combination suggests that today's slight price decrease may be a brief consolidation within a prevailing bullish trend, with strong buying pressure persisting despite the daily negative close.",
+  "market_weight": 0.1211,
+  "change_pct": -0.5,
+  "insights": "The Financials sector registered a modest decline today, falling 0.50%. Despite this slight downturn, key technical indicators present a mixed but generally supportive view. The Relative Strength Index (RSI) at 58.24 indicates the sector is in a neutral-to-strong momentum area, neither overbought nor oversold, suggesting the dip wasn't driven by extreme selling pressure. The Money Flow Index (MFI) at 75.33, however, is notably high, nearing overbought territory, implying that despite today's price drop, there has been significant money inflow into the sector recently, which could signal underlying demand or potential for a short-term consolidation from these elevated levels. The substantial On-Balance Volume (OBV) at 302,257,234 reflects strong cumulative buying pressure over time, reinforcing a positive volume trend over the longer term.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766707200000,
-        69.22
-      ],
       [
         1766793600000,
         null
@@ -747,13 +743,13 @@
       [
         1782259200000,
         61.69
+      ],
+      [
+        1782345600000,
+        58.24
       ]
     ],
     "mfi": [
-      [
-        1766707200000,
-        76.67
-      ],
       [
         1766793600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1782259200000,
         76.48
+      ],
+      [
+        1782345600000,
+        75.33
       ]
     ],
     "obv": [
-      [
-        1766707200000,
-        339824735.0
-      ],
       [
         1766793600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1782259200000,
         332983734.0
+      ],
+      [
+        1782345600000,
+        302257234.0
       ]
     ]
   },
@@ -2228,7 +2228,7 @@
     1.4,
     1.99,
     0.43,
-    0.28,
+    -0.22,
     null,
     null,
     null,

@@ -1,12 +1,12 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, which consumers purchase when they have disposable income.",
-    "marketSizeUSD": "$7.0T",
-    "constituentCount": 55,
+    "description": "The Consumer Discretionary sector comprises companies that provide non-essential goods and services, whose demand is sensitive to the business cycle and consumer income, including retail, automotive, hotels, restaurants, and leisure.",
+    "marketSizeUSD": "5.0T",
+    "constituentCount": 59,
     "topHoldings": [
       {
-        "name": "Amazon.com, Inc.",
+        "name": "Amazon.com Inc.",
         "symbol": "AMZN"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.14,
-  "change_pct": 1.15,
-  "insights": "The Consumer Discretionary sector posted a solid 1.15% gain today, indicating positive price action. However, key technical indicators suggest a more nuanced underlying picture. Both the Relative Strength Index (RSI) at 45.46 and the Money Flow Index (MFI) at 49.97 are in neutral territory, failing to show strong bullish momentum or significant capital inflow despite the price appreciation. More notably, the negative On-Balance Volume (OBV) of -8,682,188 suggests that cumulative selling pressure remains dominant, implying that today's upward move may lack broad-based conviction from institutional buyers.",
+  "market_weight": 0.1027,
+  "change_pct": -1.49,
+  "insights": "The Consumer Discretionary sector experienced a notable decline of -1.49% today, reflecting broad selling pressure. This downward movement is corroborated by technical indicators: the RSI at 41.45 and MFI at 44.38 are both trending below their respective midpoints (50), indicating a clear lack of buying momentum and increasing money outflow from the sector. Further reinforcing this sentiment, the significant negative OBV figure confirms that selling volume decisively outweighed buying volume during the session, validating the conviction behind today's price depreciation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766707200000,
-        16.65
-      ],
       [
         1766793600000,
         null
@@ -747,13 +743,13 @@
       [
         1782259200000,
         45.46
+      ],
+      [
+        1782345600000,
+        41.45
       ]
     ],
     "mfi": [
-      [
-        1766707200000,
-        49.64
-      ],
       [
         1766793600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1782259200000,
         49.97
+      ],
+      [
+        1782345600000,
+        44.38
       ]
     ],
     "obv": [
-      [
-        1766707200000,
-        41171630.0
-      ],
       [
         1766793600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1782259200000,
         -8682188.0
+      ],
+      [
+        1782345600000,
+        -15698737.0
       ]
     ]
   },
@@ -2228,7 +2228,7 @@
     -4.97,
     1.51,
     0.48,
-    -1.78,
+    -3.25,
     null,
     null,
     null,

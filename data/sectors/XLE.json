@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies engaged in the exploration, production, refining, marketing, storage, and transportation of oil, gas, and consumable fuels, as well as those providing energy equipment and services.",
-    "marketSizeUSD": "2.8T",
+    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, and other consumable fuels, as well as companies providing energy equipment and services.",
+    "marketSizeUSD": "2.1T",
     "constituentCount": 21,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.056,
-  "change_pct": -1.63,
-  "insights": "The Energy sector experienced a notable downturn today, declining by 1.63%. This performance is reinforced by its key technical indicators, which collectively signal strong selling pressure. The Relative Strength Index (RSI) at 34.97 and especially the Money Flow Index (MFI) at 24.83 both indicate that the sector is approaching or already in oversold territory, suggesting a significant outflow of capital and weakening buyer interest. While On-Balance Volume (OBV) at 990450051 is a cumulative measure, its decrease today alongside the price drop confirms that the downturn was accompanied by substantial selling volume, solidifying the negative sentiment driving today's underperformance.",
+  "market_weight": 0.0431,
+  "change_pct": 0.97,
+  "insights": "The Energy sector experienced a modest gain of 0.97% today, signaling a positive daily movement. However, key technical indicators suggest underlying caution. The Relative Strength Index (RSI) at 38.25, while not in oversold territory, indicates limited buying momentum, remaining in the weaker half of the neutral range. More notably, the Money Flow Index (MFI) at 30.16 is nearing the oversold threshold, pointing to a continued lack of significant capital inflow despite the day's positive price action. The On-Balance Volume (OBV) of 1,018,567,960 is consistent with today's positive close, suggesting volume did accompany the price increase, but the MFI and RSI temper expectations for sustained, strong upward momentum without greater conviction from new money entering the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766707200000,
-        15.55
-      ],
       [
         1766793600000,
         null
@@ -747,13 +743,13 @@
       [
         1782259200000,
         34.97
+      ],
+      [
+        1782345600000,
+        38.25
       ]
     ],
     "mfi": [
-      [
-        1766707200000,
-        33.96
-      ],
       [
         1766793600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1782259200000,
         24.83
+      ],
+      [
+        1782345600000,
+        30.16
       ]
     ],
     "obv": [
-      [
-        1766707200000,
-        242570248.0
-      ],
       [
         1766793600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1782259200000,
         990450051.0
+      ],
+      [
+        1782345600000,
+        1018567960.0
       ]
     ]
   },
@@ -2228,7 +2228,7 @@
     2.45,
     -0.21,
     -6.57,
-    -0.37,
+    0.6,
     null,
     null,
     null,

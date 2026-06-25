@@ -1,12 +1,12 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "This sector encompasses companies involved in telecommunication services, media, entertainment, and interactive media, providing content and communication pathways.",
+    "description": "The Communication Services sector includes companies primarily engaged in telecommunication services, media and entertainment content, and interactive media and services.",
     "marketSizeUSD": "4.5T",
-    "constituentCount": 27,
+    "constituentCount": 23,
     "topHoldings": [
       {
-        "name": "Alphabet Inc.",
+        "name": "Alphabet Inc. (Class A)",
         "symbol": "GOOGL"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.09,
-  "change_pct": -0.68,
-  "insights": "The Communication Services sector experienced a modest decline today, falling by 0.68%. This downtick pushed its Relative Strength Index (RSI) to 27.30, firmly placing the sector in oversold territory, suggesting that selling pressure has been significant and it may be due for a short-term technical bounce. Concurrently, the Money Flow Index (MFI) at 35.53 further indicates a weakening of buying pressure and a net outflow of funds from the sector. While the On-Balance Volume (OBV) stands at 145,461,389, the combined low RSI and MFI readings confirm a lack of current buying conviction despite the sector entering oversold conditions, indicating today's movement was driven by sustained selling pressure.",
+  "market_weight": 0.0924,
+  "change_pct": -0.9,
+  "insights": "The Communication Services sector experienced a notable decline of 0.90% today, reflecting strong bearish sentiment. Key technical indicators reinforce this weakness, with the Relative Strength Index (RSI) at 25.25 and the Money Flow Index (MFI) at 30.11, both firmly signaling that the sector is in or approaching oversold territory. These readings suggest that recent selling pressure has been substantial, potentially indicating a short-term bottom or extreme investor capitulation. The On-Balance Volume (OBV) at 140,335,954, when viewed alongside today's price drop and low momentum indicators, confirms that selling volume heavily outweighed buying volume, driving prices lower and reinforcing the oversold conditions.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766707200000,
-        64.46
-      ],
       [
         1766793600000,
         null
@@ -747,13 +743,13 @@
       [
         1782259200000,
         27.3
+      ],
+      [
+        1782345600000,
+        25.25
       ]
     ],
     "mfi": [
-      [
-        1766707200000,
-        59.9
-      ],
       [
         1766793600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1782259200000,
         35.53
+      ],
+      [
+        1782345600000,
+        30.11
       ]
     ],
     "obv": [
-      [
-        1766707200000,
-        194033727.0
-      ],
       [
         1766793600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1782259200000,
         145461389.0
+      ],
+      [
+        1782345600000,
+        140335954.0
       ]
     ]
   },
@@ -2228,7 +2228,7 @@
     -3.47,
     -0.02,
     -1.97,
-    -2.66,
+    -3.54,
     null,
     null,
     null,

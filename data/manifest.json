@@ -1,11 +1,15 @@
 {
-  "lastUpdated": "2026-06-24T21:41:36.207935Z",
+  "lastUpdated": "2026-06-25T21:46:08.781297Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a market-capitalization-weighted index comprising 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "48T",
+      "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "47T",
       "constituentCount": 503,
       "topHoldings": [
+        {
+          "name": "NVIDIA Corporation",
+          "symbol": "NVDA"
+        },
         {
           "name": "Microsoft Corporation",
           "symbol": "MSFT"
@@ -13,21 +17,13 @@
         {
           "name": "Apple Inc.",
           "symbol": "AAPL"
-        },
-        {
-          "name": "NVIDIA Corporation",
-          "symbol": "NVDA"
         }
       ]
     },
-    "commentary": "The stock market closed today with a marginal decline of -0.05%, indicating an essentially flat trading session without strong directional conviction. Technical indicators suggest a cautious and consolidating sentiment: the Relative Strength Index (RSI) at 45.73 sits in the neutral zone, signaling neither overbought nor oversold conditions, and a current lack of strong momentum in either direction. More notably, the Money Flow Index (MFI) at 34.46, while not in oversold territory, leans towards the lower end of its neutral range, suggesting subdued buying interest and a potential net outflow of capital from the market. Despite this immediate weakness, the robust On-Balance Volume (OBV) at 1,009,785,705 reflects substantial cumulative buying pressure over the longer term, yet the current MFI reading implies that recent momentum is wavering, pointing towards a period of mild apprehension and consolidation among investors.",
-    "change_pct": -0.05,
+    "commentary": "The overall stock market registered a modest gain of 0.14% today, indicating a largely calm session. However, key technical indicators suggest underlying caution and potentially weakening momentum. The Relative Strength Index (RSI) at 46.49 sits in neutral territory but leans towards weaker bullish momentum, while the Money Flow Index (MFI) at 28.85 has moved into oversold conditions, signaling significant money outflow and a bearish sentiment among participants. Although the On-Balance Volume (OBV) at 1057059210 represents cumulative volume, its specific interpretation requires trend analysis. In sum, despite the slight positive close, the MFI particularly points to underlying selling pressure and weakening investor conviction.",
+    "change_pct": 0.14,
     "technicalIndicators": {
       "rsi": [
-        [
-          1766707200000,
-          60.52
-        ],
         [
           1766793600000,
           null
@@ -747,13 +743,13 @@
         [
           1782259200000,
           45.73
+        ],
+        [
+          1782345600000,
+          46.49
         ]
       ],
       "mfi": [
-        [
-          1766707200000,
-          53.83
-        ],
         [
           1766793600000,
           null
@@ -1473,13 +1469,13 @@
         [
           1782259200000,
           34.46
+        ],
+        [
+          1782345600000,
+          28.85
         ]
       ],
       "obv": [
-        [
-          1766707200000,
-          1248420819.0
-        ],
         [
           1766793600000,
           null
@@ -2199,6 +2195,10 @@
         [
           1782259200000,
           1009785705.0
+        ],
+        [
+          1782345600000,
+          1057059210.0
         ]
       ]
     },
@@ -2228,7 +2228,7 @@
       -2.5,
       0.57,
       0.67,
-      -1.81,
+      -1.67,
       null,
       null,
       null,
