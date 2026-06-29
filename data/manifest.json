@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T21:29:31.009168Z",
+  "lastUpdated": "2026-06-29T21:41:39.163418Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index that represents the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a modest decline today, closing down 0.72%, reflecting a cautious to bearish shift in investor sentiment. Key technical indicators reinforce this outlook: the Relative Strength Index (RSI) at 43.21 suggests weakening buying momentum, hovering below the neutral 50-mark but not yet signaling an oversold condition. More significantly, the Money Flow Index (MFI) at 29.61 points to substantial money outflow from the market, nearing oversold territory and indicating strong selling pressure. While the On-Balance Volume (OBV) at 987,817,264 measures cumulative buying and selling pressure based on volume, its daily change (which would clarify immediate directional sentiment) isn't provided. However, the combination of a weakening RSI and a significantly low MFI strongly suggests that the market is currently experiencing downward momentum driven by cautious sentiment and profit-taking or risk reduction.",
-    "change_pct": -0.72,
+    "commentary": "Today, the overall stock market posted a solid gain of 1.65%, indicating a strong positive shift in immediate sentiment and momentum. The Relative Strength Index (RSI) at 51.54, sitting just above the neutral 50-mark, suggests that while strength is present, the market is not yet overbought, potentially allowing for further upside without immediate exhaustion. However, the Money Flow Index (MFI) at 35.59 indicates somewhat weaker buying pressure when volume is considered, suggesting that while prices rose, the money flow isn't overwhelmingly bullish, perhaps hinting at a degree of underlying caution or selective participation. The high On-Balance Volume (OBV) reading, assuming it increased with today's rally, supports the price surge with substantial buying volume, validating the upward movement. In summary, while price action was robust and momentum appears positive, the MFI suggests that the underlying conviction might not be as widespread as the headline gain implies, warranting careful observation for broader money flow confirmation.",
+    "change_pct": 1.65,
     "technicalIndicators": {
       "rsi": [
-        [
-          1766880000000,
-          null
-        ],
-        [
-          1766966400000,
-          57.49
-        ],
-        [
-          1767052800000,
-          56.34
-        ],
         [
           1767139200000,
           50.27
@@ -747,21 +735,21 @@
         [
           1782432000000,
           43.21
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1766880000000,
+          1782518400000,
           null
         ],
         [
-          1766966400000,
-          53.14
+          1782604800000,
+          null
         ],
         [
-          1767052800000,
-          53.5
-        ],
+          1782691200000,
+          51.54
+        ]
+      ],
+      "mfi": [
         [
           1767139200000,
           46.62
@@ -1473,21 +1461,21 @@
         [
           1782432000000,
           29.61
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1766880000000,
+          1782518400000,
           null
         ],
         [
-          1766966400000,
-          1186713100.0
+          1782604800000,
+          null
         ],
         [
-          1767052800000,
-          1145378157.0
-        ],
+          1782691200000,
+          35.59
+        ]
+      ],
+      "obv": [
         [
           1767139200000,
           1082279467.0
@@ -2199,6 +2187,18 @@
         [
           1782432000000,
           987817264.0
+        ],
+        [
+          1782518400000,
+          null
+        ],
+        [
+          1782604800000,
+          null
+        ],
+        [
+          1782691200000,
+          1044604340.0
         ]
       ]
     },
@@ -2229,7 +2229,7 @@
       0.57,
       0.67,
       -2.38,
-      null,
+      1.65,
       null,
       null,
       null,

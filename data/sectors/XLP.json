@@ -1,41 +1,29 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples GICS sector comprises companies that manufacture and sell essential products and services, such as food, beverages, tobacco, household goods, and personal care items, which consumers purchase regularly regardless of economic conditions.",
+    "description": "The Consumer Staples sector comprises companies that manufacture and market goods and services essential for daily living, which are generally less sensitive to economic cycles.",
     "marketSizeUSD": "3.8T",
-    "constituentCount": 38,
+    "constituentCount": 34,
     "topHoldings": [
       {
         "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
-        "name": "PepsiCo, Inc.",
-        "symbol": "PEP"
+        "name": "Coca-Cola Co.",
+        "symbol": "KO"
       },
       {
-        "name": "The Coca-Cola Company",
-        "symbol": "KO"
+        "name": "PepsiCo Inc.",
+        "symbol": "PEP"
       }
     ]
   },
   "market_weight": 0.078,
-  "change_pct": 0.92,
-  "insights": "The Consumer Staples sector showed modest positive performance today, gaining 0.92%. The Relative Strength Index (RSI) at 53.62 suggests positive, albeit not overextended, momentum, while the Money Flow Index (MFI) at 58.32 confirms healthy investor interest and capital inflow. Furthermore, the positive On-Balance Volume (OBV) reinforces that the price gain was supported by buying interest. Overall, the sector's daily increase appears technically supported without exhibiting signs of immediate overbought conditions.",
+  "change_pct": -0.4,
+  "insights": "The Consumer Staples sector concluded today with a modest -0.40% decline. Technical indicators suggest a largely neutral market sentiment: the RSI at 51.79 points to balanced momentum, well within neither overbought nor oversold territory. The MFI at 58.05 indicates a slight positive money flow, suggesting some underlying buying interest or resilience despite the price dip. While the OBV at 55,137,205 reflects significant historical accumulation, today's negative price movement would have resulted in a marginal decrease, aligning with the day's overall selling pressure. In essence, the sector appears to be consolidating, lacking strong directional conviction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766880000000,
-        null
-      ],
-      [
-        1766966400000,
-        49.39
-      ],
-      [
-        1767052800000,
-        48.22
-      ],
       [
         1767139200000,
         44.13
@@ -747,21 +735,21 @@
       [
         1782432000000,
         53.62
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1766880000000,
+        1782518400000,
         null
       ],
       [
-        1766966400000,
-        65.64
+        1782604800000,
+        null
       ],
       [
-        1767052800000,
-        60.06
-      ],
+        1782691200000,
+        51.79
+      ]
+    ],
+    "mfi": [
       [
         1767139200000,
         54.14
@@ -1473,21 +1461,21 @@
       [
         1782432000000,
         58.32
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1766880000000,
+        1782518400000,
         null
       ],
       [
-        1766966400000,
-        26113802.0
+        1782604800000,
+        null
       ],
       [
-        1767052800000,
-        20827873.0
-      ],
+        1782691200000,
+        58.05
+      ]
+    ],
+    "obv": [
       [
         1767139200000,
         15508322.0
@@ -2199,6 +2187,18 @@
       [
         1782432000000,
         65257270.0
+      ],
+      [
+        1782518400000,
+        null
+      ],
+      [
+        1782604800000,
+        null
+      ],
+      [
+        1782691200000,
+        55137205.0
       ]
     ]
   },
@@ -2229,7 +2229,7 @@
     2.85,
     -2.94,
     1.69,
-    null,
+    -0.4,
     null,
     null,
     null,

@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.0226,
-  "change_pct": -0.46,
-  "insights": "The Materials sector saw a modest decline today, shedding -0.46%. Examining the key technical indicators, the Relative Strength Index (RSI) at 51.84 and the Money Flow Index (MFI) at 53.61 both reside near the neutral 50-mark. This suggests that despite the slight price depreciation, neither strong buying nor selling momentum dominated the session, and money flow remained balanced. The On-Balance Volume (OBV) at 75,789,029 reflects the accumulated volume but, in conjunction with the neutral momentum indicators, implies that today's minor downturn was likely not driven by heavy distribution pressure, indicating a day of slight weakness without significant directional conviction.",
+  "change_pct": -1.82,
+  "insights": "The Materials sector experienced a notable daily decline of -1.82% today, indicating a broad sell-off. Technical indicators provide a nuanced view: the RSI at 45.51 suggests weakening momentum and increasing selling pressure, moving closer to oversold territory but not yet there. Conversely, the MFI at 53.04 indicates a relatively neutral money flow, implying that the selling pressure, while significant, might not have been accompanied by extreme capital outflows, or there was some underlying support. The high OBV of 63,183,085 reflects strong cumulative buying volume over the longer term, suggesting that today's significant pullback could be a short-term consolidation within a broader positive trend, rather than an immediate sign of a major reversal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1766880000000,
-        null
-      ],
-      [
-        1766966400000,
-        16.53
-      ],
-      [
-        1767052800000,
-        16.52
-      ],
       [
         1767139200000,
         16.16
@@ -747,21 +735,21 @@
       [
         1782432000000,
         51.84
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1766880000000,
+        1782518400000,
         null
       ],
       [
-        1766966400000,
-        73.04
+        1782604800000,
+        null
       ],
       [
-        1767052800000,
-        79.19
-      ],
+        1782691200000,
+        45.51
+      ]
+    ],
+    "mfi": [
       [
         1767139200000,
         73.43
@@ -1473,21 +1461,21 @@
       [
         1782432000000,
         53.61
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1766880000000,
+        1782518400000,
         null
       ],
       [
-        1766966400000,
-        -15983591.0
+        1782604800000,
+        null
       ],
       [
-        1767052800000,
-        -20201362.0
-      ],
+        1782691200000,
+        53.04
+      ]
+    ],
+    "obv": [
       [
         1767139200000,
         -25583308.0
@@ -2199,6 +2187,18 @@
       [
         1782432000000,
         75789029.0
+      ],
+      [
+        1782518400000,
+        null
+      ],
+      [
+        1782604800000,
+        null
+      ],
+      [
+        1782691200000,
+        63183085.0
       ]
     ]
   },
@@ -2229,7 +2229,7 @@
     3.06,
     -0.71,
     -0.41,
-    null,
+    -1.82,
     null,
     null,
     null,
