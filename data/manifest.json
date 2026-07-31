@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-30T22:20:10.086483Z",
+  "lastUpdated": "2026-07-31T22:15:58.545304Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market delivered a strong session today, advancing 1.68% as buyers pushed indexes comfortably higher. Despite the sharp daily gain, momentum indicators suggest the rally is occurring from a position of balance rather than overextension: the Relative Strength Index (RSI) at 49.19 and the Money Flow Index (MFI) at 51.86 both sit near the neutral 50 threshold, signaling balanced price momentum and steady, measured capital inflows. Backed by a robust On-Balance Volume (OBV) of nearly 994.4 million\u2014which reflects solid underlying accumulation\u2014the current technical picture points to cautiously optimistic market sentiment with constructive momentum that retains ample headroom before encountering overbought conditions.",
-    "change_pct": 1.68,
+    "commentary": "The broad market posted a solid daily gain of 0.72%, reflecting a constructive and measured bullish sentiment across major indexes. Key technical indicators suggest balanced upward momentum with ample room for further growth; the Relative Strength Index (RSI) at 52.99 sits just above the neutral midpoint, confirming steady price appreciation without triggering overbought conditions. Concurrently, a Money Flow Index (MFI) of 59.35 indicates healthy net capital inflows and moderate buying pressure, while a substantial On-Balance Volume (OBV) of 1.05 billion highlights strong underlying volume accumulation supporting today's price action. Overall, the data points to a resilient market driven by stable institutional participation rather than speculative exhaustion.",
+    "change_pct": 0.72,
     "technicalIndicators": {
       "rsi": [
-        [
-          1769817600000,
-          null
-        ],
         [
           1769904000000,
           null
@@ -747,13 +743,13 @@
         [
           1785369600000,
           49.19
+        ],
+        [
+          1785456000000,
+          52.99
         ]
       ],
       "mfi": [
-        [
-          1769817600000,
-          null
-        ],
         [
           1769904000000,
           null
@@ -1473,13 +1469,13 @@
         [
           1785369600000,
           51.86
+        ],
+        [
+          1785456000000,
+          59.35
         ]
       ],
       "obv": [
-        [
-          1769817600000,
-          null
-        ],
         [
           1769904000000,
           null
@@ -2199,6 +2195,10 @@
         [
           1785369600000,
           994444716.0
+        ],
+        [
+          1785456000000,
+          1053582410.0
         ]
       ]
     },
@@ -2233,7 +2233,7 @@
       1.37,
       -1.54,
       -0.59,
-      0.37,
+      1.1,
       null,
       null,
       null,

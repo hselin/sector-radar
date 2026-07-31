@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.1234,
-  "change_pct": -1.64,
-  "insights": "The Health Care sector experienced a pullback today, closing down -1.64% in what appears to be a short-term consolidation phase. Momentum and money flow indicators remain structurally intact, with the RSI at 57.40 and MFI at 53.71 holding comfortably in neutral-to-slightly bullish territory above their 50 mid-lines, suggesting today's decline is driven by routine profit-taking rather than a broader panic. However, the sharply negative On-Balance Volume (OBV) of -25,976,318 highlights underlying distributive pressure and persistent net volume outflows, signaling that while price momentum hasn't broken down, heavy institutional distribution could cap near-term upside until buying volume picks back up.",
+  "change_pct": -0.59,
+  "insights": "The Health Care sector experienced a modest pullback today, declining 0.59%, though key momentum indicators suggest the dip is currently a minor consolidation rather than a structural breakdown. An RSI of 54.98 and an MFI of 47.45 sit squarely in neutral territory, reflecting balanced price momentum and capital flows that are neither overbought nor oversold. However, the significantly negative On-Balance Volume (OBV) at -35.2 million highlights persistent underlying distribution over recent sessions, signaling that despite current price stability, institutional selling pressure remains a headwind that could cap near-term upside without a resurgence in volume.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1769817600000,
-        null
-      ],
       [
         1769904000000,
         null
@@ -747,13 +743,13 @@
       [
         1785369600000,
         57.4
+      ],
+      [
+        1785456000000,
+        54.98
       ]
     ],
     "mfi": [
-      [
-        1769817600000,
-        null
-      ],
       [
         1769904000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1785369600000,
         53.71
+      ],
+      [
+        1785456000000,
+        47.45
       ]
     ],
     "obv": [
-      [
-        1769817600000,
-        null
-      ],
       [
         1769904000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1785369600000,
         -25976318.0
+      ],
+      [
+        1785456000000,
+        -35238798.0
       ]
     ]
   },
@@ -2233,7 +2233,7 @@
     -1.77,
     0.16,
     0.92,
-    0.58,
+    -0.01,
     null,
     null,
     null,
