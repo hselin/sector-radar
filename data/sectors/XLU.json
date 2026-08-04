@@ -1,33 +1,29 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies providing essential services such as electricity, natural gas, water, and regulated power generation, often characterized by stable demand and significant regulatory oversight.",
-    "marketSizeUSD": "1.1T",
-    "constituentCount": 29,
+    "description": "The Utilities sector encompasses companies that generate, transmit, and distribute electricity, natural gas, water, and renewable energy to residential, commercial, and industrial consumers.",
+    "marketSizeUSD": "1.2T",
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "NextEra Energy, Inc.",
         "symbol": "NEE"
       },
       {
-        "name": "Duke Energy Corporation",
-        "symbol": "DUK"
-      },
-      {
         "name": "The Southern Company",
         "symbol": "SO"
+      },
+      {
+        "name": "Duke Energy Corporation",
+        "symbol": "DUK"
       }
     ]
   },
-  "market_weight": 0.02,
-  "change_pct": 0.02,
-  "insights": "The Utilities sector posted a virtually flat session today, edging up just 0.02% as price action entered a phase of tight consolidation. Beneath this quiet surface, technical indicators reveal persistent underlying weakness and light oversold signals: an RSI of 40.45 reflects subdued momentum, while a Money Flow Index (MFI) of 27.02 dips into oversold territory, signaling significant recent capital outflows. Paired with a robust On-Balance Volume (OBV) of 415.6 million, the data suggests that while trading liquidity remains high, institutional distribution has dominated recent sessions, leaving the sector sitting in a weak holding pattern where a minor technical bounce could occur, but broader buying conviction remains absent.",
+  "market_weight": 0.0172,
+  "change_pct": -0.56,
+  "insights": "The Utilities sector faced mild selling pressure today, declining by **-0.56%** as investors rotated out of defensive assets. Technical indicators reflect weakening momentum and sustained capital distribution across the sector: the Relative Strength Index (**RSI**) at **38.25** indicates a strong bearish tilt approaching oversold territory, while the Money Flow Index (**MFI**) at **26.13** highlights significant liquidity outflows and minimal buying volume. Supported by a steady On-Balance Volume (**OBV**) baseline of **390,099,532**, this volume-backed retreat suggests that institutional distribution is currently driving price action, though the near-oversold MFI and RSI levels indicate the sector may be approaching a short-term technical floor where selling pressure could begin to abate.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770163200000,
-        33.02
-      ],
       [
         1770249600000,
         33.23
@@ -747,13 +743,13 @@
       [
         1785715200000,
         40.45
+      ],
+      [
+        1785801600000,
+        38.25
       ]
     ],
     "mfi": [
-      [
-        1770163200000,
-        48.97
-      ],
       [
         1770249600000,
         42.33
@@ -1473,13 +1469,13 @@
       [
         1785715200000,
         27.02
+      ],
+      [
+        1785801600000,
+        26.13
       ]
     ],
     "obv": [
-      [
-        1770163200000,
-        115347276.0
-      ],
       [
         1770249600000,
         146414000.0
@@ -2199,6 +2195,10 @@
       [
         1785715200000,
         415600833.0
+      ],
+      [
+        1785801600000,
+        390099532.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     -0.53,
     2.48,
     -4.19,
-    0.02,
+    -0.54,
     null,
     null,
     null,

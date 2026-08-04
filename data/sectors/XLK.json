@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies engaged in the production of software, provision of IT services, manufacture of semiconductors, and development of technology hardware and equipment.",
-    "marketSizeUSD": "15T",
-    "constituentCount": 68,
+    "description": "The Information Technology sector encompasses companies involved in software development, technology hardware, semiconductor manufacturing, and IT services.",
+    "marketSizeUSD": "15.5T",
+    "constituentCount": 65,
     "topHoldings": [
-      {
-        "name": "Microsoft Corporation",
-        "symbol": "MSFT"
-      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
+      },
+      {
+        "name": "Microsoft Corporation",
+        "symbol": "MSFT"
       },
       {
         "name": "NVIDIA Corporation",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2722,
-  "change_pct": 1.53,
-  "insights": "The Information Technology sector demonstrated strong short-term momentum today with a 1.53% gain, though underlying technical indicators point to a broader phase of consolidation rather than a confirmed bullish breakout. The Relative Strength Index (RSI) at a neutral 49.58 indicates a balanced market with ample head room before reaching overbought territory, while a solid On-Balance Volume (OBV) of 415.4 million reflects steady underlying liquidity. However, the Money Flow Index (MFI) at a lower 36.95 reveals that volume-weighted buying pressure remains relatively muted, suggesting that today's price gain may be driven by light short-covering or selective buying rather than aggressive institutional accumulation; investors should look for stronger capital inflows to confirm the sustainability of this upward move.",
+  "market_weight": 0.2221,
+  "change_pct": 4.98,
+  "insights": "The Information Technology sector staged a powerful rally today, surging 4.98% in a strong display of bullish momentum. Technically, the Relative Strength Index (RSI) at 58.51 underscores healthy buying interest without triggering overbought signals, leaving ample runway for extended upside. Meanwhile, the Money Flow Index (MFI) sitting at a neutral 45.94 indicates that despite the sharp price appreciation, capital inflows remain disciplined rather than euphoric, suggesting room for additional liquidity to enter the market. Supported by a solid On-Balance Volume (OBV) baseline of 428.3 million, today\u2019s gain reflects stable underlying institutional accumulation and points to a well-supported broad sector advance with manageable immediate overextension risk.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770163200000,
-        27.86
-      ],
       [
         1770249600000,
         25.72
@@ -747,13 +743,13 @@
       [
         1785715200000,
         49.58
+      ],
+      [
+        1785801600000,
+        58.51
       ]
     ],
     "mfi": [
-      [
-        1770163200000,
-        41.09
-      ],
       [
         1770249600000,
         32.36
@@ -1473,13 +1469,13 @@
       [
         1785715200000,
         36.95
+      ],
+      [
+        1785801600000,
+        45.94
       ]
     ],
     "obv": [
-      [
-        1770163200000,
-        271013445.0
-      ],
       [
         1770249600000,
         229113705.0
@@ -2199,6 +2195,10 @@
       [
         1785715200000,
         415431244.0
+      ],
+      [
+        1785801600000,
+        428346654.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     -5.48,
     0.17,
     -0.3,
-    1.53,
+    6.59,
     null,
     null,
     null,

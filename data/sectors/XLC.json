@@ -1,33 +1,29 @@
 {
   "sector": "Communication Services",
   "profile": {
-    "description": "This sector encompasses companies offering telecommunication services, entertainment content, interactive media, and a range of communication-related services.",
-    "marketSizeUSD": "5.1T",
-    "constituentCount": 23,
+    "description": "The Communication Services sector includes companies that enable communication and offer content and information through media, entertainment, telecommunications, and interactive services.",
+    "marketSizeUSD": "6.5T",
+    "constituentCount": 22,
     "topHoldings": [
-      {
-        "name": "Meta Platforms, Inc.",
-        "symbol": "META"
-      },
       {
         "name": "Alphabet Inc.",
         "symbol": "GOOGL"
       },
       {
-        "name": "Alphabet Inc.",
-        "symbol": "GOOG"
+        "name": "Meta Platforms, Inc.",
+        "symbol": "META"
+      },
+      {
+        "name": "Netflix, Inc.",
+        "symbol": "NFLX"
       }
     ]
   },
-  "market_weight": 0.0926,
-  "change_pct": 2.86,
-  "insights": "The Communication Services sector demonstrated robust strength today with a 2.86% gain, supported by healthy technical momentum and solid trading volume. Both the Relative Strength Index (RSI) at 53.92 and the Money Flow Index (MFI) at 53.77 sit in constructive, neutral-to-bullish territory, indicating that steady buying interest and positive capital inflows drove today's advance without pushing the sector into overbought conditions. Supported by a strong On-Balance Volume (OBV) of 155.93 million, this price movement is well-backed by underlying accumulation, suggesting the sector has sufficient headroom to sustain its upward momentum in the near term.",
+  "market_weight": 0.0931,
+  "change_pct": 0.63,
+  "insights": "The Communication Services sector posted a solid 0.63% gain today, supported by balanced and constructive technical indicators. An RSI of 55.54 combined with an MFI of 59.63 reflects steady, positive momentum and consistent volume-weighted capital inflows, keeping the sector comfortably in a bullish control zone without entering overbought territory. Concurrently, a strong On-Balance Volume (OBV) reading of 161,202,764 underscores persistent underlying buying pressure and institutional accumulation, suggesting that today\u2019s price appreciation is backed by solid market participation and well-positioned for near-term stability.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770163200000,
-        48.41
-      ],
       [
         1770249600000,
         46.09
@@ -747,13 +743,13 @@
       [
         1785715200000,
         53.92
+      ],
+      [
+        1785801600000,
+        55.54
       ]
     ],
     "mfi": [
-      [
-        1770163200000,
-        48.5
-      ],
       [
         1770249600000,
         46.87
@@ -1473,13 +1469,13 @@
       [
         1785715200000,
         53.77
+      ],
+      [
+        1785801600000,
+        59.63
       ]
     ],
     "obv": [
-      [
-        1770163200000,
-        151238850.0
-      ],
       [
         1770249600000,
         137007425.0
@@ -2199,6 +2195,10 @@
       [
         1785715200000,
         155926471.0
+      ],
+      [
+        1785801600000,
+        161202764.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     -0.89,
     -4.76,
     2.71,
-    2.86,
+    3.51,
     null,
     null,
     null,

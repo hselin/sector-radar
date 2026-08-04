@@ -1,9 +1,9 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate GICS sector comprises companies that own, operate, develop, or manage real estate, including real estate investment trusts (REITs), but specifically excludes mortgage REITs which are classified in the Financials sector.",
-    "marketSizeUSD": "2.5T",
-    "constituentCount": 33,
+    "description": "The Real Estate sector encompasses companies engaged in real estate development, operations, and management, as well as Real Estate Investment Trusts (REITs).",
+    "marketSizeUSD": "1.4T",
+    "constituentCount": 31,
     "topHoldings": [
       {
         "name": "Prologis, Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0454,
-  "change_pct": 0.24,
-  "insights": "The Real Estate sector posted a modest gain of 0.24% today, signaling a period of steady consolidation as market participants await clearer macroeconomic catalysts. Key technical indicators reflect this balanced holding pattern: an RSI of 52.25 sits firmly in neutral territory with a slight upward bias, while an MFI of 44.24 points to subdued buying pressure and subtle capital outflows despite the positive session finish. Supported by a healthy On-Balance Volume (OBV) of 155,049,208, underlying institutional participation remains stable, though the divergence between neutral momentum and softer money flow suggests the sector currently lacks the aggressive momentum required for a decisive breakout.",
+  "market_weight": 0.0201,
+  "change_pct": -0.02,
+  "insights": "The Real Estate sector traded essentially flat today, dipping a negligible -0.02% in a clear display of market consolidation. Technical indicators suggest a balanced holding pattern: the RSI at 52.12 confirms neutral price momentum with neither buyers nor sellers asserting control, while a slightly subdued MFI of 42.89 reflects minor capital outflows aligned with the day's slight downward drift. However, a strong On-Balance Volume (OBV) of nearly 149 million demonstrates that cumulative volume support remains intact, indicating that institutional investors are maintaining baseline exposure as the sector searches for a decisive directional catalyst.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770163200000,
-        55.18
-      ],
       [
         1770249600000,
         52.04
@@ -747,13 +743,13 @@
       [
         1785715200000,
         52.25
+      ],
+      [
+        1785801600000,
+        52.12
       ]
     ],
     "mfi": [
-      [
-        1770163200000,
-        49.25
-      ],
       [
         1770249600000,
         36.11
@@ -1473,13 +1469,13 @@
       [
         1785715200000,
         44.24
+      ],
+      [
+        1785801600000,
+        42.89
       ]
     ],
     "obv": [
-      [
-        1770163200000,
-        53398829.0
-      ],
       [
         1770249600000,
         43533108.0
@@ -2199,6 +2195,10 @@
       [
         1785715200000,
         155049208.0
+      ],
+      [
+        1785801600000,
+        148982673.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     2.18,
     -1.03,
     0.27,
-    0.24,
+    0.22,
     null,
     null,
     null,

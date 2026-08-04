@@ -1,33 +1,29 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector comprises companies involved in manufacturing and distributing capital goods, providing commercial and professional services, and offering transportation services.",
-    "marketSizeUSD": "4.1T",
-    "constituentCount": 73,
+    "description": "The Industrials sector encompasses companies involved in capital goods, transportation services, and commercial and professional services.",
+    "marketSizeUSD": "5.8T",
+    "constituentCount": 78,
     "topHoldings": [
+      {
+        "name": "GE Aerospace",
+        "symbol": "GE"
+      },
       {
         "name": "Caterpillar Inc.",
         "symbol": "CAT"
       },
       {
-        "name": "General Electric Company",
-        "symbol": "GE"
-      },
-      {
-        "name": "Union Pacific Corporation",
-        "symbol": "UNP"
+        "name": "RTX Corporation",
+        "symbol": "RTX"
       }
     ]
   },
-  "market_weight": 0.0744,
-  "change_pct": 1.85,
-  "insights": "The Industrials sector demonstrated strong bullish performance today with a robust 1.85% gain, supported by a healthy and balanced technical profile. An RSI of 56.69 signals solid upward momentum with ample headroom before reaching overbought territory, while the Money Flow Index (MFI) at 48.14 indicates steady, controlled capital allocation rather than speculative chasing. Supported by a substantial On-Balance Volume (OBV) of nearly 203 million, today's advance reflects solid underlying volume conviction, suggesting institutional support and room for sustained short-term upside.",
+  "market_weight": 0.0831,
+  "change_pct": 1.77,
+  "insights": "The Industrials sector demonstrated strong bullish momentum today, advancing by 1.77% amid broad-based buying pressure. This positive price action is well-supported technically: the Relative Strength Index (RSI) at 62.21 reflects robust upward momentum while remaining comfortably below overbought territory (>70), suggesting room for further upside. Concurrently, a Money Flow Index (MFI) of 57.59 confirms healthy capital inflows supporting the move, while an On-Balance Volume (OBV) of 213.46 million underscores sustained institutional accumulation. Overall, the technical profile suggests today\u2019s gains are backed by genuine volume and buying conviction rather than a temporary short-squeeze.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770163200000,
-        68.31
-      ],
       [
         1770249600000,
         64.4
@@ -747,13 +743,13 @@
       [
         1785715200000,
         56.69
+      ],
+      [
+        1785801600000,
+        62.21
       ]
     ],
     "mfi": [
-      [
-        1770163200000,
-        68.86
-      ],
       [
         1770249600000,
         60.24
@@ -1473,13 +1469,13 @@
       [
         1785715200000,
         48.14
+      ],
+      [
+        1785801600000,
+        57.59
       ]
     ],
     "obv": [
-      [
-        1770163200000,
-        197365960.0
-      ],
       [
         1770249600000,
         178897996.0
@@ -2199,6 +2195,10 @@
       [
         1785715200000,
         202989782.0
+      ],
+      [
+        1785801600000,
+        213459184.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     -1.38,
     1.81,
     -1.54,
-    1.85,
+    3.65,
     null,
     null,
     null,

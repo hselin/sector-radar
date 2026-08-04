@@ -1,33 +1,29 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses companies that provide non-essential goods and services, such as automobiles, apparel, entertainment, hotels, restaurants, and luxury items, purchased primarily when consumers have disposable income.",
-    "marketSizeUSD": "5.8T",
-    "constituentCount": 56,
+    "description": "The Consumer Discretionary sector encompasses businesses selling non-essential goods and services, including e-commerce, automobiles, leisure, and retail products, whose demand heavily relies on economic cycles and consumer spending power.",
+    "marketSizeUSD": "11.5T",
+    "constituentCount": 52,
     "topHoldings": [
       {
-        "name": "Amazon.com Inc.",
+        "name": "Amazon.com, Inc.",
         "symbol": "AMZN"
       },
       {
-        "name": "Tesla Inc.",
+        "name": "Tesla, Inc.",
         "symbol": "TSLA"
       },
       {
-        "name": "The Home Depot Inc.",
+        "name": "The Home Depot, Inc.",
         "symbol": "HD"
       }
     ]
   },
-  "market_weight": 0.1053,
-  "change_pct": 1.83,
-  "insights": "The Consumer Discretionary sector demonstrated strong bullish momentum today, advancing 1.83% as institutional and retail support picked up. Technical indicators suggest this move is backed by healthy fundamentals rather than speculative overextension; the Relative Strength Index (RSI) at 57.91 and Money Flow Index (MFI) at 56.51 both sit comfortably in positive territory above the 50-neutral line, signaling steady buying pressure and active capital inflows without triggering overbought conditions. Supported by a robust On-Balance Volume (OBV) of 14,703,410, which confirms cumulative volume is aligned with price appreciation, the sector appears well-positioned to sustain its near-term upward trajectory.",
+  "market_weight": 0.1648,
+  "change_pct": 0.07,
+  "insights": "The Consumer Discretionary sector experienced a essentially flat session today, edging up by a modest **0.07%** as the market entered a brief consolidation phase. Despite the range-bound price action, underlying technical indicators point to a healthy, constructive backdrop: both the **RSI (58.07)** and **Money Flow Index (55.60)** sit comfortably in neutral-to-bullish territory above the 50 baseline, reflecting steady momentum and consistent capital inflows without flirting with overbought territory. Supported by a robust **On-Balance Volume (OBV) of 23,107,505**, today's quiet movement suggests low-volume absorption rather than institutional distribution, indicating that buyers remain patiently in control as the sector builds a base for its next directional catalyst.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770163200000,
-        30.9
-      ],
       [
         1770249600000,
         27.1
@@ -747,13 +743,13 @@
       [
         1785715200000,
         57.91
+      ],
+      [
+        1785801600000,
+        58.07
       ]
     ],
     "mfi": [
-      [
-        1770163200000,
-        32.39
-      ],
       [
         1770249600000,
         25.31
@@ -1473,13 +1469,13 @@
       [
         1785715200000,
         56.51
+      ],
+      [
+        1785801600000,
+        55.6
       ]
     ],
     "obv": [
-      [
-        1770163200000,
-        35567031.0
-      ],
       [
         1770249600000,
         22965527.0
@@ -2199,6 +2195,10 @@
       [
         1785715200000,
         14703410.0
+      ],
+      [
+        1785801600000,
+        23107505.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     -1.54,
     -5.79,
     6.74,
-    1.83,
+    1.9,
     null,
     null,
     null,

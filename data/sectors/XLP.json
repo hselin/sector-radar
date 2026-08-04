@@ -1,33 +1,29 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that manufacture and distribute essential goods and services, such as food, beverages, household products, and tobacco, which are generally non-cyclical.",
-    "marketSizeUSD": "3.4T",
-    "constituentCount": 34,
+    "description": "The Consumer Staples sector consists of companies that manufacture and distribute essential products such as food, beverages, household goods, and personal care items.",
+    "marketSizeUSD": "4.2T",
+    "constituentCount": 38,
     "topHoldings": [
       {
-        "name": "Procter & Gamble Co.",
+        "name": "Walmart Inc.",
+        "symbol": "WMT"
+      },
+      {
+        "name": "The Procter & Gamble Company",
         "symbol": "PG"
       },
       {
-        "name": "Coca-Cola Co.",
-        "symbol": "KO"
-      },
-      {
-        "name": "PepsiCo Inc.",
-        "symbol": "PEP"
+        "name": "Costco Wholesale Corporation",
+        "symbol": "COST"
       }
     ]
   },
-  "market_weight": 0.0617,
-  "change_pct": -0.22,
-  "insights": "The Consumer Staples sector experienced a minor pullback today, declining by 0.22% in what translates to a broader consolidation phase. Technical momentum remains strictly neutral, as evidenced by both the Relative Strength Index (RSI) at 50.48 and the Money Flow Index (MFI) at 49.53 hovering precisely at their midpoints, signaling an equilibrium between buying and selling pressure with no extreme overbought or oversold conditions. Meanwhile, a robust On-Balance Volume (OBV) of 51,452,029 indicates that underlying volume support remains intact, suggesting today\u2019s slight dip reflects routine short-term hesitation rather than institutional distribution or a fundamental shift in sector trend.",
+  "market_weight": 0.0602,
+  "change_pct": 0.6,
+  "insights": "The Consumer Staples sector posted a modest gain of 0.60% today, reflecting steady defensive demand within a well-balanced trading environment. Technical metrics highlight strong market equilibrium: an RSI of 52.58 points to neutral momentum with a slight bullish bias, while an MFI of 47.93 indicates a healthy, even balance between buying and selling pressure. Additionally, the solid On-Balance Volume (OBV) of 64.7 million confirms that today's price gains are backed by stable underlying volume. Overall, the sector is demonstrating calm, sustainable strength without triggering overbought signals, continuing its role as a reliable market ballast.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770163200000,
-        80.17
-      ],
       [
         1770249600000,
         79.51
@@ -747,13 +743,13 @@
       [
         1785715200000,
         50.48
+      ],
+      [
+        1785801600000,
+        52.58
       ]
     ],
     "mfi": [
-      [
-        1770163200000,
-        80.56
-      ],
       [
         1770249600000,
         81.7
@@ -1473,13 +1469,13 @@
       [
         1785715200000,
         49.53
+      ],
+      [
+        1785801600000,
+        47.93
       ]
     ],
     "obv": [
-      [
-        1770163200000,
-        234633122.0
-      ],
       [
         1770249600000,
         196010914.0
@@ -2199,6 +2195,10 @@
       [
         1785715200000,
         51452029.0
+      ],
+      [
+        1785801600000,
+        64703010.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     1.27,
     -2.32,
     2.21,
-    -0.22,
+    0.38,
     null,
     null,
     null,

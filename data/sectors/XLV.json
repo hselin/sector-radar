@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies that provide medical services, manufacture pharmaceuticals, biotechnology products, and medical devices, as well as those involved in healthcare delivery and management.",
-    "marketSizeUSD": "6.8T",
+    "description": "The Health Care sector encompasses companies involved in medical equipment and supplies, healthcare providers and services, pharmaceuticals, biotechnology, and life sciences tools.",
+    "marketSizeUSD": "6.2T",
     "constituentCount": 64,
     "topHoldings": [
       {
@@ -10,7 +10,7 @@
         "symbol": "LLY"
       },
       {
-        "name": "UnitedHealth Group Inc.",
+        "name": "UnitedHealth Group Incorporated",
         "symbol": "UNH"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1234,
-  "change_pct": -0.19,
-  "insights": "The Health Care sector experienced a minor pullback today, down 0.19% in a session characterized by short-term consolidation. Both the Relative Strength Index (RSI) at 54.19 and the Money Flow Index (MFI) at 55.96 sit comfortably in neutral territory, suggesting that today's slight decline represents a pause in activity rather than aggressive selling pressure or an overextended market. However, the On-Balance Volume (OBV) of -46,023,048 reveals a persistent background of volume distribution, indicating that longer-term capital outflows remain a headwind. Overall, while momentum indicators point to near-term stability, the negative OBV suggests investors should remain cautious as underlying selling volume could constrain significant upside potential.",
+  "market_weight": 0.0888,
+  "change_pct": -0.09,
+  "insights": "The Health Care sector posted a virtually flat session today, dipping slightly by -0.09% in a sign of near-term consolidation. Momentum and volume indicators reflect a balanced, neutral market environment, with the Relative Strength Index (RSI) at 53.81 and the Money Flow Index (MFI) at 54.10, both sitting comfortably mid-range and showing no signs of overbought or oversold conditions. However, the heavily negative On-Balance Volume (OBV) of -61,136,618 signals an underlying trend of historical distribution, suggesting that while daily price action remains stable, persistent overhead selling pressure may continue to cap significant near-term upside until buying volume meaningfully surges.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770163200000,
-        51.07
-      ],
       [
         1770249600000,
         47.36
@@ -747,13 +743,13 @@
       [
         1785715200000,
         54.19
+      ],
+      [
+        1785801600000,
+        53.81
       ]
     ],
     "mfi": [
-      [
-        1770163200000,
-        42.78
-      ],
       [
         1770249600000,
         41.61
@@ -1473,13 +1469,13 @@
       [
         1785715200000,
         55.96
+      ],
+      [
+        1785801600000,
+        54.1
       ]
     ],
     "obv": [
-      [
-        1770163200000,
-        116984646.0
-      ],
       [
         1770249600000,
         96460053.0
@@ -2199,6 +2195,10 @@
       [
         1785715200000,
         -46023048.0
+      ],
+      [
+        1785801600000,
+        -61136618.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     0.16,
     0.92,
     -0.01,
-    -0.19,
+    -0.28,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, transportation, and marketing of oil and gas, as well as those providing related services and equipment.",
-    "marketSizeUSD": "2.0T",
-    "constituentCount": 21,
+    "description": "The Energy sector comprises companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, natural gas, coal, and consumable fuels, as well as energy equipment and services.",
+    "marketSizeUSD": "3.5T",
+    "constituentCount": 23,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0363,
-  "change_pct": -1.28,
-  "insights": "The Energy sector experienced a minor pullback today, closing down 1.28%, but underlying technicals suggest this movement reflects short-term profit-taking rather than a broader trend reversal. Both the Relative Strength Index (RSI) at 58.00 and the Money Flow Index (MFI) at 65.08 remain in constructive, neutral-to-bullish territory, indicating that underlying momentum and recent capital inflows remain intact without reaching overbought levels. Furthermore, a robust On-Balance Volume (OBV) of 1.24 billion demonstrates sustained volume support and institutional accumulation, pointing to today's decline as a routine consolidation within a broader, stable trajectory.",
+  "market_weight": 0.0501,
+  "change_pct": -0.46,
+  "insights": "The Energy sector logged a modest decline of -0.46% today, though underlying technical indicators point to a routine consolidation rather than a fundamental shift in momentum. An RSI of 56.19 reflects stable, balanced strength, indicating that the broader uptrend remains intact without entering overbought territory. Meanwhile, an elevated MFI of 64.45 alongside a robust cumulative OBV of over 1.2 billion signals sustained capital inflows and persistent institutional accumulation, even during down days. Overall, the combination of strong liquidity metrics and neutral-positive momentum suggests that today\u2019s dip represents short-term profit-taking within a structurally resilient market environment.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770163200000,
-        60.26
-      ],
       [
         1770249600000,
         56.95
@@ -747,13 +743,13 @@
       [
         1785715200000,
         58.0
+      ],
+      [
+        1785801600000,
+        56.19
       ]
     ],
     "mfi": [
-      [
-        1770163200000,
-        71.67
-      ],
       [
         1770249600000,
         70.81
@@ -1473,13 +1469,13 @@
       [
         1785715200000,
         65.08
+      ],
+      [
+        1785801600000,
+        64.45
       ]
     ],
     "obv": [
-      [
-        1770163200000,
-        926847903.0
-      ],
       [
         1770249600000,
         872943455.0
@@ -2199,6 +2195,10 @@
       [
         1785715200000,
         1244311784.0
+      ],
+      [
+        1785801600000,
+        1208074308.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     4.72,
     3.36,
     -0.12,
-    -1.28,
+    -1.73,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses banks, diversified financial services, insurance companies, and capital markets firms.",
-    "marketSizeUSD": "6.8T",
-    "constituentCount": 66,
+    "description": "The Financials sector encompasses companies engaged in banking, investment management, insurance, payment processing, and consumer finance.",
+    "marketSizeUSD": "11.5T",
+    "constituentCount": 72,
     "topHoldings": [
       {
         "name": "Berkshire Hathaway Inc.",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1234,
-  "change_pct": 0.77,
-  "insights": "The Financials sector demonstrated solid momentum today, advancing 0.77% alongside supportive technical indicators that point to sustained bullish sentiment. An RSI of 65.22 reflects strong buying pressure approaching overbought levels, yet still leaving room for further upside before becoming overextended. This price gain is reinforced by a Money Flow Index (MFI) of 55.23, signaling steady capital inflows, while an On-Balance Volume (OBV) of 564.67 million confirms that the upward move is backed by healthy institutional accumulation rather than low-volume speculative trading.",
+  "market_weight": 0.1648,
+  "change_pct": 0.87,
+  "insights": "The Financials sector demonstrated solid strength today, posting a 0.87% gain backed by healthy technical momentum. The Relative Strength Index (RSI) at 68.35 reflects strong bullish sentiment, approaching the overbought threshold of 70 and indicating robust buying pressure, though it suggests the sector may be nearing a short-term consolidation phase. Complementing this movement, the Money Flow Index (MFI) of 53.52 points to balanced, sustainable capital inflows rather than speculative overextension. Finally, an On-Balance Volume (OBV) of 596 million confirms that the daily price advance is validated by underlying trading volume, indicating that institutional support remains firm and the sector's near-term upward trajectory is structurally sound.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770163200000,
-        49.54
-      ],
       [
         1770249600000,
         43.98
@@ -747,13 +743,13 @@
       [
         1785715200000,
         65.22
+      ],
+      [
+        1785801600000,
+        68.35
       ]
     ],
     "mfi": [
-      [
-        1770163200000,
-        56.46
-      ],
       [
         1770249600000,
         48.39
@@ -1473,13 +1469,13 @@
       [
         1785715200000,
         55.23
+      ],
+      [
+        1785801600000,
+        53.52
       ]
     ],
     "obv": [
-      [
-        1770163200000,
-        261166598.0
-      ],
       [
         1770249600000,
         203978043.0
@@ -2199,6 +2195,10 @@
       [
         1785715200000,
         564668282.0
+      ],
+      [
+        1785801600000,
+        596044275.0
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     0.99,
     0.09,
     1.12,
-    0.77,
+    1.65,
     null,
     null,
     null,
