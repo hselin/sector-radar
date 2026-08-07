@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0201,
-  "change_pct": -0.02,
-  "insights": "The Real Estate sector traded essentially flat today, dipping a negligible -0.02% in a clear display of market consolidation. Technical indicators suggest a balanced holding pattern: the RSI at 52.12 confirms neutral price momentum with neither buyers nor sellers asserting control, while a slightly subdued MFI of 42.89 reflects minor capital outflows aligned with the day's slight downward drift. However, a strong On-Balance Volume (OBV) of nearly 149 million demonstrates that cumulative volume support remains intact, indicating that institutional investors are maintaining baseline exposure as the sector searches for a decisive directional catalyst.",
+  "market_weight": 0.0192,
+  "change_pct": -0.86,
+  "insights": "Commentary could not be generated due to a persistent network error.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770249600000,
-        52.04
-      ],
-      [
-        1770336000000,
-        60.13
-      ],
-      [
-        1770422400000,
-        null
-      ],
       [
         1770508800000,
         null
@@ -747,21 +735,21 @@
       [
         1785801600000,
         52.12
+      ],
+      [
+        1785888000000,
+        52.5
+      ],
+      [
+        1785974400000,
+        47.27
+      ],
+      [
+        1786060800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1770249600000,
-        36.11
-      ],
-      [
-        1770336000000,
-        35.36
-      ],
-      [
-        1770422400000,
-        null
-      ],
       [
         1770508800000,
         null
@@ -1473,21 +1461,21 @@
       [
         1785801600000,
         42.89
+      ],
+      [
+        1785888000000,
+        43.92
+      ],
+      [
+        1785974400000,
+        37.65
+      ],
+      [
+        1786060800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1770249600000,
-        43533108.0
-      ],
-      [
-        1770336000000,
-        51599185.0
-      ],
-      [
-        1770422400000,
-        null
-      ],
       [
         1770508800000,
         null
@@ -2199,6 +2187,18 @@
       [
         1785801600000,
         148982673.0
+      ],
+      [
+        1785888000000,
+        154808268.0
+      ],
+      [
+        1785974400000,
+        149858638.0
+      ],
+      [
+        1786060800000,
+        null
       ]
     ]
   },
@@ -2234,7 +2234,7 @@
     2.18,
     -1.03,
     0.27,
-    0.22,
+    -0.58,
     null,
     null,
     null,
