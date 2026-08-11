@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses businesses selling non-essential goods and services, including e-commerce, automobiles, leisure, and retail products, whose demand heavily relies on economic cycles and consumer spending power.",
-    "marketSizeUSD": "11.5T",
+    "description": "The Consumer Discretionary sector encompasses businesses that produce non-essential goods and services, such as retail, automobiles, apparel, and leisure, whose demand fluctuates based on economic conditions and consumer spending power.",
+    "marketSizeUSD": "9.5T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.158,
-  "change_pct": -0.16,
-  "insights": "The Consumer Discretionary sector recorded a marginal decline of -0.16% today, pointing to a routine session of light consolidation rather than a structural reversal. Underlying technical momentum remains firmly constructive, as the RSI (60.47) and MFI (58.49) both reside in comfortably bullish territory, reflecting sustained buying interest and positive capital flows without signaling overbought risk. Supported by a solid On-Balance Volume (OBV) of over 24.8 million, the data indicates that institutional accumulation remains intact, suggesting today's minor pullback is merely a brief pause within a broader, resilient trend.",
+  "market_weight": 0.1232,
+  "change_pct": -0.36,
+  "insights": "The Consumer Discretionary sector experienced a minor pullback today, closing down -0.36%, but underlying technicals suggest this represents routine consolidation rather than structural weakness. Both the Relative Strength Index (RSI) at 58.92 and the Money Flow Index (MFI) at 59.99 remain in comfortable, moderately bullish territory, signaling that positive momentum and volume-weighted buying pressure are still intact without reaching overbought levels. Additionally, a robust On-Balance Volume (OBV) of 21,027,514 indicates steady accumulation, reflecting sustained institutional support for the sector despite today's modest decline.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770768000000,
-        30.02
-      ],
       [
         1770854400000,
         27.26
@@ -747,13 +743,13 @@
       [
         1786320000000,
         60.47
+      ],
+      [
+        1786406400000,
+        58.92
       ]
     ],
     "mfi": [
-      [
-        1770768000000,
-        24.2
-      ],
       [
         1770854400000,
         18.53
@@ -1473,13 +1469,13 @@
       [
         1786320000000,
         58.49
+      ],
+      [
+        1786406400000,
+        59.99
       ]
     ],
     "obv": [
-      [
-        1770768000000,
-        31911666.0
-      ],
       [
         1770854400000,
         15630764.0
@@ -2199,6 +2195,10 @@
       [
         1786320000000,
         24814014.0
+      ],
+      [
+        1786406400000,
+        21027514.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     -5.79,
     6.74,
     3.25,
-    -0.16,
+    -0.52,
     null,
     null,
     null,

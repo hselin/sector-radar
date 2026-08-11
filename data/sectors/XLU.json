@@ -1,7 +1,7 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies that generate, transmit, and distribute electricity, natural gas, water, and renewable energy to residential, commercial, and industrial consumers.",
+    "description": "The Utilities sector consists of companies that generate and distribute electric power, supply natural gas, and provide water and renewable energy services to residential and industrial customers.",
     "marketSizeUSD": "1.2T",
     "constituentCount": 31,
     "topHoldings": [
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0165,
-  "change_pct": -1.1,
-  "insights": "The Utilities sector faced notable downside pressure today, declining by -1.10% as market participants rotated out of defensive holdings. Technical indicators point to an increasingly oversold environment driven by heavy distribution; the Relative Strength Index (RSI) at 32.27 sits near oversold territory, while the Money Flow Index (MFI) has plunged to 17.00, signaling severe capital outflows and aggressive short-term selling. Meanwhile, an On-Balance Volume (OBV) of 331.94 million reflects sustained volume confirmation behind this downward trend, though the severely depressed MFI suggests the sector is becoming technically overextended to the downside and may be ripe for a temporary stabilization or mean-reversion bounce.",
+  "market_weight": 0.0156,
+  "change_pct": 1.16,
+  "insights": "The Utilities sector posted a solid 1.16% gain today, characterizing a classic technical relief rally out of deeply oversold territory. Despite today's positive price action, the RSI at 39.21 reflects lingering medium-term weakness, while a severely depressed Money Flow Index (MFI) of 17.07 highlights that the sector recently experienced extreme selling pressure and capital outflows. Today's uptick, anchored by an On-Balance Volume (OBV) of 351,516,992, points to opportunistic value-hunting at these lower valuations; however, sustained volume and an MFI recovery above 20 will be required to confirm a genuine trend reversal rather than a short-lived dead-cat bounce.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770768000000,
-        48.59
-      ],
       [
         1770854400000,
         54.02
@@ -747,13 +743,13 @@
       [
         1786320000000,
         32.27
+      ],
+      [
+        1786406400000,
+        39.21
       ]
     ],
     "mfi": [
-      [
-        1770768000000,
-        65.26
-      ],
       [
         1770854400000,
         73.27
@@ -1473,13 +1469,13 @@
       [
         1786320000000,
         17.0
+      ],
+      [
+        1786406400000,
+        17.07
       ]
     ],
     "obv": [
-      [
-        1770768000000,
-        256747694.0
-      ],
       [
         1770854400000,
         302103576.0
@@ -2199,6 +2195,10 @@
       [
         1786320000000,
         331942725.0
+      ],
+      [
+        1786406400000,
+        351516992.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     2.48,
     -4.19,
     -1.67,
-    -1.1,
+    0.05,
     null,
     null,
     null,

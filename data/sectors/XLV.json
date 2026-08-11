@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in medical equipment and supplies, healthcare providers and services, pharmaceuticals, biotechnology, and life sciences tools.",
-    "marketSizeUSD": "6.2T",
+    "description": "The Health Care sector encompasses companies involved in medical services, pharmaceutical development, medical device manufacturing, and biotechnology innovations.",
+    "marketSizeUSD": "8.2T",
     "constituentCount": 64,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0852,
-  "change_pct": 1.67,
-  "insights": "The Health Care sector demonstrated strong bullish momentum today, posting a solid gain of 1.67%. Technical metrics reflect this upward bias, with an RSI of 66.67 approaching overbought territory to signal robust short-term buying strength, while a Money Flow Index (MFI) of 59.75 confirms healthy, moderate capital inflows supporting today's price action. However, the negative On-Balance Volume (OBV) of -22,014,369 presents a subtle divergence, indicating that longer-term cumulative volume has leaned toward distribution prior to this surge. Overall, while the sector is benefiting from clear short-term upside momentum, sustained institutional volume will be necessary to convert today's advance into a broader structural trend.",
+  "market_weight": 0.1064,
+  "change_pct": -0.26,
+  "insights": "The Health Care sector experienced a minor pullback today, slipping -0.26% in what appears to be a brief pause within a broader uptrend. Short-term momentum remains relatively firm, as evidenced by an RSI of 65.22 and an MFI of 60.15, both pointing to healthy buying interest and solid capital retention just below overbought thresholds. However, the heavily negative OBV (-28,679,790) reveals a persistent underlying volume divergence, indicating that recent price strength is occurring against a backdrop of net cumulative distribution. Overall, while today's slight dip looks like routine consolidation, investors should monitor this volume-price divergence closely for signs of upside exhaustion.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770768000000,
-        51.33
-      ],
       [
         1770854400000,
         50.53
@@ -747,13 +743,13 @@
       [
         1786320000000,
         66.67
+      ],
+      [
+        1786406400000,
+        65.22
       ]
     ],
     "mfi": [
-      [
-        1770768000000,
-        35.14
-      ],
       [
         1770854400000,
         43.4
@@ -1473,13 +1469,13 @@
       [
         1786320000000,
         59.75
+      ],
+      [
+        1786406400000,
+        60.15
       ]
     ],
     "obv": [
-      [
-        1770768000000,
-        97482089.0
-      ],
       [
         1770854400000,
         78105277.0
@@ -2199,6 +2195,10 @@
       [
         1786320000000,
         -22014369.0
+      ],
+      [
+        1786406400000,
+        -28679790.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     0.92,
     -0.01,
     1.93,
-    1.67,
+    1.41,
     null,
     null,
     null,

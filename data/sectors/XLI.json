@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in capital goods, transportation services, and commercial and professional services.",
-    "marketSizeUSD": "5.8T",
+    "description": "The Industrials sector encompasses companies involved in aerospace and defense, industrial machinery, construction, engineering, logistics, and transportation services.",
+    "marketSizeUSD": "4.5T",
     "constituentCount": 78,
     "topHoldings": [
       {
-        "name": "GE Aerospace",
+        "name": "General Electric Company",
         "symbol": "GE"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0797,
-  "change_pct": -0.31,
-  "insights": "The Industrials sector experienced a modest pullback today, dipping -0.31% in a likely bout of routine profit-taking that appears to be a minor consolidation rather than a structural reversal. Despite the daily decline, key technicals highlight underlying strength: the Relative Strength Index (RSI) at 57.08 and Money Flow Index (MFI) at 59.72 both remain comfortably above neutral midpoints, signaling intact positive momentum and healthy net inflows without reaching overbought conditions. Paired with a robust On-Balance Volume (OBV) of 205.35 million indicating sustained cumulative buying pressure, today's slight pause suggests the sector's broader bullish trend remains well-supported.",
+  "market_weight": 0.0584,
+  "change_pct": 0.6,
+  "insights": "The Industrials sector demonstrated steady bullish momentum today, advancing by 0.60% as technical indicators reflect strong, sustainable buying pressure without approaching overbought territory. The Relative Strength Index (RSI) at 59.35 and Money Flow Index (MFI) at 60.03 both point to healthy price action and consistent capital inflows, signaling that buyers remain firmly in control while leaving room for further potential upside. This modest gain is anchored by a robust On-Balance Volume (OBV) exceeding 210 million, confirming that positive volume flows continue to support the broader sector trend and indicating solid institutional accumulation behind today\u2019s performance.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770768000000,
-        74.96
-      ],
       [
         1770854400000,
         66.71
@@ -747,13 +743,13 @@
       [
         1786320000000,
         57.08
+      ],
+      [
+        1786406400000,
+        59.35
       ]
     ],
     "mfi": [
-      [
-        1770768000000,
-        66.65
-      ],
       [
         1770854400000,
         63.86
@@ -1473,13 +1469,13 @@
       [
         1786320000000,
         59.72
+      ],
+      [
+        1786406400000,
+        60.03
       ]
     ],
     "obv": [
-      [
-        1770768000000,
-        220952267.0
-      ],
       [
         1770854400000,
         203031357.0
@@ -2199,6 +2195,10 @@
       [
         1786320000000,
         205350250.0
+      ],
+      [
+        1786406400000,
+        210242481.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     1.81,
     -1.54,
     2.97,
-    -0.31,
+    0.28,
     null,
     null,
     null,

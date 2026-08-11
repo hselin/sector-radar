@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector consists of companies that manufacture and distribute essential products such as food, beverages, household goods, and personal care items.",
-    "marketSizeUSD": "4.2T",
+    "description": "The Consumer Staples sector comprises companies involved in the production and distribution of essential goods such as food, beverages, household items, and personal care products.",
+    "marketSizeUSD": "12.0T",
     "constituentCount": 38,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0577,
-  "change_pct": -0.2,
-  "insights": "The Consumer Staples sector experienced a slight pullback today, down -0.20%, reflecting a period of neutral consolidation rather than systemic weakness. Technical indicators point to a highly balanced market; the Relative Strength Index (RSI) at 50.42 sits directly at the midpoint, signaling an absence of clear directional momentum. Meanwhile, a Money Flow Index (MFI) of 44.96 highlights mild selling pressure and marginal capital outflows consistent with today\u2019s modest dip, while an On-Balance Volume (OBV) of 47,940,028 indicates steady underlying liquidity without signs of institutional distribution. Overall, the defensive sector remains range-bound as investors await broader macroeconomic catalysts.",
+  "market_weight": 0.1556,
+  "change_pct": -0.31,
+  "insights": "The Consumer Staples sector posted a modest pullback today, declining -0.31% in a session marked by low-volatility consolidation. Key momentum and volume indicators point to a largely neutral setup: the Relative Strength Index (RSI) at 48.96 sits right near the midpoint, reflecting balanced market sentiment with no immediate overbought or oversold conditions. Meanwhile, the Money Flow Index (MFI) at 45.00 highlights mild capital outflows, suggesting a slight tilt toward selling pressure that aligns with today's price action. Supported by an On-Balance Volume (OBV) of 40,734,278, this soft price action appears to be a routine pause and minor volume-backed adjustment rather than a broader institutional distribution away from the defensive sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770768000000,
-        78.05
-      ],
       [
         1770854400000,
         79.97
@@ -747,13 +743,13 @@
       [
         1786320000000,
         50.42
+      ],
+      [
+        1786406400000,
+        48.96
       ]
     ],
     "mfi": [
-      [
-        1770768000000,
-        76.6
-      ],
       [
         1770854400000,
         77.85
@@ -1473,13 +1469,13 @@
       [
         1786320000000,
         44.96
+      ],
+      [
+        1786406400000,
+        45.0
       ]
     ],
     "obv": [
-      [
-        1770768000000,
-        209583343.0
-      ],
       [
         1770854400000,
         244832302.0
@@ -2199,6 +2195,10 @@
       [
         1786320000000,
         47940028.0
+      ],
+      [
+        1786406400000,
+        40734278.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     -2.32,
     2.21,
     0.08,
-    -0.2,
+    -0.51,
     null,
     null,
     null,

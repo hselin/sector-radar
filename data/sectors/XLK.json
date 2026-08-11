@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies involved in software development, technology hardware, semiconductor manufacturing, and IT services.",
-    "marketSizeUSD": "15.5T",
+    "description": "The Information Technology sector encompasses companies that design and manufacture software, hardware, semiconductor products, and deliver technology-related services.",
+    "marketSizeUSD": "15.2T",
     "constituentCount": 65,
     "topHoldings": [
       {
-        "name": "Apple Inc.",
-        "symbol": "AAPL"
-      },
-      {
         "name": "Microsoft Corporation",
         "symbol": "MSFT"
+      },
+      {
+        "name": "Apple Inc.",
+        "symbol": "AAPL"
       },
       {
         "name": "NVIDIA Corporation",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2129,
-  "change_pct": -0.88,
-  "insights": "The Information Technology sector experienced a modest pullback today, declining -0.88%, which technical indicators suggest is a routine consolidation rather than a broader trend reversal. The RSI at 56.86 remains in mildly positive territory above the neutral 50 mark, indicating that underlying upside momentum is still intact despite the daily drop. Meanwhile, an MFI of 48.21 points to balanced capital flows with no severe selling pressure, and a steady OBV of 414.2 million indicates that institutional investors are generally holding their positions rather than aggressively distributing. Overall, the market is digesting recent gains, with technical health intact despite today's minor contraction.",
+  "market_weight": 0.1971,
+  "change_pct": -0.12,
+  "insights": "The Information Technology sector posted a flat session today, easing by a marginal 0.12% in what appears to be routine consolidation rather than a trend reversal. Technical indicators point to underlying strength despite the minor drawdown: the Relative Strength Index (RSI) at 56.53 sits comfortably in constructive, neutral-to-bullish territory, while the Money Flow Index (MFI) of 48.04 indicates a well-balanced flow of capital with no significant distribution pressure. Furthermore, a substantial On-Balance Volume (OBV) of nearly 408.7 million confirms that cumulative buying pressure remains intact, suggesting institutional investors are holding positions and that broader bullish sentiment for the sector remains well-supported.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1770768000000,
-        40.87
-      ],
       [
         1770854400000,
         36.23
@@ -747,13 +743,13 @@
       [
         1786320000000,
         56.86
+      ],
+      [
+        1786406400000,
+        56.53
       ]
     ],
     "mfi": [
-      [
-        1770768000000,
-        42.34
-      ],
       [
         1770854400000,
         40.32
@@ -1473,13 +1469,13 @@
       [
         1786320000000,
         48.21
+      ],
+      [
+        1786406400000,
+        48.04
       ]
     ],
     "obv": [
-      [
-        1770768000000,
-        286270514.0
-      ],
       [
         1770854400000,
         254674430.0
@@ -2199,6 +2195,10 @@
       [
         1786320000000,
         414249693.0
+      ],
+      [
+        1786406400000,
+        408658011.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     0.17,
     -0.3,
     7.2,
-    -0.88,
+    -1.0,
     null,
     null,
     null,
