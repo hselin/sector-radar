@@ -1,8 +1,8 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies involved in the discovery, development, and processing of raw materials, including chemicals, construction materials, packaging, and metals and mining.",
-    "marketSizeUSD": "5.5T",
+    "description": "The Materials sector encompasses companies involved in the discovery, development, and processing of raw materials, including chemicals, construction materials, glass, paper, forest products, metals, and mining.",
+    "marketSizeUSD": "6.5T",
     "constituentCount": 28,
     "topHoldings": [
       {
@@ -14,20 +14,16 @@
         "symbol": "SHW"
       },
       {
-        "name": "Freeport-McMoRan Inc.",
-        "symbol": "FCX"
+        "name": "Ecolab Inc.",
+        "symbol": "ECL"
       }
     ]
   },
-  "market_weight": 0.0713,
-  "change_pct": -0.51,
-  "insights": "The Materials sector experienced a minor pullback today, closing down 0.51%, though its underlying technical structure suggests a routine pause rather than a broader trend reversal. Both the Relative Strength Index (RSI) at 54.13 and the Money Flow Index (MFI) at 57.36 hold comfortably above the neutral 50 threshold, signaling that overall momentum and capital flows remain balanced with a mild constructive bias. Furthermore, a strong On-Balance Volume (OBV) reading of approximately 89.5 million reflects sustained volume support, indicating that today's decline was driven by light profit-taking rather than aggressive institutional distribution.",
+  "market_weight": 0.0832,
+  "change_pct": 0.44,
+  "insights": "The Materials sector posted a modest gain of 0.44% today, demonstrating steady strength supported by balanced technical indicators. A Relative Strength Index (RSI) of 55.67 and a Money Flow Index (MFI) of 57.08 both sit in neutral-to-slightly-bullish territory, indicating steady buying pressure and healthy capital inflows without risking overbought conditions. Further supported by a strong On-Balance Volume (OBV) of 96,978,879, this movement reflects underlying accumulation, suggesting the sector's positive session is backed by genuine market participation rather than low-volume noise.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771027200000,
-        null
-      ],
       [
         1771113600000,
         null
@@ -747,13 +743,13 @@
       [
         1786579200000,
         54.13
+      ],
+      [
+        1786665600000,
+        55.67
       ]
     ],
     "mfi": [
-      [
-        1771027200000,
-        null
-      ],
       [
         1771113600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1786579200000,
         57.36
+      ],
+      [
+        1786665600000,
+        57.08
       ]
     ],
     "obv": [
-      [
-        1771027200000,
-        null
-      ],
       [
         1771113600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1786579200000,
         89531854.0
+      ],
+      [
+        1786665600000,
+        96978879.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     1.44,
     -1.62,
     4.82,
-    -1.04,
+    -0.61,
     null,
     null,
     null,

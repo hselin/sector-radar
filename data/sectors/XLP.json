@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1556,
-  "change_pct": 1.08,
-  "insights": "The Consumer Staples sector demonstrated solid defensive strength today, posting a 1.08% gain supported by a balanced technical foundation. An RSI of 56.23 indicates healthy, moderate bullish momentum with ample runway before reaching overbought territory, while an MFI of 51.51 reflects steady, volume-weighted buying pressure rather than speculative overextension. Backed by a strong On-Balance Volume (OBV) of nearly 57 million, today's price appreciation reflects genuine, sustainable accumulation by investors seeking stability without overextending current sector valuations.",
+  "market_weight": 0.1536,
+  "change_pct": 0.1,
+  "insights": "The Consumer Staples sector demonstrated modest stability today, edging up by a muted 0.10% in a period of clear market consolidation. Technical indicators reinforce this balanced price action: an RSI of 56.69 indicates a slight bullish bias without entering overbought territory, while a Money Flow Index (MFI) of 49.79 sits squarely at the neutral midpoint, signaling an equal equilibrium between institutional capital inflows and outflows. Supported by a healthy baseline cumulative On-Balance Volume (OBV) of 63,903,516, the overall profile suggests investors are maintaining a defensive, wait-and-see stance, holding positions steadily rather than aggressively driving momentum in either direction.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771027200000,
-        null
-      ],
       [
         1771113600000,
         null
@@ -747,13 +743,13 @@
       [
         1786579200000,
         56.23
+      ],
+      [
+        1786665600000,
+        56.69
       ]
     ],
     "mfi": [
-      [
-        1771027200000,
-        null
-      ],
       [
         1771113600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1786579200000,
         51.51
+      ],
+      [
+        1786665600000,
+        49.79
       ]
     ],
     "obv": [
-      [
-        1771027200000,
-        null
-      ],
       [
         1771113600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1786579200000,
         56976916.0
+      ],
+      [
+        1786665600000,
+        63903516.0
       ]
     ]
   },
@@ -2235,7 +2235,7 @@
     -2.32,
     2.21,
     0.08,
-    1.03,
+    1.14,
     null,
     null,
     null,
