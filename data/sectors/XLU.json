@@ -1,7 +1,7 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector consists of companies that generate and distribute electric power, supply natural gas, and provide water and renewable energy services to residential and industrial customers.",
+    "description": "The Utilities sector encompasses companies that provide essential infrastructure services, including electricity, natural gas, water, and renewable power.",
     "marketSizeUSD": "1.2T",
     "constituentCount": 31,
     "topHoldings": [
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0154,
-  "change_pct": -0.29,
-  "insights": "The Utilities sector edged lower today with a modest decline of -0.29%, reflecting a minor phase of consolidation amidst broader market dynamics. Technical indicators point to a subdued trading environment; the Relative Strength Index (RSI) at 46.31 sits in neutral territory with a slight bearish tilt, while the Money Flow Index (MFI) at a low 23.35 highlights significant volume-weighted capital outflow, placing the sector on the cusp of oversold conditions. Supported by an On-Balance Volume (OBV) of 385.25 million, this divergence between a mild price dip and weak money flow suggests that while panic selling is absent, institutional buying interest remains minimal, keeping the defensive sector in a short-term holding pattern.",
+  "market_weight": 0.0173,
+  "change_pct": -2.28,
+  "insights": "The Utilities sector experienced significant selling pressure today, falling **-2.28%** as investors rotated out of defensive plays. Technical momentum reflects this sharp downturn, with the Relative Strength Index (RSI) sinking to **32.59**, placing the sector on the threshold of oversold territory (<30) and indicating strong short-term bearish momentum. This decline is corroborated by volume metrics: the Money Flow Index (MFI) at **31.73** highlights substantial institutional capital outflows, while an On-Balance Volume (OBV) of **327,831,321** confirms that heavy volume accompanied today\u2019s price drop. While the near-oversold RSI and MFI readings suggest the sector may be approaching a temporary floor where a short-term relief bounce could occur, the prevailing technical posture signals that selling pressure currently dominates the space.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771372800000,
-        54.29
-      ],
-      [
-        1771459200000,
-        57.59
-      ],
-      [
-        1771545600000,
-        59.05
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -747,25 +731,25 @@
       [
         1786924800000,
         46.31
+      ],
+      [
+        1787011200000,
+        44.55
+      ],
+      [
+        1787097600000,
+        44.55
+      ],
+      [
+        1787184000000,
+        41.67
+      ],
+      [
+        1787270400000,
+        32.59
       ]
     ],
     "mfi": [
-      [
-        1771372800000,
-        68.29
-      ],
-      [
-        1771459200000,
-        68.1
-      ],
-      [
-        1771545600000,
-        73.93
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1786924800000,
         23.35
+      ],
+      [
+        1787011200000,
+        30.11
+      ],
+      [
+        1787097600000,
+        30.94
+      ],
+      [
+        1787184000000,
+        31.37
+      ],
+      [
+        1787270400000,
+        31.73
       ]
     ],
     "obv": [
-      [
-        1771372800000,
-        280968559.0
-      ],
-      [
-        1771459200000,
-        304246384.0
-      ],
-      [
-        1771545600000,
-        325835891.0
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1786924800000,
         385255142.0
+      ],
+      [
+        1787011200000,
+        366855289.0
+      ],
+      [
+        1787097600000,
+        366855289.0
+      ],
+      [
+        1787184000000,
+        349799367.0
+      ],
+      [
+        1787270400000,
+        327831321.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -4.19,
     -1.67,
     1.61,
-    -0.29,
+    -3.48,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies involved in banking, investment services, insurance, consumer finance, and transaction processing.",
-    "marketSizeUSD": "9.5T",
+    "description": "The Financials sector comprises companies involved in banking, investment management, insurance, payment processing, and consumer finance.",
+    "marketSizeUSD": "9.8T",
     "constituentCount": 72,
     "topHoldings": [
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1216,
-  "change_pct": -1.0,
-  "insights": "The Financials sector experienced a routine pullback today, declining by 1.00%, though underlying technical indicators suggest the broader trend remains structurally sound. A Relative Strength Index (RSI) of 58.22 indicates that momentum stays comfortably in constructive territory despite the daily dip, while a Money Flow Index (MFI) of 53.85 reflects balanced volume-weighted capital flows without signaling aggressive institutional distribution. Supported by a solid On-Balance Volume (OBV) baseline of 559,334,937, today's negative price action appears to be a controlled, short-term consolidation\u2014likely driven by routine profit-taking\u2014rather than a fundamental shift in sector sentiment.",
+  "market_weight": 0.1416,
+  "change_pct": 0.93,
+  "insights": "The Financials sector posted a solid gain of 0.93% today, backed by technical indicators that suggest a healthy and sustainable upward move. The Relative Strength Index (RSI) at 54.91 signals modest bullish momentum with ample room to run before approaching overbought territory, while a Money Flow Index (MFI) of 48.71 points to balanced capital flows, indicating disciplined buying rather than speculative pressure. Furthermore, a strong On-Balance Volume (OBV) baseline of 547.16 million underscores steady underlying liquidity and institutional backing. Overall, today's performance reflects measured strength, leaving the sector well-positioned for further gains without immediate risk of overextension.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771372800000,
-        43.46
-      ],
-      [
-        1771459200000,
-        40.51
-      ],
-      [
-        1771545600000,
-        43.67
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -747,25 +731,25 @@
       [
         1786924800000,
         58.22
+      ],
+      [
+        1787011200000,
+        60.73
+      ],
+      [
+        1787097600000,
+        55.74
+      ],
+      [
+        1787184000000,
+        49.32
+      ],
+      [
+        1787270400000,
+        54.91
       ]
     ],
     "mfi": [
-      [
-        1771372800000,
-        40.15
-      ],
-      [
-        1771459200000,
-        33.87
-      ],
-      [
-        1771545600000,
-        39.93
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1786924800000,
         53.85
+      ],
+      [
+        1787011200000,
+        57.21
+      ],
+      [
+        1787097600000,
+        56.61
+      ],
+      [
+        1787184000000,
+        49.18
+      ],
+      [
+        1787270400000,
+        48.71
       ]
     ],
     "obv": [
-      [
-        1771372800000,
-        56832157.0
-      ],
-      [
-        1771459200000,
-        13127944.0
-      ],
-      [
-        1771545600000,
-        63674670.0
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1786924800000,
         559334937.0
+      ],
+      [
+        1787011200000,
+        582893650.0
+      ],
+      [
+        1787097600000,
+        547353022.0
+      ],
+      [
+        1787184000000,
+        520392896.0
+      ],
+      [
+        1787270400000,
+        547156366.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     1.12,
     1.16,
     0.97,
-    -1.0,
+    -1.17,
     null,
     null,
     null,

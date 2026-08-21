@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in medical services, pharmaceutical development, medical device manufacturing, and biotechnology innovations.",
-    "marketSizeUSD": "8.2T",
-    "constituentCount": 64,
+    "description": "The Health Care sector encompasses companies involved in biotechnology, pharmaceuticals, medical device manufacturing, and healthcare delivery services.",
+    "marketSizeUSD": "8.5T",
+    "constituentCount": 60,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.105,
-  "change_pct": -0.19,
-  "insights": "The Health Care sector experienced a minor contraction today, closing down 0.19% in a brief period of price consolidation. While an RSI of 60.73 indicates that underlying price momentum remains constructively bullish, volume-weighted metrics suggest caution. Specifically, an MFI of 42.54 points to lukewarm capital inflows on the day, while a deeply negative OBV (-40.17 million) reflects lingering cumulative distribution and past selling pressure. Overall, while the sector retains solid price strength, it currently lacks the strong institutional buying volume needed to drive a sustained upward breakout.",
+  "market_weight": 0.1228,
+  "change_pct": 1.29,
+  "insights": "The Health Care sector demonstrated strong bullish momentum today, posting a solid gain of 1.29%. Technically, the sector is exhibiting robust short-term strength, with the Relative Strength Index (RSI) at 68.33 pushing close to overbought territory (>70) and a Money Flow Index (MFI) of 60.60 confirming steady capital inflows behind the move. However, the negative On-Balance Volume (OBV) of -16.11 million reveals an underlying volume divergence, indicating that today's price appreciation is advancing against broader historical distribution rather than a decisive, volume-backed institutional breakout. Consequently, while short-term upside tailwinds remain intact, the elevated RSI alongside negative cumulative volume suggests the sector may be due for a brief consolidation in the near term.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771372800000,
-        55.33
-      ],
-      [
-        1771459200000,
-        53.84
-      ],
-      [
-        1771545600000,
-        51.97
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -747,25 +731,25 @@
       [
         1786924800000,
         60.73
+      ],
+      [
+        1787011200000,
+        66.62
+      ],
+      [
+        1787097600000,
+        75.43
+      ],
+      [
+        1787184000000,
+        65.19
+      ],
+      [
+        1787270400000,
+        68.33
       ]
     ],
     "mfi": [
-      [
-        1771372800000,
-        52.68
-      ],
-      [
-        1771459200000,
-        52.85
-      ],
-      [
-        1771545600000,
-        47.08
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1786924800000,
         42.54
+      ],
+      [
+        1787011200000,
+        50.01
+      ],
+      [
+        1787097600000,
+        61.05
+      ],
+      [
+        1787184000000,
+        60.58
+      ],
+      [
+        1787270400000,
+        60.6
       ]
     ],
     "obv": [
-      [
-        1771372800000,
-        91744792.0
-      ],
-      [
-        1771459200000,
-        80704377.0
-      ],
-      [
-        1771545600000,
-        67834784.0
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1786924800000,
         -40168210.0
+      ],
+      [
+        1787011200000,
+        -32650568.0
+      ],
+      [
+        1787097600000,
+        -16628209.0
+      ],
+      [
+        1787184000000,
+        -26270746.0
+      ],
+      [
+        1787270400000,
+        -16111390.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -0.01,
     1.93,
     1.02,
-    -0.19,
+    4.33,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, and transportation of oil, gas, and consumable fuels, as well as energy equipment and services.",
-    "marketSizeUSD": "3.8T",
-    "constituentCount": 23,
+    "description": "The Energy sector comprises companies involved in the exploration, production, refining, transportation, and servicing of oil, natural gas, and consumable fuels.",
+    "marketSizeUSD": "1.7T",
+    "constituentCount": 22,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0487,
-  "change_pct": 1.08,
-  "insights": "The Energy sector demonstrated strong bullish momentum today, posting a solid 1.08% gain backed by robust technical indicators. An RSI of 69.67 highlights powerful price velocity that is flirting with the overbought threshold (70), indicating strong buyer control while signaling the potential for a near-term period of consolidation. This price strength is comfortably supported by an MFI of 57.15, which reflects healthy, sustainable capital inflows without overextended volume fatigue. Furthermore, an elevated On-Balance Volume (OBV) of over 1.32 billion confirms that today\u2019s advance is anchored by solid institutional accumulation, reinforcing the broader legitimacy of the sector's upward trajectory.",
+  "market_weight": 0.0246,
+  "change_pct": -0.17,
+  "insights": "The Energy sector edged slightly lower today with a marginal decline of -0.17%, reflecting a brief period of consolidation following recent upward momentum. The Relative Strength Index (RSI) at 71.73 indicates the sector has crossed into overbought territory, suggesting today\u2019s minor pull-back is likely a result of routine, short-term profit-taking. However, underlying technicals remain constructive: a solid Money Flow Index (MFI) of 62.67 combined with a massive On-Balance Volume (OBV) of over 1.31 billion demonstrates robust buying pressure and sustained institutional capital inflows. Overall, today's price action represents a healthy pause to digest recent gains rather than a fundamental trend reversal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771372800000,
-        62.54
-      ],
-      [
-        1771459200000,
-        63.97
-      ],
-      [
-        1771545600000,
-        62.18
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -747,25 +731,25 @@
       [
         1786924800000,
         69.67
+      ],
+      [
+        1787011200000,
+        72.88
+      ],
+      [
+        1787097600000,
+        72.13
+      ],
+      [
+        1787184000000,
+        72.65
+      ],
+      [
+        1787270400000,
+        71.73
       ]
     ],
     "mfi": [
-      [
-        1771372800000,
-        57.27
-      ],
-      [
-        1771459200000,
-        56.75
-      ],
-      [
-        1771545600000,
-        58.04
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1786924800000,
         57.15
+      ],
+      [
+        1787011200000,
+        56.58
+      ],
+      [
+        1787097600000,
+        63.35
+      ],
+      [
+        1787184000000,
+        63.28
+      ],
+      [
+        1787270400000,
+        62.67
       ]
     ],
     "obv": [
-      [
-        1771372800000,
-        970041313.0
-      ],
-      [
-        1771459200000,
-        1031836142.0
-      ],
-      [
-        1771545600000,
-        984322498.0
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1786924800000,
         1322450396.0
+      ],
+      [
+        1787011200000,
+        1349484122.0
+      ],
+      [
+        1787097600000,
+        1324110865.0
+      ],
+      [
+        1787184000000,
+        1344969463.0
+      ],
+      [
+        1787270400000,
+        1318172244.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     -0.12,
     -3.44,
     7.67,
-    1.08,
+    2.79,
     null,
     null,
     null,

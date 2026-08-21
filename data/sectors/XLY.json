@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses businesses that produce non-essential goods and services, such as retail, automobiles, apparel, and leisure, whose demand fluctuates based on economic conditions and consumer spending power.",
-    "marketSizeUSD": "9.5T",
+    "description": "The Consumer Discretionary sector includes businesses that sell non-essential goods and services, such as automobiles, apparel, retail, and leisure products, which experience demand fluctuations based on economic cycles.",
+    "marketSizeUSD": "10.5T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1216,
-  "change_pct": -1.23,
-  "insights": "The Consumer Discretionary sector experienced a moderate pullback today, declining **-1.23%**, though underlying technicals suggest this reflects a routine consolidation rather than a broader structural reversal. A near-perfectly neutral RSI of **49.84** indicates balanced momentum despite today's drop, while an elevated Money Flow Index (MFI) of **63.22** reveals that net capital inflows remain relatively resilient. Coupled with a strong On-Balance Volume (OBV) of **10,401,547**, cumulative buying pressure remains intact, implying today\u2019s sell-off was likely driven by light-volume profit-taking rather than aggressive institutional distribution.",
+  "market_weight": 0.1517,
+  "change_pct": 1.15,
+  "insights": "The Consumer Discretionary sector posted a solid 1.15% gain today, driven by steady, balanced momentum as reflected by a neutral RSI of 53.34. However, the Money Flow Index (MFI) sitting at 42.80 reveals subtle underlying divergence, indicating that today's price advance occurred without aggressive institutional capital inflows. Supported by a healthy On-Balance Volume (OBV) of nearly 13 million, the sector maintains a stable baseline of cumulative demand, though the softer MFI suggests that stronger volume-backed buying pressure will be required to sustain this upward momentum in the coming sessions.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771372800000,
-        31.88
-      ],
-      [
-        1771459200000,
-        30.2
-      ],
-      [
-        1771545600000,
-        35.85
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -747,25 +731,25 @@
       [
         1786924800000,
         49.84
+      ],
+      [
+        1787011200000,
+        48.54
+      ],
+      [
+        1787097600000,
+        55.64
+      ],
+      [
+        1787184000000,
+        49.36
+      ],
+      [
+        1787270400000,
+        53.34
       ]
     ],
     "mfi": [
-      [
-        1771372800000,
-        22.77
-      ],
-      [
-        1771459200000,
-        23.29
-      ],
-      [
-        1771545600000,
-        31.68
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1786924800000,
         63.22
+      ],
+      [
+        1787011200000,
+        56.61
+      ],
+      [
+        1787097600000,
+        56.14
+      ],
+      [
+        1787184000000,
+        45.51
+      ],
+      [
+        1787270400000,
+        42.8
       ]
     ],
     "obv": [
-      [
-        1771372800000,
-        25946596.0
-      ],
-      [
-        1771459200000,
-        16881928.0
-      ],
-      [
-        1771545600000,
-        32178724.0
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1786924800000,
         10401547.0
+      ],
+      [
+        1787011200000,
+        5285603.0
+      ],
+      [
+        1787097600000,
+        11721317.0
+      ],
+      [
+        1787184000000,
+        6589138.0
+      ],
+      [
+        1787270400000,
+        12966414.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     6.74,
     3.25,
     -1.38,
-    -1.23,
+    -0.15,
     null,
     null,
     null,

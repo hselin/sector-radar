@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector encompasses equity Real Estate Investment Trusts (REITs) as well as real estate management and development companies.",
-    "marketSizeUSD": "1.2T",
+    "description": "The Real Estate sector encompasses equity Real Estate Investment Trusts (REITs) as well as companies involved in real estate management and development.",
+    "marketSizeUSD": "1.3T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0154,
-  "change_pct": -0.97,
-  "insights": "The Real Estate sector experienced modest selling pressure today, pulling back -0.97% amidst a shifting momentum profile. The Relative Strength Index (RSI) at 49.05 reflects a neutral technical backdrop, indicating that today's decline has not yet pushed the sector into oversold territory. However, a weaker Money Flow Index (MFI) of 34.94 signals notable capital outflows and subdued buying volume, suggesting that investors are currently reducing exposure. While the On-Balance Volume (OBV) remains elevated at approximately 150 million, reflecting baseline liquidity, the divergence between neutral RSI and weak money flow points to a minor distribution phase, leaving the sector prone to near-term consolidation until stronger buying catalysts emerge.",
+  "market_weight": 0.0188,
+  "change_pct": -0.0,
+  "insights": "The Real Estate sector staged a perfectly neutral session today, closing unchanged at -0.00% as market participants settled into a phase of consolidation. Technical indicators strongly align with this stagnant price action: the Relative Strength Index (RSI) at 52.17 sits firmly in neutral territory, indicating a temporary balance between buyers and sellers, while the Money Flow Index (MFI) at 45.61 points to a very subtle outflow of capital without triggering oversold conditions. Supported by a healthy On-Balance Volume (OBV) baseline of 148.12 million, the underlying volume structure remains stable, suggesting that institutional investors are taking a wait-and-see posture rather than aggressively offloading positions ahead of a clear directional catalyst.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771372800000,
-        65.44
-      ],
-      [
-        1771459200000,
-        63.34
-      ],
-      [
-        1771545600000,
-        66.07
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -747,25 +731,25 @@
       [
         1786924800000,
         49.05
+      ],
+      [
+        1787011200000,
+        46.82
+      ],
+      [
+        1787097600000,
+        51.13
+      ],
+      [
+        1787184000000,
+        52.17
+      ],
+      [
+        1787270400000,
+        52.17
       ]
     ],
     "mfi": [
-      [
-        1771372800000,
-        73.3
-      ],
-      [
-        1771459200000,
-        68.22
-      ],
-      [
-        1771545600000,
-        67.55
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -1473,25 +1457,25 @@
       [
         1786924800000,
         34.94
+      ],
+      [
+        1787011200000,
+        34.91
+      ],
+      [
+        1787097600000,
+        41.5
+      ],
+      [
+        1787184000000,
+        48.07
+      ],
+      [
+        1787270400000,
+        45.61
       ]
     ],
     "obv": [
-      [
-        1771372800000,
-        80957120.0
-      ],
-      [
-        1771459200000,
-        74354306.0
-      ],
-      [
-        1771545600000,
-        81557622.0
-      ],
-      [
-        1771632000000,
-        null
-      ],
       [
         1771718400000,
         null
@@ -2199,6 +2183,22 @@
       [
         1786924800000,
         149952985.0
+      ],
+      [
+        1787011200000,
+        143821206.0
+      ],
+      [
+        1787097600000,
+        148272297.0
+      ],
+      [
+        1787184000000,
+        152083909.0
+      ],
+      [
+        1787270400000,
+        148119844.0
       ]
     ]
   },
@@ -2236,7 +2236,7 @@
     0.27,
     -0.2,
     0.64,
-    -0.97,
+    -0.42,
     null,
     null,
     null,

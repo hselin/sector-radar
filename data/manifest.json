@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-17T21:35:55.965541Z",
+  "lastUpdated": "2026-08-21T21:37:29.846333Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index tracking the performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "48.0T",
+      "marketSizeUSD": "50.0T",
       "constituentCount": 503,
       "topHoldings": [
         {
@@ -20,26 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a modest pullback today, with the major indices shedding 0.47% in what appears to be a brief period of short-term consolidation. Despite today's minor loss, technical indicators suggest that broader market sentiment remains constructively bullish and momentum is intact. The Relative Strength Index (RSI) at 61.78 sits comfortably above the neutral mark, signaling sustained upward momentum without reaching overbought territory. Furthermore, an elevated Money Flow Index (MFI) of 67.51 and a robust On-Balance Volume (OBV) exceeding 1.06 billion indicate that buying pressure and institutional capital inflows remain strong. Overall, today\u2019s decline likely reflects routine profit-taking rather than a structural shift in investor confidence, leaving the primary uptrend on solid footing.",
-    "change_pct": -0.47,
+    "commentary": "The broader stock market posted a modest daily gain of 0.41%, signaling a sentiment of measured optimism and steady accumulation across major indices. Technical indicators reinforce this positive bias: a Relative Strength Index (RSI) of 54.23 indicates balanced, upward price momentum with significant headroom before reaching overbought territory, while a Money Flow Index (MFI) of 59.07 reflects healthy, volume-backed capital entering the market. Furthermore, a elevated On-Balance Volume (OBV) of approximately 1.05 billion demonstrates that higher trading volumes are aligning with positive price days, confirming strong institutional support. Overall, these metrics point to a constructive market environment characterized by sustained buying pressure and stable momentum.",
+    "change_pct": 0.41,
     "technicalIndicators": {
       "rsi": [
-        [
-          1771372800000,
-          48.54
-        ],
-        [
-          1771459200000,
-          46.83
-        ],
-        [
-          1771545600000,
-          51.83
-        ],
-        [
-          1771632000000,
-          null
-        ],
         [
           1771718400000,
           null
@@ -747,25 +731,25 @@
         [
           1786924800000,
           61.78
+        ],
+        [
+          1787011200000,
+          56.61
+        ],
+        [
+          1787097600000,
+          57.78
+        ],
+        [
+          1787184000000,
+          51.74
+        ],
+        [
+          1787270400000,
+          54.23
         ]
       ],
       "mfi": [
-        [
-          1771372800000,
-          29.93
-        ],
-        [
-          1771459200000,
-          30.92
-        ],
-        [
-          1771545600000,
-          38.71
-        ],
-        [
-          1771632000000,
-          null
-        ],
         [
           1771718400000,
           null
@@ -1473,25 +1457,25 @@
         [
           1786924800000,
           67.51
+        ],
+        [
+          1787011200000,
+          70.03
+        ],
+        [
+          1787097600000,
+          68.82
+        ],
+        [
+          1787184000000,
+          60.0
+        ],
+        [
+          1787270400000,
+          59.07
         ]
       ],
       "obv": [
-        [
-          1771372800000,
-          1036856032.0
-        ],
-        [
-          1771459200000,
-          982136763.0
-        ],
-        [
-          1771545600000,
-          1074575621.0
-        ],
-        [
-          1771632000000,
-          null
-        ],
         [
           1771718400000,
           null
@@ -2199,6 +2183,22 @@
         [
           1786924800000,
           1060738012.0
+        ],
+        [
+          1787011200000,
+          1016817112.0
+        ],
+        [
+          1787097600000,
+          1057123112.0
+        ],
+        [
+          1787184000000,
+          1011602812.0
+        ],
+        [
+          1787270400000,
+          1050186528.0
         ]
       ]
     },
@@ -2236,7 +2236,7 @@
       1.1,
       3.51,
       0.4,
-      -0.47,
+      -1.37,
       null,
       null,
       null,
