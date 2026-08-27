@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in biotechnology, pharmaceuticals, medical device manufacturing, and healthcare delivery services.",
-    "marketSizeUSD": "8.5T",
-    "constituentCount": 60,
+    "description": "The Health Care sector includes companies involved in biotechnology, pharmaceuticals, medical device manufacturing, and healthcare services.",
+    "marketSizeUSD": "9.5T",
+    "constituentCount": 64,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1228,
-  "change_pct": 0.05,
-  "insights": "The Health Care sector posted a virtually flat performance today (+0.05%), signaling a period of consolidation following recent upward momentum. Technical indicators suggest the sector is approaching a short-term peak, with both the Relative Strength Index (RSI) at 68.44 and the Money Flow Index (MFI) at 69.84 hovering just below the traditional overbought threshold of 70, reflecting strong buying pressure that may soon face exhaustion. However, a deeply negative On-Balance Volume (OBV) of -10,184,937 reveals a notable bearish divergence; this indicates that underlying distribution persists despite elevated momentum, hinting that recent price strength lacks broader volume conviction and could leave the sector vulnerable to a near-term pullback.",
+  "market_weight": 0.1275,
+  "change_pct": -1.0,
+  "insights": "The Health Care sector experienced a modest pullback today, closing down -1.00%, which appears to be a healthy consolidation within a broader upward trend. Key momentum indicators remain constructive; an RSI of 63.81 and an MFI of 61.10 both point to solid underlying buying pressure and positive capital flows without stepping into overbought territory. However, the negative On-Balance Volume (OBV) of -10.35 million reflects cumulative volume distribution, signaling that larger market participants may be taking profits on strength. Overall, while the day's dip reflects short-term selling pressure, the sector's technical foundation suggests the broader bullish momentum remains intact for now.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771977600000,
-        54.87
-      ],
-      [
-        1772064000000,
-        53.06
-      ],
-      [
-        1772150400000,
-        62.06
-      ],
       [
         1772236800000,
         null
@@ -747,21 +735,21 @@
       [
         1787529600000,
         68.44
+      ],
+      [
+        1787616000000,
+        69.28
+      ],
+      [
+        1787702400000,
+        63.81
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1771977600000,
-        47.58
-      ],
-      [
-        1772064000000,
-        49.27
-      ],
-      [
-        1772150400000,
-        49.47
-      ],
       [
         1772236800000,
         null
@@ -1473,21 +1461,21 @@
       [
         1787529600000,
         69.84
+      ],
+      [
+        1787616000000,
+        67.38
+      ],
+      [
+        1787702400000,
+        61.1
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1771977600000,
-        61959147.0
-      ],
-      [
-        1772064000000,
-        48307445.0
-      ],
-      [
-        1772150400000,
-        61965247.0
-      ],
       [
         1772236800000,
         null
@@ -2199,6 +2187,18 @@
       [
         1787529600000,
         -10184937.0
+      ],
+      [
+        1787616000000,
+        -4757906.0
+      ],
+      [
+        1787702400000,
+        -10349340.0
+      ],
+      [
+        1787788800000,
+        null
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     1.93,
     1.02,
     4.33,
-    0.05,
+    -0.62,
     null,
     null,
     null,

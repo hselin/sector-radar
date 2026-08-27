@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises businesses involved in software development, hardware manufacturing, semiconductor production, and technology services.",
-    "marketSizeUSD": "14.5T",
+    "description": "The Information Technology sector comprises companies involved in software development, hardware manufacturing, semiconductor production, and the provision of IT services.",
+    "marketSizeUSD": "16.5T",
     "constituentCount": 65,
     "topHoldings": [
       {
-        "name": "Apple Inc.",
-        "symbol": "AAPL"
-      },
-      {
         "name": "Microsoft Corporation",
         "symbol": "MSFT"
+      },
+      {
+        "name": "Apple Inc.",
+        "symbol": "AAPL"
       },
       {
         "name": "NVIDIA Corporation",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2095,
-  "change_pct": -1.78,
-  "insights": "The Information Technology sector experienced a sharp pull-back today, declining 1.78% as selling pressure dominated growth equities. Technical momentum has shifted in favor of the bears, with an RSI of 44.58 reflecting weakening buying strength while remaining above oversold territory (<30). This downward trajectory is further validated by a Money Flow Index (MFI) of 36.00, which points to significant capital outflows and institutional distribution, while an On-Balance Volume (OBV) of 400,334,170 underscores that this price decline is backed by sustained volume. Overall, the sector\u2019s current technical posture suggests a continuing short-term consolidation phase, with downside risks remaining elevated until money flows stabilize near key support levels.",
+  "market_weight": 0.2215,
+  "change_pct": 0.61,
+  "insights": "The Information Technology sector demonstrated modest strength today with a 0.61% gain, though technical indicators suggest the move is part of a broader consolidation phase rather than a high-conviction rally. The Relative Strength Index (RSI) at 49.36 sits comfortably at a neutral midpoint, signaling a balance between bulls and bears. However, a Money Flow Index (MFI) of 40.63 reveals that volume-weighted buying pressure remains somewhat subdued, indicating cautious capital allocation despite the positive price action. Supported by a healthy On-Balance Volume (OBV) baseline of 410.33 million, liquidity remains robust, positioning today's upturn as a stable, range-bound move while the sector awaits a stronger catalyst for a decisive breakout.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771977600000,
-        47.08
-      ],
-      [
-        1772064000000,
-        43.64
-      ],
-      [
-        1772150400000,
-        40.07
-      ],
       [
         1772236800000,
         null
@@ -747,21 +735,21 @@
       [
         1787529600000,
         44.58
+      ],
+      [
+        1787616000000,
+        47.5
+      ],
+      [
+        1787702400000,
+        49.36
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1771977600000,
-        44.4
-      ],
-      [
-        1772064000000,
-        47.71
-      ],
-      [
-        1772150400000,
-        38.03
-      ],
       [
         1772236800000,
         null
@@ -1473,21 +1461,21 @@
       [
         1787529600000,
         36.0
+      ],
+      [
+        1787616000000,
+        34.23
+      ],
+      [
+        1787702400000,
+        40.63
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1771977600000,
-        280001325.0
-      ],
-      [
-        1772064000000,
-        260900876.0
-      ],
-      [
-        1772150400000,
-        246116801.0
-      ],
       [
         1772236800000,
         null
@@ -2199,6 +2187,18 @@
       [
         1787529600000,
         400334170.0
+      ],
+      [
+        1787616000000,
+        405690677.0
+      ],
+      [
+        1787702400000,
+        410327207.0
+      ],
+      [
+        1787788800000,
+        null
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     7.2,
     1.09,
     -3.53,
-    -1.78,
+    -0.26,
     null,
     null,
     null,

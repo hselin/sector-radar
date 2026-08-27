@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector encompasses equity Real Estate Investment Trusts (REITs) as well as companies involved in real estate management and development.",
-    "marketSizeUSD": "1.3T",
+    "description": "The Real Estate sector includes companies engaged in real estate development, management, and operation, as well as Real Estate Investment Trusts across various commercial and residential property types.",
+    "marketSizeUSD": "1.4T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.0188,
-  "change_pct": 0.55,
-  "insights": "The Real Estate sector demonstrated steady performance today, edging up by 0.55% in a movement backed by balanced technical indicators. The Relative Strength Index (RSI) at 55.24 and Money Flow Index (MFI) at 52.61 both sit in mildly bullish, neutral territory, indicating constructive buying pressure without risking overbought conditions or overextended capital inflows. Complementing this, a solid On-Balance Volume (OBV) of approximately 155.95 million underscores steady accumulation and sustained market interest. Overall, today's advance reflects a healthy, measured uptick supported by stable underlying liquidity and balanced momentum.",
+  "change_pct": -0.6,
+  "insights": "The Real Estate sector posted a minor pullback today, closing down 0.60%, but key technical indicators suggest this is a routine consolidation rather than the start of a broader downturn. With the Relative Strength Index (RSI) at 51.50 and the Money Flow Index (MFI) at 51.91, both price momentum and volume-weighted buying pressure remain strictly neutral, reflecting balanced market sentiment and stable capital inflows despite the dip. Furthermore, a solid On-Balance Volume (OBV) reading of 155,686,587 indicates that underlying liquidity and demand remain intact, framing today\u2019s negative price action as a low-conviction retracement within a balanced market framework.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771977600000,
-        62.76
-      ],
-      [
-        1772064000000,
-        64.53
-      ],
-      [
-        1772150400000,
-        66.38
-      ],
       [
         1772236800000,
         null
@@ -747,21 +735,21 @@
       [
         1787529600000,
         55.24
+      ],
+      [
+        1787616000000,
+        55.61
+      ],
+      [
+        1787702400000,
+        51.5
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1771977600000,
-        66.27
-      ],
-      [
-        1772064000000,
-        72.99
-      ],
-      [
-        1772150400000,
-        73.6
-      ],
       [
         1772236800000,
         null
@@ -1473,21 +1461,21 @@
       [
         1787529600000,
         52.61
+      ],
+      [
+        1787616000000,
+        50.72
+      ],
+      [
+        1787702400000,
+        51.91
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1771977600000,
-        91809130.0
-      ],
-      [
-        1772064000000,
-        100460586.0
-      ],
-      [
-        1772150400000,
-        111258512.0
-      ],
       [
         1772236800000,
         null
@@ -2199,6 +2187,18 @@
       [
         1787529600000,
         155954596.0
+      ],
+      [
+        1787616000000,
+        159087219.0
+      ],
+      [
+        1787702400000,
+        155686587.0
+      ],
+      [
+        1787788800000,
+        null
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     -0.2,
     0.64,
     -0.42,
-    0.55,
+    0.02,
     null,
     null,
     null,

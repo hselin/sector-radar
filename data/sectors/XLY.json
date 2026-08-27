@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector includes businesses that sell non-essential goods and services, such as automobiles, apparel, retail, and leisure products, which experience demand fluctuations based on economic cycles.",
-    "marketSizeUSD": "10.5T",
+    "description": "The Consumer Discretionary sector comprises businesses that sell non-essential goods and services, including e-commerce, automobiles, apparel, and leisure products, whose demand is highly sensitive to economic cycles and consumer confidence.",
+    "marketSizeUSD": "10.8T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1517,
-  "change_pct": 0.24,
-  "insights": "The Consumer Discretionary sector posted a modest gain of 0.24% today, reflecting a period of healthy, range-bound consolidation. Technical indicators point to a well-balanced market structure with a slight upward bias: an RSI of 54.15 signals stable momentum comfortably clear of overbought conditions, while a Money Flow Index (MFI) of 51.67 indicates near-perfect equilibrium between buying and selling pressure. Supported by an On-Balance Volume (OBV) of 17.62 million, today\u2019s slight gain demonstrates steady institutional participation and solid underlying liquidity, suggesting the sector is consolidating gains quietly while awaiting broader market catalysts.",
+  "market_weight": 0.145,
+  "change_pct": -0.67,
+  "insights": "The Consumer Discretionary sector experienced a modest pullback today, declining -0.67% in a session characterized by short-term consolidation. Technical indicators point to a balanced market environment: the Relative Strength Index (RSI) at 50.13 reflects neutral momentum with no immediate overbought or oversold conditions, while the Money Flow Index (MFI) at 45.49 signals mild capital outflows consistent with today's price contraction. Crucially, a steady On-Balance Volume (OBV) of 10,205,991 suggests that baseline volume support remains intact, indicating that today's dip represents routine profit-taking rather than a broader institutional sell-off.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771977600000,
-        38.95
-      ],
-      [
-        1772064000000,
-        38.85
-      ],
-      [
-        1772150400000,
-        38.3
-      ],
       [
         1772236800000,
         null
@@ -747,21 +735,21 @@
       [
         1787529600000,
         54.15
+      ],
+      [
+        1787616000000,
+        52.91
+      ],
+      [
+        1787702400000,
+        50.13
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1771977600000,
-        38.38
-      ],
-      [
-        1772064000000,
-        39.13
-      ],
-      [
-        1772150400000,
-        42.09
-      ],
       [
         1772236800000,
         null
@@ -1473,21 +1461,21 @@
       [
         1787529600000,
         51.67
+      ],
+      [
+        1787616000000,
+        44.45
+      ],
+      [
+        1787702400000,
+        45.49
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1771977600000,
-        37149820.0
-      ],
-      [
-        1772064000000,
-        27657386.0
-      ],
-      [
-        1772150400000,
-        18448692.0
-      ],
       [
         1772236800000,
         null
@@ -2199,6 +2187,18 @@
       [
         1787529600000,
         17621126.0
+      ],
+      [
+        1787616000000,
+        13467410.0
+      ],
+      [
+        1787702400000,
+        10205991.0
+      ],
+      [
+        1787788800000,
+        null
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     3.25,
     -1.38,
     -0.15,
-    0.24,
+    -0.73,
     null,
     null,
     null,

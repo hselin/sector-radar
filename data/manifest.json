@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T21:39:37.333274Z",
+  "lastUpdated": "2026-08-27T00:42:15.909824Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a modest retreat today, closing down 0.29% in a session characterized by low-conviction, range-bound trading. Key technical indicators point toward a balanced market in a temporary holding pattern: the Relative Strength Index (RSI) at 52.14 and the Money Flow Index (MFI) at 50.80 both hover right near the neutral 50-mark, signaling that momentum and volume-weighted buying pressure are currently equalized between bulls and bears. Furthermore, a elevated On-Balance Volume (OBV) of approximately 1.02 billion reflects robust underlying market liquidity, suggesting that today's slight decline represents routine price consolidation rather than institutional distribution. Overall, current figures indicate neutral momentum and a cautious, \"wait-and-see\" market sentiment, with no immediate signals of oversold or overbought conditions.",
-    "change_pct": -0.29,
+    "commentary": "The stock market closed essentially flat today, up a nominal 0.02%, reflecting a session characterized by tight consolidation and temporary indecision among market participants. Key technical indicators point to a neutral momentum environment with a slight constructive bias: both the Relative Strength Index (RSI) at 54.35 and the Money Flow Index (MFI) at 55.16 reside near mid-level equilibrium, signaling balanced buying and selling pressure with no immediate overbought concerns. Furthermore, a elevated On-Balance Volume (OBV) of approximately 1.07 billion indicates that underlying volume support and structural accumulation remain intact despite the muted price action. Overall, daily sentiment appears cautiously optimistic, suggesting a healthy market pause as investors await fresh catalysts to dictate the next directional leg.",
+    "change_pct": 0.02,
     "technicalIndicators": {
       "rsi": [
-        [
-          1771977600000,
-          54.93
-        ],
-        [
-          1772064000000,
-          51.43
-        ],
-        [
-          1772150400000,
-          48.42
-        ],
         [
           1772236800000,
           null
@@ -747,21 +735,21 @@
         [
           1787529600000,
           52.14
+        ],
+        [
+          1787616000000,
+          54.2
+        ],
+        [
+          1787702400000,
+          54.35
+        ],
+        [
+          1787788800000,
+          null
         ]
       ],
       "mfi": [
-        [
-          1771977600000,
-          45.14
-        ],
-        [
-          1772064000000,
-          46.93
-        ],
-        [
-          1772150400000,
-          39.4
-        ],
         [
           1772236800000,
           null
@@ -1473,21 +1461,21 @@
         [
           1787529600000,
           50.8
+        ],
+        [
+          1787616000000,
+          49.06
+        ],
+        [
+          1787702400000,
+          55.16
+        ],
+        [
+          1787788800000,
+          null
         ]
       ],
       "obv": [
-        [
-          1771977600000,
-          1107627002.0
-        ],
-        [
-          1772064000000,
-          1039759410.0
-        ],
-        [
-          1772150400000,
-          968219039.0
-        ],
         [
           1772236800000,
           null
@@ -2199,6 +2187,18 @@
         [
           1787529600000,
           1018269899.0
+        ],
+        [
+          1787616000000,
+          1045692199.0
+        ],
+        [
+          1787702400000,
+          1072953122.0
+        ],
+        [
+          1787788800000,
+          null
         ]
       ]
     },
@@ -2237,7 +2237,7 @@
       3.51,
       0.4,
       -1.37,
-      -0.29,
+      0.05,
       null,
       null,
       null,

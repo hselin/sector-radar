@@ -1,8 +1,8 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies that provide essential infrastructure services, including electricity, natural gas, water, and renewable power.",
-    "marketSizeUSD": "1.2T",
+    "description": "The Utilities sector comprises companies that produce and deliver essential public services, including electricity, natural gas, water, and renewable energy.",
+    "marketSizeUSD": "1.3T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0173,
-  "change_pct": 1.05,
-  "insights": "The Utilities sector demonstrated defensive strength today with a solid gain of 1.05%, though underlying technical indicators suggest this price action is likely a relief rally within a broader consolidation phase rather than a confirmed trend reversal. Both the Relative Strength Index (RSI at 39.03) and Money Flow Index (MFI at 32.43) remain anchored in lower-bound, near-oversold territory, signaling that broader momentum and volume-weighted capital inflows have been subdued leading up to today's bounce. While an On-Balance Volume (OBV) of 347.8M reflects a stable baseline of liquidity, institutional investors will likely want to see sustained volume accumulation and an MFI push above 50 before confirming a durable bullish pivot for the sector.",
+  "market_weight": 0.0174,
+  "change_pct": 0.46,
+  "insights": "The Utilities sector demonstrated defensive stability today, posting a modest gain of 0.46%. Technical indicators point to a sector in consolidation with a neutral-to-cautious undertone: the Relative Strength Index (RSI) at 43.00 and the Money Flow Index (MFI) at 46.40 both sit below the mid-line, indicating that today\u2019s price appreciation occurred alongside relatively muted buying momentum and volume-weighted cash inflows over recent sessions. However, a substantial On-Balance Volume (OBV) of 373.49 million highlights strong baseline liquidity and firm institutional backing, suggesting that while aggressive accumulation is currently absent, downside risk remains well-supported as investors maintain range-bound positions in the sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771977600000,
-        65.16
-      ],
-      [
-        1772064000000,
-        63.21
-      ],
-      [
-        1772150400000,
-        66.51
-      ],
       [
         1772236800000,
         null
@@ -747,21 +735,21 @@
       [
         1787529600000,
         39.03
+      ],
+      [
+        1787616000000,
+        40.26
+      ],
+      [
+        1787702400000,
+        43.0
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1771977600000,
-        80.87
-      ],
-      [
-        1772064000000,
-        87.95
-      ],
-      [
-        1772150400000,
-        88.3
-      ],
       [
         1772236800000,
         null
@@ -1473,21 +1461,21 @@
       [
         1787529600000,
         32.43
+      ],
+      [
+        1787616000000,
+        39.11
+      ],
+      [
+        1787702400000,
+        46.4
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1771977600000,
-        408463034.0
-      ],
-      [
-        1772064000000,
-        378397452.0
-      ],
-      [
-        1772150400000,
-        418062090.0
-      ],
       [
         1772236800000,
         null
@@ -2199,6 +2187,18 @@
       [
         1787529600000,
         347842082.0
+      ],
+      [
+        1787616000000,
+        361264156.0
+      ],
+      [
+        1787702400000,
+        373485366.0
+      ],
+      [
+        1787788800000,
+        null
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     -1.67,
     1.61,
     -3.48,
-    1.05,
+    1.73,
     null,
     null,
     null,

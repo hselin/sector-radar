@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies involved in the exploration, production, refining, transportation, and servicing of oil, natural gas, and consumable fuels.",
-    "marketSizeUSD": "1.7T",
-    "constituentCount": 22,
+    "description": "The Energy sector comprises companies involved in the exploration, production, refining, transportation, and storage of oil, natural gas, coal, and consumable fuels.",
+    "marketSizeUSD": "1.6T",
+    "constituentCount": 23,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0246,
-  "change_pct": -0.83,
-  "insights": "The Energy sector experienced a minor pullback today, declining by 0.83% in what appears to be a routine consolidation phase after recent gains. Despite the daily dip, key technical indicators suggest underlying market strength: an RSI of 67.30 points to robust bullish momentum sitting just below overbought territory, while a Money Flow Index (MFI) of 64.85 reflects sustained, healthy buying pressure. Further supported by a substantial On-Balance Volume (OBV) of nearly 1.30 billion, the broader trend points to strong institutional accumulation, indicating today's retreat is likely a temporary breather rather than a structural trend reversal.",
+  "market_weight": 0.0215,
+  "change_pct": 0.6,
+  "insights": "The Energy sector demonstrated steady strength today, closing up 0.60% amidst positive technical momentum and solid capital inflows. An RSI of 61.18 reflects constructive bullish momentum without pushing the sector into overbought territory, while an MFI of 58.58 confirms healthy, volume-weighted buying pressure supporting the upward movement. Furthermore, a robust On-Balance Volume (OBV) of over 1.29 billion underscores strong underlying institutional participation, indicating that today\u2019s modest gain is well-supported by sustained market accumulation and points to continued near-term stability.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771977600000,
-        61.12
-      ],
-      [
-        1772064000000,
-        61.99
-      ],
-      [
-        1772150400000,
-        65.93
-      ],
       [
         1772236800000,
         null
@@ -747,21 +735,21 @@
       [
         1787529600000,
         67.3
+      ],
+      [
+        1787616000000,
+        59.46
+      ],
+      [
+        1787702400000,
+        61.18
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1771977600000,
-        49.35
-      ],
-      [
-        1772064000000,
-        56.73
-      ],
-      [
-        1772150400000,
-        57.95
-      ],
       [
         1772236800000,
         null
@@ -1473,21 +1461,21 @@
       [
         1787529600000,
         64.85
+      ],
+      [
+        1787616000000,
+        65.61
+      ],
+      [
+        1787702400000,
+        58.58
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1771977600000,
-        949140334.0
-      ],
-      [
-        1772064000000,
-        996036039.0
-      ],
-      [
-        1772150400000,
-        1054467911.0
-      ],
       [
         1772236800000,
         null
@@ -2199,6 +2187,18 @@
       [
         1787529600000,
         1296440826.0
+      ],
+      [
+        1787616000000,
+        1269578133.0
+      ],
+      [
+        1787702400000,
+        1293515074.0
+      ],
+      [
+        1787788800000,
+        null
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     -3.44,
     7.67,
     2.79,
-    -0.83,
+    -1.9,
     null,
     null,
     null,

@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in capital goods manufacturing, aerospace and defense, construction, logistics, and industrial transportation services.",
-    "marketSizeUSD": "4.2T",
+    "description": "The Industrials sector encompasses companies involved in aerospace and defense, industrial machinery, building products, logistics, and transportation services.",
+    "marketSizeUSD": "5.8T",
     "constituentCount": 78,
     "topHoldings": [
       {
-        "name": "GE Aerospace",
+        "name": "General Electric Company",
         "symbol": "GE"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0607,
-  "change_pct": -0.69,
-  "insights": "The Industrials sector experienced moderate selling pressure today, declining by 0.69% as momentum indicators point toward a broader phase of short-term consolidation. The Relative Strength Index (RSI) at 40.08 reflects a clear bearish bias as it drifts toward oversold territory, while a Money Flow Index (MFI) of 32.75 highlights significant capital outflows and declining buying enthusiasm. Coupled with a steady On-Balance Volume (OBV) of roughly 189.2 million, today\u2019s pullback suggests institutional distribution rather than a low-volume anomaly, indicating that market participants are adopting a cautious stance until clear support levels are established.",
+  "market_weight": 0.0779,
+  "change_pct": 1.09,
+  "insights": "The Industrials sector demonstrated solid short-term momentum today with a 1.09% gain, though technical indicators suggest underlying market caution. An RSI of 45.20 places the sector in neutral territory, indicating that today\u2019s advance represents a healthy rebound from recent weakness rather than an overextended rally. However, an MFI of 34.35 reflects muted capital inflows, signaling that the day's price appreciation was likely driven by short-covering or light retail buying rather than aggressive institutional accumulation. Nevertheless, a robust On-Balance Volume (OBV) of 190.82 million establishes a strong cumulative volume baseline, implying that while immediate buying conviction remains measured, the sector retains solid structural support.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1771977600000,
-        63.33
-      ],
-      [
-        1772064000000,
-        65.52
-      ],
-      [
-        1772150400000,
-        66.38
-      ],
       [
         1772236800000,
         null
@@ -747,21 +735,21 @@
       [
         1787529600000,
         40.08
+      ],
+      [
+        1787616000000,
+        38.72
+      ],
+      [
+        1787702400000,
+        45.2
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1771977600000,
-        58.44
-      ],
-      [
-        1772064000000,
-        59.81
-      ],
-      [
-        1772150400000,
-        59.23
-      ],
       [
         1772236800000,
         null
@@ -1473,21 +1461,21 @@
       [
         1787529600000,
         32.75
+      ],
+      [
+        1787616000000,
+        24.68
+      ],
+      [
+        1787702400000,
+        34.35
+      ],
+      [
+        1787788800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1771977600000,
-        231637636.0
-      ],
-      [
-        1772064000000,
-        245385303.0
-      ],
-      [
-        1772150400000,
-        254635411.0
-      ],
       [
         1772236800000,
         null
@@ -2199,6 +2187,18 @@
       [
         1787529600000,
         189246469.0
+      ],
+      [
+        1787616000000,
+        182708725.0
+      ],
+      [
+        1787702400000,
+        190820041.0
+      ],
+      [
+        1787788800000,
+        null
       ]
     ]
   },
@@ -2237,7 +2237,7 @@
     2.97,
     0.72,
     -3.36,
-    -0.69,
+    0.05,
     null,
     null,
     null,
