@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-08-27T00:42:15.909824Z",
+  "lastUpdated": "2026-08-28T05:19:25.330336Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a market-capitalization-weighted index tracking the performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "50.0T",
+      "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "45.5T",
       "constituentCount": 503,
       "topHoldings": [
         {
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market closed essentially flat today, up a nominal 0.02%, reflecting a session characterized by tight consolidation and temporary indecision among market participants. Key technical indicators point to a neutral momentum environment with a slight constructive bias: both the Relative Strength Index (RSI) at 54.35 and the Money Flow Index (MFI) at 55.16 reside near mid-level equilibrium, signaling balanced buying and selling pressure with no immediate overbought concerns. Furthermore, a elevated On-Balance Volume (OBV) of approximately 1.07 billion indicates that underlying volume support and structural accumulation remain intact despite the muted price action. Overall, daily sentiment appears cautiously optimistic, suggesting a healthy market pause as investors await fresh catalysts to dictate the next directional leg.",
-    "change_pct": 0.02,
+    "commentary": "The stock market demonstrated constructive strength today, gaining 0.66% as moderate buying pressure drove broad market indices higher. Technical indicators point to steady, sustainable momentum rather than an overextended rally: the Relative Strength Index (RSI) at 58.59 sits in comfortably bullish territory, leaving ample room for upside before hitting overbought thresholds. This positive momentum is supported by a Money Flow Index (MFI) of 54.39, which indicates healthy, balanced capital inflows into equities without signs of speculative overheating. Furthermore, a robust On-Balance Volume (OBV) exceeding 1.1 billion confirms that today\u2019s price appreciation was backed by solid trading volume and institutional accumulation, reflecting confident investor sentiment and a resilient foundation for the ongoing trend.",
+    "change_pct": 0.66,
     "technicalIndicators": {
       "rsi": [
-        [
-          1772236800000,
-          null
-        ],
         [
           1772323200000,
           null
@@ -746,14 +742,14 @@
         ],
         [
           1787788800000,
+          58.59
+        ],
+        [
+          1787875200000,
           null
         ]
       ],
       "mfi": [
-        [
-          1772236800000,
-          null
-        ],
         [
           1772323200000,
           null
@@ -1472,14 +1468,14 @@
         ],
         [
           1787788800000,
+          54.39
+        ],
+        [
+          1787875200000,
           null
         ]
       ],
       "obv": [
-        [
-          1772236800000,
-          null
-        ],
         [
           1772323200000,
           null
@@ -2198,6 +2194,10 @@
         ],
         [
           1787788800000,
+          1107455822.0
+        ],
+        [
+          1787875200000,
           null
         ]
       ]
@@ -2237,7 +2237,7 @@
       3.51,
       0.4,
       -1.37,
-      0.05,
+      0.7,
       null,
       null,
       null,
