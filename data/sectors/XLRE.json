@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector includes companies engaged in real estate development, management, and operation, as well as Real Estate Investment Trusts across various commercial and residential property types.",
-    "marketSizeUSD": "1.4T",
+    "description": "The Real Estate sector encompasses companies involved in real estate development, management, and equity Real Estate Investment Trusts (REITs).",
+    "marketSizeUSD": "1.3T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.02,
-  "change_pct": -0.4,
-  "insights": "The Real Estate sector experienced a modest pullback today, declining by -0.40% in a session marked by slight downward pressure rather than aggressive selling. Short-term momentum leans mildly bearish, as indicated by an RSI of 43.50 sitting just below the neutral midline, though it remains comfortably above oversold territory. Meanwhile, a balanced Money Flow Index (MFI) of 51.73 suggests that capital inflows and outflows remain largely equilibrium-bound, signaling that institutional investors are not dumping positions. Supported by a solid On-Balance Volume (OBV) of 147.25 million, today's minor price decline reflects a routine period of consolidation amidst stable underlying liquidity, rather than a broader structural breakdown.",
+  "market_weight": 0.0184,
+  "change_pct": -0.16,
+  "insights": "The Real Estate sector experienced a slight contraction today, edging down -0.16% amidst a period of consolidation. Technically, an RSI of 38.54 signals persistent downward momentum as the sector drifts closer to oversold territory, reflecting hesitant short-term sentiment. However, this price weakness is counterbalanced by a neutral Money Flow Index (MFI) of 51.74, indicating that capital inflows and outflows remain relatively balanced without aggressive distribution. Furthermore, a robust On-Balance Volume (OBV) of 133.1 million demonstrates that underlying volume support remains firm, suggesting that today's minor decline represents orderly profit-taking or range-bound trading rather than a broader institutional exit.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772409600000,
-        67.08
-      ],
-      [
-        1772496000000,
-        63.0
-      ],
-      [
-        1772582400000,
-        63.72
-      ],
       [
         1772668800000,
         56.57
@@ -747,21 +735,21 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        39.3
+      ],
+      [
+        1788220800000,
+        38.54
       ]
     ],
     "mfi": [
-      [
-        1772409600000,
-        66.39
-      ],
-      [
-        1772496000000,
-        58.6
-      ],
-      [
-        1772582400000,
-        56.89
-      ],
       [
         1772668800000,
         47.35
@@ -1473,21 +1461,21 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        50.35
+      ],
+      [
+        1788220800000,
+        51.74
       ]
     ],
     "obv": [
-      [
-        1772409600000,
-        123565931.0
-      ],
-      [
-        1772496000000,
-        111393784.0
-      ],
-      [
-        1772582400000,
-        119075051.0
-      ],
       [
         1772668800000,
         110020070.0
@@ -2199,6 +2187,18 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        139844281.0
+      ],
+      [
+        1788220800000,
+        133113347.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     0.64,
     -0.42,
     -1.33,
-    null,
+    -0.99,
     null,
     null,
     null,

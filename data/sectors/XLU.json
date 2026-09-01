@@ -1,7 +1,7 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector comprises companies that produce and deliver essential public services, including electricity, natural gas, water, and renewable energy.",
+    "description": "The Utilities sector encompasses companies that provide essential infrastructure services, including electricity, natural gas, water, and renewable power to residential, commercial, and industrial customers.",
     "marketSizeUSD": "1.3T",
     "constituentCount": 31,
     "topHoldings": [
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0186,
-  "change_pct": -1.04,
-  "insights": "The Utilities sector experienced modest weakness today, slipping **-1.04%** as defensive plays faced short-term headwinds. Technical indicators suggest the retreat is largely price-driven rather than a sign of systemic capital flight: the Relative Strength Index (RSI) at **35.78** reflects accelerating bearish momentum approaching oversold territory, pointing to potential downside exhaustion in the near term. Meanwhile, a Money Flow Index (MFI) of **47.37** indicates relatively balanced institutional buying and selling pressures, showing that volume is not aggressively confirming today's price drop. Supported by a robust On-Balance Volume (OBV) baseline of **337,097,349**, the overall picture suggests a routine pullback within a broader holding pattern, with the sector approaching technical levels where value-oriented buyers may soon step in.",
+  "market_weight": 0.0184,
+  "change_pct": 0.78,
+  "insights": "The Utilities sector logged a modest daily gain of 0.78%, reflecting a temporary relief rally amidst a broader period of momentum weakness. Technical indicators point to lingering bearish sentiment, as an RSI of 36.76 borders on oversold territory and an MFI of 40.81 highlights subdued capital inflows and weak buying pressure. While a cumulative On-Balance Volume (OBV) of 336,200,751 maintains a stable baseline of liquidity, the depressed RSI and MFI suggest today\u2019s positive price action is likely a technical bounce rather than a sustained trend reversal, keeping the sector in a defensive posture overall.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772409600000,
-        62.55
-      ],
-      [
-        1772496000000,
-        59.43
-      ],
-      [
-        1772582400000,
-        60.82
-      ],
       [
         1772668800000,
         56.84
@@ -747,21 +735,21 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        31.96
+      ],
+      [
+        1788220800000,
+        36.76
       ]
     ],
     "mfi": [
-      [
-        1772409600000,
-        85.29
-      ],
-      [
-        1772496000000,
-        73.31
-      ],
-      [
-        1772582400000,
-        73.31
-      ],
       [
         1772668800000,
         65.86
@@ -1473,21 +1461,21 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        37.57
+      ],
+      [
+        1788220800000,
+        40.81
       ]
     ],
     "obv": [
-      [
-        1772409600000,
-        385165423.0
-      ],
-      [
-        1772496000000,
-        325813218.0
-      ],
-      [
-        1772582400000,
-        349764416.0
-      ],
       [
         1772668800000,
         320156313.0
@@ -2199,6 +2187,18 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        305592971.0
+      ],
+      [
+        1788220800000,
+        336200751.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     1.61,
     -3.48,
     -0.09,
-    null,
+    -0.4,
     null,
     null,
     null,

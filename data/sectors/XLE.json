@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies involved in the exploration, production, refining, transportation, and storage of oil, natural gas, coal, and consumable fuels.",
-    "marketSizeUSD": "1.6T",
-    "constituentCount": 23,
+    "description": "The Energy sector comprises companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, gas, and consumable fuels, as well as energy equipment and services.",
+    "marketSizeUSD": "3.5T",
+    "constituentCount": 22,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0229,
-  "change_pct": 0.63,
-  "insights": "The Energy sector posted a solid gain of 0.63% today, backed by technical indicators that suggest healthy, sustained bullish momentum. The Relative Strength Index (RSI) at 62.07 reflects strong buying interest while remaining safely below overbought territory (>70), leaving room for further upside. This positive price action is corroborated by a Money Flow Index (MFI) of 55.40, indicating steady capital inflows, while a strong On-Balance Volume (OBV) of approximately 1.28 billion confirms that high-volume accumulation continues to underpin the sector's current upward trajectory.",
+  "market_weight": 0.0496,
+  "change_pct": 1.27,
+  "insights": "The Energy sector posted a strong session today, gaining 1.27% on solid institutional support and healthy market participation. Technically, the Relative Strength Index (RSI) at 70.54 pushes the sector into slightly overbought territory, reflecting intense short-term buying pressure that could pave the way for brief consolidation. However, the Money Flow Index (MFI) at a moderate 57.74 suggests capital is entering the sector at a sustainable pace rather than through speculative excess, while a robust On-Balance Volume (OBV) of 1.34 billion confirms that the price advance is well-supported by underlying volume accumulation. Overall, the sector exhibits strong bullish momentum, though investors should keep an eye out for minor profit-taking given the elevated RSI.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772409600000,
-        70.2
-      ],
-      [
-        1772496000000,
-        66.08
-      ],
-      [
-        1772582400000,
-        63.43
-      ],
       [
         1772668800000,
         64.82
@@ -747,21 +735,21 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        67.61
+      ],
+      [
+        1788220800000,
+        70.54
       ]
     ],
     "mfi": [
-      [
-        1772409600000,
-        63.43
-      ],
-      [
-        1772496000000,
-        52.09
-      ],
-      [
-        1772582400000,
-        45.02
-      ],
       [
         1772668800000,
         53.22
@@ -1473,21 +1461,21 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        56.19
+      ],
+      [
+        1788220800000,
+        57.74
       ]
     ],
     "obv": [
-      [
-        1772409600000,
-        1189088440.0
-      ],
-      [
-        1772496000000,
-        1050916906.0
-      ],
-      [
-        1772582400000,
-        980324745.0
-      ],
       [
         1772668800000,
         1064182007.0
@@ -2199,6 +2187,18 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        1311591163.0
+      ],
+      [
+        1788220800000,
+        1344665909.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     7.67,
     2.79,
     -1.51,
-    null,
+    3.33,
     null,
     null,
     null,

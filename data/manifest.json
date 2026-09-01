@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-30T23:20:29.034298Z",
+  "lastUpdated": "2026-09-01T23:17:49.122218Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a minor pullback today, closing down 0.23% in a session characterized by low-conviction consolidation rather than broad selling pressure. Despite the slight drop, underlying momentum and sentiment remain constructive; the Relative Strength Index (RSI) at 56.61 and the Money Flow Index (MFI) at 54.79 both sit comfortably in neutral-to-slightly-bullish territory, indicating that buying power and capital inflows are holding steady without signaling overbought conditions. Supported by a robust On-Balance Volume (OBV) of over 1.07 billion, the data suggests that institutional accumulation remains intact, framing today's minor decline as a healthy pause within a resilient broader trend.",
-    "change_pct": -0.23,
+    "commentary": "The stock market experienced a modest pull-back today, declining -0.69% as investors adopted a cautious posture. Both the Relative Strength Index (RSI) at 48.58 and the Money Flow Index (MFI) at 47.17 sit just below the neutral 50 threshold, signaling balanced momentum with a slight downside bias and an absence of aggressive buying or panic selling. Furthermore, a substantial On-Balance Volume (OBV) of 992,190,317 reflects stable baseline liquidity, suggesting that today\u2019s retreat represents routine consolidation or mild profit-taking rather than a structural shift in capital flows. Overall, technical indicators point to an indecisive market sentiment, with market participants currently awaiting clearer macroeconomic or earnings catalysts to drive the next directional move.",
+    "change_pct": -0.69,
     "technicalIndicators": {
       "rsi": [
-        [
-          1772409600000,
-          48.76
-        ],
-        [
-          1772496000000,
-          43.48
-        ],
-        [
-          1772582400000,
-          48.3
-        ],
         [
           1772668800000,
           45.13
@@ -747,21 +735,21 @@
         [
           1787961600000,
           null
+        ],
+        [
+          1788048000000,
+          null
+        ],
+        [
+          1788134400000,
+          54.04
+        ],
+        [
+          1788220800000,
+          48.58
         ]
       ],
       "mfi": [
-        [
-          1772409600000,
-          32.35
-        ],
-        [
-          1772496000000,
-          25.57
-        ],
-        [
-          1772582400000,
-          32.03
-        ],
         [
           1772668800000,
           32.35
@@ -1473,21 +1461,21 @@
         [
           1787961600000,
           null
+        ],
+        [
+          1788048000000,
+          null
+        ],
+        [
+          1788134400000,
+          54.53
+        ],
+        [
+          1788220800000,
+          47.17
         ]
       ],
       "obv": [
-        [
-          1772409600000,
-          1051921882.0
-        ],
-        [
-          1772496000000,
-          953288613.0
-        ],
-        [
-          1772582400000,
-          1021032655.0
-        ],
         [
           1772668800000,
           922186430.0
@@ -2199,6 +2187,18 @@
         [
           1787961600000,
           null
+        ],
+        [
+          1788048000000,
+          null
+        ],
+        [
+          1788134400000,
+          1032302738.0
+        ],
+        [
+          1788220800000,
+          992190317.0
         ]
       ]
     },
@@ -2238,7 +2238,7 @@
       0.4,
       -1.37,
       0.47,
-      null,
+      -0.98,
       null,
       null,
       null,

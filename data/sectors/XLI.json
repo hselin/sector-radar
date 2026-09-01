@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in aerospace and defense, industrial machinery, building products, logistics, and transportation services.",
-    "marketSizeUSD": "5.8T",
+    "description": "The Industrials sector comprises businesses involved in manufacturing and distributing capital goods, providing commercial and professional services, and offering transportation infrastructure and services.",
+    "marketSizeUSD": "5.5T",
     "constituentCount": 78,
     "topHoldings": [
       {
-        "name": "General Electric Company",
+        "name": "GE Aerospace",
         "symbol": "GE"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.083,
-  "change_pct": -0.93,
-  "insights": "The Industrials sector faced notable selling pressure today, shedding 0.93% as market participants took a defensive stance. Technical metrics reinforce this downside momentum: an RSI of 37.81 indicates fading price strength, while a Money Flow Index (MFI) of 32.71 highlights significant capital outflows, both drifting toward oversold territory. Coupled with an On-Balance Volume (OBV) of 177.13 million, the data reflects a market environment currently dominated by distribution rather than accumulation. While these depressed momentum indicators suggest the sector is becoming historically cheap and may soon attract value-oriented dip buyers, the immediate technical outlook remains cautious until buying volume stabilizes.",
+  "market_weight": 0.0779,
+  "change_pct": -1.37,
+  "insights": "The Industrials sector faced notable selling pressure today, pulling back -1.37% as key technical indicators flashed deeply oversold conditions. The Relative Strength Index (RSI) falling to 29.97 and the Money Flow Index (MFI) dropping to 19.73 both breached critical lower thresholds, pointing to aggressive short-term price degradation paired with heavy capital outflows. While an On-Balance Volume (OBV) of approximately 160.66 million confirms that today's downturn was backed by significant trading activity, the severely depressed RSI and MFI readings indicate that the current downside momentum may be overextended, potentially setting the stage for a short-term technical relief bounce or price stabilization in the coming sessions.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772409600000,
-        69.57
-      ],
-      [
-        1772496000000,
-        57.89
-      ],
-      [
-        1772582400000,
-        59.0
-      ],
       [
         1772668800000,
         48.6
@@ -747,21 +735,21 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        33.93
+      ],
+      [
+        1788220800000,
+        29.97
       ]
     ],
     "mfi": [
-      [
-        1772409600000,
-        62.26
-      ],
-      [
-        1772496000000,
-        53.94
-      ],
-      [
-        1772582400000,
-        54.26
-      ],
       [
         1772668800000,
         53.38
@@ -1473,21 +1461,21 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        25.81
+      ],
+      [
+        1788220800000,
+        19.73
       ]
     ],
     "obv": [
-      [
-        1772409600000,
-        276533975.0
-      ],
-      [
-        1772496000000,
-        256393131.0
-      ],
-      [
-        1772582400000,
-        269966265.0
-      ],
       [
         1772668800000,
         248663819.0
@@ -2199,6 +2187,18 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        169774987.0
+      ],
+      [
+        1788220800000,
+        160662664.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     0.72,
     -3.36,
     -1.73,
-    null,
+    -2.49,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector includes companies involved in biotechnology, pharmaceuticals, medical device manufacturing, and healthcare services.",
-    "marketSizeUSD": "9.5T",
+    "description": "The Health Care sector comprises companies involved in medical services, biotechnology, pharmaceuticals, and the development and manufacturing of medical equipment and supplies.",
+    "marketSizeUSD": "8.5T",
     "constituentCount": 64,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1359,
-  "change_pct": -0.24,
-  "insights": "The Health Care sector experienced a minor pullback today, declining by 0.24%, though underlying technical indicators point toward modest consolidation rather than a sharp trend reversal. Both the Relative Strength Index (RSI) at 57.12 and the Money Flow Index (MFI) at 55.89 remain in constructive, mid-range territory above the 50 neutral mark, suggesting that underlying momentum and recent capital flows remain relatively stable despite today's mild price weakness. However, the deeply negative On-Balance Volume (OBV) of -22.3 million underscores persistent longer-term volume distribution, indicating that while near-term support holds, sustained upside potential may remain capped until institutional buying volume re-engages.",
+  "market_weight": 0.1204,
+  "change_pct": 0.66,
+  "insights": "The Health Care sector demonstrated solid short-term momentum today, posting a moderate gain of 0.66%. Technical indicators support this positive price action, with both the RSI (57.89) and Money Flow Index (56.28) sitting in comfortable, moderately bullish territory\u2014signaling healthy buying pressure and capital inflow without entering overbought conditions. However, the negative On-Balance Volume (-21.8M) reveals a notable divergence, indicating that underlying macro distribution and prior selling pressure persist despite today's advance. Overall, while the sector reflects stable daily strength, sustained upward continuation will ultimately require stronger cumulative volume support to validate the rally.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772409600000,
-        55.26
-      ],
-      [
-        1772496000000,
-        49.08
-      ],
-      [
-        1772582400000,
-        50.01
-      ],
       [
         1772668800000,
         40.7
@@ -747,21 +735,21 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        55.39
+      ],
+      [
+        1788220800000,
+        57.89
       ]
     ],
     "mfi": [
-      [
-        1772409600000,
-        47.93
-      ],
-      [
-        1772496000000,
-        45.48
-      ],
-      [
-        1772582400000,
-        50.96
-      ],
       [
         1772668800000,
         41.41
@@ -1473,21 +1461,21 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        49.31
+      ],
+      [
+        1788220800000,
+        56.28
       ]
     ],
     "obv": [
-      [
-        1772409600000,
-        44325831.0
-      ],
-      [
-        1772496000000,
-        22938376.0
-      ],
-      [
-        1772582400000,
-        34766261.0
-      ],
       [
         1772668800000,
         14362450.0
@@ -2199,6 +2187,18 @@
       [
         1787961600000,
         null
+      ],
+      [
+        1788048000000,
+        null
+      ],
+      [
+        1788134400000,
+        -29613785.0
+      ],
+      [
+        1788220800000,
+        -21799932.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     1.02,
     4.33,
     -1.98,
-    null,
+    0.3,
     null,
     null,
     null,
