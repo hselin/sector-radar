@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T23:17:49.122218Z",
+  "lastUpdated": "2026-09-02T23:17:09.979098Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a modest pull-back today, declining -0.69% as investors adopted a cautious posture. Both the Relative Strength Index (RSI) at 48.58 and the Money Flow Index (MFI) at 47.17 sit just below the neutral 50 threshold, signaling balanced momentum with a slight downside bias and an absence of aggressive buying or panic selling. Furthermore, a substantial On-Balance Volume (OBV) of 992,190,317 reflects stable baseline liquidity, suggesting that today\u2019s retreat represents routine consolidation or mild profit-taking rather than a structural shift in capital flows. Overall, technical indicators point to an indecisive market sentiment, with market participants currently awaiting clearer macroeconomic or earnings catalysts to drive the next directional move.",
-    "change_pct": -0.69,
+    "commentary": "The stock market logged a modest gain of 0.44% today, reflecting a session of cautious consolidation as investors weigh near-term catalysts. Underlying technical indicators point to a neutral momentum environment: the Relative Strength Index (RSI) at 51.93 sits virtually at the midpoint, signaling a balanced tug-of-war between bulls and bears, while the Money Flow Index (MFI) at 47.00 indicates a slight cooling in volume-weighted buying pressure without triggering sell-off alarms. Meanwhile, a robust On-Balance Volume (OBV) exceeding 1.02 billion confirms that underlying market participation remains stable, underpinning current price levels. Overall, these figures suggest a healthy, constructive sentiment where market participants are content holding positions, but are awaiting stronger fundamental triggers before driving a decisive directional breakout.",
+    "change_pct": 0.44,
     "technicalIndicators": {
       "rsi": [
-        [
-          1772668800000,
-          45.13
-        ],
         [
           1772755200000,
           38.58
@@ -747,13 +743,13 @@
         [
           1788220800000,
           48.58
+        ],
+        [
+          1788307200000,
+          51.93
         ]
       ],
       "mfi": [
-        [
-          1772668800000,
-          32.35
-        ],
         [
           1772755200000,
           32.16
@@ -1473,13 +1469,13 @@
         [
           1788220800000,
           47.17
+        ],
+        [
+          1788307200000,
+          47.0
         ]
       ],
       "obv": [
-        [
-          1772668800000,
-          922186430.0
-        ],
         [
           1772755200000,
           828798054.0
@@ -2199,6 +2195,10 @@
         [
           1788220800000,
           992190317.0
+        ],
+        [
+          1788307200000,
+          1021364889.0
         ]
       ]
     },
@@ -2238,7 +2238,7 @@
       0.4,
       -1.37,
       0.47,
-      -0.98,
+      -0.54,
       null,
       null,
       null,
