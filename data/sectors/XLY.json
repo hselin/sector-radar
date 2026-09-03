@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises businesses that sell non-essential goods and services, including e-commerce, automobiles, apparel, and leisure products, whose demand is highly sensitive to economic cycles and consumer confidence.",
-    "marketSizeUSD": "10.8T",
+    "description": "The Consumer Discretionary sector encompasses businesses selling non-essential goods and services, such as e-commerce, automobiles, apparel, and leisure.",
+    "marketSizeUSD": "11.5T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.153,
-  "change_pct": 0.24,
-  "insights": "The Consumer Discretionary sector edged up by a modest 0.24% today, though underlying technical indicators suggest this mild gain lacks robust buying conviction. An RSI of 43.41 remains below the neutral 50 threshold, signaling lingering relative weakness, while a subdued Money Flow Index (MFI) of 36.80 highlights ongoing capital outflows despite the positive session. Concurrently, an On-Balance Volume (OBV) of 2,852,506 points to a steady volume baseline, but without a stronger push in money flow, today\u2019s upward tick reflects a brief consolidation phase rather than the start of a high-conviction bullish trend.",
+  "market_weight": 0.1636,
+  "change_pct": 1.39,
+  "insights": "The Consumer Discretionary sector posted a solid gain of 1.39% today, supported by a healthy cumulative On-Balance Volume (OBV) of 8.51 million, indicating steady underlying liquidity. Technical indicators present a nuanced picture: the Relative Strength Index (RSI) at 49.23 sits squarely in neutral territory, suggesting the sector has stabilized and has ample runway for further upside without immediate overbought pressure. However, the Money Flow Index (MFI) at 38.34 lags slightly behind price action, pointing to moderate capital inflows and suggesting today\u2019s performance was driven primarily by short-term momentum rather than aggressive institutional accumulation. Overall, while today's price action is an encouraging sign of recovery, traders should look for MFI to cross above 50 to confirm a sustained bullish trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772755200000,
-        36.02
-      ],
       [
         1772841600000,
         null
@@ -747,13 +743,13 @@
       [
         1788307200000,
         43.41
+      ],
+      [
+        1788393600000,
+        49.23
       ]
     ],
     "mfi": [
-      [
-        1772755200000,
-        40.72
-      ],
       [
         1772841600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1788307200000,
         36.8
+      ],
+      [
+        1788393600000,
+        38.34
       ]
     ],
     "obv": [
-      [
-        1772755200000,
-        -6537332.0
-      ],
       [
         1772841600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1788307200000,
         2852506.0
+      ],
+      [
+        1788393600000,
+        8511032.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     -1.38,
     -0.15,
     -0.69,
-    -2.0,
+    -0.64,
     null,
     null,
     null,

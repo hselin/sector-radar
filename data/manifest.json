@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T23:17:09.979098Z",
+  "lastUpdated": "2026-09-03T23:14:35.598936Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market logged a modest gain of 0.44% today, reflecting a session of cautious consolidation as investors weigh near-term catalysts. Underlying technical indicators point to a neutral momentum environment: the Relative Strength Index (RSI) at 51.93 sits virtually at the midpoint, signaling a balanced tug-of-war between bulls and bears, while the Money Flow Index (MFI) at 47.00 indicates a slight cooling in volume-weighted buying pressure without triggering sell-off alarms. Meanwhile, a robust On-Balance Volume (OBV) exceeding 1.02 billion confirms that underlying market participation remains stable, underpinning current price levels. Overall, these figures suggest a healthy, constructive sentiment where market participants are content holding positions, but are awaiting stronger fundamental triggers before driving a decisive directional breakout.",
-    "change_pct": 0.44,
+    "commentary": "The stock market delivered a strong performance today, closing up 1.05% on constructive investor sentiment and healthy buying pressure. Technical indicators point to steady upward momentum without signs of immediate exhaustion: a Relative Strength Index (RSI) of 58.79 indicates robust bullish momentum while remaining comfortably below the overbought threshold (>70), leaving room for further upside. This is supported by a Money Flow Index (MFI) of 54.25, which reflects balanced and sustainable capital inflows rather than speculative overheating. Furthermore, a massive On-Balance Volume (OBV) exceeding 1.06 billion confirms that substantial trading volume is accumulating behind the advance, validating the legitimacy of today\u2019s price gains and suggesting a favorable near-term outlook.",
+    "change_pct": 1.05,
     "technicalIndicators": {
       "rsi": [
-        [
-          1772755200000,
-          38.58
-        ],
         [
           1772841600000,
           null
@@ -747,13 +743,13 @@
         [
           1788307200000,
           51.93
+        ],
+        [
+          1788393600000,
+          58.79
         ]
       ],
       "mfi": [
-        [
-          1772755200000,
-          32.16
-        ],
         [
           1772841600000,
           null
@@ -1473,13 +1469,13 @@
         [
           1788307200000,
           47.0
+        ],
+        [
+          1788393600000,
+          54.25
         ]
       ],
       "obv": [
-        [
-          1772755200000,
-          828798054.0
-        ],
         [
           1772841600000,
           null
@@ -2199,6 +2195,10 @@
         [
           1788307200000,
           1021364889.0
+        ],
+        [
+          1788393600000,
+          1064013335.0
         ]
       ]
     },
@@ -2238,7 +2238,7 @@
       0.4,
       -1.37,
       0.47,
-      -0.54,
+      0.5,
       null,
       null,
       null,
