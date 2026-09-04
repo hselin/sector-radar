@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies involved in banking, investment services, insurance, consumer finance, and financial transaction processing.",
-    "marketSizeUSD": "9.5T",
+    "description": "The Financials sector comprises companies involved in banking, investment services, insurance, consumer finance, and payment processing.",
+    "marketSizeUSD": "9.8T",
     "constituentCount": 72,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1351,
-  "change_pct": 1.56,
-  "insights": "The Financials sector demonstrated robust momentum today, advancing by 1.56% in a well-supported upward move. An RSI of 60.51 reflects solid bullish sentiment with ample room for further growth before reaching overbought conditions (>70). Meanwhile, a neutral Money Flow Index (MFI) of 47.09 indicates that today\u2019s price appreciation occurred without aggressive volume-weighted buying pressure, pointing to a steady, broader market lift rather than speculative accumulation. Supported by a healthy On-Balance Volume (OBV) baseline exceeding 586 million, the technical posture suggests a stable and sustainable short-term rally for the sector.",
+  "market_weight": 0.1323,
+  "change_pct": -0.79,
+  "insights": "The Financials sector experienced a moderate pullback today, declining by 0.79%, though underlying technical indicators suggest this is routine consolidation rather than a broader trend reversal. An RSI of 55.48 keeps momentum in neutral-to-slightly positive territory, indicating the sector easily absorbed today's loss without entering oversold conditions. This is corroborated by an MFI of 49.37, which reflects a balanced equilibrium between buying and selling pressure, while a strong On-Balance Volume (OBV) baseline of 560.7 million demonstrates that underlying liquidity and institutional participation remain intact. Overall, today's dip appears to be a controlled pause within a fundamentally stable structural backdrop.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772841600000,
-        null
-      ],
       [
         1772928000000,
         null
@@ -747,13 +743,13 @@
       [
         1788393600000,
         60.51
+      ],
+      [
+        1788480000000,
+        55.48
       ]
     ],
     "mfi": [
-      [
-        1772841600000,
-        null
-      ],
       [
         1772928000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1788393600000,
         47.09
+      ],
+      [
+        1788480000000,
+        49.37
       ]
     ],
     "obv": [
-      [
-        1772841600000,
-        null
-      ],
       [
         1772928000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1788393600000,
         586934484.0
+      ],
+      [
+        1788480000000,
+        560684888.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     0.97,
     -1.17,
     1.08,
-    0.79,
+    0.0,
     null,
     null,
     null,

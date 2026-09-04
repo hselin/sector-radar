@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0185,
-  "change_pct": 1.19,
-  "insights": "The Real Estate sector demonstrated modest strength today, closing up **1.19%** in what appears to be a short-term relief bounce within a broader consolidation phase. Technical indicators suggest the sector still has structural runway for continued upside: both the Relative Strength Index (RSI) at **43.84** and the Money Flow Index (MFI) at **42.45** sit in neutral-to-subdued territory below the midpoint of 50, indicating that the sector is far from overbought and today's advance was not driven by aggressive capital chasing. Meanwhile, a healthy On-Balance Volume (OBV) of **129,891,536** reflects a stable cumulative volume floor supporting current price levels. Overall, while today's gain is a positive signal, sustained bullish momentum will depend on buying volume accelerating to push MFI and RSI back above their neutral baselines.",
+  "market_weight": 0.0175,
+  "change_pct": -0.72,
+  "insights": "The Real Estate sector faced modest downward pressure today, closing down 0.72% as market participants took a cautious stance. This soft price action aligns with momentum indicators, as the RSI of 40.31 sits in weak, neutral-to-bearish territory\u2014approaching oversold levels without yet signaling a definitive reversal. Similarly, the Money Flow Index (MFI) at 45.44 points to mild capital outflows, confirming that selling pressure currently outweighs buying enthusiasm. While an On-Balance Volume (OBV) of 126.13 million reflects a stable underlying volume base, the sub-50 positioning across both momentum and money flow metrics suggests the sector is undergoing a period of short-term consolidation, requiring renewed buying catalysts to reclaim an upward trajectory.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772841600000,
-        null
-      ],
       [
         1772928000000,
         null
@@ -747,13 +743,13 @@
       [
         1788393600000,
         43.84
+      ],
+      [
+        1788480000000,
+        40.31
       ]
     ],
     "mfi": [
-      [
-        1772841600000,
-        null
-      ],
       [
         1772928000000,
         null
@@ -1473,13 +1469,13 @@
       [
         1788393600000,
         42.45
+      ],
+      [
+        1788480000000,
+        45.44
       ]
     ],
     "obv": [
-      [
-        1772841600000,
-        null
-      ],
       [
         1772928000000,
         null
@@ -2199,6 +2195,10 @@
       [
         1788393600000,
         129891536.0
+      ],
+      [
+        1788480000000,
+        126130427.0
       ]
     ]
   },
@@ -2238,7 +2238,7 @@
     0.64,
     -0.42,
     -1.33,
-    -0.52,
+    -1.24,
     null,
     null,
     null,
