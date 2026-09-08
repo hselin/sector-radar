@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector encompasses companies involved in real estate development, management, and equity Real Estate Investment Trusts (REITs).",
-    "marketSizeUSD": "1.3T",
+    "description": "The Real Estate sector encompasses equity real estate investment trusts (REITs) spanning various property types as well as real estate management and development companies.",
+    "marketSizeUSD": "1.4T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0175,
-  "change_pct": -0.72,
-  "insights": "The Real Estate sector faced modest downward pressure today, closing down 0.72% as market participants took a cautious stance. This soft price action aligns with momentum indicators, as the RSI of 40.31 sits in weak, neutral-to-bearish territory\u2014approaching oversold levels without yet signaling a definitive reversal. Similarly, the Money Flow Index (MFI) at 45.44 points to mild capital outflows, confirming that selling pressure currently outweighs buying enthusiasm. While an On-Balance Volume (OBV) of 126.13 million reflects a stable underlying volume base, the sub-50 positioning across both momentum and money flow metrics suggests the sector is undergoing a period of short-term consolidation, requiring renewed buying catalysts to reclaim an upward trajectory.",
+  "market_weight": 0.0192,
+  "change_pct": -0.07,
+  "insights": "The Real Estate sector experienced a quiet session today, closing virtually flat with a minor loss of -0.07% as the market enters a phase of low-volatility consolidation. Technical indicators point to a weak, slightly bearish underlying momentum, highlighted by an RSI of 39.99 that signals sustained selling pressure creeping toward oversold territory. This subdued appetite is reinforced by a Money Flow Index (MFI) of 46.42, which reflects balanced yet uninspired capital flows without significant accumulation. Meanwhile, an On-Balance Volume (OBV) sitting at 121.32 million indicates stable baseline volume, suggesting that while institutional distribution remains controlled, market participants are largely adopting a wait-and-see approach for clearer macroeconomic catalysts before taking decisive positions.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772928000000,
-        null
-      ],
-      [
-        1773014400000,
-        51.28
-      ],
-      [
-        1773100800000,
-        50.41
-      ],
-      [
-        1773187200000,
-        43.61
-      ],
       [
         1773273600000,
         40.5
@@ -747,25 +731,25 @@
       [
         1788480000000,
         40.31
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1772928000000,
+        1788566400000,
         null
       ],
       [
-        1773014400000,
-        31.86
+        1788652800000,
+        null
       ],
       [
-        1773100800000,
-        39.65
+        1788739200000,
+        null
       ],
       [
-        1773187200000,
-        39.55
-      ],
+        1788825600000,
+        39.99
+      ]
+    ],
+    "mfi": [
       [
         1773273600000,
         34.44
@@ -1473,25 +1457,25 @@
       [
         1788480000000,
         45.44
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1772928000000,
+        1788566400000,
         null
       ],
       [
-        1773014400000,
-        109543846.0
+        1788652800000,
+        null
       ],
       [
-        1773100800000,
-        99106521.0
+        1788739200000,
+        null
       ],
       [
-        1773187200000,
-        92042262.0
-      ],
+        1788825600000,
+        46.42
+      ]
+    ],
+    "obv": [
       [
         1773273600000,
         85556419.0
@@ -2199,6 +2183,22 @@
       [
         1788480000000,
         126130427.0
+      ],
+      [
+        1788566400000,
+        null
+      ],
+      [
+        1788652800000,
+        null
+      ],
+      [
+        1788739200000,
+        null
+      ],
+      [
+        1788825600000,
+        121319385.0
       ]
     ]
   },
@@ -2239,7 +2239,7 @@
     -0.42,
     -1.33,
     -1.24,
-    null,
+    -0.07,
     null,
     null,
     null,

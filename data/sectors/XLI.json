@@ -1,7 +1,7 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector comprises businesses involved in manufacturing and distributing capital goods, providing commercial and professional services, and offering transportation infrastructure and services.",
+    "description": "The Industrials sector encompasses companies involved in capital goods, aerospace and defense, industrial machinery, logistics, construction, and transportation services.",
     "marketSizeUSD": "5.5T",
     "constituentCount": 78,
     "topHoldings": [
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0742,
-  "change_pct": 0.41,
-  "insights": "The Industrials sector posted a modest gain of 0.41% today, though underlying technical indicators suggest the broader momentum remains subdued. The Relative Strength Index (RSI) at 38.90 reflects weak buying pressure, while a Money Flow Index (MFI) of 22.33 sits dangerously close to oversold territory, pointing to significant recent capital outflows from the sector. Furthermore, while an On-Balance Volume (OBV) of 185.6 million demonstrates solid cumulative market participation, the combination of a depressed RSI and an oversold MFI indicates that today's uptick is likely a short-term technical relief bounce rather than a confirmed bullish trend reversal.",
+  "market_weight": 0.0753,
+  "change_pct": -0.48,
+  "insights": "The Industrials sector experienced a modest pullback today, declining -0.48% as short-term momentum continues to soften. Technical indicators point to sustained selling pressure, with a Relative Strength Index (RSI) of 37.10 reflecting a loss of buying enthusiasm as the sector trends toward oversold territory. More critically, the Money Flow Index (MFI) at 22.01 signals significant capital outflows, nearing extreme oversold levels (<20) and suggesting active institutional distribution. While a cumulative On-Balance Volume (OBV) of 179.4 million indicates a resilient long-term volume baseline, the immediate combination of negative price action and depressed liquidity flows shows that bears currently maintain control, though the sector is fast approaching key technical levels where a short-term relief bounce could materialize.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772928000000,
-        null
-      ],
-      [
-        1773014400000,
-        46.61
-      ],
-      [
-        1773100800000,
-        44.61
-      ],
-      [
-        1773187200000,
-        43.45
-      ],
       [
         1773273600000,
         35.5
@@ -747,25 +731,25 @@
       [
         1788480000000,
         38.9
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1772928000000,
+        1788566400000,
         null
       ],
       [
-        1773014400000,
-        43.72
+        1788652800000,
+        null
       ],
       [
-        1773100800000,
-        45.23
+        1788739200000,
+        null
       ],
       [
-        1773187200000,
-        38.88
-      ],
+        1788825600000,
+        37.1
+      ]
+    ],
+    "mfi": [
       [
         1773273600000,
         32.69
@@ -1473,25 +1457,25 @@
       [
         1788480000000,
         22.33
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1772928000000,
+        1788566400000,
         null
       ],
       [
-        1773014400000,
-        245663037.0
+        1788652800000,
+        null
       ],
       [
-        1773100800000,
-        228977091.0
+        1788739200000,
+        null
       ],
       [
-        1773187200000,
-        214755968.0
-      ],
+        1788825600000,
+        22.01
+      ]
+    ],
+    "obv": [
       [
         1773273600000,
         199062806.0
@@ -2199,6 +2183,22 @@
       [
         1788480000000,
         185608473.0
+      ],
+      [
+        1788566400000,
+        null
+      ],
+      [
+        1788652800000,
+        null
+      ],
+      [
+        1788739200000,
+        null
+      ],
+      [
+        1788825600000,
+        179422644.0
       ]
     ]
   },
@@ -2239,7 +2239,7 @@
     -3.36,
     -1.73,
     -1.06,
-    null,
+    -0.48,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector consists of companies that produce and distribute essential products such as food, beverages, household goods, and personal hygiene items that consumers purchase regardless of economic conditions.",
-    "marketSizeUSD": "4.2T",
+    "description": "The Consumer Staples sector comprises companies that produce and sell essential goods such as food, beverages, household products, and personal care items that remain in demand regardless of economic conditions.",
+    "marketSizeUSD": "4.3T",
     "constituentCount": 38,
     "topHoldings": [
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0567,
-  "change_pct": -0.8,
-  "insights": "The Consumer Staples sector experienced a modest pullback today, shedding 0.80% in a move that reflects routine consolidation rather than structural distribution. Technical indicators point to controlled selling pressure: the Relative Strength Index (RSI) at 45.28 signals a mild bearish bias while remaining comfortably above oversold territory, while a Money Flow Index (MFI) of 51.51 demonstrates balanced liquidity flows, indicating institutional capital is not aggressively exiting the space. Supported by a solid On-Balance Volume (OBV) baseline of 56.9 million, today\u2019s price drop appears to be a low-conviction, short-term dip within an otherwise stable defensive framework.",
+  "market_weight": 0.0589,
+  "change_pct": -0.66,
+  "insights": "The Consumer Staples sector pulled back today, declining -0.66% as defensive equities experienced mild, volume-backed selling pressure. From a technical perspective, both the Relative Strength Index (RSI) at 42.45 and the Money Flow Index (MFI) at 42.48 sit below the neutral 50 threshold, signaling weakening momentum and modest capital outflows without yet hitting oversold territory. Concurrently, an On-Balance Volume (OBV) of 43,408,461 confirms that today's downward price action is reinforced by steady distribution, suggesting a prevailing short-term bearish bias with potential for further consolidation before reaching a firm technical support level.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772928000000,
-        null
-      ],
-      [
-        1773014400000,
-        46.52
-      ],
-      [
-        1773100800000,
-        45.29
-      ],
-      [
-        1773187200000,
-        40.13
-      ],
       [
         1773273600000,
         38.7
@@ -747,25 +731,25 @@
       [
         1788480000000,
         45.28
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1772928000000,
+        1788566400000,
         null
       ],
       [
-        1773014400000,
-        31.0
+        1788652800000,
+        null
       ],
       [
-        1773100800000,
-        37.33
+        1788739200000,
+        null
       ],
       [
-        1773187200000,
-        37.42
-      ],
+        1788825600000,
+        42.45
+      ]
+    ],
+    "mfi": [
       [
         1773273600000,
         37.5
@@ -1473,25 +1457,25 @@
       [
         1788480000000,
         51.51
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1772928000000,
+        1788566400000,
         null
       ],
       [
-        1773014400000,
-        176930697.0
+        1788652800000,
+        null
       ],
       [
-        1773100800000,
-        158069650.0
+        1788739200000,
+        null
       ],
       [
-        1773187200000,
-        139715315.0
-      ],
+        1788825600000,
+        42.48
+      ]
+    ],
+    "obv": [
       [
         1773273600000,
         122284962.0
@@ -2199,6 +2183,22 @@
       [
         1788480000000,
         56937617.0
+      ],
+      [
+        1788566400000,
+        null
+      ],
+      [
+        1788652800000,
+        null
+      ],
+      [
+        1788739200000,
+        null
+      ],
+      [
+        1788825600000,
+        43408461.0
       ]
     ]
   },
@@ -2239,7 +2239,7 @@
     -0.12,
     -0.63,
     -1.02,
-    null,
+    -0.66,
     null,
     null,
     null,

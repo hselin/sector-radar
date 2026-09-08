@@ -1,7 +1,7 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector comprises companies involved in medical services, biotechnology, pharmaceuticals, and the development and manufacturing of medical equipment and supplies.",
+    "description": "The Health Care sector encompasses companies that provide medical services, manufacture medical equipment or drugs, and develop biotechnology products.",
     "marketSizeUSD": "8.5T",
     "constituentCount": 64,
     "topHoldings": [
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1147,
-  "change_pct": -1.04,
-  "insights": "The Health Care sector experienced a moderate pullback today, declining **-1.04%**, as short-term profit-taking outweighed immediate buying demand. Despite the daily dip, momentum remains relatively stable; the Relative Strength Index (RSI) at **55.50** and Money Flow Index (MFI) at **56.78** both sit in neutral-to-positive territory above the 50-midline, signaling that the broader trend is undergoing a healthy consolidation rather than an aggressive sell-off. However, the deeply negative On-Balance Volume (OBV) of **-14,136,995** highlights persistent underlying cumulative distribution, suggesting that institutional capital flows remain cautious and sustained upside momentum may be capped until buying volume meaningfully expands.",
+  "market_weight": 0.1164,
+  "change_pct": -2.52,
+  "insights": "The Health Care sector experienced a sharp pullback today, dropping 2.52% as selling pressure intensified across the board. Technically, the Relative Strength Index (RSI) at 44.72 indicates a clear weakening in momentum, shifting into bearish territory while remaining above oversold conditions (>30), which suggests potential room for further downside. This is echoed by a Money Flow Index (MFI) of 48.51, reflecting a neutral-to-negative shift in capital allocation as buying enthusiasm wanes. Crucially, the deeply negative On-Balance Volume (OBV) of -24.91 million confirms that today's decline is driven by sustained, high-volume distribution rather than a fleeting anomaly, pointing to cautious institutional positioning in the near term.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1772928000000,
-        null
-      ],
-      [
-        1773014400000,
-        43.32
-      ],
-      [
-        1773100800000,
-        40.48
-      ],
-      [
-        1773187200000,
-        39.72
-      ],
       [
         1773273600000,
         33.64
@@ -747,25 +731,25 @@
       [
         1788480000000,
         55.5
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1772928000000,
+        1788566400000,
         null
       ],
       [
-        1773014400000,
-        34.56
+        1788652800000,
+        null
       ],
       [
-        1773100800000,
-        41.65
+        1788739200000,
+        null
       ],
       [
-        1773187200000,
-        41.54
-      ],
+        1788825600000,
+        44.72
+      ]
+    ],
+    "mfi": [
       [
         1773273600000,
         41.24
@@ -1473,25 +1457,25 @@
       [
         1788480000000,
         56.78
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1772928000000,
+        1788566400000,
         null
       ],
       [
-        1773014400000,
-        17088853.0
+        1788652800000,
+        null
       ],
       [
-        1773100800000,
-        -79400.0
+        1788739200000,
+        null
       ],
       [
-        1773187200000,
-        -12013096.0
-      ],
+        1788825600000,
+        48.51
+      ]
+    ],
+    "obv": [
       [
         1773273600000,
         -26969052.0
@@ -2199,6 +2183,22 @@
       [
         1788480000000,
         -14136995.0
+      ],
+      [
+        1788566400000,
+        null
+      ],
+      [
+        1788652800000,
+        null
+      ],
+      [
+        1788739200000,
+        null
+      ],
+      [
+        1788825600000,
+        -24913386.0
       ]
     ]
   },
@@ -2239,7 +2239,7 @@
     4.33,
     -1.98,
     0.17,
-    null,
+    -2.52,
     null,
     null,
     null,
