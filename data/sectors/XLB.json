@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0822,
-  "change_pct": -0.95,
-  "insights": "The Materials sector experienced a minor setback today, declining 0.95% as short-term momentum tilted slightly negative. Technical indicators suggest today\u2019s drop is a controlled pullback rather than a high-conviction sell-off: the RSI at 45.34 reflects a mild loss of bullish momentum as it sits just below the neutral 50 threshold, while the Money Flow Index (MFI) at 53.11 indicates that underlying capital inflows remain stable. Supported by a solid On-Balance Volume (OBV) baseline of 43.47 million, the broader volume trend remains intact, signaling that institutional investors are likely engaging in routine consolidation rather than aggressive distribution.",
+  "change_pct": -1.06,
+  "insights": "Commentary could not be generated due to a persistent network error.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773273600000,
-        34.83
-      ],
       [
         1773360000000,
         32.12
@@ -747,13 +743,13 @@
       [
         1788825600000,
         45.34
+      ],
+      [
+        1788912000000,
+        41.27
       ]
     ],
     "mfi": [
-      [
-        1773273600000,
-        32.8
-      ],
       [
         1773360000000,
         33.0
@@ -1473,13 +1469,13 @@
       [
         1788825600000,
         53.11
+      ],
+      [
+        1788912000000,
+        45.89
       ]
     ],
     "obv": [
-      [
-        1773273600000,
-        73726491.0
-      ],
       [
         1773360000000,
         56752853.0
@@ -2199,6 +2195,10 @@
       [
         1788825600000,
         43474661.0
+      ],
+      [
+        1788912000000,
+        30371171.0
       ]
     ]
   },
@@ -2239,7 +2239,7 @@
     1.9,
     -0.67,
     -1.39,
-    -0.95,
+    -2.0,
     null,
     null,
     null,

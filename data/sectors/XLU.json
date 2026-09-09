@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0178,
-  "change_pct": 0.86,
-  "insights": "The Utilities sector demonstrated steady defensive strength today, gaining 0.86% amid a balanced technical backdrop. Both the Relative Strength Index (RSI) at 48.76 and the Money Flow Index (MFI) at 50.72 sit virtually at their neutral midpoints, indicating that today's upward price movement reflects healthy, sustainable buying interest rather than an overextended or speculative surge. Supported by a solid On-Balance Volume (OBV) baseline of 427.36 million, these indicators suggest the sector is effectively consolidating with momentum shifting slightly upward, leaving plenty of runway for further gains before reaching overbought territory.",
+  "change_pct": -1.17,
+  "insights": "Commentary could not be generated due to a persistent network error.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773273600000,
-        52.18
-      ],
       [
         1773360000000,
         56.45
@@ -747,13 +743,13 @@
       [
         1788825600000,
         48.76
+      ],
+      [
+        1788912000000,
+        43.23
       ]
     ],
     "mfi": [
-      [
-        1773273600000,
-        54.16
-      ],
       [
         1773360000000,
         54.03
@@ -1473,13 +1469,13 @@
       [
         1788825600000,
         50.72
+      ],
+      [
+        1788912000000,
+        50.57
       ]
     ],
     "obv": [
-      [
-        1773273600000,
-        306600706.0
-      ],
       [
         1773360000000,
         337681901.0
@@ -2199,6 +2195,10 @@
       [
         1788825600000,
         427357229.0
+      ],
+      [
+        1788912000000,
+        410467162.0
       ]
     ]
   },
@@ -2239,7 +2239,7 @@
     -3.48,
     -0.09,
     0.82,
-    0.86,
+    -0.32,
     null,
     null,
     null,
