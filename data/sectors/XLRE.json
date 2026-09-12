@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0192,
-  "change_pct": -1.12,
-  "insights": "The Real Estate sector experienced a notable pullback today, declining by 1.12% as sustained selling pressure weighed on performance. Technical indicators reinforce this bearish sentiment: the Relative Strength Index (RSI) at 35.02 and the Money Flow Index (MFI) at 38.87 are both trending downward toward oversold territory, reflecting weak price momentum and net capital outflows from the sector. Furthermore, an On-Balance Volume (OBV) of approximately 115.49 million confirms that this price decline is supported by solid distribution volume, indicating institutional participation in the sell-off rather than low-volume noise. Overall, while the near-oversold momentum metrics suggest the sector may be approaching a short-term floor, the current technical profile indicates the path of least resistance remains to the downside in the immediate term.",
+  "market_weight": 0.0218,
+  "change_pct": 0.86,
+  "insights": "The Real Estate sector recorded a modest daily gain of 0.86%, though underlying technical indicators suggest this price action is likely a short-term relief rally rather than a definitive trend reversal. Both the Relative Strength Index (RSI) at 38.02 and the Money Flow Index (MFI) at 33.01 hover near oversold territory, signaling that the sector has faced persistent downward pressure and muted capital inflows in recent sessions. Furthermore, while an On-Balance Volume (OBV) of 115.16 million reflects healthy underlying market liquidity, the depressed MFI underscores that today's price gain lacked strong buying volume. Overall, despite the positive daily performance, the sector remains in a technically weak position, requiring a sustained influx of volume to confirm a broader bullish momentum shift.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773360000000,
-        42.31
-      ],
-      [
-        1773446400000,
-        null
-      ],
       [
         1773532800000,
         null
@@ -747,17 +739,17 @@
       [
         1788912000000,
         35.02
+      ],
+      [
+        1788998400000,
+        31.89
+      ],
+      [
+        1789084800000,
+        38.02
       ]
     ],
     "mfi": [
-      [
-        1773360000000,
-        34.02
-      ],
-      [
-        1773446400000,
-        null
-      ],
       [
         1773532800000,
         null
@@ -1473,17 +1465,17 @@
       [
         1788912000000,
         38.87
+      ],
+      [
+        1788998400000,
+        32.77
+      ],
+      [
+        1789084800000,
+        33.01
       ]
     ],
     "obv": [
-      [
-        1773360000000,
-        93427983.0
-      ],
-      [
-        1773446400000,
-        null
-      ],
       [
         1773532800000,
         null
@@ -2199,6 +2191,14 @@
       [
         1788912000000,
         115486323.0
+      ],
+      [
+        1788998400000,
+        110786681.0
+      ],
+      [
+        1789084800000,
+        115157046.0
       ]
     ]
   },
@@ -2239,7 +2239,7 @@
     -0.42,
     -1.33,
     -1.24,
-    -1.18,
+    -1.16,
     null,
     null,
     null,

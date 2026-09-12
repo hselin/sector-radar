@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-09-09T23:17:17.729621Z",
+  "lastUpdated": "2026-09-12T22:56:28.679920Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "45.5T",
+      "description": "The S&P 500 is a benchmark stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "46.0T",
       "constituentCount": 503,
       "topHoldings": [
         {
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader stock market experienced a modest pullback today, with the major indices closing down 0.46% in a session defined by low conviction and range-bound trading. Technical indicators point to a largely neutral market sentiment with a subtle bearish bias; both the Relative Strength Index (RSI) at 48.04 and the Money Flow Index (MFI) at 47.19 hover just below the key 50-midpoint line, signaling that price momentum and volume-weighted buying pressure are currently balanced without pushing into oversold territory. Concurrently, an On-Balance Volume (OBV) of 955.3 million indicates sustained underlying liquidity, suggesting that today's losses reflect routine profit-taking and consolidation rather than a severe institutional sell-off. Overall, the market appears to be in a wait-and-see posture, holding a steady, neutral stance as investors await clearer economic or corporate catalysts to drive the next directional move.",
-    "change_pct": -0.46,
+    "commentary": "The stock market delivered a solid gain of 0.85% today, reflecting constructive daily sentiment, though key technical indicators point toward a balanced and neutral momentum underlying the move. The Relative Strength Index (RSI) at 50.31 sits virtually at its midpoint, signaling that the market is neither overbought nor oversold, while a Money Flow Index (MFI) of 48.19 suggests capital inflows remain measured and evenly matched against selling pressure despite the positive print. Supported by a robust On-Balance Volume (OBV) baseline of 958.04 million, this price action demonstrates steady market liquidity and healthy participation, indicating that while buyers held the advantage today, investors are maintaining a cautious, consolidated posture rather than aggressively driving a momentum breakout.",
+    "change_pct": 0.85,
     "technicalIndicators": {
       "rsi": [
-        [
-          1773360000000,
-          33.39
-        ],
-        [
-          1773446400000,
-          null
-        ],
-        [
-          1773532800000,
-          null
-        ],
         [
           1773619200000,
           40.46
@@ -747,21 +735,21 @@
         [
           1788912000000,
           48.04
+        ],
+        [
+          1788998400000,
+          44.09
+        ],
+        [
+          1789084800000,
+          50.31
+        ],
+        [
+          1789171200000,
+          null
         ]
       ],
       "mfi": [
-        [
-          1773360000000,
-          31.7
-        ],
-        [
-          1773446400000,
-          null
-        ],
-        [
-          1773532800000,
-          null
-        ],
         [
           1773619200000,
           32.6
@@ -1473,21 +1461,21 @@
         [
           1788912000000,
           47.19
+        ],
+        [
+          1788998400000,
+          47.48
+        ],
+        [
+          1789084800000,
+          48.19
+        ],
+        [
+          1789171200000,
+          null
         ]
       ],
       "obv": [
-        [
-          1773360000000,
-          581212756.0
-        ],
-        [
-          1773446400000,
-          null
-        ],
-        [
-          1773532800000,
-          null
-        ],
         [
           1773619200000,
           662466630.0
@@ -2199,6 +2187,18 @@
         [
           1788912000000,
           955305141.0
+        ],
+        [
+          1788998400000,
+          912564741.0
+        ],
+        [
+          1789084800000,
+          958042041.0
+        ],
+        [
+          1789171200000,
+          null
         ]
       ]
     },
@@ -2239,7 +2239,7 @@
       -1.37,
       0.47,
       0.11,
-      -1.01,
+      -0.77,
       null,
       null,
       null,
