@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-13T23:03:47.545664Z",
+  "lastUpdated": "2026-09-14T23:53:02.338576Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a benchmark stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,18 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market delivered a solid performance today, closing up 0.85% in a move that reflects steady buying interest. Despite the positive session, technical indicators point to a balanced and measured trading environment rather than speculative overheating: the Relative Strength Index (RSI) at 50.31 and the Money Flow Index (MFI) at 48.19 both hover squarely in neutral territory, suggesting an equilibrium between buying and selling pressure with no immediate threat of overbought conditions. Meanwhile, a strong On-Balance Volume (OBV) reading of approximately 958 million indicates that robust institutional volume continues to underpin current price levels. Overall, market sentiment is cautiously optimistic, characterized by stable momentum and healthy consolidation that leaves ample runway for further directional moves.",
-    "change_pct": 0.85,
+    "commentary": "The broader equity market experienced a modest pullback today, declining 0.45% as trading activity reflected a cautious, wait-and-see environment. Key technical indicators align with this consolidation: both the Relative Strength Index (RSI) at 47.32 and the Money Flow Index (MFI) at 47.12 sit just below the neutral 50 threshold, signaling a slight shift toward bearish momentum and mild volume-weighted capital outflows without entering oversold territory. Meanwhile, a solid On-Balance Volume (OBV) of approximately 914.5 million suggests underlying liquidity remains intact and that selling pressure was orderly, pointing to routine profit-taking rather than aggressive institutional distribution. Overall, these figures depict a market in a neutral, range-bound posture with a slightly defensive near-term bias.",
+    "change_pct": -0.45,
     "technicalIndicators": {
       "rsi": [
-        [
-          1773619200000,
-          40.46
-        ],
-        [
-          1773705600000,
-          42.18
-        ],
         [
           1773792000000,
           36.18
@@ -747,17 +739,17 @@
         [
           1789171200000,
           null
+        ],
+        [
+          1789257600000,
+          null
+        ],
+        [
+          1789344000000,
+          47.32
         ]
       ],
       "mfi": [
-        [
-          1773619200000,
-          32.6
-        ],
-        [
-          1773705600000,
-          33.34
-        ],
         [
           1773792000000,
           33.05
@@ -1473,17 +1465,17 @@
         [
           1789171200000,
           null
+        ],
+        [
+          1789257600000,
+          null
+        ],
+        [
+          1789344000000,
+          47.12
         ]
       ],
       "obv": [
-        [
-          1773619200000,
-          662466630.0
-        ],
-        [
-          1773705600000,
-          727336672.0
-        ],
         [
           1773792000000,
           646426644.0
@@ -2199,6 +2191,14 @@
         [
           1789171200000,
           null
+        ],
+        [
+          1789257600000,
+          null
+        ],
+        [
+          1789344000000,
+          914499341.0
         ]
       ]
     },
@@ -2240,7 +2240,7 @@
       0.47,
       0.11,
       -0.77,
-      null,
+      -0.45,
       null,
       null,
       null,
