@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T23:53:02.338576Z",
+  "lastUpdated": "2026-09-15T23:38:21.536915Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a benchmark stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader equity market experienced a modest pullback today, declining 0.45% as trading activity reflected a cautious, wait-and-see environment. Key technical indicators align with this consolidation: both the Relative Strength Index (RSI) at 47.32 and the Money Flow Index (MFI) at 47.12 sit just below the neutral 50 threshold, signaling a slight shift toward bearish momentum and mild volume-weighted capital outflows without entering oversold territory. Meanwhile, a solid On-Balance Volume (OBV) of approximately 914.5 million suggests underlying liquidity remains intact and that selling pressure was orderly, pointing to routine profit-taking rather than aggressive institutional distribution. Overall, these figures depict a market in a neutral, range-bound posture with a slightly defensive near-term bias.",
-    "change_pct": -0.45,
+    "commentary": "Commentary could not be generated due to a persistent network error.",
+    "change_pct": -0.46,
     "technicalIndicators": {
       "rsi": [
-        [
-          1773792000000,
-          36.18
-        ],
         [
           1773878400000,
           35.24
@@ -747,13 +743,13 @@
         [
           1789344000000,
           47.32
+        ],
+        [
+          1789430400000,
+          44.41
         ]
       ],
       "mfi": [
-        [
-          1773792000000,
-          33.05
-        ],
         [
           1773878400000,
           32.09
@@ -1473,13 +1469,13 @@
         [
           1789344000000,
           47.12
+        ],
+        [
+          1789430400000,
+          40.5
         ]
       ],
       "obv": [
-        [
-          1773792000000,
-          646426644.0
-        ],
         [
           1773878400000,
           536359252.0
@@ -2199,6 +2195,10 @@
         [
           1789344000000,
           914499341.0
+        ],
+        [
+          1789430400000,
+          869770947.0
         ]
       ]
     },
@@ -2240,7 +2240,7 @@
       0.47,
       0.11,
       -0.77,
-      -0.45,
+      -0.9,
       null,
       null,
       null,

@@ -1,8 +1,8 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies providing essential infrastructure and public services, including electricity, natural gas, water, and renewable energy generation.",
-    "marketSizeUSD": "1.3T",
+    "description": "The Utilities sector comprises companies that provide essential services such as electricity, natural gas, water, and renewable energy to residential and commercial customers.",
+    "marketSizeUSD": "1.2T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0202,
-  "change_pct": -1.34,
-  "insights": "The Utilities sector faced notable downside pressure today, declining -1.34% as broader market sentiment weighed on defensive plays. Short-term price momentum has weakened significantly, with the RSI dropping to 33.45, placing the sector on the cusp of oversold territory and suggesting that selling pressure may soon exhaust itself. However, the Money Flow Index (MFI) remains remarkably balanced at 50.76, indicating that capital isn't aggressively fleeing the sector despite the price contraction. Supported by a robust On-Balance Volume (OBV) baseline of 351.2 million, this divergence between declining price momentum and stable money flow suggests today\u2019s sell-off was likely driven by short-term positioning rather than institutional liquidation.",
+  "market_weight": 0.0181,
+  "change_pct": -1.2,
+  "insights": "The Utilities sector experienced notable weakness today, declining by 1.20% as short-term momentum shifted sharply to the downside. This decline pushed the sector's Relative Strength Index (RSI) to 29.98, crossing into oversold territory and signaling that the immediate selling pressure may be overextended. However, the Money Flow Index (MFI) remains at a neutral 44.59 alongside a solid On-Balance Volume (OBV) of 327.1 million, suggesting that volume-weighted capital outflows are relatively disciplined rather than indicative of panic selling. Overall, while today's drawdown highlights ongoing macro sensitivity, the oversold RSI combined with steady volume indicators points to a sector approaching a potential short-term technical bounce.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773792000000,
-        52.76
-      ],
       [
         1773878400000,
         50.64
@@ -747,13 +743,13 @@
       [
         1789344000000,
         33.45
+      ],
+      [
+        1789430400000,
+        29.98
       ]
     ],
     "mfi": [
-      [
-        1773792000000,
-        45.29
-      ],
       [
         1773878400000,
         36.41
@@ -1473,13 +1469,13 @@
       [
         1789344000000,
         50.76
+      ],
+      [
+        1789430400000,
+        44.59
       ]
     ],
     "obv": [
-      [
-        1773792000000,
-        308597708.0
-      ],
       [
         1773878400000,
         279096139.0
@@ -2199,6 +2195,10 @@
       [
         1789344000000,
         351226124.0
+      ],
+      [
+        1789430400000,
+        327095329.0
       ]
     ]
   },
@@ -2240,7 +2240,7 @@
     -0.09,
     0.82,
     -1.6,
-    -1.34,
+    -2.52,
     null,
     null,
     null,

@@ -1,7 +1,7 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and sell essential goods such as food, beverages, household products, and personal care items that remain in demand regardless of economic conditions.",
+    "description": "The Consumer Staples sector comprises companies that produce and sell essential everyday items such as food, beverages, household goods, and personal care products.",
     "marketSizeUSD": "4.3T",
     "constituentCount": 38,
     "topHoldings": [
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.067,
-  "change_pct": 1.25,
-  "insights": "The Consumer Staples sector demonstrated solid defensive strength today, posting a respectable gain of 1.25%, though underlying technicals suggest the advance represents a balanced rebound within a broader consolidation pattern rather than an aggressive breakout. The Relative Strength Index (RSI) at 47.50 and the Money Flow Index (MFI) at 42.44 both remain in neutral territory below the 50-midline, signaling that despite today\u2019s positive price action, overall buying momentum and volume-weighted capital inflows are relatively subdued. Supported by a stable On-Balance Volume (OBV) of 62.75 million, institutional participation appears steady, indicating that while buyers comfortably controlled today's session, the sector lacks the strong momentum indicators required to signal an immediate, sustained upward trend.",
+  "market_weight": 0.065,
+  "change_pct": -0.82,
+  "insights": "The Consumer Staples sector experienced a modest pullback today, declining by 0.82% as short-term momentum favored the downside. Technical indicators reflect a cooling off in buying interest, with the RSI at 43.80 leaning slightly bearish but remaining safely above oversold territory. This is complemented by an MFI of 40.35, which points to moderate capital outflows and declining buying pressure during the session. Meanwhile, an On-Balance Volume (OBV) of 48.6 million indicates that while today's price weakness was backed by active volume, selling pressure remains relatively controlled, pointing to an orderly sector consolidation rather than aggressive distribution.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773792000000,
-        33.41
-      ],
       [
         1773878400000,
         31.16
@@ -747,13 +743,13 @@
       [
         1789344000000,
         47.5
+      ],
+      [
+        1789430400000,
+        43.8
       ]
     ],
     "mfi": [
-      [
-        1773792000000,
-        28.31
-      ],
       [
         1773878400000,
         22.47
@@ -1473,13 +1469,13 @@
       [
         1789344000000,
         42.44
+      ],
+      [
+        1789430400000,
+        40.35
       ]
     ],
     "obv": [
-      [
-        1773792000000,
-        117921028.0
-      ],
       [
         1773878400000,
         99417893.0
@@ -2199,6 +2195,10 @@
       [
         1789344000000,
         62749169.0
+      ],
+      [
+        1789430400000,
+        48606370.0
       ]
     ]
   },
@@ -2240,7 +2240,7 @@
     -0.63,
     -1.02,
     -1.42,
-    1.25,
+    0.42,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies that provide medical services, manufacture medical equipment or drugs, and develop biotechnology products.",
-    "marketSizeUSD": "8.5T",
+    "description": "The Health Care sector encompasses companies involved in medical research, pharmaceuticals, biotechnology, medical device manufacturing, and healthcare service provision.",
+    "marketSizeUSD": "6.5T",
     "constituentCount": 64,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1324,
-  "change_pct": 1.45,
-  "insights": "The Health Care sector demonstrated solid short-term strength today with a 1.45% gain, though technical indicators suggest this move represents a relief rebound rather than a confirmed bullish trend shift. An RSI of 47.88 places momentum in a neutral zone, while a Money Flow Index (MFI) of 30.53 hovers just above oversold territory, indicating that capital inflows remain weak despite the price uptick. Furthermore, a heavily negative On-Balance Volume (OBV) of -37,784,901 points to persistent net distribution over recent sessions. Overall, while today's advance is encouraging, the divergence between rising prices and lagging volume metrics suggests investors should wait for sustained buying pressure before confirming broader sector accumulation.",
+  "market_weight": 0.0982,
+  "change_pct": -0.05,
+  "insights": "The Health Care sector closed virtually flat today, down a marginal 0.05%, reflecting a period of price consolidation marked by underlying technical weakness. An RSI of 47.65 places price momentum in neutral territory, but a depressed Money Flow Index (MFI) of 24.58 indicates that the sector is hovering near oversold conditions due to sustained capital outflows. This lack of buying conviction is further corroborated by a heavily negative On-Balance Volume (OBV) of -44.97 million, signaling persistent institutional distribution on down days. Overall, while today's flat performance suggests short-term price stabilization, the weak MFI and negative OBV highlight a prevailing sell-side bias that could cap near-term upside potential without a fresh catalyst to drive capital inflows.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773792000000,
-        29.95
-      ],
       [
         1773878400000,
         29.04
@@ -747,13 +743,13 @@
       [
         1789344000000,
         47.88
+      ],
+      [
+        1789430400000,
+        47.65
       ]
     ],
     "mfi": [
-      [
-        1773792000000,
-        33.59
-      ],
       [
         1773878400000,
         26.79
@@ -1473,13 +1469,13 @@
       [
         1789344000000,
         30.53
+      ],
+      [
+        1789430400000,
+        24.58
       ]
     ],
     "obv": [
-      [
-        1773792000000,
-        -57870614.0
-      ],
       [
         1773878400000,
         -74752313.0
@@ -2199,6 +2195,10 @@
       [
         1789344000000,
         -37784901.0
+      ],
+      [
+        1789430400000,
+        -44973377.0
       ]
     ]
   },
@@ -2240,7 +2240,7 @@
     -1.98,
     0.17,
     -3.55,
-    1.45,
+    1.39,
     null,
     null,
     null,

@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector includes companies involved in the exploration, production, refining, marketing, and transportation of oil, natural gas, and consumable fuels, as well as energy equipment and services.",
-    "marketSizeUSD": "1.7T",
-    "constituentCount": 23,
+    "description": "The Energy sector comprises companies involved in the exploration, production, refining, transportation, and marketing of oil, natural gas, and consumable fuels, as well as related equipment and services.",
+    "marketSizeUSD": "6.5T",
+    "constituentCount": 22,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0265,
-  "change_pct": -0.94,
-  "insights": "The Energy sector experienced a minor pullback today, declining **-0.94%** in what appears to be a routine profit-taking session rather than a structural reversal. Despite the daily loss, underlying technical momentum remains healthy, evidenced by an **RSI of 61.05** sitting comfortably in constructive, non-overbought territory. This is complemented by a neutral-to-positive **Money Flow Index (MFI) of 53.52**, indicating steady capital retention without aggressive distribution, while a formidable **On-Balance Volume (OBV) of 1.32 billion** highlights strong cumulative volume and sustained institutional backing. Overall, today\u2019s decline represents a brief consolidation within a broader, well-supported market structure.",
+  "market_weight": 0.0982,
+  "change_pct": 2.17,
+  "insights": "The Energy sector posted a strong performance today with a 2.17% gain, driven by solid technical momentum and robust capital inflows. An RSI of 67.27 signals powerful upward price action while lingering just beneath the overbought threshold (70), suggesting sustained bullish momentum without immediate exhaustion. This price action is further validated by a Money Flow Index (MFI) of 60.81, confirming positive volume-weighted buying pressure, while a massive On-Balance Volume (OBV) of 1.36 billion points to significant institutional accumulation underlying today's rally.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773792000000,
-        69.77
-      ],
       [
         1773878400000,
         73.47
@@ -747,13 +743,13 @@
       [
         1789344000000,
         61.05
+      ],
+      [
+        1789430400000,
+        67.27
       ]
     ],
     "mfi": [
-      [
-        1773792000000,
-        57.91
-      ],
       [
         1773878400000,
         58.51
@@ -1473,13 +1469,13 @@
       [
         1789344000000,
         53.52
+      ],
+      [
+        1789430400000,
+        60.81
       ]
     ],
     "obv": [
-      [
-        1773792000000,
-        1150255101.0
-      ],
       [
         1773878400000,
         1219276276.0
@@ -2199,6 +2195,10 @@
       [
         1789344000000,
         1321974983.0
+      ],
+      [
+        1789430400000,
+        1356149912.0
       ]
     ]
   },
@@ -2240,7 +2240,7 @@
     -1.51,
     2.2,
     1.69,
-    -0.94,
+    1.21,
     null,
     null,
     null,

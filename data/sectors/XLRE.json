@@ -1,7 +1,7 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector encompasses equity real estate investment trusts (REITs) spanning various property types as well as real estate management and development companies.",
+    "description": "The Real Estate sector encompasses Equity Real Estate Investment Trusts (REITs) as well as companies engaged in real estate management and development services.",
     "marketSizeUSD": "1.4T",
     "constituentCount": 31,
     "topHoldings": [
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0218,
-  "change_pct": -0.69,
-  "insights": "The Real Estate sector experienced a mild retreat today, declining by 0.69% as short-term bearish sentiment continues to weigh on asset valuations. Technical indicators align with this downward trajectory: the Relative Strength Index (RSI) at 35.25 and the Money Flow Index (MFI) at 26.45 are both approaching oversold territory (sub-30 and sub-20, respectively), signaling weakening price momentum and significant institutional capital outflows over recent sessions. Additionally, an On-Balance Volume (OBV) of 109.05 million confirms that this negative price action is supported by underlying trading volume, pointing to a broader distribution phase. While these depressed RSI and MFI readings suggest the sector may soon be ripe for a temporary mean-reversion or technical relief rally, the immediate path of least resistance remains to the downside until capital inflows stabilize.",
+  "market_weight": 0.0211,
+  "change_pct": -0.12,
+  "insights": "The Real Estate sector experienced a slight dip today, closing down -0.12%, but underlying momentum indicators reveal deeper weakness beneath the relatively flat price action. The Relative Strength Index (RSI) at 34.80 signals persistent selling pressure nearing oversold territory, while a low Money Flow Index (MFI) of 21.52 highlights significant capital outflows and a lack of aggressive buying interest. Combined with a solid On-Balance Volume (OBV) baseline of 104.51M, these metrics suggest that institutional distribution is steadily weighing on the sector, leaving it vulnerable to further downside or, conversely, setting the stage for a potential short-term oversold bounce if buying volume returns.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773792000000,
-        40.89
-      ],
       [
         1773878400000,
         39.82
@@ -747,13 +743,13 @@
       [
         1789344000000,
         35.25
+      ],
+      [
+        1789430400000,
+        34.8
       ]
     ],
     "mfi": [
-      [
-        1773792000000,
-        40.52
-      ],
       [
         1773878400000,
         32.28
@@ -1473,13 +1469,13 @@
       [
         1789344000000,
         26.45
+      ],
+      [
+        1789430400000,
+        21.52
       ]
     ],
     "obv": [
-      [
-        1773792000000,
-        101619672.0
-      ],
       [
         1773878400000,
         92144469.0
@@ -2199,6 +2195,10 @@
       [
         1789344000000,
         109051717.0
+      ],
+      [
+        1789430400000,
+        104512870.0
       ]
     ]
   },
@@ -2240,7 +2240,7 @@
     -1.33,
     -1.24,
     -1.16,
-    -0.69,
+    -0.81,
     null,
     null,
     null,

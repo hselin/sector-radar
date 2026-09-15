@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in capital goods, aerospace and defense, industrial machinery, logistics, construction, and transportation services.",
+    "description": "The Industrials sector encompasses companies involved in capital goods, aerospace and defense, construction, engineering, and transportation services.",
     "marketSizeUSD": "5.5T",
     "constituentCount": 78,
     "topHoldings": [
       {
-        "name": "GE Aerospace",
+        "name": "General Electric Company",
         "symbol": "GE"
       },
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0857,
-  "change_pct": -1.42,
-  "insights": "The Industrials sector experienced notable weakness today, closing down -1.42% as broad-based selling momentum took hold. Technical indicators point to a sector entering near-oversold territory, highlighted by a Relative Strength Index (RSI) of 32.23 and a Money Flow Index (MFI) of 27.19, both of which signal accelerating downward price momentum and significant capital outflows. While an On-Balance Volume (OBV) of 163.58 million reflects a solid underlying volume foundation over the longer term, the depressed MFI confirms that short-term distribution is dominating current sentiment; consequently, while downside momentum remains intact, the sector is approaching key support levels that may soon attract value-seeking buyers looking for a technical relief bounce.",
+  "market_weight": 0.0831,
+  "change_pct": -0.64,
+  "insights": "The Industrials sector closed down -0.64% today, reflecting a modest contraction that has pushed key momentum indicators into near-oversold territory. The Relative Strength Index (RSI) of 30.54 sits right at the threshold of being oversold, indicating strong downside momentum, while the Money Flow Index (MFI) at 26.70 confirms that this drop is driven by significant institutional capital outflows. Despite this short-term weakness, the high On-Balance Volume (OBV) of 154.7M suggests that the broader structural accumulation remains intact; however, the alignment of low RSI and MFI signals that while selling pressure is currently dominant, the sector may be approaching a short-term technical floor or stabilization point.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773792000000,
-        37.49
-      ],
       [
         1773878400000,
         35.42
@@ -747,13 +743,13 @@
       [
         1789344000000,
         32.23
+      ],
+      [
+        1789430400000,
+        30.54
       ]
     ],
     "mfi": [
-      [
-        1773792000000,
-        38.38
-      ],
       [
         1773878400000,
         33.0
@@ -1473,13 +1469,13 @@
       [
         1789344000000,
         27.19
+      ],
+      [
+        1789430400000,
+        26.7
       ]
     ],
     "obv": [
-      [
-        1773792000000,
-        196107425.0
-      ],
       [
         1773878400000,
         178121805.0
@@ -2199,6 +2195,10 @@
       [
         1789344000000,
         163576630.0
+      ],
+      [
+        1789430400000,
+        154735036.0
       ]
     ]
   },
@@ -2240,7 +2240,7 @@
     -1.73,
     -1.06,
     -1.65,
-    -1.42,
+    -2.04,
     null,
     null,
     null,
