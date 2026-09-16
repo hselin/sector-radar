@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.1631,
-  "change_pct": -1.75,
-  "insights": "The Consumer Discretionary sector faced notable headwinds today, declining by 1.75% as aggressive distribution dominated trading across the board. Technical indicators highlight a market under heavy selling pressure, with the Money Flow Index (MFI) plunging to an oversold 17.98, signaling severe capital outflows and institutional liquidation. This is reinforced by an RSI of 35.30, which points to accelerating negative momentum approaching oversold territory, and a deeply negative On-Balance Volume (OBV) of -31.2 million, confirming that the price drop was driven by high-volume conviction rather than light liquidity. While these deeply depressed indicator readings could trigger a short-term mean-reversion bounce, the overall technical picture suggests that bear momentum remains firmly in control for now.",
+  "change_pct": -0.63,
+  "insights": "The Consumer Discretionary sector experienced downside pressure today, slipping -0.63% amidst persistent capital distribution across the space. Technical indicators reveal a sector approaching deep oversold conditions, highlighted by a Money Flow Index (MFI) of 16.91 that signals severe, volume-weighted capital outflows. This is complemented by a Relative Strength Index (RSI) of 33.64, reflecting weakened momentum nearing oversold territory, while a sharply negative On-Balance Volume (OBV) of -40.09M confirms that volume continues to skew heavily toward down-days. Although these deeply depressed momentum and flow metrics suggest a short-term tactical relief bounce could materialize, the overarching technical footprint confirms that sellers remain in firm control of the sector's trajectory.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773878400000,
-        30.76
-      ],
       [
         1773964800000,
         27.17
@@ -747,13 +743,13 @@
       [
         1789430400000,
         35.3
+      ],
+      [
+        1789516800000,
+        33.64
       ]
     ],
     "mfi": [
-      [
-        1773878400000,
-        30.16
-      ],
       [
         1773964800000,
         31.2
@@ -1473,13 +1469,13 @@
       [
         1789430400000,
         17.98
+      ],
+      [
+        1789516800000,
+        16.91
       ]
     ],
     "obv": [
-      [
-        1773878400000,
-        -43568890.0
-      ],
       [
         1773964800000,
         -55838326.0
@@ -2199,6 +2195,10 @@
       [
         1789430400000,
         -31211759.0
+      ],
+      [
+        1789516800000,
+        -40086296.0
       ]
     ]
   },
@@ -2240,7 +2240,7 @@
     -0.69,
     -1.96,
     -1.7,
-    -1.84,
+    -2.46,
     null,
     null,
     null,

@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T23:38:21.536915Z",
+  "lastUpdated": "2026-09-16T23:41:00.305580Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a benchmark stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Commentary could not be generated due to a persistent network error.",
-    "change_pct": -0.46,
+    "commentary": "The broad stock market experienced a modest pullback today, closing down 0.44% in a session characterized by cautious, risk-off sentiment. Technical indicators point to fading bullish momentum and persistent selling pressure; the Relative Strength Index (RSI) at 41.76 signals a market leaning into bearish territory, while a Money Flow Index (MFI) of 33.45 highlights steady capital outflows as institutional investors scale back exposure. Coupled with an On-Balance Volume (OBV) of 810.81 million, the underlying volume dynamics confirm that today's downward price action was supported by active distribution rather than low-volume noise. Overall, while these figures suggest that sellers currently maintain control of short-term momentum, the fact that both RSI and MFI remain above key oversold thresholds (30) indicates a controlled, orderly consolidation phase rather than an outright panic sell-off.",
+    "change_pct": -0.44,
     "technicalIndicators": {
       "rsi": [
-        [
-          1773878400000,
-          35.24
-        ],
         [
           1773964800000,
           29.54
@@ -747,13 +743,13 @@
         [
           1789430400000,
           44.41
+        ],
+        [
+          1789516800000,
+          41.76
         ]
       ],
       "mfi": [
-        [
-          1773878400000,
-          32.09
-        ],
         [
           1773964800000,
           30.86
@@ -1473,13 +1469,13 @@
         [
           1789430400000,
           40.5
+        ],
+        [
+          1789516800000,
+          33.45
         ]
       ],
       "obv": [
-        [
-          1773878400000,
-          536359252.0
-        ],
         [
           1773964800000,
           398075738.0
@@ -2199,6 +2195,10 @@
         [
           1789430400000,
           869770947.0
+        ],
+        [
+          1789516800000,
+          810811257.0
         ]
       ]
     },
@@ -2240,7 +2240,7 @@
       0.47,
       0.11,
       -0.77,
-      -0.9,
+      -1.34,
       null,
       null,
       null,
