@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0831,
-  "change_pct": -0.08,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.085,
+  "change_pct": 0.18,
+  "insights": "The Industrials sector showed signs of stabilization today, edging up a modest 0.18% despite underlying metrics reflecting a heavily discounted market. Both the Relative Strength Index (RSI) at 31.47 and the Money Flow Index (MFI) at 24.07 sit near oversold territory, signaling that recent institutional capital outflows and selling momentum have been severe. However, today's positive tick, combined with a strong On-Balance Volume (OBV) baseline of 151.67 million, suggests that selling pressure may be reaching a point of exhaustion, potentially setting the stage for a near-term mean-reversion bounce or consolidation as buyers test these depressed levels.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1773964800000,
-        31.44
-      ],
       [
         1774051200000,
         null
@@ -747,13 +743,13 @@
       [
         1789516800000,
         30.32
+      ],
+      [
+        1789603200000,
+        31.47
       ]
     ],
     "mfi": [
-      [
-        1773964800000,
-        23.83
-      ],
       [
         1774051200000,
         null
@@ -1473,13 +1469,13 @@
       [
         1789516800000,
         18.68
+      ],
+      [
+        1789603200000,
+        24.07
       ]
     ],
     "obv": [
-      [
-        1773964800000,
-        160850820.0
-      ],
       [
         1774051200000,
         null
@@ -2199,6 +2195,10 @@
       [
         1789516800000,
         145825408.0
+      ],
+      [
+        1789603200000,
+        151666082.0
       ]
     ]
   },
@@ -2240,7 +2240,7 @@
     -1.73,
     -1.06,
     -1.65,
-    -2.12,
+    -1.95,
     null,
     null,
     null,

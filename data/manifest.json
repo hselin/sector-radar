@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T23:41:00.305580Z",
+  "lastUpdated": "2026-09-17T23:35:21.333475Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a benchmark stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The broad stock market experienced a modest pullback today, closing down 0.44% in a session characterized by cautious, risk-off sentiment. Technical indicators point to fading bullish momentum and persistent selling pressure; the Relative Strength Index (RSI) at 41.76 signals a market leaning into bearish territory, while a Money Flow Index (MFI) of 33.45 highlights steady capital outflows as institutional investors scale back exposure. Coupled with an On-Balance Volume (OBV) of 810.81 million, the underlying volume dynamics confirm that today's downward price action was supported by active distribution rather than low-volume noise. Overall, while these figures suggest that sellers currently maintain control of short-term momentum, the fact that both RSI and MFI remain above key oversold thresholds (30) indicates a controlled, orderly consolidation phase rather than an outright panic sell-off.",
-    "change_pct": -0.44,
+    "commentary": "The stock market demonstrated solid short-term strength today with a 1.13% gain, though underlying technicals suggest a broader state of consolidation rather than a confirmed bullish breakout. An RSI of 49.98 sits virtually dead-center, reflecting neutral momentum and an equilibrium between buyers and sellers following today's move. Meanwhile, a Money Flow Index (MFI) of 35.10 points to relatively weak underlying buying pressure, indicating that institutional capital inflows remain cautious despite the positive price action. With On-Balance Volume (OBV) holding steady at 860.1 million, overall volume trends remain intact, but the divergence between today's price gain and the subdued MFI suggests today\u2019s rally reflects a temporary bounce driven by selective buying rather than aggressive, broad-market accumulation.",
+    "change_pct": 1.13,
     "technicalIndicators": {
       "rsi": [
-        [
-          1773964800000,
-          29.54
-        ],
         [
           1774051200000,
           null
@@ -747,13 +743,13 @@
         [
           1789516800000,
           41.76
+        ],
+        [
+          1789603200000,
+          49.98
         ]
       ],
       "mfi": [
-        [
-          1773964800000,
-          30.86
-        ],
         [
           1774051200000,
           null
@@ -1473,13 +1469,13 @@
         [
           1789516800000,
           33.45
+        ],
+        [
+          1789603200000,
+          35.1
         ]
       ],
       "obv": [
-        [
-          1773964800000,
-          398075738.0
-        ],
         [
           1774051200000,
           null
@@ -2199,6 +2195,10 @@
         [
           1789516800000,
           810811257.0
+        ],
+        [
+          1789603200000,
+          860099344.0
         ]
       ]
     },
@@ -2240,7 +2240,7 @@
       0.47,
       0.11,
       -0.77,
-      -1.34,
+      -0.22,
       null,
       null,
       null,
