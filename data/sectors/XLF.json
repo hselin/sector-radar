@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.085,
-  "change_pct": -0.09,
-  "insights": "The Financials sector posted a virtually flat performance today, slipping -0.09% in a session marked by cautious consolidation. Technical metrics point toward weakening underlying momentum, with the Relative Strength Index (RSI) at 37.09 trending toward oversold territory and the Money Flow Index (MFI) dipping to 27.86, signaling notable capital outflows and weak buying interest. Meanwhile, an On-Balance Volume (OBV) of 354.4 million, when paired with these depressed momentum indicators, suggests that ongoing trading volume is leaning toward institutional distribution rather than active accumulation. Overall, the sector exhibits a short-term bearish bias, though the oversold MFI reading hints that selling pressure may be nearing a temporary exhaustion point.",
+  "market_weight": 0.0854,
+  "change_pct": -0.04,
+  "insights": "Commentary could not be generated due to a persistent network error.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774051200000,
-        null
-      ],
       [
         1774137600000,
         null
@@ -747,13 +743,13 @@
       [
         1789603200000,
         37.09
+      ],
+      [
+        1789689600000,
+        36.94
       ]
     ],
     "mfi": [
-      [
-        1774051200000,
-        null
-      ],
       [
         1774137600000,
         null
@@ -1473,13 +1469,13 @@
       [
         1789603200000,
         27.86
+      ],
+      [
+        1789689600000,
+        21.72
       ]
     ],
     "obv": [
-      [
-        1774051200000,
-        null
-      ],
       [
         1774137600000,
         null
@@ -2199,6 +2195,10 @@
       [
         1789603200000,
         354433825.0
+      ],
+      [
+        1789689600000,
+        318781663.0
       ]
     ]
   },
@@ -2240,7 +2240,7 @@
     1.08,
     0.0,
     -1.46,
-    -2.39,
+    -2.43,
     null,
     null,
     null,
