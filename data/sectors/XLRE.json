@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector encompasses Equity Real Estate Investment Trusts (REITs) as well as companies engaged in real estate management and development services.",
-    "marketSizeUSD": "1.4T",
+    "description": "The Real Estate sector encompasses companies involved in real estate development, operations, and equity Real Estate Investment Trusts (REITs).",
+    "marketSizeUSD": "1.2T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0217,
-  "change_pct": -0.95,
-  "insights": "The Real Estate sector experienced moderate selling pressure today, declining by 0.95% as capital outflows accelerated. Key technical indicators highlight a market approaching oversold territory, with the RSI at 31.11 and the Money Flow Index (MFI) at 26.21, both signalling strong bearish momentum and diminished buying interest in the near term. Furthermore, an On-Balance Volume (OBV) of 97.39 million underscores sustained distribution activity, confirming that the day's losses were backed by steady trading volume. While the broader outlook remains constrained by this negative volume trend, the proximity of momentum indicators to oversold thresholds (<30) suggests the sector may soon be primed for a technical bounce or temporary consolidation.",
+  "market_weight": 0.0186,
+  "change_pct": -1.55,
+  "insights": "Commentary could not be generated due to a persistent network error.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774137600000,
-        null
-      ],
-      [
-        1774224000000,
-        29.45
-      ],
-      [
-        1774310400000,
-        27.32
-      ],
-      [
-        1774396800000,
-        27.19
-      ],
-      [
-        1774483200000,
-        27.56
-      ],
       [
         1774569600000,
         25.62
@@ -747,29 +727,29 @@
       [
         1789689600000,
         31.11
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1774137600000,
+        1789776000000,
         null
       ],
       [
-        1774224000000,
-        31.22
+        1789862400000,
+        null
       ],
       [
-        1774310400000,
-        24.89
+        1789948800000,
+        32.25
       ],
       [
-        1774396800000,
-        24.88
+        1790035200000,
+        31.41
       ],
       [
-        1774483200000,
-        24.43
-      ],
+        1790121600000,
+        26.07
+      ]
+    ],
+    "mfi": [
       [
         1774569600000,
         25.39
@@ -1473,29 +1453,29 @@
       [
         1789689600000,
         26.21
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1774137600000,
+        1789776000000,
         null
       ],
       [
-        1774224000000,
-        91903728.0
+        1789862400000,
+        null
       ],
       [
-        1774310400000,
-        82038210.0
+        1789948800000,
+        27.09
       ],
       [
-        1774396800000,
-        72250610.0
+        1790035200000,
+        24.41
       ],
       [
-        1774483200000,
-        86722385.0
-      ],
+        1790121600000,
+        24.83
+      ]
+    ],
+    "obv": [
       [
         1774569600000,
         80613679.0
@@ -2199,6 +2179,26 @@
       [
         1789689600000,
         97389945.0
+      ],
+      [
+        1789776000000,
+        null
+      ],
+      [
+        1789862400000,
+        null
+      ],
+      [
+        1789948800000,
+        102543004.0
+      ],
+      [
+        1790035200000,
+        98226702.0
+      ],
+      [
+        1790121600000,
+        91515738.0
       ]
     ]
   },
@@ -2241,7 +2241,7 @@
     -1.24,
     -1.16,
     -2.05,
-    null,
+    -1.62,
     null,
     null,
     null,

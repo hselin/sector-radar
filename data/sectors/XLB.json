@@ -20,30 +20,10 @@
     ]
   },
   "market_weight": 0.0186,
-  "change_pct": -1.42,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "change_pct": -0.49,
+  "insights": "The Materials sector experienced a mild pullback today, declining -0.49% as short-term bearish pressure weighed on the space. Technical metrics reflect this soft momentum, with a Relative Strength Index (RSI) of 40.61 indicating a shift toward buyer exhaustion without yet triggering an oversold rebound signal. This is further supported by a Money Flow Index (MFI) of 35.02, which highlights ongoing capital outflows as investors trim exposure. While an On-Balance Volume (OBV) of 6,901,926 suggests that a solid volume baseline remains intact, the combination of depressed money flow and weak RSI points to potential near-term consolidation or drift until strong institutional demand re-emerges.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774137600000,
-        null
-      ],
-      [
-        1774224000000,
-        29.94
-      ],
-      [
-        1774310400000,
-        38.44
-      ],
-      [
-        1774396800000,
-        45.97
-      ],
-      [
-        1774483200000,
-        44.04
-      ],
       [
         1774569600000,
         42.94
@@ -747,29 +727,29 @@
       [
         1789689600000,
         35.41
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1774137600000,
+        1789776000000,
         null
       ],
       [
-        1774224000000,
-        34.57
+        1789862400000,
+        null
       ],
       [
-        1774310400000,
-        33.84
+        1789948800000,
+        33.74
       ],
       [
-        1774396800000,
-        40.41
+        1790035200000,
+        42.34
       ],
       [
-        1774483200000,
-        47.51
-      ],
+        1790121600000,
+        40.61
+      ]
+    ],
+    "mfi": [
       [
         1774569600000,
         50.03
@@ -1473,29 +1453,29 @@
       [
         1789689600000,
         34.68
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1774137600000,
+        1789776000000,
         null
       ],
       [
-        1774224000000,
-        44829283.0
+        1789862400000,
+        null
       ],
       [
-        1774310400000,
-        60438786.0
+        1789948800000,
+        35.16
       ],
       [
-        1774396800000,
-        75454375.0
+        1790035200000,
+        43.06
       ],
       [
-        1774483200000,
-        62642250.0
-      ],
+        1790121600000,
+        35.02
+      ]
+    ],
+    "obv": [
       [
         1774569600000,
         52048890.0
@@ -2199,6 +2179,26 @@
       [
         1789689600000,
         17832819.0
+      ],
+      [
+        1789776000000,
+        null
+      ],
+      [
+        1789862400000,
+        null
+      ],
+      [
+        1789948800000,
+        7270426.0
+      ],
+      [
+        1790035200000,
+        17368521.0
+      ],
+      [
+        1790121600000,
+        6901926.0
       ]
     ]
   },
@@ -2241,7 +2241,7 @@
     -1.39,
     -2.84,
     -1.88,
-    null,
+    0.58,
     null,
     null,
     null,

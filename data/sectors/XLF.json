@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector comprises companies involved in banking, mortgage finance, consumer finance, specialized finance, investment banking and brokerage, asset management, and insurance services.",
-    "marketSizeUSD": "5.5T",
+    "description": "The Financials sector encompasses companies involved in banking, mortgage finance, consumer finance, investment banking, asset management, insurance, and financial services.",
+    "marketSizeUSD": "9.2T",
     "constituentCount": 72,
     "topHoldings": [
       {
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0854,
-  "change_pct": -0.04,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.1424,
+  "change_pct": -0.47,
+  "insights": "The Financials sector extended its downward drift today with a modest decline of -0.47%, driven by mounting short-term selling pressure that has now pushed technicals into deeply oversold territory. Both momentum and volume-weighted indicators confirm intense distribution, as the Relative Strength Index (RSI at 28.42) and Money Flow Index (MFI at 19.24) have both breached critical oversold thresholds (below 30 and 20, respectively), signaling aggressive capital outflows over recent sessions. However, with On-Balance Volume (OBV) holding firm at 236.67 million\u2014reflecting steady institutional liquidity despite the pullback\u2014the convergence of extreme RSI and MFI readings suggests that downside momentum is becoming stretched, potentially setting up the sector for a near-term mean-reversion bounce or stabilization phase as selling pressure exhausts itself.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774137600000,
-        null
-      ],
-      [
-        1774224000000,
-        36.76
-      ],
-      [
-        1774310400000,
-        36.88
-      ],
-      [
-        1774396800000,
-        37.69
-      ],
-      [
-        1774483200000,
-        35.35
-      ],
       [
         1774569600000,
         27.48
@@ -747,29 +727,29 @@
       [
         1789689600000,
         36.94
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1774137600000,
+        1789776000000,
         null
       ],
       [
-        1774224000000,
-        49.29
+        1789862400000,
+        null
       ],
       [
-        1774310400000,
-        43.64
+        1789948800000,
+        37.48
       ],
       [
-        1774396800000,
-        49.38
+        1790035200000,
+        29.88
       ],
       [
-        1774483200000,
-        51.28
-      ],
+        1790121600000,
+        28.42
+      ]
+    ],
+    "mfi": [
       [
         1774569600000,
         52.38
@@ -1473,29 +1453,29 @@
       [
         1789689600000,
         21.72
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1774137600000,
+        1789776000000,
         null
       ],
       [
-        1774224000000,
-        -123975848.0
+        1789862400000,
+        null
       ],
       [
-        1774310400000,
-        -80730324.0
+        1789948800000,
+        27.9
       ],
       [
-        1774396800000,
-        -41157665.0
+        1790035200000,
+        25.96
       ],
       [
-        1774483200000,
-        -84332199.0
-      ],
+        1790121600000,
+        19.24
+      ]
+    ],
+    "obv": [
       [
         1774569600000,
         -148008253.0
@@ -2199,6 +2179,26 @@
       [
         1789689600000,
         318781663.0
+      ],
+      [
+        1789776000000,
+        null
+      ],
+      [
+        1789862400000,
+        null
+      ],
+      [
+        1789948800000,
+        348812833.0
+      ],
+      [
+        1790035200000,
+        279248564.0
+      ],
+      [
+        1790121600000,
+        236674655.0
       ]
     ]
   },
@@ -2241,7 +2241,7 @@
     0.0,
     -1.46,
     -2.43,
-    null,
+    -2.36,
     null,
     null,
     null,

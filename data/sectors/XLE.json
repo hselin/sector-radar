@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies involved in the exploration, production, refining, transportation, and marketing of oil, natural gas, and consumable fuels, as well as related equipment and services.",
-    "marketSizeUSD": "6.5T",
+    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, transportation, and equipment servicing of oil, natural gas, and consumable fuels.",
+    "marketSizeUSD": "1.6T",
     "constituentCount": 22,
     "topHoldings": [
       {
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1009,
-  "change_pct": -0.26,
-  "insights": "The Energy sector experienced a minor daily pullback of -0.26%, representing a routine period of consolidation rather than a broader shift in market sentiment. Technical indicators suggest underlying strength remains intact: an RSI of 55.59 and an MFI of 57.50 both hover in healthy neutral-to-positive territory, indicating that momentum and volume-weighted capital flows have not been significantly disrupted by today's slight price decline. Coupled with a robust On-Balance Volume (OBV) of 1.31 billion pointing to sustained historical accumulation, the sector's broader technical structure remains sound, with today's performance likely reflecting modest short-term profit-taking rather than aggressive institutional selling pressure.",
+  "market_weight": 0.0248,
+  "change_pct": 0.96,
+  "insights": "The Energy sector delivered a solid session today, advancing **0.96%**, though technical indicators point to a sector remaining in a broader consolidation phase rather than a full bullish breakout. With the Relative Strength Index (RSI) at **46.04** and the Money Flow Index (MFI) at **43.97**, both momentum and volume-weighted capital flows remain in neutral-to-subdued territory below the 50-mark, suggesting today's gain reflects modest short-term relief rather than aggressive institutional accumulation. However, a robust On-Balance Volume (OBV) baseline of **1.27 billion** indicates that cumulative volume support remains healthy, providing a stable foundation that could prevent significant downside risk while the sector builds upward momentum.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774137600000,
-        null
-      ],
-      [
-        1774224000000,
-        74.2
-      ],
-      [
-        1774310400000,
-        78.29
-      ],
-      [
-        1774396800000,
-        75.42
-      ],
-      [
-        1774483200000,
-        78.42
-      ],
       [
         1774569600000,
         81.13
@@ -747,29 +727,29 @@
       [
         1789689600000,
         55.59
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1774137600000,
+        1789776000000,
         null
       ],
       [
-        1774224000000,
-        59.97
+        1789862400000,
+        null
       ],
       [
-        1774310400000,
-        67.04
+        1789948800000,
+        45.73
       ],
       [
-        1774396800000,
-        60.2
+        1790035200000,
+        42.73
       ],
       [
-        1774483200000,
-        59.8
-      ],
+        1790121600000,
+        46.04
+      ]
+    ],
+    "mfi": [
       [
         1774569600000,
         69.44
@@ -1473,29 +1453,29 @@
       [
         1789689600000,
         57.5
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1774137600000,
+        1789776000000,
         null
       ],
       [
-        1774224000000,
-        1217507414.0
+        1789862400000,
+        null
       ],
       [
-        1774310400000,
-        1266386658.0
+        1789948800000,
+        50.64
       ],
       [
-        1774396800000,
-        1223785657.0
+        1790035200000,
+        43.02
       ],
       [
-        1774483200000,
-        1278527021.0
-      ],
+        1790121600000,
+        43.97
+      ]
+    ],
+    "obv": [
       [
         1774569600000,
         1337747526.0
@@ -2199,6 +2179,26 @@
       [
         1789689600000,
         1312239781.0
+      ],
+      [
+        1789776000000,
+        null
+      ],
+      [
+        1789862400000,
+        null
+      ],
+      [
+        1789948800000,
+        1276172817.0
+      ],
+      [
+        1790035200000,
+        1236928533.0
+      ],
+      [
+        1790121600000,
+        1273408288.0
       ]
     ]
   },
@@ -2241,7 +2241,7 @@
     2.2,
     1.69,
     -1.27,
-    null,
+    -3.02,
     null,
     null,
     null,
