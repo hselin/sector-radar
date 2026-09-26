@@ -1,7 +1,7 @@
 {
   "sector": "Materials",
   "profile": {
-    "description": "The Materials sector encompasses companies involved in the discovery, extraction, and processing of raw materials, including chemicals, metals, mining, and packaging products.",
+    "description": "The Materials sector encompasses companies involved in the discovery, extraction, and processing of raw materials including chemicals, construction materials, metals, mining, and packaging products.",
     "marketSizeUSD": "1.2T",
     "constituentCount": 28,
     "topHoldings": [
@@ -14,28 +14,16 @@
         "symbol": "SHW"
       },
       {
-        "name": "Ecolab Inc.",
-        "symbol": "ECL"
+        "name": "Freeport-McMoRan Inc.",
+        "symbol": "FCX"
       }
     ]
   },
-  "market_weight": 0.0186,
-  "change_pct": -0.49,
-  "insights": "The Materials sector experienced a mild pullback today, declining -0.49% as short-term bearish pressure weighed on the space. Technical metrics reflect this soft momentum, with a Relative Strength Index (RSI) of 40.61 indicating a shift toward buyer exhaustion without yet triggering an oversold rebound signal. This is further supported by a Money Flow Index (MFI) of 35.02, which highlights ongoing capital outflows as investors trim exposure. While an On-Balance Volume (OBV) of 6,901,926 suggests that a solid volume baseline remains intact, the combination of depressed money flow and weak RSI points to potential near-term consolidation or drift until strong institutional demand re-emerges.",
+  "market_weight": 0.0188,
+  "change_pct": 0.24,
+  "insights": "The Materials sector posted a modest gain of 0.24% today, though underlying technical indicators suggest this uptick may lack strong conviction. The Relative Strength Index (RSI) at 38.00 reflects weak price momentum as it drifts toward oversold territory, while a depressed Money Flow Index (MFI) of 25.77 signals substantial capital outflows and persistent institutional selling pressure despite today's positive tick. Although an On-Balance Volume (OBV) of 4.01 million reflects a steady cumulative volume baseline, the divergence between the minor daily price increase and the weak RSI/MFI metrics suggests today's movement is likely short-term consolidation rather than the start of a sustained bullish reversal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774569600000,
-        42.94
-      ],
-      [
-        1774656000000,
-        null
-      ],
-      [
-        1774742400000,
-        null
-      ],
       [
         1774828800000,
         44.43
@@ -747,21 +735,21 @@
       [
         1790121600000,
         40.61
+      ],
+      [
+        1790208000000,
+        36.73
+      ],
+      [
+        1790294400000,
+        38.0
+      ],
+      [
+        1790380800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1774569600000,
-        50.03
-      ],
-      [
-        1774656000000,
-        null
-      ],
-      [
-        1774742400000,
-        null
-      ],
       [
         1774828800000,
         49.19
@@ -1473,21 +1461,21 @@
       [
         1790121600000,
         35.02
+      ],
+      [
+        1790208000000,
+        25.51
+      ],
+      [
+        1790294400000,
+        25.77
+      ],
+      [
+        1790380800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1774569600000,
-        52048890.0
-      ],
-      [
-        1774656000000,
-        null
-      ],
-      [
-        1774742400000,
-        null
-      ],
       [
         1774828800000,
         67679406.0
@@ -2199,6 +2187,18 @@
       [
         1790121600000,
         6901926.0
+      ],
+      [
+        1790208000000,
+        -5904440.0
+      ],
+      [
+        1790294400000,
+        4014466.0
+      ],
+      [
+        1790380800000,
+        null
       ]
     ]
   },
@@ -2241,7 +2241,7 @@
     -1.39,
     -2.84,
     -1.88,
-    0.58,
+    -0.38,
     null,
     null,
     null,

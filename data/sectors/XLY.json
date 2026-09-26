@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses businesses that produce non-essential goods and services whose demand tends to fluctuate based on economic cycles and consumer confidence.",
-    "marketSizeUSD": "10.5T",
+    "description": "The Consumer Discretionary sector includes businesses selling non-essential goods and services, such as retail, automobiles, apparel, and leisure products, that experience demand fluctuations driven by consumer confidence and economic cycles.",
+    "marketSizeUSD": "10.2T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1625,
-  "change_pct": -1.5,
-  "insights": "The Consumer Discretionary sector faced broad-based selling today, slipping 1.50% as institutional distribution continued to weigh on consumer-facing equities. Technical indicators confirm this downward momentum: an RSI of 38.41 highlights deteriorating price strength as the sector trends toward oversold territory, while a Money Flow Index (MFI) at 29.51 has officially crossed below the oversold threshold, signaling aggressive net capital outflows. This liquidity drain is further validated by a sharply negative On-Balance Volume (OBV) of -35.39 million, confirming that higher volume is backing down days and reinforcing the prevailing downtrend. Overall, while the sector\u2019s technical posture remains firmly bearish in the near term, the deeply depressed MFI suggests selling pressure may be overextended, leaving",
+  "market_weight": 0.1599,
+  "change_pct": 0.22,
+  "insights": "The Consumer Discretionary sector posted a modest daily gain of 0.22%, but underlying technicals indicate this uptick is a fragile consolidation rather than a trend reversal. An RSI of 38.64 reflects weak buying momentum hovering near oversold territory, while an MFI of 29.70 signals significant ongoing capital outflows as investors trim exposure. Compounding this, a deeply negative OBV of -34.25 million confirms that overall volume remains heavily weighted toward selling sessions. Taken together, today's slight green finish lacks strong volume backing, suggesting the sector remains under broader distribution pressure and vulnerable to further downside.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774569600000,
-        29.82
-      ],
-      [
-        1774656000000,
-        null
-      ],
       [
         1774742400000,
         null
@@ -747,17 +739,17 @@
       [
         1790121600000,
         38.41
+      ],
+      [
+        1790208000000,
+        37.48
+      ],
+      [
+        1790294400000,
+        38.64
       ]
     ],
     "mfi": [
-      [
-        1774569600000,
-        34.74
-      ],
-      [
-        1774656000000,
-        null
-      ],
       [
         1774742400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1790121600000,
         29.51
+      ],
+      [
+        1790208000000,
+        23.42
+      ],
+      [
+        1790294400000,
+        29.7
       ]
     ],
     "obv": [
-      [
-        1774569600000,
-        -59795652.0
-      ],
-      [
-        1774656000000,
-        null
-      ],
       [
         1774742400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1790121600000,
         -35387114.0
+      ],
+      [
+        1790208000000,
+        -40336889.0
+      ],
+      [
+        1790294400000,
+        -34254028.0
       ]
     ]
   },
@@ -2241,7 +2241,7 @@
     -1.96,
     -1.7,
     -1.71,
-    -0.34,
+    -0.42,
     null,
     null,
     null,

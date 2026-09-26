@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises companies that produce software, hardware, semiconductors, and provide related technology services.",
-    "marketSizeUSD": "15.0T",
+    "description": "The Information Technology sector encompasses companies that develop software, produce hardware and semiconductors, and provide IT services.",
+    "marketSizeUSD": "14.5T",
     "constituentCount": 65,
     "topHoldings": [
       {
-        "name": "Microsoft Corporation",
-        "symbol": "MSFT"
-      },
-      {
         "name": "Apple Inc.",
         "symbol": "AAPL"
+      },
+      {
+        "name": "Microsoft Corporation",
+        "symbol": "MSFT"
       },
       {
         "name": "NVIDIA Corporation",
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2322,
-  "change_pct": -0.47,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.2273,
+  "change_pct": 0.8,
+  "insights": "The Information Technology sector demonstrated solid momentum today, gaining 0.80% amid sustained buying interest. Technical indicators reinforce this positive price action: both the RSI (65.35) and Money Flow Index (67.65) indicate robust bullish strength and healthy capital inflows, remaining in favorable upper-neutral territory just below overbought thresholds. Additionally, a strong On-Balance Volume (OBV) of 443.39 million confirms that today's price appreciation is backed by solid trading volume accumulation rather than low-liquidity noise. Overall, the sector reflects high institutional conviction with room for short-term upside, though traders should monitor for potential overextension as momentum oscillators approach resistance levels.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774569600000,
-        32.1
-      ],
-      [
-        1774656000000,
-        null
-      ],
       [
         1774742400000,
         null
@@ -747,17 +739,17 @@
       [
         1790121600000,
         64.72
+      ],
+      [
+        1790208000000,
+        63.25
+      ],
+      [
+        1790294400000,
+        65.35
       ]
     ],
     "mfi": [
-      [
-        1774569600000,
-        42.15
-      ],
-      [
-        1774656000000,
-        null
-      ],
       [
         1774742400000,
         null
@@ -1473,17 +1465,17 @@
       [
         1790121600000,
         73.75
+      ],
+      [
+        1790208000000,
+        67.27
+      ],
+      [
+        1790294400000,
+        67.65
       ]
     ],
     "obv": [
-      [
-        1774569600000,
-        240801073.0
-      ],
-      [
-        1774656000000,
-        null
-      ],
       [
         1774742400000,
         null
@@ -2199,6 +2191,14 @@
       [
         1790121600000,
         443745156.0
+      ],
+      [
+        1790208000000,
+        437420857.0
+      ],
+      [
+        1790294400000,
+        443389038.0
       ]
     ]
   },
@@ -2241,7 +2241,7 @@
     0.86,
     0.21,
     1.03,
-    3.03,
+    3.52,
     null,
     null,
     null,
