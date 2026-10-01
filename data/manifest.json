@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T23:44:35.465266Z",
+  "lastUpdated": "2026-10-01T00:33:46.021386Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,30 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market posted a modest daily gain of 0.54%, reflecting a stable, constructively bullish sentiment across broader equities. Technical indicators support this steady price action, with a Relative Strength Index (RSI) of 55.89 pointing to positive momentum that remains comfortably below overbought thresholds. However, a lower Money Flow Index (MFI) of 33.71 introduces a subtle divergence, indicating that capital inflows and buying volume were somewhat muted despite the rise in asset prices. Coupled with a solid On-Balance Volume (OBV) baseline of 748,651,367, the overall technical picture suggests a market characterized by cautious optimism\u2014buyers maintain control, but stronger volume conviction will be required to sustain a broader upward trend.",
-    "change_pct": 0.54,
+    "commentary": "The stock market closed modestly lower today, with the index slipping **-0.18%** in a session characterized by tight consolidation and market indecision. Technical indicators paint a picture of neutral momentum masking subtle selling pressure: the Relative Strength Index (RSI) at **49.24** sits virtually at the mid-line, pointing to an equilibrium between buyers and sellers, while the Money Flow Index (MFI) at **35.85** indicates underlying capital outflows and weak buying enthusiasm. Meanwhile, a solid On-Balance Volume (OBV) of **669,046,367** demonstrates healthy institutional participation, though the lower MFI suggests this volume is leaning toward distribution rather than aggressive accumulation. Overall, these figures suggest a cautious, \"wait-and-see\" market sentiment, where neutral top-line price action is underpinned by a slight bearish bias in money flow.",
+    "change_pct": -0.18,
     "technicalIndicators": {
       "rsi": [
-        [
-          1774828800000,
-          27.25
-        ],
-        [
-          1774915200000,
-          42.24
-        ],
-        [
-          1775001600000,
-          45.47
-        ],
-        [
-          1775088000000,
-          45.86
-        ],
-        [
-          1775174400000,
-          null
-        ],
         [
           1775260800000,
           null
@@ -747,29 +727,29 @@
         [
           1790380800000,
           null
+        ],
+        [
+          1790467200000,
+          null
+        ],
+        [
+          1790553600000,
+          50.5
+        ],
+        [
+          1790640000000,
+          49.24
+        ],
+        [
+          1790726400000,
+          49.24
+        ],
+        [
+          1790812800000,
+          null
         ]
       ],
       "mfi": [
-        [
-          1774828800000,
-          27.36
-        ],
-        [
-          1774915200000,
-          36.44
-        ],
-        [
-          1775001600000,
-          43.71
-        ],
-        [
-          1775088000000,
-          44.24
-        ],
-        [
-          1775174400000,
-          null
-        ],
         [
           1775260800000,
           null
@@ -1473,29 +1453,29 @@
         [
           1790380800000,
           null
+        ],
+        [
+          1790467200000,
+          null
+        ],
+        [
+          1790553600000,
+          33.76
+        ],
+        [
+          1790640000000,
+          33.51
+        ],
+        [
+          1790726400000,
+          35.85
+        ],
+        [
+          1790812800000,
+          null
         ]
       ],
       "obv": [
-        [
-          1774828800000,
-          236078619.0
-        ],
-        [
-          1774915200000,
-          387255945.0
-        ],
-        [
-          1775001600000,
-          482639021.0
-        ],
-        [
-          1775088000000,
-          550623082.0
-        ],
-        [
-          1775174400000,
-          null
-        ],
         [
           1775260800000,
           null
@@ -2199,6 +2179,26 @@
         [
           1790380800000,
           null
+        ],
+        [
+          1790467200000,
+          null
+        ],
+        [
+          1790553600000,
+          705956867.0
+        ],
+        [
+          1790640000000,
+          669046367.0
+        ],
+        [
+          1790726400000,
+          669046367.0
+        ],
+        [
+          1790812800000,
+          null
         ]
       ]
     },
@@ -2242,7 +2242,7 @@
       -0.77,
       -0.34,
       1.27,
-      null,
+      -0.93,
       null,
       null,
       null,

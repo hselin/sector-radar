@@ -1,7 +1,7 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that produce and distribute essential non-cyclical goods, such as food, beverages, household items, and personal care products.",
+    "description": "The Consumer Staples sector comprises companies that produce and distribute essential everyday goods, such as food, beverages, household goods, and personal care products.",
     "marketSizeUSD": "4.5T",
     "constituentCount": 38,
     "topHoldings": [
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0691,
-  "change_pct": 0.44,
-  "insights": "The Consumer Staples sector posted a modest daily gain of 0.44%, offering a slight reprieve amidst broader underlying weakness. Technical metrics suggest today\u2019s positive move is a short-term relief bounce from near-oversold conditions, as highlighted by an RSI of 39.16 and an MFI of 28.19; the sub-30 MFI in particular underscores that capital outflows and weak volume-weighted momentum have dominated recent sessions. While an On-Balance Volume (OBV) of 24.52 million establishes a stable baseline for cumulative volume, the depressed momentum indicators suggest today's uptick reflects temporary price stabilization rather than a confirmed bullish trend reversal, requiring stronger institutional buying to sustain further upside.",
+  "market_weight": 0.0674,
+  "change_pct": -1.53,
+  "insights": "The Consumer Staples sector faced notable headwinds today, falling 1.53% as broad selling pressure pushed key technical indicators toward oversold territory. The Money Flow Index (MFI) at 29.96 has dipped below the critical 30 threshold, confirming that the day\u2019s decline was driven by significant capital outflows rather than low-volume drift. This bearish sentiment is reinforced by a Relative Strength Index (RSI) of 32.91, reflecting strong downward momentum that is rapidly approaching exhaustion levels. While a cumulative On-Balance Volume (OBV) of 12.7 million shows sustained market participation during this retreat, the alignment of an oversold MFI and a depressed RSI suggests that while short-term distribution remains aggressive, the sector may be nearing a technical floor ripe for a mean-reversion bounce.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        36.57
-      ],
-      [
-        1774915200000,
-        37.43
-      ],
-      [
-        1775001600000,
-        34.78
-      ],
-      [
-        1775088000000,
-        38.64
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -747,33 +723,33 @@
       [
         1790294400000,
         39.16
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        40.85
+      ],
+      [
+        1790640000000,
+        38.59
+      ],
+      [
+        1790726400000,
+        32.91
+      ],
+      [
+        1790812800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        34.24
-      ],
-      [
-        1774915200000,
-        34.22
-      ],
-      [
-        1775001600000,
-        32.65
-      ],
-      [
-        1775088000000,
-        34.5
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1790294400000,
         28.19
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        37.53
+      ],
+      [
+        1790640000000,
+        37.03
+      ],
+      [
+        1790726400000,
+        29.96
+      ],
+      [
+        1790812800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        90153623.0
-      ],
-      [
-        1774915200000,
-        109307952.0
-      ],
-      [
-        1775001600000,
-        79706679.0
-      ],
-      [
-        1775088000000,
-        100382757.0
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1790294400000,
         24516603.0
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        38521036.0
+      ],
+      [
+        1790640000000,
+        24085223.0
+      ],
+      [
+        1790726400000,
+        12709182.0
+      ],
+      [
+        1790812800000,
+        null
       ]
     ]
   },
@@ -2242,7 +2242,7 @@
     -1.42,
     -0.7,
     -0.89,
-    null,
+    -1.78,
     null,
     null,
     null,

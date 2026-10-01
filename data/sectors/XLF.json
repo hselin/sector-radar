@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies involved in banking, mortgage finance, consumer finance, investment banking, asset management, insurance, and financial services.",
-    "marketSizeUSD": "9.2T",
+    "description": "The Financials sector encompasses companies involved in banking, investment management, insurance, consumer finance, and financial technology.",
+    "marketSizeUSD": "9.5T",
     "constituentCount": 72,
     "topHoldings": [
       {
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1413,
-  "change_pct": 0.57,
-  "insights": "The Financials sector posted a modest gain of 0.57% today, attempting a minor relief rally from heavily depressed levels. Despite today's positive close, technical indicators point to an underlying weakness: the Relative Strength Index (RSI) at 32.90 lingers near oversold territory, while a severely depressed Money Flow Index (MFI) of 18.32 highlights significant capital outflows in recent sessions. However, with On-Balance Volume (OBV) holding at a solid 237 million, today\u2019s uptick likely reflects tactical value-hunting by investors stepping in at key technical support rather than a definitive bullish trend reversal.",
+  "market_weight": 0.1422,
+  "change_pct": -1.13,
+  "insights": "The Financials sector closed down 1.13% today, as strong selling momentum pushed technical indicators into deeply oversold territory. A Relative Strength Index (RSI) of 24.52 paired with a Money Flow Index (MFI) of 16.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        34.45
-      ],
-      [
-        1774915200000,
-        44.92
-      ],
-      [
-        1775001600000,
-        45.56
-      ],
-      [
-        1775088000000,
-        46.44
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -747,33 +723,33 @@
       [
         1790294400000,
         32.9
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        28.78
+      ],
+      [
+        1790640000000,
+        27.75
+      ],
+      [
+        1790726400000,
+        24.52
+      ],
+      [
+        1790812800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        51.4
-      ],
-      [
-        1774915200000,
-        60.14
-      ],
-      [
-        1775001600000,
-        68.28
-      ],
-      [
-        1775088000000,
-        63.0
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1790294400000,
         18.32
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        18.33
+      ],
+      [
+        1790640000000,
+        17.53
+      ],
+      [
+        1790726400000,
+        16.67
+      ],
+      [
+        1790812800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        -90910564.0
-      ],
-      [
-        1774915200000,
-        -6007402.0
-      ],
-      [
-        1775001600000,
-        55345117.0
-      ],
-      [
-        1775088000000,
-        94631198.0
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1790294400000,
         237043384.0
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        197335479.0
+      ],
+      [
+        1790640000000,
+        144311075.0
+      ],
+      [
+        1790726400000,
+        88686714.0
+      ],
+      [
+        1790812800000,
+        null
       ]
     ]
   },
@@ -2242,7 +2242,7 @@
     -1.46,
     -2.43,
     -1.83,
-    null,
+    -2.63,
     null,
     null,
     null,

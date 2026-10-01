@@ -1,8 +1,8 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in the manufacture and distribution of capital goods, the provision of commercial and professional services, and the supply of transportation services.",
-    "marketSizeUSD": "5.2T",
+    "description": "The Industrials sector encompasses companies involved in capital goods, commercial and professional services, and transportation.",
+    "marketSizeUSD": "5.5T",
     "constituentCount": 78,
     "topHoldings": [
       {
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0799,
-  "change_pct": 0.95,
-  "insights": "The Industrials sector demonstrated resilience today, advancing 0.95% in a likely technical rebound following recent selling pressure. Both the Relative Strength Index (RSI) at 39.91 and the Money Flow Index (MFI) at 40.42 hover just above oversold territory, indicating that while recent momentum has favored the bears, selling pressure is attenuating and paving the way for short-term relief. Supported by a solid On-Balance Volume (OBV) of 166.63 million, today\u2019s uptick reflects stabilizing capital flows and quiet institutional accumulation, suggesting the sector may be forming a temporary floor as it attempts a mean-reversion move.",
+  "market_weight": 0.0823,
+  "change_pct": -1.27,
+  "insights": "The Industrials sector experienced notable downward pressure today, dropping 1.27% as short-term bearish sentiment took hold. Technical indicators align with this weakness, highlighted by the Relative Strength Index (RSI) sinking to 32.35\u2014nearing oversold territory and signaling aggressive downside momentum that could soon trigger a technical bounce. However, the Money Flow Index (MFI) remains relatively stable at a neutral 46.21, indicating that capital is not fleeing the sector en masse despite today's price decline. Backed by a substantial On-Balance Volume (OBV) of 158.0M, today's drop appears to be a momentum-driven pullback rather than a structural distribution event, suggesting the underlying volume trend remains intact as the sector tests lower support levels.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        28.46
-      ],
-      [
-        1774915200000,
-        41.83
-      ],
-      [
-        1775001600000,
-        47.41
-      ],
-      [
-        1775088000000,
-        46.24
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -747,33 +723,33 @@
       [
         1790294400000,
         39.91
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        35.8
+      ],
+      [
+        1790640000000,
+        37.27
+      ],
+      [
+        1790726400000,
+        32.35
+      ],
+      [
+        1790812800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        26.53
-      ],
-      [
-        1774915200000,
-        33.88
-      ],
-      [
-        1775001600000,
-        41.69
-      ],
-      [
-        1775088000000,
-        42.72
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1790294400000,
         40.42
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        39.92
+      ],
+      [
+        1790640000000,
+        46.05
+      ],
+      [
+        1790726400000,
+        46.21
+      ],
+      [
+        1790812800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        158959230.0
-      ],
-      [
-        1774915200000,
-        174743402.0
-      ],
-      [
-        1775001600000,
-        191177568.0
-      ],
-      [
-        1775088000000,
-        180262512.0
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1790294400000,
         166632155.0
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        158910979.0
+      ],
+      [
+        1790640000000,
+        165498507.0
+      ],
+      [
+        1790726400000,
+        158004343.0
+      ],
+      [
+        1790812800000,
+        null
       ]
     ]
   },
@@ -2242,7 +2242,7 @@
     -1.65,
     -1.52,
     0.4,
-    null,
+    -2.02,
     null,
     null,
     null,

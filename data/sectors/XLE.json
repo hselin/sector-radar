@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, transportation, and equipment servicing of oil, natural gas, and consumable fuels.",
-    "marketSizeUSD": "1.6T",
-    "constituentCount": 22,
+    "description": "The Energy sector comprises companies involved in the exploration, production, refining, transportation, and equipment services of oil, natural gas, and consumable fuels.",
+    "marketSizeUSD": "1.7T",
+    "constituentCount": 23,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0246,
-  "change_pct": -0.89,
-  "insights": "The Energy sector experienced a modest pullback today, closing down -0.89% as short-term momentum cooled. Technical indicators reflect this softening sentiment, with both the Relative Strength Index (RSI) at 44.55 and the Money Flow Index (MFI) at 44.48 settling into lower-neutral territory; this combination signals moderate capital outflows and fading buying pressure without yet triggering oversold conditions. Meanwhile, an On-Balance Volume (OBV) of approximately 1.27 billion suggests that underlying, long-term volume distribution remains relatively stable despite the daily drop. Overall, today\u2019s price action points toward a controlled consolidation rather than a panicked sell-off, though traders should watch for potential support retests if the momentum indicators continue to drift toward the 30-level threshold.",
+  "market_weight": 0.0254,
+  "change_pct": -0.06,
+  "insights": "Commentary could not be generated due to a persistent network error.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        75.25
-      ],
-      [
-        1774915200000,
-        68.97
-      ],
-      [
-        1775001600000,
-        53.29
-      ],
-      [
-        1775088000000,
-        54.65
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -747,33 +723,33 @@
       [
         1790294400000,
         44.55
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        44.92
+      ],
+      [
+        1790640000000,
+        42.09
+      ],
+      [
+        1790726400000,
+        41.89
+      ],
+      [
+        1790812800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        79.27
-      ],
-      [
-        1774915200000,
-        68.41
-      ],
-      [
-        1775001600000,
-        57.99
-      ],
-      [
-        1775088000000,
-        63.74
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1790294400000,
         44.48
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        45.08
+      ],
+      [
+        1790640000000,
+        39.67
+      ],
+      [
+        1790726400000,
+        45.47
+      ],
+      [
+        1790812800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1774742400000,
-        null
-      ],
-      [
-        1774828800000,
-        1288491510.0
-      ],
-      [
-        1774915200000,
-        1193989078.0
-      ],
-      [
-        1775001600000,
-        1097628853.0
-      ],
-      [
-        1775088000000,
-        1156431806.0
-      ],
-      [
-        1775174400000,
-        null
-      ],
       [
         1775260800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1790294400000,
         1273681523.0
+      ],
+      [
+        1790380800000,
+        null
+      ],
+      [
+        1790467200000,
+        null
+      ],
+      [
+        1790553600000,
+        1308250450.0
+      ],
+      [
+        1790640000000,
+        1277314258.0
+      ],
+      [
+        1790726400000,
+        1253895785.0
+      ],
+      [
+        1790812800000,
+        null
       ]
     ]
   },
@@ -2242,7 +2242,7 @@
     1.69,
     -1.27,
     -3.53,
-    null,
+    -0.87,
     null,
     null,
     null,
