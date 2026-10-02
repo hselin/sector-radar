@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies that develop software, produce hardware and semiconductors, and provide IT services.",
-    "marketSizeUSD": "14.5T",
+    "description": "The Information Technology sector encompasses companies involved in software development, hardware manufacturing, semiconductor production, and technology services.",
+    "marketSizeUSD": "16.5T",
     "constituentCount": 65,
     "topHoldings": [
       {
-        "name": "Apple Inc.",
-        "symbol": "AAPL"
-      },
-      {
         "name": "Microsoft Corporation",
         "symbol": "MSFT"
+      },
+      {
+        "name": "Apple Inc.",
+        "symbol": "AAPL"
       },
       {
         "name": "NVIDIA Corporation",
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2171,
-  "change_pct": 0.64,
-  "insights": "The Information Technology sector posted a solid 0.64% gain today, backed by strong underlying momentum and robust liquidity. A Relative Strength Index (RSI) of 63.05 reflects healthy bullish sentiment with remaining room for upside, while a massive On-Balance Volume (OBV) of 439.35 million confirms substantial volume supporting the upward trajectory. However, with the Money Flow Index (MFI) pushing into overbought territory at 72.80 due to aggressive capital inflows, traders should monitor for potential short-term consolidation even as the broader positive trend remains intact.",
+  "market_weight": 0.2388,
+  "change_pct": 1.05,
+  "insights": "The Information Technology sector delivered a strong performance today, advancing 1.05% backed by robust market participation and favorable technical momentum. An RSI of 66.11 reflects healthy bullish strength without being overextended, while an MFI of 74.04 indicates significant institutional capital inflows, signaling intense buying pressure that is entering overbought territory. Furthermore, the elevated On-Balance Volume (OBV) at 450.2 million confirms that today's price appreciation is well-supported by high trading volume rather than low-liquidity fluctuations. While the high MFI suggests the sector may encounter near-term resistance or minor consolidation, the overall technical alignment points to sustained underlying strength in the tech space.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775260800000,
-        null
-      ],
       [
         1775347200000,
         null
@@ -746,14 +742,14 @@
       ],
       [
         1790812800000,
+        66.11
+      ],
+      [
+        1790899200000,
         null
       ]
     ],
     "mfi": [
-      [
-        1775260800000,
-        null
-      ],
       [
         1775347200000,
         null
@@ -1472,14 +1468,14 @@
       ],
       [
         1790812800000,
+        74.04
+      ],
+      [
+        1790899200000,
         null
       ]
     ],
     "obv": [
-      [
-        1775260800000,
-        null
-      ],
       [
         1775347200000,
         null
@@ -2198,6 +2194,10 @@
       ],
       [
         1790812800000,
+        450230766.0
+      ],
+      [
+        1790899200000,
         null
       ]
     ]
@@ -2242,7 +2242,7 @@
     0.21,
     1.03,
     3.52,
-    -0.26,
+    0.78,
     null,
     null,
     null,

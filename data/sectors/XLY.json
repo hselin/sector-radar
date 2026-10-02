@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector includes businesses selling non-essential goods and services, such as retail, automobiles, apparel, and leisure products, that experience demand fluctuations driven by consumer confidence and economic cycles.",
-    "marketSizeUSD": "10.2T",
+    "description": "The Consumer Discretionary sector comprises businesses that manufacture and sell non-essential goods and services, such as e-commerce, automobiles, apparel, and leisure products.",
+    "marketSizeUSD": "10.5T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1527,
-  "change_pct": -0.28,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.152,
+  "change_pct": -0.03,
+  "insights": "The Consumer Discretionary sector traded essentially flat today, edging down by a minimal -0.03%, yet underlying technical indicators point to a sector under sustained distribution. A depressed Relative Strength Index (RSI) of 33.98 alongside a Money Flow Index (MFI) of 24.57 indicates that the sector is approaching deeply oversold conditions, driven by weak buying volume and deteriorating momentum. Compounded by a heavily negative On-Balance Volume (OBV) of -46.36 million, the technical backdrop reveals that despite today's muted price movement, persistent capital outflows and institutional selling bias continue to overhang the sector, suggesting any near-term upside may be limited to a brief mean-reversion bounce rather than a fundamental trend reversal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775260800000,
-        null
-      ],
       [
         1775347200000,
         null
@@ -746,14 +742,14 @@
       ],
       [
         1790812800000,
+        33.98
+      ],
+      [
+        1790899200000,
         null
       ]
     ],
     "mfi": [
-      [
-        1775260800000,
-        null
-      ],
       [
         1775347200000,
         null
@@ -1472,14 +1468,14 @@
       ],
       [
         1790812800000,
+        24.57
+      ],
+      [
+        1790899200000,
         null
       ]
     ],
     "obv": [
-      [
-        1775260800000,
-        null
-      ],
       [
         1775347200000,
         null
@@ -2198,6 +2194,10 @@
       ],
       [
         1790812800000,
+        -46360898.0
+      ],
+      [
+        1790899200000,
         null
       ]
     ]
@@ -2242,7 +2242,7 @@
     -1.7,
     -1.71,
     -0.42,
-    -1.56,
+    -1.58,
     null,
     null,
     null,

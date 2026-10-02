@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-01T00:33:46.021386Z",
+  "lastUpdated": "2026-10-02T00:44:26.355105Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market closed modestly lower today, with the index slipping **-0.18%** in a session characterized by tight consolidation and market indecision. Technical indicators paint a picture of neutral momentum masking subtle selling pressure: the Relative Strength Index (RSI) at **49.24** sits virtually at the mid-line, pointing to an equilibrium between buyers and sellers, while the Money Flow Index (MFI) at **35.85** indicates underlying capital outflows and weak buying enthusiasm. Meanwhile, a solid On-Balance Volume (OBV) of **669,046,367** demonstrates healthy institutional participation, though the lower MFI suggests this volume is leaning toward distribution rather than aggressive accumulation. Overall, these figures suggest a cautious, \"wait-and-see\" market sentiment, where neutral top-line price action is underpinned by a slight bearish bias in money flow.",
-    "change_pct": -0.18,
+    "commentary": "The stock market finished essentially flat today, edging down a marginal -0.03% in a session defined by consolidation and low volatility. Technical indicators point to a neutral market holding its breath: a Relative Strength Index (RSI) of 49.24 sits directly at the mid-line, signaling balanced momentum without clear bull or bear conviction. However, a Money Flow Index (MFI) of 30.66 reveals lingering caution, as it approaches oversold territory and indicates weak buying volume relative to recent price action. Coupled with a stable On-Balance Volume (OBV) at roughly 669 million, the data suggests that while institutional investors are exercising restraint and holding off on aggressive capital deployment, there is no widespread panic selling. Overall, the market is displaying a wait-and-see sentiment, searching for a distinct catalyst to drive its next directional move.",
+    "change_pct": -0.03,
     "technicalIndicators": {
       "rsi": [
-        [
-          1775260800000,
-          null
-        ],
         [
           1775347200000,
           null
@@ -746,14 +742,14 @@
         ],
         [
           1790812800000,
+          49.24
+        ],
+        [
+          1790899200000,
           null
         ]
       ],
       "mfi": [
-        [
-          1775260800000,
-          null
-        ],
         [
           1775347200000,
           null
@@ -1472,14 +1468,14 @@
         ],
         [
           1790812800000,
+          30.66
+        ],
+        [
+          1790899200000,
           null
         ]
       ],
       "obv": [
-        [
-          1775260800000,
-          null
-        ],
         [
           1775347200000,
           null
@@ -2198,6 +2194,10 @@
         ],
         [
           1790812800000,
+          669046367.0
+        ],
+        [
+          1790899200000,
           null
         ]
       ]
@@ -2242,7 +2242,7 @@
       -0.77,
       -0.34,
       1.27,
-      -0.93,
+      -0.95,
       null,
       null,
       null,
