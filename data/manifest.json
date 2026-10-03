@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-10-02T00:44:26.355105Z",
+  "lastUpdated": "2026-10-03T00:25:34.931152Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a market-capitalization-weighted index tracking the performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "50.0T",
+      "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest companies listed on stock exchanges in the United States.",
+      "marketSizeUSD": "45.5T",
       "constituentCount": 503,
       "topHoldings": [
         {
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market finished essentially flat today, edging down a marginal -0.03% in a session defined by consolidation and low volatility. Technical indicators point to a neutral market holding its breath: a Relative Strength Index (RSI) of 49.24 sits directly at the mid-line, signaling balanced momentum without clear bull or bear conviction. However, a Money Flow Index (MFI) of 30.66 reveals lingering caution, as it approaches oversold territory and indicates weak buying volume relative to recent price action. Coupled with a stable On-Balance Volume (OBV) at roughly 669 million, the data suggests that while institutional investors are exercising restraint and holding off on aggressive capital deployment, there is no widespread panic selling. Overall, the market is displaying a wait-and-see sentiment, searching for a distinct catalyst to drive its next directional move.",
-    "change_pct": -0.03,
+    "commentary": "The broader stock market posted a modest gain today, closing up 0.74% amidst a backdrop of cautious optimism. Technical indicators point to balanced price momentum, highlighted by a Relative Strength Index (RSI) of 54.86, which places the market comfortably in neutral territory\u2014neither overbought nor oversold. However, a lower Money Flow Index (MFI) of 38.68 signals that underlying buying volume remains somewhat muted, suggesting a slight divergence where price appreciation has not yet triggered aggressive institutional capital inflows. Meanwhile, a robust On-Balance Volume (OBV) of nearly 715 million demonstrates a solid cumulative volume base that supports overall market stability. In summary, today's performance reflects stable, positive momentum, though the subdued money flow advises a watchful eye for sustained buying pressure before confirming a broader bullish push.",
+    "change_pct": 0.74,
     "technicalIndicators": {
       "rsi": [
-        [
-          1775347200000,
-          null
-        ],
         [
           1775433600000,
           47.98
@@ -746,14 +742,14 @@
         ],
         [
           1790899200000,
+          54.86
+        ],
+        [
+          1790985600000,
           null
         ]
       ],
       "mfi": [
-        [
-          1775347200000,
-          null
-        ],
         [
           1775433600000,
           42.23
@@ -1472,14 +1468,14 @@
         ],
         [
           1790899200000,
+          38.68
+        ],
+        [
+          1790985600000,
           null
         ]
       ],
       "obv": [
-        [
-          1775347200000,
-          null
-        ],
         [
           1775433600000,
           585898400.0
@@ -2198,6 +2194,10 @@
         ],
         [
           1790899200000,
+          714903854.0
+        ],
+        [
+          1790985600000,
           null
         ]
       ]
@@ -2242,7 +2242,7 @@
       -0.77,
       -0.34,
       1.27,
-      -0.95,
+      -0.22,
       null,
       null,
       null,
