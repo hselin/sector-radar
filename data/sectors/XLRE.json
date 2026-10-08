@@ -1,8 +1,8 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector comprises companies engaged in real estate development, management, and operations, as well as Equity Real Estate Investment Trusts (REITs).",
-    "marketSizeUSD": "1.5T",
+    "description": "The Real Estate sector includes equity Real Estate Investment Trusts (REITs) as well as companies engaged in real estate management and development services.",
+    "marketSizeUSD": "1.3T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0217,
-  "change_pct": 0.32,
-  "insights": "The Real Estate sector posted a modest gain of 0.32% today, hinting at early stabilization following a sustained period of downward pressure. Deeply depressed momentum indicators\u2014specifically an RSI of 21.71 and an MFI of 17.42\u2014place the sector firmly in oversold territory, signaling potential seller exhaustion and an increasing likelihood of a near-term technical bounce. Supported by a solid On-Balance Volume (OBV) of 54,222,553, cumulative volume flows remain intact, suggesting that while broader macro headwinds persist, the sector's severely discounted technicals are beginning to offer an attractive risk-reward setup for tactical buyers looking for mean-reversion.",
+  "market_weight": 0.018,
+  "change_pct": -1.29,
+  "insights": "The Real Estate sector experienced a notable pullback today, falling **-1.29%** amidst persistent selling pressure. Technical indicators point to an increasingly acute momentum drain, with the Relative Strength Index (RSI) dropping to **26.28** and the Money Flow Index (MFI) falling to **18.41**. Both metrics have breached key thresholds (30 for RSI, 20 for MFI), signaling that the sector has entered deeply oversold territory driven by aggressive short-term capital outflows. While an On-Balance Volume (OBV) of **43,308,806** reflects sustained volume participating in this downside trend, the severely depressed RSI and MFI readings suggest the current selling phase may be reaching an extreme, potentially setting the stage for a short-term technical relief bounce or consolidation as selling pressure abates.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775433600000,
-        52.03
-      ],
-      [
-        1775520000000,
-        51.51
-      ],
-      [
-        1775606400000,
-        59.4
-      ],
-      [
-        1775692800000,
-        62.08
-      ],
-      [
-        1775779200000,
-        62.89
-      ],
       [
         1775865600000,
         null
@@ -747,29 +727,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        20.78
+      ],
+      [
+        1791244800000,
+        30.6
+      ],
+      [
+        1791331200000,
+        26.28
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1775433600000,
-        38.69
-      ],
-      [
-        1775520000000,
-        34.73
-      ],
-      [
-        1775606400000,
-        39.09
-      ],
-      [
-        1775692800000,
-        44.28
-      ],
-      [
-        1775779200000,
-        52.03
-      ],
       [
         1775865600000,
         null
@@ -1473,29 +1453,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        16.62
+      ],
+      [
+        1791244800000,
+        24.13
+      ],
+      [
+        1791331200000,
+        18.41
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "obv": [
-      [
-        1775433600000,
-        129448837.0
-      ],
-      [
-        1775520000000,
-        124120866.0
-      ],
-      [
-        1775606400000,
-        129884176.0
-      ],
-      [
-        1775692800000,
-        135004882.0
-      ],
-      [
-        1775779200000,
-        139963098.0
-      ],
       [
         1775865600000,
         null
@@ -2199,6 +2179,26 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        45116753.0
+      ],
+      [
+        1791244800000,
+        52501708.0
+      ],
+      [
+        1791331200000,
+        43308806.0
+      ],
+      [
+        1791417600000,
+        null
       ]
     ]
   },
@@ -2243,7 +2243,7 @@
     -2.05,
     -2.28,
     -1.8,
-    null,
+    -0.59,
     null,
     null,
     null,

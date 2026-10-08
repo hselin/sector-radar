@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in capital goods, commercial and professional services, and transportation.",
-    "marketSizeUSD": "5.5T",
+    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing commercial and professional services, and offering transportation equipment and services.",
+    "marketSizeUSD": "6.5T",
     "constituentCount": 78,
     "topHoldings": [
       {
-        "name": "General Electric Company",
+        "name": "GE Aerospace",
         "symbol": "GE"
       },
       {
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0796,
-  "change_pct": 0.78,
-  "insights": "The Industrials sector demonstrated modest strength today, closing up 0.78% in a sign of short-term price stabilization. From a technical standpoint, the Relative Strength Index (RSI) at 43.77 indicates that the sector is recovering from recent bearish momentum without reaching overbought territory, leaving adequate headroom for further gains. Meanwhile, a Money Flow Index (MFI) of 54.12 reflects balanced buying and selling pressure, signaling steady institutional capital participation, while an On-Balance Volume (OBV) of 173.44 million highlights a stable foundation of trading volume supporting today's modest rally. Overall, the technical profile suggests a healthy, volume-backed consolidation rather than an aggressive trend reversal.",
+  "market_weight": 0.0902,
+  "change_pct": -2.18,
+  "insights": "The Industrials sector faced notable downward pressure today, dropping 2.18% as short-term selling momentum accelerated. This sharp pullback is reflected in the RSI falling to 39.55, positioning the sector near oversold territory and signaling a clear weakening in immediate price strength. However, broader underlying indicators suggest a more nuanced picture: the Money Flow Index (MFI) remains resilient in neutral territory at 55.79, and a strong On-Balance Volume (OBV) of 177.54 million indicates that broader institutional accumulation remains largely intact despite the day's sell-off. Overall, while today's price action highlights short-term bearish sentiment, the underlying volume dynamics hint at potential structural support holding beneath the surface.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775433600000,
-        48.0
-      ],
-      [
-        1775520000000,
-        47.34
-      ],
-      [
-        1775606400000,
-        58.67
-      ],
-      [
-        1775692800000,
-        61.22
-      ],
-      [
-        1775779200000,
-        59.7
-      ],
       [
         1775865600000,
         null
@@ -747,29 +727,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        44.3
+      ],
+      [
+        1791244800000,
+        49.39
+      ],
+      [
+        1791331200000,
+        39.55
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1775433600000,
-        41.54
-      ],
-      [
-        1775520000000,
-        35.6
-      ],
-      [
-        1775606400000,
-        41.86
-      ],
-      [
-        1775692800000,
-        48.47
-      ],
-      [
-        1775779200000,
-        54.72
-      ],
       [
         1775865600000,
         null
@@ -1473,29 +1453,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        55.35
+      ],
+      [
+        1791244800000,
+        62.66
+      ],
+      [
+        1791331200000,
+        55.79
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "obv": [
-      [
-        1775433600000,
-        187365602.0
-      ],
-      [
-        1775520000000,
-        177521263.0
-      ],
-      [
-        1775606400000,
-        190176924.0
-      ],
-      [
-        1775692800000,
-        198325527.0
-      ],
-      [
-        1775779200000,
-        193170933.0
-      ],
       [
         1775865600000,
         null
@@ -2199,6 +2179,26 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        179845206.0
+      ],
+      [
+        1791244800000,
+        185691506.0
+      ],
+      [
+        1791331200000,
+        177541556.0
+      ],
+      [
+        1791417600000,
+        null
       ]
     ]
   },
@@ -2243,7 +2243,7 @@
     -1.52,
     0.4,
     -0.28,
-    null,
+    -1.24,
     null,
     null,
     null,

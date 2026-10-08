@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies involved in banking, investment management, insurance, consumer finance, and financial technology.",
-    "marketSizeUSD": "9.5T",
+    "description": "The Financials sector encompasses companies involved in banking, investment services, insurance, consumer finance, and payment processing.",
+    "marketSizeUSD": "9.8T",
     "constituentCount": 72,
     "topHoldings": [
       {
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1375,
-  "change_pct": 0.06,
-  "insights": "The Financials sector closed virtually flat today with a marginal gain of 0.06%, signaling a potential pause in recent downward pressure. Technical indicators point to acute selling exhaustion, with both the Relative Strength Index (RSI) at 25.93 and the Money Flow Index (MFI) at 15.72 sitting deep in oversold territory, well below their typical thresholds of 30 and 20. While the On-Balance Volume (OBV) at 159.86 million reflects a substantial cumulative volume base following recent institutional distribution, the severely depressed RSI and MFI metrics combined with today's price stabilization suggest that capital outflows are subsiding, increasing the likelihood of a short-term relief bounce or consolidation phase.",
+  "market_weight": 0.1359,
+  "change_pct": -0.48,
+  "insights": "The Financials sector experienced a modest pullback today, declining **-0.48%** as near-term selling pressure continued to weigh on sentiment. Technical indicators reflect a sector edging close to oversold conditions, with the Relative Strength Index (**RSI at 32.07**) and the Money Flow Index (**MFI at 25.85**) both signaling depressed momentum and persistent institutional capital outflows. Furthermore, an On-Balance Volume (**OBV**) of **174,548,215** confirms that recent downside price action is supported by underlying trading activity rather than low-volume noise. While the sector remains in a firm short-term downtrend, its proximity to the oversold threshold (<30) across both price- and volume-weighted oscillators suggests that selling intensity may soon exhaust itself, potentially opening the door for a technical stabilization or mean-reversion bounce.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775433600000,
-        49.81
-      ],
-      [
-        1775520000000,
-        49.81
-      ],
-      [
-        1775606400000,
-        60.65
-      ],
-      [
-        1775692800000,
-        61.53
-      ],
-      [
-        1775779200000,
-        55.74
-      ],
       [
         1775865600000,
         null
@@ -747,29 +727,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        32.1
+      ],
+      [
+        1791244800000,
+        34.08
+      ],
+      [
+        1791331200000,
+        32.07
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1775433600000,
-        62.14
-      ],
-      [
-        1775520000000,
-        61.36
-      ],
-      [
-        1775606400000,
-        67.83
-      ],
-      [
-        1775692800000,
-        74.37
-      ],
-      [
-        1775779200000,
-        67.39
-      ],
       [
         1775865600000,
         null
@@ -1473,29 +1453,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        20.81
+      ],
+      [
+        1791244800000,
+        26.12
+      ],
+      [
+        1791331200000,
+        25.85
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "obv": [
-      [
-        1775433600000,
-        121828272.0
-      ],
-      [
-        1775520000000,
-        121828272.0
-      ],
-      [
-        1775606400000,
-        169506663.0
-      ],
-      [
-        1775692800000,
-        199654544.0
-      ],
-      [
-        1775779200000,
-        164633818.0
-      ],
       [
         1775865600000,
         null
@@ -2199,6 +2179,26 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        188648464.0
+      ],
+      [
+        1791244800000,
+        210369946.0
+      ],
+      [
+        1791331200000,
+        174548215.0
+      ],
+      [
+        1791417600000,
+        null
       ]
     ]
   },
@@ -2243,7 +2243,7 @@
     -2.43,
     -1.83,
     -2.46,
-    null,
+    0.49,
     null,
     null,
     null,

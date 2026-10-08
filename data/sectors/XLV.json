@@ -1,7 +1,7 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in pharmaceuticals, biotechnology, medical devices, healthcare equipment, and healthcare services.",
+    "description": "The Health Care sector encompasses companies providing medical services, manufacturing medical equipment, and developing pharmaceuticals and biotechnology products.",
     "marketSizeUSD": "8.5T",
     "constituentCount": 64,
     "topHoldings": [
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.123,
-  "change_pct": -0.01,
-  "insights": "The Health Care sector closed essentially flat today with a negligible decline of -0.01%, reflecting a moment of market consolidation amid an underlying bearish bias. Momentum and cash flow metrics remain subdued, as both the RSI (41.34) and MFI (42.78) hover in lower-neutral territory below the 50 threshold, signaling weak buying enthusiasm and modest capital outflows without yet reaching oversold territory. This persistent lack of upside momentum is reinforced by a negative On-Balance Volume (-54,200,993), which underscores a broader trend of volume-backed distribution over recent sessions. Overall, while today's flat price action suggests temporary stabilization, the technical indicators collectively point to a cautious market environment where sellers maintain marginal control and conviction among buyers remains limited.",
+  "market_weight": 0.1179,
+  "change_pct": 1.03,
+  "insights": "The Health Care sector posted a solid session today with a 1.03% gain, though technical indicators point to a sector trading in a neutral consolidation phase rather than an aggressive breakout. Both the Relative Strength Index (RSI) at 51.04 and the Money Flow Index (MFI) at 50.86 sit virtually at their 50-midpoints, indicating balanced buying momentum and steady, unextended capital inflows. However, the heavily negative On-Balance Volume (OBV) of -45,369,261 reflects a broader background of underlying cumulative distribution, suggesting that while today's price action offered welcome short-term relief, institutional investors may require sustained volume expansion before committing to a stronger bullish trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775433600000,
-        40.75
-      ],
-      [
-        1775520000000,
-        41.85
-      ],
-      [
-        1775606400000,
-        52.09
-      ],
-      [
-        1775692800000,
-        51.03
-      ],
-      [
-        1775779200000,
-        45.14
-      ],
       [
         1775865600000,
         null
@@ -747,29 +727,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        45.79
+      ],
+      [
+        1791244800000,
+        44.93
+      ],
+      [
+        1791331200000,
+        51.04
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1775433600000,
-        24.21
-      ],
-      [
-        1775520000000,
-        24.47
-      ],
-      [
-        1775606400000,
-        29.19
-      ],
-      [
-        1775692800000,
-        34.02
-      ],
-      [
-        1775779200000,
-        35.86
-      ],
       [
         1775865600000,
         null
@@ -1473,29 +1453,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        49.23
+      ],
+      [
+        1791244800000,
+        49.3
+      ],
+      [
+        1791331200000,
+        50.86
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "obv": [
-      [
-        1775433600000,
-        -65613781.0
-      ],
-      [
-        1775520000000,
-        -55652060.0
-      ],
-      [
-        1775606400000,
-        -47595465.0
-      ],
-      [
-        1775692800000,
-        -53952834.0
-      ],
-      [
-        1775779200000,
-        -60160053.0
-      ],
       [
         1775865600000,
         null
@@ -2199,6 +2179,26 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        -46899893.0
+      ],
+      [
+        1791244800000,
+        -54239351.0
+      ],
+      [
+        1791331200000,
+        -45369261.0
+      ],
+      [
+        1791417600000,
+        null
       ]
     ]
   },
@@ -2243,7 +2243,7 @@
     1.83,
     1.37,
     -2.65,
-    null,
+    1.58,
     null,
     null,
     null,

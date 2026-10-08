@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector comprises companies that produce and distribute essential everyday goods, such as food, beverages, household goods, and personal care products.",
-    "marketSizeUSD": "4.5T",
+    "description": "The Consumer Staples sector comprises companies that produce and distribute essential non-cyclical goods, such as food, beverages, household products, and personal care items.",
+    "marketSizeUSD": "4.3T",
     "constituentCount": 38,
     "topHoldings": [
       {
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0651,
-  "change_pct": 0.25,
-  "insights": "The Consumer Staples sector edged up a modest 0.25% today, attempting a minor stabilization following a period of persistent downside pressure. Key momentum indicators suggest the sector is heavily discounted and approaching oversold territory, highlighted by a low Relative Strength Index (RSI) of 33.58 and a Money Flow Index (MFI) of 21.71, which underscores significant recent capital outflows and weak buying pressure. However, today's positive tick alongside an On-Balance Volume (OBV) of 9,196,132 indicates that selling pressure may be fatiguing and a floor could be forming. Overall, these technicals position the defensive sector for a potential short-term relief rally or mean-reversion bounce as value-seeking investors begin to eye these deeply discounted valuation levels.",
+  "market_weight": 0.0596,
+  "change_pct": -0.12,
+  "insights": "The Consumer Staples sector experienced a mild retreat today, finishing down -0.12% in a session marked by low-conviction consolidation. Both the Relative Strength Index (RSI) at 43.32 and the Money Flow Index (MFI) at 42.11 hover in lower-neutral territory, signaling modest selling momentum and subdued capital inflows without entering oversold territory. Meanwhile, a steady On-Balance Volume (OBV) reading of 20,954,955 indicates that core volume accumulation remains relatively intact, suggesting that today's dip reflects routine, short-term sector rotation rather than a fundamental exit from defensive equities.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775433600000,
-        44.92
-      ],
-      [
-        1775520000000,
-        37.42
-      ],
-      [
-        1775606400000,
-        47.64
-      ],
-      [
-        1775692800000,
-        51.41
-      ],
-      [
-        1775779200000,
-        45.7
-      ],
       [
         1775865600000,
         null
@@ -747,29 +727,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        37.96
+      ],
+      [
+        1791244800000,
+        43.9
+      ],
+      [
+        1791331200000,
+        43.32
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1775433600000,
-        33.56
-      ],
-      [
-        1775520000000,
-        33.52
-      ],
-      [
-        1775606400000,
-        39.41
-      ],
-      [
-        1775692800000,
-        45.43
-      ],
-      [
-        1775779200000,
-        46.79
-      ],
       [
         1775865600000,
         null
@@ -1473,29 +1453,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        28.66
+      ],
+      [
+        1791244800000,
+        36.27
+      ],
+      [
+        1791331200000,
+        42.11
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "obv": [
-      [
-        1775433600000,
-        110067448.0
-      ],
-      [
-        1775520000000,
-        97604080.0
-      ],
-      [
-        1775606400000,
-        109962782.0
-      ],
-      [
-        1775692800000,
-        121616037.0
-      ],
-      [
-        1775779200000,
-        109583750.0
-      ],
       [
         1775865600000,
         null
@@ -2199,6 +2179,26 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        18368732.0
+      ],
+      [
+        1791244800000,
+        30392132.0
+      ],
+      [
+        1791331200000,
+        20954955.0
+      ],
+      [
+        1791417600000,
+        null
       ]
     ]
   },
@@ -2243,7 +2243,7 @@
     -0.7,
     -0.89,
     -1.86,
-    null,
+    1.45,
     null,
     null,
     null,

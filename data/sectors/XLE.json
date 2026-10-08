@@ -1,9 +1,9 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies involved in the exploration, production, refining, transportation, and equipment services of oil, natural gas, and consumable fuels.",
-    "marketSizeUSD": "1.7T",
-    "constituentCount": 23,
+    "description": "The Energy sector comprises companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, gas, and consumable fuels.",
+    "marketSizeUSD": "3.5T",
+    "constituentCount": 22,
     "topHoldings": [
       {
         "name": "Exxon Mobil Corporation",
@@ -19,31 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0246,
-  "change_pct": 0.19,
-  "insights": "The Energy sector logged a muted gain of 0.19% today, reflecting a period of price consolidation backed by neutral technical momentum. An RSI of 50.45 places the sector squarely in equilibrium, indicating an equal balance between buyers and sellers. However, a Money Flow Index (MFI) of 54.11 hints at subtle, positive capital inflows supporting the mild price uptick, while a high cumulative On-Balance Volume (OBV) of 1.32 billion demonstrates strong baseline liquidity and sustained institutional interest. Overall, these metrics suggest the sector is maintaining a stable, healthy base in a balanced holding pattern while market participants await a clearer directional catalyst.",
+  "market_weight": 0.0485,
+  "change_pct": -0.61,
+  "insights": "The Energy sector saw a minor pullback today, declining -0.61%, though underlying technical indicators suggest this represents a routine consolidation rather than structural weakness. A neutral Relative Strength Index (RSI) of 53.11 reflects balanced momentum, while a Money Flow Index (MFI) of 68.97 signals that underlying buying pressure and capital inflows remain firm despite the intraday decline. Supported by a substantial On-Balance Volume (OBV) of 1.35 billion\u2014which highlights strong institutional liquidity and sustained volume interest\u2014today's downward movement appears to be temporary profit-taking within a broader, well-supported framework.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775433600000,
-        56.73
-      ],
-      [
-        1775520000000,
-        58.99
-      ],
-      [
-        1775606400000,
-        47.29
-      ],
-      [
-        1775692800000,
-        44.08
-      ],
-      [
-        1775779200000,
-        42.4
-      ],
       [
         1775865600000,
         null
@@ -747,29 +727,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        54.16
+      ],
+      [
+        1791244800000,
+        55.86
+      ],
+      [
+        1791331200000,
+        53.11
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1775433600000,
-        60.14
-      ],
-      [
-        1775520000000,
-        59.95
-      ],
-      [
-        1775606400000,
-        52.83
-      ],
-      [
-        1775692800000,
-        51.97
-      ],
-      [
-        1775779200000,
-        45.09
-      ],
       [
         1775865600000,
         null
@@ -1473,29 +1453,29 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        53.53
+      ],
+      [
+        1791244800000,
+        62.06
+      ],
+      [
+        1791331200000,
+        68.97
+      ],
+      [
+        1791417600000,
+        null
       ]
     ],
     "obv": [
-      [
-        1775433600000,
-        1181818505.0
-      ],
-      [
-        1775520000000,
-        1216862048.0
-      ],
-      [
-        1775606400000,
-        1139815994.0
-      ],
-      [
-        1775692800000,
-        1085062770.0
-      ],
-      [
-        1775779200000,
-        1042697447.0
-      ],
       [
         1775865600000,
         null
@@ -2199,6 +2179,26 @@
       [
         1790985600000,
         null
+      ],
+      [
+        1791072000000,
+        null
+      ],
+      [
+        1791158400000,
+        1353917677.0
+      ],
+      [
+        1791244800000,
+        1381742177.0
+      ],
+      [
+        1791331200000,
+        1355547047.0
+      ],
+      [
+        1791417600000,
+        null
       ]
     ]
   },
@@ -2243,7 +2243,7 @@
     -1.27,
     -3.53,
     1.26,
-    null,
+    0.86,
     null,
     null,
     null,
