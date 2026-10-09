@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0347,
-  "change_pct": -1.51,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.0376,
+  "change_pct": 0.59,
+  "insights": "The Materials sector posted a modest gain of 0.59% today, though underlying technical indicators suggest this movement reflects a short-term technical relief rally rather than a fundamental trend reversal. An RSI of 41.66 indicates that bullish momentum remains weak, while an MFI of 28.60 places the sector in oversold territory, highlighting recent, aggressive capital outflows. Furthermore, the deeply negative On-Balance Volume (OBV) of -11.23 million underscores a broader backdrop of net distribution, signaling that institutional investors may be using today's minor uptick to exit positions rather than initiate new accumulation.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775865600000,
-        null
-      ],
       [
         1775952000000,
         null
@@ -746,14 +742,14 @@
       ],
       [
         1791417600000,
+        41.66
+      ],
+      [
+        1791504000000,
         null
       ]
     ],
     "mfi": [
-      [
-        1775865600000,
-        null
-      ],
       [
         1775952000000,
         null
@@ -1472,14 +1468,14 @@
       ],
       [
         1791417600000,
+        28.6
+      ],
+      [
+        1791504000000,
         null
       ]
     ],
     "obv": [
-      [
-        1775865600000,
-        null
-      ],
       [
         1775952000000,
         null
@@ -2198,6 +2194,10 @@
       ],
       [
         1791417600000,
+        -11231342.0
+      ],
+      [
+        1791504000000,
         null
       ]
     ]
@@ -2243,7 +2243,7 @@
     -1.88,
     -0.38,
     -1.89,
-    0.25,
+    0.84,
     null,
     null,
     null,

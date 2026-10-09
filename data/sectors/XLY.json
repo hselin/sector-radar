@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector comprises businesses that manufacture and sell non-essential goods and services, such as e-commerce, automobiles, apparel, and leisure products.",
-    "marketSizeUSD": "10.5T",
+    "description": "The Consumer Discretionary sector encompasses businesses that sell non-essential goods and services, such as e-commerce, automobiles, apparel, and leisure products, whose demand is driven by consumer spending and economic cycles.",
+    "marketSizeUSD": "4.2T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1456,
-  "change_pct": -0.32,
-  "insights": "The Consumer Discretionary sector edged lower today, declining by 0.32% in a session characterized by subdued, neutral momentum. Technical indicators reflect this modest pullback: the Relative Strength Index (RSI) at 47.65 and the Money Flow Index (MFI) at 44.18 both sit slightly below their 50-midpoints, signaling a minor bearish tilt without entering oversold territory. Meanwhile, a negative On-Balance Volume (OBV) of approximately -31.49 million points to ongoing, underlying capital distribution across the sector. Overall, today's price action suggests a controlled consolidation driven by a temporary lack of aggressive buying interest rather than systemic institutional selling.",
+  "market_weight": 0.0632,
+  "change_pct": 0.31,
+  "insights": "The Consumer Discretionary sector posted a modest gain of 0.31% today, signaling a period of consolidation as market participants await clearer macroeconomic catalysts. Both the Relative Strength Index (RSI) at 49.35 and the Money Flow Index (MFI) at 50.23 sit directly at their neutral midpoints, indicating balanced buying and selling momentum along with equilibrium in capital flows. However, the depressed On-Balance Volume (OBV) of -25.8 million reveals persistent underlying distribution, suggesting that today's price tick upward lacks strong institutional volume support and that historical selling pressure continues to cap significant near-term upside.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775865600000,
-        null
-      ],
       [
         1775952000000,
         null
@@ -746,14 +742,14 @@
       ],
       [
         1791417600000,
+        49.35
+      ],
+      [
+        1791504000000,
         null
       ]
     ],
     "mfi": [
-      [
-        1775865600000,
-        null
-      ],
       [
         1775952000000,
         null
@@ -1472,14 +1468,14 @@
       ],
       [
         1791417600000,
+        50.23
+      ],
+      [
+        1791504000000,
         null
       ]
     ],
     "obv": [
-      [
-        1775865600000,
-        null
-      ],
       [
         1775952000000,
         null
@@ -2198,6 +2194,10 @@
       ],
       [
         1791417600000,
+        -25795311.0
+      ],
+      [
+        1791504000000,
         null
       ]
     ]
@@ -2243,7 +2243,7 @@
     -1.71,
     -0.42,
     -0.47,
-    1.2,
+    1.52,
     null,
     null,
     null,
