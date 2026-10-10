@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.1128,
-  "change_pct": 0.73,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "change_pct": -1.51,
+  "insights": "The Communication Services sector experienced a notable pullback today, falling -1.51% as short-term selling pressure took hold. Technical indicators align with this weakness: both the Relative Strength Index (RSI) at 44.93 and the Money Flow Index (MFI) at 45.64 have slipped below the neutral 50 mark, signaling a tilt toward bearish momentum and moderate capital outflows, though remaining comfortably above oversold thresholds. Supported by an On-Balance Volume (OBV) of 143,594,242, today's price action reflects steady distribution rather than panic-driven selling, suggesting a controlled consolidation phase as investors reevaluate near-term entry points.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1775952000000,
-        null
-      ],
       [
         1776038400000,
         56.81
@@ -746,14 +742,14 @@
       ],
       [
         1791504000000,
+        44.93
+      ],
+      [
+        1791590400000,
         null
       ]
     ],
     "mfi": [
-      [
-        1775952000000,
-        null
-      ],
       [
         1776038400000,
         58.63
@@ -1472,14 +1468,14 @@
       ],
       [
         1791504000000,
+        45.64
+      ],
+      [
+        1791590400000,
         null
       ]
     ],
     "obv": [
-      [
-        1775952000000,
-        null
-      ],
       [
         1776038400000,
         143418385.0
@@ -2198,6 +2194,10 @@
       ],
       [
         1791504000000,
+        143594242.0
+      ],
+      [
+        1791590400000,
         null
       ]
     ]
@@ -2243,7 +2243,7 @@
     -1.59,
     1.94,
     -2.34,
-    1.59,
+    0.05,
     null,
     null,
     null,
