@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing commercial and professional services, and offering transportation equipment and services.",
-    "marketSizeUSD": "6.5T",
+    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing transportation services, and offering commercial and professional equipment.",
+    "marketSizeUSD": "3.8T",
     "constituentCount": 78,
     "topHoldings": [
       {
-        "name": "GE Aerospace",
+        "name": "General Electric Company",
         "symbol": "GE"
       },
       {
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0977,
-  "change_pct": 0.5,
-  "insights": "The Industrials sector posted a modest gain of 0.50% today, reflecting a stabilizing environment undergoing routine consolidation. While a sub-50 RSI of 44.27 signals that broader momentum remains slightly muted despite the daily uptick, capital flow indicators tell a more constructive story. The Money Flow Index (MFI) at 53.47 indicates balanced buying pressure capturing today's modest upside, while a substantial On-Balance Volume (OBV) of 190,492,652 demonstrates deep underlying liquidity and steady institutional baseline support. Overall, today's price action points to a firming value floor, though technical indicators suggest the sector remains in a neutral holding pattern awaiting stronger catalysts for a definitive bullish breakout.",
+  "market_weight": 0.0564,
+  "change_pct": -0.08,
+  "insights": "The Industrials sector experienced a virtually flat session today, declining a marginal -0.08% amid a lack of strong directional momentum. Technical indicators point to controlled, mild weakness; both the Relative Strength Index (RSI) at 41.30 and the Money Flow Index (MFI) at 44.24 sit just below their neutral 50 thresholds, signaling modest capital outflows and gentle downside pressure without approaching oversold territory. Supported by a resilient On-Balance Volume (OBV) of 166.89 million, today\u2019s subtle pullback reflects routine market consolidation rather than a broader institutional sell-off.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1776038400000,
-        61.56
-      ],
-      [
-        1776124800000,
-        62.51
-      ],
-      [
-        1776211200000,
-        57.17
-      ],
-      [
-        1776297600000,
-        55.18
-      ],
-      [
-        1776384000000,
-        60.69
-      ],
-      [
-        1776470400000,
-        null
-      ],
       [
         1776556800000,
         null
@@ -747,33 +723,33 @@
       [
         1791590400000,
         null
+      ],
+      [
+        1791676800000,
+        null
+      ],
+      [
+        1791763200000,
+        44.0
+      ],
+      [
+        1791849600000,
+        42.66
+      ],
+      [
+        1791936000000,
+        38.37
+      ],
+      [
+        1792022400000,
+        41.66
+      ],
+      [
+        1792108800000,
+        41.3
       ]
     ],
     "mfi": [
-      [
-        1776038400000,
-        51.62
-      ],
-      [
-        1776124800000,
-        57.96
-      ],
-      [
-        1776211200000,
-        49.68
-      ],
-      [
-        1776297600000,
-        51.72
-      ],
-      [
-        1776384000000,
-        59.45
-      ],
-      [
-        1776470400000,
-        null
-      ],
       [
         1776556800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1791590400000,
         null
+      ],
+      [
+        1791676800000,
+        null
+      ],
+      [
+        1791763200000,
+        51.87
+      ],
+      [
+        1791849600000,
+        44.03
+      ],
+      [
+        1791936000000,
+        43.07
+      ],
+      [
+        1792022400000,
+        35.65
+      ],
+      [
+        1792108800000,
+        44.24
       ]
     ],
     "obv": [
-      [
-        1776038400000,
-        199969244.0
-      ],
-      [
-        1776124800000,
-        205385354.0
-      ],
-      [
-        1776211200000,
-        192183019.0
-      ],
-      [
-        1776297600000,
-        183585836.0
-      ],
-      [
-        1776384000000,
-        192314793.0
-      ],
-      [
-        1776470400000,
-        null
-      ],
       [
         1776556800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1791590400000,
         null
+      ],
+      [
+        1791676800000,
+        null
+      ],
+      [
+        1791763200000,
+        186690252.0
+      ],
+      [
+        1791849600000,
+        179405677.0
+      ],
+      [
+        1791936000000,
+        168583170.0
+      ],
+      [
+        1792022400000,
+        176201886.0
+      ],
+      [
+        1792108800000,
+        166891021.0
       ]
     ]
   },
@@ -2244,7 +2244,7 @@
     0.4,
     -0.28,
     -0.41,
-    null,
+    -0.88,
     null,
     null,
     null,

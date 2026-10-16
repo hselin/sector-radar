@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector comprises companies involved in software development, hardware manufacturing, semiconductor production, and technology-related services.",
+    "description": "The Information Technology sector encompasses companies involved in software development, hardware manufacturing, semiconductor production, and IT services.",
     "marketSizeUSD": "17.2T",
-    "constituentCount": 65,
+    "constituentCount": 67,
     "topHoldings": [
-      {
-        "name": "Microsoft Corporation",
-        "symbol": "MSFT"
-      },
       {
         "name": "Apple Inc.",
         "symbol": "AAPL"
+      },
+      {
+        "name": "Microsoft Corporation",
+        "symbol": "MSFT"
       },
       {
         "name": "NVIDIA Corporation",
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2586,
-  "change_pct": 0.51,
-  "insights": "The Information Technology sector posted a modest gain of 0.51% today, driven by a constructive technical backdrop that signals sustained buyer interest. An RSI of 61.16 indicates healthy bullish momentum with ample room to run before hitting overbought territory (>70), while an MFI of 66.42 highlights steady capital inflows supporting the sector's upward tilt. Furthermore, a strong On-Balance Volume (OBV) reading of 462,005,562 confirms that this positive price movement is backed by solid underlying volume accumulation rather than low-liquidity noise. Overall, the alignment of these momentum and volume metrics suggests a stable, accumulation-driven environment with potential for continued upside in the near term.",
+  "market_weight": 0.2552,
+  "change_pct": -3.02,
+  "insights": "The Information Technology sector faced significant selling pressure today, declining by 3.02% in a sharp risk-off move. Momentum indicators suggest the sell-off is becoming stretched, as an RSI of 33.33 pushes the sector near oversold territory, hinting at a potential short-term stabilization or technical bounce. However, the Money Flow Index (MFI) at a neutral 44.63 indicates that while price action was aggressively down, institutional capital outflow has not yet reached extreme panic levels. Furthermore, a resilient On-Balance Volume (OBV) of 409.17 million demonstrates that broader cumulative demand remains relatively intact, suggesting today\u2019s pullback reflects short-term profit-taking or macro headwinds rather than a fundamental breakdown of the sector's long-term volume structure.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1776038400000,
-        64.35
-      ],
-      [
-        1776124800000,
-        67.44
-      ],
-      [
-        1776211200000,
-        70.25
-      ],
-      [
-        1776297600000,
-        72.14
-      ],
-      [
-        1776384000000,
-        74.5
-      ],
-      [
-        1776470400000,
-        null
-      ],
       [
         1776556800000,
         null
@@ -747,33 +723,33 @@
       [
         1791590400000,
         null
+      ],
+      [
+        1791676800000,
+        null
+      ],
+      [
+        1791763200000,
+        55.14
+      ],
+      [
+        1791849600000,
+        54.95
+      ],
+      [
+        1791936000000,
+        43.11
+      ],
+      [
+        1792022400000,
+        41.09
+      ],
+      [
+        1792108800000,
+        33.33
       ]
     ],
     "mfi": [
-      [
-        1776038400000,
-        50.48
-      ],
-      [
-        1776124800000,
-        58.2
-      ],
-      [
-        1776211200000,
-        57.57
-      ],
-      [
-        1776297600000,
-        65.68
-      ],
-      [
-        1776384000000,
-        73.89
-      ],
-      [
-        1776470400000,
-        null
-      ],
       [
         1776556800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1791590400000,
         null
+      ],
+      [
+        1791676800000,
+        null
+      ],
+      [
+        1791763200000,
+        60.05
+      ],
+      [
+        1791849600000,
+        59.49
+      ],
+      [
+        1791936000000,
+        56.47
+      ],
+      [
+        1792022400000,
+        47.62
+      ],
+      [
+        1792108800000,
+        44.63
       ]
     ],
     "obv": [
-      [
-        1776038400000,
-        331491351.0
-      ],
-      [
-        1776124800000,
-        341546056.0
-      ],
-      [
-        1776211200000,
-        351719049.0
-      ],
-      [
-        1776297600000,
-        363461872.0
-      ],
-      [
-        1776384000000,
-        374022792.0
-      ],
-      [
-        1776470400000,
-        null
-      ],
       [
         1776556800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1791590400000,
         null
+      ],
+      [
+        1791676800000,
+        null
+      ],
+      [
+        1791763200000,
+        456804862.0
+      ],
+      [
+        1791849600000,
+        450051854.0
+      ],
+      [
+        1791936000000,
+        438130600.0
+      ],
+      [
+        1792022400000,
+        424459813.0
+      ],
+      [
+        1792108800000,
+        409167677.0
       ]
     ]
   },
@@ -2244,7 +2244,7 @@
     3.52,
     1.8,
     -0.52,
-    null,
+    -7.7,
     null,
     null,
     null,

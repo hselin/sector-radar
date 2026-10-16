@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T00:22:37.105429Z",
+  "lastUpdated": "2026-10-16T23:31:07.123930Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a stock market index tracking the performance of 500 of the largest companies listed on stock exchanges in the United States.",
@@ -20,34 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader equity market delivered a solid performance today, rising 0.60% amid sustained buyer interest and positive technical momentum. The Relative Strength Index (RSI) at 66.27 reflects firm bullish sentiment, edging toward overbought territory without signaling immediate exhaustion. Supporting this price action, the Money Flow Index (",
-    "change_pct": 0.6,
+    "commentary": "The stock market experienced a pullback today, closing down **-1.11%** as short-term selling pressure dampened recent momentum. Technical indicators point to a shift toward cautious sentiment; the Relative Strength Index (RSI) at **46.46** and the Money Flow Index (MFI) at **42.87** both sit just below their neutral 50 baselines, signaling mild bearish momentum and modest capital outflows without triggering oversold conditions. However, a elevated On-Balance Volume (OBV) of **697,580,559** suggests that the broader structural liquidity remains intact, indicating that today's decline represents controlled profit-taking or healthy consolidation rather than widespread institutional distribution. Overall, the figures reflect a market in a temporary cooling phase, characterized by moderate near-term downside risk but underlying volume stability.",
+    "change_pct": -1.11,
     "technicalIndicators": {
       "rsi": [
-        [
-          1776038400000,
-          63.35
-        ],
-        [
-          1776124800000,
-          67.1
-        ],
-        [
-          1776211200000,
-          69.33
-        ],
-        [
-          1776297600000,
-          70.01
-        ],
-        [
-          1776384000000,
-          73.19
-        ],
-        [
-          1776470400000,
-          null
-        ],
         [
           1776556800000,
           null
@@ -747,33 +723,33 @@
         [
           1791590400000,
           null
+        ],
+        [
+          1791676800000,
+          null
+        ],
+        [
+          1791763200000,
+          65.56
+        ],
+        [
+          1791849600000,
+          65.42
+        ],
+        [
+          1791936000000,
+          53.62
+        ],
+        [
+          1792022400000,
+          55.86
+        ],
+        [
+          1792108800000,
+          46.46
         ]
       ],
       "mfi": [
-        [
-          1776038400000,
-          55.48
-        ],
-        [
-          1776124800000,
-          62.92
-        ],
-        [
-          1776211200000,
-          62.04
-        ],
-        [
-          1776297600000,
-          69.39
-        ],
-        [
-          1776384000000,
-          77.96
-        ],
-        [
-          1776470400000,
-          null
-        ],
         [
           1776556800000,
           null
@@ -1473,33 +1449,33 @@
         [
           1791590400000,
           null
+        ],
+        [
+          1791676800000,
+          null
+        ],
+        [
+          1791763200000,
+          53.64
+        ],
+        [
+          1791849600000,
+          57.96
+        ],
+        [
+          1791936000000,
+          56.06
+        ],
+        [
+          1792022400000,
+          45.25
+        ],
+        [
+          1792108800000,
+          42.87
         ]
       ],
       "obv": [
-        [
-          1776038400000,
-          811344441.0
-        ],
-        [
-          1776124800000,
-          871229272.0
-        ],
-        [
-          1776211200000,
-          928664480.0
-        ],
-        [
-          1776297600000,
-          972104231.0
-        ],
-        [
-          1776384000000,
-          1042263869.0
-        ],
-        [
-          1776470400000,
-          null
-        ],
         [
           1776556800000,
           null
@@ -2199,6 +2175,30 @@
         [
           1791590400000,
           null
+        ],
+        [
+          1791676800000,
+          null
+        ],
+        [
+          1791763200000,
+          799420388.0
+        ],
+        [
+          1791849600000,
+          773572388.0
+        ],
+        [
+          1791936000000,
+          717856988.0
+        ],
+        [
+          1792022400000,
+          761118588.0
+        ],
+        [
+          1792108800000,
+          697580559.0
         ]
       ]
     },
@@ -2244,7 +2244,7 @@
       1.27,
       -0.22,
       1.16,
-      null,
+      -1.97,
       null,
       null,
       null,

@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses businesses that sell non-essential goods and services, such as e-commerce, automobiles, apparel, and leisure products, whose demand is driven by consumer spending and economic cycles.",
-    "marketSizeUSD": "4.2T",
+    "description": "The Consumer Discretionary sector consists of businesses that produce non-essential goods and services, including e-commerce, automobiles, leisure, and hospitality, whose demand depends heavily on overall economic health and consumer spending.",
+    "marketSizeUSD": "3.8T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0632,
-  "change_pct": 1.02,
-  "insights": "The Consumer Discretionary sector demonstrated solid momentum today with a gain of 1.02%, backed by balanced technical indicators that suggest potential for further upside. Neutral readings in both the Relative Strength Index (RSI: 54.51) and Money Flow Index (MFI: 51.32) indicate a healthy balance between buyers and sellers, showing that today\u2019s rally has not yet pushed the sector into overbought territory. However, the heavily negative On-Balance Volume (OBV: -18,922,710) points to persistent underlying historical distribution, suggesting that while short-term price action remains positive, sustained upward continuation will require broader institutional volume support to overcome longer-term accumulation deficits.",
+  "market_weight": 0.0564,
+  "change_pct": -0.84,
+  "insights": "The Consumer Discretionary sector experienced a modest pullback today, closing down 0.84% as near-term profit-taking offset recent gains. Despite the daily dip, technical indicators suggest a broader picture of consolidation rather than a sharp trend reversal; an RSI of 51.79 sits squarely in neutral territory, while a healthy MFI of 61.21 indicates that volume-weighted capital inflows remain relatively supportive. However, the sector\u2019s deeply negative OBV (-35.5M) highlights an underlying pattern of persistent cumulative distribution, signaling that while short-term buying pressure lingers, heavy historical selling volume continues to act as a primary headwind to sustained upside momentum.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1776038400000,
-        56.23
-      ],
-      [
-        1776124800000,
-        61.57
-      ],
-      [
-        1776211200000,
-        64.77
-      ],
-      [
-        1776297600000,
-        62.99
-      ],
-      [
-        1776384000000,
-        67.81
-      ],
-      [
-        1776470400000,
-        null
-      ],
       [
         1776556800000,
         null
@@ -747,33 +723,33 @@
       [
         1791590400000,
         null
+      ],
+      [
+        1791676800000,
+        null
+      ],
+      [
+        1791763200000,
+        51.63
+      ],
+      [
+        1791849600000,
+        52.05
+      ],
+      [
+        1791936000000,
+        47.75
+      ],
+      [
+        1792022400000,
+        56.38
+      ],
+      [
+        1792108800000,
+        51.79
       ]
     ],
     "mfi": [
-      [
-        1776038400000,
-        60.0
-      ],
-      [
-        1776124800000,
-        66.49
-      ],
-      [
-        1776211200000,
-        66.4
-      ],
-      [
-        1776297600000,
-        71.84
-      ],
-      [
-        1776384000000,
-        79.54
-      ],
-      [
-        1776470400000,
-        null
-      ],
       [
         1776556800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1791590400000,
         null
+      ],
+      [
+        1791676800000,
+        null
+      ],
+      [
+        1791763200000,
+        44.84
+      ],
+      [
+        1791849600000,
+        51.93
+      ],
+      [
+        1791936000000,
+        50.0
+      ],
+      [
+        1792022400000,
+        50.09
+      ],
+      [
+        1792108800000,
+        61.21
       ]
     ],
     "obv": [
-      [
-        1776038400000,
-        -15631603.0
-      ],
-      [
-        1776124800000,
-        -7604235.0
-      ],
-      [
-        1776211200000,
-        406299.0
-      ],
-      [
-        1776297600000,
-        -5050216.0
-      ],
-      [
-        1776384000000,
-        4771005.0
-      ],
-      [
-        1776470400000,
-        null
-      ],
       [
         1776556800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1791590400000,
         null
+      ],
+      [
+        1791676800000,
+        null
+      ],
+      [
+        1791763200000,
+        -22859310.0
+      ],
+      [
+        1791849600000,
+        -17175260.0
+      ],
+      [
+        1791936000000,
+        -25477708.0
+      ],
+      [
+        1792022400000,
+        -19369983.0
+      ],
+      [
+        1792108800000,
+        -35530986.0
       ]
     ]
   },
@@ -2244,7 +2244,7 @@
     -0.42,
     -0.47,
     2.55,
-    null,
+    -0.35,
     null,
     null,
     null,
