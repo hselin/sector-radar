@@ -20,26 +20,10 @@
     ]
   },
   "market_weight": 0.0178,
-  "change_pct": 1.34,
-  "insights": "The Utilities sector demonstrated robust defensive strength today, gaining 1.34% amidst favorable technical alignment. An RSI of 60.89 reflects healthy, sustained bullish momentum with room to run before reaching typical overbought thresholds (>70). However, the Money Flow Index (MFI) sitting at 77.50 signals aggressive capital inflows that are rapidly approaching overbought territory, suggesting strong immediate buying pressure that could lead to near-term consolidation. Supporting this upward price action, the elevated On-Balance Volume (OBV) of approximately 386.7 million confirms that today's advance is backed by solid institutional accumulation rather than low-volume speculation.",
+  "change_pct": -2.01,
+  "insights": "The Utilities sector experienced a sharp single-day drawdown of -2.01%, primarily driven by healthy profit-taking following a period of heavy capital accumulation. This dynamic is underscored by a high Money Flow Index (MFI) of 71.87, which indicates the sector was approaching overbought territory prior to today\u2019s pull-back. Meanwhile, a neutral Relative Strength Index (RSI) of 50.22 suggests that overall momentum has merely reset to a baseline equilibrium rather than shifting into bearish territory. Coupled with a robust On-Balance Volume (OBV) of approximately 362.3 million\u2014reflecting sustained institutional participation\u2014today's decline appears to be an orderly, short-term consolidation within an otherwise stable defensive baseline rather than a broader structural trend reversal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1776556800000,
-        null
-      ],
-      [
-        1776643200000,
-        44.44
-      ],
-      [
-        1776729600000,
-        37.25
-      ],
-      [
-        1776816000000,
-        36.61
-      ],
       [
         1776902400000,
         50.53
@@ -747,25 +731,25 @@
       [
         1792108800000,
         60.89
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1776556800000,
+        1792195200000,
         null
       ],
       [
-        1776643200000,
-        39.01
+        1792281600000,
+        null
       ],
       [
-        1776729600000,
-        42.52
+        1792368000000,
+        50.22
       ],
       [
-        1776816000000,
-        32.6
-      ],
+        1792454400000,
+        null
+      ]
+    ],
+    "mfi": [
       [
         1776902400000,
         34.32
@@ -1473,25 +1457,25 @@
       [
         1792108800000,
         77.5
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1776556800000,
+        1792195200000,
         null
       ],
       [
-        1776643200000,
-        394182651.0
+        1792281600000,
+        null
       ],
       [
-        1776729600000,
-        376072284.0
+        1792368000000,
+        71.87
       ],
       [
-        1776816000000,
-        354406124.0
-      ],
+        1792454400000,
+        null
+      ]
+    ],
+    "obv": [
       [
         1776902400000,
         377988678.0
@@ -2199,6 +2183,22 @@
       [
         1792108800000,
         386697094.0
+      ],
+      [
+        1792195200000,
+        null
+      ],
+      [
+        1792281600000,
+        null
+      ],
+      [
+        1792368000000,
+        362336478.0
+      ],
+      [
+        1792454400000,
+        null
       ]
     ]
   },
@@ -2245,7 +2245,7 @@
     0.81,
     3.97,
     1.93,
-    null,
+    -2.01,
     null,
     null,
     null,
