@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that manufacture and sell essential daily products such as food, beverages, household goods, and personal hygiene items.",
-    "marketSizeUSD": "8.5T",
+    "description": "The Consumer Staples sector includes companies that manufacture and sell essential non-discretionary products such as food, beverages, household goods, and personal care items.",
+    "marketSizeUSD": "4.2T",
     "constituentCount": 38,
     "topHoldings": [
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1261,
-  "change_pct": 0.62,
-  "insights": "The Consumer Staples sector posted a modest gain of 0.62% today, underpinned by strong institutional accumulation as reflected in a solid On-Balance Volume (OBV) of 103.75 million. However, technical indicators point to an increasingly overextended rally in the short term: the Relative Strength Index (RSI) at 70.56 has crossed into overbought territory, while a heightened Money Flow Index (MFI) of 85.52 signals intense buying pressure that typically precedes a pause in upward momentum. While the elevated OBV confirms that real volume is driving this defensive sector's push higher, the extreme readings on both the RSI and MFI suggest that the sector may soon face near-term consolidation or profit-taking as buying momentum cools.",
+  "market_weight": 0.0647,
+  "change_pct": -0.73,
+  "insights": "The Consumer Staples sector experienced a minor pullback today, declining 0.73% in a move largely characterized by short-term profit-taking following recent capital inflows. This temporary pause is reinforced by the technicals: an elevated Money Flow Index (MFI) of 84.84 indicates overbought liquidity conditions that triggered today's modest sell-off, while a Relative Strength Index (RSI) of 65.63 confirms that overall bullish momentum remains intact just below overbought territory. Meanwhile, a strong On-Balance Volume (OBV) of 90.49 million reflects persistent institutional accumulation, suggesting that today\u2019s decline represents a healthy, volume-backed consolidation within a broader constructive trend rather than a fundamental trend reversal.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1776902400000,
-        55.15
-      ],
-      [
-        1776988800000,
-        53.53
-      ],
       [
         1777075200000,
         null
@@ -747,17 +739,17 @@
       [
         1792454400000,
         70.56
+      ],
+      [
+        1792540800000,
+        65.63
+      ],
+      [
+        1792627200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1776902400000,
-        58.2
-      ],
-      [
-        1776988800000,
-        58.54
-      ],
       [
         1777075200000,
         null
@@ -1473,17 +1465,17 @@
       [
         1792454400000,
         85.52
+      ],
+      [
+        1792540800000,
+        84.84
+      ],
+      [
+        1792627200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1776902400000,
-        106399661.0
-      ],
-      [
-        1776988800000,
-        95564829.0
-      ],
       [
         1777075200000,
         null
@@ -2199,6 +2191,14 @@
       [
         1792454400000,
         103752957.0
+      ],
+      [
+        1792540800000,
+        90488946.0
+      ],
+      [
+        1792627200000,
+        null
       ]
     ]
   },
@@ -2245,7 +2245,7 @@
     -1.86,
     3.6,
     5.02,
-    0.15,
+    -0.58,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, gas, and consumable fuels.",
-    "marketSizeUSD": "1.8T",
+    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, gas, coal, and consumable fuels, as well as energy equipment and services.",
+    "marketSizeUSD": "3.5T",
     "constituentCount": 22,
     "topHoldings": [
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0267,
-  "change_pct": 0.25,
-  "insights": "The Energy sector demonstrated subtle upward momentum today with a modest gain of 0.25%, underpinned by strong volume confirmation as evidenced by a high On-Balance Volume (OBV) of 1.47 billion. An RSI of 66.74 reflects healthy bullish strength approaching overbought territory, indicating that buyers remain in control of the broader trend. However, the Money Flow Index (MFI) sitting at an overbought 83.51 highlights intense recent capital inflows, cautioning that while institutional accumulation remains intact, the sector may be susceptible to near-term profit-taking or brief consolidation as buying pressure saturates.",
+  "market_weight": 0.0539,
+  "change_pct": 0.28,
+  "insights": "The Energy sector logged a modest gain of 0.28% today, maintaining its underlying bullish trajectory as reflected by an RSI of 67.41 and a substantial On-Balance Volume (OBV) of nearly 1.49 billion, which confirms sustained volume support behind the broader uptrend. However, with the Money Flow Index (MFI) entering overbought territory at 83.05, recent capital inflows have been exceptionally aggressive, signaling that buying pressure may be reaching a near-term climax. Overall, while technical indicators point to strong institutional backing and solid momentum, the elevated MFI suggests the sector could be ripe for brief consolidation or a minor pullback in the coming sessions before attempting another leg higher.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1776902400000,
-        48.36
-      ],
-      [
-        1776988800000,
-        47.77
-      ],
       [
         1777075200000,
         null
@@ -747,17 +739,17 @@
       [
         1792454400000,
         66.74
+      ],
+      [
+        1792540800000,
+        67.41
+      ],
+      [
+        1792627200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1776902400000,
-        48.69
-      ],
-      [
-        1776988800000,
-        47.99
-      ],
       [
         1777075200000,
         null
@@ -1473,17 +1465,17 @@
       [
         1792454400000,
         83.51
+      ],
+      [
+        1792540800000,
+        83.05
+      ],
+      [
+        1792627200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1776902400000,
-        1076886394.0
-      ],
-      [
-        1776988800000,
-        1041023647.0
-      ],
       [
         1777075200000,
         null
@@ -2199,6 +2191,14 @@
       [
         1792454400000,
         1467526538.0
+      ],
+      [
+        1792540800000,
+        1493907082.0
+      ],
+      [
+        1792627200000,
+        null
       ]
     ]
   },
@@ -2245,7 +2245,7 @@
     1.26,
     3.6,
     4.86,
-    -0.4,
+    -0.12,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Utilities",
   "profile": {
-    "description": "The Utilities sector encompasses companies that provide essential services such as electricity, natural gas, water, and renewable power to residential, commercial, and industrial customers.",
-    "marketSizeUSD": "1.2T",
+    "description": "The Utilities sector encompasses companies that provide essential infrastructure services, including electric power, natural gas, water, and renewable energy generation.",
+    "marketSizeUSD": "1.3T",
     "constituentCount": 31,
     "topHoldings": [
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0178,
-  "change_pct": 1.26,
-  "insights": "The Utilities sector delivered a solid performance today, advancing 1.26% on healthy, volume-backed buying interest. From a technical perspective, an RSI of 55.37 points to steady bullish momentum with ample headroom before reaching overbought levels, while an elevated Money Flow Index (MFI) of 69.86 underscores robust capital inflows into the space. Supported by a strong On-Balance Volume (OBV) baseline of roughly 380.2 million, today\u2019s gain reflects genuine institutional accumulation rather than a low-volume anomaly, positioning the sector for potential continued near-term stability.",
+  "market_weight": 0.02,
+  "change_pct": 0.29,
+  "insights": "The Utilities sector demonstrated modest defensive strength today, posting a slight gain of 0.29%. Technically, the sector maintains a stable outlook supported by an RSI of 56.49, which indicates healthy, neutral-to-bullish momentum without being overextended. This positive trend is further validated by a strong On-Balance Volume (OBV) of approximately 420.87 million, reflecting sustained cumulative buying pressure and institutional backing. However, with the Money Flow Index (MFI) reaching an elevated 81.19, the sector is entering overbought territory in terms of capital inflows, suggesting that while the broader trajectory remains firm, investors should anticipate potential short-term consolidation as buying volume temporarily cools.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1776902400000,
-        50.53
-      ],
-      [
-        1776988800000,
-        51.38
-      ],
       [
         1777075200000,
         null
@@ -747,17 +739,17 @@
       [
         1792454400000,
         55.37
+      ],
+      [
+        1792540800000,
+        56.49
+      ],
+      [
+        1792627200000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1776902400000,
-        34.32
-      ],
-      [
-        1776988800000,
-        41.5
-      ],
       [
         1777075200000,
         null
@@ -1473,17 +1465,17 @@
       [
         1792454400000,
         69.86
+      ],
+      [
+        1792540800000,
+        81.19
+      ],
+      [
+        1792627200000,
+        null
       ]
     ],
     "obv": [
-      [
-        1776902400000,
-        377988678.0
-      ],
-      [
-        1776988800000,
-        402119644.0
-      ],
       [
         1777075200000,
         null
@@ -2199,6 +2191,14 @@
       [
         1792454400000,
         380249124.0
+      ],
+      [
+        1792540800000,
+        420867511.0
+      ],
+      [
+        1792627200000,
+        null
       ]
     ]
   },
@@ -2245,7 +2245,7 @@
     0.81,
     3.97,
     1.93,
-    -0.78,
+    -0.5,
     null,
     null,
     null,
