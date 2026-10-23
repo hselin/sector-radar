@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector consists of businesses that produce non-essential goods and services, including e-commerce, automobiles, leisure, and hospitality, whose demand depends heavily on overall economic health and consumer spending.",
-    "marketSizeUSD": "3.8T",
+    "description": "The Consumer Discretionary sector encompasses businesses that sell non-essential goods and services, including automobiles, apparel, retail, and leisure.",
+    "marketSizeUSD": "11.5T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0586,
-  "change_pct": 0.03,
-  "insights": "The Consumer Discretionary sector delivered a virtually flat performance today with a modest gain of 0.03%, pointing to a session of market consolidation. Technically, a solid RSI of 62.65 reflects healthy underlying momentum, but an elevated Money Flow Index (MFI) of 81.45 pushes into overbought territory, signaling that heavy recent capital inflows could leave the sector vulnerable to near-term profit-taking. This overbought condition is further complicated by a negative On-Balance Volume (OBV) of -15.33 million, revealing a subtle bearish divergence where long-term volume trends have not fully validated current price levels. Overall, while short-term price momentum remains intact, the combination of extreme money flow and negative cumulative volume suggests investors should exercise caution and prepare for potential near-term digestion of recent gains.",
+  "market_weight": 0.1448,
+  "change_pct": -1.66,
+  "insights": "The Consumer Discretionary sector pulled back today, declining -1.66% in what appears to be a phase of short-term profit-taking. Technical momentum remains balanced, as evidenced by a neutral RSI of 50.95, which suggests today's sell-off has not yet triggered oversold conditions or derailed the broader trend. Meanwhile, an elevated Money Flow Index (MFI) of 66.72 indicates that underlying buying pressure and institutional capital inflows have remained relatively resilient despite today's dip. However, a heavily negative On-Balance Volume (OBV) of -29.78 million highlights persistent underlying distribution, signaling that while the sector is consolidating, overhead volume resistance could limit a swift upside rebound in the near term.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1776988800000,
-        60.97
-      ],
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -747,17 +739,17 @@
       [
         1792540800000,
         62.65
+      ],
+      [
+        1792627200000,
+        59.87
+      ],
+      [
+        1792713600000,
+        50.95
       ]
     ],
     "mfi": [
-      [
-        1776988800000,
-        66.74
-      ],
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -1473,17 +1465,17 @@
       [
         1792540800000,
         81.45
+      ],
+      [
+        1792627200000,
+        73.27
+      ],
+      [
+        1792713600000,
+        66.72
       ]
     ],
     "obv": [
-      [
-        1776988800000,
-        -15131729.0
-      ],
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -2199,6 +2191,14 @@
       [
         1792540800000,
         -15330813.0
+      ],
+      [
+        1792627200000,
+        -23370080.0
+      ],
+      [
+        1792713600000,
+        -29780036.0
       ]
     ]
   },
@@ -2245,7 +2245,7 @@
     -0.47,
     2.55,
     -0.35,
-    2.73,
+    0.57,
     null,
     null,
     null,

@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector includes companies involved in pharmaceuticals, biotechnology, medical equipment manufacturing, and healthcare services.",
-    "marketSizeUSD": "8.5T",
+    "description": "The Health Care sector includes companies involved in medical equipment, healthcare services, pharmaceuticals, and biotechnology.",
+    "marketSizeUSD": "6.5T",
     "constituentCount": 64,
     "topHoldings": [
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.131,
-  "change_pct": -0.49,
-  "insights": "The Health Care sector experienced a modest pullback today, declining 0.49% in what appears to be a routine consolidation following recent upward strength. An elevated Relative Strength Index (RSI) of 66.57 indicates that momentum remains generally bullish and is approaching overbought territory, while a stable Money Flow Index (MFI) of 57.51 suggests capital outflow during the dip was relatively muted and balanced. However, the heavily negative On-Balance Volume (OBV) of -43.98 million points to longer-term institutional distribution, signaling that while today's minor drop represents a short-term breather rather than a structural breakdown, persistent sell-side volume pressure could limit near-term upside potential.",
+  "market_weight": 0.0819,
+  "change_pct": -1.11,
+  "insights": "The Health Care sector experienced a minor pullback today, declining by 1.11%, though technical momentum suggests this move is likely a short-term pause rather than an immediate trend reversal. An RSI of 64.01 and an MFI of 58.20 indicate that both relative price strength and money flow remain comfortably above neutral levels, reflecting resilient underlying buying interest despite today's dip. However, the deeply negative On-Balance Volume (OBV) of -41.57 million cautions that broader institutional distribution persists over a longer timeframe, creating a potential divergence that could cap upside potential if selling volume expands.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1776988800000,
-        38.5
-      ],
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -747,17 +739,17 @@
       [
         1792540800000,
         66.57
+      ],
+      [
+        1792627200000,
+        69.92
+      ],
+      [
+        1792713600000,
+        64.01
       ]
     ],
     "mfi": [
-      [
-        1776988800000,
-        28.92
-      ],
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -1473,17 +1465,17 @@
       [
         1792540800000,
         57.51
+      ],
+      [
+        1792627200000,
+        64.48
+      ],
+      [
+        1792713600000,
+        58.2
       ]
     ],
     "obv": [
-      [
-        1776988800000,
-        -74921928.0
-      ],
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -2199,6 +2191,14 @@
       [
         1792540800000,
         -43977532.0
+      ],
+      [
+        1792627200000,
+        -33868536.0
+      ],
+      [
+        1792713600000,
+        -41572822.0
       ]
     ]
   },
@@ -2245,7 +2245,7 @@
     -2.65,
     2.79,
     3.45,
-    1.26,
+    1.45,
     null,
     null,
     null,

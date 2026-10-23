@@ -1,17 +1,17 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies involved in software development, hardware manufacturing, semiconductor production, and IT services.",
-    "marketSizeUSD": "17.2T",
-    "constituentCount": 67,
+    "description": "The Information Technology sector encompasses companies that develop software, manufacture electronics and semiconductors, and provide IT services and internet infrastructure.",
+    "marketSizeUSD": "14.5T",
+    "constituentCount": 65,
     "topHoldings": [
-      {
-        "name": "Apple Inc.",
-        "symbol": "AAPL"
-      },
       {
         "name": "Microsoft Corporation",
         "symbol": "MSFT"
+      },
+      {
+        "name": "Apple Inc.",
+        "symbol": "AAPL"
       },
       {
         "name": "NVIDIA Corporation",
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.265,
-  "change_pct": 1.67,
-  "insights": "The Information Technology sector posted a solid gain of 1.67% today, driven by a short-term price rebound; however, underlying technical indicators suggest caution regarding the durability of this move. With a Relative Strength Index (RSI) at 44.46, the sector remains in neutral-to-bearish momentum territory, while a Money Flow Index (MFI) of 37.66 points to subdued capital inflows despite the daily price uptick. Accompanied by an On-Balance Volume (OBV) of approximately 418.6 million, today\u2019s performance reads as a technical relief bounce within a broader consolidation phase rather than a high-conviction trend reversal, indicating that stronger volume-backed accumulation is required to confirm sustained bullish momentum.",
+  "market_weight": 0.1826,
+  "change_pct": 0.49,
+  "insights": "The Information Technology sector managed a modest daily gain of 0.49%, though underlying technical indicators suggest this uptick reflects a temporary stabilization rather than a robust trend reversal. The Relative Strength Index (RSI) at 38.11 indicates lingering bearish momentum, while a Money Flow Index (MFI) of 24.09 signals near-oversold conditions following recent sustained capital outflows. Coupled with an On-Balance Volume (OBV) of 413.95 million establishing a baseline of volume, today's positive price action appears to be a technical bounce off depressed levels, indicating that institutional conviction remains light and the sector needs stronger sustained buying volume before establishing a definitive bottom.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1776988800000,
-        75.81
-      ],
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -747,17 +739,17 @@
       [
         1792540800000,
         44.46
+      ],
+      [
+        1792627200000,
+        36.36
+      ],
+      [
+        1792713600000,
+        38.11
       ]
     ],
     "mfi": [
-      [
-        1776988800000,
-        75.78
-      ],
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -1473,17 +1465,17 @@
       [
         1792540800000,
         37.66
+      ],
+      [
+        1792627200000,
+        29.6
+      ],
+      [
+        1792713600000,
+        24.09
       ]
     ],
     "obv": [
-      [
-        1776988800000,
-        407281085.0
-      ],
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -2199,6 +2191,14 @@
       [
         1792540800000,
         418631838.0
+      ],
+      [
+        1792627200000,
+        406532007.0
+      ],
+      [
+        1792713600000,
+        413949785.0
       ]
     ]
   },
@@ -2245,7 +2245,7 @@
     1.8,
     -0.52,
     -7.7,
-    2.76,
+    -0.13,
     null,
     null,
     null,

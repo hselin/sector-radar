@@ -1,8 +1,8 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing transportation services, and offering commercial and professional equipment.",
-    "marketSizeUSD": "3.8T",
+    "description": "The Industrials sector encompasses companies involved in capital goods manufacturing, commercial and professional services, and transportation services.",
+    "marketSizeUSD": "11.5T",
     "constituentCount": 78,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0586,
-  "change_pct": 0.91,
-  "insights": "The Industrials sector demonstrated modest strength today, closing up 0.91%, though underlying technical indicators suggest today's gain may be a relief bounce within a broader consolidation phase rather than a decisive trend reversal. The Relative Strength Index (RSI) at 45.21 reflects a neutral stance with a slight downside bias, indicating that momentum remains subdued overall. Further caution is highlighted by the Money Flow Index (MFI) at 35.99, which sits near oversold territory and signals weak volume-weighted buying pressure behind recent price movements. While a robust On-Balance Volume (OBV) of 177.73M confirms healthy baseline market participation, the sector will likely require stronger institutional capital inflows to convert today's positive performance into a sustained bullish breakout.",
+  "market_weight": 0.1448,
+  "change_pct": -1.27,
+  "insights": "The Industrials sector experienced notable downward pressure today, falling **-1.27%** as selling sentiment dominated the session. This pullback is heavily corroborated by key technicals: an **RSI of 35.15** points",
   "technicalIndicators": {
     "rsi": [
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -746,14 +742,14 @@
       ],
       [
         1792627200000,
-        null
+        40.46
+      ],
+      [
+        1792713600000,
+        35.15
       ]
     ],
     "mfi": [
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -1472,14 +1468,14 @@
       ],
       [
         1792627200000,
-        null
+        28.63
+      ],
+      [
+        1792713600000,
+        28.47
       ]
     ],
     "obv": [
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -2198,7 +2194,11 @@
       ],
       [
         1792627200000,
-        null
+        166976364.0
+      ],
+      [
+        1792713600000,
+        159782069.0
       ]
     ]
   },
@@ -2245,7 +2245,7 @@
     -0.28,
     -0.41,
     -0.88,
-    0.33,
+    -1.87,
     null,
     null,
     null,

@@ -1,7 +1,7 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector encompasses companies involved in real estate development, management, and services, as well as Equity Real Estate Investment Trusts.",
+    "description": "The Real Estate sector includes companies engaged in real estate development, management, and operations, as well as Equity Real Estate Investment Trusts (REITs).",
     "marketSizeUSD": "1.4T",
     "constituentCount": 31,
     "topHoldings": [
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0216,
-  "change_pct": -0.76,
-  "insights": "Commentary could not be generated due to a persistent network error.",
+  "market_weight": 0.0176,
+  "change_pct": 0.12,
+  "insights": "The Real Estate sector posted a muted session today, edging up a modest 0.12%, though underlying technicals point to a healthy, well-supported market structure. An RSI of 55.54 indicates balanced momentum with a slight bullish bias, leaving ample runway for further upside without entering overbought territory. This price stability is reinforced by strong capital inflows, as evidenced by an MFI of 65.72, while a robust OBV reading of 83,541,287 confirms persistent volume-backed accumulation by investors. Overall, despite the flat daily price action, the technical indicators suggest the sector is undergoing a constructive consolidation backed by steady institutional support.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -746,14 +742,14 @@
       ],
       [
         1792627200000,
-        null
+        55.05
+      ],
+      [
+        1792713600000,
+        55.54
       ]
     ],
     "mfi": [
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -1472,14 +1468,14 @@
       ],
       [
         1792627200000,
-        null
+        57.47
+      ],
+      [
+        1792713600000,
+        65.72
       ]
     ],
     "obv": [
-      [
-        1777075200000,
-        null
-      ],
       [
         1777161600000,
         null
@@ -2198,7 +2194,11 @@
       ],
       [
         1792627200000,
-        null
+        74015072.0
+      ],
+      [
+        1792713600000,
+        83541287.0
       ]
     ]
   },
@@ -2245,7 +2245,7 @@
     -1.8,
     1.96,
     1.32,
-    -0.24,
+    0.97,
     null,
     null,
     null,
