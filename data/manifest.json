@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-10-23T23:55:09.376535Z",
+  "lastUpdated": "2026-10-24T23:03:00.925879Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a benchmark market-capitalization-weighted index tracking the performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "48.5T",
+      "description": "The S&P 500 is a market-capitalization-weighted index that tracks the stock performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "46.0T",
       "constituentCount": 503,
       "topHoldings": [
         {
-          "name": "Apple Inc.",
-          "symbol": "AAPL"
-        },
-        {
           "name": "Microsoft Corporation",
           "symbol": "MSFT"
+        },
+        {
+          "name": "Apple Inc.",
+          "symbol": "AAPL"
         },
         {
           "name": "NVIDIA Corporation",
@@ -20,7 +20,7 @@
         }
       ]
     },
-    "commentary": "The broader stock market experienced a modest pullback today, closing down 0.52% as risk-off sentiment took hold. Technical indicators point to fading bullish momentum and growing short-term caution; the Relative Strength Index (RSI) at 43.69 sits in neutral-to-bearish territory, while the Money Flow Index (MFI) at 39.89 indicates that capital outflows are currently outpacing inflows. Meanwhile, a robust On-Balance Volume (OBV) of 714.8 million reflects sustained high liquidity, suggesting that today\u2019s decline represents orderly profit-taking or healthy consolidation rather than a panic-driven selloff. Overall, the figures signal a market lacking immediate buying catalysts, with sentiment leaning toward watchful defense until key support levels are tested.",
+    "commentary": "The broader stock market experienced a modest pullback today, with the benchmark index closing down 0.52% amid a tone of cautious profit-taking. Technical indicators point to a mild bearish tilt in market momentum, highlighted by a Relative Strength Index (RSI) of 43.69, which reflects weakening buyer enthusiasm without yet dipping into oversold territory. This narrative is supported by a Money Flow Index (MFI) of 39.89, signaling notable capital outflows and sub-50 volume dynamics that favor sellers. However, with On-Balance Volume (OBV) holding firm at 714,848,664, underlying liquidity remains robust, suggesting that today\u2019s dip represents an orderly consolidation driven by short-term distribution rather than a broader structural sell-off.",
     "change_pct": -0.52,
     "technicalIndicators": {
       "rsi": [
