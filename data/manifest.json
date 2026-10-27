@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T23:06:56.533034Z",
+  "lastUpdated": "2026-10-27T00:24:01.284797Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index that tracks the stock performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,26 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader market experienced a modest pullback today, closing down 0.52% as selling pressure edged out buying interest. Momentum has tilted slightly bearish, evidenced by the Relative Strength Index (RSI) sitting at 43.69, which reflects a weakening trend without yet reaching oversold conditions. This subdued price action is corroborated by a Money Flow Index (MFI) of 39.89, signaling that volume-weighted capital is flowing out of equities, while a robust On-Balance Volume (OBV) of approximately 714.8 million indicates steady distribution following recent market moves. Collectively, these technical figures suggest a cautious, risk-off sentiment characterized by waning momentum and disciplined profit-taking, leaving the market in a consolidated posture as investors await fresh catalysts.",
-    "change_pct": -0.52,
+    "commentary": "The stock market posted a solid daily gain of 0.71%, though underlying technical indicators suggest a cautious and consolidating market environment rather than a high-conviction rally. The Relative Strength Index (RSI) at 49.03 sits virtually dead-center, reflecting neutral momentum with neither bulls nor bears asserting control. Meanwhile, a lower Money Flow Index (MFI) of 39.19 points to muted volume-weighted buying pressure, signaling that today\u2019s upward price action occurred on somewhat weak capital inflows. Combined with a substantial On-Balance Volume (OBV) baseline of 746.3 million, the broader picture indicates steady structural liquidity, but market sentiment remains subdued as traders seek clearer directional catalysts before committing aggressive capital.",
+    "change_pct": 0.71,
     "technicalIndicators": {
       "rsi": [
-        [
-          1777161600000,
-          null
-        ],
-        [
-          1777248000000,
-          70.68
-        ],
-        [
-          1777334400000,
-          67.1
-        ],
-        [
-          1777420800000,
-          66.98
-        ],
         [
           1777507200000,
           70.51
@@ -747,25 +731,25 @@
         [
           1792713600000,
           43.69
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1777161600000,
+          1792800000000,
           null
         ],
         [
-          1777248000000,
-          78.82
+          1792886400000,
+          null
         ],
         [
-          1777334400000,
-          71.16
+          1792972800000,
+          49.03
         ],
         [
-          1777420800000,
-          64.49
-        ],
+          1793059200000,
+          null
+        ]
+      ],
+      "mfi": [
         [
           1777507200000,
           65.68
@@ -1473,25 +1457,25 @@
         [
           1792713600000,
           39.89
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1777161600000,
+          1792800000000,
           null
         ],
         [
-          1777248000000,
-          1003846065.0
+          1792886400000,
+          null
         ],
         [
-          1777334400000,
-          960728665.0
+          1792972800000,
+          39.19
         ],
         [
-          1777420800000,
-          918869465.0
-        ],
+          1793059200000,
+          null
+        ]
+      ],
+      "obv": [
         [
           1777507200000,
           981690550.0
@@ -2199,6 +2183,22 @@
         [
           1792713600000,
           714848664.0
+        ],
+        [
+          1792800000000,
+          null
+        ],
+        [
+          1792886400000,
+          null
+        ],
+        [
+          1792972800000,
+          746303461.0
+        ],
+        [
+          1793059200000,
+          null
         ]
       ]
     },
@@ -2246,7 +2246,7 @@
       1.16,
       -1.97,
       -0.43,
-      null,
+      0.71,
       null,
       null,
       null,
