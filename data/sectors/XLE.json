@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, marketing, storage, and transportation of oil, gas, coal, and consumable fuels, as well as energy equipment and services.",
-    "marketSizeUSD": "3.5T",
+    "description": "The Energy sector encompasses companies involved in the exploration, production, refining, transportation, and equipment services for oil, natural gas, and consumable fuels.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 22,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0441,
-  "change_pct": 0.45,
-  "insights": "The Energy sector posted a modest gain of 0.45% today, though underlying technicals suggest the current rally may be approaching a short-term consolidation phase. Both the Relative Strength Index (RSI) at 70.35 and the Money Flow Index (MFI) at 75.05 have crossed into overbought territory, indicating intense buying pressure and heavy capital inflows that could limit further immediate upside without a brief pullback. However, the robust On-Balance Volume (OBV) of approximately 1.52 billion confirms strong institutional accumulation and healthy volume backing the broader uptrend, suggesting that while the sector is tactically stretched in the near term, the primary bullish momentum remains intact.",
+  "market_weight": 0.0219,
+  "change_pct": -2.05,
+  "insights": "The Energy sector experienced a sharp single-day pullback today, declining -2.05%, which appears to be a healthy pause driven by short-term profit-taking rather than a structural trend reversal. Despite today's drop, key momentum indicators signal underlying strength: the RSI at 60.88 remains firmly in bullish territory above the 50-neutral level, while an MFI of 68.46 highlights strong recent buying pressure and capital inflows that are merely cooling off from near-overbought conditions. Furthermore, a massive On-Balance Volume (OBV) of nearly 1.49 billion demonstrates that broader institutional accumulation remains intact, suggesting that today's selling pressure lacks the heavy volume needed to derail the sector's prevailing medium-term uptrend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1777507200000,
-        61.97
-      ],
       [
         1777593600000,
         56.82
@@ -746,14 +742,14 @@
       ],
       [
         1793059200000,
+        60.88
+      ],
+      [
+        1793145600000,
         null
       ]
     ],
     "mfi": [
-      [
-        1777507200000,
-        63.1
-      ],
       [
         1777593600000,
         56.37
@@ -1472,14 +1468,14 @@
       ],
       [
         1793059200000,
+        68.46
+      ],
+      [
+        1793145600000,
         null
       ]
     ],
     "obv": [
-      [
-        1777507200000,
-        1123257927.0
-      ],
       [
         1777593600000,
         1088157177.0
@@ -2198,6 +2194,10 @@
       ],
       [
         1793059200000,
+        1491747205.0
+      ],
+      [
+        1793145600000,
         null
       ]
     ]
@@ -2246,7 +2246,7 @@
     3.6,
     4.86,
     1.6,
-    0.45,
+    -1.62,
     null,
     null,
     null,

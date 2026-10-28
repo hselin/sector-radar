@@ -1,7 +1,7 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that manufacture and sell essential non-discretionary products such as food, beverages, household goods, and personal care items.",
+    "description": "The Consumer Staples sector consists of companies that produce and distribute essential products such as food, beverages, household items, and personal care goods that maintain steady demand regardless of the economic environment.",
     "marketSizeUSD": "4.2T",
     "constituentCount": 38,
     "topHoldings": [
@@ -10,24 +10,20 @@
         "symbol": "WMT"
       },
       {
-        "name": "The Procter & Gamble Company",
+        "name": "Procter & Gamble Co.",
         "symbol": "PG"
       },
       {
-        "name": "Costco Wholesale Corporation",
+        "name": "Costco Wholesale Corp.",
         "symbol": "COST"
       }
     ]
   },
-  "market_weight": 0.0529,
-  "change_pct": -0.34,
-  "insights": "The Consumer Staples sector experienced a minor pullback today, closing down 0.34%, which reflects routine profit-taking rather than a structural shift in sentiment. Technical indicators suggest the broader uptrend remains healthy: an RSI of 62.24 demonstrates solid bullish momentum, while an elevated Money Flow Index (MFI) of 70.77 highlights that strong recent inflows had pushed the sector into near-overbought territory, making a short-term consolidation likely. Furthermore, a robust On-Balance Volume (OBV) of over 80.2 million confirms ongoing institutional accumulation, indicating that underlying buying demand remains strong despite today's slight dip.",
+  "market_weight": 0.0541,
+  "change_pct": -0.92,
+  "insights": "The Consumer Staples sector experienced a modest pullback today, declining -0.92%, yet underlying technical indicators suggest the broader trend remains fundamentally healthy. An RSI of 57.94 indicates comfortable, non-overbought momentum, signaling that today\u2019s dip is likely a routine consolidation rather than a trend reversal. Furthermore, an elevated Money Flow Index (MFI) of 65.28 paired with a robust On-Balance Volume (OBV) of 67.39 million demonstrates sustained capital inflows and institutional accumulation, implying that buying pressure remains intact despite short-term profit-taking in this defensive sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1777507200000,
-        58.74
-      ],
       [
         1777593600000,
         57.8
@@ -746,14 +742,14 @@
       ],
       [
         1793059200000,
+        57.94
+      ],
+      [
+        1793145600000,
         null
       ]
     ],
     "mfi": [
-      [
-        1777507200000,
-        59.19
-      ],
       [
         1777593600000,
         66.08
@@ -1472,14 +1468,14 @@
       ],
       [
         1793059200000,
+        65.28
+      ],
+      [
+        1793145600000,
         null
       ]
     ],
     "obv": [
-      [
-        1777507200000,
-        96907801.0
-      ],
       [
         1777593600000,
         84015051.0
@@ -2198,6 +2194,10 @@
       ],
       [
         1793059200000,
+        67392356.0
+      ],
+      [
+        1793145600000,
         null
       ]
     ]
@@ -2246,7 +2246,7 @@
     3.6,
     5.02,
     0.73,
-    -0.34,
+    -1.26,
     null,
     null,
     null,

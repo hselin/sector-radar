@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T00:24:01.284797Z",
+  "lastUpdated": "2026-10-28T00:28:15.086375Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index that tracks the stock performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market posted a solid daily gain of 0.71%, though underlying technical indicators suggest a cautious and consolidating market environment rather than a high-conviction rally. The Relative Strength Index (RSI) at 49.03 sits virtually dead-center, reflecting neutral momentum with neither bulls nor bears asserting control. Meanwhile, a lower Money Flow Index (MFI) of 39.19 points to muted volume-weighted buying pressure, signaling that today\u2019s upward price action occurred on somewhat weak capital inflows. Combined with a substantial On-Balance Volume (OBV) baseline of 746.3 million, the broader picture indicates steady structural liquidity, but market sentiment remains subdued as traders seek clearer directional catalysts before committing aggressive capital.",
-    "change_pct": 0.71,
+    "commentary": "The stock market posted a modest gain today, advancing 0.56% in a session characterized by steady consolidation and balanced investor sentiment. Technical indicators reflect a stable yet cautious momentum profile: the Relative Strength Index (RSI) at 52.86 sits comfortably in neutral territory, confirming mild upward momentum without the risk of being overbought. However, the Money Flow Index (MFI) at 42.74 signals subtle capital outflows, suggesting that today\u2019s price gains drifted higher on lighter institutional buying pressure rather than an aggressive influx of capital. Supported by a robust On-Balance Volume (OBV) baseline of 774.37 million, the overall picture points to a market in a healthy holding pattern\u2014one where underlying sentiment remains cautiously optimistic, but buyers are awaiting stronger catalysts before driving a decisive breakout.",
+    "change_pct": 0.56,
     "technicalIndicators": {
       "rsi": [
-        [
-          1777507200000,
-          70.51
-        ],
         [
           1777593600000,
           71.43
@@ -746,14 +742,14 @@
         ],
         [
           1793059200000,
+          52.86
+        ],
+        [
+          1793145600000,
           null
         ]
       ],
       "mfi": [
-        [
-          1777507200000,
-          65.68
-        ],
         [
           1777593600000,
           65.02
@@ -1472,14 +1468,14 @@
         ],
         [
           1793059200000,
+          42.74
+        ],
+        [
+          1793145600000,
           null
         ]
       ],
       "obv": [
-        [
-          1777507200000,
-          981690550.0
-        ],
         [
           1777593600000,
           1019388656.0
@@ -2198,6 +2194,10 @@
         ],
         [
           1793059200000,
+          774374993.0
+        ],
+        [
+          1793145600000,
           null
         ]
       ]
@@ -2246,7 +2246,7 @@
       1.16,
       -1.97,
       -0.43,
-      0.71,
+      1.28,
       null,
       null,
       null,
