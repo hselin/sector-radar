@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in capital goods manufacturing, commercial and professional services, and transportation services.",
-    "marketSizeUSD": "11.5T",
+    "description": "The Industrials sector encompasses companies involved in capital goods, transportation, and commercial and professional services.",
+    "marketSizeUSD": "5.2T",
     "constituentCount": 78,
     "topHoldings": [
       {
-        "name": "General Electric Company",
+        "name": "GE Aerospace",
         "symbol": "GE"
       },
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.148,
-  "change_pct": 0.57,
-  "insights": "The Industrials sector logged a modest gain of 0.57% today, pointing to a slight uptick in performance that remains constrained by neutral-to-weak underlying momentum metrics. An RSI of 47.11 places the sector in neutral territory, signaling a lack of strong directional bias from momentum traders, while a lower Money Flow Index (MFI) of 35.34 reveals that buying volume was relatively muted despite the positive price movement. However, a robust On-Balance Volume (OBV) of 172.6 million establishes a solid cumulative volume baseline, suggesting that institutional positions remain intact even as market participants adopt a cautious, wait-and-see approach before driving a broader rally.",
+  "market_weight": 0.0747,
+  "change_pct": -1.6,
+  "insights": "The Industrials sector faced broad-based selling pressure today, pulling back **-1.60%** as technical indicators signaled a clear shift toward bearish sentiment. Price momentum has weakened, as evidenced by a Relative Strength Index (RSI) of **45.91** slipping below the neutral 50 mark, while a Money Flow Index (MFI) of **39.59** highlights accelerating capital outflows and fading buyer enthusiasm. Supported by a elevated On-Balance Volume (OBV) baseline of **177.96 million**, this volume-backed contraction reflects steady distribution rather than low-liquidity noise; however, with metrics not yet entering deep oversold territory (typically below 30), the sector may experience additional downside testing before establishing a firm technical bottom.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1777593600000,
-        55.29
-      ],
-      [
-        1777680000000,
-        null
-      ],
-      [
-        1777766400000,
-        null
-      ],
       [
         1777852800000,
         50.99
@@ -746,22 +734,22 @@
       ],
       [
         1793145600000,
+        48.95
+      ],
+      [
+        1793232000000,
+        53.93
+      ],
+      [
+        1793318400000,
+        45.91
+      ],
+      [
+        1793404800000,
         null
       ]
     ],
     "mfi": [
-      [
-        1777593600000,
-        37.23
-      ],
-      [
-        1777680000000,
-        null
-      ],
-      [
-        1777766400000,
-        null
-      ],
       [
         1777852800000,
         32.28
@@ -1472,22 +1460,22 @@
       ],
       [
         1793145600000,
+        43.61
+      ],
+      [
+        1793232000000,
+        45.67
+      ],
+      [
+        1793318400000,
+        39.59
+      ],
+      [
+        1793404800000,
         null
       ]
     ],
     "obv": [
-      [
-        1777593600000,
-        179001971.0
-      ],
-      [
-        1777680000000,
-        null
-      ],
-      [
-        1777766400000,
-        null
-      ],
       [
         1777852800000,
         171386670.0
@@ -2198,6 +2186,18 @@
       ],
       [
         1793145600000,
+        180969962.0
+      ],
+      [
+        1793232000000,
+        188712156.0
+      ],
+      [
+        1793318400000,
+        177962620.0
+      ],
+      [
+        1793404800000,
         null
       ]
     ]
@@ -2246,7 +2246,7 @@
     -0.41,
     -0.88,
     -1.87,
-    2.0,
+    1.69,
     null,
     null,
     null,

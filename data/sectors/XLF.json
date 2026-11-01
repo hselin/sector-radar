@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies involved in banking, investment services, asset management, insurance, and financial transaction processing.",
-    "marketSizeUSD": "10.5T",
+    "description": "The Financials sector encompasses companies providing financial services, including commercial and investment banking, insurance, asset management, consumer finance, and payment processing.",
+    "marketSizeUSD": "9.8T",
     "constituentCount": 72,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1351,
-  "change_pct": -0.25,
-  "insights": "The Financials sector experienced a minor pullback today, declining 0.25%, though underlying technical indicators point to sustained structural strength rather than a broader trend reversal. An RSI of 54.54 reflects a balanced, slightly bullish momentum profile, indicating the sector remains healthy despite today\u2019s minor dip. Concurrently, an elevated Money Flow Index (MFI) of 72.84 signals heavy recent buying pressure pressing into near-overbought territory, suggesting that today's modest loss is likely routine profit-taking following strong capital inflows. Backed by a high cumulative On-Balance Volume (OBV) of nearly 297.9 million, robust volume trends confirm that institutional interest remains intact, favoring near-term consolidation before the sector tests higher levels.",
+  "market_weight": 0.1408,
+  "change_pct": -0.76,
+  "insights": "The Financials sector experienced a minor pullback today, declining -0.76%, which technical indicators suggest is a routine consolidation rather than a structural trend reversal. Despite the daily dip, the Relative Strength Index (RSI) at 58.19 confirms that broader momentum remains comfortably in positive territory without reaching overbought conditions. Concurrently, a Money Flow Index (MFI) of 64.39 signals sustained volume-weighted buying pressure, while a robust On-Balance Volume (OBV) of 318.87 million underscores solid cumulative institutional support. Overall, the underlying technical profile indicates that the sector retains healthy bullish integrity, with today's price action reflecting localized profit-taking rather than broad-based capital outflow.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1777593600000,
-        56.66
-      ],
-      [
-        1777680000000,
-        null
-      ],
-      [
-        1777766400000,
-        null
-      ],
       [
         1777852800000,
         52.29
@@ -746,22 +734,22 @@
       ],
       [
         1793145600000,
+        56.74
+      ],
+      [
+        1793232000000,
+        62.99
+      ],
+      [
+        1793318400000,
+        58.19
+      ],
+      [
+        1793404800000,
         null
       ]
     ],
     "mfi": [
-      [
-        1777593600000,
-        59.1
-      ],
-      [
-        1777680000000,
-        null
-      ],
-      [
-        1777766400000,
-        null
-      ],
       [
         1777852800000,
         50.17
@@ -1472,22 +1460,22 @@
       ],
       [
         1793145600000,
+        71.56
+      ],
+      [
+        1793232000000,
+        71.49
+      ],
+      [
+        1793318400000,
+        64.39
+      ],
+      [
+        1793404800000,
         null
       ]
     ],
     "obv": [
-      [
-        1777593600000,
-        237218636.0
-      ],
-      [
-        1777680000000,
-        null
-      ],
-      [
-        1777766400000,
-        null
-      ],
       [
         1777852800000,
         192860971.0
@@ -2198,6 +2186,18 @@
       ],
       [
         1793145600000,
+        323039572.0
+      ],
+      [
+        1793232000000,
+        355859157.0
+      ],
+      [
+        1793318400000,
+        318870700.0
+      ],
+      [
+        1793404800000,
         null
       ]
     ]
@@ -2246,7 +2246,7 @@
     2.32,
     1.44,
     0.68,
-    -0.04,
+    1.09,
     null,
     null,
     null,

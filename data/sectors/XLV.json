@@ -1,9 +1,9 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector includes companies involved in medical equipment, healthcare services, pharmaceuticals, and biotechnology.",
-    "marketSizeUSD": "6.5T",
-    "constituentCount": 64,
+    "description": "The Health Care sector encompasses companies involved in pharmaceuticals, biotechnology, medical equipment manufacturing, and health care services.",
+    "marketSizeUSD": "8.5T",
+    "constituentCount": 63,
     "topHoldings": [
       {
         "name": "Eli Lilly and Company",
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0837,
-  "change_pct": -0.06,
-  "insights": "The Health Care sector closed essentially flat today, slipping by a modest -0.06% in a session marked by minor consolidation. Despite the slight pullback, short-term momentum remains constructive, as evidenced by an RSI of 63.70 hovering comfortably in bullish territory below overbought levels. This is echoed by a neutral Money Flow Index (MFI) of 51.75, which highlights an even balance between buying and selling pressure throughout the day. However, the negative On-Balance Volume (OBV) of -49.38 million cautions that underlying institutional distribution persists, suggesting that while the sector shows price resilience, a broader influx of volume will be required to spark a sustained upward rally.",
+  "market_weight": 0.1221,
+  "change_pct": 0.45,
+  "insights": "The Health Care sector logged a modest gain of 0.45% today, though technical indicators suggest the rally may be reaching near-term overextended levels. A Relative Strength Index (RSI) of 72.51 pushes the sector firmly into overbought territory, signaling strong upward momentum that heightened the potential for short-term consolidation or a minor pullback. While the Money Flow Index (MFI) at 66.47 indicates healthy, positive capital inflows supporting this price action, the deeply negative On-Balance Volume (OBV) of -6,890,305 reveals a persistent bearish divergence, implying that broader cumulative volume still favors distribution over accumulation. Consequently, while price momentum remains constructive, investors should exercise caution as overbought technicals clash with underlying volume weakness.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1777593600000,
-        45.1
-      ],
-      [
-        1777680000000,
-        null
-      ],
-      [
-        1777766400000,
-        null
-      ],
       [
         1777852800000,
         43.91
@@ -746,22 +734,22 @@
       ],
       [
         1793145600000,
+        64.69
+      ],
+      [
+        1793232000000,
+        71.42
+      ],
+      [
+        1793318400000,
+        72.51
+      ],
+      [
+        1793404800000,
         null
       ]
     ],
     "mfi": [
-      [
-        1777593600000,
-        31.31
-      ],
-      [
-        1777680000000,
-        null
-      ],
-      [
-        1777766400000,
-        null
-      ],
       [
         1777852800000,
         24.0
@@ -1472,22 +1460,22 @@
       ],
       [
         1793145600000,
+        60.01
+      ],
+      [
+        1793232000000,
+        62.79
+      ],
+      [
+        1793318400000,
+        66.47
+      ],
+      [
+        1793404800000,
         null
       ]
     ],
     "obv": [
-      [
-        1777593600000,
-        -81829515.0
-      ],
-      [
-        1777680000000,
-        null
-      ],
-      [
-        1777766400000,
-        null
-      ],
       [
         1777852800000,
         -92699105.0
@@ -2198,6 +2186,18 @@
       ],
       [
         1793145600000,
+        -40547571.0
+      ],
+      [
+        1793232000000,
+        -25565174.0
+      ],
+      [
+        1793318400000,
+        -6890305.0
+      ],
+      [
+        1793404800000,
         null
       ]
     ]
@@ -2246,7 +2246,7 @@
     2.79,
     3.45,
     1.45,
-    -0.06,
+    3.12,
     null,
     null,
     null,

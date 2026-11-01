@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-10-28T00:28:15.086375Z",
+  "lastUpdated": "2026-11-01T00:00:32.657918Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a market-capitalization-weighted index that tracks the stock performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "46.0T",
+      "description": "The S&P 500 is a market-capitalization-weighted index tracking the stock performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "45.5T",
       "constituentCount": 503,
       "topHoldings": [
         {
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market posted a modest gain today, advancing 0.56% in a session characterized by steady consolidation and balanced investor sentiment. Technical indicators reflect a stable yet cautious momentum profile: the Relative Strength Index (RSI) at 52.86 sits comfortably in neutral territory, confirming mild upward momentum without the risk of being overbought. However, the Money Flow Index (MFI) at 42.74 signals subtle capital outflows, suggesting that today\u2019s price gains drifted higher on lighter institutional buying pressure rather than an aggressive influx of capital. Supported by a robust On-Balance Volume (OBV) baseline of 774.37 million, the overall picture points to a market in a healthy holding pattern\u2014one where underlying sentiment remains cautiously optimistic, but buyers are awaiting stronger catalysts before driving a decisive breakout.",
-    "change_pct": 0.56,
+    "commentary": "The stock market experienced a sharp pullback today, declining by 1.77% as selling pressure dominated the session across major indices. Technical indicators highlight a clear shift toward bearish momentum and growing investor risk-aversion: the Relative Strength Index (RSI) at 41.09 reflects accelerating downside momentum while remaining slightly above traditional oversold territory (30), leaving room for further potential weakness. This is corroborated by a Money Flow Index (MFI) of 33.14, which signals significant capital outflows as volume-weighted selling pressure intensifies. Additionally, an On-Balance Volume (OBV) reading of 686,583,393 indicates that high transaction volumes accompanied today's decline, pointing toward active institutional distribution rather than routine profit-taking; altogether, these metrics paint a picture of a cautious market dominated by bears, with participants likely awaiting a clearer technical support level before re-entering.",
+    "change_pct": -1.77,
     "technicalIndicators": {
       "rsi": [
-        [
-          1777593600000,
-          71.43
-        ],
-        [
-          1777680000000,
-          null
-        ],
-        [
-          1777766400000,
-          null
-        ],
         [
           1777852800000,
           68.37
@@ -746,22 +734,22 @@
         ],
         [
           1793145600000,
+          55.1
+        ],
+        [
+          1793232000000,
+          52.13
+        ],
+        [
+          1793318400000,
+          41.09
+        ],
+        [
+          1793404800000,
           null
         ]
       ],
       "mfi": [
-        [
-          1777593600000,
-          65.02
-        ],
-        [
-          1777680000000,
-          null
-        ],
-        [
-          1777766400000,
-          null
-        ],
         [
           1777852800000,
           57.36
@@ -1472,22 +1460,22 @@
         ],
         [
           1793145600000,
+          46.13
+        ],
+        [
+          1793232000000,
+          40.31
+        ],
+        [
+          1793318400000,
+          33.14
+        ],
+        [
+          1793404800000,
           null
         ]
       ],
       "obv": [
-        [
-          1777593600000,
-          1019388656.0
-        ],
-        [
-          1777680000000,
-          null
-        ],
-        [
-          1777766400000,
-          null
-        ],
         [
           1777852800000,
           971367188.0
@@ -2198,6 +2186,18 @@
         ],
         [
           1793145600000,
+          804508793.0
+        ],
+        [
+          1793232000000,
+          764209193.0
+        ],
+        [
+          1793318400000,
+          686583393.0
+        ],
+        [
+          1793404800000,
           null
         ]
       ]
@@ -2246,7 +2246,7 @@
       1.16,
       -1.97,
       -0.43,
-      1.28,
+      -0.56,
       null,
       null,
       null,
