@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses businesses that sell non-essential goods and services, such as automobiles, luxury products, entertainment, and retail, which experience demand fluctuations based on economic conditions and consumer income.",
-    "marketSizeUSD": "4.2T",
+    "description": "The Consumer Discretionary sector encompasses businesses that manufacture non-essential goods and provide discretionary services, including retail, e-commerce, automobiles, luxury items, and leisure equipment.",
+    "marketSizeUSD": "11.5T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0656,
-  "change_pct": -0.71,
-  "insights": "The Consumer Discretionary sector experienced a modest pullback today, closing down 0.71%, which technical indicators suggest is a routine period of digestion rather than a broader trend reversal. An RSI of 57.53 reflects healthy, neutral-to-positive momentum, while an elevated MFI of 69.21\u2014approaching overbought territory\u2014indicates strong recent capital inflows that likely met short-term resistance today. However, the deeply negative On-Balance Volume (OBV) of -27.28 million points to lingering longer-term distribution, signaling that while near-term bullish momentum remains intact, upside potential may remain constrained until broader institutional accumulation firmly takes hold.",
+  "market_weight": 0.1613,
+  "change_pct": 2.41,
+  "insights": "The Consumer Discretionary sector demonstrated strong bullish momentum today with a notable 2.41% gain, supported by an RSI of 65.80 that reflects solid price strength while remaining just shy of traditional overbought territory. However, a deeper look at volume-based technicals reveals a nuanced picture: while an elevated Money Flow Index (MFI) of 70.99 highlights intense intraday buying pressure that crosses into overbought levels, the deeply negative On-Balance Volume (OBV) at -15.57 million indicates a persistent underlying volume divergence. This contrast suggests that while today\u2019s rally benefited from strong short-term capital inflows, sustained upside may be tempered by longer-term net distribution unless broader institutional volume steps in to confirm the trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1777852800000,
-        55.99
-      ],
-      [
-        1777939200000,
-        57.05
-      ],
-      [
-        1778025600000,
-        62.09
-      ],
       [
         1778112000000,
         62.12
@@ -747,21 +735,21 @@
       [
         1793404800000,
         null
+      ],
+      [
+        1793491200000,
+        null
+      ],
+      [
+        1793577600000,
+        65.8
+      ],
+      [
+        1793664000000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1777852800000,
-        46.71
-      ],
-      [
-        1777939200000,
-        45.77
-      ],
-      [
-        1778025600000,
-        47.94
-      ],
       [
         1778112000000,
         46.81
@@ -1473,21 +1461,21 @@
       [
         1793404800000,
         null
+      ],
+      [
+        1793491200000,
+        null
+      ],
+      [
+        1793577600000,
+        70.99
+      ],
+      [
+        1793664000000,
+        null
       ]
     ],
     "obv": [
-      [
-        1777852800000,
-        -25853071.0
-      ],
-      [
-        1777939200000,
-        -19790679.0
-      ],
-      [
-        1778025600000,
-        -10038620.0
-      ],
       [
         1778112000000,
         -2486797.0
@@ -2199,6 +2187,18 @@
       [
         1793404800000,
         null
+      ],
+      [
+        1793491200000,
+        null
+      ],
+      [
+        1793577600000,
+        -15572217.0
+      ],
+      [
+        1793664000000,
+        null
       ]
     ]
   },
@@ -2247,7 +2247,7 @@
     -0.35,
     0.57,
     2.02,
-    null,
+    2.41,
     null,
     null,
     null,
