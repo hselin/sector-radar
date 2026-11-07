@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in capital goods, transportation, and commercial and professional services.",
+    "description": "The Industrials sector includes companies involved in aerospace and defense, industrial machinery, transportation, construction, and commercial services.",
     "marketSizeUSD": "5.2T",
     "constituentCount": 78,
     "topHoldings": [
       {
-        "name": "GE Aerospace",
+        "name": "General Electric Company",
         "symbol": "GE"
       },
       {
@@ -19,27 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0729,
-  "change_pct": 1.38,
-  "insights": "The Industrials sector demonstrated solid momentum today, gaining 1.38% in a move supported by balanced technical fundamentals. A Relative Strength Index (RSI) of 52.37 places the sector in neutral territory with a slight bullish bias, leaving ample room for further upside before encountering overbought conditions. Meanwhile, the Money Flow Index (MFI) at 46.89 suggests that despite today's price appreciation, buying pressure remains controlled and capital inflows are steady rather than speculative. Supported by a robust On-Balance Volume (OBV) baseline of 187.2 million, today's performance reflects sustainable, volume-backed strength, signaling a healthy backdrop for near-term sector stability and potential continued gains.",
+  "market_weight": 0.0728,
+  "change_pct": 0.12,
+  "insights": "The Industrials sector delivered a virtually flat performance today, edging up by a marginal 0.12% as underlying momentum remains subdued. Technical indicators point to a sector currently lacking strong buying conviction: an RSI of 37.64 approaches oversold territory, signaling recent downside pressure, while a Money Flow Index (MFI) of 41.97 highlights weak capital inflows. Despite a solid underlying liquidity foundation evidenced by an On-Balance Volume (OBV) of 173,592,232, today\u2019s slight uptick reflects consolidation rather than a true bullish reversal, suggesting investors are staying on the sidelines until momentum signals improve.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1778112000000,
-        55.08
-      ],
-      [
-        1778198400000,
-        53.47
-      ],
-      [
-        1778284800000,
-        null
-      ],
-      [
-        1778371200000,
-        null
-      ],
       [
         1778457600000,
         56.61
@@ -746,26 +730,26 @@
       ],
       [
         1793664000000,
+        56.28
+      ],
+      [
+        1793750400000,
+        51.06
+      ],
+      [
+        1793836800000,
+        37.11
+      ],
+      [
+        1793923200000,
+        37.64
+      ],
+      [
+        1794009600000,
         null
       ]
     ],
     "mfi": [
-      [
-        1778112000000,
-        39.57
-      ],
-      [
-        1778198400000,
-        39.52
-      ],
-      [
-        1778284800000,
-        null
-      ],
-      [
-        1778371200000,
-        null
-      ],
       [
         1778457600000,
         45.34
@@ -1472,26 +1456,26 @@
       ],
       [
         1793664000000,
+        55.8
+      ],
+      [
+        1793750400000,
+        53.59
+      ],
+      [
+        1793836800000,
+        42.56
+      ],
+      [
+        1793923200000,
+        41.97
+      ],
+      [
+        1794009600000,
         null
       ]
     ],
     "obv": [
-      [
-        1778112000000,
-        177421583.0
-      ],
-      [
-        1778198400000,
-        171542640.0
-      ],
-      [
-        1778284800000,
-        null
-      ],
-      [
-        1778371200000,
-        null
-      ],
       [
         1778457600000,
         177342118.0
@@ -2198,6 +2182,22 @@
       ],
       [
         1793664000000,
+        197071657.0
+      ],
+      [
+        1793750400000,
+        184777205.0
+      ],
+      [
+        1793836800000,
+        165542709.0
+      ],
+      [
+        1793923200000,
+        173592232.0
+      ],
+      [
+        1794009600000,
         null
       ]
     ]
@@ -2247,7 +2247,7 @@
     -0.88,
     -1.87,
     1.69,
-    1.38,
+    -2.83,
     null,
     null,
     null,

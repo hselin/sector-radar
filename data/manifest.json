@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-11-03T02:56:13.372468Z",
+  "lastUpdated": "2026-11-07T00:55:16.689192Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a market-capitalization-weighted index tracking the stock performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "45.5T",
+      "description": "The S&P 500 is a market-capitalization-weighted index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "46.0T",
       "constituentCount": 503,
       "topHoldings": [
         {
@@ -20,26 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market experienced a modest pullback today, with major indexes closing down 0.48% as cautious sentiment weighed on asset prices. Technical momentum is currently tilting downward, as evidenced by the Relative Strength Index (RSI) at 38.74, which signals weakening bullish momentum and an approach toward oversold territory. This is further reinforced by a Money Flow Index (MFI) of 40.02, reflecting subdued buying pressure and light net capital outflows. Meanwhile, an On-Balance Volume (OBV) level of 635,914,593 indicates steady, orderly distribution rather than panic-driven selling. Overall, these metrics suggest a market in a soft consolidation phase, where prevailing bearish momentum and hesitant institutional participation leave equities searching for a firm support level in the near term.",
-    "change_pct": -0.48,
+    "commentary": "The stock market managed a modest gain today, closing up 0.31%, though underlying technical indicators reveal lingering fragility in overall market momentum. An RSI of 35.45 sits near oversold territory, signaling that recent selling pressure has depleted upside strength, while a Money Flow Index (MFI) of 39.33 reflects muted capital inflows and cautious institutional sentiment. Despite this sluggish momentum, an On-Balance Volume (OBV) of over 663 million indicates that a healthy foundation of cumulative liquidity remains intact. Taken together, today's slight uptick appears to be a tentative relief bounce within a weakened, near-oversold market, suggesting that while downside pressure may be slowing, investors are awaiting stronger buying catalysts before committing to a conviction-led rally.",
+    "change_pct": 0.31,
     "technicalIndicators": {
       "rsi": [
-        [
-          1778112000000,
-          72.9
-        ],
-        [
-          1778198400000,
-          75.33
-        ],
-        [
-          1778284800000,
-          null
-        ],
-        [
-          1778371200000,
-          null
-        ],
         [
           1778457600000,
           75.98
@@ -746,26 +730,26 @@
         ],
         [
           1793664000000,
+          41.0
+        ],
+        [
+          1793750400000,
+          51.61
+        ],
+        [
+          1793836800000,
+          33.83
+        ],
+        [
+          1793923200000,
+          35.45
+        ],
+        [
+          1794009600000,
           null
         ]
       ],
       "mfi": [
-        [
-          1778112000000,
-          55.83
-        ],
-        [
-          1778198400000,
-          62.52
-        ],
-        [
-          1778284800000,
-          null
-        ],
-        [
-          1778371200000,
-          null
-        ],
         [
           1778457600000,
           70.74
@@ -1472,26 +1456,26 @@
         ],
         [
           1793664000000,
+          41.63
+        ],
+        [
+          1793750400000,
+          50.6
+        ],
+        [
+          1793836800000,
+          46.14
+        ],
+        [
+          1793923200000,
+          39.33
+        ],
+        [
+          1794009600000,
           null
         ]
       ],
       "obv": [
-        [
-          1778112000000,
-          1009864688.0
-        ],
-        [
-          1778198400000,
-          1055936222.0
-        ],
-        [
-          1778284800000,
-          null
-        ],
-        [
-          1778371200000,
-          null
-        ],
         [
           1778457600000,
           1098617548.0
@@ -2198,6 +2182,22 @@
         ],
         [
           1793664000000,
+          668806193.0
+        ],
+        [
+          1793750400000,
+          730932593.0
+        ],
+        [
+          1793836800000,
+          605039793.0
+        ],
+        [
+          1793923200000,
+          663241572.0
+        ],
+        [
+          1794009600000,
           null
         ]
       ]
@@ -2247,7 +2247,7 @@
       -1.97,
       -0.43,
       -0.56,
-      -0.48,
+      -2.7,
       null,
       null,
       null,
