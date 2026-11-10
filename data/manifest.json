@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T00:40:44.256317Z",
+  "lastUpdated": "2026-11-10T03:25:54.176377Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market posted a modest gain of 0.31% today, offering a brief reprieve from recent downside pressure, though underlying technical indicators suggest broader sentiment remains cautious and leaning bearish. Despite the positive session, momentum stays subdued: an RSI of 35.45 sits near oversold territory, while a Money Flow Index (MFI) of 39.33 highlights persistent capital outflows and a lack of aggressive buying interest. Concurrently, an On-Balance Volume (OBV) reading of 663,241,572 indicates that volume is holding steady at lower levels, suggesting today\u2019s performance reflects a tentative stabilization or short-term technical bounce rather than the start of a high-conviction bullish reversal.",
-    "change_pct": 0.31,
+    "commentary": "The stock market staged a robust session today, closing up 2.37% as buyers stepped in to drive a sharp single-day rally. However, broader technical indicators suggest that underlying market momentum remains cautious despite the strong price action. The Relative Strength Index (RSI) at 46.24 and the Money Flow Index (MFI) at 40.58 both sit in sub-50 neutral territory, signaling that the broader trend has yet to shift into definitive bullish territory and that buying pressure lacks aggressive volume confirmation. Meanwhile, an On-Balance Volume (OBV) of over 713 million reflects a solid baseline of market participation, though the subdued MFI implies today's gain may represent a short-term relief bounce rather than a sustained institutional accumulation phase. Overall, market sentiment is tentatively optimistic, but confirmation of a longer-term trend reversal will require RSI and MFI readings to push decisively higher.",
+    "change_pct": 2.37,
     "technicalIndicators": {
       "rsi": [
-        [
-          1778457600000,
-          75.98
-        ],
-        [
-          1778544000000,
-          74.58
-        ],
-        [
-          1778630400000,
-          76.31
-        ],
         [
           1778716800000,
           78.55
@@ -747,21 +735,21 @@
         [
           1794009600000,
           null
+        ],
+        [
+          1794096000000,
+          null
+        ],
+        [
+          1794182400000,
+          46.24
+        ],
+        [
+          1794268800000,
+          null
         ]
       ],
       "mfi": [
-        [
-          1778457600000,
-          70.74
-        ],
-        [
-          1778544000000,
-          63.07
-        ],
-        [
-          1778630400000,
-          70.79
-        ],
         [
           1778716800000,
           70.9
@@ -1473,21 +1461,21 @@
         [
           1794009600000,
           null
+        ],
+        [
+          1794096000000,
+          null
+        ],
+        [
+          1794182400000,
+          40.58
+        ],
+        [
+          1794268800000,
+          null
         ]
       ],
       "obv": [
-        [
-          1778457600000,
-          1098617548.0
-        ],
-        [
-          1778544000000,
-          1045848891.0
-        ],
-        [
-          1778630400000,
-          1083349447.0
-        ],
         [
           1778716800000,
           1128133086.0
@@ -2199,6 +2187,18 @@
         [
           1794009600000,
           null
+        ],
+        [
+          1794096000000,
+          null
+        ],
+        [
+          1794182400000,
+          713310772.0
+        ],
+        [
+          1794268800000,
+          null
         ]
       ]
     },
@@ -2248,7 +2248,7 @@
       -0.43,
       -0.56,
       -2.7,
-      null,
+      2.37,
       null,
       null,
       null,

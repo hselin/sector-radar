@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses businesses that manufacture non-essential goods and provide discretionary services, including retail, e-commerce, automobiles, luxury items, and leisure equipment.",
-    "marketSizeUSD": "11.5T",
+    "description": "The Consumer Discretionary sector encompasses businesses that produce non-essential goods and services, such as retail, automotive, leisure, and apparel, whose demand fluctuates based on economic cycles and consumer spending.",
+    "marketSizeUSD": "10.5T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,23 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1611,
-  "change_pct": -0.05,
-  "insights": "The Consumer Discretionary sector traded essentially flat today, slipping a marginal -0.05% in a session defined by consolidation rather than active selling. Technical indicators present a stable, neutral-to-constructive backdrop: an RSI of 56.46 indicates that underlying bullish momentum remains intact without reaching overbought levels, while an MFI of 51.14 reflects a balanced equilibrium between buying and selling pressure. However, the deeply negative On-Balance Volume (OBV) of -39.1 million points to lingering historical distribution, suggesting that while short-term price action is holding steady, a stronger influx of volume will be required to propel the sector past current resistance.",
+  "market_weight": 0.1491,
+  "change_pct": 2.92,
+  "insights": "The Consumer Discretionary sector delivered a strong performance today, surging 2.92% as short-term upside momentum accelerated. The Relative Strength Index (RSI) of 63.25 reflects robust buying interest while leaving headroom before reaching overbought territory (>70). However, the Money Flow Index (MFI) at a neutral 51.64 indicates that today's price rally was not backed by aggressive, volume-weighted institutional inflows. Furthermore, the deeply negative On-Balance Volume (OBV) of -30.7 million creates a notable bearish divergence, highlighting that broader cumulative distribution remains a headwind despite the day's gains. Overall, while short-term price action is decisively bullish, underlying volume metrics suggest investors should monitor whether sustained capital will enter the sector to support this momentum.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1778457600000,
-        59.11
-      ],
-      [
-        1778544000000,
-        54.39
-      ],
-      [
-        1778630400000,
-        55.9
-      ],
       [
         1778716800000,
         55.67
@@ -747,21 +735,21 @@
       [
         1794009600000,
         null
+      ],
+      [
+        1794096000000,
+        null
+      ],
+      [
+        1794182400000,
+        63.25
+      ],
+      [
+        1794268800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1778457600000,
-        52.9
-      ],
-      [
-        1778544000000,
-        52.43
-      ],
-      [
-        1778630400000,
-        58.14
-      ],
       [
         1778716800000,
         58.29
@@ -1473,21 +1461,21 @@
       [
         1794009600000,
         null
+      ],
+      [
+        1794096000000,
+        null
+      ],
+      [
+        1794182400000,
+        51.64
+      ],
+      [
+        1794268800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1778457600000,
-        -2164657.0
-      ],
-      [
-        1778544000000,
-        -8420263.0
-      ],
-      [
-        1778630400000,
-        -4001036.0
-      ],
       [
         1778716800000,
         -9891624.0
@@ -2199,6 +2187,18 @@
       [
         1794009600000,
         null
+      ],
+      [
+        1794096000000,
+        null
+      ],
+      [
+        1794182400000,
+        -30698955.0
+      ],
+      [
+        1794268800000,
+        null
       ]
     ]
   },
@@ -2248,7 +2248,7 @@
     0.57,
     2.02,
     1.91,
-    null,
+    2.92,
     null,
     null,
     null,
