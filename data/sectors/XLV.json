@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in medical services, equipment, pharmaceuticals, biotechnology, and life sciences research.",
-    "marketSizeUSD": "9.5T",
+    "description": "The Health Care sector encompasses companies involved in medical equipment and supplies, healthcare services and facilities, pharmaceuticals, and biotechnology research.",
+    "marketSizeUSD": "10.5T",
     "constituentCount": 64,
     "topHoldings": [
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1349,
-  "change_pct": 1.91,
-  "insights": "The Health Care sector posted a strong session today, gaining 1.91% as bullish price momentum accelerated. This upward move is reflected in the Relative Strength Index (RSI) at 67.75, which indicates powerful short-term buying pressure that is now approaching overbought territory. However, volume-based indicators suggest a degree of underlying caution: the Money Flow Index (MFI) remains neutral at 49.64, and the On-Balance Volume (OBV) stands at -44.88 million, revealing a notable divergence between rising prices and lagging capital inflows. While the sector's immediate trajectory is firmly positive, this lack of broader institutional volume confirmation indicates that the rally may be vulnerable to near-term consolidation if sustained buying volume fails to materialize.",
+  "market_weight": 0.145,
+  "change_pct": 0.04,
+  "insights": "The Health Care sector experienced a muted session today, edging up by a modest 0.04% in a period of clear consolidation. From a technical perspective, the elevated Relative Strength Index (RSI) of 68.53 indicates robust short-term momentum approaching overbought territory, suggesting the sector's recent uptrend may be maturing. This is supported by a Money Flow Index (MFI) of 54.16, which reflects balanced cash flows and a temporary pause in aggressive buying pressure. However, the significantly negative On-Balance Volume (OBV) of -27.7 million presents a notable bearish divergence, signaling that broader price gains are currently lacking strong institutional volume backing. Overall, while price momentum remains firm, the mixed technical picture points toward limited immediate upside and an increased likelihood of near-term range-bound trading or profit-taking.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1778716800000,
-        52.43
-      ],
-      [
-        1778803200000,
-        47.07
-      ],
       [
         1778889600000,
         null
@@ -746,18 +738,18 @@
       ],
       [
         1794268800000,
+        68.44
+      ],
+      [
+        1794355200000,
+        68.53
+      ],
+      [
+        1794441600000,
         null
       ]
     ],
     "mfi": [
-      [
-        1778716800000,
-        54.02
-      ],
-      [
-        1778803200000,
-        53.02
-      ],
       [
         1778889600000,
         null
@@ -1472,18 +1464,18 @@
       ],
       [
         1794268800000,
+        54.55
+      ],
+      [
+        1794355200000,
+        54.16
+      ],
+      [
+        1794441600000,
         null
       ]
     ],
     "obv": [
-      [
-        1778716800000,
-        -80463736.0
-      ],
-      [
-        1778803200000,
-        -89488784.0
-      ],
       [
         1778889600000,
         null
@@ -2198,6 +2190,14 @@
       ],
       [
         1794268800000,
+        -35961008.0
+      ],
+      [
+        1794355200000,
+        -27706035.0
+      ],
+      [
+        1794441600000,
         null
       ]
     ]
@@ -2248,7 +2248,7 @@
     1.45,
     3.12,
     -0.04,
-    1.91,
+    2.25,
     null,
     null,
     null,

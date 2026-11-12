@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector includes companies involved in aerospace and defense, industrial machinery, transportation, construction, and commercial services.",
-    "marketSizeUSD": "5.2T",
+    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing commercial services, and supplying transportation services.",
+    "marketSizeUSD": "5.8T",
     "constituentCount": 78,
     "topHoldings": [
       {
-        "name": "General Electric Company",
+        "name": "GE Aerospace",
         "symbol": "GE"
       },
       {
@@ -19,19 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0739,
-  "change_pct": 3.82,
-  "insights": "The Industrials sector posted a robust performance today with a 3.82% gain, demonstrating strong short-term bullish momentum. Interestingly, despite this sharp upward move, key momentum oscillators remain remarkably balanced; the Relative Strength Index (RSI) at 51.26 and the Money Flow Index (MFI) at 48.99 both sit squarely in neutral territory, suggesting the sector is far from overbought conditions and has ample headroom for continued upside. Furthermore, a solid On-Balance Volume (OBV) baseline of 182.7 million underscores sustained liquidity and institutional support, indicating that today's advance is grounded in steady market participation rather than speculative overextension.",
+  "market_weight": 0.0801,
+  "change_pct": 1.33,
+  "insights": "The Industrials sector demonstrated solid strength today, advancing 1.33% backed by steady institutional accumulation. Technical momentum remains constructively bullish, as both the Relative Strength Index (RSI) at 55.03 and the Money Flow Index (MFI) at 55.10 sit comfortably above the neutral 50 threshold, reflecting healthy buying pressure and positive capital inflows without entering overbought territory. This balanced momentum is further validated by an On-Balance Volume (OBV) of approximately 184.1 million, confirming that today's price appreciation is driven by genuine volume conviction and leaving ample runway for continued near-term upside.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1778716800000,
-        55.22
-      ],
-      [
-        1778803200000,
-        48.45
-      ],
       [
         1778889600000,
         null
@@ -746,18 +738,18 @@
       ],
       [
         1794268800000,
+        50.95
+      ],
+      [
+        1794355200000,
+        55.03
+      ],
+      [
+        1794441600000,
         null
       ]
     ],
     "mfi": [
-      [
-        1778716800000,
-        44.08
-      ],
-      [
-        1778803200000,
-        43.63
-      ],
       [
         1778889600000,
         null
@@ -1472,18 +1464,18 @@
       ],
       [
         1794268800000,
+        48.24
+      ],
+      [
+        1794355200000,
+        55.1
+      ],
+      [
+        1794441600000,
         null
       ]
     ],
     "obv": [
-      [
-        1778716800000,
-        171460117.0
-      ],
-      [
-        1778803200000,
-        163638023.0
-      ],
       [
         1778889600000,
         null
@@ -2198,6 +2190,14 @@
       ],
       [
         1794268800000,
+        177360717.0
+      ],
+      [
+        1794355200000,
+        184097109.0
+      ],
+      [
+        1794441600000,
         null
       ]
     ]
@@ -2248,7 +2248,7 @@
     -1.87,
     1.69,
     -2.83,
-    3.82,
+    5.1,
     null,
     null,
     null,

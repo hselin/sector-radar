@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-10T03:25:54.176377Z",
+  "lastUpdated": "2026-11-12T02:19:33.672890Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,18 +20,10 @@
         }
       ]
     },
-    "commentary": "The stock market staged a robust session today, closing up 2.37% as buyers stepped in to drive a sharp single-day rally. However, broader technical indicators suggest that underlying market momentum remains cautious despite the strong price action. The Relative Strength Index (RSI) at 46.24 and the Money Flow Index (MFI) at 40.58 both sit in sub-50 neutral territory, signaling that the broader trend has yet to shift into definitive bullish territory and that buying pressure lacks aggressive volume confirmation. Meanwhile, an On-Balance Volume (OBV) of over 713 million reflects a solid baseline of market participation, though the subdued MFI implies today's gain may represent a short-term relief bounce rather than a sustained institutional accumulation phase. Overall, market sentiment is tentatively optimistic, but confirmation of a longer-term trend reversal will require RSI and MFI readings to push decisively higher.",
-    "change_pct": 2.37,
+    "commentary": "The stock market experienced a modest pullback today, closing down 0.37% in a session characterized by cautious profit-taking and consolidation. Momentum indicators point toward a mild bearish tilt, as a Relative Strength Index (RSI) of 44.95 reflects weakening buying pressure, remaining below the neutral 50-mark without yet dipping into oversold territory. This loss of upward traction is underscored by a Money Flow Index (MFI) of 38.55, signaling steady capital outflows and reduced institutional buying enthusiasm. While an On-Balance Volume (OBV) of 672.61 million confirms robust baseline market liquidity, the negative price action alongside these declining momentum metrics suggests that selling distribution currently outweighs accumulation. Overall, market sentiment leans defensive in the near term, with traders seemingly awaiting stronger catalysts before committing new capital.",
+    "change_pct": -0.37,
     "technicalIndicators": {
       "rsi": [
-        [
-          1778716800000,
-          78.55
-        ],
-        [
-          1778803200000,
-          67.94
-        ],
         [
           1778889600000,
           null
@@ -746,18 +738,18 @@
         ],
         [
           1794268800000,
+          44.95
+        ],
+        [
+          1794355200000,
+          44.95
+        ],
+        [
+          1794441600000,
           null
         ]
       ],
       "mfi": [
-        [
-          1778716800000,
-          70.9
-        ],
-        [
-          1778803200000,
-          62.98
-        ],
         [
           1778889600000,
           null
@@ -1472,18 +1464,18 @@
         ],
         [
           1794268800000,
+          35.6
+        ],
+        [
+          1794355200000,
+          38.55
+        ],
+        [
+          1794441600000,
           null
         ]
       ],
       "obv": [
-        [
-          1778716800000,
-          1128133086.0
-        ],
-        [
-          1778803200000,
-          1068552708.0
-        ],
         [
           1778889600000,
           null
@@ -2198,6 +2190,14 @@
         ],
         [
           1794268800000,
+          672612172.0
+        ],
+        [
+          1794355200000,
+          672612172.0
+        ],
+        [
+          1794441600000,
           null
         ]
       ]
@@ -2248,7 +2248,7 @@
       -0.43,
       -0.56,
       -2.7,
-      2.37,
+      1.99,
       null,
       null,
       null,
