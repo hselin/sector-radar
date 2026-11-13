@@ -1,7 +1,7 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector encompasses real estate investment trusts across various sub-industries alongside real estate management and development companies.",
+    "description": "The Real Estate sector includes companies engaged in real estate development, operation, management, and Real Estate Investment Trusts (REITs).",
     "marketSizeUSD": "1.4T",
     "constituentCount": 31,
     "topHoldings": [
@@ -20,14 +20,10 @@
     ]
   },
   "market_weight": 0.0193,
-  "change_pct": 0.02,
-  "insights": "The Real Estate sector traded virtually flat today, edging up by just 0.02%, reflecting a brief period of intraday consolidation. However, underlying technicals point to sustained structural strength: an RSI of 63.53 and an MFI of 63.44 both signal robust price momentum and steady capital inflows without yet breaching overbought territory (>70). Supported by a solid On-Balance Volume (OBV) of 105.4 million, these indicators suggest that institutional accumulation remains intact, framing today's muted price action as a healthy breather within a broader positive trend rather than a loss of buying interest.",
+  "change_pct": -0.52,
+  "insights": "The Real Estate sector experienced a minor pullback today, closing down 0.52%, though underlying technical indicators suggest this is a routine period of short-term consolidation rather than a shift in market structure. An RSI of 60.77 indicates that bullish momentum remains intact without reaching overbought conditions, while an MFI of 57.21 confirms that positive capital inflows continue to support the sector despite today's price decline. Furthermore, a robust On-Balance Volume (OBV) of nearly 99.8 million reflects sustained buying pressure and institutional interest on broader timeframes. Overall, today's modest decline appears to be healthy profit-taking within a broader, resilient trend.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1778889600000,
-        null
-      ],
       [
         1778976000000,
         null
@@ -746,14 +742,14 @@
       ],
       [
         1794441600000,
+        60.77
+      ],
+      [
+        1794528000000,
         null
       ]
     ],
     "mfi": [
-      [
-        1778889600000,
-        null
-      ],
       [
         1778976000000,
         null
@@ -1472,14 +1468,14 @@
       ],
       [
         1794441600000,
+        57.21
+      ],
+      [
+        1794528000000,
         null
       ]
     ],
     "obv": [
-      [
-        1778889600000,
-        null
-      ],
       [
         1778976000000,
         null
@@ -2198,6 +2194,10 @@
       ],
       [
         1794441600000,
+        99793135.0
+      ],
+      [
+        1794528000000,
         null
       ]
     ]
@@ -2248,7 +2248,7 @@
     0.97,
     1.41,
     1.92,
-    1.34,
+    0.82,
     null,
     null,
     null,
