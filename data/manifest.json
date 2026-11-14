@@ -1,15 +1,11 @@
 {
-  "lastUpdated": "2026-11-13T01:52:31.602973Z",
+  "lastUpdated": "2026-11-14T01:28:25.564878Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a market-capitalization-weighted index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "46.0T",
+      "description": "The S&P 500 is a market-capitalization-weighted index tracking the performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "48.0T",
       "constituentCount": 503,
       "topHoldings": [
-        {
-          "name": "Microsoft Corporation",
-          "symbol": "MSFT"
-        },
         {
           "name": "Apple Inc.",
           "symbol": "AAPL"
@@ -17,17 +13,17 @@
         {
           "name": "NVIDIA Corporation",
           "symbol": "NVDA"
+        },
+        {
+          "name": "Microsoft Corporation",
+          "symbol": "MSFT"
         }
       ]
     },
-    "commentary": "The stock market posted a solid daily gain of 0.96%, reflecting a short-term resurgence in buyer interest, though key technical indicators suggest the move lacks strong underlying momentum. With the Relative Strength Index (RSI) at 44.95 and the Money Flow Index (MFI) at 40.60\u2014both hovering below the neutral 50 threshold\u2014the market remains in a slightly defensive posture, indicating that today's price appreciation was driven more by a temporary relief bounce than by aggressive institutional accumulation or significant capital inflows. Meanwhile, an On-Balance Volume (OBV) of 672.61 million provides a stable liquidity baseline, but until MFI and RSI push higher into bullish territory, market sentiment should be viewed as cautiously neutral, requiring further volume-backed buying to confirm a true trend reversal.",
-    "change_pct": 0.96,
+    "commentary": "Broad equities experienced a mild pullback today, closing down -0.36% in a session characterized by cautious consolidation. Momentum indicators currently lean slightly bearish, with the Relative Strength Index (RSI) at 43.45 drifting below the neutral 50 threshold, indicating a modest upper hand for sellers without entering oversold territory. This softening momentum is further corroborated by a Money Flow Index (MFI) of 35.23, which signals active capital outflows and muted buying enthusiasm, while an On-Balance Volume (OBV) of 635,378,351 suggests controlled, steady distribution rather than panic-driven selling. Overall, these figures paint a picture of a hesitant market sentiment, where institutional investors are adopting a wait-and-see approach pending clearer macroeconomic or corporate catalysts to re-ignite upside momentum.",
+    "change_pct": -0.36,
     "technicalIndicators": {
       "rsi": [
-        [
-          1778976000000,
-          null
-        ],
         [
           1779062400000,
           67.37
@@ -746,14 +742,14 @@
         ],
         [
           1794528000000,
+          43.45
+        ],
+        [
+          1794614400000,
           null
         ]
       ],
       "mfi": [
-        [
-          1778976000000,
-          null
-        ],
         [
           1779062400000,
           63.04
@@ -1472,14 +1468,14 @@
         ],
         [
           1794528000000,
+          35.23
+        ],
+        [
+          1794614400000,
           null
         ]
       ],
       "obv": [
-        [
-          1778976000000,
-          null
-        ],
         [
           1779062400000,
           1027616478.0
@@ -2198,6 +2194,10 @@
         ],
         [
           1794528000000,
+          635378351.0
+        ],
+        [
+          1794614400000,
           null
         ]
       ]
@@ -2248,7 +2248,7 @@
       -0.43,
       -0.56,
       -2.7,
-      2.97,
+      2.59,
       null,
       null,
       null,

@@ -1,8 +1,8 @@
 {
   "sector": "Information Technology",
   "profile": {
-    "description": "The Information Technology sector encompasses companies that produce software, hardware, semiconductors, and related technology services.",
-    "marketSizeUSD": "15.2T",
+    "description": "The Information Technology sector encompasses companies involved in software development, technology hardware manufacturing, semiconductor production, and IT services.",
+    "marketSizeUSD": "15.5T",
     "constituentCount": 65,
     "topHoldings": [
       {
@@ -19,15 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.2099,
-  "change_pct": -0.34,
-  "insights": "The Information Technology sector experienced a modest retreat today, closing down 0.34% as short-term bearish sentiment prevailed. Technical indicators align with this soft price action: a Relative Strength Index (RSI) of 42.51 signals muted momentum drifting toward oversold territory, while a Money Flow Index (MFI) of 35.14 highlights notable capital outflows, indicating that selling pressure outpaced buying interest. Although the On-Balance Volume (OBV) remains solid at 390.05 million\u2014reflecting a sustained long-term volume base\u2014the combination of weak MFI and sub-50 RSI suggests the sector is currently in a consolidation phase characterized by institutional distribution, lacking the immediate catalyst required to spark a near-term reversal.",
+  "market_weight": 0.2132,
+  "change_pct": -2.01,
+  "insights": "The Information Technology sector experienced a sharp pullback today, declining -2.01% as elevated selling pressure weighed on tech equities. Technical indicators reflect a distinctly bearish shift in momentum, with the RSI at 39.45 signaling fading buying strength as the sector trends toward oversold territory. This is further validated by a low MFI of 30.75, which incorporates price and volume to highlight sustained capital outflows and a lack of immediate institutional support. Additionally, an On-Balance Volume (OBV) of approximately 380.1 million alongside today's drop points to heavy-volume distribution rather than light profit-taking, suggesting that the sector may face continued short-term headwinds until momentum stabilizes near key support levels.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1778976000000,
-        null
-      ],
       [
         1779062400000,
         68.13
@@ -746,14 +742,14 @@
       ],
       [
         1794528000000,
+        39.45
+      ],
+      [
+        1794614400000,
         null
       ]
     ],
     "mfi": [
-      [
-        1778976000000,
-        null
-      ],
       [
         1779062400000,
         68.37
@@ -1472,14 +1468,14 @@
       ],
       [
         1794528000000,
+        30.75
+      ],
+      [
+        1794614400000,
         null
       ]
     ],
     "obv": [
-      [
-        1778976000000,
-        null
-      ],
       [
         1779062400000,
         446001802.0
@@ -2198,6 +2194,10 @@
       ],
       [
         1794528000000,
+        380097014.0
+      ],
+      [
+        1794614400000,
         null
       ]
     ]
@@ -2248,7 +2248,7 @@
     -0.13,
     -2.03,
     -8.23,
-    5.48,
+    3.36,
     null,
     null,
     null,
