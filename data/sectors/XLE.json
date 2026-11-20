@@ -1,8 +1,8 @@
 {
   "sector": "Energy",
   "profile": {
-    "description": "The Energy sector comprises companies primarily involved in the exploration, production, refining, transportation, and equipment services of oil, natural gas, and consumable fuels.",
-    "marketSizeUSD": "3.5T",
+    "description": "The Energy sector comprises companies involved in the exploration, production, refining, transportation, and servicing of oil, natural gas, and consumable fuels.",
+    "marketSizeUSD": "1.7T",
     "constituentCount": 23,
     "topHoldings": [
       {
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0481,
-  "change_pct": 0.98,
-  "insights": "The Energy sector demonstrated moderate strength today with a 0.98% gain, though underlying technical indicators suggest a cautious outlook. The Relative Strength Index (RSI) at 49.45 reflects neutral price momentum, indicating a temporary equilibrium between buyers and sellers following recent price action. Meanwhile, a Money Flow Index (MFI) of 30.74 sits near oversold territory, signaling that recent volume-weighted capital inflows have been relatively weak; this implies today\u2019s upward move may be a technical relief bounce rather than the start of a aggressive buying wave. While a substantial On-Balance Volume (OBV) baseline of 1.46 billion confirms deep market liquidity, the sector will need stronger money flow expansion to convert today's positive performance into a sustained upward trend.",
+  "market_weight": 0.0255,
+  "change_pct": -0.65,
+  "insights": "The Energy sector experienced moderate downside pressure today, dropping **-0.65%** as technical indicators signal growing short-term weakness. The Money Flow Index (MFI) at **18.75** highlights significant capital outflows, officially pushing the sector into oversold territory, while a Relative Strength Index (RSI) of **35.74** reflects strong bearish momentum nearing extreme levels. Despite today's pullback, a substantial On-Balance Volume (OBV) of **1.32 billion** suggests that long-term volume support remains intact. Overall, while heavy selling sentiment currently dominates the sector, the severely depressed MFI and RSI metrics indicate that energy stocks may be approaching a near-term bottom, creating conditions for a potential mean-reversion bounce once selling pressure exhausts.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1779062400000,
-        63.29
-      ],
-      [
-        1779148800000,
-        65.71
-      ],
-      [
-        1779235200000,
-        57.19
-      ],
-      [
-        1779321600000,
-        53.82
-      ],
-      [
-        1779408000000,
-        55.34
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -747,33 +723,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        44.64
+      ],
+      [
+        1794873600000,
+        43.46
+      ],
+      [
+        1794960000000,
+        36.87
+      ],
+      [
+        1795046400000,
+        35.74
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1779062400000,
-        67.15
-      ],
-      [
-        1779148800000,
-        66.6
-      ],
-      [
-        1779235200000,
-        56.32
-      ],
-      [
-        1779321600000,
-        55.38
-      ],
-      [
-        1779408000000,
-        47.79
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        30.88
+      ],
+      [
+        1794873600000,
+        31.32
+      ],
+      [
+        1794960000000,
+        24.86
+      ],
+      [
+        1795046400000,
+        18.75
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1779062400000,
-        1200895304.0
-      ],
-      [
-        1779148800000,
-        1231785650.0
-      ],
-      [
-        1779235200000,
-        1172820066.0
-      ],
-      [
-        1779321600000,
-        1129517439.0
-      ],
-      [
-        1779408000000,
-        1171237757.0
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        1427709650.0
+      ],
+      [
+        1794873600000,
+        1404511150.0
+      ],
+      [
+        1794960000000,
+        1349940150.0
+      ],
+      [
+        1795046400000,
+        1319202873.0
+      ],
+      [
+        1795132800000,
+        null
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     1.0,
     -12.0,
     5.42,
-    null,
+    -6.27,
     null,
     null,
     null,

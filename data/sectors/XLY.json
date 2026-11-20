@@ -1,8 +1,8 @@
 {
   "sector": "Consumer Discretionary",
   "profile": {
-    "description": "The Consumer Discretionary sector encompasses businesses that produce non-essential goods and services, such as retail, automotive, leisure, and apparel, whose demand fluctuates based on economic cycles and consumer spending.",
-    "marketSizeUSD": "10.5T",
+    "description": "The Consumer Discretionary sector encompasses businesses selling non-essential products and services, such as retail, automobiles, apparel, and leisure, whose demand depends heavily on overall economic conditions and consumer confidence.",
+    "marketSizeUSD": "11.5T",
     "constituentCount": 52,
     "topHoldings": [
       {
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1444,
-  "change_pct": -0.4,
-  "insights": "The Consumer Discretionary sector experienced a modest pullback today, declining by 0.40%, reflecting a brief consolidation phase within a relatively stable technical framework. A Relative Strength Index (RSI) of 59.60 suggests underlying positive momentum remains intact despite today's dip, while the Money Flow Index (MFI) at 46.26 signals balanced, albeit slightly subdued, buying interest. However, the deeply negative On-Balance Volume (OBV) of -44.4 million points to persistent cumulative selling pressure, indicating that while short-term price strength persists, broader institutional distribution continues to act as a headwind for sustained upside momentum.",
+  "market_weight": 0.1724,
+  "change_pct": -2.79,
+  "insights": "The Consumer Discretionary sector faced notable selling pressure today, falling **-2.79%** as near-term bearish sentiment took hold. Technically, the Relative Strength Index (RSI) at **46.95** signals weakening momentum; while it has crossed below the neutral 50 threshold, it remains above oversold levels (<30), leaving room for potential further downside. Compounding this, the Money Flow Index (MFI) at **36.19** and a deeply negative On-Balance Volume (OBV) of **-66,439,949** indicate strong capital outflows and persistent distribution, confirming that today's price decline was backed by significant selling volume rather than a light-liquidity retreat. Overall, the data points to high-volume institutional repositioning, leaving the sector technically vulnerable until clear buying interest emerges.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1779062400000,
-        46.0
-      ],
-      [
-        1779148800000,
-        41.44
-      ],
-      [
-        1779235200000,
-        52.8
-      ],
-      [
-        1779321600000,
-        55.24
-      ],
-      [
-        1779408000000,
-        56.76
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -747,33 +723,33 @@
       [
         1794614400000,
         null
-      ]
-    ],
-    "mfi": [
-      [
-        1779062400000,
-        55.62
       ],
       [
-        1779148800000,
-        55.6
+        1794700800000,
+        null
       ],
       [
-        1779235200000,
-        55.82
-      ],
-      [
-        1779321600000,
+        1794787200000,
         53.54
       ],
       [
-        1779408000000,
-        61.65
+        1794873600000,
+        50.38
       ],
       [
-        1779494400000,
-        null
+        1794960000000,
+        55.98
       ],
+      [
+        1795046400000,
+        46.95
+      ],
+      [
+        1795132800000,
+        null
+      ]
+    ],
+    "mfi": [
       [
         1779580800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        41.21
+      ],
+      [
+        1794873600000,
+        36.14
+      ],
+      [
+        1794960000000,
+        36.64
+      ],
+      [
+        1795046400000,
+        36.19
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1779062400000,
-        -28747999.0
-      ],
-      [
-        1779148800000,
-        -37060707.0
-      ],
-      [
-        1779235200000,
-        -26897229.0
-      ],
-      [
-        1779321600000,
-        -20122475.0
-      ],
-      [
-        1779408000000,
-        -14881014.0
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        -53215163.0
+      ],
+      [
+        1794873600000,
+        -62067263.0
+      ],
+      [
+        1794960000000,
+        -54717363.0
+      ],
+      [
+        1795046400000,
+        -66439949.0
+      ],
+      [
+        1795132800000,
+        null
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     2.02,
     1.91,
     2.04,
-    null,
+    -3.42,
     null,
     null,
     null,

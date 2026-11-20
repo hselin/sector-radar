@@ -1,8 +1,8 @@
 {
   "sector": "Health Care",
   "profile": {
-    "description": "The Health Care sector encompasses companies involved in medical equipment and supplies, healthcare services and facilities, pharmaceuticals, and biotechnology research.",
-    "marketSizeUSD": "10.5T",
+    "description": "The Health Care sector encompasses companies involved in biotechnology, pharmaceuticals, medical equipment manufacturing, and healthcare services.",
+    "marketSizeUSD": "6.5T",
     "constituentCount": 64,
     "topHoldings": [
       {
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.1444,
-  "change_pct": 0.54,
-  "insights": "The Health Care sector posted a solid modest gain today, closing up 0.54% as short-term bullish momentum remains intact. An RSI of 66.80 indicates robust buying pressure that is approaching, but has not yet crossed into, overbought territory. This upward price action is complemented by a neutral MFI of 54.74, reflecting healthy, steady capital inflows without immediate signs of overextension. However, the significantly negative OBV (-29.66 million) highlights a notable divergence, suggesting that today's positive performance is navigating against a broader, lingering trend of volume distribution. Overall, while the sector shows strong near-term strength, sustained upside will likely require stronger volume confirmation to overcome underlying historical selling pressure.",
+  "market_weight": 0.0975,
+  "change_pct": -2.05,
+  "insights": "The Health Care sector experienced a sharp pullback today, declining 2.05% as selling pressure clearly dominated the session. Technical indicators reinforce this bearish price action: an RSI of 41.01 signals expanding downside momentum that remains above the classic oversold threshold (30), suggesting potential runway for further weakness. Simultaneously, a suppressed Money Flow Index (MFI) of 34.15 alongside a deeply negative On-Balance Volume (OBV) of -89.9M points to significant capital outflows and strong distribution, confirming that heavy volume is overwhelmingly backing down days. Overall, while the sector is approaching technically discounted levels, the alignment of weakening cash flow and negative volume momentum indicates that sellers remain firmly in control for now.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1779062400000,
-        49.33
-      ],
-      [
-        1779148800000,
-        54.71
-      ],
-      [
-        1779235200000,
-        53.97
-      ],
-      [
-        1779321600000,
-        57.28
-      ],
-      [
-        1779408000000,
-        62.26
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -747,33 +723,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        63.84
+      ],
+      [
+        1794873600000,
+        56.51
+      ],
+      [
+        1794960000000,
+        47.45
+      ],
+      [
+        1795046400000,
+        41.01
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1779062400000,
-        53.4
-      ],
-      [
-        1779148800000,
-        62.0
-      ],
-      [
-        1779235200000,
-        61.72
-      ],
-      [
-        1779321600000,
-        61.17
-      ],
-      [
-        1779408000000,
-        68.22
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        59.64
+      ],
+      [
+        1794873600000,
+        53.57
+      ],
+      [
+        1794960000000,
+        44.22
+      ],
+      [
+        1795046400000,
+        34.15
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1779062400000,
-        -81962946.0
-      ],
-      [
-        1779148800000,
-        -70032026.0
-      ],
-      [
-        1779235200000,
-        -80535654.0
-      ],
-      [
-        1779321600000,
-        -73809574.0
-      ],
-      [
-        1779408000000,
-        -67397425.0
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        -39319890.0
+      ],
+      [
+        1794873600000,
+        -51739290.0
+      ],
+      [
+        1794960000000,
+        -71208990.0
+      ],
+      [
+        1795046400000,
+        -89905501.0
+      ],
+      [
+        1795132800000,
+        null
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     3.12,
     -0.04,
     2.19,
-    null,
+    -6.03,
     null,
     null,
     null,

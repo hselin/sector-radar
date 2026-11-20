@@ -1,8 +1,8 @@
 {
   "sector": "Financials",
   "profile": {
-    "description": "The Financials sector encompasses companies engaged in banking, asset management, insurance, investment services, and financial transaction processing.",
-    "marketSizeUSD": "10.5T",
+    "description": "The Financials sector encompasses companies involved in banking, mortgage finance, consumer finance, investment banking, asset management, and insurance.",
+    "marketSizeUSD": "9.5T",
     "constituentCount": 72,
     "topHoldings": [
       {
@@ -14,40 +14,16 @@
         "symbol": "JPM"
       },
       {
-        "name": "Visa Inc.",
-        "symbol": "V"
+        "name": "Bank of America Corporation",
+        "symbol": "BAC"
       }
     ]
   },
-  "market_weight": 0.1444,
-  "change_pct": 0.81,
-  "insights": "The Financials sector demonstrated solid momentum today, closing up 0.81% backed by healthy underlying technical metrics. An RSI of 61.79 reflects sustained bullish buying pressure while remaining comfortably below the overbought threshold of 70, suggesting room for further near-term upside. This positive trajectory is validated by an MFI of 59.91, which signals consistent capital inflows, and a robust On-Balance Volume (OBV) of nearly 374 million, pointing to strong institutional accumulation. Overall, the combination of positive price action and supportive volume-based indicators suggests that today\u2019s advance is well-funded and structurally sound rather than a temporary spike.",
+  "market_weight": 0.1424,
+  "change_pct": -1.49,
+  "insights": "The Financials sector experienced a notable pullback today, falling **1.49%** as selling pressure outpaced buying interest. Technical indicators align with this negative price action; an **RSI of 41.94** points to weakening momentum and a shift into bearish territory, though it remains comfortably above the oversold threshold of 30. This is reinforced by a **Money Flow Index (MFI) of 42.35**, which highlights ongoing capital outflows and a lack of aggressive dip-buying. Meanwhile, the **On-Balance Volume (OBV) standing at 184.65 million** reflects strong baseline liquidity, suggesting today\u2019s decline represents an orderly distribution rather than panic selling. Overall, the technical setup indicates near-term headwinds for the sector, with momentum currently favoring the bears but leaving room for consolidation before hitting extreme oversold conditions.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1779062400000,
-        54.15
-      ],
-      [
-        1779148800000,
-        46.97
-      ],
-      [
-        1779235200000,
-        52.86
-      ],
-      [
-        1779321600000,
-        53.56
-      ],
-      [
-        1779408000000,
-        55.67
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -747,33 +723,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        57.87
+      ],
+      [
+        1794873600000,
+        50.26
+      ],
+      [
+        1794960000000,
+        46.41
+      ],
+      [
+        1795046400000,
+        41.94
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1779062400000,
-        40.53
-      ],
-      [
-        1779148800000,
-        39.43
-      ],
-      [
-        1779235200000,
-        46.99
-      ],
-      [
-        1779321600000,
-        45.96
-      ],
-      [
-        1779408000000,
-        53.05
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        58.13
+      ],
+      [
+        1794873600000,
+        50.37
+      ],
+      [
+        1794960000000,
+        43.87
+      ],
+      [
+        1795046400000,
+        42.35
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1779062400000,
-        215779623.0
-      ],
-      [
-        1779148800000,
-        180305642.0
-      ],
-      [
-        1779235200000,
-        222442577.0
-      ],
-      [
-        1779321600000,
-        251943108.0
-      ],
-      [
-        1779408000000,
-        275046501.0
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        335304331.0
+      ],
+      [
+        1794873600000,
+        280994431.0
+      ],
+      [
+        1794960000000,
+        242228631.0
+      ],
+      [
+        1795046400000,
+        184652630.0
+      ],
+      [
+        1795132800000,
+        null
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     1.09,
     1.15,
     2.66,
-    null,
+    -5.28,
     null,
     null,
     null,

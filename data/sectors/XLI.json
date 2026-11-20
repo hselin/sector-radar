@@ -1,12 +1,12 @@
 {
   "sector": "Industrials",
   "profile": {
-    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing commercial services, and supplying transportation services.",
-    "marketSizeUSD": "5.8T",
+    "description": "The Industrials sector encompasses companies involved in manufacturing capital goods, providing transportation services, and offering commercial and professional services.",
+    "marketSizeUSD": "5.5T",
     "constituentCount": 78,
     "topHoldings": [
       {
-        "name": "GE Aerospace",
+        "name": "General Electric Company",
         "symbol": "GE"
       },
       {
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0798,
-  "change_pct": -0.39,
-  "insights": "The Industrials sector experienced a modest retreat today, declining by 0.39%, yet underlying technical indicators point toward market consolidation rather than a fundamental shift in momentum. Both the Relative Strength Index (RSI) at 50.51 and the Money Flow Index (MFI) at 50.05 are anchored precisely at their neutral 50 midpoints, reflecting a balanced equilibrium between bulls and bears along with neutral net capital flows. Furthermore, a substantial On-Balance Volume (OBV) of approximately 170.9 million signals that cumulative buying interest remains intact, suggesting today\u2019s minor pullback is merely a brief pause or routine profit-taking phase within a broader sideways trend.",
+  "market_weight": 0.0825,
+  "change_pct": -2.0,
+  "insights": "The Industrials sector faced significant headwinds today, declining by 2.00% as selling pressure took hold across the space. This sharp pullback is echoed by key technical momentum indicators: the Relative Strength Index (RSI) at 37.29 and the Money Flow Index (MFI) at 31.28 are both nearing oversold territory, signaling sustained bearish momentum and notable capital outflows. Furthermore, an On-Balance Volume (OBV) of 132.9 million highlights that high volume accompanied today's decline, pointing toward active institutional distribution rather than a low-conviction drift. While the depressed RSI and MFI levels suggest the sector may soon approach a short-term technical floor, current indicators confirm that sellers remain firmly in control for now.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1779062400000,
-        47.15
-      ],
-      [
-        1779148800000,
-        43.28
-      ],
-      [
-        1779235200000,
-        47.84
-      ],
-      [
-        1779321600000,
-        47.43
-      ],
-      [
-        1779408000000,
-        50.3
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -747,33 +723,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        44.59
+      ],
+      [
+        1794873600000,
+        43.0
+      ],
+      [
+        1794960000000,
+        42.84
+      ],
+      [
+        1795046400000,
+        37.29
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1779062400000,
-        43.82
-      ],
-      [
-        1779148800000,
-        43.99
-      ],
-      [
-        1779235200000,
-        43.64
-      ],
-      [
-        1779321600000,
-        44.34
-      ],
-      [
-        1779408000000,
-        50.93
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        44.13
+      ],
+      [
+        1794873600000,
+        37.73
+      ],
+      [
+        1794960000000,
+        31.46
+      ],
+      [
+        1795046400000,
+        31.28
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1779062400000,
-        155138094.0
-      ],
-      [
-        1779148800000,
-        147673400.0
-      ],
-      [
-        1779235200000,
-        158165545.0
-      ],
-      [
-        1779321600000,
-        149867124.0
-      ],
-      [
-        1779408000000,
-        156761198.0
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        161852016.0
+      ],
+      [
+        1794873600000,
+        153626616.0
+      ],
+      [
+        1794960000000,
+        144789916.0
+      ],
+      [
+        1795046400000,
+        132931514.0
+      ],
+      [
+        1795132800000,
+        null
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     1.69,
     -2.83,
     3.76,
-    null,
+    -4.4,
     null,
     null,
     null,

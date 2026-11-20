@@ -1,7 +1,7 @@
 {
   "sector": "Consumer Staples",
   "profile": {
-    "description": "The Consumer Staples sector includes companies that manufacture and distribute essential products such as food, beverages, household goods, and hygiene items.",
+    "description": "The Consumer Staples sector comprises companies that produce and distribute essential everyday products, including food, beverages, household goods, and personal hygiene items.",
     "marketSizeUSD": "4.5T",
     "constituentCount": 38,
     "topHoldings": [
@@ -10,44 +10,20 @@
         "symbol": "WMT"
       },
       {
-        "name": "The Procter & Gamble Company",
-        "symbol": "PG"
-      },
-      {
         "name": "Costco Wholesale Corporation",
         "symbol": "COST"
+      },
+      {
+        "name": "The Procter & Gamble Company",
+        "symbol": "PG"
       }
     ]
   },
-  "market_weight": 0.0619,
-  "change_pct": 1.42,
-  "insights": "The Consumer Staples sector demonstrated robust performance today with a 1.42% gain, underpinned by strong technical sentiment and heavy capital inflows. The Relative Strength Index (RSI) of 64.98 reflects solid bullish momentum that is approaching, but not yet breaching, overbought territory. However, the Money Flow Index (MFI) at 74.43 signals significant buying pressure edging into overbought conditions, indicating aggressive institutional accumulation. This upside movement is further validated by a high On-Balance Volume (OBV) of nearly 113 million, confirming that the price gain is backed by substantial market volume\u2014though investors should watch for potential short-term consolidation as money flow reaches peak levels.",
+  "market_weight": 0.0675,
+  "change_pct": -1.45,
+  "insights": "The Consumer Staples sector experienced a notable pullback today, falling -1.45%, though technical indicators suggest this decline represents a short-term consolidation rather than a structural trend reversal. Despite today's selling pressure, the Relative Strength Index (RSI) at 52.37 remains comfortably in neutral territory, indicating that broader price momentum has not been severely damaged. Furthermore, a Money Flow Index (MFI) of 60.92 demonstrates that healthy buying volume and capital inflows have persisted over recent sessions. Coupled with a solid On-Balance Volume (OBV) of nearly 60 million, underlying institutional accumulation appears intact, suggesting that today's price action is likely routine profit-taking within an otherwise resilient, defensive sector.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1779062400000,
-        63.87
-      ],
-      [
-        1779148800000,
-        64.75
-      ],
-      [
-        1779235200000,
-        60.02
-      ],
-      [
-        1779321600000,
-        53.65
-      ],
-      [
-        1779408000000,
-        54.5
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -747,33 +723,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        65.67
+      ],
+      [
+        1794873600000,
+        59.84
+      ],
+      [
+        1794960000000,
+        58.47
+      ],
+      [
+        1795046400000,
+        52.37
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1779062400000,
-        64.43
-      ],
-      [
-        1779148800000,
-        71.82
-      ],
-      [
-        1779235200000,
-        62.71
-      ],
-      [
-        1779321600000,
-        54.63
-      ],
-      [
-        1779408000000,
-        61.36
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        79.42
+      ],
+      [
+        1794873600000,
+        77.7
+      ],
+      [
+        1794960000000,
+        69.88
+      ],
+      [
+        1795046400000,
+        60.92
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1779062400000,
-        113586169.0
-      ],
-      [
-        1779148800000,
-        125160138.0
-      ],
-      [
-        1779235200000,
-        111167621.0
-      ],
-      [
-        1779321600000,
-        98349995.0
-      ],
-      [
-        1779408000000,
-        106204258.0
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        132055886.0
+      ],
+      [
+        1794873600000,
+        113302586.0
+      ],
+      [
+        1794960000000,
+        87158586.0
+      ],
+      [
+        1795046400000,
+        59941754.0
+      ],
+      [
+        1795132800000,
+        null
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     1.31,
     0.74,
     2.52,
-    null,
+    -2.7,
     null,
     null,
     null,

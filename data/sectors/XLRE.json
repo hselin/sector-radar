@@ -1,7 +1,7 @@
 {
   "sector": "Real Estate",
   "profile": {
-    "description": "The Real Estate sector includes companies engaged in real estate development, operation, management, and Real Estate Investment Trusts (REITs).",
+    "description": "The Real Estate sector encompasses companies engaged in real estate development, management, and operations, as well as Equity Real Estate Investment Trusts (REITs).",
     "marketSizeUSD": "1.4T",
     "constituentCount": 31,
     "topHoldings": [
@@ -19,35 +19,11 @@
       }
     ]
   },
-  "market_weight": 0.0193,
-  "change_pct": 0.02,
-  "insights": "The Real Estate sector traded virtually flat today, edging up a modest 0.02% in a session marked by price consolidation. Despite the muted price action, the underlying technical profile remains constructive; the Relative Strength Index (RSI) at 60.85 reflects healthy positive momentum without entering overbought territory, while a Money Flow Index (MFI) of 51.21 indicates a balanced, neutral capital flow between buyers and sellers. Supported by a robust On-Balance Volume (OBV) of 104.34 million, which underscores sustained institutional interest and accumulated volume, today\u2019s stagnant price performance appears to be a healthy pause within an intact, broader bullish structure rather than a sign of emerging weakness.",
+  "market_weight": 0.021,
+  "change_pct": -1.7,
+  "insights": "The Real Estate sector faced notable selling pressure today, pulling back -1.70% as broader market headwinds weighed on property assets. Technical indicators align with this downward trajectory: an RSI of 44.27 reflects a bearish shift in momentum that remains above the classic oversold threshold (<30), while a lower MFI of 38.04 signals active capital outflows and diminishing buying interest. Supported by a cumulative On-Balance Volume (OBV) of 91.51 million, today's decline was driven by steady volume distribution rather than light trading noise, suggesting institutional de-risking that keeps the sector's near-term bias tilted to the downside.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1779062400000,
-        50.33
-      ],
-      [
-        1779148800000,
-        52.41
-      ],
-      [
-        1779235200000,
-        57.39
-      ],
-      [
-        1779321600000,
-        58.06
-      ],
-      [
-        1779408000000,
-        58.67
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -747,33 +723,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        59.29
+      ],
+      [
+        1794873600000,
+        51.49
+      ],
+      [
+        1794960000000,
+        51.8
+      ],
+      [
+        1795046400000,
+        44.27
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "mfi": [
-      [
-        1779062400000,
-        42.38
-      ],
-      [
-        1779148800000,
-        50.73
-      ],
-      [
-        1779235200000,
-        48.15
-      ],
-      [
-        1779321600000,
-        45.23
-      ],
-      [
-        1779408000000,
-        51.29
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -1473,33 +1449,33 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        51.55
+      ],
+      [
+        1794873600000,
+        52.53
+      ],
+      [
+        1794960000000,
+        45.85
+      ],
+      [
+        1795046400000,
+        38.04
+      ],
+      [
+        1795132800000,
+        null
       ]
     ],
     "obv": [
-      [
-        1779062400000,
-        145405738.0
-      ],
-      [
-        1779148800000,
-        149437561.0
-      ],
-      [
-        1779235200000,
-        153256238.0
-      ],
-      [
-        1779321600000,
-        156775157.0
-      ],
-      [
-        1779408000000,
-        160490890.0
-      ],
-      [
-        1779494400000,
-        null
-      ],
       [
         1779580800000,
         null
@@ -2199,6 +2175,30 @@
       [
         1794614400000,
         null
+      ],
+      [
+        1794700800000,
+        null
+      ],
+      [
+        1794787200000,
+        98182990.0
+      ],
+      [
+        1794873600000,
+        91673590.0
+      ],
+      [
+        1794960000000,
+        99395690.0
+      ],
+      [
+        1795046400000,
+        91510084.0
+      ],
+      [
+        1795132800000,
+        null
       ]
     ]
   },
@@ -2249,7 +2249,7 @@
     1.41,
     1.92,
     0.84,
-    null,
+    -3.36,
     null,
     null,
     null,

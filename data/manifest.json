@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T00:53:50.537025Z",
+  "lastUpdated": "2026-11-20T02:18:24.763406Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a market-capitalization-weighted index tracking the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,34 +20,10 @@
         }
       ]
     },
-    "commentary": "The broader stock market experienced a modest pullback today, with the benchmark index dipping 0.36% in a session marked by cautious sentiment and fading near-term momentum. Technical indicators point toward a growing bearish tilt, as the Relative Strength Index (RSI) at 43.45 sits below the neutral 50 threshold without yet entering oversold territory, suggesting room for further downward pressure. This momentum weakness is reinforced by a Money Flow Index (MFI) of 35.23, which indicates active capital outflows and subdued institutional demand. Meanwhile, an On-Balance Volume (OBV) of 635,378,351 shows that while cumulative volume remains structurally elevated, short-term distribution is currently outpacing accumulation, signaling a market undergoing a period of digestion and defensive rebalancing.",
-    "change_pct": -0.36,
+    "commentary": "The broader equity market experienced a modest retreat today, dipping 0.31% as cautious sentiment weighed on trading activity. Technical indicators point to weakening momentum and persistent selling pressure, with the Relative Strength Index (RSI) at 32.71 hovering just above the oversold threshold of 30. This bearish momentum is further reinforced by a Money Flow Index (MFI) of 25.46, which incorporates both price and volume to reveal notable capital outflows and a lack of aggressive buying power. Meanwhile, an On-Balance Volume (OBV) of 442.73 million reflects the underlying cumulative volume backdrop supporting this downward drift. Overall, while market sentiment remains subdued and momentum favors the bears, the proximity of both the RSI and MFI to oversold territory suggests the current pullback may soon reach a point of seller exhaustion, potentially setting the stage for a near-term stabilization.",
+    "change_pct": -0.31,
     "technicalIndicators": {
       "rsi": [
-        [
-          1779062400000,
-          67.37
-        ],
-        [
-          1779148800000,
-          62.09
-        ],
-        [
-          1779235200000,
-          66.42
-        ],
-        [
-          1779321600000,
-          67.21
-        ],
-        [
-          1779408000000,
-          68.78
-        ],
-        [
-          1779494400000,
-          null
-        ],
         [
           1779580800000,
           null
@@ -747,33 +723,33 @@
         [
           1794614400000,
           null
+        ],
+        [
+          1794700800000,
+          null
+        ],
+        [
+          1794787200000,
+          36.56
+        ],
+        [
+          1794873600000,
+          33.57
+        ],
+        [
+          1794960000000,
+          32.71
+        ],
+        [
+          1795046400000,
+          32.71
+        ],
+        [
+          1795132800000,
+          null
         ]
       ],
       "mfi": [
-        [
-          1779062400000,
-          63.04
-        ],
-        [
-          1779148800000,
-          61.89
-        ],
-        [
-          1779235200000,
-          60.96
-        ],
-        [
-          1779321600000,
-          61.25
-        ],
-        [
-          1779408000000,
-          67.91
-        ],
-        [
-          1779494400000,
-          null
-        ],
         [
           1779580800000,
           null
@@ -1473,33 +1449,33 @@
         [
           1794614400000,
           null
+        ],
+        [
+          1794700800000,
+          null
+        ],
+        [
+          1794787200000,
+          28.91
+        ],
+        [
+          1794873600000,
+          23.01
+        ],
+        [
+          1794960000000,
+          22.72
+        ],
+        [
+          1795046400000,
+          25.46
+        ],
+        [
+          1795132800000,
+          null
         ]
       ],
       "obv": [
-        [
-          1779062400000,
-          1027616478.0
-        ],
-        [
-          1779148800000,
-          975033633.0
-        ],
-        [
-          1779235200000,
-          1020118757.0
-        ],
-        [
-          1779321600000,
-          1061665989.0
-        ],
-        [
-          1779408000000,
-          1097521517.0
-        ],
-        [
-          1779494400000,
-          null
-        ],
         [
           1779580800000,
           null
@@ -2199,6 +2175,30 @@
         [
           1794614400000,
           null
+        ],
+        [
+          1794700800000,
+          null
+        ],
+        [
+          1794787200000,
+          566171051.0
+        ],
+        [
+          1794873600000,
+          494534751.0
+        ],
+        [
+          1794960000000,
+          442729951.0
+        ],
+        [
+          1795046400000,
+          442729951.0
+        ],
+        [
+          1795132800000,
+          null
         ]
       ]
     },
@@ -2249,7 +2249,7 @@
       -0.56,
       -2.7,
       2.59,
-      null,
+      -3.2,
       null,
       null,
       null,
