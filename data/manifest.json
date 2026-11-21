@@ -1,11 +1,15 @@
 {
-  "lastUpdated": "2026-11-20T02:18:24.763406Z",
+  "lastUpdated": "2026-11-21T02:10:05.076116Z",
   "overallMarket": {
     "profile": {
-      "description": "The S&P 500 is a market-capitalization-weighted index tracking the performance of 500 of the largest publicly traded companies in the United States.",
-      "marketSizeUSD": "48.0T",
+      "description": "The S&P 500 is a benchmark stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
+      "marketSizeUSD": "46.0T",
       "constituentCount": 503,
       "topHoldings": [
+        {
+          "name": "Microsoft Corporation",
+          "symbol": "MSFT"
+        },
         {
           "name": "Apple Inc.",
           "symbol": "AAPL"
@@ -13,21 +17,13 @@
         {
           "name": "NVIDIA Corporation",
           "symbol": "NVDA"
-        },
-        {
-          "name": "Microsoft Corporation",
-          "symbol": "MSFT"
         }
       ]
     },
-    "commentary": "The broader equity market experienced a modest retreat today, dipping 0.31% as cautious sentiment weighed on trading activity. Technical indicators point to weakening momentum and persistent selling pressure, with the Relative Strength Index (RSI) at 32.71 hovering just above the oversold threshold of 30. This bearish momentum is further reinforced by a Money Flow Index (MFI) of 25.46, which incorporates both price and volume to reveal notable capital outflows and a lack of aggressive buying power. Meanwhile, an On-Balance Volume (OBV) of 442.73 million reflects the underlying cumulative volume backdrop supporting this downward drift. Overall, while market sentiment remains subdued and momentum favors the bears, the proximity of both the RSI and MFI to oversold territory suggests the current pullback may soon reach a point of seller exhaustion, potentially setting the stage for a near-term stabilization.",
-    "change_pct": -0.31,
+    "commentary": "The stock market experienced a severe drawdown today, falling **-5.53%** amidst intense, panic-driven selling pressure and a sharp shift toward risk-off sentiment. Technical indicators confirm strong bearish momentum, with an On-Balance Volume (OBV) of **442,729,951** validating that the decline was driven by heavy trading volume rather than low-liquidity slippage. The Relative Strength Index (RSI) at **32.71** highlights aggressive downward price velocity approaching oversold territory, while the Money Flow Index (MFI) of **19.08** has officially breached the oversold threshold (<20), pointing to extreme capital outflows and institutional distribution. Overall, while market sentiment remains deeply pessimistic and short-term momentum is decisively negative, these oversold readings suggest the sharp decline may be nearing a temporary exhaustion point, increasing the likelihood of a short-term technical stabilization or bounce.",
+    "change_pct": -5.53,
     "technicalIndicators": {
       "rsi": [
-        [
-          1779580800000,
-          null
-        ],
         [
           1779667200000,
           null
@@ -746,14 +742,14 @@
         ],
         [
           1795132800000,
+          32.71
+        ],
+        [
+          1795219200000,
           null
         ]
       ],
       "mfi": [
-        [
-          1779580800000,
-          null
-        ],
         [
           1779667200000,
           null
@@ -1472,14 +1468,14 @@
         ],
         [
           1795132800000,
+          19.08
+        ],
+        [
+          1795219200000,
           null
         ]
       ],
       "obv": [
-        [
-          1779580800000,
-          null
-        ],
         [
           1779667200000,
           null
@@ -2198,6 +2194,10 @@
         ],
         [
           1795132800000,
+          442729951.0
+        ],
+        [
+          1795219200000,
           null
         ]
       ]
@@ -2249,7 +2249,7 @@
       -0.56,
       -2.7,
       2.59,
-      -3.2,
+      -8.56,
       null,
       null,
       null,
