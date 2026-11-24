@@ -20,22 +20,10 @@
     ]
   },
   "market_weight": 0.0255,
-  "change_pct": -0.62,
-  "insights": "The Energy sector experienced a minor setback today, dipping **-0.62%** as persistent selling pressure weighed on momentum. Technical metrics reveal a increasingly bearish picture: the Relative Strength Index (RSI) at **34.66** approaches oversold territory, indicating weak buying momentum, while the Money Flow Index (MFI) has dropped to **19.09**, entering deeply oversold levels and signaling heavy volume-backed capital outflows. Meanwhile, a high baseline On-Balance Volume (OBV) of **1.27 billion** reflects substantial cumulative market participation currently dominated by distribution rather than accumulation. Although the severely depressed MFI suggests the sector may be technically primed for a short-term relief bounce, current indicators advise caution until clear signs of institutional buying re-emerge.",
+  "change_pct": -1.06,
+  "insights": "The Energy sector experienced a notable pullback today, declining by 1.06% amidst persistent selling pressure. Technical indicators reveal a sector approaching depressed levels, highlighted by an RSI of 32.85 nearing the oversold threshold and a Money Flow Index (MFI) of 18.97, which officially signals oversold conditions driven by heavy capital outflows. Furthermore, a robust On-Balance Volume (OBV) of 1.23 billion confirms that this downside move is backed by significant volume distribution rather than light trading activity. While these deeply oversold technical readings\u2014particularly on the MFI\u2014suggest the sector may be ripe for a short-term tactical bounce, current momentum indicates that underlying sentiment remains defensive until buying interest firmly re-emerges.",
   "technicalIndicators": {
     "rsi": [
-      [
-        1779667200000,
-        null
-      ],
-      [
-        1779753600000,
-        47.62
-      ],
-      [
-        1779840000000,
-        44.14
-      ],
       [
         1779926400000,
         43.98
@@ -747,21 +735,21 @@
       [
         1795219200000,
         null
-      ]
-    ],
-    "mfi": [
+      ],
       [
-        1779667200000,
+        1795305600000,
         null
       ],
       [
-        1779753600000,
-        41.85
+        1795392000000,
+        32.85
       ],
       [
-        1779840000000,
-        42.56
-      ],
+        1795478400000,
+        null
+      ]
+    ],
+    "mfi": [
       [
         1779926400000,
         51.61
@@ -1473,21 +1461,21 @@
       [
         1795219200000,
         null
-      ]
-    ],
-    "obv": [
+      ],
       [
-        1779667200000,
+        1795305600000,
         null
       ],
       [
-        1779753600000,
-        1134106844.0
+        1795392000000,
+        18.97
       ],
       [
-        1779840000000,
-        1086540665.0
-      ],
+        1795478400000,
+        null
+      ]
+    ],
+    "obv": [
       [
         1779926400000,
         1040269474.0
@@ -2199,6 +2187,18 @@
       [
         1795219200000,
         null
+      ],
+      [
+        1795305600000,
+        null
+      ],
+      [
+        1795392000000,
+        1234952435.0
+      ],
+      [
+        1795478400000,
+        null
       ]
     ]
   },
@@ -2250,7 +2250,7 @@
     -12.0,
     5.42,
     -6.85,
-    null,
+    -1.06,
     null,
     null,
     null,

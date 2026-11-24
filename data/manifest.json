@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T01:29:32.289304Z",
+  "lastUpdated": "2026-11-24T05:24:33.534774Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a benchmark stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,22 +20,10 @@
         }
       ]
     },
-    "commentary": "The broad market suffered a sharp contraction today, falling **5.53%** in a wave of intense, risk-off selling. Technical indicators point to severe bearish momentum, with the Relative Strength Index (RSI) at **32.71**, indicating that the market is rapidly approaching oversold territory. More critically, the Money Flow Index (MFI) has dipped into extreme oversold levels at **19.08** (below the key 20 threshold), signaling heavy institutional capital outflows and aggressive liquidity extraction. Coupled with a robust On-Balance Volume (OBV) reading of **442,729,951**, the high volume behind today\u2019s decline confirms strong distribution and market-wide panic. Overall, while these heavily oversold conditions suggest the market may be primed for a short-term technical bounce or consolidation, current sentiment remains decidedly bearish with immediate downward momentum.",
-    "change_pct": -5.53,
+    "commentary": "Commentary could not be generated due to a persistent network error.",
+    "change_pct": 4.71,
     "technicalIndicators": {
       "rsi": [
-        [
-          1779667200000,
-          null
-        ],
-        [
-          1779753600000,
-          71.28
-        ],
-        [
-          1779840000000,
-          71.12
-        ],
         [
           1779926400000,
           73.2
@@ -747,21 +735,21 @@
         [
           1795219200000,
           null
-        ]
-      ],
-      "mfi": [
+        ],
         [
-          1779667200000,
+          1795305600000,
           null
         ],
         [
-          1779753600000,
-          67.93
+          1795392000000,
+          54.01
         ],
         [
-          1779840000000,
-          60.75
-        ],
+          1795478400000,
+          null
+        ]
+      ],
+      "mfi": [
         [
           1779926400000,
           59.77
@@ -1473,21 +1461,21 @@
         [
           1795219200000,
           null
-        ]
-      ],
-      "obv": [
+        ],
         [
-          1779667200000,
+          1795305600000,
           null
         ],
         [
-          1779753600000,
-          1133498877.0
+          1795392000000,
+          30.64
         ],
         [
-          1779840000000,
-          1092488931.0
-        ],
+          1795478400000,
+          null
+        ]
+      ],
+      "obv": [
         [
           1779926400000,
           1127835693.0
@@ -2199,6 +2187,18 @@
         [
           1795219200000,
           null
+        ],
+        [
+          1795305600000,
+          null
+        ],
+        [
+          1795392000000,
+          530880251.0
+        ],
+        [
+          1795478400000,
+          null
         ]
       ]
     },
@@ -2250,7 +2250,7 @@
       -2.7,
       2.59,
       -8.56,
-      null,
+      4.71,
       null,
       null,
       null,
