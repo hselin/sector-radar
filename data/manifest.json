@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T05:24:33.534774Z",
+  "lastUpdated": "2026-11-25T04:07:48.741054Z",
   "overallMarket": {
     "profile": {
       "description": "The S&P 500 is a benchmark stock market index that tracks the performance of 500 of the largest publicly traded companies in the United States.",
@@ -20,14 +20,10 @@
         }
       ]
     },
-    "commentary": "Commentary could not be generated due to a persistent network error.",
-    "change_pct": 4.71,
+    "commentary": "The broader stock market experienced a mild consolidation today, edging down by 0.49% in a session marked by mixed technical signals. Price momentum remains largely neutral, as indicated by a Relative Strength Index (RSI) of 52.09, suggesting today's modest decline represents routine profit-taking rather than a systemic trend reversal. However, the Money Flow Index (MFI) sitting at a near-oversold 20.89 reveals underlying weakness, pointing to significant volume-weighted capital outflows and cautious institutional sentiment. Despite this liquidity drain, a robust On-Balance Volume (OBV) of 466.65 million demonstrates that cumulative trading activity remains structurally intact, indicating that while selling pressure dominated today's flow, healthy market depth could facilitate a short-term stabilization once money flows rebound.",
+    "change_pct": -0.49,
     "technicalIndicators": {
       "rsi": [
-        [
-          1779926400000,
-          73.2
-        ],
         [
           1780012800000,
           74.12
@@ -746,14 +742,14 @@
         ],
         [
           1795478400000,
+          52.09
+        ],
+        [
+          1795564800000,
           null
         ]
       ],
       "mfi": [
-        [
-          1779926400000,
-          59.77
-        ],
         [
           1780012800000,
           60.4
@@ -1472,14 +1468,14 @@
         ],
         [
           1795478400000,
+          20.89
+        ],
+        [
+          1795564800000,
           null
         ]
       ],
       "obv": [
-        [
-          1779926400000,
-          1127835693.0
-        ],
         [
           1780012800000,
           1182189887.0
@@ -2198,6 +2194,10 @@
         ],
         [
           1795478400000,
+          466652251.0
+        ],
+        [
+          1795564800000,
           null
         ]
       ]
@@ -2250,7 +2250,7 @@
       -2.7,
       2.59,
       -8.56,
-      4.71,
+      4.2,
       null,
       null,
       null,
